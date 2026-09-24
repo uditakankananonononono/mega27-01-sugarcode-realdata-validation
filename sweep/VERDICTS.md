@@ -198,3 +198,6 @@ BUG FIXED (sugarcode 28b8590): Bondi radii instead of Vina XS radii, sulfur hydr
 
 ## modules.molecule_eval vs RDKit 2026.03.6 (2026-09-25)
 BUG FIXED (sugarcode 15a8ba7, in shared qsar_bench.parse_smiles): directional bond markers between aromatic atoms were read as single bonds, so 3/993 ChEMBL drugs changed graph key under SMILES re-spelling. After: 0 invariance failures (3 random SMILES each), 0 collisions, 0 splits vs RDKit canonical (980 unique both). Internal diversity 0.9055 vs RDKit 0.8994. QSAR descriptor/Morgan benchmarks unchanged on re-run. benchmarks/sweep_molecule_eval.json
+
+## modules.riboswitch.nussinov_fold (2026-09-25)
+NO MODULE BUG. Exact max-pair Nussinov confirmed: 0/100 mismatches vs exhaustive non-crossing-matching oracle (n<=16; oracle itself had 2 harness bugs, fixed and kept), 0/145 vs independent pair-i-with-k DP on Rfam riboswitch seeds. Caveat documented: max-pair != MFE (median base-pair F1 vs ViennaRNA 2.7.2 = 0.194); module energy field is a heuristic score, not kcal/mol. benchmarks/sweep_nussinov.json

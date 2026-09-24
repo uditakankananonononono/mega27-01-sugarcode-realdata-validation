@@ -77,7 +77,7 @@ module	protein_painter	161	2	not yet validated
 module	qsar_bench	389	4	validated	benchmarks/sweep_qsar_descriptors.json
 module	rarenet_ai	365	20	not yet validated	
 module	report_studio	213	1	not yet validated	
-module	riboswitch	142	3	not yet validated	
+module	riboswitch	142	3	validated	benchmarks/sweep_nussinov.json
 module	rna_decoder	120	3	not yet validated	
 module	rna_nussinov	387	2	validated	VERDICTS table; sweep/rna_vs_vienna.py
 module	robotic_flow	128	2	not yet validated	

@@ -1,0 +1,23 @@
+{
+ "reference": "independent Nussinov DP + exhaustive non-crossing-matching oracle (n<=16) + ViennaRNA 2.7.2 RNA.fold",
+ "n_oracle": 100,
+ "oracle_mismatches": 0,
+ "oracle_examples": [],
+ "n_real": 145,
+ "independent_dp_mismatches": 0,
+ "families": {
+  "RF00174": "cobalamin riboswitch",
+  "RF00059": "TPP riboswitch",
+  "RF00050": "FMN riboswitch",
+  "RF00504": "glycine riboswitch"
+ },
+ "f1_vs_vienna_median": 0.194,
+ "f1_vs_vienna_by_family": {
+  "RF00174": 0.209,
+  "RF00059": 0.234,
+  "RF00050": 0.159,
+  "RF00504": 0.278
+ },
+ "pair_ratio_module_over_vienna_median": 1.289,
+ "sugarcode_commit": "15a8ba7"
+}
