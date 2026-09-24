@@ -1,0 +1,101 @@
+Gene	Gene name	Cancer	High	Medium	Low	Not detected	prognostic - favorable	unprognostic - favorable	prognostic - unfavorable	unprognostic - unfavorable
+ENSG00000081051	AFP	breast cancer	0	0	12	0		4.693e-1		
+ENSG00000081051	AFP	carcinoid	0	1	3	0				
+ENSG00000081051	AFP	cervical cancer	0	2	10	0				1.869e-1
+ENSG00000081051	AFP	colorectal cancer	0	2	9	0		3.337e-3		
+ENSG00000081051	AFP	endometrial cancer	0	5	5	0		1.482e-1		
+ENSG00000081051	AFP	glioma	1	4	6	1				1.482e-3
+ENSG00000081051	AFP	head and neck cancer	0	1	2	1				2.950e-2
+ENSG00000081051	AFP	liver cancer	3	5	3	0				3.354e-1
+ENSG00000081051	AFP	lung cancer	0	5	7	0		1.536e-1		
+ENSG00000081051	AFP	lymphoma	0	1	10	1				
+ENSG00000081051	AFP	melanoma	0	4	8	0				
+ENSG00000081051	AFP	ovarian cancer	0	7	5	0		3.807e-2		
+ENSG00000081051	AFP	pancreatic cancer	0	6	6	0				1.014e-1
+ENSG00000081051	AFP	prostate cancer	0	4	8	0		1.252e-1		
+ENSG00000081051	AFP	renal cancer	0	6	6	0				1.635e-6
+ENSG00000081051	AFP	skin cancer	0	0	9	0				
+ENSG00000081051	AFP	stomach cancer	0	1	8	1				1.982e-2
+ENSG00000081051	AFP	testis cancer	2	5	4	0				5.797e-2
+ENSG00000081051	AFP	thyroid cancer	0	0	4	0				
+ENSG00000081051	AFP	urothelial cancer	0	4	8	0				1.139e-1
+ENSG00000089685	BIRC5	breast cancer	0	0	12	0				8.044e-2
+ENSG00000089685	BIRC5	carcinoid	0	1	2	1				
+ENSG00000089685	BIRC5	cervical cancer	0	0	11	0		3.515e-2		
+ENSG00000089685	BIRC5	colorectal cancer	0	0	11	1		4.479e-3		
+ENSG00000089685	BIRC5	endometrial cancer	0	1	10	0				2.722e-3
+ENSG00000089685	BIRC5	glioma	0	0	8	4		3.366e-1		
+ENSG00000089685	BIRC5	head and neck cancer	0	0	4	0				3.839e-2
+ENSG00000089685	BIRC5	liver cancer	0	0	6	3			5.281e-6	
+ENSG00000089685	BIRC5	lung cancer	0	1	10	1			4.485e-4	
+ENSG00000089685	BIRC5	lymphoma	0	2	4	6				
+ENSG00000089685	BIRC5	melanoma	0	0	12	0				3.562e-3
+ENSG00000089685	BIRC5	ovarian cancer	0	0	11	1		4.530e-3		
+ENSG00000089685	BIRC5	pancreatic cancer	0	0	11	1				2.871e-3
+ENSG00000089685	BIRC5	prostate cancer	0	0	8	4				6.670e-2
+ENSG00000089685	BIRC5	renal cancer	0	0	8	4			0	
+ENSG00000089685	BIRC5	skin cancer	0	0	12	0				
+ENSG00000089685	BIRC5	stomach cancer	0	0	11	0		3.773e-2		
+ENSG00000089685	BIRC5	testis cancer	2	7	3	0				4.696e-2
+ENSG00000089685	BIRC5	thyroid cancer	0	0	1	3				1.588e-1
+ENSG00000089685	BIRC5	urothelial cancer	0	4	8	0				1.155e-1
+ENSG00000141736	ERBB2	breast cancer	4	2	1	4				1.968e-1
+ENSG00000141736	ERBB2	carcinoid	0	0	0	4				
+ENSG00000141736	ERBB2	cervical cancer	0	0	1	9		6.600e-3		
+ENSG00000141736	ERBB2	colorectal cancer	0	3	2	6		6.215e-2		
+ENSG00000141736	ERBB2	endometrial cancer	0	1	3	8			8.992e-8	
+ENSG00000141736	ERBB2	glioma	0	0	0	12				2.961e-2
+ENSG00000141736	ERBB2	head and neck cancer	1	0	0	3		1.400e-2		
+ENSG00000141736	ERBB2	liver cancer	0	0	7	5		1.969e-2		
+ENSG00000141736	ERBB2	lung cancer	0	1	1	9		9.038e-2		
+ENSG00000141736	ERBB2	lymphoma	0	0	0	12				
+ENSG00000141736	ERBB2	melanoma	0	0	1	10				1.790e-2
+ENSG00000141736	ERBB2	ovarian cancer	1	1	1	8				1.196e-3
+ENSG00000141736	ERBB2	pancreatic cancer	0	1	4	6			9.167e-4	
+ENSG00000141736	ERBB2	prostate cancer	0	0	0	12		3.915e-1		
+ENSG00000141736	ERBB2	renal cancer	0	0	2	10	2.409e-14			
+ENSG00000141736	ERBB2	skin cancer	0	0	4	8				
+ENSG00000141736	ERBB2	stomach cancer	1	0	1	10		9.285e-2		
+ENSG00000141736	ERBB2	testis cancer	0	0	2	7				1.398e-1
+ENSG00000141736	ERBB2	thyroid cancer	0	0	0	4		3.748e-2		
+ENSG00000141736	ERBB2	urothelial cancer	0	5	2	5		1.961e-1		
+ENSG00000142515	KLK3	breast cancer	0	0	0	8		5.064e-3		
+ENSG00000142515	KLK3	carcinoid	0	0	0	4				
+ENSG00000142515	KLK3	cervical cancer	0	0	0	7				5.596e-2
+ENSG00000142515	KLK3	colorectal cancer	0	0	0	10		9.925e-2		
+ENSG00000142515	KLK3	endometrial cancer	0	0	0	10				3.896e-2
+ENSG00000142515	KLK3	glioma	0	0	0	12				
+ENSG00000142515	KLK3	head and neck cancer	0	0	0	4				1.089e-2
+ENSG00000142515	KLK3	liver cancer	0	0	0	11				
+ENSG00000142515	KLK3	lung cancer	0	0	0	12				
+ENSG00000142515	KLK3	lymphoma	0	0	0	12				
+ENSG00000142515	KLK3	melanoma	0	0	0	12				
+ENSG00000142515	KLK3	ovarian cancer	0	0	0	10				1.260e-2
+ENSG00000142515	KLK3	pancreatic cancer	0	0	0	12				1.882e-2
+ENSG00000142515	KLK3	prostate cancer	8	2	0	0		1.543e-1		
+ENSG00000142515	KLK3	renal cancer	0	0	0	11		5.132e-3		
+ENSG00000142515	KLK3	skin cancer	0	0	0	12				
+ENSG00000142515	KLK3	stomach cancer	0	0	0	12				1.943e-1
+ENSG00000142515	KLK3	testis cancer	0	0	0	12		4.645e-1		
+ENSG00000142515	KLK3	thyroid cancer	0	0	0	4				3.155e-1
+ENSG00000142515	KLK3	urothelial cancer	0	0	0	11				
+ENSG00000164362	TERT	breast cancer	0	0	1	10		1.213e-2		
+ENSG00000164362	TERT	carcinoid	0	0	0	4				
+ENSG00000164362	TERT	cervical cancer	0	0	0	12				2.884e-2
+ENSG00000164362	TERT	colorectal cancer	0	0	0	11				1.237e-3
+ENSG00000164362	TERT	endometrial cancer	0	0	0	11				1.526e-1
+ENSG00000164362	TERT	glioma	0	0	0	12				1.433e-3
+ENSG00000164362	TERT	head and neck cancer	0	0	0	4		6.418e-3		
+ENSG00000164362	TERT	liver cancer	0	0	0	11				1.845e-2
+ENSG00000164362	TERT	lung cancer	0	0	0	12				2.206e-1
+ENSG00000164362	TERT	lymphoma	0	0	0	12				
+ENSG00000164362	TERT	melanoma	0	0	0	11				6.906e-2
+ENSG00000164362	TERT	ovarian cancer	0	0	0	12				1.886e-1
+ENSG00000164362	TERT	pancreatic cancer	0	0	0	10				3.591e-1
+ENSG00000164362	TERT	prostate cancer	0	1	1	10				9.160e-4
+ENSG00000164362	TERT	renal cancer	0	0	0	12				8.844e-11
+ENSG00000164362	TERT	skin cancer	0	0	0	11				
+ENSG00000164362	TERT	stomach cancer	0	0	0	12				1.917e-1
+ENSG00000164362	TERT	testis cancer	0	0	0	12				2.146e-1
+ENSG00000164362	TERT	thyroid cancer	0	1	0	3				
+ENSG00000164362	TERT	urothelial cancer	0	1	0	11		3.346e-1		
