@@ -1,0 +1,33 @@
+"""sections_results4.tex: format-parser and sequence-property validations (proteinprops, restriction, stockholm, gff) from committed JSON."""
+import json
+B='../benchmarks/'
+esc=lambda s:str(s).replace('_','\\_').replace('&','\\&').replace('%','\\%').replace('#','\\#')
+pp=json.load(open(B+'sweep_proteinprops_restriction.json')); sto=json.load(open(B+'sweep_stockholm_biopython.json')); gf=json.load(open(B+'sweep_gff_gffutils.json'))
+o=['\\section{Sequence properties, restriction digests and file formats}']
+o.append(f"This section checks four bio/ libraries against {esc(pp['reference'])} and gffutils. Three pass exactly. One, the restriction-site finder, had a real bug that we fixed.")
+o.append('\\subsection{Protein physicochemical properties}')
+o.append(f"On {pp['n_proteins']} UniProtKB reviewed human proteins ({esc(pp['proteins'])}), every property matches ProtParam (Table~\\ref{{tab:pp}}).")
+o.append('\\begin{table}[h]\\centering\\small\\begin{tabular}{lrrrr}\\hline property & $n$ & within tol. & max abs diff & Pearson\\\\\\hline')
+for k,v in pp['proteinprops'].items(): o.append(f"{esc(k)} & {v['n']} & {v['n_within_tol']} ({esc(v['tol'])}) & {v['max_abs_diff']:.2g} & {v['pearson']:.10f}\\\\")
+o.append('\\hline\\end{tabular}\\caption{bio.proteinprops vs Biopython ProtParam (benchmarks/sweep\\_proteinprops\\_restriction.json).}\\label{tab:pp}\\end{table}')
+o.append('\\paragraph{(F36) Average molecular weight.} $M=\\sum_a n_a m_a-(L-1)\\,m_{\\mathrm{H_2O}}$, with $m_a$ the average residue mass (free amino acid) and one water lost per peptide bond.')
+o.append('\\paragraph{(F37) Net charge.} $Z(\\mathrm{pH})=\\sum_{i\\in +}\\frac{n_i}{1+10^{\\mathrm{pH}-pK_i}}-\\sum_{j\\in -}\\frac{n_j}{1+10^{pK_j-\\mathrm{pH}}}$ (Henderson--Hasselbalch per ionisable group, termini included).')
+o.append('\\paragraph{(F38) Isoelectric point.} $\\mathrm{pI}$ is the root of $Z(\\mathrm{pH})=0$; $Z$ is strictly decreasing in pH, so bisection on $[0,14]$ converges, and the residual $6\\times10^{-5}$ difference is the bisection tolerance.')
+o.append('\\paragraph{(F39) Instability index.} $II=\\frac{10}{L}\\sum_{i=1}^{L-1}\\mathrm{DIWV}(x_i,x_{i+1})$ (Guruprasad 1990), and GRAVY $=\\frac1L\\sum_i h_{KD}(x_i)$ (Kyte--Doolittle).')
+o.append('\\paragraph{(F40) Extinction coefficient at 280 nm.} $\\varepsilon=5500\\,n_W+1490\\,n_Y+125\\,n_{\\mathrm{cystine}}$ M$^{-1}$cm$^{-1}$, with $n_{\\mathrm{cystine}}=\\lfloor n_C/2\\rfloor$ in the oxidised form and $0$ when reduced.')
+o.append('\\subsection{Restriction sites: a bug in degenerate recognition sequences}')
+b=pp['restriction_before_fix']; r=pp['restriction']
+o.append(f"We digested pBR322 (J01749.1, circular, {r['J01749.1']['length']:,} bp) and phage lambda (NC\\_001416.1, linear, {r['NC_001416.1']['length']:,} bp) with all {r['J01749.1']['n_enzymes']} enzymes and compared cut positions with Biopython Restriction. Before the fix (sugarcode-ai {b['sugarcode_commit']}), {b['J01749.1']['agree']} and {b['NC_001416.1']['agree']} enzymes agreed. Two causes explained the disagreements. First, the reverse-strand pattern for a non-palindromic-looking site was built with a plain DNA reverse complement that leaves IUPAC codes unchanged. AccI (GT\\^{{}}MKAC) is in fact palindromic under IUPAC complementation (M$\\leftrightarrow$K), but the plain reverse complement GTKMAC was searched as a second pattern, which matches GTGAAC and GTTCAC, neither an AccI site. On pBR322 this gave 5 AccI sites where Biopython finds 2. Second, on linear DNA the finder reported Type IIS cuts that fall outside the molecule. After the fix (sugarcode-ai fe2185d), {r['J01749.1']['agree']} and {r['NC_001416.1']['agree']} enzymes agree. The remaining two, "+', '.join(d['enzyme'] for d in r['J01749.1']['disagree'])+", are modification-dependent enzymes that do not cut unmethylated DNA; we leave them open.")
+o.append('\\paragraph{(F41) IUPAC complement.} The map $c$: A$\\leftrightarrow$T, C$\\leftrightarrow$G, R$\\leftrightarrow$Y, K$\\leftrightarrow$M, B$\\leftrightarrow$V, D$\\leftrightarrow$H, with S, W, N fixed, is the unique involution on the 15 codes that complements every base in the set a code denotes. A site $s$ is palindromic iff $s=\\overline{c(s)}$ (reversed), which for AccI holds only under $c$, not under the four-letter map.')
+o.append('\\subsection{Stockholm alignments}')
+o.append(f"bio.stockholm parsed {sto['n_alignments']} Rfam seed alignments ({sto['total_sequences']:,} sequences). {sto['n_all_match']}/{sto['n_alignments']} match Biopython on sequence identifiers and order, aligned sequences and SS\\_cons, and survive a write--parse round trip unchanged.")
+o.append('\\begin{table}[h]\\centering\\small\\begin{tabular}{llrrc}\\hline file & AC & seqs & width & all checks\\\\\\hline')
+for x in sto['per_alignment']: o.append(f"{esc(x['file'].split('/')[-1])} & {esc(x['ac'])} & {x['n_seqs']} & {x['width']} & {'yes' if x['ids_match'] and x['seqs_match'] and x['ss_cons_match'] and x['roundtrip'] else 'no'}\\\\")
+o.append('\\hline\\end{tabular}\\caption{bio.stockholm vs Biopython AlignIO (benchmarks/sweep\\_stockholm\\_biopython.json).}\\end{table}')
+o.append('\\paragraph{(F42) Pairwise identity.} $\\mathrm{PID}(x,y)=\\#\\{i: x_i=y_i,\\ x_i,y_i\\notin\\{-,.\\}\\}\\,/\\,\\#\\{i: x_i,y_i\\notin\\{-,.\\}\\}$, case-insensitive; our implementation equals an independent count on every file.')
+o.append('\\subsection{GFF3 annotation}')
+o.append(f"On the RefSeq E. coli K-12 annotation ({gf['n_records_sugarcode']:,} records), bio.gff and {esc(gf['reference'])} agree on every record ({gf['records_identical']:,}/{gf['n_features_gffutils']:,}) and on the children of {gf['children_identical_multiset']}/{gf['genes_checked_children']} genes, and write--parse is lossless. A first comparison showed two child mismatches; both were CDS features split over two lines with a shared ID, which gffutils renames X\\_1. That was a comparison artifact, not a sugarcode error, and we record it so the numbers are traceable.")
+o.append('\\begin{table}[h]\\centering\\small\\begin{tabular}{lr}\\hline feature type & records\\\\\\hline')
+for t,n in gf['types']: o.append(f"{esc(t)} & {n}\\\\")
+o.append('\\hline\\end{tabular}\\caption{Feature types in GCF\\_000005845.2 (benchmarks/sweep\\_gff\\_gffutils.json).}\\end{table}')
+open('sections_results4.tex','w').write('\n'.join(o)+'\n')

@@ -1,0 +1,53 @@
+\section{Sequence properties, restriction digests and file formats}
+This section checks four bio/ libraries against Biopython 1.88 ProtParam + Restriction and gffutils. Three pass exactly. One, the restriction-site finder, had a real bug that we fixed.
+\subsection{Protein physicochemical properties}
+On 500 UniProtKB reviewed human proteins (UniProtKB reviewed human, length 50-2000, first 500 of search (rest.uniprot.org, 2026-09-25)), every property matches ProtParam (Table~\ref{tab:pp}).
+\begin{table}[h]\centering\small\begin{tabular}{lrrrr}\hline property & $n$ & within tol. & max abs diff & Pearson\\\hline
+mw & 500 & 500 (rel 1e-06) & 0 & 1.0000000000\\
+gravy & 500 & 500 (rel 1e-06) & 0 & 1.0000000000\\
+aromaticity & 500 & 500 (rel 1e-06) & 2.8e-17 & 1.0000000000\\
+instability & 500 & 500 (rel 1e-06) & 0 & 1.0000000000\\
+pI & 500 & 500 (abs 0.01) & 5.9e-05 & 0.9999999999\\
+ext\_reduced & 500 & 500 (rel 1e-06) & 0 & 1.0000000000\\
+ext\_oxidized & 500 & 500 (rel 1e-06) & 0 & 1.0000000000\\
+\hline\end{tabular}\caption{bio.proteinprops vs Biopython ProtParam (benchmarks/sweep\_proteinprops\_restriction.json).}\label{tab:pp}\end{table}
+\paragraph{(F36) Average molecular weight.} $M=\sum_a n_a m_a-(L-1)\,m_{\mathrm{H_2O}}$, with $m_a$ the average residue mass (free amino acid) and one water lost per peptide bond.
+\paragraph{(F37) Net charge.} $Z(\mathrm{pH})=\sum_{i\in +}\frac{n_i}{1+10^{\mathrm{pH}-pK_i}}-\sum_{j\in -}\frac{n_j}{1+10^{pK_j-\mathrm{pH}}}$ (Henderson--Hasselbalch per ionisable group, termini included).
+\paragraph{(F38) Isoelectric point.} $\mathrm{pI}$ is the root of $Z(\mathrm{pH})=0$; $Z$ is strictly decreasing in pH, so bisection on $[0,14]$ converges, and the residual $6\times10^{-5}$ difference is the bisection tolerance.
+\paragraph{(F39) Instability index.} $II=\frac{10}{L}\sum_{i=1}^{L-1}\mathrm{DIWV}(x_i,x_{i+1})$ (Guruprasad 1990), and GRAVY $=\frac1L\sum_i h_{KD}(x_i)$ (Kyte--Doolittle).
+\paragraph{(F40) Extinction coefficient at 280 nm.} $\varepsilon=5500\,n_W+1490\,n_Y+125\,n_{\mathrm{cystine}}$ M$^{-1}$cm$^{-1}$, with $n_{\mathrm{cystine}}=\lfloor n_C/2\rfloor$ in the oxidised form and $0$ when reduced.
+\subsection{Restriction sites: a bug in degenerate recognition sequences}
+We digested pBR322 (J01749.1, circular, 4,361 bp) and phage lambda (NC\_001416.1, linear, 48,502 bp) with all 610 enzymes and compared cut positions with Biopython Restriction. Before the fix (sugarcode-ai 699ffee), 533 and 529 enzymes agreed. Two causes explained the disagreements. First, the reverse-strand pattern for a non-palindromic-looking site was built with a plain DNA reverse complement that leaves IUPAC codes unchanged. AccI (GT\^{}MKAC) is in fact palindromic under IUPAC complementation (M$\leftrightarrow$K), but the plain reverse complement GTKMAC was searched as a second pattern, which matches GTGAAC and GTTCAC, neither an AccI site. On pBR322 this gave 5 AccI sites where Biopython finds 2. Second, on linear DNA the finder reported Type IIS cuts that fall outside the molecule. After the fix (sugarcode-ai fe2185d), 608 and 608 enzymes agree. The remaining two, LpnPI, MspJI, are modification-dependent enzymes that do not cut unmethylated DNA; we leave them open.
+\paragraph{(F41) IUPAC complement.} The map $c$: A$\leftrightarrow$T, C$\leftrightarrow$G, R$\leftrightarrow$Y, K$\leftrightarrow$M, B$\leftrightarrow$V, D$\leftrightarrow$H, with S, W, N fixed, is the unique involution on the 15 codes that complements every base in the set a code denotes. A site $s$ is palindromic iff $s=\overline{c(s)}$ (reversed), which for AccI holds only under $c$, not under the four-letter map.
+\subsection{Stockholm alignments}
+bio.stockholm parsed 15 Rfam seed alignments (4,471 sequences). 15/15 match Biopython on sequence identifiers and order, aligned sequences and SS\_cons, and survive a write--parse round trip unchanged.
+\begin{table}[h]\centering\small\begin{tabular}{llrrc}\hline file & AC & seqs & width & all checks\\\hline
+RF00001.sto & RF00001 & 712 & 230 & yes\\
+RF00005.sto & RF00005 & 954 & 118 & yes\\
+RF00010.sto & RF00010 & 458 & 996 & yes\\
+RF00004.sto & RF00004 & 208 & 278 & yes\\
+RF00015.sto & RF00015 & 177 & 261 & yes\\
+RF00017.sto & RF00017 & 91 & 412 & yes\\
+RF00023.sto & RF00023 & 477 & 954 & yes\\
+RF00050.sto & RF00050 & 146 & 221 & yes\\
+RF00059.sto & RF00059 & 115 & 211 & yes\\
+RF00162.sto & RF00162 & 457 & 239 & yes\\
+RF00167.sto & RF00167 & 133 & 113 & yes\\
+RF00168.sto & RF00168 & 47 & 274 & yes\\
+RF00174.sto & RF00174 & 434 & 461 & yes\\
+RF00234.sto & RF00234 & 18 & 236 & yes\\
+RF00504.sto & RF00504 & 44 & 215 & yes\\
+\hline\end{tabular}\caption{bio.stockholm vs Biopython AlignIO (benchmarks/sweep\_stockholm\_biopython.json).}\end{table}
+\paragraph{(F42) Pairwise identity.} $\mathrm{PID}(x,y)=\#\{i: x_i=y_i,\ x_i,y_i\notin\{-,.\}\}\,/\,\#\{i: x_i,y_i\notin\{-,.\}\}$, case-insensitive; our implementation equals an independent count on every file.
+\subsection{GFF3 annotation}
+On the RefSeq E. coli K-12 annotation (9,523 records), bio.gff and gffutils 0.14 (sqlite, in-memory) agree on every record (9,523/9,523) and on the children of 300/300 genes, and write--parse is lossless. A first comparison showed two child mismatches; both were CDS features split over two lines with a shared ID, which gffutils renames X\_1. That was a comparison artifact, not a sugarcode error, and we record it so the numbers are traceable.
+\begin{table}[h]\centering\small\begin{tabular}{lr}\hline feature type & records\\\hline
+gene & 4506\\
+CDS & 4340\\
+exon & 216\\
+pseudogene & 145\\
+ncRNA & 108\\
+tRNA & 86\\
+mobile\_genetic\_element & 50\\
+sequence\_feature & 48\\
+\hline\end{tabular}\caption{Feature types in GCF\_000005845.2 (benchmarks/sweep\_gff\_gffutils.json).}\end{table}
