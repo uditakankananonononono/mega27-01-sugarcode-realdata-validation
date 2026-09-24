@@ -1,45 +1,45 @@
-tool	version	status
-pyhmmer	0.12.3	installed
-ViennaRNA	2.7.2	installed
-RDKit	2026.3.6	installed
-SpliceAI	1.3.1	installed
-TensorFlow	2.15.1	installed
-Keras	2.15.0	installed
-scikit-learn	1.7.2	installed
-SciPy	1.15.3	installed
-NumPy	1.26.4	installed
-Biopython	1.88	installed
-twobitreader	4.0.2	installed
-AutoDock Vina (python)	1.2.7	installed
-Open Babel	3.1.1.23	installed
-pytest	9.1.1	installed
-pandas	2.3.3	installed
-MHCflurry	2.2.1	sweep/neohunter_mhcflurry_cmp.py
-CRISPOR reference scorers (vendored)	web service/vendored	sweep/_crispor_*_ref.py
-EBI Clustal Omega REST	web service/vendored	data/README.md
-CPIC API	web service/vendored	sweep/pgx_cpic_bench.py
-NCBI E-utilities	web service/vendored	src/sc_validate
-LOVD3 API	web service/vendored	discovery/splice_region_vus/lovd_top20.json
-MaxEntScan (maxentpy)	0.0.4	discovery/splice_region_vus/maxent_cmp.py
-codon-bias	0.5.0	sweep/codon_tai_enc.py
-statsmodels	0.15.0	benchmarks/sweep_codon_cai_multispecies.json (BH-FDR)
-PyTorch	2.14.0+cpu	discovery/splice_region_vus/cnn_cv.py, cnn_cv_me.py (splice CNN)
-Matplotlib	3.10.9	paper/make_figs.py (all figures)
-FreeSASA	2.x (python)	sweep/sasa_vs_freesasa.py -> benchmarks/sweep_sasa_freesasa.json
-primer3-py	2.3.1	sweep/primer_vs_primer3.py -> benchmarks/sweep_primer_primer3.json; sugarcode bio.primer.hairpin_dg
-DendroPy	5.1.0	sweep/phylo_vs_dendropy.py -> benchmarks/sweep_phylo_dendropy.json
-orfipy	0.0.4	sweep/orf_vs_orfipy.py -> benchmarks/sweep_orf_orfipy.json
-pysam (htslib)	0.24.1	sweep/vcf_vs_pysam.py -> benchmarks/sweep_vcf_pysam.json (remote tabix fetch of ClinVar VCF)
-PyDESeq2	0.5.2	sweep/de_vs_pydeseq2.py -> benchmarks/sweep_de_pydeseq2.json; sugarcode bio.de.de_analysis_deseq2
-parasail	2.6.1	sweep/align_vs_parasail.py -> benchmarks/sweep_align_parasail.json
-g:Profiler g:GOSt API	e114_eg62_p19_27110d83	sweep/dex_enrichment_gprofiler.py -> benchmarks/sweep_dex_enrichment.json
-STRING API	12.0	sweep/dex_string_ppi.py -> benchmarks/sweep_dex_string_ppi.json
-Reactome AnalysisService	live 2026-09-24	sweep/dex_reactome.py -> benchmarks/sweep_dex_reactome.json
-networkx	local 3.4.2	sweep/dex_string_network.py -> benchmarks/sweep_dex_string_network.json
-gseapy	local 1.3.1	sweep/dex_gsea_hallmark.py -> benchmarks/sweep_dex_gsea_hallmark.json
-goatools	local 1.6.5	sweep/dex_goatools.py -> benchmarks/sweep_dex_goatools.json
-gffutils	local 0.14	sweep/gff_vs_gffutils.py -> benchmarks/sweep_gff_gffutils.json
-gemmi	local 0.7.5	sweep/pdb_vs_gemmi.py -> benchmarks/sweep_pdb_gemmi.json
-UCSC Genome Browser REST API (phyloP100way)	live 2026-09-25	discovery/splice_region_vus/fetch_phylop_sub.py -> phylop_sub.tsv; phylop_lift.json
-bioframe	0.8.0	installed
-sourmash	4.8.14	installed
+tool	version	status	gate
+pyhmmer	0.12.3	installed	counts
+ViennaRNA	2.7.2	installed	counts
+RDKit	2026.3.6	installed	counts
+SpliceAI	1.3.1	installed	counts
+TensorFlow	2.15.1	installed	counts
+Keras	2.15.0	installed	counts
+scikit-learn	1.7.2	installed	counts
+SciPy	1.15.3	installed	counts
+NumPy	1.26.4	installed	counts
+Biopython	1.88	installed	counts
+twobitreader	4.0.2	installed	infra: file-format reader (.2bit)
+AutoDock Vina (python)	1.2.7	installed	counts
+Open Babel	3.1.1.23	installed	counts
+pytest	9.1.1	installed	infra: test runner
+pandas	2.3.3	installed	counts
+MHCflurry	2.2.1	sweep/neohunter_mhcflurry_cmp.py	counts
+CRISPOR reference scorers (vendored)	web service/vendored	sweep/_crispor_*_ref.py	counts
+EBI Clustal Omega REST	web service/vendored	data/README.md	counts
+CPIC API	web service/vendored	sweep/pgx_cpic_bench.py	counts
+NCBI E-utilities	web service/vendored	src/sc_validate	counts
+LOVD3 API	web service/vendored	discovery/splice_region_vus/lovd_top20.json	counts
+MaxEntScan (maxentpy)	0.0.4	discovery/splice_region_vus/maxent_cmp.py	counts
+codon-bias	0.5.0	sweep/codon_tai_enc.py	counts
+statsmodels	0.15.0	benchmarks/sweep_codon_cai_multispecies.json (BH-FDR)	counts
+PyTorch	2.14.0+cpu	discovery/splice_region_vus/cnn_cv.py, cnn_cv_me.py (splice CNN)	counts
+Matplotlib	3.10.9	paper/make_figs.py (all figures)	infra: plotting only
+FreeSASA	2.x (python)	sweep/sasa_vs_freesasa.py -> benchmarks/sweep_sasa_freesasa.json	counts
+primer3-py	2.3.1	sweep/primer_vs_primer3.py -> benchmarks/sweep_primer_primer3.json; sugarcode bio.primer.hairpin_dg	counts
+DendroPy	5.1.0	sweep/phylo_vs_dendropy.py -> benchmarks/sweep_phylo_dendropy.json	counts
+orfipy	0.0.4	sweep/orf_vs_orfipy.py -> benchmarks/sweep_orf_orfipy.json	counts
+pysam (htslib)	0.24.1	sweep/vcf_vs_pysam.py -> benchmarks/sweep_vcf_pysam.json (remote tabix fetch of ClinVar VCF)	counts
+PyDESeq2	0.5.2	sweep/de_vs_pydeseq2.py -> benchmarks/sweep_de_pydeseq2.json; sugarcode bio.de.de_analysis_deseq2	counts
+parasail	2.6.1	sweep/align_vs_parasail.py -> benchmarks/sweep_align_parasail.json	counts
+g:Profiler g:GOSt API	e114_eg62_p19_27110d83	sweep/dex_enrichment_gprofiler.py -> benchmarks/sweep_dex_enrichment.json	counts
+STRING API	12.0	sweep/dex_string_ppi.py -> benchmarks/sweep_dex_string_ppi.json	counts
+Reactome AnalysisService	live 2026-09-24	sweep/dex_reactome.py -> benchmarks/sweep_dex_reactome.json	counts
+networkx	local 3.4.2	sweep/dex_string_network.py -> benchmarks/sweep_dex_string_network.json	counts
+gseapy	local 1.3.1	sweep/dex_gsea_hallmark.py -> benchmarks/sweep_dex_gsea_hallmark.json	counts
+goatools	local 1.6.5	sweep/dex_goatools.py -> benchmarks/sweep_dex_goatools.json	counts
+gffutils	local 0.14	sweep/gff_vs_gffutils.py -> benchmarks/sweep_gff_gffutils.json	counts
+gemmi	local 0.7.5	sweep/pdb_vs_gemmi.py -> benchmarks/sweep_pdb_gemmi.json	counts
+UCSC Genome Browser REST API (phyloP100way)	live 2026-09-25	discovery/splice_region_vus/fetch_phylop_sub.py -> phylop_sub.tsv; phylop_lift.json	counts
+bioframe	0.8.0	sweep/bed_vs_bioframe.py -> benchmarks/sweep_bed_bioframe.json	counts
+sourmash	4.8.14	sweep/kmer_vs_sourmash.py -> benchmarks/sweep_kmer_sourmash.json	counts
