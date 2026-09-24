@@ -116,7 +116,7 @@ bio	pileup	148	1	validated	benchmarks/sweep_pileup_pysam.json
 bio	primer	278	3	validated	benchmarks/sweep_primer_primer3.json
 bio	proteinprops	261	1	validated	benchmarks/sweep_proteinprops_restriction.json
 bio	pwm	63	2	validated	benchmarks/sweep_motif_biopython.json (via bio.motif)
-bio	reactome	63	0	not yet validated	
+bio	reactome	63	0	validated	benchmarks/sweep_reactome_download.json
 bio	restriction	150	1	validated	benchmarks/sweep_proteinprops_restriction.json
 bio	rnaseq	201	1	validated	benchmarks/sweep_de_pydeseq2.json
 bio	sam	221	2	validated	benchmarks/sweep_sam_pysam.json

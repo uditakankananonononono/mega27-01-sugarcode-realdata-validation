@@ -1,0 +1,498 @@
+{
+ "reference": "Reactome UniProt2Reactome.txt (lowest-level, Homo sapiens; canonical plus isoform rows pooled per accession)",
+ "n_accessions": 61,
+ "equal_sets": 61,
+ "pairs_live": 775,
+ "pairs_file": 775,
+ "rows": [
+  {
+   "accession": "O60674",
+   "n_live": 39,
+   "n_file": 39,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "O75874",
+   "n_live": 5,
+   "n_file": 5,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "O95714",
+   "n_live": 6,
+   "n_file": 6,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "O96017",
+   "n_live": 8,
+   "n_file": 8,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P00325",
+   "n_live": 1,
+   "n_file": 1,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P00441",
+   "n_live": 3,
+   "n_file": 3,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P00519",
+   "n_live": 13,
+   "n_file": 13,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P00533",
+   "n_live": 37,
+   "n_file": 37,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P01106",
+   "n_live": 19,
+   "n_file": 19,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P01111",
+   "n_live": 68,
+   "n_file": 68,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P01116",
+   "n_live": 71,
+   "n_file": 71,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P02545",
+   "n_live": 8,
+   "n_file": 8,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P02649",
+   "n_live": 12,
+   "n_file": 12,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P04062",
+   "n_live": 2,
+   "n_file": 2,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P04626",
+   "n_live": 33,
+   "n_file": 33,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P04637",
+   "n_live": 46,
+   "n_file": 46,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P05091",
+   "n_live": 4,
+   "n_file": 4,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P06400",
+   "n_live": 18,
+   "n_file": 18,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P06748",
+   "n_live": 10,
+   "n_file": 10,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P09848",
+   "n_live": 2,
+   "n_file": 2,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P11532",
+   "n_live": 3,
+   "n_file": 3,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P12259",
+   "n_live": 10,
+   "n_file": 10,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P12883",
+   "n_live": 0,
+   "n_file": 0,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P13569",
+   "n_live": 11,
+   "n_file": 11,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P15056",
+   "n_live": 16,
+   "n_file": 16,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P21359",
+   "n_live": 2,
+   "n_file": 2,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P21964",
+   "n_live": 4,
+   "n_file": 4,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P25054",
+   "n_live": 15,
+   "n_file": 15,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P35240",
+   "n_live": 2,
+   "n_file": 2,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P36888",
+   "n_live": 27,
+   "n_file": 27,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P38398",
+   "n_live": 28,
+   "n_file": 28,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P40337",
+   "n_live": 7,
+   "n_file": 7,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P40692",
+   "n_live": 7,
+   "n_file": 7,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P42336",
+   "n_live": 60,
+   "n_file": 60,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P42771",
+   "n_live": 10,
+   "n_file": 10,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P42858",
+   "n_live": 1,
+   "n_file": 1,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P42898",
+   "n_live": 1,
+   "n_file": 1,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P43246",
+   "n_live": 7,
+   "n_file": 7,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P48735",
+   "n_live": 4,
+   "n_file": 4,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P51587",
+   "n_live": 14,
+   "n_file": 14,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P51787",
+   "n_live": 3,
+   "n_file": 3,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P60484",
+   "n_live": 12,
+   "n_file": 12,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "P68871",
+   "n_live": 10,
+   "n_file": 10,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "Q01196",
+   "n_live": 20,
+   "n_file": 20,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "Q04671",
+   "n_live": 1,
+   "n_file": 1,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "Q06787",
+   "n_live": 0,
+   "n_file": 0,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "Q08043",
+   "n_live": 2,
+   "n_file": 2,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "Q13315",
+   "n_live": 28,
+   "n_file": 28,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "Q13485",
+   "n_live": 21,
+   "n_file": 21,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "Q14524",
+   "n_live": 2,
+   "n_file": 2,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "Q15831",
+   "n_live": 4,
+   "n_file": 4,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "Q30201",
+   "n_live": 1,
+   "n_file": 1,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "Q6N021",
+   "n_live": 2,
+   "n_file": 2,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "Q71RS6",
+   "n_live": 2,
+   "n_file": 2,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "Q86YC2",
+   "n_live": 10,
+   "n_file": 10,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "Q8IXJ9",
+   "n_live": 1,
+   "n_file": 1,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "Q8N726",
+   "n_live": 12,
+   "n_file": 12,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "Q8WZ42",
+   "n_live": 2,
+   "n_file": 2,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "Q96J66",
+   "n_live": 1,
+   "n_file": 1,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "Q9UNE0",
+   "n_live": 1,
+   "n_file": 1,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  },
+  {
+   "accession": "Q9Y6K1",
+   "n_live": 6,
+   "n_file": 6,
+   "equal": true,
+   "only_live": [],
+   "only_file": []
+  }
+ ],
+ "note": "First pass compared against canonical-accession rows only and showed 59/61: the live endpoint pools isoform mappings (KRAS P01116: 9 canonical rows vs 71 pathways incl. P01116-1/-2 rows; LMNA P02545: 2 vs 8). Pooling canonical+isoform rows gives 61/61. Not a bug, but callers get isoform-pooled pathways (e.g. KRAS4A and KRAS4B together)."
+}
