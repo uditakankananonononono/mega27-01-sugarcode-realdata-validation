@@ -1,0 +1,15 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 439195,
+        "MolecularWeight": "150.13",
+        "ConnectivitySMILES": "C1C(C(C(C(O1)O)O)O)O",
+        "XLogP": -2.5,
+        "TPSA": 90.2,
+        "HBondDonorCount": 4,
+        "HBondAcceptorCount": 5
+      }
+    ]
+  }
+}

@@ -485,3 +485,10 @@ kegg_enzyme	EC 4.1.3.1	KEGG ENZYME entry (metabodesigner sweep)	ec:4.1.3.1	sweep
 kegg_enzyme	EC 4.2.1.11	KEGG ENZYME entry (metabodesigner sweep)	ec:4.2.1.11	sweep/metabodesigner.py
 kegg_enzyme	EC 5.3.1.1	KEGG ENZYME entry (metabodesigner sweep)	ec:5.3.1.1	sweep/metabodesigner.py
 kegg_enzyme	EC 5.3.1.9	KEGG ENZYME entry (metabodesigner sweep)	ec:5.3.1.9	sweep/metabodesigner.py
+pubchem_cid	54675776	PubChem descriptor record fetched (bio_switch sweep)	CID 54675776	sweep/bio_switch.py
+pubchem_cid	6134	PubChem descriptor record fetched (bio_switch sweep)	CID 6134	sweep/bio_switch.py
+pubchem_cid	439195	PubChem descriptor record fetched (bio_switch sweep)	CID 439195	sweep/bio_switch.py
+pubchem_cid	2153	PubChem descriptor record fetched (bio_switch sweep)	CID 2153	sweep/bio_switch.py
+pubchem_cid	241	PubChem descriptor record fetched (bio_switch sweep)	CID 241	sweep/bio_switch.py
+pubmed	7510417	Jenison 1994 theophylline aptamer Kd abstract (bio_switch sweep)	PMID 7510417	sweep/bio_switch.py
+pubmed	1812784	Takahashi 1991 TetR-tetracycline Ka abstract (bio_switch sweep)	PMID 1812784	sweep/bio_switch.py

@@ -55,3 +55,5 @@ ClinicalTrials.gov API v2	live 2026-09-25	sweep/evidence_mining_live.py -> bench
 ChEMBL REST API	live 2026-09-25	sweep/dti_bench_chembl.py -> benchmarks/sweep_dti_bench.json	counts
 RCSB PDB archive (files.rcsb.org + chemcomp REST, PDBe fallback)	live 2026-09-25	sweep/mutdock_platinum.py -> benchmarks/sweep_mutdock.json	counts
 KEGG REST API (ENZYME + COMPOUND)	live 2026-09-25	sweep/metabodesigner.py -> benchmarks/sweep_metabodesigner.json	counts
+PubChem PUG-REST	live 2026-09-25	sweep/bio_switch.py -> benchmarks/sweep_bio_switch.json	counts
+NCBI E-utilities (PubMed efetch/esearch)	live 2026-09-25	sweep/bio_switch.py -> benchmarks/sweep_bio_switch.json	counts
