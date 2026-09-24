@@ -1,0 +1,20 @@
+{
+ "n_seqs": 25,
+ "n_pairs": 300,
+ "tool": "parasail 2.6.1",
+ "params": "sugarcode gap_open=-11 gap_extend=-1; parasail open=11 or 12, extend=1",
+ "global": {
+  "n": 300,
+  "exact_vs_parasail_open11": 300,
+  "exact_vs_parasail_open12": 36,
+  "max_abs_diff_open11": 0.0,
+  "max_abs_diff_open12": 26.0
+ },
+ "local": {
+  "n": 300,
+  "exact_vs_parasail_open11": 300,
+  "exact_vs_parasail_open12": 65,
+  "max_abs_diff_open11": 0.0,
+  "max_abs_diff_open12": 5.0
+ }
+}
