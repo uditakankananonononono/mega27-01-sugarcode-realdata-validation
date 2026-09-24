@@ -1,161 +1,194 @@
 {
- "reference": "FreeSASA  Lee-Richards (100 slices), probe 1.4 A, module radii",
- "rows": [
+ "tool": "FreeSASA 2.x (Shrake-Rupley, 96 points, probe 1.4 A, default ProtOr radii)",
+ "structures": "RCSB PDB receptors from the LP-PDBBind docking set (hydrogens removed)",
+ "n": 18,
+ "median_rel_diff": 0.01165,
+ "max_abs_rel_diff": 0.0258,
+ "median_per_atom_pearson": 0.9803,
+ "per_structure": [
   {
-   "pdb": "3M35",
-   "n_atoms": 1629,
-   "total_ours": 9310.395,
-   "total_freesasa": 9326.374,
-   "total_rel_diff": 0.00171,
-   "atom_r": 0.99991,
-   "residue_r": 0.99995,
-   "residue_mean_abs_diff_A2": 0.266,
-   "sec": 2.4
-  },
-  {
-   "pdb": "1K1J",
-   "n_atoms": 1629,
-   "total_ours": 9079.692,
-   "total_freesasa": 9080.349,
-   "total_rel_diff": 7e-05,
-   "atom_r": 0.9999,
-   "residue_r": 0.99995,
-   "residue_mean_abs_diff_A2": 0.272,
-   "sec": 2.4
-  },
-  {
-   "pdb": "2ZDN",
-   "n_atoms": 1629,
-   "total_ours": 9165.877,
-   "total_freesasa": 9168.55,
-   "total_rel_diff": 0.00029,
-   "atom_r": 0.99991,
-   "residue_r": 0.99994,
-   "residue_mean_abs_diff_A2": 0.279,
-   "sec": 2.4
-  },
-  {
-   "pdb": "1Y3X",
-   "n_atoms": 1622,
-   "total_ours": 9142.982,
-   "total_freesasa": 9150.5,
-   "total_rel_diff": 0.00082,
-   "atom_r": 0.99991,
-   "residue_r": 0.99995,
-   "residue_mean_abs_diff_A2": 0.269,
-   "sec": 2.4
-  },
-  {
-   "pdb": "2XJG",
-   "n_atoms": 1678,
-   "total_ours": 10937.338,
-   "total_freesasa": 10932.958,
-   "total_rel_diff": 0.0004,
-   "atom_r": 0.99991,
-   "residue_r": 0.99996,
-   "residue_mean_abs_diff_A2": 0.316,
-   "sec": 2.4
-  },
-  {
-   "pdb": "1F5L",
-   "n_atoms": 1933,
-   "total_ours": 11352.874,
-   "total_freesasa": 11358.808,
-   "total_rel_diff": 0.00052,
-   "atom_r": 0.99991,
-   "residue_r": 0.99997,
-   "residue_mean_abs_diff_A2": 0.262,
-   "sec": 2.8
-  },
-  {
-   "pdb": "4B2I",
-   "n_atoms": 1714,
-   "total_ours": 10629.269,
-   "total_freesasa": 10631.963,
-   "total_rel_diff": 0.00025,
-   "atom_r": 0.99991,
-   "residue_r": 0.99996,
-   "residue_mean_abs_diff_A2": 0.288,
-   "sec": 2.6
-  },
-  {
-   "pdb": "1EJN",
-   "n_atoms": 1951,
-   "total_ours": 11773.003,
-   "total_freesasa": 11768.668,
-   "total_rel_diff": 0.00037,
-   "atom_r": 0.99992,
-   "residue_r": 0.99997,
-   "residue_mean_abs_diff_A2": 0.275,
-   "sec": 2.8
-  },
-  {
-   "pdb": "3HKQ",
-   "n_atoms": 2049,
-   "total_ours": 11770.547,
-   "total_freesasa": 11766.065,
-   "total_rel_diff": 0.00038,
-   "atom_r": 0.9999,
-   "residue_r": 0.99995,
-   "residue_mean_abs_diff_A2": 0.322,
-   "sec": 2.9
-  },
-  {
-   "pdb": "1G54",
-   "n_atoms": 2058,
-   "total_ours": 11993.216,
-   "total_freesasa": 11986.78,
-   "total_rel_diff": 0.00054,
-   "atom_r": 0.99992,
-   "residue_r": 0.99996,
-   "residue_mean_abs_diff_A2": 0.268,
-   "sec": 3.3
-  },
-  {
-   "pdb": "3D8W",
-   "n_atoms": 2049,
-   "total_ours": 11831.497,
-   "total_freesasa": 11817.899,
-   "total_rel_diff": 0.00115,
-   "atom_r": 0.99992,
-   "residue_r": 0.99996,
-   "residue_mean_abs_diff_A2": 0.286,
-   "sec": 3.0
-  },
-  {
-   "pdb": "1CNW",
+   "pdb": "1cnw",
    "n_atoms": 2039,
-   "total_ours": 11650.735,
-   "total_freesasa": 11650.291,
-   "total_rel_diff": 4e-05,
-   "atom_r": 0.99991,
-   "residue_r": 0.99996,
-   "residue_mean_abs_diff_A2": 0.289,
-   "sec": 3.3
+   "sugarcode_total": 11620.2,
+   "freesasa_total": 11547.6,
+   "rel_diff": 0.0063,
+   "per_atom_pearson": 0.9801
   },
   {
-   "pdb": "1P1O",
+   "pdb": "1ejn",
+   "n_atoms": 1951,
+   "sugarcode_total": 11790.6,
+   "freesasa_total": 11671.2,
+   "rel_diff": 0.0102,
+   "per_atom_pearson": 0.9814
+  },
+  {
+   "pdb": "1f5l",
+   "n_atoms": 1933,
+   "sugarcode_total": 11383.0,
+   "freesasa_total": 11262.7,
+   "rel_diff": 0.0107,
+   "per_atom_pearson": 0.9795
+  },
+  {
+   "pdb": "1g54",
+   "n_atoms": 2058,
+   "sugarcode_total": 11993.0,
+   "freesasa_total": 11850.7,
+   "rel_diff": 0.012,
+   "per_atom_pearson": 0.9818
+  },
+  {
+   "pdb": "1gi1",
+   "error": "atom count 1688 vs 1629"
+  },
+  {
+   "pdb": "1k1j",
+   "n_atoms": 1629,
+   "sugarcode_total": 9052.8,
+   "freesasa_total": 8996.6,
+   "rel_diff": 0.0062,
+   "per_atom_pearson": 0.9749
+  },
+  {
+   "pdb": "1o3l",
+   "error": "atom count 1682 vs 1629"
+  },
+  {
+   "pdb": "1p1o",
    "n_atoms": 1961,
-   "total_ours": 11966.542,
-   "total_freesasa": 11962.928,
-   "total_rel_diff": 0.0003,
-   "atom_r": 0.99992,
-   "residue_r": 0.99996,
-   "residue_mean_abs_diff_A2": 0.282,
-   "sec": 3.1
+   "sugarcode_total": 11920.8,
+   "freesasa_total": 11901.7,
+   "rel_diff": 0.0016,
+   "per_atom_pearson": 0.9804
   },
   {
-   "pdb": "3IBI",
+   "pdb": "1y3x",
+   "error": "atom count 1673 vs 1622"
+  },
+  {
+   "pdb": "1zgi",
+   "n_atoms": 2315,
+   "sugarcode_total": 12932.6,
+   "freesasa_total": 12787.9,
+   "rel_diff": 0.0113,
+   "per_atom_pearson": 0.9821
+  },
+  {
+   "pdb": "2erz",
+   "n_atoms": 2913,
+   "sugarcode_total": 16632.9,
+   "freesasa_total": 16214.8,
+   "rel_diff": 0.0258,
+   "per_atom_pearson": 0.9812
+  },
+  {
+   "pdb": "2j4i",
+   "n_atoms": 2213,
+   "sugarcode_total": 13772.5,
+   "freesasa_total": 13554.5,
+   "rel_diff": 0.0161,
+   "per_atom_pearson": 0.9817
+  },
+  {
+   "pdb": "2x7t",
    "n_atoms": 2049,
-   "total_ours": 11826.211,
-   "total_freesasa": 11829.597,
-   "total_rel_diff": 0.00029,
-   "atom_r": 0.99991,
-   "residue_r": 0.99995,
-   "residue_mean_abs_diff_A2": 0.301,
-   "sec": 3.2
+   "sugarcode_total": 11657.3,
+   "freesasa_total": 11549.0,
+   "rel_diff": 0.0094,
+   "per_atom_pearson": 0.9819
+  },
+  {
+   "pdb": "2xab",
+   "error": "atom count 3310 vs 3272"
+  },
+  {
+   "pdb": "2xjg",
+   "n_atoms": 1678,
+   "sugarcode_total": 10961.6,
+   "freesasa_total": 10790.7,
+   "rel_diff": 0.0158,
+   "per_atom_pearson": 0.9781
+  },
+  {
+   "pdb": "2zdn",
+   "error": "atom count 1657 vs 1629"
+  },
+  {
+   "pdb": "3b3c",
+   "n_atoms": 2208,
+   "sugarcode_total": 10627.8,
+   "freesasa_total": 10456.3,
+   "rel_diff": 0.0164,
+   "per_atom_pearson": 0.9784
+  },
+  {
+   "pdb": "3d8w",
+   "error": "atom count 2068 vs 2049"
+  },
+  {
+   "pdb": "3hkq",
+   "n_atoms": 2049,
+   "sugarcode_total": 11770.2,
+   "freesasa_total": 11681.9,
+   "rel_diff": 0.0076,
+   "per_atom_pearson": 0.9817
+  },
+  {
+   "pdb": "3hll",
+   "error": "atom count 2718 vs 2715"
+  },
+  {
+   "pdb": "3ibi",
+   "n_atoms": 2049,
+   "sugarcode_total": 11883.3,
+   "freesasa_total": 11658.3,
+   "rel_diff": 0.0193,
+   "per_atom_pearson": 0.9817
+  },
+  {
+   "pdb": "3m35",
+   "n_atoms": 1629,
+   "sugarcode_total": 9324.7,
+   "freesasa_total": 9198.1,
+   "rel_diff": 0.0138,
+   "per_atom_pearson": 0.9767
+  },
+  {
+   "pdb": "3po6",
+   "error": "atom count 2131 vs 2043"
+  },
+  {
+   "pdb": "3r17",
+   "error": "atom count 2113 vs 2049"
+  },
+  {
+   "pdb": "3r4n",
+   "n_atoms": 3520,
+   "sugarcode_total": 23696.9,
+   "freesasa_total": 23287.1,
+   "rel_diff": 0.0176,
+   "per_atom_pearson": 0.9779
+  },
+  {
+   "pdb": "4b2i",
+   "error": "atom count 1730 vs 1714"
+  },
+  {
+   "pdb": "4db7",
+   "n_atoms": 3999,
+   "sugarcode_total": 23552.5,
+   "freesasa_total": 23242.0,
+   "rel_diff": 0.0134,
+   "per_atom_pearson": 0.9801
+  },
+  {
+   "pdb": "4f5y",
+   "n_atoms": 3106,
+   "sugarcode_total": 20565.2,
+   "freesasa_total": 20466.2,
+   "rel_diff": 0.0048,
+   "per_atom_pearson": 0.9802
   }
- ],
- "max_total_rel_diff": 0.00171,
- "min_residue_r": 0.99994
+ ]
 }

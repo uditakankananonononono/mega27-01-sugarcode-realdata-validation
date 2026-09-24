@@ -191,4 +191,7 @@ BUG FIXED (sugarcode bf8665b). Before: 110/993 rejected (stereo bonds, salt ions
 BUG FIXED (sugarcode feced35). Hessian diagonal doubled (ordered-pair loop): 0/30 frequency matches, no rigid-body zero modes. After: 30/30 match ProDy at 4 dp, fluctuation r >= 0.9999; median B-factor r 0.375 (= ProDy). benchmarks/sweep_evofold_anm.json
 
 ## modules.structural_biophysics.shrake_rupley vs FreeSASA Lee-Richards (2026-09-25)
-No bug. 14 PDB structures, same atoms/radii: total SASA within 0.17%, per-residue r >= 0.99994. SASA only; Vina scoring not validated (module not counted). benchmarks/sweep_sasa_freesasa.json
+No bug. 14 PDB structures, same atoms/radii: total SASA within 0.17%, per-residue r >= 0.99994. SASA only; module has its own SASA routine, separate from bio.structures checked earlier. benchmarks/sweep_sasa_freesasa_recheck14.json
+
+## modules.structural_biophysics.vina_score vs AutoDock Vina 1.2.7 (2026-09-25)
+BUG FIXED (sugarcode 28b8590): Bondi radii instead of Vina XS radii, sulfur hydrophobic, rotor term added instead of dividing. Carbon ring stacks: before -1.56/-0.86/-0.37 vs Vina -2.31/-1.65/-0.63 kcal/mol; after max diff 0.0046 over 8 separations. Rotor division verified from Vina source only. benchmarks/sweep_vina_score.json

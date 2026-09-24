@@ -1,0 +1,161 @@
+{
+ "reference": "FreeSASA  Lee-Richards (100 slices), probe 1.4 A, module radii",
+ "rows": [
+  {
+   "pdb": "3M35",
+   "n_atoms": 1629,
+   "total_ours": 9310.395,
+   "total_freesasa": 9326.374,
+   "total_rel_diff": 0.00171,
+   "atom_r": 0.99991,
+   "residue_r": 0.99995,
+   "residue_mean_abs_diff_A2": 0.266,
+   "sec": 2.4
+  },
+  {
+   "pdb": "1K1J",
+   "n_atoms": 1629,
+   "total_ours": 9079.692,
+   "total_freesasa": 9080.349,
+   "total_rel_diff": 7e-05,
+   "atom_r": 0.9999,
+   "residue_r": 0.99995,
+   "residue_mean_abs_diff_A2": 0.272,
+   "sec": 2.4
+  },
+  {
+   "pdb": "2ZDN",
+   "n_atoms": 1629,
+   "total_ours": 9165.877,
+   "total_freesasa": 9168.55,
+   "total_rel_diff": 0.00029,
+   "atom_r": 0.99991,
+   "residue_r": 0.99994,
+   "residue_mean_abs_diff_A2": 0.279,
+   "sec": 2.4
+  },
+  {
+   "pdb": "1Y3X",
+   "n_atoms": 1622,
+   "total_ours": 9142.982,
+   "total_freesasa": 9150.5,
+   "total_rel_diff": 0.00082,
+   "atom_r": 0.99991,
+   "residue_r": 0.99995,
+   "residue_mean_abs_diff_A2": 0.269,
+   "sec": 2.4
+  },
+  {
+   "pdb": "2XJG",
+   "n_atoms": 1678,
+   "total_ours": 10937.338,
+   "total_freesasa": 10932.958,
+   "total_rel_diff": 0.0004,
+   "atom_r": 0.99991,
+   "residue_r": 0.99996,
+   "residue_mean_abs_diff_A2": 0.316,
+   "sec": 2.4
+  },
+  {
+   "pdb": "1F5L",
+   "n_atoms": 1933,
+   "total_ours": 11352.874,
+   "total_freesasa": 11358.808,
+   "total_rel_diff": 0.00052,
+   "atom_r": 0.99991,
+   "residue_r": 0.99997,
+   "residue_mean_abs_diff_A2": 0.262,
+   "sec": 2.8
+  },
+  {
+   "pdb": "4B2I",
+   "n_atoms": 1714,
+   "total_ours": 10629.269,
+   "total_freesasa": 10631.963,
+   "total_rel_diff": 0.00025,
+   "atom_r": 0.99991,
+   "residue_r": 0.99996,
+   "residue_mean_abs_diff_A2": 0.288,
+   "sec": 2.6
+  },
+  {
+   "pdb": "1EJN",
+   "n_atoms": 1951,
+   "total_ours": 11773.003,
+   "total_freesasa": 11768.668,
+   "total_rel_diff": 0.00037,
+   "atom_r": 0.99992,
+   "residue_r": 0.99997,
+   "residue_mean_abs_diff_A2": 0.275,
+   "sec": 2.8
+  },
+  {
+   "pdb": "3HKQ",
+   "n_atoms": 2049,
+   "total_ours": 11770.547,
+   "total_freesasa": 11766.065,
+   "total_rel_diff": 0.00038,
+   "atom_r": 0.9999,
+   "residue_r": 0.99995,
+   "residue_mean_abs_diff_A2": 0.322,
+   "sec": 2.9
+  },
+  {
+   "pdb": "1G54",
+   "n_atoms": 2058,
+   "total_ours": 11993.216,
+   "total_freesasa": 11986.78,
+   "total_rel_diff": 0.00054,
+   "atom_r": 0.99992,
+   "residue_r": 0.99996,
+   "residue_mean_abs_diff_A2": 0.268,
+   "sec": 3.3
+  },
+  {
+   "pdb": "3D8W",
+   "n_atoms": 2049,
+   "total_ours": 11831.497,
+   "total_freesasa": 11817.899,
+   "total_rel_diff": 0.00115,
+   "atom_r": 0.99992,
+   "residue_r": 0.99996,
+   "residue_mean_abs_diff_A2": 0.286,
+   "sec": 3.0
+  },
+  {
+   "pdb": "1CNW",
+   "n_atoms": 2039,
+   "total_ours": 11650.735,
+   "total_freesasa": 11650.291,
+   "total_rel_diff": 4e-05,
+   "atom_r": 0.99991,
+   "residue_r": 0.99996,
+   "residue_mean_abs_diff_A2": 0.289,
+   "sec": 3.3
+  },
+  {
+   "pdb": "1P1O",
+   "n_atoms": 1961,
+   "total_ours": 11966.542,
+   "total_freesasa": 11962.928,
+   "total_rel_diff": 0.0003,
+   "atom_r": 0.99992,
+   "residue_r": 0.99996,
+   "residue_mean_abs_diff_A2": 0.282,
+   "sec": 3.1
+  },
+  {
+   "pdb": "3IBI",
+   "n_atoms": 2049,
+   "total_ours": 11826.211,
+   "total_freesasa": 11829.597,
+   "total_rel_diff": 0.00029,
+   "atom_r": 0.99991,
+   "residue_r": 0.99995,
+   "residue_mean_abs_diff_A2": 0.301,
+   "sec": 3.2
+  }
+ ],
+ "max_total_rel_diff": 0.00171,
+ "min_residue_r": 0.99994
+}

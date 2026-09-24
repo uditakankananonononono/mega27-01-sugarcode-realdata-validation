@@ -1,0 +1,69 @@
+{
+ "reference": "AutoDock Vina 1.2.7 (Python bindings) score_only",
+ "rows": [
+  {
+   "separation_A": 3.4,
+   "vina_inter": -2.015,
+   "ours": -2.0196
+  },
+  {
+   "separation_A": 3.6,
+   "vina_inter": -2.31,
+   "ours": -2.3092
+  },
+  {
+   "separation_A": 3.8,
+   "vina_inter": -2.026,
+   "ours": -2.0264
+  },
+  {
+   "separation_A": 4.0,
+   "vina_inter": -1.65,
+   "ours": -1.6507
+  },
+  {
+   "separation_A": 4.3,
+   "vina_inter": -1.092,
+   "ours": -1.0901
+  },
+  {
+   "separation_A": 4.6,
+   "vina_inter": -0.634,
+   "ours": -0.6347
+  },
+  {
+   "separation_A": 5.0,
+   "vina_inter": -0.368,
+   "ours": -0.3687
+  },
+  {
+   "separation_A": 6.0,
+   "vina_inter": -0.347,
+   "ours": -0.347
+  }
+ ],
+ "max_abs_diff": 0.0045999999999999375,
+ "sugarcode_commit": "28b8590",
+ "pre_fix": {
+  "rows_3.6_4.0_4.6": [
+   -1.5646,
+   -0.8557,
+   -0.3662
+  ],
+  "vina": [
+   -2.31,
+   -1.65,
+   -0.634
+  ],
+  "causes": [
+   "Bondi radii instead of Vina XS radii in the surface distance",
+   "sulfur counted hydrophobic",
+   "rotor term added (w*Nrot) instead of dividing by 1+w*Nrot"
+  ]
+ },
+ "sources": [
+  "https://raw.githubusercontent.com/ccsb-scripps/AutoDock-Vina/develop/src/lib/atom_constants.h",
+  "https://raw.githubusercontent.com/ccsb-scripps/AutoDock-Vina/develop/src/lib/conf_independent.cpp"
+ ],
+ "scope": "rotor division verified from source, not numerically (no torsion tree in the test ligands); element typing cannot separate C_H from C_P or assign donors without hydrogens"
+}

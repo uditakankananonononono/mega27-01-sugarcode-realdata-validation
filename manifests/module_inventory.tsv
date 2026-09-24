@@ -83,7 +83,7 @@ module	rna_nussinov	387	2	validated	VERDICTS table; sweep/rna_vs_vienna.py
 module	robotic_flow	128	2	not yet validated	
 module	stability_ai	199	6	not yet validated	
 module	str_scope	340	3	validated	benchmarks/sweep_str_pytrf.json
-module	structural_biophysics	512	6	not yet validated	
+module	structural_biophysics	528	7	validated	benchmarks/sweep_vina_score.json; benchmarks/sweep_sasa_freesasa_recheck14.json
 module	syn_bio_studio	43	1	not yet validated	
 module	syn_stab_ai	69	2	not yet validated	
 module	synbio_studio	113	3	not yet validated	

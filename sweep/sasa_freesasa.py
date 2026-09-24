@@ -22,5 +22,5 @@ for f in files:
     print(rows[-1], flush=True)
 res = {'reference': 'FreeSASA ' + getattr(freesasa, '__version__', '') + ' Lee-Richards (100 slices), probe 1.4 A, module radii', 'rows': rows,
        'max_total_rel_diff': max(r['total_rel_diff'] for r in rows), 'min_residue_r': min(r['residue_r'] for r in rows)}
-json.dump(res, open(os.path.expanduser('~/mega/m01/benchmarks/sweep_sasa_freesasa.json'), 'w'), indent=1)
+json.dump(res, open(os.path.expanduser('~/mega/m01/benchmarks/sweep_sasa_freesasa_recheck14.json'), 'w'), indent=1)
 print({k: v for k, v in res.items() if k != 'rows'})
