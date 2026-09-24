@@ -1,0 +1,147 @@
+{
+  "promoters": {
+    "hTERT": {
+      "gene": "TERT",
+      "claimed_cancers": [
+        "pan-cancer"
+      ],
+      "claimed_selectivity": 0.85,
+      "n_cancers_detected": 4,
+      "of_cancers": 20,
+      "detection_share_in_claimed": 0.0,
+      "high_share_in_claimed": null,
+      "det_rate_claimed": {},
+      "high_rate_claimed": {},
+      "max_det_rate_any": 0.25,
+      "max_high_cancer": "breast cancer"
+    },
+    "Survivin": {
+      "gene": "BIRC5",
+      "claimed_cancers": [
+        "lung",
+        "breast",
+        "colorectal"
+      ],
+      "claimed_selectivity": 0.8,
+      "n_cancers_detected": 20,
+      "of_cancers": 20,
+      "detection_share_in_claimed": 0.188,
+      "high_share_in_claimed": 0.0,
+      "det_rate_claimed": {
+        "lung cancer": 0.917,
+        "breast cancer": 1.0,
+        "colorectal cancer": 0.917
+      },
+      "high_rate_claimed": {
+        "lung cancer": 0.0,
+        "breast cancer": 0.0,
+        "colorectal cancer": 0.0
+      },
+      "max_det_rate_any": 1.0,
+      "max_high_cancer": "testis cancer"
+    },
+    "AFP": {
+      "gene": "AFP",
+      "claimed_cancers": [
+        "hepatocellular"
+      ],
+      "claimed_selectivity": 0.9,
+      "n_cancers_detected": 20,
+      "of_cancers": 20,
+      "detection_share_in_claimed": 0.054,
+      "high_share_in_claimed": 0.5,
+      "det_rate_claimed": {
+        "liver cancer": 1.0
+      },
+      "high_rate_claimed": {
+        "liver cancer": 0.273
+      },
+      "max_det_rate_any": 1.0,
+      "max_high_cancer": "liver cancer"
+    },
+    "PSA": {
+      "gene": "KLK3",
+      "claimed_cancers": [
+        "prostate"
+      ],
+      "claimed_selectivity": 0.92,
+      "n_cancers_detected": 1,
+      "of_cancers": 20,
+      "detection_share_in_claimed": 1.0,
+      "high_share_in_claimed": 1.0,
+      "det_rate_claimed": {
+        "prostate cancer": 1.0
+      },
+      "high_rate_claimed": {
+        "prostate cancer": 0.8
+      },
+      "max_det_rate_any": 1.0,
+      "max_high_cancer": "prostate cancer"
+    },
+    "HER2_inducible": {
+      "gene": "ERBB2",
+      "claimed_cancers": [
+        "breast",
+        "gastric"
+      ],
+      "claimed_selectivity": 0.8,
+      "n_cancers_detected": 15,
+      "of_cancers": 20,
+      "detection_share_in_claimed": 0.17,
+      "high_share_in_claimed": 0.714,
+      "det_rate_claimed": {
+        "breast cancer": 0.636,
+        "stomach cancer": 0.167
+      },
+      "high_rate_claimed": {
+        "breast cancer": 0.364,
+        "stomach cancer": 0.083
+      },
+      "max_det_rate_any": 0.636,
+      "max_high_cancer": "breast cancer"
+    }
+  },
+  "select_prostate": [
+    "PSA",
+    "Survivin"
+  ],
+  "select_liver": [
+    "AFP",
+    "Survivin"
+  ],
+  "select_unknown_fallback": [
+    "hTERT",
+    "Survivin"
+  ],
+  "dual_input_circuit": {
+    "name": "onco_PSA_AND_Survivin",
+    "logic": "AND",
+    "promoters": [
+      "PSA",
+      "Survivin"
+    ]
+  },
+  "dual_sim": {
+    "output_tumor": 9.5168,
+    "output_normal": 0.0502,
+    "output_single_positive": 0.1463
+  },
+  "dual_selective": true,
+  "single_sim": {
+    "output_tumor": 9.7797,
+    "output_normal": 0.066,
+    "output_single_positive": 9.7797
+  },
+  "single_input_promoters": [
+    "PSA"
+  ],
+  "datasets": [
+    "HPA:v23 pathology.tsv (2026-09-25 download)",
+    "ensembl:ENSG00000164362",
+    "ensembl:ENSG00000089685",
+    "ensembl:ENSG00000081051",
+    "ensembl:ENSG00000142515",
+    "ensembl:ENSG00000141736"
+  ],
+  "n_datasets": 6
+}

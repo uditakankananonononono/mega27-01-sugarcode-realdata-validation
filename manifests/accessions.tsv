@@ -396,3 +396,9 @@ omim	OMIM:154700	HPO annotation set for marfan (71 terms, gene FBN1)	OMIM:154700
 omim	OMIM:261600	HPO annotation set for phenylketonuria (30 terms, gene PAH)	OMIM:261600	sweep/rarenet_hpo.py
 omim	OMIM:230800	HPO annotation set for gaucher (25 terms, gene GBA1)	OMIM:230800	sweep/rarenet_hpo.py
 omim	OMIM:310200	HPO annotation set for duchenne_md (32 terms, gene DMD)	OMIM:310200	sweep/rarenet_hpo.py
+study	36	Human Protein Atlas v23 pathology.tsv gene-cancer expression (403,241 rows; v23.proteinatlas.org, 2026-09-25)	pathology.tsv	sweep/oncocircuit_hpa.py
+ensembl_gene	ENSG00000164362	HPA pathology rows for TERT (20 cancers)	ENSG00000164362	sweep/oncocircuit_hpa.py
+ensembl_gene	ENSG00000089685	HPA pathology rows for BIRC5 (20 cancers)	ENSG00000089685	sweep/oncocircuit_hpa.py
+ensembl_gene	ENSG00000081051	HPA pathology rows for AFP (20 cancers)	ENSG00000081051	sweep/oncocircuit_hpa.py
+ensembl_gene	ENSG00000142515	HPA pathology rows for KLK3 (20 cancers)	ENSG00000142515	sweep/oncocircuit_hpa.py
+ensembl_gene	ENSG00000141736	HPA pathology rows for ERBB2 (20 cancers)	ENSG00000141736	sweep/oncocircuit_hpa.py
