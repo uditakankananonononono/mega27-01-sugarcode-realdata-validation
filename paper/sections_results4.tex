@@ -187,3 +187,39 @@ modules.qsar\_bench computes its own 2D descriptors from a small SMILES parser, 
 \paragraph{(F67) Ring bond test.} A bond $(i,j)$ lies on a ring iff $j$ is reachable from $i$ in $G\setminus\{(i,j)\}$; the number of independent rings is the cyclomatic number $r=|E|-|V|+c$ for $c$ connected components, which counts rings but not ring bonds.
 The module's Morgan fingerprint is meant to follow ECFP. Its starting atom label used only hydrogens written inside brackets, so CH$_3$, CH$_2$ and CH carbons, and ring and chain atoms, began with the same identifier. On 5,000 random pairs of 300 drugs its Tanimoto similarities ranked with RDKit's radius-2, 2048-bit Morgan at Spearman 0.7815, and the nearest neighbour agreed for 202/300 molecules. The label now uses RDKit's default invariants (element, heavy degree, total hydrogens, charge, ring membership; sugarcode 9a33eb4): Spearman 0.9005, nearest neighbour 236/300, mean absolute Tanimoto difference 0.0146. The bits are not identical to RDKit's (different hashing, no removal of duplicate environments), so fingerprints from the two should not be mixed in one model.
 \paragraph{(F68) Tanimoto on bit vectors.} For fingerprints $a,b\in\{0,1\}^L$, $T(a,b)=\dfrac{|a\wedge b|}{|a|+|b|-|a\wedge b|}$; two fingerprint schemes are compared by the rank correlation of $T$ over sampled pairs and by agreement of each molecule\textquotesingle{}s arg-max neighbour.
+Split by expert panel (Table~\ref{tab:vcep}), the point model reproduces more calls than the 2015 rules for 21 of 33 panels, fewer for 11 and the same for 1. The rules do better for these panels: Myeloid Malignancy; Phenylketonuria; Platelet Disorders; Rett and Angelman-like Disorders; Familial Hypercholesterolemia; Mitochondrial Diseases; FBN1; Hereditary Breast, Ovarian and Pancreatic Cancer; Coagulation Factor Deficiency; Thrombosis; VHL. We did not check why against each panel's written specification; for these panels a user should read the module's class next to the rule-based one.
+\begin{table}[p]\centering\footnotesize\begin{tabular}{lrrr}\hline expert panel & variants & point model & 2015 rules\\\hline
+Myeloid Malignancy VCEP & 810 & 740 & 776\\
+Monogenic Diabetes VCEP & 801 & 780 & 723\\
+Phenylketonuria VCEP & 770 & 748 & 765\\
+Platelet Disorders VCEP & 582 & 560 & 562\\
+Severe Combined Immunodeficiency Disease  VCEP & 375 & 368 & 328\\
+Rett and Angelman-like Disorders VCEP & 367 & 346 & 353\\
+Familial Hypercholesterolemia VCEP & 343 & 328 & 335\\
+Malignant Hyperthermia Susceptibility VCEP & 335 & 324 & 311\\
+CDH1 VCEP & 331 & 325 & 278\\
+RASopathy VCEP & 329 & 319 & 288\\
+Lysosomal Diseases VCEP & 308 & 296 & 273\\
+Cerebral Creatine Deficiency Syndromes VCEP & 266 & 256 & 249\\
+Glaucoma VCEP & 265 & 240 & 228\\
+Mitochondrial Diseases VCEP & 225 & 181 & 204\\
+ACADVL VCEP & 225 & 220 & 149\\
+Hearing Loss VCEP & 201 & 184 & 172\\
+PTEN VCEP & 198 & 186 & 183\\
+Cardiomyopathy VCEP & 171 & 168 & 165\\
+DICER1 and miRNA-Processing Gene VCEP & 125 & 117 & 116\\
+Leber Congenital Amaurosis/early onset Retinal Dystrophy VCEP & 125 & 124 & 116\\
+TP53 VCEP & 124 & 114 & 103\\
+FBN1 VCEP & 104 & 93 & 101\\
+Hereditary Breast, Ovarian and Pancreatic Cancer VCEP & 93 & 86 & 87\\
+Coagulation Factor Deficiency VCEP & 69 & 52 & 56\\
+Thrombosis VCEP & 62 & 53 & 59\\
+InSiGHT Hereditary Colorectal Cancer/Polyposis VCEP & 59 & 58 & 53\\
+von Willebrand Disease  VCEP & 57 & 57 & 55\\
+Brain Malformations VCEP & 43 & 39 & 34\\
+Pulmonary Hypertension VCEP & 42 & 38 & 31\\
+ENIGMA BRCA1 and BRCA2 VCEP & 40 & 34 & 33\\
+Hereditary Hemorrhagic Telangiectasia VCEP & 32 & 32 & 30\\
+VHL VCEP & 31 & 28 & 30\\
+Epilepsy Sodium Channel VCEP & 21 & 21 & 21\\
+\hline\end{tabular}\caption{Panel calls reproduced by the Bayesian point model and by the ACMG/AMP 2015 combining rules, per ClinGen expert panel (benchmarks/sweep\_acmg\_erepo\_per\_panel.json).}\label{tab:vcep}\end{table}

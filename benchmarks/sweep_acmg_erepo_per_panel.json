@@ -1,0 +1,203 @@
+{
+ "source": "data/erepo/erepo_vcep_codes.tsv",
+ "per_panel": [
+  [
+   "Myeloid Malignancy VCEP",
+   810,
+   740,
+   776
+  ],
+  [
+   "Monogenic Diabetes VCEP",
+   801,
+   780,
+   723
+  ],
+  [
+   "Phenylketonuria VCEP",
+   770,
+   748,
+   765
+  ],
+  [
+   "Platelet Disorders VCEP",
+   582,
+   560,
+   562
+  ],
+  [
+   "Severe Combined Immunodeficiency Disease  VCEP",
+   375,
+   368,
+   328
+  ],
+  [
+   "Rett and Angelman-like Disorders VCEP",
+   367,
+   346,
+   353
+  ],
+  [
+   "Familial Hypercholesterolemia VCEP",
+   343,
+   328,
+   335
+  ],
+  [
+   "Malignant Hyperthermia Susceptibility VCEP",
+   335,
+   324,
+   311
+  ],
+  [
+   "CDH1 VCEP",
+   331,
+   325,
+   278
+  ],
+  [
+   "RASopathy VCEP",
+   329,
+   319,
+   288
+  ],
+  [
+   "Lysosomal Diseases VCEP",
+   308,
+   296,
+   273
+  ],
+  [
+   "Cerebral Creatine Deficiency Syndromes VCEP",
+   266,
+   256,
+   249
+  ],
+  [
+   "Glaucoma VCEP",
+   265,
+   240,
+   228
+  ],
+  [
+   "Mitochondrial Diseases VCEP",
+   225,
+   181,
+   204
+  ],
+  [
+   "ACADVL VCEP",
+   225,
+   220,
+   149
+  ],
+  [
+   "Hearing Loss VCEP",
+   201,
+   184,
+   172
+  ],
+  [
+   "PTEN VCEP",
+   198,
+   186,
+   183
+  ],
+  [
+   "Cardiomyopathy VCEP",
+   171,
+   168,
+   165
+  ],
+  [
+   "DICER1 and miRNA-Processing Gene VCEP",
+   125,
+   117,
+   116
+  ],
+  [
+   "Leber Congenital Amaurosis/early onset Retinal Dystrophy VCEP",
+   125,
+   124,
+   116
+  ],
+  [
+   "TP53 VCEP",
+   124,
+   114,
+   103
+  ],
+  [
+   "FBN1 VCEP",
+   104,
+   93,
+   101
+  ],
+  [
+   "Hereditary Breast, Ovarian and Pancreatic Cancer VCEP",
+   93,
+   86,
+   87
+  ],
+  [
+   "Coagulation Factor Deficiency VCEP",
+   69,
+   52,
+   56
+  ],
+  [
+   "Thrombosis VCEP",
+   62,
+   53,
+   59
+  ],
+  [
+   "InSiGHT Hereditary Colorectal Cancer/Polyposis VCEP",
+   59,
+   58,
+   53
+  ],
+  [
+   "von Willebrand Disease  VCEP",
+   57,
+   57,
+   55
+  ],
+  [
+   "Brain Malformations VCEP",
+   43,
+   39,
+   34
+  ],
+  [
+   "Pulmonary Hypertension VCEP",
+   42,
+   38,
+   31
+  ],
+  [
+   "ENIGMA BRCA1 and BRCA2 VCEP",
+   40,
+   34,
+   33
+  ],
+  [
+   "Hereditary Hemorrhagic Telangiectasia VCEP",
+   32,
+   32,
+   30
+  ],
+  [
+   "VHL VCEP",
+   31,
+   28,
+   30
+  ],
+  [
+   "Epilepsy Sodium Channel VCEP",
+   21,
+   21,
+   21
+  ]
+ ]
+}
