@@ -1,0 +1,162 @@
+{
+ "tool": "networkx 3.4.2 on STRING API /network (v12)",
+ "n_input": 300,
+ "n_nodes": 201,
+ "n_edges": 402,
+ "largest_component": 183,
+ "n_components": 10,
+ "top_degree": [
+  [
+   "FOXO1",
+   21
+  ],
+  [
+   "CEBPD",
+   15
+  ],
+  [
+   "FOXO3",
+   14
+  ],
+  [
+   "LEP",
+   13
+  ],
+  [
+   "COL4A1",
+   13
+  ],
+  [
+   "GPX3",
+   13
+  ],
+  [
+   "ATF3",
+   12
+  ],
+  [
+   "ACTA2",
+   12
+  ],
+  [
+   "GCLM",
+   12
+  ],
+  [
+   "AOX1",
+   11
+  ],
+  [
+   "DUSP1",
+   11
+  ],
+  [
+   "TGFBR2",
+   11
+  ],
+  [
+   "GLUL",
+   11
+  ],
+  [
+   "CCN2",
+   10
+  ],
+  [
+   "ACSL1",
+   10
+  ]
+ ],
+ "top_betweenness": [
+  [
+   "TGFBR2",
+   0.153
+  ],
+  [
+   "FOXO1",
+   0.1373
+  ],
+  [
+   "FOXO3",
+   0.1232
+  ],
+  [
+   "ACTA2",
+   0.1132
+  ],
+  [
+   "COL4A1",
+   0.094
+  ],
+  [
+   "CCN2",
+   0.0876
+  ],
+  [
+   "GPX3",
+   0.0857
+  ],
+  [
+   "TAGLN",
+   0.079
+  ],
+  [
+   "NFYB",
+   0.0682
+  ],
+  [
+   "AXIN2",
+   0.0662
+  ],
+  [
+   "ING2",
+   0.0653
+  ],
+  [
+   "PPP1CB",
+   0.0569
+  ],
+  [
+   "ATF3",
+   0.0561
+  ],
+  [
+   "RHOB",
+   0.0531
+  ],
+  [
+   "GLUL",
+   0.052
+  ]
+ ],
+ "gr_targets_checked": [
+  "FKBP5",
+  "TSC22D3",
+  "PER1",
+  "DUSP1",
+  "KLF15",
+  "ZBTB16",
+  "CRISPLD2",
+  "ERRFI1",
+  "SGK1",
+  "KLF9"
+ ],
+ "gr_targets_in_network": [
+  "FKBP5",
+  "TSC22D3",
+  "PER1",
+  "DUSP1",
+  "KLF15",
+  "ZBTB16",
+  "ERRFI1",
+  "KLF9"
+ ],
+ "gr_targets_not_in_network": [
+  "CRISPLD2",
+  "SGK1"
+ ],
+ "gr_mean_degree": 6.25,
+ "network_mean_degree": 4.0,
+ "perm_p_gr_degree": 0.048995100489951,
+ "n_perm": 10000
+}

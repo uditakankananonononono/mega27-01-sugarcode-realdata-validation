@@ -35,3 +35,4 @@ parasail	2.6.1	sweep/align_vs_parasail.py -> benchmarks/sweep_align_parasail.jso
 g:Profiler g:GOSt API	e114_eg62_p19_27110d83	sweep/dex_enrichment_gprofiler.py -> benchmarks/sweep_dex_enrichment.json
 STRING API	12.0	sweep/dex_string_ppi.py -> benchmarks/sweep_dex_string_ppi.json
 Reactome AnalysisService	live 2026-09-24	sweep/dex_reactome.py -> benchmarks/sweep_dex_reactome.json
+networkx	local 3.4.2	sweep/dex_string_network.py -> benchmarks/sweep_dex_string_network.json
