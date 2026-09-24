@@ -1,0 +1,34 @@
+{
+ "source": "CPIC API https://api.cpicpgx.org/v1/diplotype (fetched 2026-09-24)",
+ "CYP2C19": {
+  "cpic_diplotypes": 666,
+  "module_covered": 666,
+  "agree": 666,
+  "mismatch": 0,
+  "mismatch_examples": [],
+  "coverage": 1.0,
+  "top_unsupported_alleles": []
+ },
+ "CYP2D6": {
+  "cpic_diplotypes": 16836,
+  "module_covered": 16836,
+  "agree": 16836,
+  "mismatch": 0,
+  "mismatch_examples": [],
+  "coverage": 1.0,
+  "top_unsupported_alleles": []
+ },
+ "before_fix": {
+  "CYP2C19": {
+   "covered": 45,
+   "agree": 45,
+   "of": 666
+  },
+  "CYP2D6": {
+   "covered": 253,
+   "agree": 217,
+   "of": 16836
+  }
+ },
+ "after_fix_note": "CYP2C19 after-fix agreement is by construction (verbatim CPIC diplotype lookup). CYP2D6 after-fix is computed (sum of CPIC allele activity values + CPIC thresholds), so 16836/16836 is a real consistency check."
+}

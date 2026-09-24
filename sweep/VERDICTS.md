@@ -19,3 +19,10 @@ Data: NCBI GCF_000005845.2 CDS (E. coli MG1655) x PaxDb 511145 integrated protei
 - Fix shipped: sugarcode-ai ECOLI_HIGHEXPR / HOST_TABLES["ecoli_highexpr"]. Default left unchanged (optimizer choice of top codon is identical for most AAs; not re-benchmarked).
 - Remaining gap: TASEP, metabolic_load, attention, evolutionary_robustness have no real-data validation - verdict THIN (heuristic, no scientific claim).
 Numbers: benchmarks/sweep_codon_cai.json.
+
+## pgx_guidelines vs CPIC (2026-09-24)
+Reference: CPIC API diplotype tables (CYP2C19 666 diplotypes, CYP2D6 16,836).
+- Before: covered 45/666 (C19) and 253/16,836 (D6); D6 agreement 217/253. 36 mismatches came from stale activity values (*9 and *41 at 0.5; CPIC now 0.25). BUG CONFIRMED.
+- After (sugarcode-ai fix): 666/666 and 16,836/16,836 agree. C19 is a verbatim lookup (agreement by construction). D6 is computed from allele activity sums and thresholds, so it is a real check.
+- Also fixed: "Likely poor/intermediate metabolizer" now triggers the clopidogrel alternative (was falling through to "no recommendation").
+Numbers: benchmarks/sweep_pgx_cpic.json. Verdict: VERIFIED for phenotype translation; recommendation text covers only 2 gene-drug pairs (THIN scope).
