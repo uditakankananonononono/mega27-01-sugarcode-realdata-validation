@@ -1,0 +1,83 @@
+{
+ "n_input": 993,
+ "rdkit_parse_fail": 0,
+ "module_parse_fail": 0,
+ "descriptor_agreement": {
+  "mol_wt": {
+   "agree": 993,
+   "n": 993,
+   "rate": 1.0
+  },
+  "exact_mol_wt": {
+   "agree": 993,
+   "n": 993,
+   "rate": 1.0
+  },
+  "hbd": {
+   "agree": 993,
+   "n": 993,
+   "rate": 1.0
+  },
+  "hba": {
+   "agree": 867,
+   "n": 993,
+   "rate": 0.8731
+  },
+  "rotatable_bonds": {
+   "agree": 993,
+   "n": 993,
+   "rate": 1.0
+  },
+  "tpsa": {
+   "agree": 993,
+   "n": 993,
+   "rate": 1.0
+  },
+  "fraction_csp3": {
+   "agree": 993,
+   "n": 993,
+   "rate": 1.0
+  },
+  "heavy_atom_count": {
+   "agree": 993,
+   "n": 993,
+   "rate": 1.0
+  },
+  "formula": {
+   "agree": 993,
+   "n": 993,
+   "rate": 1.0
+  }
+ },
+ "examples_mismatch": {
+  "mol_wt": [],
+  "exact_mol_wt": [],
+  "hbd": [],
+  "hba": [
+   [
+    "CHEMBL4",
+    6,
+    5
+   ],
+   [
+    "CHEMBL5",
+    4,
+    3
+   ],
+   [
+    "CHEMBL6",
+    4,
+    3
+   ]
+  ],
+  "rotatable_bonds": [],
+  "tpsa": [],
+  "fraction_csp3": [],
+  "heavy_atom_count": [],
+  "formula": []
+ },
+ "tanimoto_pairs": 500,
+ "tanimoto_fp_fail": 0,
+ "tanimoto_exact_frac": 1.0,
+ "tanimoto_max_abs_diff": 0.0
+}

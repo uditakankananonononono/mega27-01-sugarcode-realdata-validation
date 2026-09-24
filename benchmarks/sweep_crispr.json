@@ -1,0 +1,13 @@
+{
+ "mit_pairs": 600,
+ "mit_exact": 600,
+ "mit_max_abs_diff": 1.1102230246251565e-16,
+ "crisprscan_contexts": 300,
+ "crisprscan_int_agree": 275,
+ "crisprscan_max_int_diff": 10,
+ "crisprscan_example": [
+  "ATGTATATTTTTATTTTTTAAGAGACAGGGTATTG",
+  27,
+  0.272094724617278
+ ]
+}
