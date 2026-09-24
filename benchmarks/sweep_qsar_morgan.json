@@ -1,0 +1,16 @@
+{
+ "reference": "RDKit Morgan radius 2, 2048 bits",
+ "n_molecules": 300,
+ "n_pairs": 5000,
+ "spearman_tanimoto": 0.9005,
+ "mean_abs_tanimoto_diff": 0.0146,
+ "nearest_neighbour_agree": 236,
+ "sugarcode_commit": "9a33eb4",
+ "pre_fix": {
+  "sugarcode_commit": "bf8665b",
+  "spearman_tanimoto": 0.7815,
+  "mean_abs_tanimoto_diff": 0.0214,
+  "nearest_neighbour_agree": 202,
+  "cause": "atom invariant used only bracket-written H (not total H) and no ring membership, so CH3/CH2/CH and chain/ring atoms shared identifiers"
+ }
+}
