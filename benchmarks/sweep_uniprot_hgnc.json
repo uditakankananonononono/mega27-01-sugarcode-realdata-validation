@@ -1,0 +1,761 @@
+{
+ "reference": "HGNC REST fetch/symbol uniprot_ids",
+ "n": 60,
+ "match": 60,
+ "length_ok": 60,
+ "mismatches": [],
+ "rows": [
+  {
+   "gene": "ABCC11",
+   "hgnc_uniprot": [
+    "Q96J66"
+   ],
+   "sugarcode_accession": "Q96J66",
+   "match": true,
+   "sugarcode_gene_names": [
+    "ABCC11"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "ABL1",
+   "hgnc_uniprot": [
+    "P00519"
+   ],
+   "sugarcode_accession": "P00519",
+   "match": true,
+   "sugarcode_gene_names": [
+    "ABL1"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "ACTN3",
+   "hgnc_uniprot": [
+    "Q08043"
+   ],
+   "sugarcode_accession": "Q08043",
+   "match": true,
+   "sugarcode_gene_names": [
+    "ACTN3"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "ADH1B",
+   "hgnc_uniprot": [
+    "P00325"
+   ],
+   "sugarcode_accession": "P00325",
+   "match": true,
+   "sugarcode_gene_names": [
+    "ADH1B"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "ALDH2",
+   "hgnc_uniprot": [
+    "P05091"
+   ],
+   "sugarcode_accession": "P05091",
+   "match": true,
+   "sugarcode_gene_names": [
+    "ALDH2"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "APC",
+   "hgnc_uniprot": [
+    "P25054"
+   ],
+   "sugarcode_accession": "P25054",
+   "match": true,
+   "sugarcode_gene_names": [
+    "APC"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "APOE",
+   "hgnc_uniprot": [
+    "P02649"
+   ],
+   "sugarcode_accession": "P02649",
+   "match": true,
+   "sugarcode_gene_names": [
+    "APOE"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "ASXL1",
+   "hgnc_uniprot": [
+    "Q8IXJ9"
+   ],
+   "sugarcode_accession": "Q8IXJ9",
+   "match": true,
+   "sugarcode_gene_names": [
+    "ASXL1"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "ATM",
+   "hgnc_uniprot": [
+    "Q13315"
+   ],
+   "sugarcode_accession": "Q13315",
+   "match": true,
+   "sugarcode_gene_names": [
+    "ATM"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "BRAF",
+   "hgnc_uniprot": [
+    "P15056"
+   ],
+   "sugarcode_accession": "P15056",
+   "match": true,
+   "sugarcode_gene_names": [
+    "BRAF"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "BRCA1",
+   "hgnc_uniprot": [
+    "P38398"
+   ],
+   "sugarcode_accession": "P38398",
+   "match": true,
+   "sugarcode_gene_names": [
+    "BRCA1"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "BRCA2",
+   "hgnc_uniprot": [
+    "P51587"
+   ],
+   "sugarcode_accession": "P51587",
+   "match": true,
+   "sugarcode_gene_names": [
+    "BRCA2"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "CDKN2A",
+   "hgnc_uniprot": [
+    "P42771",
+    "Q8N726"
+   ],
+   "sugarcode_accession": "P42771",
+   "match": true,
+   "sugarcode_gene_names": [
+    "CDKN2A"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "CFTR",
+   "hgnc_uniprot": [
+    "P13569"
+   ],
+   "sugarcode_accession": "P13569",
+   "match": true,
+   "sugarcode_gene_names": [
+    "CFTR"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "CHEK2",
+   "hgnc_uniprot": [
+    "O96017"
+   ],
+   "sugarcode_accession": "O96017",
+   "match": true,
+   "sugarcode_gene_names": [
+    "CHEK2"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "COMT",
+   "hgnc_uniprot": [
+    "P21964"
+   ],
+   "sugarcode_accession": "P21964",
+   "match": true,
+   "sugarcode_gene_names": [
+    "COMT"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "DMD",
+   "hgnc_uniprot": [
+    "P11532"
+   ],
+   "sugarcode_accession": "P11532",
+   "match": true,
+   "sugarcode_gene_names": [
+    "DMD"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "DNMT3A",
+   "hgnc_uniprot": [
+    "Q9Y6K1"
+   ],
+   "sugarcode_accession": "Q9Y6K1",
+   "match": true,
+   "sugarcode_gene_names": [
+    "DNMT3A"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "EDAR",
+   "hgnc_uniprot": [
+    "Q9UNE0"
+   ],
+   "sugarcode_accession": "Q9UNE0",
+   "match": true,
+   "sugarcode_gene_names": [
+    "EDAR"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "EGFR",
+   "hgnc_uniprot": [
+    "P00533"
+   ],
+   "sugarcode_accession": "P00533",
+   "match": true,
+   "sugarcode_gene_names": [
+    "EGFR"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "ERBB2",
+   "hgnc_uniprot": [
+    "P04626"
+   ],
+   "sugarcode_accession": "P04626",
+   "match": true,
+   "sugarcode_gene_names": [
+    "ERBB2"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "F5",
+   "hgnc_uniprot": [
+    "P12259"
+   ],
+   "sugarcode_accession": "P12259",
+   "match": true,
+   "sugarcode_gene_names": [
+    "F5"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "FLT3",
+   "hgnc_uniprot": [
+    "P36888"
+   ],
+   "sugarcode_accession": "P36888",
+   "match": true,
+   "sugarcode_gene_names": [
+    "FLT3"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "FMR1",
+   "hgnc_uniprot": [
+    "Q06787"
+   ],
+   "sugarcode_accession": "Q06787",
+   "match": true,
+   "sugarcode_gene_names": [
+    "FMR1"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "GBA1",
+   "hgnc_uniprot": [
+    "P04062"
+   ],
+   "sugarcode_accession": "P04062",
+   "match": true,
+   "sugarcode_gene_names": [
+    "GBA1"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "HBB",
+   "hgnc_uniprot": [
+    "P68871"
+   ],
+   "sugarcode_accession": "P68871",
+   "match": true,
+   "sugarcode_gene_names": [
+    "HBB"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "HERC2",
+   "hgnc_uniprot": [
+    "O95714"
+   ],
+   "sugarcode_accession": "O95714",
+   "match": true,
+   "sugarcode_gene_names": [
+    "HERC2"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "HFE",
+   "hgnc_uniprot": [
+    "Q30201"
+   ],
+   "sugarcode_accession": "Q30201",
+   "match": true,
+   "sugarcode_gene_names": [
+    "HFE"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "HTT",
+   "hgnc_uniprot": [
+    "P42858"
+   ],
+   "sugarcode_accession": "P42858",
+   "match": true,
+   "sugarcode_gene_names": [
+    "HTT"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "IDH1",
+   "hgnc_uniprot": [
+    "O75874"
+   ],
+   "sugarcode_accession": "O75874",
+   "match": true,
+   "sugarcode_gene_names": [
+    "IDH1"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "IDH2",
+   "hgnc_uniprot": [
+    "P48735"
+   ],
+   "sugarcode_accession": "P48735",
+   "match": true,
+   "sugarcode_gene_names": [
+    "IDH2"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "JAK2",
+   "hgnc_uniprot": [
+    "O60674"
+   ],
+   "sugarcode_accession": "O60674",
+   "match": true,
+   "sugarcode_gene_names": [
+    "JAK2"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "KCNQ1",
+   "hgnc_uniprot": [
+    "P51787"
+   ],
+   "sugarcode_accession": "P51787",
+   "match": true,
+   "sugarcode_gene_names": [
+    "KCNQ1"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "KRAS",
+   "hgnc_uniprot": [
+    "P01116"
+   ],
+   "sugarcode_accession": "P01116",
+   "match": true,
+   "sugarcode_gene_names": [
+    "KRAS"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "LCT",
+   "hgnc_uniprot": [
+    "P09848"
+   ],
+   "sugarcode_accession": "P09848",
+   "match": true,
+   "sugarcode_gene_names": [
+    "LCT"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "LMNA",
+   "hgnc_uniprot": [
+    "P02545"
+   ],
+   "sugarcode_accession": "P02545",
+   "match": true,
+   "sugarcode_gene_names": [
+    "LMNA"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "MLH1",
+   "hgnc_uniprot": [
+    "P40692"
+   ],
+   "sugarcode_accession": "P40692",
+   "match": true,
+   "sugarcode_gene_names": [
+    "MLH1"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "MSH2",
+   "hgnc_uniprot": [
+    "P43246"
+   ],
+   "sugarcode_accession": "P43246",
+   "match": true,
+   "sugarcode_gene_names": [
+    "MSH2"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "MTHFR",
+   "hgnc_uniprot": [
+    "P42898"
+   ],
+   "sugarcode_accession": "P42898",
+   "match": true,
+   "sugarcode_gene_names": [
+    "MTHFR"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "MYC",
+   "hgnc_uniprot": [
+    "P01106"
+   ],
+   "sugarcode_accession": "P01106",
+   "match": true,
+   "sugarcode_gene_names": [
+    "MYC"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "MYH7",
+   "hgnc_uniprot": [
+    "P12883"
+   ],
+   "sugarcode_accession": "P12883",
+   "match": true,
+   "sugarcode_gene_names": [
+    "MYH7"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "NF1",
+   "hgnc_uniprot": [
+    "P21359"
+   ],
+   "sugarcode_accession": "P21359",
+   "match": true,
+   "sugarcode_gene_names": [
+    "NF1"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "NF2",
+   "hgnc_uniprot": [
+    "P35240"
+   ],
+   "sugarcode_accession": "P35240",
+   "match": true,
+   "sugarcode_gene_names": [
+    "NF2"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "NPM1",
+   "hgnc_uniprot": [
+    "P06748"
+   ],
+   "sugarcode_accession": "P06748",
+   "match": true,
+   "sugarcode_gene_names": [
+    "NPM1"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "NRAS",
+   "hgnc_uniprot": [
+    "P01111"
+   ],
+   "sugarcode_accession": "P01111",
+   "match": true,
+   "sugarcode_gene_names": [
+    "NRAS"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "OCA2",
+   "hgnc_uniprot": [
+    "Q04671"
+   ],
+   "sugarcode_accession": "Q04671",
+   "match": true,
+   "sugarcode_gene_names": [
+    "OCA2"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "PALB2",
+   "hgnc_uniprot": [
+    "Q86YC2"
+   ],
+   "sugarcode_accession": "Q86YC2",
+   "match": true,
+   "sugarcode_gene_names": [
+    "PALB2"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "PIK3CA",
+   "hgnc_uniprot": [
+    "P42336"
+   ],
+   "sugarcode_accession": "P42336",
+   "match": true,
+   "sugarcode_gene_names": [
+    "PIK3CA"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "PTEN",
+   "hgnc_uniprot": [
+    "P60484"
+   ],
+   "sugarcode_accession": "P60484",
+   "match": true,
+   "sugarcode_gene_names": [
+    "PTEN"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "RB1",
+   "hgnc_uniprot": [
+    "P06400"
+   ],
+   "sugarcode_accession": "P06400",
+   "match": true,
+   "sugarcode_gene_names": [
+    "RB1"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "RUNX1",
+   "hgnc_uniprot": [
+    "Q01196"
+   ],
+   "sugarcode_accession": "Q01196",
+   "match": true,
+   "sugarcode_gene_names": [
+    "RUNX1"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "SCN5A",
+   "hgnc_uniprot": [
+    "Q14524"
+   ],
+   "sugarcode_accession": "Q14524",
+   "match": true,
+   "sugarcode_gene_names": [
+    "SCN5A"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "SLC24A5",
+   "hgnc_uniprot": [
+    "Q71RS6"
+   ],
+   "sugarcode_accession": "Q71RS6",
+   "match": true,
+   "sugarcode_gene_names": [
+    "SLC24A5"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "SMAD4",
+   "hgnc_uniprot": [
+    "Q13485"
+   ],
+   "sugarcode_accession": "Q13485",
+   "match": true,
+   "sugarcode_gene_names": [
+    "SMAD4"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "SOD1",
+   "hgnc_uniprot": [
+    "P00441"
+   ],
+   "sugarcode_accession": "P00441",
+   "match": true,
+   "sugarcode_gene_names": [
+    "SOD1"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "STK11",
+   "hgnc_uniprot": [
+    "Q15831"
+   ],
+   "sugarcode_accession": "Q15831",
+   "match": true,
+   "sugarcode_gene_names": [
+    "STK11"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "TET2",
+   "hgnc_uniprot": [
+    "Q6N021"
+   ],
+   "sugarcode_accession": "Q6N021",
+   "match": true,
+   "sugarcode_gene_names": [
+    "TET2"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "TP53",
+   "hgnc_uniprot": [
+    "P04637"
+   ],
+   "sugarcode_accession": "P04637",
+   "match": true,
+   "sugarcode_gene_names": [
+    "TP53"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "TTN",
+   "hgnc_uniprot": [
+    "Q8WZ42"
+   ],
+   "sugarcode_accession": "Q8WZ42",
+   "match": true,
+   "sugarcode_gene_names": [
+    "TTN"
+   ],
+   "length_ok": true
+  },
+  {
+   "gene": "VHL",
+   "hgnc_uniprot": [
+    "P40337"
+   ],
+   "sugarcode_accession": "P40337",
+   "match": true,
+   "sugarcode_gene_names": [
+    "VHL"
+   ],
+   "length_ok": true
+  }
+ ],
+ "before_fix": {
+  "sugarcode_commit": "143d1c4",
+  "match": 59,
+  "n": 60,
+  "mismatches": [
+   {
+    "gene": "CDKN2A",
+    "hgnc_uniprot": [
+     "P42771",
+     "Q8N726"
+    ],
+    "sugarcode_accession": "Q9UH64",
+    "match": false,
+    "sugarcode_gene_names": [
+     "CDKN2A-AS1"
+    ],
+    "length_ok": true
+   }
+  ]
+ },
+ "fixed_in_sugarcode_commit": "6c11d68",
+ "cache_bug": {
+  "before": "cache file = abs(hash(url)); Python salts str hash per process, so the cache never hit in a new process and offline=True always raised",
+  "after": "sha256(url); verified: new process with offline=True returns P04637 (TP53) and P42771 (CDKN2A) from cache",
+  "modules": [
+   "bio.uniprot",
+   "bio.chembl",
+   "bio.gnomad",
+   "bio.structures"
+  ]
+ }
+}

@@ -1,5 +1,5 @@
 \section{Module inventory and validation coverage}
-sugarcode-ai contains 95 application modules and 32 bio/ libraries. 36 of these 127 have been checked against an independent reference on real data in this work (11 modules, 25 libraries). The rest are not yet validated. That does not mean they are wrong, only that no claim about them is made here. Validation status is a curated list tied to committed result files (manifests/module\_inventory.tsv, built by sweep/module\_inventory.py), not a keyword match.
+sugarcode-ai contains 95 application modules and 32 bio/ libraries. 37 of these 127 have been checked against an independent reference on real data in this work (11 modules, 26 libraries). The rest are not yet validated. That does not mean they are wrong, only that no claim about them is made here. Validation status is a curated list tied to committed result files (manifests/module\_inventory.tsv, built by sweep/module\_inventory.py), not a keyword match.
 \begin{center}\scriptsize\begin{longtable}{llrl}\hline kind & name & py lines & status\\\hline\endhead
 bio & align & 164 & \textbf{validated}\\
 bio & bed & 180 & \textbf{validated}\\
@@ -24,7 +24,8 @@ bio & rnaseq & 201 & \textbf{validated}\\
 bio & sam & 221 & \textbf{validated}\\
 bio & sequence & 174 & \textbf{validated}\\
 bio & stockholm & 260 & \textbf{validated}\\
-bio & structures & 266 & \textbf{validated}\\
+bio & structures & 267 & \textbf{validated}\\
+bio & uniprot & 106 & \textbf{validated}\\
 bio & vcf & 263 & \textbf{validated}\\
 module & chem\_descriptors & 923 & \textbf{validated}\\
 module & chem\_similarity & 234 & \textbf{validated}\\
@@ -37,13 +38,12 @@ module & neohunter & 358 & \textbf{validated}\\
 module & pgx\_guidelines & 287 & \textbf{validated}\\
 module & profile\_hmm & 747 & \textbf{validated}\\
 module & rna\_nussinov & 387 & \textbf{validated}\\
-bio & chembl & 175 & not yet\\
+bio & chembl & 176 & not yet\\
 bio & entrez & 186 & not yet\\
 bio & fasta & 55 & not yet\\
-bio & gnomad & 95 & not yet\\
+bio & gnomad & 96 & not yet\\
 bio & reactome & 63 & not yet\\
 bio & splice & 682 & not yet\\
-bio & uniprot & 98 & not yet\\
 module & acmg\_bayesian & 457 & not yet\\
 module & alpha\_fold\_ui & 404 & not yet\\
 module & bio\_copilot & 245 & not yet\\
@@ -57,7 +57,7 @@ module & bioprint\_pro & 143 & not yet\\
 module & biosimvr & 200 & not yet\\
 module & car\_t\_designer & 104 & not yet\\
 module & cell\_free\_opt & 107 & not yet\\
-module & cell\_twin & 169 & not yet\\
+module & cell\_twin & 170 & not yet\\
 module & cellfatenet & 199 & not yet\\
 module & cellpainter & 289 & not yet\\
 module & cellpainter\_4d & 164 & not yet\\
