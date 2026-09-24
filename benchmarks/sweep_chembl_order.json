@@ -1,0 +1,175 @@
+{
+ "reference": "ChEMBL API order_by=standard_value (relation =)",
+ "rows": [
+  {
+   "gene": "EGFR",
+   "target": "CHEMBL203",
+   "total_activities": 21238,
+   "ours_min_nM": 0.01,
+   "global_min_nM": 5.012e-09,
+   "best_valid_pchembl": 11.0,
+   "best_valid_nM": 0.01,
+   "ours_best_pchembl": 11.0,
+   "ours_top10_in_global_top10": 1
+  },
+  {
+   "gene": "ABL1",
+   "target": "CHEMBL1862",
+   "total_activities": 6290,
+   "ours_min_nM": 0.015,
+   "global_min_nM": 0.015,
+   "best_valid_pchembl": 10.82,
+   "best_valid_nM": 0.015,
+   "ours_best_pchembl": 10.82,
+   "ours_top10_in_global_top10": 5
+  },
+  {
+   "gene": "BRAF",
+   "target": "CHEMBL5145",
+   "total_activities": 9702,
+   "ours_min_nM": 0.02,
+   "global_min_nM": 0.02,
+   "best_valid_pchembl": 10.7,
+   "best_valid_nM": 0.02,
+   "ours_best_pchembl": 10.7,
+   "ours_top10_in_global_top10": 8
+  },
+  {
+   "gene": "JAK2",
+   "target": "CHEMBL2971",
+   "total_activities": 18707,
+   "ours_min_nM": 0.0106,
+   "global_min_nM": 0.0,
+   "best_valid_pchembl": 10.97,
+   "best_valid_nM": 0.0106,
+   "ours_best_pchembl": 10.97,
+   "ours_top10_in_global_top10": 2
+  },
+  {
+   "gene": "FLT3",
+   "target": "CHEMBL1974",
+   "total_activities": 6684,
+   "ours_min_nM": 0.01,
+   "global_min_nM": 0.002,
+   "best_valid_pchembl": 11.0,
+   "best_valid_nM": 0.01,
+   "ours_best_pchembl": 11.0,
+   "ours_top10_in_global_top10": 4
+  },
+  {
+   "gene": "ERBB2",
+   "target": "CHEMBL1824",
+   "total_activities": 3534,
+   "ours_min_nM": 0.04,
+   "global_min_nM": 0.04,
+   "best_valid_pchembl": 10.4,
+   "best_valid_nM": 0.04,
+   "ours_best_pchembl": 10.4,
+   "ours_top10_in_global_top10": 10
+  },
+  {
+   "gene": "PIK3CA",
+   "target": "CHEMBL4005",
+   "total_activities": 9583,
+   "ours_min_nM": 0.016,
+   "global_min_nM": 0.008,
+   "best_valid_pchembl": 10.8,
+   "best_valid_nM": 0.016,
+   "ours_best_pchembl": 10.8,
+   "ours_top10_in_global_top10": 3
+  },
+  {
+   "gene": "IDH1",
+   "target": "CHEMBL2007625",
+   "total_activities": 9132,
+   "ours_min_nM": 0.04,
+   "global_min_nM": 0.0,
+   "best_valid_pchembl": 10.4,
+   "best_valid_nM": 0.04,
+   "ours_best_pchembl": 10.4,
+   "ours_top10_in_global_top10": 4
+  },
+  {
+   "gene": "ALK",
+   "target": "CHEMBL4247",
+   "total_activities": 4300,
+   "ours_min_nM": 0.07,
+   "global_min_nM": 0.07,
+   "best_valid_pchembl": 10.15,
+   "best_valid_nM": 0.07,
+   "ours_best_pchembl": 10.15,
+   "ours_top10_in_global_top10": 10
+  },
+  {
+   "gene": "KIT",
+   "target": "CHEMBL1936",
+   "total_activities": 6127,
+   "ours_min_nM": 0.02,
+   "global_min_nM": 0.02,
+   "best_valid_pchembl": 10.7,
+   "best_valid_nM": 0.02,
+   "ours_best_pchembl": 10.7,
+   "ours_top10_in_global_top10": 6
+  },
+  {
+   "gene": "CDK4",
+   "target": "CHEMBL331",
+   "total_activities": 1731,
+   "ours_min_nM": 0.026,
+   "global_min_nM": 0.007,
+   "best_valid_pchembl": 10.59,
+   "best_valid_nM": 0.026,
+   "ours_best_pchembl": 10.59,
+   "ours_top10_in_global_top10": 9
+  },
+  {
+   "gene": "DRD2",
+   "target": "CHEMBL217",
+   "total_activities": 13215,
+   "ours_min_nM": 0.0149,
+   "global_min_nM": -0.63,
+   "best_valid_pchembl": 10.83,
+   "best_valid_nM": 0.0149,
+   "ours_best_pchembl": 10.83,
+   "ours_top10_in_global_top10": 0
+  }
+ ],
+ "n_targets": 12,
+ "n_ours_min_equals_global": 5,
+ "n_ours_best_equals_best_valid_pchembl": 12,
+ "note": "global_min_nM includes ChEMBL data-entry artefacts (0.0 nM, negative values, 5e-9 nM) that carry no pChEMBL; best_valid_* uses only activities with a pChEMBL value",
+ "before_fix": {
+  "sugarcode_commit": "93d5b12",
+  "ours_best_nM": {
+   "EGFR": 0.45,
+   "ABL1": 1200.0,
+   "BRAF": 0.3,
+   "JAK2": 1.0,
+   "FLT3": 0.8,
+   "ERBB2": 5.0,
+   "PIK3CA": 1.0,
+   "IDH1": 70.0,
+   "ALK": 0.4,
+   "KIT": 4.0,
+   "CDK4": 10.0,
+   "DRD2": 0.031
+  },
+  "n_ours_min_equals_global": 0,
+  "top10_overlap": {
+   "EGFR": 0,
+   "ABL1": 0,
+   "BRAF": 0,
+   "JAK2": 0,
+   "FLT3": 0,
+   "ERBB2": 0,
+   "PIK3CA": 0,
+   "IDH1": 0,
+   "ALK": 1,
+   "KIT": 0,
+   "CDK4": 0,
+   "DRD2": 0
+  }
+ },
+ "fixed_in_sugarcode_commit": "c6db085",
+ "circularity": "After the fix sugarcode asks ChEMBL for the same pChEMBL ordering the reference uses, so 12/12 checks the request, not an independent ranking; the evidence for the bug is the before_fix column."
+}

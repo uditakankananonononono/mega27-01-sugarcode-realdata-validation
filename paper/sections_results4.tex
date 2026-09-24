@@ -138,3 +138,20 @@ bio.entrez.gene\_id resolves a symbol to an NCBI Gene ID and feeds the gene-anal
 \paragraph{(F57) Symbol resolution rule.} Given candidate IDs $u_1,\dots,u_r$ from an alias-aware search, return $u^*=u_{\min\{i:\,\mathrm{sym}(u_i)=q\}}$ if that set is non-empty, else $u_1$; an alias match is used only when no official-symbol match exists.
 \subsection{Reactome pathway mapping}
 bio.reactome.pathways\_for\_uniprot asks Reactome's live ContentService which lowest-level pathways contain a protein. As an independent check we used Reactome's own bulk file UniProt2Reactome.txt for the 61 HGNC-curated UniProt accessions of our 60 genes. A first comparison against canonical-accession rows matched only 59/61: KRAS (P01116) has 9 canonical rows but the service returned 71 pathways, and LMNA (P02545) 2 vs 8. The service pools the isoform rows (P01116-1, P01116-2); pooling them in the file gives 61/61 identical sets (775 = 775 protein-pathway pairs). No bug, but a caveat for users: KRAS4A and KRAS4B pathways come back together.
+\subsection{ChEMBL activities: ``best first' from an arbitrary page}
+bio.chembl.activities\_for\_target promises measured IC50/Ki/Kd values `best first'. It fetched the first 50 rows in ChEMBL's default order and sorted those, so `best' meant best of an arbitrary page. On 12 cancer and CNS targets (between 1,731 and 21,238 activities each) the old top-10 shared at most one molecule with the true top-10, and the reported best was far from the real one; for ABL1 it was 1,200 nM when ChEMBL holds exact measurements at 0.015 nM. The function now asks ChEMBL to sort all activities that carry a pChEMBL value by pChEMBL, descending (sugarcode c6db085). The best value now equals the best pChEMBL-valid measurement on 12/12 targets; this check is partly circular because the reference uses the same ordering, so the evidence for the bug is the before-fix column. Restricting to pChEMBL also drops data-entry artefacts that sort first by raw value: 0.0 nM (JAK2, IDH1), $5\times10^{-9}$ nM (EGFR) and $-0.63$ nM (DRD2).
+\begin{table}[h]\centering\small\begin{tabular}{lrrrr}\hline target & activities & best before (nM) & best after (nM) & pChEMBL\\\hline
+EGFR & 21,238 & 0.45 & 0.01 & 11.00\\
+ABL1 & 6,290 & 1200 & 0.015 & 10.82\\
+BRAF & 9,702 & 0.3 & 0.02 & 10.70\\
+JAK2 & 18,707 & 1 & 0.0106 & 10.97\\
+FLT3 & 6,684 & 0.8 & 0.01 & 11.00\\
+ERBB2 & 3,534 & 5 & 0.04 & 10.40\\
+PIK3CA & 9,583 & 1 & 0.016 & 10.80\\
+IDH1 & 9,132 & 70 & 0.04 & 10.40\\
+ALK & 4,300 & 0.4 & 0.07 & 10.15\\
+KIT & 6,127 & 4 & 0.02 & 10.70\\
+CDK4 & 1,731 & 10 & 0.026 & 10.59\\
+DRD2 & 13,215 & 0.031 & 0.0149 & 10.83\\
+\hline\end{tabular}\caption{Best reported activity per target before and after the fix (benchmarks/sweep\_chembl\_order.json).}\end{table}
+\paragraph{(F58) pChEMBL.} $\mathrm{pChEMBL}=-\log_{10}(A\cdot10^{-9})$ for an activity $A$ in nM with an exact relation; ranking by pChEMBL descending equals ranking by $A$ ascending on valid records, and $A\le0$ has no pChEMBL.

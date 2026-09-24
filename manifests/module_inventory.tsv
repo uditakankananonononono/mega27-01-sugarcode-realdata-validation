@@ -96,7 +96,7 @@ module	vector_opt	95	2	not yet validated
 module	virtual_cell	504	3	not yet validated	
 bio	align	164	1	validated	benchmarks/sweep_align_parasail.json
 bio	bed	180	1	validated	benchmarks/sweep_bed_bioframe.json
-bio	chembl	176	0	not yet validated	
+bio	chembl	184	0	validated	benchmarks/sweep_chembl_order.json
 bio	codon	170	2	validated	benchmarks/sweep_codon_cai.json
 bio	de	218	2	validated	benchmarks/sweep_de_pydeseq2.json
 bio	entrez	196	2	validated	benchmarks/sweep_entrez_hgnc.json
