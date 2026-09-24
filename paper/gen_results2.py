@@ -71,3 +71,12 @@ A=['\\section{Accession-Level Dataset Manifest}','Each row is one identifier-bac
 for i,r in enumerate(csv.DictReader(open('../manifests/accessions.tsv'),delimiter='\t'),1): A.append(f"{i} & {esc(r['kind'])} & {esc(r['study_id'])} & {esc(r['accession'])} & {esc(r['used_in'])}\\\\")
 A.append('\\hline\\end{longtable}}'); open('sections_accessions.tex','w').write('\n'.join(A)+'\n')
 print('ok', len(o), len(A))
+# ---- SASA and primer (appended)
+sa=json.load(open(B+'sweep_sasa_freesasa.json')); ar=json.load(open(B+'sasa_altloc_recheck.json'))['after_altloc_fix']; pr=json.load(open(B+'sweep_primer_primer3.json'))
+okS=[x for x in sa['per_structure'] if 'error' not in x]; bad=[x for x in sa['per_structure'] if 'error' in x]
+X=['\\section{Structure and Primer Utilities Against Reference Tools}',
+ f"\\paragraph{{SASA.}} Against {esc(sa['tool'])} on {len(sa['per_structure'])} RCSB receptors, the {sa['n']} structures with identical atom sets agreed to a median relative difference of {sa['median_rel_diff']*100:.1f}\\% (max {sa['max_abs_rel_diff']*100:.1f}\\%) with median per-atom Pearson {sa['median_per_atom_pearson']:.3f}. "
+ f"The other {len(bad)} exposed a parser bug: every alternate location was kept, so overlapping conformers were all counted. After the fix, atom counts match and per-atom Pearson is "+', '.join(f"{x['per_atom_pearson']} ({x['pdb']})" for x in ar)+".",
+ f"\\paragraph{{Primers.}} On {pr['n_oligos']} 20-mers from {', '.join(pr['transcripts'])}, the melting temperature equals Biopython's DNA\\_NN4 result (max difference {pr['tm_vs_biopython_NN4']['max_abs_diff']}). Against primer3 (SantaLucia 1998 table) the mean difference is {pr['tm_vs_primer3']['mean_diff']}\\,$^\\circ$C (max {pr['tm_vs_primer3']['max_abs_diff']}), a table choice. "
+ f"The stem-length hairpin heuristic has Spearman {pr['hairpin_stem_vs_primer3_dG_spearman']} with primer3's hairpin $\\Delta G$, a negative result; the module now calls primer3 when installed."]
+open('sections_results2.tex','a').write('\n'.join(X)+'\n')
