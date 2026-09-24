@@ -205,3 +205,4 @@ opentree_node	ott691846	Open Tree of Life synthetic subtree rooted at ott691846 
 opentree_node	ott81461	Open Tree of Life synthetic subtree rooted at ott81461 (height_limit 7)	ott81461	sweep/newick_vs_biophylo.py
 opentree_node	ott913935	Open Tree of Life synthetic subtree rooted at ott913935 (height_limit 7)	ott913935	sweep/newick_vs_biophylo.py
 study	NA12878_chr20_lowcov	1000 Genomes phase 3 NA12878 chrom20 low-coverage BAM, region 20:1000000-1200000 (10,943 reads)	NA12878.chrom20.ILLUMINA.bwa.CEU.low_coverage.20121211.bam	sweep/sam_vs_pysam.py
+study	SRR622461	ENA run SRR622461 read 1 FASTQ, first 20,000 reads	SRR622461	sweep/fastq_vs_biopython.py

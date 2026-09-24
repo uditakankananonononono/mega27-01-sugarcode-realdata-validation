@@ -118,3 +118,6 @@ NCBI RefSeq E. coli K-12 MG1655 annotation (GCF_000005845.2_ASM584v2_genomic.gff
 
 ## bio.sam vs pysam/htslib (2026-09-25)
 10,943 real reads (1000 Genomes NA12878 chr20:1.0-1.2 Mb, low-coverage bwa BAM): qname, flag, rname, pos, mapq, CIGAR ops, mate fields, seq, qual and typed tags equal pysam for 10,943/10,943. BUG FOUND in alignment_end: 38 unmapped mates (flag 0x4) that bwa places at the mate's position with a CIGAR got an end coordinate; htslib gives none. Fixed in sugarcode-ai 87cf78e: 10,905 -> 10,943/10,943. Numbers: benchmarks/sweep_sam_pysam.json.
+
+## bio.fastq vs Biopython SeqIO (2026-09-25)
+First 20,000 reads of ENA SRR622461_1 (NA12878): ids, sequences and per-base Phred equal Biopython for 20,000/20,000; mean Phred identical; offset detected as 33; round trip lossless. GC 0.4252 equals Biopython gc_fraction(ambiguous='remove'), i.e. N excluded from the denominator (0.4220 with 'ignore'); convention documented, not a bug. VERIFIED. Numbers: benchmarks/sweep_fastq_biopython.json.
