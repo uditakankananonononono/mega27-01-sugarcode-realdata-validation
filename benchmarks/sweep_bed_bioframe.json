@@ -1,0 +1,34 @@
+{
+ "reference": "bioframe 0.8.0 (merge, overlap)",
+ "note": "Before sugarcode fix (sc-ai fc1fd1e) merge_intervals refused to join book-ended intervals despite a bedtools-style docstring: rmsk 11,364 merged vs bioframe/bedtools 8,251 (3,112 book-ended pairs). After fix (min_dist=0 default, min_dist=-1 strict) identical.",
+ "before_fix": {
+  "rmsk_chr20_0_5Mb_merged_sugarcode": 11364,
+  "cpgIslandExt_chr20_merged_sugarcode": 847
+ },
+ "sets": {
+  "cpgIslandExt_chr20": {
+   "n": 847,
+   "parse_equal": true,
+   "bookended_pairs_in_input": 0,
+   "merged_sugarcode": 847,
+   "merged_bioframe_min_dist0": 847,
+   "equal_to_bioframe_min_dist0": true,
+   "bioframe_strict": "min_dist>=0 currently required",
+   "equal_to_bioframe_strict": false,
+   "overlap_queries": 300,
+   "overlap_sets_equal": 300
+  },
+  "rmsk_chr20_0_5Mb": {
+   "n": 11699,
+   "parse_equal": true,
+   "bookended_pairs_in_input": 3112,
+   "merged_sugarcode": 8251,
+   "merged_bioframe_min_dist0": 8251,
+   "equal_to_bioframe_min_dist0": true,
+   "bioframe_strict": "min_dist>=0 currently required",
+   "equal_to_bioframe_strict": false,
+   "overlap_queries": 300,
+   "overlap_sets_equal": 300
+  }
+ }
+}
