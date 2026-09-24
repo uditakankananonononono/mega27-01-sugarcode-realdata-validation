@@ -182,3 +182,6 @@ No code bug. 5,310 guides, 17 genes. Spearman vs measured: RS2+position 0.7106, 
 
 ## modules.gene_analysis.power_estimate vs statsmodels NormalIndPower (2026-09-25)
 BUG FIXED (sugarcode 4defcdb). Two-entry z table matched 7/41 grid cases (power 0.5 gave 16 vs 8; power 0.99 gave 21 vs 37); exact quantiles now 41/41. Formula check only; rest of gene_analysis not validated (not counted in inventory). benchmarks/sweep_power_statsmodels.json
+
+## modules.qsar_bench descriptors vs RDKit on 993 ChEMBL phase-4 drugs (2026-09-25)
+BUG FIXED (sugarcode bf8665b). Before: 110/993 rejected (stereo bonds, salt ions); on 883 parsed MW 843, rotatable 96 (vs NonStrict), fraction_csp3 296. After: 993/993 parse; MW, heavy/hetero atoms, charge, ring rank, rotatable (NonStrict), fraction_csp3 all 993/993; HBD 992/993; HBA heuristic 264/993 (labelled). benchmarks/sweep_qsar_descriptors.json

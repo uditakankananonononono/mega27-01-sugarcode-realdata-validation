@@ -1,0 +1,150 @@
+{
+ "reference": "RDKit 2026.03.6",
+ "n_molecules_rdkit_parsed": 993,
+ "n_scored": 993,
+ "parse_failures": 0,
+ "parse_failure_examples": [],
+ "agreement": {
+  "molecular_weight": {
+   "match": 993,
+   "n": 993
+  },
+  "heavy_atoms": {
+   "match": 993,
+   "n": 993
+  },
+  "hetero_atoms": {
+   "match": 993,
+   "n": 993
+  },
+  "formal_charge": {
+   "match": 993,
+   "n": 993
+  },
+  "hbd_heuristic": {
+   "match": 992,
+   "n": 993
+  },
+  "hba_heuristic": {
+   "match": 264,
+   "n": 993
+  },
+  "rotatable_bonds_heuristic": {
+   "match": 993,
+   "n": 993
+  },
+  "ring_rank": {
+   "match": 993,
+   "n": 993
+  },
+  "fraction_csp3": {
+   "match": 993,
+   "n": 993
+  }
+ },
+ "mismatch_examples": {
+  "molecular_weight": [],
+  "heavy_atoms": [],
+  "hetero_atoms": [],
+  "formal_charge": [],
+  "hbd_heuristic": [
+   [
+    "CHEMBL419213",
+    "NCCCC[C@H](N[C@@H](CCc1ccccc1)C(=O)O)C(=O)N1CCC[C@H]1C(=O)O.O.O",
+    6.0,
+    4
+   ]
+  ],
+  "hba_heuristic": [
+   [
+    "CHEMBL2",
+    "COc1cc2nc(N3CCN(C(=O)c4ccco4)CC3)nc(N)c2cc1OC",
+    9.0,
+    8
+   ],
+   [
+    "CHEMBL4",
+    "CC1COc2c(N3CCN(C)CC3)c(F)cc3c(=O)c(C(=O)O)cn1c23",
+    8.0,
+    5
+   ],
+   [
+    "CHEMBL5",
+    "CCn1cc(C(=O)O)c(=O)c2ccc(C)nc21",
+    5.0,
+    3
+   ],
+   [
+    "CHEMBL6",
+    "COc1ccc2c(c1)c(CC(=O)O)c(C)n2C(=O)c1ccc(Cl)cc1",
+    6.0,
+    3
+   ],
+   [
+    "CHEMBL403",
+    "CC1(C)[C@H](C(=O)O)N2C(=O)C[C@H]2S1(=O)=O",
+    7.0,
+    4
+   ]
+  ],
+  "rotatable_bonds_heuristic": [],
+  "ring_rank": [],
+  "fraction_csp3": []
+ },
+ "rotatable_vs_rdkit_default_strict": {
+  "match": 655,
+  "n": 993
+ },
+ "note": "rotatable_bonds reference is RDKit NonStrict (SMARTS [!$(*#*)&!D1]-&!@[!$(*#*)&!D1]); RDKit default Strict additionally excludes amide C-N and similar bonds",
+ "pre_fix": {
+  "sugarcode_commit": "4defcdb",
+  "n_scored": 883,
+  "parse_failures": 110,
+  "agreement": {
+   "molecular_weight": {
+    "match": 843,
+    "n": 883
+   },
+   "heavy_atoms": {
+    "match": 883,
+    "n": 883
+   },
+   "hetero_atoms": {
+    "match": 883,
+    "n": 883
+   },
+   "formal_charge": {
+    "match": 883,
+    "n": 883
+   },
+   "hbd_heuristic": {
+    "match": 852,
+    "n": 883
+   },
+   "hba_heuristic": {
+    "match": 241,
+    "n": 883
+   },
+   "rotatable_bonds_heuristic": {
+    "match": 96,
+    "n": 883
+   },
+   "ring_rank": {
+    "match": 883,
+    "n": 883
+   },
+   "fraction_csp3": {
+    "match": 296,
+    "n": 883
+   }
+  },
+  "causes": [
+   "/ and \\ directional (stereo) bonds rejected as malformed SMILES (88 molecules)",
+   "salt counter-ions Na, K, Ag unsupported (22)",
+   "implicit H added to charged bracket atoms such as [O-] (MW off by 1.008 per atom)",
+   "rotatable bonds = non-terminal single bonds minus ring rank, so ring bonds counted",
+   "fraction_csp3 counted every non-aromatic carbon, including C=O and C=C"
+  ]
+ },
+ "post_fix_sugarcode_commit": "bf8665b"
+}
