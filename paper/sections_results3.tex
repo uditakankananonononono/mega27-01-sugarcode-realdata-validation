@@ -46,6 +46,36 @@ Response to metal ions & 5 & 21 & 0.0016 & 0.17\\
 \subsection{Protein interaction network}
 STRING's PPI enrichment test on the top 300 dex-induced genes mapped 284 proteins with 402 edges against 184 expected (average degree 2.83, local clustering 0.368), reported $p$ below floating-point resolution. Caveat: STRING's expectation uses a genome-wide background, so genes expressed in airway smooth muscle may be more connected than random genes regardless of dex.
 \paragraph{(F30) Edge enrichment ratio.} $E=\,$observed edges$/$expected edges$=402/184=2.18$.
+\subsection{Rank-based test: preranked GSEA}
+Threshold-based over-representation throws away the ranking. We therefore ran preranked GSEA (gseapy 1.3.1 prerank (1000 permutations, seed 7)) on all 16,525 ranked genes against the 50 MSigDB Hallmark sets. 1 set passed FDR$<0.05$ and 5 passed FDR$<0.25$ (Table~\ref{tab:gsea}). The one significant set, Adipogenesis, is a known glucocorticoid-driven programme; this is a modest, single-set result.
+\paragraph{(F32) Enrichment score.} With ranked scores $r_j$ and set $S$, $P_{hit}(i)=\sum_{j\le i, g_j\in S}|r_j|/N_R$, $P_{miss}(i)=\sum_{j\le i, g_j\notin S}1/(N-N_S)$, and $ES=\max_i|P_{hit}(i)-P_{miss}(i)|$ (signed).
+\paragraph{(F33) Normalised ES.} $NES=ES/\overline{ES_{\pi}^{\pm}}$, the mean of same-sign permutation scores; FDR compares $NES$ with the permutation distribution of all sets.
+\begin{table}[h]\centering\small\begin{tabular}{lrrr}\hline Hallmark set & NES & nominal $p$ & FDR\\\hline
+Adipogenesis & 1.70 & 0 & 0.038\\
+UV Response Up & 1.55 & 0.00567 & 0.107\\
+Fatty Acid Metabolism & 1.55 & 0.00559 & 0.131\\
+TNF-alpha Signaling via NF-kB & 1.50 & 0.00273 & 0.141\\
+Reactive Oxygen Species Pathway & 1.57 & 0.0249 & 0.156\\
+Androgen Response & 1.39 & 0.0557 & 0.256\\
+Xenobiotic Metabolism & 1.42 & 0.0287 & 0.266\\
+Hypoxia & 1.39 & 0.0294 & 0.275\\
+UV Response Dn & 1.36 & 0.0591 & 0.280\\
+mTORC1 Signaling & -1.31 & 0.0361 & 0.283\\
+\hline\end{tabular}\caption{Preranked GSEA, Hallmark (benchmarks/sweep\_dex\_gsea\_hallmark.json).}\label{tab:gsea}\end{table}
+\subsection{Independent GO cross-check with goatools}
+goatools (Fisher exact, BH, propagated counts, GOA human annotations, background of 16,525 expressed genes, 527 study genes) found 38 GO:BP terms at FDR$<0.05$. Of g:Profiler's 22 top BP terms, 9 are also significant here. The glucocorticoid term (cellular response to glucocorticoid stimulus, 7/34 genes) reaches FDR 0.026 under BH but fails g:Profiler's g:SCS. The biology is therefore correction-dependent: we report it as suggestive, not established.
+\begin{table}[h]\centering\small\begin{tabular}{llrrr}\hline GO & Term & study & pop & FDR\\\hline
+GO:0032870 & cellular response to hormone stimulus & 28 & 249 & 3.4e-05\\
+GO:0009725 & response to hormone & 38 & 421 & 3.4e-05\\
+GO:0007155 & cell adhesion & 39 & 513 & 0.00098\\
+GO:0032502 & developmental process & 132 & 2766 & 0.0011\\
+GO:0007165 & signal transduction & 130 & 2703 & 0.0011\\
+GO:0030334 & regulation of cell migration & 47 & 689 & 0.0011\\
+GO:2000145 & regulation of cell motility & 48 & 719 & 0.0012\\
+GO:0044057 & regulation of system process & 28 & 322 & 0.0015\\
+GO:0071495 & cellular response to endogenous stimulus & 33 & 419 & 0.0022\\
+GO:0040012 & regulation of locomotion & 48 & 740 & 0.0022\\
+\hline\end{tabular}\caption{goatools GO:BP (benchmarks/sweep\_dex\_goatools.json).}\end{table}
 \section{Pairwise alignment against parasail}
 We aligned all 300 pairs of 25 protein sequences with sugarcode and parasail 2.6.1. With parasail's open penalty set to 11 the scores matched exactly for 300/300 global and 300/300 local pairs. With open penalty 12 only 36 and 65 matched (maximum difference 26 and 5). This fixes the convention: sugarcode's gap\_open$=-11$ is the cost of the first gap residue, i.e. parasail open 11.
 \paragraph{(F31) Affine gap cost.} A gap of length $L$ costs $\gamma(L)=o+(L-1)e$ under sugarcode and parasail open$=11$; under the alternative convention $\gamma(L)=o+Le$, which explains the open-12 mismatch.
