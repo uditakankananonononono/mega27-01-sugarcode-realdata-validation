@@ -369,3 +369,23 @@ ensembl_transcript	ENSMUST00000037235	Ensembl cDNA+CDS sequence fetch (rest.ense
 ensembl_transcript	ENSMUST00000040967	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENSMUST00000040967	sweep/rna_decoder_m6a.py
 ensembl_transcript	ENSMUST00000042203	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENSMUST00000042203	sweep/rna_decoder_m6a.py
 ensembl_transcript	ENSMUST00000042227	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENSMUST00000042227	sweep/rna_decoder_m6a.py
+pmid	37278811	PubMed record via E-utilities esearch+efetch (2026-09-25)	PMID 37278811	sweep/evidence_mining_live.py
+pmid	40163448	PubMed record via E-utilities esearch+efetch (2026-09-25)	PMID 40163448	sweep/evidence_mining_live.py
+pmid	32154747	PubMed record via E-utilities esearch+efetch (2026-09-25)	PMID 32154747	sweep/evidence_mining_live.py
+pmid	31626570	PubMed record via E-utilities esearch+efetch (2026-09-25)	PMID 31626570	sweep/evidence_mining_live.py
+pmid	27394157	PubMed record via E-utilities esearch+efetch (2026-09-25)	PMID 27394157	sweep/evidence_mining_live.py
+pmid	30334692	PubMed record via E-utilities esearch+efetch (2026-09-25)	PMID 30334692	sweep/evidence_mining_live.py
+pmid	40418577	PubMed record via E-utilities esearch+efetch (2026-09-25)	PMID 40418577	sweep/evidence_mining_live.py
+pmid	39235967	PubMed record via E-utilities esearch+efetch (2026-09-25)	PMID 39235967	sweep/evidence_mining_live.py
+pmid	31999662	PubMed record via E-utilities esearch+efetch (2026-09-25)	PMID 31999662	sweep/evidence_mining_live.py
+pmid	27252987	PubMed record via E-utilities esearch+efetch (2026-09-25)	PMID 27252987	sweep/evidence_mining_live.py
+nct	NCT04235140	ClinicalTrials.gov v2 study record (2026-09-25)	NCT04235140	sweep/evidence_mining_live.py
+nct	NCT03029455	ClinicalTrials.gov v2 study record (2026-09-25)	NCT03029455	sweep/evidence_mining_live.py
+nct	NCT01614457	ClinicalTrials.gov v2 study record (2026-09-25)	NCT01614457	sweep/evidence_mining_live.py
+nct	NCT01937325	ClinicalTrials.gov v2 study record (2026-09-25)	NCT01937325	sweep/evidence_mining_live.py
+nct	NCT03525574	ClinicalTrials.gov v2 study record (2026-09-25)	NCT03525574	sweep/evidence_mining_live.py
+nct	NCT02797132	ClinicalTrials.gov v2 study record (2026-09-25)	NCT02797132	sweep/evidence_mining_live.py
+nct	NCT05699148	ClinicalTrials.gov v2 study record (2026-09-25)	NCT05699148	sweep/evidence_mining_live.py
+nct	NCT03085485	ClinicalTrials.gov v2 study record (2026-09-25)	NCT03085485	sweep/evidence_mining_live.py
+nct	NCT02965326	ClinicalTrials.gov v2 study record (2026-09-25)	NCT02965326	sweep/evidence_mining_live.py
+nct	NCT07363304	ClinicalTrials.gov v2 study record (2026-09-25)	NCT07363304	sweep/evidence_mining_live.py
