@@ -237,3 +237,8 @@ nuccore_record	NM_002524.5	NCBI nuccore GenBank flat file (efetch gbwithparts)	N
 nuccore_record	NM_004985.5	NCBI nuccore GenBank flat file (efetch gbwithparts)	NM_004985.5	sweep/genbank_vs_biopython.py
 study	29	UCSC hg38 cpgIslandExt track chr20 (api.genome.ucsc.edu getData/track)	hg38.cpgIslandExt.chr20	sweep/bed_vs_bioframe.py
 study	30	UCSC hg38 rmsk track chr20:0-5000000 (api.genome.ucsc.edu getData/track)	hg38.rmsk.chr20:0-5000000	sweep/bed_vs_bioframe.py
+nuccore_record	MG772933.1	NCBI nuccore FASTA (Bat SARS-like coronavirus isolate bat-SL-CoVZC45, complete g)	MG772933.1	sweep/kmer_vs_sourmash.py
+nuccore_record	MN996532.2	NCBI nuccore FASTA (Bat coronavirus RaTG13, complete genome)	MN996532.2	sweep/kmer_vs_sourmash.py
+nuccore_record	MT040333.1	NCBI nuccore FASTA (Pangolin coronavirus isolate PCoV_GX-P4L, complete genome)	MT040333.1	sweep/kmer_vs_sourmash.py
+nuccore_record	NC_004718.3	NCBI nuccore FASTA (SARS coronavirus Tor2, complete genome)	NC_004718.3	sweep/kmer_vs_sourmash.py
+nuccore_record	NC_019843.3	NCBI nuccore FASTA (Middle East respiratory syndrome-related coronavirus isolate)	NC_019843.3	sweep/kmer_vs_sourmash.py

@@ -42,3 +42,4 @@ gffutils	local 0.14	sweep/gff_vs_gffutils.py -> benchmarks/sweep_gff_gffutils.js
 gemmi	local 0.7.5	sweep/pdb_vs_gemmi.py -> benchmarks/sweep_pdb_gemmi.json
 UCSC Genome Browser REST API (phyloP100way)	live 2026-09-25	discovery/splice_region_vus/fetch_phylop_sub.py -> phylop_sub.tsv; phylop_lift.json
 bioframe	0.8.0	installed
+sourmash	4.8.14	installed

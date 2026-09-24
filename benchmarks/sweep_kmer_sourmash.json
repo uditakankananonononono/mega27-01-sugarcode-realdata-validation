@@ -1,0 +1,352 @@
+{
+ "reference": "sourmash 4.8.14",
+ "k": 21,
+ "genomes": {
+  "MG772933.1": {
+   "len": 29802,
+   "distinct_kmers_sugarcode": 29777,
+   "distinct_hashes_sourmash": 29777,
+   "equal": true
+  },
+  "MN996532.2": {
+   "len": 29855,
+   "distinct_kmers_sugarcode": 29835,
+   "distinct_hashes_sourmash": 29835,
+   "equal": true
+  },
+  "MT040333.1": {
+   "len": 29805,
+   "distinct_kmers_sugarcode": 29785,
+   "distinct_hashes_sourmash": 29785,
+   "equal": true
+  },
+  "NC_004718.3": {
+   "len": 29751,
+   "distinct_kmers_sugarcode": 29727,
+   "distinct_hashes_sourmash": 29727,
+   "equal": true
+  },
+  "NC_019843.3": {
+   "len": 30119,
+   "distinct_kmers_sugarcode": 30099,
+   "distinct_hashes_sourmash": 30099,
+   "equal": true
+  },
+  "NC_045512.2": {
+   "len": 29903,
+   "distinct_kmers_sugarcode": 29871,
+   "distinct_hashes_sourmash": 29871,
+   "equal": true
+  }
+ },
+ "pairs": [
+  {
+   "a": "MG772933.1",
+   "b": "MN996532.2",
+   "jaccard_exact_sugarcode": 0.07740967666142529,
+   "jaccard_sourmash_scaled1": 0.07740967666142529,
+   "abs_diff": 0.0,
+   "containment_a_in_b_sugarcode": 0.14383584645867617,
+   "containment_sourmash_scaled1": 0.14383584645867617,
+   "mash_distance_sugarcode": 0.09238361985206511,
+   "minimizer_w100_estimate": 0.05398230088495575,
+   "minimizer_sketch_sizes": [
+    585,
+    606
+   ],
+   "sourmash_scaled100_estimate": 0.0690846286701209,
+   "sourmash_sketch_sizes": [
+    325,
+    294
+   ]
+  },
+  {
+   "a": "MG772933.1",
+   "b": "MT040333.1",
+   "jaccard_exact_sugarcode": 0.03035964502568893,
+   "jaccard_sourmash_scaled1": 0.03035964502568893,
+   "abs_diff": 0.0,
+   "containment_a_in_b_sugarcode": 0.058938106592336365,
+   "containment_sourmash_scaled1": 0.058938106592336365,
+   "mash_distance_sugarcode": 0.1348286547313269,
+   "minimizer_w100_estimate": 0.03100088573959256,
+   "minimizer_sketch_sizes": [
+    585,
+    579
+   ],
+   "sourmash_scaled100_estimate": 0.02922077922077922,
+   "sourmash_sketch_sizes": [
+    325,
+    309
+   ]
+  },
+  {
+   "a": "MG772933.1",
+   "b": "NC_004718.3",
+   "jaccard_exact_sugarcode": 0.0390626364223724,
+   "jaccard_sourmash_scaled1": 0.0390626364223724,
+   "abs_diff": 0.0,
+   "containment_a_in_b_sugarcode": 0.07512509655102932,
+   "containment_sourmash_scaled1": 0.07512509655102932,
+   "mash_distance_sugarcode": 0.1232266987673703,
+   "minimizer_w100_estimate": 0.023893805309734513,
+   "minimizer_sketch_sizes": [
+    585,
+    572
+   ],
+   "sourmash_scaled100_estimate": 0.03459637561779242,
+   "sourmash_sketch_sizes": [
+    325,
+    303
+   ]
+  },
+  {
+   "a": "MG772933.1",
+   "b": "NC_019843.3",
+   "jaccard_exact_sugarcode": 5.0106057822390726e-05,
+   "jaccard_sourmash_scaled1": 5.0106057822390726e-05,
+   "abs_diff": 0.0,
+   "containment_a_in_b_sugarcode": 0.00010074890015783994,
+   "containment_sourmash_scaled1": 0.00010074890015783994,
+   "mash_distance_sugarcode": 0.4384891222289082,
+   "minimizer_w100_estimate": 0.0,
+   "minimizer_sketch_sizes": [
+    585,
+    574
+   ],
+   "sourmash_scaled100_estimate": 0.0,
+   "sourmash_sketch_sizes": [
+    325,
+    309
+   ]
+  },
+  {
+   "a": "MG772933.1",
+   "b": "NC_045512.2",
+   "jaccard_exact_sugarcode": 0.07942597585913606,
+   "jaccard_sourmash_scaled1": 0.07942597585913606,
+   "abs_diff": 0.0,
+   "containment_a_in_b_sugarcode": 0.14739564093091984,
+   "containment_sourmash_scaled1": 0.14739564093091984,
+   "mash_distance_sugarcode": 0.09124819179986113,
+   "minimizer_w100_estimate": 0.05856255545696539,
+   "minimizer_sketch_sizes": [
+    585,
+    608
+   ],
+   "sourmash_scaled100_estimate": 0.07925801011804384,
+   "sourmash_sketch_sizes": [
+    325,
+    315
+   ]
+  },
+  {
+   "a": "MN996532.2",
+   "b": "MT040333.1",
+   "jaccard_exact_sugarcode": 0.0393821586095082,
+   "jaccard_sourmash_scaled1": 0.0393821586095082,
+   "abs_diff": 0.0,
+   "containment_a_in_b_sugarcode": 0.07571644042232277,
+   "containment_sourmash_scaled1": 0.07571644042232277,
+   "mash_distance_sugarcode": 0.12285341286686255,
+   "minimizer_w100_estimate": 0.03765323992994746,
+   "minimizer_sketch_sizes": [
+    606,
+    579
+   ],
+   "sourmash_scaled100_estimate": 0.04145077720207254,
+   "sourmash_sketch_sizes": [
+    294,
+    309
+   ]
+  },
+  {
+   "a": "MN996532.2",
+   "b": "NC_004718.3",
+   "jaccard_exact_sugarcode": 0.024704951312665587,
+   "jaccard_sourmash_scaled1": 0.024704951312665587,
+   "abs_diff": 0.0,
+   "containment_a_in_b_sugarcode": 0.048131389307859894,
+   "containment_sourmash_scaled1": 0.048131389307859894,
+   "mash_distance_sugarcode": 0.14438138741188866,
+   "minimizer_w100_estimate": 0.011158798283261802,
+   "minimizer_sketch_sizes": [
+    606,
+    572
+   ],
+   "sourmash_scaled100_estimate": 0.011864406779661017,
+   "sourmash_sketch_sizes": [
+    294,
+    303
+   ]
+  },
+  {
+   "a": "MN996532.2",
+   "b": "NC_019843.3",
+   "jaccard_exact_sugarcode": 0.00015018773466833542,
+   "jaccard_sourmash_scaled1": 0.00015018773466833542,
+   "abs_diff": 0.0,
+   "containment_a_in_b_sugarcode": 0.00030165912518853697,
+   "containment_sourmash_scaled1": 0.00030165912518853697,
+   "mash_distance_sugarcode": 0.38622035608876387,
+   "minimizer_w100_estimate": 0.0,
+   "minimizer_sketch_sizes": [
+    606,
+    574
+   ],
+   "sourmash_scaled100_estimate": 0.0,
+   "sourmash_sketch_sizes": [
+    294,
+    309
+   ]
+  },
+  {
+   "a": "MN996532.2",
+   "b": "NC_045512.2",
+   "jaccard_exact_sugarcode": 0.3207830992146886,
+   "jaccard_sourmash_scaled1": 0.3207830992146886,
+   "abs_diff": 0.0,
+   "containment_a_in_b_sugarcode": 0.486039886039886,
+   "containment_sourmash_scaled1": 0.486039886039886,
+   "mash_distance_sugarcode": 0.03438417736835126,
+   "minimizer_w100_estimate": 0.23625254582484725,
+   "minimizer_sketch_sizes": [
+    606,
+    608
+   ],
+   "sourmash_scaled100_estimate": 0.3125,
+   "sourmash_sketch_sizes": [
+    294,
+    315
+   ]
+  },
+  {
+   "a": "MT040333.1",
+   "b": "NC_004718.3",
+   "jaccard_exact_sugarcode": 0.020508951231222993,
+   "jaccard_sourmash_scaled1": 0.020508951231222993,
+   "abs_diff": 0.0,
+   "containment_a_in_b_sugarcode": 0.040154440154440155,
+   "containment_sourmash_scaled1": 0.040154440154440155,
+   "mash_distance_sugarcode": 0.15304991127622167,
+   "minimizer_w100_estimate": 0.012313104661389622,
+   "minimizer_sketch_sizes": [
+    579,
+    572
+   ],
+   "sourmash_scaled100_estimate": 0.009900990099009901,
+   "sourmash_sketch_sizes": [
+    309,
+    303
+   ]
+  },
+  {
+   "a": "MT040333.1",
+   "b": "NC_019843.3",
+   "jaccard_exact_sugarcode": 0.00013360945954973613,
+   "jaccard_sourmash_scaled1": 0.00013360945954973613,
+   "abs_diff": 0.0,
+   "containment_a_in_b_sugarcode": 0.00026859157293939904,
+   "containment_sourmash_scaled1": 0.00026859157293939904,
+   "mash_distance_sugarcode": 0.391789329253807,
+   "minimizer_w100_estimate": 0.0,
+   "minimizer_sketch_sizes": [
+    579,
+    574
+   ],
+   "sourmash_scaled100_estimate": 0.0,
+   "sourmash_sketch_sizes": [
+    309,
+    309
+   ]
+  },
+  {
+   "a": "MT040333.1",
+   "b": "NC_045512.2",
+   "jaccard_exact_sugarcode": 0.04124413104567748,
+   "jaccard_sourmash_scaled1": 0.04124413104567748,
+   "abs_diff": 0.0,
+   "containment_a_in_b_sugarcode": 0.07933523585697498,
+   "containment_sourmash_scaled1": 0.07933523585697498,
+   "mash_distance_sugarcode": 0.12073883578460846,
+   "minimizer_w100_estimate": 0.03307223672758921,
+   "minimizer_sketch_sizes": [
+    579,
+    608
+   ],
+   "sourmash_scaled100_estimate": 0.03482587064676617,
+   "sourmash_sketch_sizes": [
+    309,
+    315
+   ]
+  },
+  {
+   "a": "NC_004718.3",
+   "b": "NC_019843.3",
+   "jaccard_exact_sugarcode": 0.0,
+   "jaccard_sourmash_scaled1": 0.0,
+   "abs_diff": 0.0,
+   "containment_a_in_b_sugarcode": 0.0,
+   "containment_sourmash_scaled1": 0.0,
+   "mash_distance_sugarcode": Infinity,
+   "minimizer_w100_estimate": 0.0,
+   "minimizer_sketch_sizes": [
+    572,
+    574
+   ],
+   "sourmash_scaled100_estimate": 0.0,
+   "sourmash_sketch_sizes": [
+    303,
+    309
+   ]
+  },
+  {
+   "a": "NC_004718.3",
+   "b": "NC_045512.2",
+   "jaccard_exact_sugarcode": 0.025059768493833956,
+   "jaccard_sourmash_scaled1": 0.025059768493833956,
+   "abs_diff": 0.0,
+   "containment_a_in_b_sugarcode": 0.049012682073535846,
+   "containment_sourmash_scaled1": 0.049012682073535846,
+   "mash_distance_sugarcode": 0.14371882422325052,
+   "minimizer_w100_estimate": 0.019878997407087293,
+   "minimizer_sketch_sizes": [
+    572,
+    608
+   ],
+   "sourmash_scaled100_estimate": 0.013114754098360656,
+   "sourmash_sketch_sizes": [
+    303,
+    315
+   ]
+  },
+  {
+   "a": "NC_019843.3",
+   "b": "NC_045512.2",
+   "jaccard_exact_sugarcode": 0.0,
+   "jaccard_sourmash_scaled1": 0.0,
+   "abs_diff": 0.0,
+   "containment_a_in_b_sugarcode": 0.0,
+   "containment_sourmash_scaled1": 0.0,
+   "mash_distance_sugarcode": Infinity,
+   "minimizer_w100_estimate": 0.0,
+   "minimizer_sketch_sizes": [
+    574,
+    608
+   ],
+   "sourmash_scaled100_estimate": 0.0,
+   "sourmash_sketch_sizes": [
+    309,
+    315
+   ]
+  }
+ ],
+ "summary": {
+  "n_pairs": 15,
+  "max_abs_diff_exact_jaccard": 0.0,
+  "max_abs_diff_containment": 0.0,
+  "distinct_counts_equal": 6,
+  "sketch_mae_sugarcode_minimizer_w100": 0.01211926055537976,
+  "sketch_mae_sourmash_scaled100": 0.0044397027907188
+ }
+}
