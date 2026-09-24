@@ -28,7 +28,7 @@ module	crisprater	97	4	validated	benchmarks/sweep_crisprater.json
 module	crisprscan_score	178	2	validated	VERDICTS table + CRISPRscan finding
 module	dark_genome	202	2	not yet validated	
 module	deepsplice	751	29	validated	discovery/splice_region_vus/cv_results_me.json, maxent_cmp.json
-module	dna_to_code	111	2	not yet validated	
+module	dna_to_code	132	2	validated	benchmarks/sweep_dna_to_code.json
 module	docking_studio	535	17	validated	benchmarks/sweep_docking.json
 module	dti_bench	196	1	not yet validated	
 module	ecosystem	175	2	not yet validated	

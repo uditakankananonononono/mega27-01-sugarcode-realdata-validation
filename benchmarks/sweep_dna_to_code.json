@@ -1,0 +1,313 @@
+{
+ "module": "dna_to_code",
+ "translation": {
+  "n": 38,
+  "exact": 38,
+  "per_tx": {
+   "ENSMUST00000015889": {
+    "ensembl_len": 408,
+    "mine_len": 408,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENSMUST00000018716": {
+    "ensembl_len": 401,
+    "mine_len": 401,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENSMUST00000022272": {
+    "ensembl_len": 237,
+    "mine_len": 237,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENSMUST00000022709": {
+    "ensembl_len": 315,
+    "mine_len": 315,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENSMUST00000035295": {
+    "ensembl_len": 323,
+    "mine_len": 323,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENSMUST00000037235": {
+    "ensembl_len": 580,
+    "mine_len": 580,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENSMUST00000038791": {
+    "ensembl_len": 331,
+    "mine_len": 331,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENSMUST00000040967": {
+    "ensembl_len": 285,
+    "mine_len": 285,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENSMUST00000042203": {
+    "ensembl_len": 328,
+    "mine_len": 328,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENSMUST00000042227": {
+    "ensembl_len": 558,
+    "mine_len": 558,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENSMUST00000056677": {
+    "ensembl_len": 363,
+    "mine_len": 363,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENSMUST00000058667": {
+    "ensembl_len": 709,
+    "mine_len": 709,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENSMUST00000061425": {
+    "ensembl_len": 353,
+    "mine_len": 353,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENSMUST00000081747": {
+    "ensembl_len": 313,
+    "mine_len": 313,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENSMUST00000084743": {
+    "ensembl_len": 580,
+    "mine_len": 580,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENSMUST00000106089": {
+    "ensembl_len": 229,
+    "mine_len": 229,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENSMUST00000125127": {
+    "ensembl_len": 220,
+    "mine_len": 220,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENSMUST00000179669": {
+    "ensembl_len": 481,
+    "mine_len": 481,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENST00000200453": {
+    "ensembl_len": 674,
+    "mine_len": 674,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENST00000223368": {
+    "ensembl_len": 202,
+    "mine_len": 202,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENST00000227520": {
+    "ensembl_len": 360,
+    "mine_len": 360,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENST00000234590": {
+    "ensembl_len": 434,
+    "mine_len": 434,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENST00000255641": {
+    "ensembl_len": 415,
+    "mine_len": 415,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENST00000284551": {
+    "ensembl_len": 468,
+    "mine_len": 468,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENST00000305885": {
+    "ensembl_len": 380,
+    "mine_len": 380,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENST00000316836": {
+    "ensembl_len": 353,
+    "mine_len": 353,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENST00000356872": {
+    "ensembl_len": 403,
+    "mine_len": 403,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENST00000357186": {
+    "ensembl_len": 120,
+    "mine_len": 120,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENST00000359867": {
+    "ensembl_len": 416,
+    "mine_len": 416,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENST00000361952": {
+    "ensembl_len": 372,
+    "mine_len": 372,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENST00000404824": {
+    "ensembl_len": 488,
+    "mine_len": 488,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENST00000418388": {
+    "ensembl_len": 139,
+    "mine_len": 139,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENST00000428417": {
+    "ensembl_len": 253,
+    "mine_len": 253,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENST00000525069": {
+    "ensembl_len": 124,
+    "mine_len": 124,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENST00000575785": {
+    "ensembl_len": 96,
+    "mine_len": 96,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENST00000602390": {
+    "ensembl_len": 469,
+    "mine_len": 469,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENST00000618250": {
+    "ensembl_len": 238,
+    "mine_len": 238,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   },
+   "ENST00000622639": {
+    "ensembl_len": 275,
+    "mine_len": 275,
+    "exact": true,
+    "cds_len_mod3": 0,
+    "starts_ATG": true
+   }
+  }
+ },
+ "code_table_vs_ncbi1": {
+  "n_codons": 64,
+  "mismatches": []
+ },
+ "template_strand": {
+  "n": 38,
+  "revcomp_snippet_matches_mRNA": 38,
+  "old_TtoU_on_template_matches_mRNA": 0
+ },
+ "vep": {
+  "n_submitted": 220,
+  "n_scored": 220,
+  "agree": 220,
+  "confusion_vep_to_module": {
+   "missense_variant": {
+    "missense_variant": 119
+   },
+   "synonymous_variant": {
+    "synonymous_variant": 34
+   },
+   "start_lost": {
+    "start_lost": 22
+   },
+   "stop_lost": {
+    "stop_lost": 36
+   },
+   "stop_gained": {
+    "stop_gained": 5
+   },
+   "stop_retained_variant": {
+    "stop_retained_variant": 4
+   }
+  },
+  "legacy_flags_agree": 158,
+  "legacy_flags_agree_lenient_stop_retained": 162,
+  "n_vep_scored": 0,
+  "disagreements": []
+ }
+}
