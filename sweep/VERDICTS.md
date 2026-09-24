@@ -127,3 +127,6 @@ First 20,000 reads of ENA SRR622461_1 (NA12878): ids, sequences and per-base Phr
 
 ## Splice: phyloP conservation adds to logit+MaxEnt (2026-09-25)
 Stratified subsample of 1,501 of the 9,235 modelled splice-region SNVs (379 pathogenic, 1,054 genes), phyloP100way at each position from the UCSC REST API (0 missing). Gene-grouped 5-fold CV x 20 seeds: logit+MaxEnt 0.9630 -> 0.9678 with phyloP; paired bootstrap CI for the gain [+0.0008, +0.0091], excludes 0. The gain is at donors (0.9557 -> 0.9634); acceptors barely move (0.9702 -> 0.9723). phyloP alone: 0.838 (donor 0.911, acceptor 0.697). Caveat: ClinVar submitters may use conservation as supporting evidence (ACMG PP3/BP4), so part of the gain can be label circularity; also a subsample, not all 9,235. POSITIVE, modest. Numbers: discovery/splice_region_vus/phylop_lift.json.
+
+## bio.pileup vs pysam pileup (2026-09-25)
+Same 10,943 NA12878 chr20 reads, matched filters (unmapped excluded only): 197,437 positions; A/C/G/T/N counts and deletion counts equal pysam at 197,437/197,437. sugarcode also lists deletions as '*' in the counts (samtools mpileup convention), which the comparison maps to del_depth. VERIFIED. Numbers: benchmarks/sweep_pileup_pysam.json.

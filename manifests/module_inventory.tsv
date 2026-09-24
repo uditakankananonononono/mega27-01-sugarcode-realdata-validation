@@ -112,7 +112,7 @@ bio	newick	248	4	validated	benchmarks/sweep_newick_biophylo.json
 bio	orf	189	1	validated	benchmarks/sweep_orf_orfipy.json
 bio	pdb	346	1	validated	benchmarks/sweep_pdb_gemmi.json
 bio	phylo	232	1	validated	benchmarks/sweep_phylo_dendropy.json
-bio	pileup	148	1	not yet validated	
+bio	pileup	148	1	validated	benchmarks/sweep_pileup_pysam.json
 bio	primer	278	3	validated	benchmarks/sweep_primer_primer3.json
 bio	proteinprops	261	1	validated	benchmarks/sweep_proteinprops_restriction.json
 bio	pwm	63	2	not yet validated	

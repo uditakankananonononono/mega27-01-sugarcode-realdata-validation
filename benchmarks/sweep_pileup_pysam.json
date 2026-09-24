@@ -1,0 +1,10 @@
+{
+ "reference": "pysam 0.24.1 pileup (stepper nofilter, flag_filter=4, no quality filters, overlaps kept)",
+ "n_positions_union": 197437,
+ "n_positions_sugarcode": 197437,
+ "n_positions_pysam": 197437,
+ "base_counts_equal": 197437,
+ "deletion_counts_equal": 197437,
+ "examples": [],
+ "depth_semantics": "sugarcode also lists deletions as \"*\" in counts (samtools mpileup convention); compared via del_depth instead"
+}
