@@ -1,0 +1,220 @@
+{
+ "module": "bio_material",
+ "degradation": {
+  "n_cases": 16,
+  "all_hl_consistent": true,
+  "all_first_order": true,
+  "cases": [
+   {
+    "material": "PHA",
+    "site": "soft_tissue",
+    "reported_hl": 28.9,
+    "curve_hl_interp": 29.1,
+    "hl_beyond_180d_window": false,
+    "hl_match": true,
+    "max_dev_vs_exp_decay": 0.046
+   },
+   {
+    "material": "PHA",
+    "site": "bone",
+    "reported_hl": 43.3,
+    "curve_hl_interp": 43.5,
+    "hl_beyond_180d_window": false,
+    "hl_match": true,
+    "max_dev_vs_exp_decay": 0.039
+   },
+   {
+    "material": "PHA",
+    "site": "blood",
+    "reported_hl": 23.1,
+    "curve_hl_interp": 23.9,
+    "hl_beyond_180d_window": false,
+    "hl_match": true,
+    "max_dev_vs_exp_decay": 0.057
+   },
+   {
+    "material": "PHA",
+    "site": "skin",
+    "reported_hl": 34.6,
+    "curve_hl_interp": 35.1,
+    "hl_beyond_180d_window": false,
+    "hl_match": true,
+    "max_dev_vs_exp_decay": 0.057
+   },
+   {
+    "material": "spider_silk",
+    "site": "soft_tissue",
+    "reported_hl": 115.5,
+    "curve_hl_interp": 115.8,
+    "hl_beyond_180d_window": false,
+    "hl_match": true,
+    "max_dev_vs_exp_decay": 0.058
+   },
+   {
+    "material": "spider_silk",
+    "site": "bone",
+    "reported_hl": 173.2,
+    "curve_hl_interp": 173.5,
+    "hl_beyond_180d_window": false,
+    "hl_match": true,
+    "max_dev_vs_exp_decay": 0.037
+   },
+   {
+    "material": "spider_silk",
+    "site": "blood",
+    "reported_hl": 92.4,
+    "curve_hl_interp": 92.5,
+    "hl_beyond_180d_window": false,
+    "hl_match": true,
+    "max_dev_vs_exp_decay": 0.057
+   },
+   {
+    "material": "spider_silk",
+    "site": "skin",
+    "reported_hl": 138.6,
+    "curve_hl_interp": 138.6,
+    "hl_beyond_180d_window": false,
+    "hl_match": true,
+    "max_dev_vs_exp_decay": 0.057
+   },
+   {
+    "material": "bacterial_cellulose",
+    "site": "soft_tissue",
+    "reported_hl": 577.5,
+    "curve_hl_interp": 180.0,
+    "hl_beyond_180d_window": true,
+    "hl_match": true,
+    "max_dev_vs_exp_decay": 0.047
+   },
+   {
+    "material": "bacterial_cellulose",
+    "site": "bone",
+    "reported_hl": 866.2,
+    "curve_hl_interp": 180.0,
+    "hl_beyond_180d_window": true,
+    "hl_match": true,
+    "max_dev_vs_exp_decay": 0.047
+   },
+   {
+    "material": "bacterial_cellulose",
+    "site": "blood",
+    "reported_hl": 462.0,
+    "curve_hl_interp": 180.0,
+    "hl_beyond_180d_window": true,
+    "hl_match": true,
+    "max_dev_vs_exp_decay": 0.052
+   },
+   {
+    "material": "bacterial_cellulose",
+    "site": "skin",
+    "reported_hl": 693.0,
+    "curve_hl_interp": 180.0,
+    "hl_beyond_180d_window": true,
+    "hl_match": true,
+    "max_dev_vs_exp_decay": 0.045
+   },
+   {
+    "material": "PLA_bio",
+    "site": "soft_tissue",
+    "reported_hl": 19.2,
+    "curve_hl_interp": 20.1,
+    "hl_beyond_180d_window": false,
+    "hl_match": true,
+    "max_dev_vs_exp_decay": 0.048
+   },
+   {
+    "material": "PLA_bio",
+    "site": "bone",
+    "reported_hl": 28.9,
+    "curve_hl_interp": 29.1,
+    "hl_beyond_180d_window": false,
+    "hl_match": true,
+    "max_dev_vs_exp_decay": 0.046
+   },
+   {
+    "material": "PLA_bio",
+    "site": "blood",
+    "reported_hl": 15.4,
+    "curve_hl_interp": 15.5,
+    "hl_beyond_180d_window": false,
+    "hl_match": true,
+    "max_dev_vs_exp_decay": 0.048
+   },
+   {
+    "material": "PLA_bio",
+    "site": "skin",
+    "reported_hl": 23.1,
+    "curve_hl_interp": 23.9,
+    "hl_beyond_180d_window": false,
+    "hl_match": true,
+    "max_dev_vs_exp_decay": 0.057
+   }
+  ]
+ },
+ "bug34_prefix_value_at_reported_hl": 58.4,
+ "network_mechanics": {
+  "shear": 2.57734,
+  "expected_shear": 2.5773,
+  "young": 4.948492800000001,
+  "expected_young": 4.9485,
+  "match": true
+ },
+ "degradation_multimode": {
+  "half_life": 40.77336356234972,
+  "expected": 40.77336356234972,
+  "hl_match": true,
+  "mass_first_order": true
+ },
+ "rheology": {
+  "stress_match": true,
+  "viscosity_positive": true
+ },
+ "diffusion_gradient": {
+  "max_dev_vs_analytic": 3.469446951953614e-18,
+  "left_bc_is_1": true
+ },
+ "polymerization": {
+  "monomer_nonincreasing": true,
+  "monomer_final": 0.9057308098343342,
+  "deterministic": true
+ },
+ "properties_vs_literature": {
+  "PHA": {
+   "module": [
+    3500,
+    40
+   ],
+   "literature": "tensile yield 40 MPa, modulus 3.50 GPa (Goodfellow PHB datasheet via lookpolymers.com)",
+   "match": true
+  },
+  "PLA_bio": {
+   "module": [
+    3000,
+    60
+   ],
+   "literature": "modulus 3.3-3.6 GPa, tensile 47-70 MPa (QMUL PLA datasheet)",
+   "match": true
+  },
+  "spider_silk": {
+   "module": [
+    10000,
+    1100
+   ],
+   "literature": "MA/dragline silk Einit 10 GPa, strength ~1 GPa (Gosline et al., J Exp Biol 202, 1999)",
+   "match": true
+  },
+  "bacterial_cellulose": {
+   "module": [
+    15000,
+    200
+   ],
+   "literature": "not independently verified in this sweep",
+   "match": null
+  }
+ },
+ "api": {
+  "unknown_material": "KeyError ok",
+  "pathway_present_for_PHA": true,
+  "modulus_gate_logic": true
+ }
+}

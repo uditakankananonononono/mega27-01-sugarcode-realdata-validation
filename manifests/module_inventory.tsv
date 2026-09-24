@@ -2,7 +2,7 @@ kind	name	python_lines	test_references	status	evidence
 module	acmg_bayesian	469	3	validated	benchmarks/sweep_acmg_erepo.json
 module	alpha_fold_ui	404	7	not yet validated	
 module	bio_copilot	245	5	not yet validated	
-module	bio_material	114	2	not yet validated	
+module	bio_material	114	2	validated	sweep/bio_material_phys.py -> benchmarks/sweep_bio_material.json
 module	bio_switch	511	3	not yet validated	
 module	biofactory_1_a	102	2	not yet validated	
 module	biogpt_lit	249	3	not yet validated	
