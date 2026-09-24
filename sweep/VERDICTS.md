@@ -11,3 +11,11 @@
 
 ## Finding: two public CRISPRscan implementations disagree on one coefficient
 Of the 91 CRISPRscan features, 90 are identical between crisprVerse/crisprScore (`inst/crisprscan/crisprscan_coefficients.csv`, devel and master, checked 2026-09-24) and CRISPOR (`crisporEffScores.py`, `paramsCRISPRscan`). The 91st (weight -0.0973770966031, the largest negative) sits on dinucleotide AA at position 19 in crisprScore but at position 18 in CRISPOR. sugarcode follows crisprScore. On 300 held-out BRCA1 contexts, this changes 25 scores (8.3%) by up to 10 points. The CRISPOR doctest (score 77) does not exercise that feature, so both implementations pass their own tests. Which position is correct has to be settled against the original Moreno-Mateos 2015 supplementary model; that is open.
+
+## codon_opt / bio.codon CAI (2026-09-24)
+Data: NCBI GCF_000005845.2 CDS (E. coli MG1655) x PaxDb 511145 integrated protein abundance, n=3489 genes.
+- CAI implementation matches Biopython CodonAdaptationIndex (Pearson 0.9997 on 500 genes, same reference). VERIFIED.
+- Reference table matters: CAI with vendored genome-wide table, Spearman vs log abundance 0.496 (non-ribosomal genes); with ribosomal-protein reference 0.580; top-5%-abundance reference under 5-fold CV 0.574.
+- Fix shipped: sugarcode-ai ECOLI_HIGHEXPR / HOST_TABLES["ecoli_highexpr"]. Default left unchanged (optimizer choice of top codon is identical for most AAs; not re-benchmarked).
+- Remaining gap: TASEP, metabolic_load, attention, evolutionary_robustness have no real-data validation - verdict THIN (heuristic, no scientific claim).
+Numbers: benchmarks/sweep_codon_cai.json.

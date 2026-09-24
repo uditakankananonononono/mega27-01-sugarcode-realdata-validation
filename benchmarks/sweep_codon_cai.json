@@ -1,0 +1,13 @@
+{
+ "n_genes": 3489,
+ "abundance": "PaxDb 511145 WHOLE_ORGANISM integrated",
+ "cds": "NCBI GCF_000005845.2 cds_from_genomic",
+ "module_cai_genome_table": 0.5009,
+ "n_ribo_ref": 36,
+ "n_eval_excl_ribo": 3453,
+ "module_cai_genome_table_excl_ribo": 0.4958,
+ "cai_ribo_ref_excl_ribo": 0.5797,
+ "cai_top5pct_ref_cv": 0.5741,
+ "biopython_vs_module_pearson_500": 0.99969,
+ "biopython_cai_ribo_ref_excl_ribo_500": 0.6334
+}
