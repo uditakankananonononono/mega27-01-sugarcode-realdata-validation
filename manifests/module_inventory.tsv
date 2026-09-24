@@ -13,7 +13,7 @@ module	biosimvr	200	2	not yet validated
 module	car_t_designer	104	2	validated	benchmarks/sweep_car_t_designer.json
 module	cell_free_opt	109	3	validated	benchmarks/sweep_cell_free_opt.json
 module	cell_twin	170	2	not yet validated	
-module	cellfatenet	199	2	not yet validated	
+module	cellfatenet	199	2	validated	sweep/cellfatenet.py -> benchmarks/sweep_cellfatenet.json
 module	cellpainter	289	3	not yet validated	
 module	cellpainter_4d	164	2	not yet validated	
 module	cfd_offtarget	157	2	validated	benchmarks/sweep_cfd_doench.json

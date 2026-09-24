@@ -1,0 +1,38 @@
+1. Cell. 2010 Aug 6;142(3):375-86. doi: 10.1016/j.cell.2010.07.002.
+
+Direct reprogramming of fibroblasts into functional cardiomyocytes by defined 
+factors.
+
+Ieda M(1), Fu JD, Delgado-Olguin P, Vedantham V, Hayashi Y, Bruneau BG, 
+Srivastava D.
+
+Author information:
+(1)Gladstone Institute of Cardiovascular Disease, University of California, San 
+Francisco, San Francisco, CA 94158, USA. ieda@cpnet.med.keio.ac.jp
+
+Comment in
+    Regen Med. 2011 Jan;6(1):31-4.
+    Cell Stem Cell. 2010 Aug 6;7(2):139-41. doi: 10.1016/j.stem.2010.07.004.
+
+The reprogramming of fibroblasts to induced pluripotent stem cells (iPSCs) 
+raises the possibility that a somatic cell could be reprogrammed to an 
+alternative differentiated fate without first becoming a stem/progenitor cell. A 
+large pool of fibroblasts exists in the postnatal heart, yet no single "master 
+regulator" of direct cardiac reprogramming has been identified. Here, we report 
+that a combination of three developmental transcription factors (i.e., Gata4, 
+Mef2c, and Tbx5) rapidly and efficiently reprogrammed postnatal cardiac or 
+dermal fibroblasts directly into differentiated cardiomyocyte-like cells. 
+Induced cardiomyocytes expressed cardiac-specific markers, had a global gene 
+expression profile similar to cardiomyocytes, and contracted spontaneously. 
+Fibroblasts transplanted into mouse hearts one day after transduction of the 
+three factors also differentiated into cardiomyocyte-like cells. We believe 
+these findings demonstrate that functional cardiomyocytes can be directly 
+reprogrammed from differentiated somatic cells by defined factors. Reprogramming 
+of endogenous or explanted fibroblasts might provide a source of cardiomyocytes 
+for regenerative approaches.
+
+Copyright 2010 Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.cell.2010.07.002
+PMCID: PMC2919844
+PMID: 20691899 [Indexed for MEDLINE]

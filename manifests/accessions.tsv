@@ -506,3 +506,27 @@ ucsc_hg38	chr9:21976000-21989000	UCSC hg38 sequence island-free desert (dark_gen
 ucsc_cpg	cpgIslandExt chr3:36900000-37100000	UCSC cpgIslandExt track query MLH1 (dark_genome sweep)	hg38 cpgIslandExt chr3:36,900,000-37,100,000	sweep/dark_genome.py
 ucsc_cpg	cpgIslandExt chr9:21940000-22000000	UCSC cpgIslandExt track query CDKN2A (dark_genome sweep)	hg38 cpgIslandExt chr9:21,940,000-22,000,000	sweep/dark_genome.py
 pubmed	8242752	El-Deiry 1993 WAF1/p21 p53 consensus (dark_genome sweep)	PMID 8242752	sweep/dark_genome.py
+hgnc	OCT4	HGNC symbol record fetched (cellfatenet sweep)	OCT4	sweep/cellfatenet.py
+hgnc	SOX2	HGNC symbol record fetched (cellfatenet sweep)	SOX2	sweep/cellfatenet.py
+hgnc	NANOG	HGNC symbol record fetched (cellfatenet sweep)	NANOG	sweep/cellfatenet.py
+hgnc	GATA4	HGNC symbol record fetched (cellfatenet sweep)	GATA4	sweep/cellfatenet.py
+hgnc	MEF2C	HGNC symbol record fetched (cellfatenet sweep)	MEF2C	sweep/cellfatenet.py
+hgnc	TBX5	HGNC symbol record fetched (cellfatenet sweep)	TBX5	sweep/cellfatenet.py
+hgnc	ASCL1	HGNC symbol record fetched (cellfatenet sweep)	ASCL1	sweep/cellfatenet.py
+hgnc	NEUROD1	HGNC symbol record fetched (cellfatenet sweep)	NEUROD1	sweep/cellfatenet.py
+hgnc	MYT1L	HGNC symbol record fetched (cellfatenet sweep)	MYT1L	sweep/cellfatenet.py
+hgnc	MYOD1	HGNC symbol record fetched (cellfatenet sweep)	MYOD1	sweep/cellfatenet.py
+hgnc	TNNT2	HGNC symbol record fetched (cellfatenet sweep)	TNNT2	sweep/cellfatenet.py
+hgnc	MYH6	HGNC symbol record fetched (cellfatenet sweep)	MYH6	sweep/cellfatenet.py
+hgnc	NKX2-5	HGNC symbol record fetched (cellfatenet sweep)	NKX2-5	sweep/cellfatenet.py
+hgnc	TUBB3	HGNC symbol record fetched (cellfatenet sweep)	TUBB3	sweep/cellfatenet.py
+hgnc	MAP2	HGNC symbol record fetched (cellfatenet sweep)	MAP2	sweep/cellfatenet.py
+hgnc	SCN1A	HGNC symbol record fetched (cellfatenet sweep)	SCN1A	sweep/cellfatenet.py
+hgnc	MYOG	HGNC symbol record fetched (cellfatenet sweep)	MYOG	sweep/cellfatenet.py
+hgnc	MYH1	HGNC symbol record fetched (cellfatenet sweep)	MYH1	sweep/cellfatenet.py
+hgnc	COL1A1	HGNC symbol record fetched (cellfatenet sweep)	COL1A1	sweep/cellfatenet.py
+hgnc	VIM	HGNC symbol record fetched (cellfatenet sweep)	VIM	sweep/cellfatenet.py
+hgnc_alias	OCT4->POU5F1	HGNC alias lookup OCT4 (cellfatenet sweep)	POU5F1	sweep/cellfatenet.py
+pubmed	16904174	Takahashi-Yamanaka OSKM reprogramming (cellfatenet sweep)	PMID 16904174	sweep/cellfatenet.py
+pubmed	20691899	Ieda 2010 GMT cardiac reprogramming (cellfatenet sweep)	PMID 20691899	sweep/cellfatenet.py
+pubmed	24243019	Wapinski 2013 BAM neuronal reprogramming (cellfatenet sweep)	PMID 24243019	sweep/cellfatenet.py

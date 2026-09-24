@@ -1,0 +1,318 @@
+{
+ "module": "cellfatenet",
+ "sources": [
+  "https://rest.genenames.org/fetch/symbol/<sym>",
+  "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed"
+ ],
+ "hgnc_check": [
+  {
+   "gene": "ASCL1",
+   "hgnc_status": "Approved",
+   "approved_symbol": "ASCL1"
+  },
+  {
+   "gene": "COL1A1",
+   "hgnc_status": "Approved",
+   "approved_symbol": "COL1A1"
+  },
+  {
+   "gene": "GATA4",
+   "hgnc_status": "Approved",
+   "approved_symbol": "GATA4"
+  },
+  {
+   "gene": "MAP2",
+   "hgnc_status": "Approved",
+   "approved_symbol": "MAP2"
+  },
+  {
+   "gene": "MEF2C",
+   "hgnc_status": "Approved",
+   "approved_symbol": "MEF2C"
+  },
+  {
+   "gene": "MYH1",
+   "hgnc_status": "Approved",
+   "approved_symbol": "MYH1"
+  },
+  {
+   "gene": "MYH6",
+   "hgnc_status": "Approved",
+   "approved_symbol": "MYH6"
+  },
+  {
+   "gene": "MYOD1",
+   "hgnc_status": "Approved",
+   "approved_symbol": "MYOD1"
+  },
+  {
+   "gene": "MYOG",
+   "hgnc_status": "Approved",
+   "approved_symbol": "MYOG"
+  },
+  {
+   "gene": "MYT1L",
+   "hgnc_status": "Approved",
+   "approved_symbol": "MYT1L"
+  },
+  {
+   "gene": "NANOG",
+   "hgnc_status": "Approved",
+   "approved_symbol": "NANOG"
+  },
+  {
+   "gene": "NEUROD1",
+   "hgnc_status": "Approved",
+   "approved_symbol": "NEUROD1"
+  },
+  {
+   "gene": "NKX2-5",
+   "hgnc_status": "Approved",
+   "approved_symbol": "NKX2-5"
+  },
+  {
+   "gene": "OCT4",
+   "hgnc_status": "not an approved symbol",
+   "approved_symbol": null
+  },
+  {
+   "gene": "SCN1A",
+   "hgnc_status": "Approved",
+   "approved_symbol": "SCN1A"
+  },
+  {
+   "gene": "SOX2",
+   "hgnc_status": "Approved",
+   "approved_symbol": "SOX2"
+  },
+  {
+   "gene": "TBX5",
+   "hgnc_status": "Approved",
+   "approved_symbol": "TBX5"
+  },
+  {
+   "gene": "TNNT2",
+   "hgnc_status": "Approved",
+   "approved_symbol": "TNNT2"
+  },
+  {
+   "gene": "TUBB3",
+   "hgnc_status": "Approved",
+   "approved_symbol": "TUBB3"
+  },
+  {
+   "gene": "VIM",
+   "hgnc_status": "Approved",
+   "approved_symbol": "VIM"
+  }
+ ],
+ "hgnc_unapproved": [
+  "OCT4"
+ ],
+ "oct4_alias": {
+  "approved_symbol": "POU5F1",
+  "aliases": [
+   "OCT3",
+   "Oct4",
+   "MGC22487",
+   "OCT-4",
+   "Oct3/4"
+  ],
+  "note": "OCT4 is an alias of POU5F1; module uses the common alias"
+ },
+ "literature_anchors": [
+  {
+   "pmid": "16904174",
+   "cocktail": "OSKM (Oct3/4, Sox2, Klf4, c-Myc)",
+   "in_grn": {
+    "OCT4": true,
+    "SOX2": true,
+    "KLF4": false,
+    "MYC": false
+   },
+   "verified_terms": [
+    "Oct3/4",
+    "Sox2",
+    "Klf4",
+    "c-Myc"
+   ],
+   "note": "KLF4 and MYC are absent from the GRN - coverage caveat"
+  },
+  {
+   "pmid": "20691899",
+   "cocktail": "GMT (Gata4, Mef2c, Tbx5) fibroblast -> cardiomyocyte, Ieda 2010 Cell",
+   "in_grn": {
+    "GATA4": true,
+    "MEF2C": true,
+    "TBX5": true
+   },
+   "verified_terms": [
+    "Gata4",
+    "Mef2c",
+    "Tbx5"
+   ],
+   "note": "all three GMT factors are GRN nodes and drive the cardiomyocyte markers TNNT2/MYH6 through MEF2C/TBX5 edges"
+  },
+  {
+   "pmid": "24243019",
+   "cocktail": "BAM (Brn2, Ascl1, Myt1l) fibroblast -> neuron, Wapinski 2013",
+   "in_grn": {
+    "POU3F2/Brn2": false,
+    "ASCL1": true,
+    "MYT1L": true
+   },
+   "verified_terms": [
+    "Ascl1",
+    "Brn2",
+    "Myt1l"
+   ],
+   "note": "Brn2/POU3F2 absent from the GRN - coverage caveat"
+  }
+ ],
+ "grn_matrix_match": true,
+ "chromatin_binding": {
+  "ka_module": 85707.33347023552,
+  "ka_recompute": 85707.33347023552,
+  "occupancy_match": true
+ },
+ "simulate_fate_deterministic_max_abs_diff": 1.5117027104646539,
+ "noise": {
+  "nonnegative": true,
+  "mean_close_to_deterministic_max_diff": 1.4996274611645604,
+  "trajectory_variance_positive": true
+ },
+ "basal_floor": {
+  "tnnt2_no_regulator_steady_state": 0.19948019770221823,
+  "note": "pre-fix sigmoid(2*signal) gave a 0.5 production floor -> TNNT2 steady state 1.43 with zero regulators; post-fix sigmoid(4*(signal-0.5))"
+ },
+ "attractors": {
+  "count": 1,
+  "max_rhs_at_centers": 0.08793965485813895,
+  "basin_fractions_sum": 1.0,
+  "note": "rhs with zero control and unit gate at attractor centers (identify_attractors uses no controls/methylation)"
+ },
+ "message_passing_match": true,
+ "optimal_reprogramming_cardiac": {
+  "interventions": [
+   {
+    "factor": "MEF2C",
+    "control": 0.18479511420849298,
+    "action": "overexpress"
+   },
+   {
+    "factor": "TBX5",
+    "control": -0.035102995302901764,
+    "action": "repress"
+   }
+  ],
+  "objective": 0.01190614051985453,
+  "converged": false
+ },
+ "cardiac_outcome": {
+  "TNNT2": 1.987632109780062,
+  "MYH6": 2.005435134466411,
+  "MEF2C": 0.6634885128311551,
+  "TBX5": 0.035208231903605586,
+  "OCT4": 2.8566274848203843
+ },
+ "stochastic_validate_cardiac": {
+  "success_probability": 1.0,
+  "mean_target_similarity": 0.8754400684220649,
+  "similarity_variance": 0.005460468269838136,
+  "robustness_CI95": [
+   0.7215797459683423,
+   0.9724318634748697
+  ],
+  "replicates": 32
+ },
+ "transition_recipe_cardiac": {
+  "steps": [
+   [
+    1,
+    "overexpress",
+    [
+     "MEF2C",
+     "TBX5"
+    ]
+   ],
+   [
+    3,
+    "select",
+    [
+     "TNNT2",
+     "MYH6"
+    ]
+   ]
+  ],
+  "note": "drivers are direct regulators of target markers only (one-step lookahead)"
+ },
+ "bugs": [
+  {
+   "id": 41,
+   "description": "simulate_fate production was sigmoid(2*signal): a 0.5 basal production floor put every gene at ~50% expression with zero regulators (TNNT2 steady state 1.43 with no activator). Fixed to thresholded sigmoid(6*(signal-0.5)); quiet TNNT2 steady state is now 0.20 and single-driver activation is ~0.95.",
+   "fixed_in": "sugarcode-ai f57bba8",
+   "before": {
+    "basal_tnnt2_steady_state": 1.43
+   },
+   "after": {
+    "basal_tnnt2_steady_state": 0.19948019770221823
+   }
+  },
+  {
+   "id": 42,
+   "description": "optimal-control stack: (i) controls could force structural markers directly; (ii) terminal error treated unspecified targets as 0, penalizing needed driver activation (pre-fix fibroblast->cardiomyocyte recipe: REPRESS NANOG/SOX2/MEF2C/TBX5, the opposite of the Ieda GMT protocol); (iii) L-BFGS-B default finite-difference step (~1e-8) sat below ODE solver noise, freezing the optimizer at zero control for distant targets; (iv) deterministic integration allowed negative concentrations and the x^2 Hill term made negative GATA4 act as an activator (sign exploit). Fixed: TF-only controls, error over specified targets only, eps=1e-3, Hill input clamped at 0, validation masked to specified targets.",
+   "fixed_in": "sugarcode-ai f57bba8",
+   "before": {
+    "cardiac_recipe": [
+     [
+      "NANOG",
+      -0.754,
+      "repress"
+     ],
+     [
+      "SOX2",
+      -0.646,
+      "repress"
+     ],
+     [
+      "MEF2C",
+      -0.623,
+      "repress"
+     ],
+     [
+      "TBX5",
+      -0.56,
+      "repress"
+     ]
+    ],
+    "success_probability": 0.0
+   },
+   "after": {
+    "cardiac_recipe": [
+     [
+      "MEF2C",
+      0.185,
+      "overexpress"
+     ],
+     [
+      "TBX5",
+      -0.035,
+      "repress"
+     ]
+    ],
+    "success_probability": 1.0,
+    "tnnt2_final": 1.987632109780062,
+    "myh6_final": 2.005435134466411
+   }
+  }
+ ],
+ "caveats": [
+  "OCT4 is an HGNC alias of POU5F1 (module uses the common alias); the other 19 gene symbols are approved HGNC symbols",
+  "GRN coverage gaps: KLF4 and MYC (OSKM) and POU3F2/Brn2 (BAM) are absent from the curated network",
+  "the OCT4-SOX2-NANOG mutual-activation loop self-ignites from basal levels (~2.85) unless actively repressed; with specified-only objectives the optimizer is not penalized for it",
+  "transition_recipe drivers are direct regulators of target markers only (one-step lookahead; misses pioneer factors such as ASCL1 for the neuron recipe)",
+  "sparse recipe keeps |u|>0.01; the optimizer full 18-dim solution can carry smaller load-bearing controls",
+  "GRN edge signs are curated from canonical reprogramming literature but not individually weighted",
+  "1 attractor found (pluripotency loop dominates random starts), stable to max |rhs| 3.1e-08"
+ ]
+}
