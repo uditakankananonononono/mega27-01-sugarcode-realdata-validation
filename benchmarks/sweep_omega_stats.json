@@ -1,0 +1,14 @@
+{
+ "stats_mismatches": 0,
+ "stats_series": 8,
+ "rollup_ok": true,
+ "dashboard_slope_mismatches": 0,
+ "dashboard_passrate_ci_mismatches": 0,
+ "ci_deterministic": true,
+ "release_mismatches": 0,
+ "release_gate": "fail",
+ "diagnostics_count": 51,
+ "diagnostics_spot_ok": true,
+ "report_ok": true,
+ "sugarcode_commit": "55748fa"
+}

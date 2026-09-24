@@ -60,7 +60,7 @@ module	neuro_hub_dashboard	25	2	not yet validated
 module	neuro_pipeline	326	3	not yet validated	
 module	neuroplan_ai	449	6	not yet validated	
 module	nexus_support	299	2	not yet validated	
-module	omega_stats	161	4	not yet validated	
+module	omega_stats	161	4	validated	benchmarks/sweep_omega_stats.json
 module	oncocircuit	124	2	not yet validated	
 module	openclinvar	514	22	validated	benchmarks/sweep_openclinvar.json
 module	organoid_ai	216	2	not yet validated	

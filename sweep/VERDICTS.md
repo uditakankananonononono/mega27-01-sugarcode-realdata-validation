@@ -213,3 +213,6 @@ NO BUG. Exact agreement (ids, descriptions, sequences) on 32,096 real Rfam seed 
 
 ## modules.crisprater vs Labuhn 2018 Supplementary Table 3 (2026-09-25)
 BUG FIXED (sugarcode 55748fa): GC feature summed positions 4-14; published model is GC4-13 (Fig 4C). Verified against author-computed scores for 3,141 sgRNAs (PMC5814880 Suppl. Table 3): pre-fix 3,139/3,141 mismatched, post-fix 3,138/3,141 match within 5e-4 (99.905%). 3 residual outliers each off by ~one feature weight from the published model - supplement-table anomalies (2 duplicate sequences present), documented not fitted. Thresholds 0.56/0.74 confirmed from paper text. benchmarks/sweep_crisprater.json
+
+## modules.omega_stats vs independent recomputation (2026-09-25)
+NO BUG. All dashboard/rollup/release quantities match independent numpy/statistics recomputation exactly (0 mismatches across stats series, drift slopes, pass-rate directions, effect sizes); bootstrap CI seed-deterministic and contains mean; 51 diagnostics; planted latency regression correctly gates fail. benchmarks/sweep_omega_stats.json
