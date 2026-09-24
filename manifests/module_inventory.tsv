@@ -99,7 +99,7 @@ bio	bed	180	1	validated	benchmarks/sweep_bed_bioframe.json
 bio	chembl	176	0	not yet validated	
 bio	codon	170	2	validated	benchmarks/sweep_codon_cai.json
 bio	de	218	2	validated	benchmarks/sweep_de_pydeseq2.json
-bio	entrez	186	2	not yet validated	
+bio	entrez	196	2	validated	benchmarks/sweep_entrez_hgnc.json
 bio	fasta	55	3	not yet validated	
 bio	fastq	183	1	validated	benchmarks/sweep_fastq_biopython.json
 bio	genbank	103	2	validated	benchmarks/sweep_genbank_biopython.json

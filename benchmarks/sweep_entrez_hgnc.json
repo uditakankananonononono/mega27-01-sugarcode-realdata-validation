@@ -1,0 +1,398 @@
+{
+ "reference": "HGNC REST entrez_id",
+ "n": 60,
+ "match": 60,
+ "mismatches": [],
+ "rows": [
+  {
+   "gene": "ABCC11",
+   "hgnc_entrez": "85320",
+   "sugarcode": "85320",
+   "match": true
+  },
+  {
+   "gene": "ABL1",
+   "hgnc_entrez": "25",
+   "sugarcode": "25",
+   "match": true
+  },
+  {
+   "gene": "ACTN3",
+   "hgnc_entrez": "89",
+   "sugarcode": "89",
+   "match": true
+  },
+  {
+   "gene": "ADH1B",
+   "hgnc_entrez": "125",
+   "sugarcode": "125",
+   "match": true
+  },
+  {
+   "gene": "ALDH2",
+   "hgnc_entrez": "217",
+   "sugarcode": "217",
+   "match": true
+  },
+  {
+   "gene": "APC",
+   "hgnc_entrez": "324",
+   "sugarcode": "324",
+   "match": true
+  },
+  {
+   "gene": "APOE",
+   "hgnc_entrez": "348",
+   "sugarcode": "348",
+   "match": true
+  },
+  {
+   "gene": "ASXL1",
+   "hgnc_entrez": "171023",
+   "sugarcode": "171023",
+   "match": true
+  },
+  {
+   "gene": "ATM",
+   "hgnc_entrez": "472",
+   "sugarcode": "472",
+   "match": true
+  },
+  {
+   "gene": "BRAF",
+   "hgnc_entrez": "673",
+   "sugarcode": "673",
+   "match": true
+  },
+  {
+   "gene": "BRCA1",
+   "hgnc_entrez": "672",
+   "sugarcode": "672",
+   "match": true
+  },
+  {
+   "gene": "BRCA2",
+   "hgnc_entrez": "675",
+   "sugarcode": "675",
+   "match": true
+  },
+  {
+   "gene": "CDKN2A",
+   "hgnc_entrez": "1029",
+   "sugarcode": "1029",
+   "match": true
+  },
+  {
+   "gene": "CFTR",
+   "hgnc_entrez": "1080",
+   "sugarcode": "1080",
+   "match": true
+  },
+  {
+   "gene": "CHEK2",
+   "hgnc_entrez": "11200",
+   "sugarcode": "11200",
+   "match": true
+  },
+  {
+   "gene": "COMT",
+   "hgnc_entrez": "1312",
+   "sugarcode": "1312",
+   "match": true
+  },
+  {
+   "gene": "DMD",
+   "hgnc_entrez": "1756",
+   "sugarcode": "1756",
+   "match": true
+  },
+  {
+   "gene": "DNMT3A",
+   "hgnc_entrez": "1788",
+   "sugarcode": "1788",
+   "match": true
+  },
+  {
+   "gene": "EDAR",
+   "hgnc_entrez": "10913",
+   "sugarcode": "10913",
+   "match": true
+  },
+  {
+   "gene": "EGFR",
+   "hgnc_entrez": "1956",
+   "sugarcode": "1956",
+   "match": true
+  },
+  {
+   "gene": "ERBB2",
+   "hgnc_entrez": "2064",
+   "sugarcode": "2064",
+   "match": true
+  },
+  {
+   "gene": "F5",
+   "hgnc_entrez": "2153",
+   "sugarcode": "2153",
+   "match": true
+  },
+  {
+   "gene": "FLT3",
+   "hgnc_entrez": "2322",
+   "sugarcode": "2322",
+   "match": true
+  },
+  {
+   "gene": "FMR1",
+   "hgnc_entrez": "2332",
+   "sugarcode": "2332",
+   "match": true
+  },
+  {
+   "gene": "GBA1",
+   "hgnc_entrez": "2629",
+   "sugarcode": "2629",
+   "match": true
+  },
+  {
+   "gene": "HBB",
+   "hgnc_entrez": "3043",
+   "sugarcode": "3043",
+   "match": true
+  },
+  {
+   "gene": "HERC2",
+   "hgnc_entrez": "8924",
+   "sugarcode": "8924",
+   "match": true
+  },
+  {
+   "gene": "HFE",
+   "hgnc_entrez": "3077",
+   "sugarcode": "3077",
+   "match": true
+  },
+  {
+   "gene": "HTT",
+   "hgnc_entrez": "3064",
+   "sugarcode": "3064",
+   "match": true
+  },
+  {
+   "gene": "IDH1",
+   "hgnc_entrez": "3417",
+   "sugarcode": "3417",
+   "match": true
+  },
+  {
+   "gene": "IDH2",
+   "hgnc_entrez": "3418",
+   "sugarcode": "3418",
+   "match": true
+  },
+  {
+   "gene": "JAK2",
+   "hgnc_entrez": "3717",
+   "sugarcode": "3717",
+   "match": true
+  },
+  {
+   "gene": "KCNQ1",
+   "hgnc_entrez": "3784",
+   "sugarcode": "3784",
+   "match": true
+  },
+  {
+   "gene": "KRAS",
+   "hgnc_entrez": "3845",
+   "sugarcode": "3845",
+   "match": true
+  },
+  {
+   "gene": "LCT",
+   "hgnc_entrez": "3938",
+   "sugarcode": "3938",
+   "match": true
+  },
+  {
+   "gene": "LMNA",
+   "hgnc_entrez": "4000",
+   "sugarcode": "4000",
+   "match": true
+  },
+  {
+   "gene": "MLH1",
+   "hgnc_entrez": "4292",
+   "sugarcode": "4292",
+   "match": true
+  },
+  {
+   "gene": "MSH2",
+   "hgnc_entrez": "4436",
+   "sugarcode": "4436",
+   "match": true
+  },
+  {
+   "gene": "MTHFR",
+   "hgnc_entrez": "4524",
+   "sugarcode": "4524",
+   "match": true
+  },
+  {
+   "gene": "MYC",
+   "hgnc_entrez": "4609",
+   "sugarcode": "4609",
+   "match": true
+  },
+  {
+   "gene": "MYH7",
+   "hgnc_entrez": "4625",
+   "sugarcode": "4625",
+   "match": true
+  },
+  {
+   "gene": "NF1",
+   "hgnc_entrez": "4763",
+   "sugarcode": "4763",
+   "match": true
+  },
+  {
+   "gene": "NF2",
+   "hgnc_entrez": "4771",
+   "sugarcode": "4771",
+   "match": true
+  },
+  {
+   "gene": "NPM1",
+   "hgnc_entrez": "4869",
+   "sugarcode": "4869",
+   "match": true
+  },
+  {
+   "gene": "NRAS",
+   "hgnc_entrez": "4893",
+   "sugarcode": "4893",
+   "match": true
+  },
+  {
+   "gene": "OCA2",
+   "hgnc_entrez": "4948",
+   "sugarcode": "4948",
+   "match": true
+  },
+  {
+   "gene": "PALB2",
+   "hgnc_entrez": "79728",
+   "sugarcode": "79728",
+   "match": true
+  },
+  {
+   "gene": "PIK3CA",
+   "hgnc_entrez": "5290",
+   "sugarcode": "5290",
+   "match": true
+  },
+  {
+   "gene": "PTEN",
+   "hgnc_entrez": "5728",
+   "sugarcode": "5728",
+   "match": true
+  },
+  {
+   "gene": "RB1",
+   "hgnc_entrez": "5925",
+   "sugarcode": "5925",
+   "match": true
+  },
+  {
+   "gene": "RUNX1",
+   "hgnc_entrez": "861",
+   "sugarcode": "861",
+   "match": true
+  },
+  {
+   "gene": "SCN5A",
+   "hgnc_entrez": "6331",
+   "sugarcode": "6331",
+   "match": true
+  },
+  {
+   "gene": "SLC24A5",
+   "hgnc_entrez": "283652",
+   "sugarcode": "283652",
+   "match": true
+  },
+  {
+   "gene": "SMAD4",
+   "hgnc_entrez": "4089",
+   "sugarcode": "4089",
+   "match": true
+  },
+  {
+   "gene": "SOD1",
+   "hgnc_entrez": "6647",
+   "sugarcode": "6647",
+   "match": true
+  },
+  {
+   "gene": "STK11",
+   "hgnc_entrez": "6794",
+   "sugarcode": "6794",
+   "match": true
+  },
+  {
+   "gene": "TET2",
+   "hgnc_entrez": "54790",
+   "sugarcode": "54790",
+   "match": true
+  },
+  {
+   "gene": "TP53",
+   "hgnc_entrez": "7157",
+   "sugarcode": "7157",
+   "match": true
+  },
+  {
+   "gene": "TTN",
+   "hgnc_entrez": "7273",
+   "sugarcode": "7273",
+   "match": true
+  },
+  {
+   "gene": "VHL",
+   "hgnc_entrez": "7428",
+   "sugarcode": "7428",
+   "match": true
+  }
+ ],
+ "before_fix": {
+  "sugarcode_commit": "6c11d68",
+  "match": 58,
+  "n": 60,
+  "mismatches": [
+   {
+    "gene": "HTT",
+    "hgnc_entrez": "3064",
+    "sugarcode": "6532",
+    "match": false
+   },
+   {
+    "gene": "TTN",
+    "hgnc_entrez": "7273",
+    "sugarcode": "7276",
+    "match": false
+   }
+  ],
+  "alias_evidence": {
+   "6532": {
+    "name": "SLC6A4",
+    "aliases": "5-HTT, 5-HTTLPR, 5HTT, HTT, OCD1, SERT, SERT1, hSERT"
+   },
+   "7276": {
+    "name": "TTR",
+    "aliases": "AMYLD1, ATTR, CTS, CTS1, HEL111, HsT2651, PALB, TBPA, TTN"
+   }
+  }
+ },
+ "fixed_in_sugarcode_commit": "93d5b12"
+}

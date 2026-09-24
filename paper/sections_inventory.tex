@@ -1,10 +1,11 @@
 \section{Module inventory and validation coverage}
-sugarcode-ai contains 95 application modules and 32 bio/ libraries. 37 of these 127 have been checked against an independent reference on real data in this work (11 modules, 26 libraries). The rest are not yet validated. That does not mean they are wrong, only that no claim about them is made here. Validation status is a curated list tied to committed result files (manifests/module\_inventory.tsv, built by sweep/module\_inventory.py), not a keyword match.
+sugarcode-ai contains 95 application modules and 32 bio/ libraries. 38 of these 127 have been checked against an independent reference on real data in this work (11 modules, 27 libraries). The rest are not yet validated. That does not mean they are wrong, only that no claim about them is made here. Validation status is a curated list tied to committed result files (manifests/module\_inventory.tsv, built by sweep/module\_inventory.py), not a keyword match.
 \begin{center}\scriptsize\begin{longtable}{llrl}\hline kind & name & py lines & status\\\hline\endhead
 bio & align & 164 & \textbf{validated}\\
 bio & bed & 180 & \textbf{validated}\\
 bio & codon & 170 & \textbf{validated}\\
 bio & de & 218 & \textbf{validated}\\
+bio & entrez & 196 & \textbf{validated}\\
 bio & fastq & 183 & \textbf{validated}\\
 bio & genbank & 103 & \textbf{validated}\\
 bio & gff & 237 & \textbf{validated}\\
@@ -39,7 +40,6 @@ module & pgx\_guidelines & 287 & \textbf{validated}\\
 module & profile\_hmm & 747 & \textbf{validated}\\
 module & rna\_nussinov & 387 & \textbf{validated}\\
 bio & chembl & 176 & not yet\\
-bio & entrez & 186 & not yet\\
 bio & fasta & 55 & not yet\\
 bio & gnomad & 96 & not yet\\
 bio & reactome & 63 & not yet\\
