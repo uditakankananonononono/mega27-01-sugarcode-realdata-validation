@@ -185,4 +185,4 @@ BUG FIXED (sugarcode 4defcdb). Two-entry z table matched 7/41 grid cases (power 
 
 ## modules.qsar_bench descriptors vs RDKit on 993 ChEMBL phase-4 drugs (2026-09-25)
 BUG FIXED (sugarcode bf8665b). Before: 110/993 rejected (stereo bonds, salt ions); on 883 parsed MW 843, rotatable 96 (vs NonStrict), fraction_csp3 296. After: 993/993 parse; MW, heavy/hetero atoms, charge, ring rank, rotatable (NonStrict), fraction_csp3 all 993/993; HBD 992/993; HBA heuristic 264/993 (labelled). benchmarks/sweep_qsar_descriptors.json
-- qsar_bench morgan_fingerprint (sugarcode 6th fix this module): Tanimoto rank agreement with RDKit Morgan 0.7815 -> see benchmarks/sweep_qsar_morgan.json (total-H + ring invariants).
+- qsar_bench morgan_fingerprint (sugarcode 9a33eb4): invariants now total H + ring membership. Tanimoto Spearman vs RDKit Morgan r2/2048 on 5,000 pairs 0.7815 -> 0.9005; nearest neighbour 202 -> 236 /300. benchmarks/sweep_qsar_morgan.json
