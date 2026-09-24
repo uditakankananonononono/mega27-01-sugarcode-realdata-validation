@@ -10,3 +10,14 @@ Pipeline (all free/public data, reproducible):
 CV result (cv_results.json): AUC PWM 0.889, logistic 0.912, CNN 0.936; within-position weighted PWM 0.809, CNN 0.900.
 Caveat: ClinVar splice-region labels partly derive from in-silico evidence (often SpliceAI), which biases any ClinVar benchmark toward that tool.
 Large inputs (ClinVar extract, hg38.2bit) are not committed; the scripts re-fetch them.
+
+## Head-to-head vs SpliceAI (interim, n=757 of the 1,500 seeded subset, 185 P)
+AUC: SpliceAI 0.978 (95% bootstrap CI 0.964-0.988) vs our CNN 0.929 (0.907-0.948). The rank-average ensemble reaches 0.978; the ensemble-minus-SpliceAI CI is -0.009 to +0.008, i.e. no gain. Verdict: SpliceAI beats our model on ClinVar splice-region variants. This is a preserved negative, with the circularity caveat above (ClinVar submitters use SpliceAI as evidence).
+
+## Named candidate list (vus_candidates_consensus.tsv)
+- Our final CNN scored 37,359 ClinVar VUS (non-training genes); the top 300 went to SpliceAI.
+- 267/300 have a SpliceAI delta >= 0.5, and 206 (180 genes) have >= 0.8, SpliceAI's high-precision band.
+- Each row gives VariationID, gene, HGVS, GRCh38 position, PWM delta, CNN probability and the SpliceAI DS_AG/AL/DG/DL.
+- These are predictions, not discoveries. Each is falsifiable by minigene/RT-PCR or by future ClinVar reclassification.
+- CV calibration at CNN >= 0.98: PPV 0.975 at the CV class mix, 0.78 at a 3% pathogenic prior.
+- The top 300 are 95% donor +5 variants (a position prior), so SpliceAI agreement is what makes each candidate credible.

@@ -1,0 +1,1 @@
+{"n": 757, "n_pos": 185, "cnn": 0.929, "spliceai": 0.9775, "ensemble": 0.9778, "ci_cnn": [0.9065, 0.948], "ci_spliceai": [0.9642, 0.9883], "ens_minus_spliceai_ci": [-0.0087, 0.0081]}
