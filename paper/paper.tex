@@ -221,10 +221,10 @@ not a model defect. The 23-nt MaxEntScan-style acceptor window was sliced as
 the module expects AG at 12-13. We reproduced the bug (AUC 0.524 off-frame) and
 the fix (0.998 at \texttt{[6:21]}), and a regression test now locks the frame.
 
-\textbf{profile\_hmm: residual gap to HMMER.} The module offers only a global
-alignment mode. A held-out globin with long flanks scores $-1116$ bits under
-forward, so the module cannot reach Pfam's AUC of 1.000. A local mode is the
-next tweak.
+\textbf{profile\_hmm: residual gap to HMMER.} The module originally offered only a global
+alignment mode. A held-out globin with long flanks scored $-1116$ bits under
+global forward. A local forward mode (sugarcode-ai 1d9091a) raises AUC from 0.952 to 0.979
+(\texttt{benchmarks/profile\_hmm\_cv\_local.json}); Pfam's model still reaches 1.000.
 
 \textbf{mutdock vs SKEMPI: no honest adapter.} mutdock scores ligand-pocket
 mutations from a SMILES string and a pocket description, while SKEMPI rows are
