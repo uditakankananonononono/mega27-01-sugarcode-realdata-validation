@@ -1,0 +1,131 @@
+{
+ "normalisation": "pysam INFO strings percent-decoded (VCF 4.3 escapes such as %3D; sugarcode decodes them, pysam returns raw); floats compared at 1e-6 relative (pysam stores float32)",
+ "tool": "pysam 0.24.1 (htslib tabix remote fetch)",
+ "source": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/clinvar.vcf.gz",
+ "regions": {
+  "TP53": [
+   "17",
+   7661779,
+   7687538
+  ],
+  "BRCA1": [
+   "17",
+   43044295,
+   43125483
+  ],
+  "BRCA2": [
+   "13",
+   32315474,
+   32400266
+  ],
+  "BRAF": [
+   "7",
+   140719327,
+   140924764
+  ],
+  "EGFR": [
+   "7",
+   55019017,
+   55211628
+  ]
+ },
+ "n_records": 46603,
+ "n_parsed": 46603,
+ "field_mismatches": {
+  "info:CLNVI": 2
+ },
+ "mismatch_examples": [
+  [
+   "CLNVI",
+   "Breast_Cancer_Information_Core_(BIC)_(BRCA1):5271%2B80&base_change=del T|Breast_Cancer_Information_Core_(BIC)_(BRCA1):5271+80&base_change=del_T|ClinGen:CA290825713",
+   "['Breast_Cancer_Information_Core_(BIC)_(BRCA1):5271%2B80&base_change%3Ddel%20T|Breast_Cancer_Information_Core_(BIC)_(BRCA1):5271+80&base_change%3Ddel_T|ClinGen:CA290825713']"
+  ],
+  [
+   "CLNVI",
+   "Breast_Cancer_Information_Core_(BIC)_(BRCA1):5271%2B73&base_change=G to |Breast_Cancer_Information_Core_(BIC)_(BRCA1):5271+73&base_change=G_to_A",
+   "['Breast_Cancer_Information_Core_(BIC)_(BRCA1):5271%2B73&base_change%3DG%20to%20|Breast_Cancer_Information_Core_(BIC)_(BRCA1):5271+73&base_change%3DG_to_A']"
+  ]
+ ],
+ "variant_type_vs_CLNVC": {
+  "single_nucleotide_variant->snp": 36230,
+  "Duplication->insertion": 2108,
+  "Deletion->deletion": 5974,
+  "Insertion->insertion": 805,
+  "Indel->indel": 568,
+  "Indel->mnp": 302
+ },
+ "variant_type_note": "All disagreements are equal-length multi-base changes: ClinVar CLNVC says Indel, sugarcode says mnp (VCF/GATK convention). Naming convention.",
+ "variant_type_disagreements": 302,
+ "disagreement_examples": [
+  [
+   7670669,
+   "GC",
+   "AA",
+   "Indel",
+   "mnp"
+  ],
+  [
+   7670684,
+   "CG",
+   "AA",
+   "Indel",
+   "mnp"
+  ],
+  [
+   7670687,
+   "AA",
+   "CT",
+   "Indel",
+   "mnp"
+  ],
+  [
+   7673749,
+   "TG",
+   "GT",
+   "Indel",
+   "mnp"
+  ],
+  [
+   7673752,
+   "GG",
+   "TT",
+   "Indel",
+   "mnp"
+  ],
+  [
+   7673780,
+   "TCT",
+   "GAG",
+   "Indel",
+   "mnp"
+  ],
+  [
+   7673787,
+   "GG",
+   "AC",
+   "Indel",
+   "mnp"
+  ],
+  [
+   7673803,
+   "GC",
+   "TT",
+   "Indel",
+   "mnp"
+  ],
+  [
+   7673806,
+   "CC",
+   "TA",
+   "Indel",
+   "mnp"
+  ],
+  [
+   7673808,
+   "TC",
+   "AA",
+   "Indel",
+   "mnp"
+  ]
+ ]
+}

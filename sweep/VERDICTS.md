@@ -78,3 +78,8 @@ Cross-species BH-FDR (statsmodels): ribosomal-reference CAI is significantly cor
 ## bio.orf vs orfipy and NCBI CDS annotation (2026-09-24)
 - 5 RefSeq mRNAs (TP53, BRCA1, BRCA2, BRAF, EGFR; GenBank records in data/refseq/). The longest + strand ATG ORF equals the annotated CDS in 5/5, and its translation equals the NCBI /translation in 5/5. VERIFIED.
 - Six-frame ORF sets (min 30 aa) are identical to orfipy in 5/5 when orfipy minlen is 89-90; at 91-93 orfipy drops the 30-aa ORFs. Length-threshold convention, not a bug (benchmarks/sweep_orf_orfipy.json).
+
+## bio.vcf vs pysam/htslib on ClinVar GRCh38 (2026-09-24)
+- 46,603 ClinVar records across 5 gene regions, fetched by remote tabix. CHROM/POS/ID/REF/ALT: 0 mismatches. INFO: 0 mismatches after two normalisations (pysam returns percent-escapes raw where sugarcode decodes them; pysam stores floats as float32), except 2 CLNVI values where ClinVar uses %2B, which is not a VCF 4.3 escape and sugarcode correctly leaves as-is (benchmarks/sweep_vcf_pysam.json). VERIFIED.
+- Small spec gap fixed: %3A (':') was not decoded; sugarcode-ai now decodes it.
+- variant_type vs ClinVar CLNVC: agrees on 45,685 records. The other 302 are equal-length multi-base changes that ClinVar labels Indel and sugarcode labels mnp (VCF convention). Naming difference.

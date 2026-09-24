@@ -24,3 +24,4 @@ id	dataset	accession_or_version	source_url	retrieved	used_in
 23	IEDB MHC-I binding data 2013 (Kim et al. 2014)	bdata.20130222.mhci.txt	http://tools.iedb.org/static/main/binding_data_2013.zip	2026-09-24	sweep/neohunter_iedb_bench.py
 24	LP-PDBBind (Li et al. leak-proof split)	LP_PDBBind.csv	https://raw.githubusercontent.com/THGLab/LP-PDBBind/master/dataset/LP_PDBBind.csv	2026-09-24	sweep/docking_bench.py
 25	NCBI RefSeq transcripts (TP53, BRCA1, BRCA2, BRAF, EGFR)	NM_000546.6, NM_007294.4, NM_000059.4, NM_004333.6, NM_005228.5	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi	2026-09-24	sweep/primer_vs_primer3.py
+26	ClinVar GRCh38 VCF (tabix regions TP53, BRCA1, BRCA2, BRAF, EGFR)	clinvar.vcf.gz (46,603 records)	https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/clinvar.vcf.gz	2026-09-24	sweep/vcf_vs_pysam.py
