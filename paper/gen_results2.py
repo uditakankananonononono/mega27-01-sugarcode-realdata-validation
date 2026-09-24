@@ -9,7 +9,7 @@ dk=json.load(open(B+'sweep_docking.json')); dr=[json.loads(l) for l in open(B+'s
 cv=json.load(open(D+'cv_results_me.json')); mx=json.load(open(D+'maxent_cmp.json')); lm=json.load(open(D+'splice_logit_me_v1.json'))
 o=[]
 # ---- splice
-o.append('\\section{Splice Track II: A 2004 Baseline Beats Our CNN, and What Survives}')
+o.append('\\section{Splice Track II: A 2004 Baseline Beats Our CNN, and What Survives}\\label{sec:splice2}')
 o.append(f"We compared the ClinVar-trained CNN against MaxEntScan \\cite{{yeo2004}} on the same gene-grouped folds (n={mx['n']} variants). "
  f"MaxEntScan's ref$-$alt score difference reached AUROC {mx['maxentscan_delta']}, above the CNN ({mx['cnn']}), the logistic PWM model ({mx['logit']}) and the raw PWM delta ({mx['pwm']}). "
  f"The paired bootstrap 95\\% CI for CNN minus MaxEntScan is [{mx['cnn_minus_maxent_ci95'][0]}, {mx['cnn_minus_maxent_ci95'][1]}], so this is a clear negative result for the CNN. "

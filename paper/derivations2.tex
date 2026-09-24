@@ -1,0 +1,78 @@
+\subsection{Derivations for the Second-Round Validations}
+\paragraph{(F15) Maximum-entropy splice-site score.} MaxEntScan \cite{yeo2004} models a
+site $x$ (9 nt donor, 23 nt acceptor) by the distribution of maximum entropy
+subject to matching the observed low-order marginals $\{\hat p_C(x_C)\}$ over a set of
+position subsets $C$. By Lagrange duality the solution has Gibbs form
+\begin{equation}
+p(x)=\frac{1}{Z}\exp\Big(\sum_C \lambda_C(x_C)\Big),\qquad
+Z=\sum_{x'}\exp\Big(\sum_C\lambda_C(x'_C)\Big),
+\end{equation}
+since maximising $H(p)=-\sum_x p\log p$ with constraints
+$\sum_x p(x)\mathbf{1}[x_C=c]=\hat p_C(c)$ gives stationarity
+$-\log p(x)-1+\sum_C\lambda_C(x_C)+\mu=0$. The score is
+$\mathrm{ME}(x)=\log_2 p(x)/q(x)$ with background $q$, and the variant feature used in
+Section~\ref{sec:splice2} is $\Delta\mathrm{ME}=\mathrm{ME}(x_{ref})-\mathrm{ME}(x_{alt})$.
+
+\paragraph{(F16) Logistic model with MaxEnt features.} With feature vector
+\begin{equation*}
+z=\big(S_{ref},\,S_{alt},\,\Delta S,\,d,\,\mathrm{ME}_{ref}/10,\,\mathrm{ME}_{alt}/10,\,\Delta\mathrm{ME}/10,\,e_k\big),
+\end{equation*}
+where $d=1$ for donors and 0 for acceptors, $e_k$ one-hot encodes the offset, $P(y=1\mid z)=\sigma(\beta^\top z+\beta_0)$.
+The log-likelihood $\ell(\beta)=\sum_i y_i\log\sigma_i+(1-y_i)\log(1-\sigma_i)$ has gradient
+$\nabla\ell=\sum_i(y_i-\sigma_i)z_i$ and Hessian $-\sum_i\sigma_i(1-\sigma_i)z_iz_i^\top$,
+which is negative semidefinite, so $\ell$ is concave and the fit has a single optimum.
+
+\paragraph{(F17) Fisher $z$ test for a correlation.} For sample correlation $r$ from $n$
+pairs, $z=\operatorname{artanh}(r)=\tfrac12\log\frac{1+r}{1-r}$. By the delta method
+$\operatorname{Var}(r)\approx(1-\rho^2)^2/n$ and $\frac{d}{dr}\operatorname{artanh}(r)=1/(1-r^2)$, so
+$\operatorname{Var}(z)\approx 1/n$; the refined value $1/(n-3)$ gives
+\begin{equation}
+Z=\operatorname{artanh}(r)\sqrt{n-3}\ \dot\sim\ N(0,1)\ \text{under}\ \rho=0,\qquad p=2\,\Phi(-|Z|).
+\end{equation}
+We apply it to Spearman $\rho$ (rank correlation), which is an approximation.
+
+\paragraph{(F18) Benjamini-Hochberg adjustment.} For ordered $p_{(1)}\le\dots\le p_{(m)}$,
+$q_{(i)}=\min_{j\ge i}\min\big(1,\,m\,p_{(j)}/j\big)$. Rejecting all $q_{(i)}\le\alpha$ controls the
+false discovery rate at $\alpha m_0/m\le\alpha$ for independent or positively dependent tests,
+because $\mathbb{E}[V/R]=\sum_{i\in H_0}\mathbb{E}[\mathbf 1\{i\ \text{rejected}\}/R]=m_0\alpha/m$.
+
+\paragraph{(F19) tRNA adaptation index.} For codon $c$ with tRNA gene copy numbers
+$t_j$ of the anticodons $j$ that decode it and wobble efficiencies $(1-s_{jc})$,
+$W_c=\sum_j(1-s_{jc})\,t_j$, $w_c=W_c/\max_{c'}W_{c'}$ (zeros replaced by the geometric mean
+of non-zero $w$), and for a gene of $L$ codons
+$\mathrm{tAI}=\big(\prod_{k=1}^{L}w_{c_k}\big)^{1/L}$ \cite{dosreis2004}.
+Taking logs shows tAI is the exponential of the mean log-adaptiveness, the same form as CAI
+\cite{sharpli1987} with $w$ from tRNA supply instead of a reference gene set.
+
+\paragraph{(F20) Effective number of codons.} For an amino acid with $k$ synonymous codons
+observed $n$ times with frequencies $p_i$, $\hat F=\frac{n\sum_ip_i^2-1}{n-1}$ is the unbiased
+homozygosity; $\mathrm{ENC}=2+9/\bar F_2+1/\bar F_3+5/\bar F_4+3/\bar F_6$ averages $\hat F$
+within degeneracy classes. Uniform usage gives $\hat F=1/k$ and ENC $=61$; one codon per
+amino acid gives $\hat F=1$ and ENC $=20$.
+
+\paragraph{(F21) Shrake-Rupley surface area.} Atom $a$ with radius $r_a$ is expanded to
+$R_a=r_a+r_p$ ($r_p=1.4$\,\AA). With $N$ quasi-uniform points $u_k$ on the unit sphere,
+\begin{equation}
+A_a\approx\frac{4\pi R_a^2}{N}\sum_{k=1}^{N}\mathbf 1\Big[\ \|c_a+R_au_k-c_b\|>R_b\ \ \forall b\ne a\Big],
+\end{equation}
+an unbiased Monte-Carlo estimate of the exposed area whose error falls as $N^{-1/2}$ for random
+points and faster for the Fibonacci lattice. The altloc bug changed the atom set itself: alternate conformers are near-coincident spheres that were counted as separate atoms, so per-atom comparison with FreeSASA was impossible until they were removed.
+
+\paragraph{(F22) Nearest-neighbour melting temperature.} For a duplex with
+$\Delta H=\Delta H_{init}+\sum_{i}\Delta H_{i,i+1}$ and $\Delta S$ likewise, at equilibrium
+$\Delta G=\Delta H-T\Delta S=-RT\ln K$. At $T_m$ half the limiting strand is bound, so
+$K=1/C_{eff}$ with $C_{eff}=C_1-C_2/2$ for non-self-complementary strands, giving
+\begin{equation}
+T_m=\frac{\Delta H}{\Delta S+R\ln C_{eff}},\qquad
+\Delta S_{[Na^+]}=\Delta S+0.368\,(N-1)\ln[\mathrm{Na}^+].
+\end{equation}
+
+\paragraph{(F23) Negative-binomial GLM for counts.} DESeq2 models $K_{ij}\sim\mathrm{NB}(\mu_{ij},\alpha_i)$ with
+$\operatorname{Var}=\mu+\alpha\mu^2$, $\mu_{ij}=s_jq_{ij}$ and $\log_2 q_{ij}=x_j^\top\beta_i$. The size factor
+is the median-of-ratios $s_j=\operatorname{median}_i K_{ij}/(\prod_{j'}K_{ij'})^{1/m}$, which is scale-equivariant and
+robust to a minority of changing genes. The Wald statistic $\hat\beta_{ik}/\mathrm{SE}(\hat\beta_{ik})$ borrows power from the
+dispersion prior; with $n=4$ per arm the smallest two-sided rank-sum $p$ is $2/\binom{8}{4}=2/70\approx0.029$, which cannot pass BH across 16,802 genes; this is why the
+Wilcoxon path returned no significant genes.
+
+\paragraph{(F24) Robinson-Foulds distance.} For unrooted trees $T_1,T_2$ on the same leaves with
+non-trivial split sets $\Sigma_1,\Sigma_2$, $d_{RF}=|\Sigma_1\,\triangle\,\Sigma_2|$. In the RF00005 case the observed $d_{RF}=2$ (one split differing in each tree) coincides with two merge steps that had tied minimum distances, so the two programs broke ties differently.
