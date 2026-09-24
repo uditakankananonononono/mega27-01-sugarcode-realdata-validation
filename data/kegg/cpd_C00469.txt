@@ -1,0 +1,80 @@
+ENTRY       C00469                      Compound
+NAME        Ethanol;
+            Ethyl alcohol;
+            Methylcarbinol
+FORMULA     C2H6O
+EXACT_MASS  46.0419
+MOL_WEIGHT  46.07
+REMARK      Same as: D00068 D02798 D04855 D06542
+REACTION    R00746 R00754 R02359 R02682 R04410 R05198 R09127 R09479 
+            R09552 R11957 R12515
+PATHWAY     map00010  Glycolysis / Gluconeogenesis
+            map00620  Pyruvate metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01120  Microbial metabolism in diverse environments
+            map04750  Inflammatory mediator regulation of TRP channels
+            map04936  Alcoholic liver disease
+            map05034  Alcoholism
+            map05208  Chemical carcinogenesis - reactive oxygen species
+NETWORK     nt06251  CYP-mediated ROS formation (cancer)
+ENZYME      1.1.1.1         1.1.1.2         1.1.1.71        1.1.2.7         
+            1.1.2.8         1.1.5.5         1.1.99.36       2.3.1.152       
+            2.3.1.268       3.1.1.67        3.1.1.113       3.5.1.75
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303(D00068)]
+             D DERMATOLOGICALS
+              D08 ANTISEPTICS AND DISINFECTANTS
+               D08A ANTISEPTICS AND DISINFECTANTS
+                D08AX Other antiseptics and disinfectants
+                 D08AX08 Ethanol
+                  D00068  Alcohol (USP) &lt;JP/US&gt;
+             V VARIOUS
+              V03 ALL OTHER THERAPEUTIC PRODUCTS
+               V03A ALL OTHER THERAPEUTIC PRODUCTS
+                V03AB Antidotes
+                 V03AB16 Ethanol
+                  D00068  Alcohol (USP) &lt;JP/US&gt;
+                V03AZ Nerve depressants
+                 V03AZ01 Ethanol
+                  D00068  Alcohol (USP) &lt;JP/US&gt;
+            Therapeutic category of drugs in Japan [BR:br08301(D00068)]
+             2  Agents affecting individual organs
+              26  Epidermides
+               261  Antimicrobial agents
+                2615  Alcohols
+                 D00068  Alcohol (USP); Anhydrous ethanol (JP19)
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               429  Miscellaneous
+                4291  Other Antitumors
+                 D00068  Alcohol (USP); Anhydrous ethanol (JP19)
+            Classification of Japanese OTC drugs [BR:br08313(D00068)]
+             Agents for integumentary system
+              54 Disinfectants (incl. special bandages)
+               D00068  Alcohol (USP)
+            Risk category of Japanese OTC drugs [BR:br08312(D00068)]
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Ethanol
+                D00068  Alcohol (USP)
+             Third-class OTC drugs
+              Inorganic and organic chemicals
+               Ethanol
+                D00068  Alcohol (USP)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311(D00068)]
+             Chemicals
+              D00068  Anhydrous ethanol
+DBLINKS     CAS: 64-17-5
+            PubChem: 3752
+            ChEBI: 16236
+            KNApSAcK: C00019560
+            PDB-CCD: EOH
+            J-GLOBAL: J1.930E
+ATOM        3
+            1   C1b C    22.1200  -15.8397
+            2   C1a C    20.9088  -16.5419
+            3   O1a O    23.3312  -16.5419
+BOND        2
+            1     1   2 1
+            2     1   3 1
+///

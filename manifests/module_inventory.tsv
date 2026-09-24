@@ -2,16 +2,16 @@ kind	name	python_lines	test_references	status	evidence
 module	acmg_bayesian	469	3	validated	benchmarks/sweep_acmg_erepo.json
 module	alpha_fold_ui	404	7	not yet validated	
 module	bio_copilot	245	5	not yet validated	
-module	bio_material	114	2	validated	sweep/bio_material_phys.py -> benchmarks/sweep_bio_material.json
+module	bio_material	116	3	validated	benchmarks/sweep_bio_material.json
 module	bio_switch	511	3	not yet validated	
-module	biofactory_1_a	102	2	validated	sweep/biofactory_sched.py -> benchmarks/sweep_biofactory.json
+module	biofactory_1_a	105	3	validated	benchmarks/sweep_biofactory.json
 module	biogpt_lit	249	3	not yet validated	
 module	bioimage_ai	146	2	not yet validated	
 module	bioplayground	98	2	not yet validated	
 module	bioprint_pro	143	2	not yet validated	
 module	biosimvr	200	2	not yet validated	
-module	car_t_designer	104	2	validated	sweep/car_t_designer_constructs.py -> benchmarks/sweep_car_t_designer.json
-module	cell_free_opt	107	2	validated	sweep/cell_free_opt_grid.py -> benchmarks/sweep_cell_free_opt.json
+module	car_t_designer	104	2	validated	benchmarks/sweep_car_t_designer.json
+module	cell_free_opt	109	3	validated	benchmarks/sweep_cell_free_opt.json
 module	cell_twin	170	2	not yet validated	
 module	cellfatenet	199	2	not yet validated	
 module	cellpainter	289	3	not yet validated	
@@ -30,7 +30,7 @@ module	dark_genome	202	2	not yet validated
 module	deepsplice	751	29	validated	discovery/splice_region_vus/cv_results_me.json, maxent_cmp.json
 module	dna_to_code	132	2	validated	benchmarks/sweep_dna_to_code.json
 module	docking_studio	535	17	validated	benchmarks/sweep_docking.json
-module	dti_bench	196	1	validated	sweep/dti_bench_chembl.py -> benchmarks/sweep_dti_bench.json
+module	dti_bench	201	3	validated	benchmarks/sweep_dti_bench.json
 module	ecosystem	175	2	not yet validated	
 module	enterprise_bio	260	4	not yet validated	
 module	epi_edit	178	2	not yet validated	
@@ -45,14 +45,14 @@ module	infinite_diagnosis	130	4	not yet validated
 module	liquid_biopsy	376	6	not yet validated	
 module	living_computer	857	2	not yet validated	
 module	living_tx	184	2	not yet validated	
-module	metabodesigner	170	3	not yet validated	
+module	metabodesigner	190	4	validated	benchmarks/sweep_metabodesigner.json
 module	micro_tx	218	2	not yet validated	
 module	microaiverse	138	2	not yet validated	
 module	microbiome_exp	120	3	validated	benchmarks/sweep_microbiome.json
 module	microbiome_rx	172	2	not yet validated	
 module	mit_offtarget	154	2	validated	VERDICTS table; sweep/crispr_vs_crispor.py
 module	molecule_eval	149	2	validated	benchmarks/sweep_molecule_eval.json
-module	mutdock	337	15	validated	sweep/mutdock_platinum.py -> benchmarks/sweep_mutdock.json
+module	mutdock	337	15	validated	benchmarks/sweep_mutdock.json
 module	neodti_engine	257	3	not yet validated	
 module	neohunter	358	11	validated	VERDICTS neohunter section
 module	neuro_hub	44	1	not yet validated	

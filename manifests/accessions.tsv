@@ -449,3 +449,39 @@ pdb_ligand	A15	RCSB chemcomp descriptor fetched for SMILES (mutdock Platinum swe
 pdb_ligand	A3P	RCSB chemcomp descriptor fetched for SMILES (mutdock Platinum sweep)	A3P	sweep/mutdock_platinum.py
 pdb_ligand	AB1	RCSB chemcomp descriptor fetched for SMILES (mutdock Platinum sweep)	AB1	sweep/mutdock_platinum.py
 pdb_ligand	ACO	RCSB chemcomp descriptor fetched for SMILES (mutdock Platinum sweep)	ACO	sweep/mutdock_platinum.py
+kegg_compound	C00010	KEGG COMPOUND entry (metabodesigner sweep)	cpd:C00010	sweep/metabodesigner.py
+kegg_compound	C00011	KEGG COMPOUND entry (metabodesigner sweep)	cpd:C00011	sweep/metabodesigner.py
+kegg_compound	C00022	KEGG COMPOUND entry (metabodesigner sweep)	cpd:C00022	sweep/metabodesigner.py
+kegg_compound	C00024	KEGG COMPOUND entry (metabodesigner sweep)	cpd:C00024	sweep/metabodesigner.py
+kegg_compound	C00031	KEGG COMPOUND entry (metabodesigner sweep)	cpd:C00031	sweep/metabodesigner.py
+kegg_compound	C00042	KEGG COMPOUND entry (metabodesigner sweep)	cpd:C00042	sweep/metabodesigner.py
+kegg_compound	C00048	KEGG COMPOUND entry (metabodesigner sweep)	cpd:C00048	sweep/metabodesigner.py
+kegg_compound	C00074	KEGG COMPOUND entry (metabodesigner sweep)	cpd:C00074	sweep/metabodesigner.py
+kegg_compound	C00085	KEGG COMPOUND entry (metabodesigner sweep)	cpd:C00085	sweep/metabodesigner.py
+kegg_compound	C00092	KEGG COMPOUND entry (metabodesigner sweep)	cpd:C00092	sweep/metabodesigner.py
+kegg_compound	C00111	KEGG COMPOUND entry (metabodesigner sweep)	cpd:C00111	sweep/metabodesigner.py
+kegg_compound	C00118	KEGG COMPOUND entry (metabodesigner sweep)	cpd:C00118	sweep/metabodesigner.py
+kegg_compound	C00149	KEGG COMPOUND entry (metabodesigner sweep)	cpd:C00149	sweep/metabodesigner.py
+kegg_compound	C00158	KEGG COMPOUND entry (metabodesigner sweep)	cpd:C00158	sweep/metabodesigner.py
+kegg_compound	C00186	KEGG COMPOUND entry (metabodesigner sweep)	cpd:C00186	sweep/metabodesigner.py
+kegg_compound	C00197	KEGG COMPOUND entry (metabodesigner sweep)	cpd:C00197	sweep/metabodesigner.py
+kegg_compound	C00236	KEGG COMPOUND entry (metabodesigner sweep)	cpd:C00236	sweep/metabodesigner.py
+kegg_compound	C00354	KEGG COMPOUND entry (metabodesigner sweep)	cpd:C00354	sweep/metabodesigner.py
+kegg_compound	C00469	KEGG COMPOUND entry (metabodesigner sweep)	cpd:C00469	sweep/metabodesigner.py
+kegg_compound	C01089	KEGG COMPOUND entry (metabodesigner sweep)	cpd:C01089	sweep/metabodesigner.py
+kegg_enzyme	EC 1.1.1.1	KEGG ENZYME entry (metabodesigner sweep)	ec:1.1.1.1	sweep/metabodesigner.py
+kegg_enzyme	EC 1.1.1.27	KEGG ENZYME entry (metabodesigner sweep)	ec:1.1.1.27	sweep/metabodesigner.py
+kegg_enzyme	EC 1.2.1.12	KEGG ENZYME entry (metabodesigner sweep)	ec:1.2.1.12	sweep/metabodesigner.py
+kegg_enzyme	EC 1.2.4.1	KEGG ENZYME entry (metabodesigner sweep)	ec:1.2.4.1	sweep/metabodesigner.py
+kegg_enzyme	EC 2.3.1.9	KEGG ENZYME entry (metabodesigner sweep)	ec:2.3.1.9	sweep/metabodesigner.py
+kegg_enzyme	EC 2.3.3.1	KEGG ENZYME entry (metabodesigner sweep)	ec:2.3.3.1	sweep/metabodesigner.py
+kegg_enzyme	EC 2.3.3.9	KEGG ENZYME entry (metabodesigner sweep)	ec:2.3.3.9	sweep/metabodesigner.py
+kegg_enzyme	EC 2.7.1.1	KEGG ENZYME entry (metabodesigner sweep)	ec:2.7.1.1	sweep/metabodesigner.py
+kegg_enzyme	EC 2.7.1.11	KEGG ENZYME entry (metabodesigner sweep)	ec:2.7.1.11	sweep/metabodesigner.py
+kegg_enzyme	EC 2.7.1.40	KEGG ENZYME entry (metabodesigner sweep)	ec:2.7.1.40	sweep/metabodesigner.py
+kegg_enzyme	EC 2.7.2.3	KEGG ENZYME entry (metabodesigner sweep)	ec:2.7.2.3	sweep/metabodesigner.py
+kegg_enzyme	EC 4.1.2.13	KEGG ENZYME entry (metabodesigner sweep)	ec:4.1.2.13	sweep/metabodesigner.py
+kegg_enzyme	EC 4.1.3.1	KEGG ENZYME entry (metabodesigner sweep)	ec:4.1.3.1	sweep/metabodesigner.py
+kegg_enzyme	EC 4.2.1.11	KEGG ENZYME entry (metabodesigner sweep)	ec:4.2.1.11	sweep/metabodesigner.py
+kegg_enzyme	EC 5.3.1.1	KEGG ENZYME entry (metabodesigner sweep)	ec:5.3.1.1	sweep/metabodesigner.py
+kegg_enzyme	EC 5.3.1.9	KEGG ENZYME entry (metabodesigner sweep)	ec:5.3.1.9	sweep/metabodesigner.py

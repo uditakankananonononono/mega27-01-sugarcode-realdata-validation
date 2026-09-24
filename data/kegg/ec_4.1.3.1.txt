@@ -1,0 +1,5059 @@
+ENTRY       EC 4.1.3.1                  Enzyme
+NAME        isocitrate lyase;
+            isocitrase;
+            isocitritase;
+            isocitratase;
+            threo-Ds-isocitrate glyoxylate-lyase;
+            isocitrate glyoxylate-lyase
+CLASS       Lyases;
+            Carbon-carbon lyases;
+            Oxo-acid-lyases
+SYSNAME     isocitrate glyoxylate-lyase (succinate-forming)
+REACTION    isocitrate = succinate + glyoxylate [RN:R00479]
+ALL_REAC    R00479
+SUBSTRATE   isocitrate [CPD:C00311]
+PRODUCT     succinate [CPD:C00042];
+            glyoxylate [CPD:C00048]
+COMMENT     The isomer of isocitrate involved is (1R,2S)-1-hydroxypropane-1,2,3-tricarboxylate [3].
+HISTORY     EC 4.1.3.1 created 1961
+REFERENCE   1
+  AUTHORS   McFadden BA, Howes WV.
+  TITLE     Crystallisation and some properties of isocitrate lyase from Pseudomonas indigofera.
+  JOURNAL   J Biol Chem 238:1737-1742 (1963)
+REFERENCE   2  [PMID:14285253]
+  AUTHORS   SHIIO I, SHIIO T, MCFADDEN BA.
+  TITLE     ISOCITRATE LYASE FROM PSEUDOMONAS INDIGOFERA. I. PREPARATION, AMINO ACID COMPOSITION AND MOLECULAR WEIGHT.
+  JOURNAL   Biochim Biophys Acta 96:114-22 (1965)
+            DOI:10.1016/0005-2787(65)90615-5
+REFERENCE   3  [PMID:13925783]
+  AUTHORS   VICKERY HB.
+  TITLE     A suggested new nomenclature for the isomers of isocitric acid.
+  JOURNAL   J Biol Chem 237:1739-41 (1962)
+PATHWAY     ec00630  Glyoxylate and dicarboxylate metabolism
+            ec01100  Metabolic pathways
+            ec01110  Biosynthesis of secondary metabolites
+            ec01120  Microbial metabolism in diverse environments
+ORTHOLOGY   K01637  isocitrate/methylisocitrate lyase
+GENES       CEL: CELE_C05E4.9(icl-1)
+            CBR: CBG_06335(Cbr-icl-1)
+            CRQ: GCK72_019498
+            NAI: NECAME_00358
+            ATH: AT3G21720(ICL)
+            ALY: 9319383
+            CRB: 17891529
+            CSAT: 104746606 104766074 104786775
+            EUS: EUTSA_v10022122mg
+            BRP: 103859922 103869151
+            BNA: 106389063 106439648 106445986
+            BOE: 106329442 106343626
+            RSZ: 108829373 108860098 130496782
+            THJ: 104808494
+            CPAP: 110821578
+            CIT: 102615372
+            CIC: CICLE_v10014655mg
+            PVY: 116136933
+            MINC: 123196002 123224113
+            TCC: 18610079
+            GRA: 105782985 105794296
+            GHI: 107887472 107893568 107910095 107920350
+            GAB: 108463989 108476266
+            HSYR: 120125143 120134586 120145047 120200399
+            DZI: 111317563
+            EGR: 104424765
+            RARG: 115750837
+            GMX: 100782793(ICL) 100789036(ICL1)
+            GSJ: 114379086 114417293
+            PVU: 137826053 137826693
+            VRA: 106754322
+            VAR: 108339601
+            VUN: 114168199
+            VUM: 124826101
+            CCAJ: 109790422
+            APRC: 113859247
+            MTR: 25492112
+            TPRA: 123920280
+            CAM: 101497840
+            PSAT: 127105723
+            VVO: 131606739 131641422
+            LJA: 130742948
+            ADU: 107477745
+            AIP: 107629956
+            AHF: 112737545 112789619
+            LANG: 109351782 109353726
+            PCIN: 129314511
+            QSA: O6P43_000589 O6P43_028687
+            FVE: 101311703
+            AANS: 126799947
+            RCN: 112190332
+            PPER: 18784380
+            PMUM: 103329397
+            PAVI: 110764229 110764230 110764235
+            PDUL: 117620574
+            MDM: 103404799 103442594
+            MSYL: 126582905(ICL) 126612259(LOC126612259)
+            PXB: 103934238 103944520
+            PCOX: 137709546 137738800
+            ZJU: 107417040
+            MNT: 21401234
+            CSAV: 115698845
+            HLP: 133817597
+            CSV: 101214114
+            CMO: 103495946
+            BHJ: 120087701
+            CMAX: 111469780 111484071
+            CMOS: 111448305 111451696
+            CPEP: 111777136 111795771
+            RCU: 8264280
+            MEAN: 126654864
+            JCU: 105645378
+            HBR: 110632150
+            MESC: 110628026 110629767
+            POP: 18106977 7491783
+            PEU: 105126983 105134342
+            PALZ: 118032137 118054995
+            PNZ: 133671272 133672429
+            JRE: 108985254
+            CILL: 122303824
+            CAVE: 132180385
+            AGLU: 133859581
+            QSU: 111988425 111988428 112024027
+            QLO: 115957859 115958397
+            CSAA: 142641765
+            TWL: 119991312 120000940
+            VVI: 100248231
+            VRI: 117926152
+            SLY: 544276
+            SPEN: 107025868
+            SOT: 102581970
+            SSTN: 125875564
+            SDUL: 129892179
+            SVER: 125817528
+            CANN: 107859042 124900077
+            LBB: 132620360
+            NTA: 107818961 107828227 107829652
+            NSY: 104216785 104237910
+            NTO: 104108609
+            NAU: 109205476 109228739
+            INI: 109187205
+            ITR: 116006727
+            SIND: 105178507
+            OEU: 111368506
+            EGT: 105972101
+            SSPL: 121754167 121758237 121810909
+            SMIL: 131009210
+            SHIS: 125190439 125193737
+            APAN: 127265903
+            HPUM: 140887848
+            PHUA: 140964757 140976706
+            PEBU: 140836542 140838456
+            PTAB: 142522538 142536761
+            CARB: 113688393 113690805
+            HAN: 110936731
+            BHW: 143529173 143578828 143596277
+            ECAD: 122584839
+            LSV: 111903705(ICL)
+            CCAV: 112525520(LOC112525520)
+            DCR: 108215541 108223341 108226213
+            AGRV: 141698554 141706991 141712016
+            CSIN: 114266645
+            RVL: 131330657
+            AEW: 130774740 130789033
+            DLT: 127792486
+            CFLO: 132310310
+            BVG: 104901757(LOC104901757)
+            SOE: 110795414
+            CQI: 110698310 110721907
+            CALB: 145577675(LOC145577675) 145610457(LOC145610457) 145635769(LOC145635769)
+            ATRI: 130815130
+            MOF: 131150769
+            NNU: 104585660 104604882
+            MING: 122078992 122078993
+            TSS: 122653993
+            PSOM: 113285749 113333522
+            OSA: 4343441(ICL)
+            DOSA: Os07g0529000
+            OBR: 102709097
+            OGL: 127778686
+            BDI: 100841104
+            ATS: 109731718
+            TDC: 119359298 119367662
+            TAES: 100682407 123044645 123052517
+            TUA: 125536811
+            HVG: 123429919
+            LPER: 127333272
+            LRD: 124669303
+            SBI: 8084064
+            ZMA: 103633249
+            MFLO: 136546871 136552460
+            SITA: 101774000
+            SVS: 117842705
+            PVIR: 120661550 120690020
+            PHAI: 112883300
+            PAUA: 133892081
+            TANG: 140759255
+            CROT: 144552960(ICL)
+            PDA: 103716821
+            EGU: 105051958
+            MUS: 103997675
+            ZOF: 121968089 122051094
+            PEQ: 110020228
+            AOF: 109833328
+            MSIN: 131239171
+            ACAK: 137942798 137966721
+            NCOL: 116264190
+            ATR: 18421613 18421648 18421679
+            CJF: 131037319 131041648
+            SMO: SELMODRAFT_420727 SELMODRAFT_422019
+            PPP: 112284299 112284910
+            SCE: YER065C(ICL1) YPR006C(ICL2)
+            SEUB: DI49_1469 DI49_5462
+            SPAO: SPAR_E01400 SPAR_P02680
+            AGO: AGOS_ADL066C AGOS_AGL057W
+            ERC: Ecym_4328
+            KLA: KLLA0_C08107g KLLA0_E13905g
+            KMX: KLMA_70179(ICL1) KLMA_70429(ICL2)
+            LTH: KLTH0A04466g
+            VPO: Kpol_1036p1 Kpol_467p7
+            ZRO: ZYRO0C08272g ZYRO0F04708g
+            CGR: 2889724(GVI51_J02871) 2891124(GVI51_L09229)
+            NCS: NCAS_0A03640(NCAS0A03640) NCAS_0E03310(NCAS0E03310)
+            NDI: NDAI_0C06140(NDAI0C06140) NDAI_0E04820(NDAI0E04820)
+            TPF: TPHA_0H00600(TPHA0H00600) TPHA_0J00910(TPHA0J00910)
+            TBL: TBLA_0C00500(TBLA0C00500) TBLA_0C04660(TBLA0C04660)
+            TGB: HG536_0B06200 HG536_0C04950
+            TDL: TDEL_0C01320(TDEL0C01320) TDEL_0H01970(TDEL0H01970)
+            KAF: KAFR_0B01930(KAFR0B01930) KAFR_0L00940(KAFR0L00940)
+            KNG: KNAG_0D02360(KNAG0D02360) KNAG_0L01540(KNAG0L01540)
+            ZMK: HG535_0F03800
+            SLUD: SCDLUD_000342
+            DHA: DEHA2D12936g
+            PIC: PICST_62080(ICL1)
+            PGU: PGUG_04804
+            SPAA: SPAPADRAFT_58160(ICL1)
+            LEL: PVL30_001798(ICL1)
+            LBG: 92207788(LODBEIA_P25920)
+            COT: CORT_0B06480
+            CAL: CAALFM_C104500WA(ICL1)
+            CTP: CTRG_04702
+            CDU: CD36_04240
+            CTEN: 18247202(ICL1) 18250462(PSN45_000801)
+            CLU: CLUG_01411
+            CLUS: A9F13_06g02156
+            CAUR: CJI96_0001908
+            ASAU: 88174669(PUMCH_003606)
+            PPA: PAS_chr1-4_0338
+            PKZ: C5L36_0B10830
+            BNN: FOA43_002478(ICL1)
+            BBRX: BRETT_000027(ICL1)
+            OPA: HPODL_00142 HPODL_01751 HPODL_01752
+            YLI: 2908123(YALI2_E00865g) 2909302(YALI2_B00186g)
+            SLB: AWJ20_4879(ICL1) AWJ20_766(ICL2)
+            NCR: NCU02481 NCU04230(acu-3)
+            NTE: NEUTE1DRAFT143773(NEUTE1DRAFT_143773) NEUTE1DRAFT92288(NEUTE1DRAFT_92288)
+            SMP: 10800969(SMAC4_04370) 10808684(SMAC4_05989)
+            PAN: PODANS72p206 PODANSg9124
+            PBEL: QC761_212610(ICL1) QC761_610010(ICL2)
+            PPSD: 87908063(ICL1) 87912584(ICL2)
+            PPSP: QC763_212610(ICL1) QC763_610010(ICL2)
+            PPSA: QC764_212610(ICL1) QC764_610010(ICL2)
+            TTT: THITE_2108794 THITE_2111311
+            MTM: MYCTH_110871 MYCTH_2311001
+            CTHR: CTHT_0010800 CTHT_0062350
+            RTHE: 98122333(VTJ83DRAFT_1520) 98124600(VTJ83DRAFT_3564)
+            MGR: MGG_02616 MGG_04895
+            PPEI: PpBr36_03265 PpBr36_09828
+            PGRI: PgNI_01424 PgNI_10811
+            TMN: UCRPA7_284 UCRPA7_4799 UCRPA7_5187 UCRPA7_5984
+            SSCK: SPSK_02361 SPSK_06195 SPSK_09079
+            FGR: FGSG_00176 FGSG_09896
+            FPU: FPSE_01422 FPSE_06919
+            FPOA: FPOAC1_000180 FPOAC1_002975(ICL1)
+            FVN: FVRRES_00303 FVRRES_03293
+            FVR: FVEG_00190 FVEG_02611
+            FOX: FOXG_01303 FOXG_05529
+            NHE: NECHADRAFT_42178 NECHADRAFT_56770 NECHADRAFT_61067 NECHADRAFT_69753
+            FFC: NCS54_00687100 NCS54_00746600
+            FKR: NCS57_00727000 NCS57_00787500
+            FMU: J7337_001756 J7337_005535(ICL1)
+            TRE: TRIREDRAFT_21758(acu3) TRIREDRAFT_66541
+            TRR: M419DRAFT_132696 M419DRAFT_25052
+            TATV: 25775918(TrAtP1_004761) 25776251(TrAtP1_012070)
+            TASP: 36609350(TrAFT101_010842) 36611407(ICL1)
+            MAW: 19251167(ICL2_3) 90961953(ICL1_1)
+            MAJ: MAA_01023 MAA_04402
+            MBRN: 26240399(ICL1) 26244355(mcl)
+            PCHM: VFPPC_00191 VFPPC_09975
+            UVI: 66062572(UV8b_01794) 66065299(UV8b_04521)
+            CMT: CCM_05551 CCM_05661
+            AMUS: LMH87_004063 LMH87_008026
+            PLJ: 28888335(PLICBS_003540) 28891590(PLICBS_010351)
+            PTKZ: JDV02_000308(ICL2) JDV02_002244(ICL1)
+            DCON: 63714476(DCS_01833) 63717661(DCS_05018)
+            VAL: VDBG_00323 VDBG_02299
+            VDA: VDAG_02768
+            CFJ: CFIO01_09374 CFIO01_11623 CFIO01_12322
+            CLUP: CLUP02_09416 CLUP02_10778
+            CHIG: CH63R_06954 CH63R_08943
+            CDET: 87944127(CDEST_07624) 87950125(CDEST_13625)
+            SAPO: SAPIO_CDS10138 SAPIO_CDS2706
+            ELA: UCREL1_10049 UCREL1_6705
+            PFY: PFICI_06343 PFICI_07593 PFICI_13044 PFICI_13764
+            SSL: SS1G_04900 SS1G_04975
+            BFU: BCIN_09g00660(Bcicl1) BCIN_09g01320
+            MBE: MBM_07271 MBM_07963
+            PSCO: LY89DRAFT_587305 LY89DRAFT_616532 LY89DRAFT_693475 LY89DRAFT_696922 LY89DRAFT_705257
+            GLZ: GLAREA_01576 GLAREA_09662 GLAREA_09995
+            ANI: ANIA_05634 ANIA_08755
+            AFM: AFUA_4G13510 AFUA_6G02860
+            ACT: ACLA_052480 ACLA_097560
+            NFI: NFIA_049200 NFIA_102860
+            AOR: AO090009000219 AO090120000179
+            ANG: An01g09270 An12g07630
+            AFV: AFLA_009399 AFLA_011135
+            ALUC: AKAW2_20981A(ICL1) AKAW2_61126A
+            ACHE: ACHE_10404A(ICL1) ACHE_50880S ACHE_70094A
+            APUU: APUU_10566S APUU_41003A(ICL1)
+            PCS: N7525_004072 N7525_005848
+            PDP: PDIP_43910 PDIP_62360
+            POU: POX_a01680 POX_f07591
+            PPSF: 300788908(PFLUO_LOCUS3209) 300795090(PFLUO_LOCUS8775)
+            TMF: EYB26_000196 EYB26_004091
+            TRG: TRUGW13939_04276 TRUGW13939_10769
+            CIM: CIMG_01988 CIMG_10137
+            CPW: 9690790(ICL1) 9697573(D8B26_007201)
+            URE: UREG_03573 UREG_06912
+            ABE: ARB_07627 ARB_07814
+            TVE: TRV_00542 TRV_06961
+            PBL: PAAG_04549 PAAG_06951
+            PBN: PADG_01483 PADG_04709
+            AJE: HCAG_05089 HCAG_06184
+            BGH: BDBG_04918 BDBG_05333
+            PNO: SNOG_05626 SNOG_07689
+            PTE: PTT_06660 PTT_15242
+            PTRR: 6340742(PtrM4_060680) 6343592(PtrM4_111360)
+            BZE: COCCADRAFT_109038 COCCADRAFT_349
+            BSC: COCSADRAFT_186198 COCSADRAFT_32717
+            BOR: COCMIDRAFT_32306 COCMIDRAFT_6953
+            AALT: CC77DRAFT_926396 CC77DRAFT_926519 CC77DRAFT_931413
+            ADAC: 96083755(ACET3X_003433) 96089428(ACET3X_009106) 96089703(ACET3X_009381)
+            ARAB: EKO05_0006348 EKO05_0010308
+            ZTR: MYCGRDRAFT_102083 MYCGRDRAFT_83726
+            PFJ: MYCFIDRAFT_211094 MYCFIDRAFT_48983
+            FFU: CLAFUR5_00332 CLAFUR5_04397
+            CBET: CB0940_01150 CB0940_11736
+            BCOM: BAUCODRAFT_126127 BAUCODRAFT_552469
+            NPA: UCRNP2_2332 UCRNP2_5566 UCRNP2_7455
+            TML: GSTUM_00002890001 GSTUM_00004661001
+            SPO: 2539803(icl1)
+            CNE: CNH03280
+            CNB: CNBI3510
+            CNG: CNAG_05303
+            CGI: CGB_I4430C
+            CDEU: CNBG_5726
+            CDEC: 89989364(IAS62_002591)
+            CTEG: 91992534(I308_105679)
+            CBAS: 91983364(I312_103319)
+            CDEP: 91085404(L203_101190)
+            KMG: 30161437(I203_105812) 30164948(I203_108244)
+            KNE: 92179180(IAR55_001921) 92181947(IAR55_004689) 92183671(IAR55_006413)
+            KDJ: 28963996(I303_100297) 28967365(I303_103645)
+            KBI: 30206538(I302_103439) 30213285(I302_105040)
+            KPIN: 30168635(I206_101060) 30170020(I206_103343) 30175074(I206_101327)
+            KSH: 87952412(IL334_000281) 87956283(IL334_004152)
+            KER: 91102932(V865_004130) 91107022(V865_008221)
+            KSN: 43589989(CI109_107380)
+            KBO: 90013756(L199_002770) 90019239(L199_008255)
+            KEP: 91091028(L201_000356) 91095584(L201_004914)
+            TMS: TREMEDRAFT_26472
+            TASA: A1Q1_01931
+            CCAC: CcaHIS019_0603610(ICL1)
+            TVS: TRAVEDRAFT_157876 TRAVEDRAFT_166243
+            DSQ: DICSQDRAFT_112226 DICSQDRAFT_151488
+            PCO: PHACADRAFT_204595 PHACADRAFT_262369
+            SHS: STEHIDRAFT_74721 STEHIDRAFT_86057
+            HIR: HETIRDRAFT_58807(ICL2) HETIRDRAFT_65122(ICL3)
+            PSQ: PUNSTDRAFT_56739 PUNSTDRAFT_82372
+            ADL: AURDEDRAFT_111648 AURDEDRAFT_116065
+            FME: FOMMEDRAFT_148888 FOMMEDRAFT_82585
+            GTR: GLOTRDRAFT_31405 GLOTRDRAFT_81608
+            RSX: RhiXN_02109 RhiXN_11624
+            LBC: LACBIDRAFT_171643 LACBIDRAFT_229070
+            CCI: CC1G_06620 CC1G_07122
+            ABP: AGABI1DRAFT110617(AGABI1DRAFT_110617) AGABI1DRAFT113957(AGABI1DRAFT_113957)
+            ABV: AGABI2DRAFT189483(AGABI2DRAFT_189483) AGABI2DRAFT193793(AGABI2DRAFT_193793)
+            PCUB: JR316_0000393 JR316_0007102
+            MRR: Moror_13928 Moror_4819
+            MORE: 66070674 66081613(ACU7)
+            SCM: SCHCO_02567539(SCHCODRAFT_02567539) SCHCO_02615529(SCHCODRAFT_02615529)
+            CPUT: CONPUDRAFT_165175 CONPUDRAFT_79289
+            SLA: SERLADRAFT_370809 SERLADRAFT_444661
+            WSE: WALSEDRAFT_26918
+            WIC: J056_004176
+            UMA: UMAG_01892 UMAG_04285
+            PFP: PFL1_03310 PFL1_06093
+            SGRA: EX895_002031 EX895_003978
+            MGL: MGL_0642 MGL_3419
+            MRT: MRET_1462 MRET_2511
+            MSYM: MSY001_1621 MSY001_1673
+            MJP: 85224377(ICL1) 85227617(ICL2)
+            MVES: 80899650(ICL2) 80902860(ICL1)
+            PGR: PGTG_03604 PGTG_05379
+            PTRC: PtA15_11A360 PtA15_3A447 PtA15_3A618
+            PSTR: Pst134EA_007251 Pst134EA_007404
+            MLR: MELLADRAFT_48703 MELLADRAFT_55473
+            RIE: OCT59_018795
+            DDI: DDB_G0273017
+            DPP: DICPUDRAFT_92549
+            DFA: DFA_01108
+            TET: TTHERM_01141570
+            PTM: GSPATT00017260001 GSPATT00019454001
+            PTI: PHATRDRAFT_51088
+            TPS: THAPS_35523
+            PIF: PITG_07027
+            PSOJ: PHYSODRAFT_312079
+            BLAC: 94348484(CCR75_004727)
+            SPAR: SPRG_00344
+            EHX: EMIHUDRAFT_436528(ICL1)
+            GTT: GUITHDRAFT_96465
+            ECO: b4015(aceA)
+            ECJ: JW3975(aceA)
+            ECD: ECDH10B_4204(aceA)
+            EBW: BWG_3671(aceA)
+            ECOK: ECMDS42_3453(aceA)
+            ECOC: C3026_21690
+            ECE: Z5601(aceA)
+            ECS: ECs_4933(aceA)
+            ECF: ECH74115_5485(aceA)
+            ETW: ECSP_5084(aceA)
+            ELX: CDCO157_4674
+            EOI: ECO111_4827(aceA)
+            EOJ: ECO26_5119(aceA)
+            EOH: ECO103_4759(aceA)
+            ECOO: ECRM13514_5137(aceA)
+            ECOH: ECRM13516_4874(aceA)
+            ESL: O3K_23805
+            ESO: O3O_01540
+            ESM: O3M_23725
+            ECK: EC55989_4500(aceA)
+            ECG: E2348C_4318(aceA)
+            EOK: G2583_4832(aceA)
+            ELR: ECO55CA74_23110
+            ELH: ETEC_4270
+            ECW: EcE24377A_4557(aceA)
+            EUN: UMNK88_4859(aceA)
+            ECP: ECP_4225
+            ENA: ECNA114_4164(aceA)
+            ECOS: EC958_4462(aceA)
+            ECV: APECO1_2461(aceA)
+            ECOA: APECO78_00820
+            ECX: EcHS_A4249(aceA)
+            ECM: EcSMS35_4469(aceA)
+            ECY: ECSE_4300
+            ECR: ECIAI1_4235(aceA)
+            ECQ: ECED1_4722(aceA)
+            EUM: ECUMN_4541(aceA)
+            ECT: ECIAI39_4401(aceA)
+            EOC: CE10_4695(aceA)
+            EBR: ECB_03887(aceA)
+            ECOB: C3029_01710
+            EBL: ECD_03887(aceA)
+            EBD: ECBD_4022
+            ECI: UTI89_C4574(aceA)
+            EIH: ECOK1_4492(aceA)
+            ECZ: ECS88_4480(aceA)
+            ECC: c4972(aceA)
+            ELO: EC042_4377(aceA)
+            ELN: NRG857_20015
+            ESE: ECSF_3865
+            ECL: EcolC_4015
+            EKF: KO11_02320(aceA)
+            EAB: ECABU_c45310(aceA)
+            EDJ: ECDH1ME8569_3871(aceA)
+            ELU: UM146_20135
+            ELW: ECW_m4374(aceA)
+            ELL: WFL_21265(aceA)
+            ELC: i14_4562(aceA)
+            ELD: i02_4562(aceA)
+            ELP: P12B_c4122(aceA)
+            ELF: LF82_0012(aceA)
+            ECOL: LY180_21065
+            ECOI: ECOPMV1_04387(aceA)
+            ECOJ: P423_22245
+            EFE: EFER_4068(aceA)
+            EAL: EAKF1_ch1905c(aceA)
+            EMA: C1192_18360
+            ESZ: FEM44_11810(aceA)
+            ERUY: OSH18_14410(aceA)
+            ESF: ACK8NJ_22230(aceA)
+            STY: STY4402
+            STT: t4112(aceA)
+            SEX: STBHUCCB_43490
+            SENT: TY21A_20910
+            STM: STM4184(aceA)
+            SEO: STM14_5030(aceA)
+            SEV: STMMW_41331
+            SEY: SL1344_4119(aceA)
+            SEM: STMDT12_C43170
+            SEJ: STMUK_4168(aceA)
+            SEB: STM474_4373(aceA)
+            SEF: UMN798_4534(aceA)
+            SETU: STU288_21005
+            SETC: CFSAN001921_19505
+            SENR: STMDT2_40331(aceA)
+            SEND: DT104_41771(aceA)
+            SENI: CY43_21845
+            SEEN: SE451236_03950
+            SPT: SPA4022(aceA)
+            SEK: SSPA3732
+            SPQ: SPAB_05177
+            SEI: SPC_4244(aceA)
+            SEC: SCH_4063(aceA)
+            SEH: SeHA_C4517(aceA)
+            SHB: SU5_0259
+            SENH: CFSAN002069_11195
+            SEEH: SEEH1578_07080
+            SEE: SNSL254_A4520(aceA)
+            SENN: SN31241_4950
+            SEW: SeSA_A4395(aceA)
+            SEA: SeAg_B4430(aceA)
+            SENS: Q786_20495
+            SED: SeD_A4593(aceA)
+            SEG: SG4044(aceA)
+            SEL: SPUL_4189(aceA)
+            SEGA: SPUCDC_4175(aceA)
+            SET: SEN3966(aceA)
+            SENA: AU38_20540
+            SENO: AU37_20555
+            SENV: AU39_20575
+            SENQ: AU40_22960
+            SENL: IY59_21045
+            SENJ: CFSAN001992_12860
+            SEEC: CFSAN002050_03735
+            SEEB: SEEB0189_021440
+            SEEP: I137_20055
+            SENB: BN855_42460
+            SENE: IA1_20350
+            SENC: SEET0819_04715
+            SES: SARI_03472
+            SBG: SBG_3654(aceA)
+            SBZ: A464_4194
+            SALZ: EOS98_21410(aceA)
+            SFL: SF4081(aceA)
+            SFX: S3649(aceA)
+            SFV: SFV_4086(aceA)
+            SFE: SFxv_4451(aceA)
+            SFN: SFy_5852
+            SFS: SFyv_5919
+            SFT: NCTC1_04434(aceA)
+            SSN: SSON_4187(aceA)
+            SBC: SbBS512_E4509(aceA)
+            SDY: SDY_4328(aceA)
+            SDZ: Asd1617_05679
+            SHQ: A0259_01665
+            SHIG: LXH19_20775(aceA)
+            ENC: ECL_00267
+            ENL: A3UG_01340
+            ECLG: EC036_02560
+            ECLE: ECNIH2_02000
+            ECLN: ECNIH4_21610
+            ECLI: ECNIH5_01550
+            ECLX: LI66_01395
+            ECLY: LI62_01805
+            ECLZ: LI64_01530
+            ECLO: ENC_04450
+            EHM: AB284_24010
+            EXF: BFV63_01380
+            ECLA: ECNIH3_01540
+            ECLC: ECR091_01540
+            EAU: DI57_17350
+            EKB: BFV64_01080
+            ENO: ECENHK_01275
+            EEC: EcWSU1_00234(aceA)
+            ELG: BH714_18920
+            ECAN: CWI88_01305
+            ERN: BFV67_01135
+            ECLS: LI67_002110
+            ECHG: FY206_01270(aceA)
+            ESH: C1N69_01205
+            EPT: HWQ17_11720(aceA)
+            ECHU: RQP59_01190(aceA)
+            ENT: Ent638_0219
+            EAS: Entas_0241
+            ENR: H650_16660
+            ENX: NI40_001095
+            ENF: AKI40_4699(aceA)
+            LNI: CWR52_11340(aceA)
+            EBG: FAI37_05410(aceA)
+            END: A4308_01620
+            ENZ: G0034_01100(aceA)
+            ENS: HWQ15_09705(aceA)
+            ENK: LOC22_12215(aceA)
+            EHU: D5067_0021975(aceA)
+            EMOR: L6Y89_01210(aceA)
+            ENB: ELK40_01925(aceA)
+            EQU: OM418_01145(aceA)
+            EPU: QVH39_01170(aceA)
+            EDY: F0320_01075(aceA)
+            EAX: AAHF05_01220(aceA)
+            ENTE: GXP72_01300(aceA)
+            ENTY: H2Z33_06385(aceA)
+            ENJ: QRD42_06305(aceA)
+            ENHK: EnteroDNA1_03008(aceA)
+            ENTL: FZF21_08615(aceA)
+            ENTC: NWV12_01120(aceA)
+            ENTJ: RY075_01445(aceA)
+            ENTH: ABFI50_10320(aceA)
+            ENV: KGP24_01420(aceA)
+            EIT: ACN6BD_01350(aceA)
+            ESA: ESA_00054
+            CSK: ES15_0373(aceA)
+            CSZ: CSSP291_00230
+            CSJ: CSK29544_01335
+            CCON: AFK62_18045
+            CDM: AFK67_18610
+            CSI: P262_00536
+            CMJ: AFK66_001930
+            CUI: AFK65_17785
+            CMW: AFK63_00635
+            CTU: CTU_38030(aceA)
+            KPN: KPN_04396(aceA)
+            KPU: KP1_0254(aceA)
+            KPM: KPHS_02300
+            KPP: A79E_4789
+            KPH: KPNIH24_01265
+            KPZ: KPNIH27_01295
+            KPV: KPNIH29_01265
+            KPW: KPNIH30_01295
+            KPY: KPNIH31_01295
+            KPG: KPNIH32_01300
+            KPC: KPNIH10_01260
+            KPQ: KPR0928_01265
+            KPT: VK055_3078(aceA)
+            KPO: KPN2242_00020
+            KPR: KPR_0377(aceA)
+            KPJ: N559_4905
+            KPI: D364_22390
+            KPA: KPNJ1_05197
+            KPS: KPNJ2_05195
+            KPX: PMK1_01877(aceA)
+            KPB: FH42_18345
+            KPNE: KU54_025435
+            KPNU: LI86_25275
+            KPNK: BN49_5037(aceA)
+            KVA: Kvar_4850
+            KPE: KPK_5278(aceA)
+            KPK: A593_12070
+            KVD: KR75_09510
+            KVQ: SP68_16100
+            KQU: AVR78_05850
+            KQV: B8P98_26245
+            KOX: KOX_08045
+            KOE: A225_0273
+            KOY: J415_01700
+            KOM: HR38_06720
+            KMI: VW41_00585
+            KOK: KONIH1_01585
+            KOC: AB185_05545
+            EAE: EAE_08260
+            EAR: CCG32346
+            KLL: BJF97_01435
+            KLW: DA718_27720(aceA)
+            KAR: LGL98_23690(aceA)
+            KGR: JJJ10_26185(aceA)
+            KPAS: LUW96_08200(aceA)
+            KLC: K7H21_26315(aceA)
+            KLM: BWI76_01665
+            REE: electrica_04792(aceA)
+            KLP: GUC22_25575(aceA)
+            KLX: GQR96_01230(aceA)
+            ROR: RORB6_17480
+            RON: TE10_03585
+            RPLN: B1209_25560
+            RAO: DSD31_24385
+            RTG: NCTC13098_06910(aceA)
+            CRO: ROD_37421(aceA)
+            CKO: CKO_03905
+            CFD: CFNIH1_07670
+            CBRA: A6J81_15615
+            CWE: CO701_20620
+            CYO: CD187_22580
+            CPOT: FOB25_09865(aceA)
+            CFQ: C2U38_24365
+            CSED: JY391_20990(aceA)
+            CAMA: F384_22080
+            CAF: AL524_04860
+            CIF: AL515_02730
+            CFAR: CI104_23615
+            CIR: C2U53_11440
+            CIE: AN232_02860
+            CPAR: CUC49_20725
+            CTEL: GBC03_06300(aceA)
+            CITZ: E4Z61_15625(aceA)
+            CARS: E1B03_02510(aceA)
+            CIX: M4I31_22290(aceA)
+            CIB: HF677_022235(aceA)
+            CENS: P2W74_21670(aceA)
+            CITR: GUC46_22450(aceA)
+            CIQ: FD428_20215(aceA)
+            CIY: HAP28_23415(aceA)
+            EBT: EBL_c36940(aceA)
+            CNT: JT31_11170
+            CEM: LH23_06540
+            CEN: LH86_06470
+            CLAP: NCTC11466_04327(aceA)
+            CDAV: ACG1VR_21665(aceA)
+            PGE: LG71_05305
+            ESC: Entcl_4150
+            KLE: AO703_01210
+            KSA: C813_14015
+            KOR: AWR26_23875(aceA)
+            KRD: A3780_26070
+            KCO: BWI95_04240
+            KOT: EH164_20975(aceA)
+            KPSE: IP581_01270(aceA)
+            KOB: HF650_22900(aceA)
+            KOO: O9K67_23175(aceA)
+            KOU: C0557_00025
+            KCA: AAEY27_20820(aceA)
+            KSY: Q5705_12255(aceA)
+            KIE: NCTC12125_03486(aceA_1) NCTC12125_03487(aceA_2)
+            KAS: KATP_42590
+            KLU: K7B04_03515(aceA)
+            KCY: RIN60_21285(aceA)
+            KGN: GY169_22120(aceA)
+            LAX: APT61_21070
+            LEI: C2U54_06045
+            LEH: C3F35_10520
+            LEE: DVA44_22495
+            LER: GNG29_01055(aceA)
+            LEA: GNG26_01080(aceA)
+            LPNU: KQ929_19430(aceA)
+            LEY: DVA43_16450
+            LAZ: A8A57_01330
+            LEF: LJPFL01_0219
+            LEW: DAI21_03180
+            BUF: D8682_14160(aceA)
+            BAGE: BADSM9389_39020
+            BFT: MNO13_22990(aceA)
+            BSEL: RHD99_22420(aceA)
+            SYM: K6K13_04860(aceA)
+            AHN: NCTC12129_04634(aceA)
+            ASUB: NLZ15_20785(aceA)
+            YRE: HEC60_19210(aceA)
+            SGOE: A8O29_021240(aceA)
+            KIN: AB182_23660
+            PDZ: HHA33_00665(aceA)
+            METY: MRY16398_53490
+            PSHI: SAMEA2665130_0552(aceA)
+            PSGC: G163CM_33040(aceA)
+            SCOL: KFZ77_17890(aceA)
+            PVJ: LMA04_13715(aceA)
+            SUPE: P0H77_21405(aceA)
+            TOE: QMG90_20630(aceA)
+            MPHG: MPHASIOC01_005153(aceA)
+            FPUL: ACBV55_01290(aceA)
+            EBF: D782_4258
+            EBC: C2U52_06585
+            EBU: CUC76_14100
+            EBB: F652_2990
+            YPE: YPO3725(aceA)
+            YPK: y0016(aceA)
+            YPH: YPC_0022(aceA)
+            YPA: YPA_0018
+            YPN: YPN_0015
+            YPM: YP_3087(aceA)
+            YPP: YPDSF_0174
+            YPG: YpAngola_A0640(aceA)
+            YPZ: YPZ3_3287(aceA)
+            YPT: A1122_07230
+            YPD: YPD4_3279(aceA)
+            YPX: YPD8_3278(aceA)
+            YPW: CH59_1638(aceA)
+            YPJ: CH55_2834(aceA)
+            YPV: BZ15_4010(aceA)
+            YPL: CH46_1361(aceA)
+            YPS: YPTB3656(aceA)
+            YPO: BZ17_2941(aceA)
+            YPI: YpsIP31758_0295(aceA)
+            YPY: YPK_0365
+            YPB: YPTS_3842
+            YPQ: DJ40_2751(aceA)
+            YPU: BZ21_2978(aceA)
+            YPR: BZ20_2451(aceA)
+            YPC: BZ23_3265(aceA)
+            YPF: BZ19_3126(aceA)
+            YEN: YE3880(aceA)
+            YEP: YE105_C3596
+            YEY: Y11_27841
+            YEW: CH47_3860(aceA)
+            YET: CH48_2023(aceA)
+            YEF: FORC2_0313
+            YEE: YE5303_00021(aceA)
+            YSI: BF17_05975
+            YAL: AT01_2152(aceA)
+            YFR: AW19_2882(aceA)
+            YIN: CH53_2122(aceA)
+            YKR: CH54_2906(aceA)
+            YRO: CH64_2294(aceA)
+            YRU: BD65_1623(aceA)
+            YRB: UGYR_08650
+            YAK: ACZ76_07335
+            YMA: DA391_01480
+            YHI: D5F51_20510(aceA)
+            YEL: LC20_00428
+            YCA: F0T03_19985(aceA)
+            YMO: HRD69_03565(aceA)
+            YAS: N0H69_04810(aceA)
+            YKI: HRD70_02625(aceA)
+            YEG: PL78_11080
+            YFE: ACF3VQ_01490(aceA)
+            SMAR: SM39_3952(aceA)
+            SMAC: SMDB11_3752(aceA)
+            SMW: SMWW4_v1c44650(aceA)
+            SPE: Spro_4502
+            SRR: SerAS9_4599
+            SRL: SOD_c43060(aceA)
+            SRY: M621_23485
+            SPLY: Q5A_023425(aceA)
+            SRS: SerAS12_4600
+            SRA: SerAS13_4600
+            SMAF: D781_4219
+            SLQ: M495_22695
+            SERF: L085_05895
+            SERS: SERRSCBI_21575
+            SFW: WN53_05610
+            SFG: AV650_00950 AV650_27790
+            SRZ: AXX16_0916
+            SERM: CLM71_21705
+            SQU: E4343_18275(aceA)
+            SFJ: SAMEA4384070_4462(aceA)
+            SOF: NCTC11214_02115(aceA)
+            SSUR: ATE40_018880
+            SURI: J0X03_01795(aceA)
+            SRHZ: FO014_11915(aceA)
+            SENP: KHA73_21765(aceA)
+            SNEM: NLX84_22855(aceA)
+            SNEV: OI978_08550(aceA)
+            SGRI: SGBXF1_04443(aceA)
+            SSAR: SSARUM_004360(aceA)
+            SERB: QEP77_25110(aceA)
+            SERN: GUC32_22270(aceA)
+            SERT: TAN611_4419(aceA)
+            SERH: GF111_15005(aceA)
+            SERU: OK023_15820(aceA)
+            SERV: KGP17_24945(aceA)
+            SBOC: ACSJLU_004533(aceA)
+            SFO: Z042_09745
+            RAH: Rahaq_4114
+            RACE: JHW33_14900(aceA)
+            RAQ: Rahaq2_4218
+            RAA: Q7S_20905
+            ROX: BV494_18475
+            RVC: J9880_06030(aceA)
+            RBON: QNM34_20855(aceA)
+            RIU: I2123_00210(aceA)
+            GQU: AWC35_13405
+            EAME: GXP68_01685(aceA)
+            RBAD: H2866_09560(aceA)
+            ROU: AB3G37_22695(aceA)
+            CARU: P0E69_18355(aceA)
+            NIG: C1N62_15880
+            SERA: Ser39006_004945
+            SERQ: CWC46_04945
+            PROD: PCO85_20605(aceA)
+            ECA: ECA3990(aceA)
+            PATR: EV46_19820
+            PATO: GZ59_40390(aceA)
+            PCT: PC1_3778
+            PCC: PCC21_037680
+            PCV: BCS7_18820
+            PWA: Pecwa_3957
+            PPAR: A8F97_21715
+            PEC: W5S_4113
+            PWS: A7983_04890
+            PPOA: BJK05_13875
+            PBRA: B5S52_02615
+            PPUJ: E2566_19165(aceA)
+            PARI: I2D83_02495(aceA)
+            PAQU: DMB82_0018070(aceA)
+            PVZ: OA04_40360(aceA)
+            PPAV: LOZ86_03485(aceA)
+            PQU: IG609_017840(aceA)
+            PPOO: LW347_19205(aceA)
+            PACB: M9782_21210(aceA)
+            PCOA: PJ912_09845(aceA)
+            PARL: PEC302110_03930(aceA)
+            PPEU: DUT67_02515(aceA)
+            PSIA: ACSJGL_00040(aceA)
+            DDD: Dda3937_02128(aceA)
+            DZE: Dd1591_0366
+            DDC: Dd586_3693
+            DZC: W909_17940
+            DSO: A4U42_06600
+            CED: LH89_14890
+            DFN: CVE23_20020
+            DDQ: DDI_3805
+            DAQ: DAQ1742_04004(aceA)
+            DIC: Dpoa569_0000469(aceA)
+            DLC: O1Q98_13850(aceA)
+            DAD: V6C41_05620(aceA)
+            DDA: Dd703_0451
+            BNG: EH206_02460(aceA)
+            EBI: EbC_02830(aceA)
+            EPE: CI789_17205
+            ERWI: GN242_19645(aceA)
+            ERP: LJN55_21610(aceA)
+            EPI: Q3V30_19780(aceA)
+            ERWE: GKQ23_22045(aceA)
+            ERWL: ACLI4M_11110(aceA)
+            ETO: RIN69_20845(aceA)
+            PAM: PANA_0234(aceA)
+            PLF: PANA5342_4190(aceA)
+            PAJ: PAJ_3394(aceA)
+            PAQ: PAGR_g4041
+            PVA: Pvag_3489(aceA)
+            PAGG: AL522_05570
+            PAO: Pat9b_0229
+            KLN: LH22_01040
+            PANT: PSNIH1_06775
+            PAGC: BEE12_07960
+            PSTW: DSJ_02950
+            PANS: FCN45_01245(aceA)
+            PEY: EE896_17885(aceA)
+            PDIS: D8B20_01100(aceA)
+            PER: LAC65_00880(aceA)
+            PJI: KTJ90_17855(aceA)
+            PANO: OJ965_19680(aceA)
+            PALF: K6R05_17505(aceA)
+            PPHO: CTZ24_01250
+            PDIP: KFZ74_18385(aceA)
+            PANE: P6287_01270(aceA)
+            PAMT: IAI47_18005(aceA)
+            PANZ: NR302_01245(aceA)
+            PPHI: ACF2G4_15745(aceA)
+            PALT: ACRPH8_20745(aceA)
+            PMAK: PMPD1_4049
+            PLU: plu4395(aceA)
+            PLUM: A4R40_21775
+            PAY: PAU_00417(aceA)
+            PTT: VY86_05620
+            PAKH: B0X70_02410
+            PLUI: CE143_02395
+            PMR: PMI2763(aceA)
+            PMIB: BB2000_2768(aceA)
+            PVL: AOB99_15050
+            PVG: CRN77_05805
+            PHAU: PH4a_05365
+            PROT: BTA34_15090
+            PCOL: F1325_17315(aceA)
+            PCIB: F9282_17955(aceA)
+            PPEE: I6G31_11305(aceA)
+            PAPP: QQS39_16945(aceA)
+            PRON: LG402_18810(aceA)
+            XBO: XBJ1_4008(aceA)
+            XBV: XBW1_4132(aceA)
+            XNE: XNC1_3949(aceA)
+            XNM: XNC2_3803(aceA)
+            XDO: XDD1_3270(aceA)
+            XPO: XPG1_3129(aceA)
+            XHO: A9255_18450
+            XBU: HGO23_04945(aceA)
+            XGR: QL128_03355(aceA)
+            XET: WDV74_02900(aceA)
+            XSK: AB0856_000785(aceA)
+            XTA: TCT1_30790(aceA)
+            PSI: S70_08470
+            PSX: DR96_1488(aceA)
+            PSTA: BGK56_11495
+            PTHA: OI982_14685(aceA)
+            PRG: RB151_004310(aceA)
+            PALA: CO695_02770
+            PHEI: NCTC12003_00427(aceA)
+            PRQ: CYG50_14010(aceA)
+            PRJ: NCTC6933_00495(aceA)
+            PVC: G3341_01875(aceA)
+            PMAG: JI723_02250(aceA)
+            PHAG: PZ638_01920(aceA)
+            PZJ: QS795_001715(aceA)
+            PZN: ACE2AM_01920(aceA)
+            PXH: ACE2AL_02000(aceA)
+            PLAZ: ACIH2S_01980(aceA)
+            PROV: ABE954_02195(aceA)
+            ANS: ArsFIN_40620(aceA)
+            AAPC: QG404_13630(aceA)
+            ARSE: QE177_13215(aceA)
+            MWI: MNY66_01420(aceA)
+            EIC: NT01EI_1119
+            HAV: AT03_20050
+            HPAR: AL518_06495
+            OPO: DSM2777_05395
+            GKN: PVT67_13585(aceA)
+            GPM: AAHF08_04760(aceA)
+            XCC: XCC0238(aceA)
+            XCB: XC_0248
+            XCA: xcc-b100_0260(aceA)
+            XCP: XCR_4275(aceA)
+            XCV: XCV0265(aceA)
+            XAX: XACM_0243(aceA)
+            XAC: XAC0257(aceA)
+            XCT: J151_00375
+            XCI: XCAW_00656(aceA)
+            XCJ: J158_00373
+            XCU: J159_00373
+            XCN: J169_00371
+            XCW: J162_00372
+            XCR: J163_00372
+            XCM: J164_00372
+            XCF: J172_00366
+            XFU: XFF4834R_chr02300(aceA)
+            XAO: XAC29_01320
+            XSA: SB85_13935
+            XTN: FD63_01215
+            XGM: KFS84_00795(aceA)
+            XCS: KHA79_01270(aceA)
+            XVE: BJD12_13880
+            XPE: BJD13_15760
+            XHR: XJ27_16965
+            XGA: BI317_23495
+            XPH: XppCFBP6546_10610(aceA)
+            XVA: C7V42_01135
+            XAN: AC801_01115
+            XAR: XB05_17990
+            XHY: FZ025_09880(aceA)
+            XCZ: EBN15_01380(aceA)
+            XEU: XSP_000259(aceA)
+            XHD: LMG31886_02780(aceA)
+            XPR: MUG10_09020(aceA)
+            XAG: HEP73_00305(aceA)
+            XDY: NYR95_01465(aceA)
+            XAS: HEP74_00296(aceA)
+            XHA: PG878_01370(aceA)
+            XRY: QN244_01280(aceA)
+            XSO: RAB70_04650(aceA)
+            XIN: Q7W82_01775(aceA)
+            XAI: HEP75_00302(aceA)
+            XAZ: XSP_000265(aceA)
+            XTS: AB3X08_01595(aceA)
+            XMD: AB3X07_01700(aceA)
+            XBN: AB3X10_01515(aceA)
+            XAF: NUG20_20540(aceA)
+            XAB: NUG21_01520(aceA)
+            XCD: RZV17_01340(aceA)
+            SML: Smlt0232(aceA)
+            SMT: Smal_0189
+            BUJ: BurJV3_0185
+            SMZ: SMD_0200(aceA)
+            SFOE: K5L94_00960(aceA)
+            SPAQ: STNY_R02330(aceA)
+            SACZ: AOT14_34760(aceA)
+            STEK: AXG53_16725
+            SRH: BAY15_0321
+            SLM: BIZ42_10390
+            STEN: CCR98_01010
+            STEM: CLM74_01020
+            STES: MG068_00880
+            SINC: DAIF1_02010(aceA)
+            STEQ: ICJ04_01000(aceA)
+            SGEN: RKE57_00745(aceA)
+            SOU: PDM29_08490(aceA)
+            SARC: PDM28_01320(aceA)
+            SCYC: AB1723_16410(aceA)
+            STEJ: FQS62_001080(aceA)
+            STEO: PEM_19475
+            STEZ: ACEPA4_00860(aceA)
+            SLAB: AB9L18_19450(aceA)
+            SMUD: ACUVWM_01015(aceA)
+            PSU: Psesu_0139
+            PSUW: WQ53_07165
+            PSD: DSC_00140
+            PMEX: H4W19_14630(aceA)
+            PJP: LAG73_16530(aceA)
+            PDD: MNQ95_05695(aceA)
+            PWI: MWN52_17230(aceA)
+            PSSE: OY559_01660(aceA)
+            PSJC: ACORQU_09750(aceA)
+            LAB: LA76x_4667(aceA)
+            LAQ: GLA29479_4492(aceA)
+            LCP: LC55x_0376(aceA)
+            LGU: LG3211_0399(aceA)
+            LEZ: GLE_0223(aceA)
+            LEM: LEN_4720(aceA)
+            LYT: DWG18_12600
+            LSOL: GOY17_17985(aceA)
+            LAUX: LA521A_36080(aceA)
+            LYA: RDV84_05490(aceA)
+            LSY: H8L67_08170(aceA)
+            LARE: HIV01_014740(aceA)
+            LHX: LYSHEL_13800(aceA)
+            LYW: H2514_12520(aceA)
+            LYF: AAFF32_02660(aceA)
+            LFH: ABU614_04460(aceA)
+            LCAS: LYSCAS_13800(aceA)
+            LCIC: INQ41_12510(aceA)
+            LAVI: INQ42_12140(aceA)
+            LLZ: LYB30171_02492(aceA)
+            LYJ: FKV23_15685(aceA)
+            LMB: C9I47_3098
+            LSX: H8B22_06610(aceA)
+            LUE: DCD74_09540
+            LUM: CNR27_02910
+            LUG: FPZ22_06665(aceA)
+            LFX: LU699_08330(aceA)
+            LUJ: BGP89_04230
+            THES: FHQ07_09400(aceA)
+            THEH: G7079_02045(aceA)
+            TCN: H9L16_04110(aceA)
+            TBV: H9L17_09985(aceA)
+            THEX: ICG51_001182(aceA)
+            XBC: ELE36_00630(aceA)
+            FAU: Fraau_0095
+            FSG: LQ771_14045(aceA)
+            FED: LQ772_15680(aceA)
+            RHD: R2APBS1_3601
+            RGL: CS053_02250(aceA)
+            RTH: LRK53_03375(aceA)
+            DJI: CH75_19155
+            DJA: HY57_04210
+            DTX: ATSB10_26930
+            DCS: ISN74_18980(aceA)
+            DTL: H8F01_09090(aceA)
+            DTA: DYST_03281
+            DYG: DYGSA30_03250(aceA)
+            DKY: ACN9MB_21420(aceA)
+            DTD: ACQVBX_13855(aceA)
+            DSG: ACQZ29_16935(aceA)
+            DKO: I596_83
+            DAQT: ACQQ2N_05680(aceA)
+            LRZ: BJI69_05690
+            LPY: FIV34_01650(aceA)
+            LANH: KR767_08310(aceA)
+            LFL: IM816_17345(aceA)
+            LAEG: L2Y94_01490(aceA)
+            LAEO: L2Y97_01550(aceA)
+            LAES: L2Y96_01555(aceA)
+            XBA: C7S18_00370
+            RBD: ALSL_2360
+            TAMN: N4264_02355(aceA)
+            MZW: PN837_007270(aceA)
+            VCH: VC_0736
+            VCF: IR04_09085
+            VCS: MS6_0550
+            VCE: Vch1786_I0243
+            VCQ: EN18_07075
+            VCJ: VCD_003589
+            VCI: O3Y_03425
+            VCO: VC0395_A0267(aceA)
+            VCR: VC395_0753(aceA)
+            VCM: VCM66_0694(aceA)
+            VCX: VAA049_2959(aceA)
+            VCZ: VAB027_1394(aceA)
+            VVU: VV1_0449(aceA)
+            VVY: VV0742
+            VVM: VVMO6_02452
+            VVL: VV93_v1c06880
+            VPA: VP0584
+            VPB: VPBB_0557
+            VPK: M636_18895
+            VPF: M634_04820
+            VPH: VPUCM_0570
+            VHA: VIBHAR_01042
+            VCA: M892_07695
+            VAG: N646_2741
+            VEX: VEA_004371
+            VDB: AL552_11270
+            VHR: AL538_12280
+            VNA: PN96_10580
+            VOW: A9237_05445
+            VRO: BSZ04_20545
+            VSP: VS_II0264
+            VEJ: VEJY3_02670
+            VFU: vfu_A02799
+            VNI: VIBNI_A1521(aceA)
+            VAN: VAA_00529
+            LAG: N175_11775
+            VAU: VANGNB10_cI0653(aceA)
+            VCY: IX92_02545
+            VCT: JV59_36160
+            VTU: IX91_03275
+            VEU: IXK98_11830(aceA)
+            VSI: MTO69_10515(aceA)
+            VFL: AL536_17210
+            VMI: AL543_12900
+            VBR: A6E01_15375
+            VSC: VSVS12_02493(aceA)
+            VGA: BSQ33_12520
+            VSH: BSZ05_18895
+            VQI: CCZ37_03250
+            VTA: A0514
+            VAF: D1115_12400
+            VNL: D3H41_02805
+            VCC: FAZ90_19590
+            VAS: GT360_11260(aceA)
+            VAQ: FIV01_02950(aceA)
+            VSR: Vspart_00735(aceA)
+            VKA: BTD91_18350
+            VZI: G5S32_03220(aceA)
+            VNV: IF132_12310(aceA)
+            VGI: MID13_17100
+            VSL: LTQ54_23080
+            VPL: SA104470976_01993(aceA)
+            VJP: NP165_10105(aceA) NP165_14020
+            VPG: LZI70_18355
+            VOS: KNV97_15140(aceA)
+            VTI: CEQ48_15185
+            VCRA: IS519_18900
+            VLE: ISX51_16680
+            VSY: K08M4_32400
+            VRU: RND59_02405(aceA)
+            VMT: QYQ96_10205(aceA)
+            VIB: VspSTUT11_24200
+            VIS: VspSTUT16_25280
+            VIO: AB2S62_11355(aceA)
+            VIH: AB0763_15745
+            VCK: PG915_18215
+            VID: DBX26_02775
+            VIP: H9L11_09745(aceA)
+            VIC: SNR28_12320
+            VII: ACHFJ9_10855(aceA)
+            VIZ: M4S28_20280
+            VIQ: QV280_15555
+            VIV: IUZ65_003040
+            VCID: ACSEYT_11670(aceA)
+            VPX: L0992_19395
+            VCG: L0991_17495
+            VSB: MAO6_10100(aceA)
+            VAES: MCL31_03485(aceA)
+            VIA: ACLKML_09275
+            VIBR: ACJ3Y0_20015
+            VFI: VF_1972(aceA)
+            VFM: VFMJ11_2106(aceA)
+            VSA: VSAL_I2438(aceA)
+            AWD: AWOD_I_2090(aceA)
+            PPR: PBPRA0738(T4112)
+            PGB: H744_2c3085
+            PDS: CAY62_02750
+            PGH: FH974_12455(aceA)
+            PHOT: L4174_012610(aceA)
+            PATE: NNL38_12610(aceA)
+            PPIL: ACJZU6_13005(aceA)
+            GHO: AL542_12965
+            GKD: K6Q96_13615(aceA)
+            PMAI: CF386_05125
+            SALY: E8E00_02670(aceA)
+            SKS: FCN78_10195(aceA)
+            SCOT: HBA18_10690(aceA)
+            SPRO: N7E60_11220(aceA)
+            ELUX: BTN50_1471
+            ELIT: AB8599_03030(aceA)
+            PLAS: NF212_04040(aceA)
+            PRE: PCA10_25000(aceA)
+            PFUW: KF707C_26410
+            POJ: PtoMrB4_22720
+            PLAL: FXN65_13445 FXN65_15685
+            PAE: PA2634(aceA)
+            PAEV: N297_2714
+            PAEI: N296_2714
+            PAU: PA14_30050(aceA)
+            PAG: PLES_24711(aceA)
+            PAF: PAM18_2341(aceA)
+            PNC: NCGM2_3650(aceA)
+            PAEB: NCGM1900_3879(aceA)
+            PDK: PADK2_11490
+            PSG: G655_11825
+            PRP: M062_13990
+            PAEP: PA1S_12435
+            PAER: PA1R_gp0435
+            PAEM: U769_12000
+            PAEL: T223_12585
+            PAES: SCV20265_2619
+            PAEU: BN889_02902
+            PAEG: AI22_21475
+            PAEC: M802_2711
+            PAEO: M801_2580
+            SECH: B18_25610
+            PCQ: PcP3B5_38130
+            PMUI: G4G71_14325
+            PNT: G5B91_18325
+            PAP: PSPA7_2573
+            PPAA: B7D75_11835
+            PPU: PP_4116(aceA)
+            PPF: Pput_1748
+            PPG: PputGB1_3687
+            PPW: PputW619_3389
+            PPT: PPS_3512
+            PPB: PPUBIRD1_1734
+            PPI: YSA_08612
+            PPX: T1E_5014(aceA)
+            PPUH: B479_17490
+            PPUT: L483_22920
+            PPUN: PP4_16390(aceA)
+            PPUD: DW66_3958
+            PFV: Psefu_2316
+            PMON: X969_16790
+            PMOT: X970_16440
+            PPJ: RK21_00987
+            POR: APT59_15525
+            PPSL: BJP27_07160
+            PMOL: CLJ08_03265
+            PALD: LU682_009525(aceA)
+            PIX: RIN61_02685(aceA)
+            PWD: LOY45_09465(aceA)
+            PSSG: CWR53_14200(aceA)
+            PMOS: O165_013365
+            PST: PSPTO_3364(aceA)
+            PSB: Psyr_3196
+            PSYR: N018_16065
+            PSP: PSPPH_3108(aceA)
+            PSAV: PSA3335_13285
+            PAMG: BKM19_018740
+            PCI: PCH70_18260
+            PAVL: BKM03_12150
+            PVD: CFBP1590__3292(aceA)
+            PCAB: JGS08_10915(aceA)
+            PCOF: POR16_14510(aceA)
+            PTRE: I9H09_10750(aceA)
+            PSYI: MME58_16360(aceA)
+            PAST: N015_11145(aceA)
+            PLIJ: KQP88_08800(aceA)
+            PFUV: NLK61_03630(aceA)
+            PFL: PFL_3897(aceA)
+            PPRC: PFLCHA0_c39550(aceA)
+            PPRO: PPC_3995
+            PFE: PSF113_2160
+            PZA: HU749_019010(aceA)
+            PFN: HZ99_05770
+            PFO: Pfl01_3602(aceA)
+            PFS: PFLU_3817
+            PFC: PflA506_3199(aceA)
+            PPZ: H045_11275
+            PFB: VO64_0907
+            PMAN: OU5_1186
+            PTV: AA957_25755
+            PCG: AXG94_05435
+            PVR: PverR02_19425
+            PAZO: AYR47_25615
+            POI: BOP93_15585
+            PRX: HRH33_16730(aceA)
+            PMED: E3Z27_17755(aceA)
+            PKR: AYO71_19635
+            PMUD: NCTC8068_03071(aceA)
+            PTOL: I7845_17650(aceA)
+            PMAB: U0037_19065(aceA)
+            PBRE: QDY63_18390(aceA)
+            PEXT: LUU92_17260(aceA)
+            PFW: PF1751_v1c32350(aceA)
+            PFF: PFLUOLIPICF720045
+            PFX: A7318_15475
+            PEN: PSEEN3481(aceA)
+            PLUL: FOB45_04985
+            PBA: PSEBR_a3580
+            PBC: CD58_11115
+            PPUU: PputUW4_01813(aceA)
+            PDR: H681_13740
+            PSV: PVLB_15590
+            PSK: U771_20120
+            PKC: PKB_3392
+            PCH: EY04_19520
+            PCZ: PCL1606_23560
+            PCP: JM49_11690
+            PCHP: C4K32_3984
+            PFZ: AV641_07935
+            PLQ: AA042_02140
+            PALK: PSAKL28_34430
+            PRH: LT40_11575
+            PSW: LK03_19710
+            PPV: NJ69_09300
+            PSES: PSCI_5422
+            PSEM: TO66_20200
+            PSEC: CCOS191_1965(aceA)
+            PPSY: AOC04_04625
+            PSOS: POS17_4017
+            PFK: PFAS1_01210
+            PANR: A7J50_3452
+            PSET: THL1_2464
+            PSIL: PMA3_19645
+            PYM: AK972_3653
+            PKE: DLD99_17995
+            PUM: HGP31_20265(aceA)
+            PGG: FX982_03019
+            PPSH: G5J76_11310(aceA)
+            PGY: AWU82_10445
+            PSEJ: HNQ25_13555
+            PVK: EPZ47_18210(aceA)
+            PEZ: HWQ56_09565(aceA)
+            PBZ: GN234_29065(aceA)
+            PMAO: PMYSY11_2381
+            PATA: JWU58_10635(aceA)
+            PDW: BV82_1237(aceA)
+            PZE: HU754_011495(aceA)
+            PMOE: HV782_018420(aceA)
+            PSEP: C4K39_5851
+            PPII: QL104_20455(aceA)
+            PDAN: PFZ56_24800(aceA)
+            PVW: HU752_022825(aceA)
+            PTRT: HU722_0017955(aceA)
+            PXA: KSS93_20060(aceA)
+            PSAM: HU731_004425(aceA)
+            PTZ: HU718_019235(aceA)
+            PQI: KH389_16505(aceA)
+            PSHH: HU773_016410(aceA)
+            PXN: HU772_009305(aceA)
+            PHV: HU739_001455(aceA)
+            PPRG: HU725_014515(aceA)
+            PANH: HU763_015890(aceA)
+            PASG: KSS96_17800(aceA)
+            PFAK: KSS94_17505(aceA)
+            PMUY: KSS95_11625(aceA)
+            PMAM: KSS90_09790(aceA)
+            PAZE: KSS91_18555(aceA)
+            PALV: KSS97_18915(aceA)
+            PCAS: LOY40_18660(aceA)
+            PORY: EJA05_18735(aceA)
+            PWZ: J7655_11250
+            PTK: EXN22_11015(aceA)
+            PTW: TUM18999_26200
+            PIE: HU724_018045(aceA)
+            PWY: HU734_016235(aceA)
+            PTAE: NCTC10697_01516(aceA)
+            PGF: J0G10_19205(aceA)
+            PCAV: D3880_12405
+            PJU: L1P09_09195(aceA)
+            PPHN: HU825_12760
+            PIZ: LAB08_R39410(aceA)
+            PPEG: KUA23_18015(aceA)
+            PSII: NF676_16915(aceA)
+            PSIH: LOY51_18115(aceA)
+            PFIT: KJY40_18585(aceA)
+            PASI: LG197_24250(aceA)
+            PKM: PZ739_19125(aceA)
+            PNB: NK667_06630(aceA)
+            PSOA: PSm6_47410
+            PSOB: ACSC9U_08665
+            PTAI: ICN73_23975(aceA)
+            PKK: QQ992_18955(aceA)
+            PKJ: Q1W70_19905(aceA)
+            PHYG: JTY93_15815(aceA)
+            PHOM: KJF94_15540(aceA)
+            PCUC: PSH97_18385(aceA)
+            PTRL: OU419_17160
+            PPAE: LDL65_28310(aceA)
+            PPAO: K3169_19900(aceA)
+            PRHZ: CRX69_15295
+            PSJY: AA098_18770
+            PSKU: KUIN1_31500
+            PSHS: JJN09_09060(aceA)
+            PHEF: PSH57_17690(aceA)
+            PSLP: BHQ29_11530
+            PLIS: NN484_20725(aceA)
+            PSNC: C0058_20435
+            PFOU: OZ911_19610(aceA)
+            PBEJ: PSH84_22740(aceA)
+            PKV: QYQ93_17720(aceA)
+            PSMT: MT1_2089
+            PSKP: KU43P_18680(aceA)
+            PBAM: NUH87_27810(aceA)
+            PDEU: QEP73_20200(aceA)
+            PQE: OSC50_09410(aceA)
+            PBEN: V6W80_16625
+            PSDT: NH234_19130(aceA)
+            PBEZ: SBP02_10575
+            PCAA: V6L78_15860(aceA)
+            PBUB: V6B39_11825(aceA)
+            PSML: V6P94_11325(aceA)
+            PSMZ: V6L79_11440(aceA)
+            PSIV: LZ023_16720(aceA)
+            PSWO: SD196_16380
+            PMOR: PMm318_A51390(aceA)
+            PTHV: CE140_01215
+            PSSX: DCC84_21585(aceA)
+            PAGB: AWM79_14300
+            PSNS: CI807_18160
+            PSRU: CCX46_18785
+            PSNY: ACPFMA_10240(aceA)
+            PSMD: K5R88_10365(aceA)
+            PIM: OQ460_14895(aceA)
+            PBAB: AAEO81_10545(aceA)
+            PSYQ: HXW90_18870(aceA)
+            PSAO: SK095_07845
+            PTUS: QC631_015810(aceA)
+            PSLZ: B195_007630
+            PSSZ: DJ564_12255
+            PSDY: D6Z43_07225
+            PSDU: C2E19_18570
+            PABN: ABDX87_05350(aceA)
+            PSHN: LVW35_16740(aceA)
+            PSND: NY023_18465(aceA)
+            PVII: AABC73_10070(aceA)
+            PSDD: N0B28_16450(aceA)
+            PVQ: WOB24_09285
+            PSTP: ACOAPY_12710
+            PCIM: ACOCLD_13070
+            PPHZ: AA0Z93_21010(aceA)
+            PNN: KEM63_07965
+            PASS: APT63_07755
+            PSHL: CS390_15530
+            PBER: HS968_13650
+            PSMP: ELQ88_23840(aceA)
+            PSSJ: FXO12_02190(aceA)
+            PDAL: PALTO1_36350(aceA)
+            PMY: Pmen_2407
+            PMK: MDS_2362
+            PPSE: BN5_1853(aceA)
+            PALL: UYA_11335
+            PKH: JLK41_11945
+            PTY: JWV26_21575
+            PHF: NLY38_10965
+            PCHE: QYM18_18795
+            ECOP: L0Y47_11905
+            PSA: PST_2311
+            PSZ: PSTAB_2196(aceA)
+            PSR: PSTAA_2339
+            PSC: A458_09230
+            PSJ: PSJM300_11930
+            PSH: Psest_2014
+            PSTT: CH92_09135
+            PSTU: UIB01_10425
+            PSED: DM292_07825
+            PCHL: LLJ08_09705
+            PBM: CL52_10310
+            PKG: LW136_12910
+            SDEG: GOM96_17985
+            PZD: KQ248_14130
+            AVN: Avin_28420
+            AVL: AvCA_28420
+            AVD: AvCA6_28420
+            ACX: Achr_19360
+            PBB: AKN87_05270
+            EAZ: JHT90_09535(aceA)
+            ENTO: MTZ49_09685(aceA)
+            HPEG: EAO82_13000
+            HAES: LO767_08085
+            PDEN: F1C79_09890
+            HARR: HV822_17370
+            PPHA: BVH74_14085
+            HASM: QAO71_08200
+            DCE: O6P33_08375
+            PALC: A0T30_13270
+            PCAM: HNE05_08850
+            PBAU: OS670_04710
+            MAQ: Maqu_3465
+            MHC: MARHY3350(aceA)
+            MAD: HP15_3234
+            MBS: MRBBS_3504
+            MSX: AU14_18505
+            MPQ: ABA45_16440
+            MARI: ACP86_06710
+            MLQ: ASQ50_08320
+            MSQ: BKP64_17515
+            MARA: D0851_10215
+            MARJ: MARI_31900
+            MALL: PBN92_17535
+            MSHE: MAALD49_34410
+            MANP: EHN06_17875
+            MSAN: LPB19_01830
+            MNK: RE428_43550
+            MMEE: NLK58_10805
+            MAMM: ABNF92_12965
+            MRX: MspRI1_09550
+            MACA: J2887_02675
+            MFLI: ACGK9W_14225
+            KAK: Kalk_15585
+            PSPI: PS2015_2750
+            NJO: ABXT42_06930
+            PAR: Psyc_1627(aceA)
+            PCR: Pcryo_1860
+            PRW: PsycPRwf_1448
+            PSO: PSYCG_10140
+            PUR: AOC03_09715
+            PALI: A3K91_2079
+            PSPG: AK823_09680
+            PSYG: AK825_09900
+            PSYC: DABAL43B_2138(aceA)
+            PSYA: AOT82_1132
+            PSYY: DLE54_06685
+            PSYP: E5677_03010
+            PKY: PKHYL_09400
+            PCIA: Q6344_10990
+            PRAE: MN210_09420
+            PSYK: AADH33_03235
+            PSYE: SC65A3_00668
+            PNOC: IEE84_09870
+            ACB: A1S_1008
+            ABM: ABSDF2383(aceA)
+            ABY: ABAYE2783(aceA)
+            ABC: ACICU_00968
+            ABN: AB57_1087
+            ABB: ABBFA_02579
+            ABX: ABK1_0994
+            ABZ: ABZJ_01112
+            ABR: ABTJ_02803
+            ABD: ABTW07_1098
+            ABH: M3Q_1306
+            ABAD: ABD1_09620(aceA)
+            ABJ: BJAB07104_01107
+            ABAB: BJAB0715_01121
+            ABAJ: BJAB0868_01122
+            ABAZ: P795_12675
+            ABK: LX00_05085
+            ABAU: IX87_00470
+            ABAA: IX88_07055
+            ABW: BL01_14280
+            ABAL: ABLAC_17780
+            ABAN: ABUW_2888(aceA)
+            ACC: BDGL_000289(aceA)
+            ANO: RR32_13120
+            ALC: OTEC02_13840
+            ACAL: BUM88_04875
+            ASEI: I8T81_13980
+            ACD: AOLE_14300
+            ACI: ACIAD1084(aceA)
+            ATT: AMQ28_03665
+            AEI: AOY20_08230
+            AJO: RZ95_04470
+            ACW: A0J50_12400
+            ACV: AMD27_11710
+            AHL: AHTJS_05125
+            AJN: BVL33_07270
+            ASOL: BEN76_08325
+            ALA: BFG52_04665
+            ASJ: AsACE_CH02022(aceA)
+            AID: CTZ23_04410
+            ADV: DJ533_13315
+            ARJ: DOM24_10150
+            AWU: BEN71_14615
+            ACUM: C9E88_016395 C9E88_17430
+            AGU: AS4_08910(aceA)
+            AUG: URS_1962
+            ALW: FOB21_05390
+            ADS: FPL17_01405
+            ABER: BSR55_04390
+            ATN: FM020_04440
+            ACHI: CDG60_12785
+            ALJ: G8D99_04015
+            AWG: GFH30_09305
+            ASHA: G8E00_11880
+            ATG: J4G44_11260
+            AVB: RYU24_09000(aceA)
+            ABOU: ACBO_09090(aceA)
+            AGYL: FPL18_12895
+            ACIU: A3K93_08520
+            AVZ: HWI77_11370
+            APOT: MZO21_04055
+            ATZ: M5E07_05045
+            ACOI: NQU59_09505
+            AVIV: LF296_12955
+            ACIE: KIP84_13450
+            ASUE: F2A31_05205
+            ACIG: BS636_09395
+            ACOT: QLH32_04455
+            ATV: ABEF79_04345
+            ACIC: IOD65_14585
+            ACIZ: TOL5_33590(aceA)
+            ACIF: MN200_11745
+            ACWC: CDG61_11980
+            ACPZ: ACFN7Z_04410
+            ACIK: NGC85_06090
+            ACZQ: SC192_13425
+            APIS: ACDW34_13050
+            ACAZ: ABJ384_04355
+            ACAQ: IHE35_10325
+            ACNY: MTO68_04490
+            ACHU: ABLB96_07660
+            AASZ: K6I41_14070
+            AZU: ACJQW4_10160
+            ACLF: ACN19N_05220
+            AYU: ABLB98_04810
+            APSE: LDO52_04000
+            ACCZ: NDN11_12460
+            ACCX: NDN13_00500
+            AFAL: P3S51_08885
+            MCT: MCR_1622(aceA)
+            MCS: DR90_327
+            MCAT: MC25239_01548
+            MOI: MOVS_01520
+            MBL: AAX09_01160
+            MBOI: DQF64_05875
+            MCUN: NCTC10297_00215
+            MNN: I6G26_06015
+            MNS: LU293_03650
+            MNC: LU297_06400
+            MNJ: LU290_08520
+            MHAC: LU276_08090
+            MCAH: U0021_03560
+            MOW: RNZ41_08650
+            MORA: NGM44_07295
+            MORK: MOXK02_04180
+            MORX: MOXK23_15630
+            MVF: ACE1C5_08490
+            MBAH: HYN46_10205 HYN46_10210
+            MOS: AXE82_08995
+            NCAP: LU301_04025
+            SON: SO_1484(aceA)
+            SDN: Sden_1246
+            SFR: Sfri_1102 Sfri_3139
+            SAZ: Sama_2380
+            SBL: Sbal_1317
+            SBM: Shew185_1308
+            SBN: Sbal195_1344
+            SBP: Sbal223_3042
+            SBT: Sbal678_1375
+            SBS: Sbal117_1421
+            SBB: Sbal175_3019
+            SLO: Shew_1276
+            SPC: Sputcn32_1239
+            SHP: Sput200_1247
+            SSE: Ssed_1415 Ssed_2353
+            SPL: Spea_2041
+            SHE: Shewmr4_2766
+            SHM: Shewmr7_2844
+            SHN: Shewana3_2942
+            SHW: Sputw3181_2865
+            SHL: Shal_2253
+            SWD: Swoo_2234
+            SWP: swp_2629
+            SVO: SVI_2021(aceA)
+            SHF: CEQ32_08710
+            SJA: SJ2017_3047
+            SPSW: Sps_00765
+            SBJ: CF168_06190
+            SMAV: CFF01_13085
+            SHEW: CKQ84_01110
+            SALG: BS332_14750
+            SLJ: EGC82_05230
+            SMAI: EXU30_03975(aceA)
+            SPOL: FH971_03640 FH971_14515(aceA)
+            SBK: SHEWBE_2835(aceA)
+            SKH: STH12_02158(aceA)
+            SAES: HBH39_04695(aceA)
+            SLIT: JQC75_12265(aceA)
+            SCAA: TUM17387_26330(aceA)
+            SPSH: FM037_13015
+            SEUR: FM038_012790
+            SYK: KDN34_10940(aceA)
+            SCYP: JYB88_12300(aceA)
+            SAVI: JYB87_06210(aceA)
+            SSEM: JYB85_12550(aceA)
+            SGLA: FJ709_03300
+            SINV: K8B83_06225 K8B83_08680(aceA)
+            SXM: MKD32_14310(aceA)
+            SVM: KDH10_001817(aceA)
+            SHEJ: MZ182_05915(aceA)
+            SSEH: N7V09_08545(aceA)
+            SCHK: GII14_08310(aceA)
+            SACH: K0H61_12305(aceA)
+            SAEG: K0H80_06340(aceA)
+            SDEO: D0436_15575(aceA)
+            SMES: K0I73_12905(aceA)
+            SHAO: K0H81_13670(aceA)
+            SZH: K0H63_13200(aceA)
+            SSPA: K0I31_06400(aceA)
+            SHNS: K0J45_06320(aceA)
+            SRHS: K0I63_06415(aceA)
+            SPSJ: K0I62_05815(aceA)
+            SMAY: K0H60_14795(aceA)
+            SOG: RA178_15835(aceA)
+            SPSR: EGC80_20805(aceA)
+            SHEA: GUY17_03930 GUY17_06040(aceA)
+            SHEL: JM642_13975(aceA)
+            SHEH: ABIS04_03540 ABIS04_13670(aceA)
+            SYOU: RGE70_09855
+            SHEM: HWQ47_12640
+            SHEP: AYJ58_17605
+            SHEY: FS418_14375
+            SHEN: FJD32_015960(aceA)
+            ILO: IL0608(aceA)
+            ILI: K734_03045
+            IPI: CEW91_09655
+            IDI: CWC33_02680
+            IDT: C5610_10615
+            IAB: K5X84_02795(aceA)
+            IDP: U0358_03415(aceA)
+            IDX: UM402_09870(aceA)
+            PANM: D3795_05995(aceA)
+            CPS: CPS_1232(icl)
+            COM: CMT41_04935
+            COZ: A3Q34_13655
+            COLW: A3Q33_04880
+            COLA: DBO93_15435
+            COV: EKO29_17085
+            CBER: B5D82_01245
+            LSD: EMK97_16455
+            THAB: LP316_13835
+            THAT: H3N35_06985
+            TACT: SG35_007280
+            TVD: SG34_022135
+            PHA: PSHAb0062(aceA)
+            PTN: PTRA_b0063(aceA)
+            PSM: PSM_B0064(aceA)
+            PSEO: OM33_15335
+            PIA: PI2015_3108
+            PPHE: PP2015_3397
+            PBW: D172_020535
+            PRR: AT705_22340
+            PLZ: S4054249_23225
+            PALN: B0W48_02030
+            PPIS: B1L02_20815
+            PEA: PESP_b0177(aceA)
+            PSPO: PSPO_b0053(aceA)
+            PART: PARC_b0038(aceA)
+            PTU: PTUN_b0028(aceA)
+            PNG: PNIG_b0076(aceA)
+            PTD: PTET_b0085(aceA)
+            PSEN: PNC201_19660
+            PDJ: D0907_18450
+            PAGA: PAGA_b0127(aceA)
+            PCAR: PC2016_3814
+            PXI: J5O05_20750
+            PVB: J5X90_19655
+            PSAZ: PA25_39200
+            PDV: FFU37_17500
+            PFLI: CTT31_21455
+            PMAZ: R5H13_21510
+            PSHO: KQ246_19190
+            PSMM: PspMM1_39260
+            PSJS: GZH31_16420
+            PSRR: ELR70_02180
+            PSMB: H3302_16955
+            PSLC: JG479_16585
+            PSPS: PS1M3_33600
+            PSCF: L3Q70_17065
+            PSYM: J1N51_07380
+            AMC: MADE_1013055
+            AMH: I633_14455
+            AMAA: amad1_13955
+            AMAL: I607_13185
+            AMAE: I876_13570
+            AMAO: I634_13430
+            AMAD: I636_13560
+            AMAI: I635_13930
+            AMAG: I533_13165
+            AMAC: MASE_13040
+            AMB: AMBAS45_13575
+            AMG: AMEC673_13355
+            AMK: AMBLS11_13055
+            ALT: ambt_03725
+            AAL: EP13_13135
+            AAUS: EP12_13760
+            ASP: AOR13_749
+            ASQ: AVL57_14840
+            AAW: AVL56_13870
+            ALR: DS731_14805
+            ALE: AV939_13705
+            ALZ: AV940_13445
+            ALTE: ALT761_02882
+            ALTM: BM527_13035
+            ALTR: BM528_12885
+            ALTO: AltI4_31350
+            AMAB: ACI7YQ_13330
+            ALTB: IUA53_06060
+            ALTA: D1814_13705
+            ALTD: D210916_08170
+            ALTZ: ACM0P2_13845
+            AALE: ACOJRU_12295
+            AUV: ACOJR9_13365
+            ALTF: R1T43_06930
+            ALTS: VYL94_13660
+            SALM: D0Y50_13740
+            SALK: FBQ74_05320
+            SMAA: IT774_04415
+            GAG: Glaag_3189
+            GNI: GNIT_0993
+            GPS: C427_4152
+            PMES: FX988_01487
+            PAT: Patl_1215
+            PHYD: AX660_15690
+            LAL: AT746_14630
+            SALH: HMF8227_00787(aceA)
+            HMI: soil367_14325
+            PAEW: KIH87_03185(aceA)
+            AGZ: M0C34_06915(aceA)
+            AGQ: LQZ07_16530(aceA)
+            AGAR: OAG1_14760
+            AGAZ: ACRRSZ_21835(aceA)
+            AGAQ: ACRRS0_21910(aceA)
+            ALKM: NKI27_11920
+            ASEM: NNL22_08285
+            ALII: QR722_14035
+            PMAW: MACH26_34040
+            HARO: R50071_33640
+            OIM: ACM613_06070
+            NIX: PN836_017755
+            PIN: Ping_0304
+            FBL: Fbal_2784
+            FES: HER31_09075
+            MVS: MVIS_3616 MVIS_3653(aceA)
+            MYA: MORIYA_3799 MORIYA_3835(aceA)
+            MMAA: FR932_00580 FR932_00625
+            MOQ: HWV03_03830 HWV03_03890
+            MORI: HWV00_16665 HWV00_16735
+            AQN: WDB71_11980(aceA)
+            TTU: TERTU_0340
+            SAGA: M5M_03200
+            SLIO: R50072_18620
+            MNY: R50073_23380
+            AIF: NBRC116181_16410
+            APLV: NBRC116180_19280
+            SPOI: IMCC21906_00845
+            SNAN: I6N98_02480
+            STAW: NCG89_07920
+            ZAL: AZF00_01840
+            OSG: BST96_03620
+            MTHD: A3224_07925
+            MICC: AUP74_02598
+            MAGA: Mag101_08700
+            MII: BTJ40_13180
+            MICT: FIU95_09205
+            MHYD: GTQ55_09240
+            MCEL: LPW13_07000
+            MICZ: GL2_38020
+            MVB: MJO52_11490
+            MPAF: R5R33_00615
+            MBRG: PVT68_01835
+            MICL: GNX18_04840
+            MICY: HUW35_15925
+            MSPN: M8T91_11100
+            MCNS: ACG1BZ_13420
+            MHAU: ACONUD_05325
+            HJA: BST95_16795
+            HALC: EY643_05305
+            HAUI: ABXT62_11030
+            KIM: G3T16_17695
+            AFUS: EYZ66_08065
+            PAQM: E0F26_10960
+            CVB: R0135_01035
+            CBRV: R0137_13255
+            LUN: ACMAY6_10575
+            PORT: ABXT41_03715
+            LGT: E4T54_07325(aceA)
+            LWA: SAMEA4504053_1447(prpB_1)
+            TMC: LMI_1712(aceA)
+            CYQ: Q91_1166(icl)
+            CZA: CYCME_1261(aceA)
+            CYY: CPC19_06775
+            TIG: THII_0533
+            BLEP: AL038_17860(aceA)
+            TUN: J9260_12410(aceA)
+            TLO: J9253_08530(aceA)
+            TSB: HMY34_15495(aceA)
+            TANI: J8380_01475(aceA)
+            TWN: L2Y54_19450(aceA)
+            TLC: RCF98_15255(aceA)
+            TSJ: L3K52_16860(aceA)
+            TPUT: QJT81_10175(aceA)
+            TDU: QJT80_09705(aceA)
+            ALV: Alvin_1848
+            ATEP: Atep_15670(aceA)
+            TVI: Thivi_3995
+            MPUR: MARPU_03230
+            TSY: THSYN_16275
+            RHH: E0Z06_03525
+            RHEI: ATY27_01925
+            THIP: N838_11745(aceA)
+            THIM: KFB96_12415(aceA)
+            TBOG: LT988_08090(aceA)
+            AEH: Mlg_2682
+            HHA: Hhal_1402
+            HHK: HH1059_08190(aceA)
+            HHC: M911_09545
+            EBS: ECTOBSL9_2856
+            TGR: Tgr7_2552
+            TNI: TVNIR_2247(aceA_[H])
+            TTI: THITH_06110
+            SSAL: SPISAL_00460
+            SPIU: SPICUR_00430
+            SROS: BBH56_09085
+            SPIZ: GJ672_00525(aceA)
+            SHAI: LMH63_07610(aceA)
+            NAX: HC341_09555(aceA)
+            WMA: WM2015_1417
+            WEZ: IC757_07220(aceA)
+            GAI: IMCC3135_04130
+            SEDS: AAY24_10835
+            WOC: BA177_11880
+            HCH: HCH_02323(aceA)
+            HAHE: ENC22_10545(aceA)
+            HAHH: O5O45_05400(aceA)
+            TCD: AAIA72_01970
+            CSA: Csal_2449
+            CCAG: SR908_03000(aceA)
+            HEL: HELO_3070(aceA)
+            HCS: FF32_11380
+            HAK: KO116_03113
+            HAM: HALO3353
+            HHU: AR456_05960
+            HCO: LOKO_02690
+            HSI: BOX17_12750
+            HALO: BWR19_14010
+            HBE: BEI_2464
+            HAG: BB497_08635
+            HAF: C8233_14950
+            HPRO: LMS44_06585
+            HQD: K1Y77_04985
+            HBH: E4T21_05800
+            HBP: HPTD01_48
+            HHAO: QWG60_06185
+            HASO: B2G49_03365
+            HALW: B6N23_04960
+            HASH: HXW73_05455
+            HPIS: P1P91_11135
+            HAMS: NF683_12960
+            HCAM: I4484_07270
+            HAAH: HALA3H3_30067
+            HAXH: J4377_05285
+            HABD: OM794_06240
+            HQN: M0220_02605
+            HAFN: KF947_18195
+            HANY: LG409_12725
+            HADN: NKF27_14085
+            HAAZ: HaloA020_22260
+            HAMZ: P8S55_05845
+            HSPE: IT895_12945
+            HCK: MRB56_16700
+            HKA: R5M92_01810
+            HPHZ: ACQ1W9_13585
+            HLB: ACS8MR_14275
+            HART: NFG58_14465
+            HAHQ: NFG57_14010
+            HALK: CUU95_00775
+            HVN: EI420_05715
+            HHH: CLM76_11775
+            HOL: HORIV_19480
+            HSR: HSBAA_17440
+            HPIZ: GYM47_05280
+            HNP: SR894_05550
+            HALF: QEN58_05645
+            HTT: HZS52_21765
+            HMD: CTT34_05620
+            HAXI: HAALTHF_47540n
+            VRE: ACFIOZ_06490
+            VRS: V8F66_06115
+            HSX: HNO51_06720
+            HTX: EKK97_07850
+            HAMC: HNO52_06900
+            HAA: A5892_18550
+            CMAI: BFX80_03560
+            CAMH: LCW13_13675(aceA)
+            COBE: CLAM6_27870
+            COBB: H2O77_14020(aceA)
+            COBD: U0O11_13825(aceA)
+            COBC: F8A90_13795(aceA)
+            COBU: HA399_13565(aceA)
+            PAUR: FGL86_10300
+            SAJS: QO259_09770
+            ABO: ABO_2741(aceA)
+            ALN: AS19_28100
+            ALCA: ASALC70_01019
+            ADI: B5T_03382(aceA)
+            AXE: P40_15870
+            AVJ: ACMG4O_14130
+            APAC: S7S_16845
+            MMW: Mmwyl1_1180
+            MME: Marme_1268
+            MPC: Mar181_2678
+            MPRI: MP3633_2826
+            MARD: IBG28_04710
+            MFOI: JSY38_05015
+            MPRF: J8N69_02125
+            MRHI: KDW99_05215
+            MPON: MACH16_08190
+            MATH: THO17_31480
+            MRSM: ACJ3XJ_20735
+            TOL: TOL_2424
+            TOR: R615_05570
+            TWAN: HUF19_12315
+            OAI: OLEAN_C12850(icl)
+            MARS: A8C75_16070
+            MGEO: CFI10_09050
+            MSEC: LN244_07760
+            MARL: HH196_03910
+            MRZ: KDW95_00130
+            BSAN: CHH28_11575
+            NCU: F0U83_07415 F0U83_07425
+            NJP: NEJAP_2047(aceA)
+            NPHY: FLM49_08255 FLM49_08345
+            NIK: F5I99_09745
+            BMAR: HF888_08490
+            AJP: AMJAP_1708 AMJAP_1710
+            VCW: GJQ55_09200
+            BACZ: KFF03_11370
+            GSN: YC6258_02417
+            RFO: REIFOR_01757
+            OME: OLMES_5156
+            LLP: GH975_09090(aceA)
+            ENW: MJO57_16480(aceA)
+            EEI: NX720_20180
+            ENG: O2T12_13895(aceA)
+            EMP: EZMO1_3421(icl)
+            AHA: AHA_2817(aceA)
+            AHY: AHML_15180
+            AHD: AI20_05255
+            AHR: V428_15705
+            AHP: V429_15740
+            AHJ: V469_07405
+            AHH: RY45_08595
+            AHI: VU14_07640
+            AAJ: BOQ57_14455
+            ASA: ASA_1514(aceA)
+            AEO: O23A_p0728
+            AVR: B565_2581
+            AVO: AMS64_15440
+            AMED: B224_3225
+            ASR: WL1483_348(aceA)
+            ADH: CK627_11715
+            ACAV: VI35_13525
+            AEM: CK911_04105
+            AEA: C2U39_14130
+            ARV: C7N77_11340
+            AES: C2U30_00085
+            AEL: NCTC12917_02750(aceA)
+            ASIM: FE240_10165(aceA)
+            AALL: I6G90_02395(aceA)
+            AJD: I6H43_02955(aceA)
+            ARIV: KYK33_07735(aceA)
+            ASAA: KXJ75_15485(aceA)
+            AEJ: E5E97_19455(aceA)
+            ABES: IU367_07435(aceA)
+            AERO: CK910_12840
+            AERZ: E5E96_15405(aceA)
+            AOJ: ACPDZI_07670(aceA)
+            AMYQ: ACFWHB_07485(aceA)
+            OCE: GU3_06460
+            OPE: PU634_11090
+            OCJ: N2M06_11360
+            OCM: CBP12_00050
+            OPF: CBP31_03910
+            ZDF: AN401_13245
+            ZOB: ACEVBK_14040
+            ZON: ACT7DK_14170
+            SUTR: L0B52_08470(aceA)
+            SDF: ACG33_08065
+            SOK: D0B54_11525
+            SINI: GT972_04200(aceA)
+            FCE: JN531_014375(aceA)
+            SVA: SVA_2256
+            SALN: SALB1_1858
+            TSN: W908_04120
+            THIN: CRN91_06185
+            THO: SP60_01905
+            RMA: Rmag_0538
+            REO: HUE58_02460(aceA)
+            CBLY: IPM89_07365(aceA)
+            GPB: HDN1F_34200
+            ENM: EBS_1647
+            APHF: CVPH_0666(aceA)
+            NEL: NELON_06515
+            NWE: SAMEA3174300_1437(prpB_2)
+            NEK: CGZ77_07585
+            NZL: D0T92_01615
+            NZO: SAMEA4504057_0402(prpB_1)
+            NCI: NCTC10296_00271(prpB_1)
+            NANI: NCTC12227_00110(prpB)
+            NBC: H3L91_07185
+            NWD: H3L96_01000
+            NSG: H3L94_02435
+            NMUS: H7A79_1981
+            NDN: H3L92_10525
+            NDU: LVJ88_00135
+            NAW: LVJ86_01180
+            NLN: ORY85_05560
+            KPOT: LVJ84_06515
+            VFF: VITFI_CDS2215
+            VIT: ADP71_25810
+            VST: LVJ81_01440(aceA)
+            VMS: LVJ82_11365(aceA)
+            CSTE: H3L98_08845
+            CKH: LVJ77_11760
+            PTES: JQU52_03025
+            USU: LVJ78_10510
+            UTE: LVJ83_12335
+            CCAH: DWG20_08980
+            CVI: CV_1641(aceA)
+            CVC: BKX93_21440
+            CHRO: CXB49_14205
+            CHRI: DK842_15475
+            CHRB: DK843_21005
+            CRZ: D1345_04615
+            CHRM: FYK34_03405(aceA)
+            CHAE: CH06BL_09140(aceA)
+            CSUT: U6115_16675(aceA)
+            CHRU: DXT74_20415
+            CHHL: AB1Z25_04230(aceA)
+            PSE: NH8B_0837
+            AMAH: DLM_3027
+            AQS: DKK66_11925
+            VOX: LCH97_08875(aceA)
+            VOL: PSELUDRAFT_1953
+            PFLX: THUN1379_14760(aceA)
+            IOD: EJO50_16035(aceA)
+            IFL: C1H71_06000
+            JEU: BJP62_07950
+            JES: JHS3_19610(aceA)
+            JWK: R0382_001837(aceA)
+            DEE: HQN60_03530(aceA)
+            DTK: K4H28_11880(aceA)
+            CHIZ: HQ393_00965(aceA)
+            CFON: HZU75_12225(aceA)
+            CMAV: ABHF33_03440(aceA)
+            CHIC: N8I74_16830(aceA)
+            CARI: FNU76_07105(aceA)
+            CKS: H9L41_19900(aceA)
+            CSES: ACTSKR_14645(aceA)
+            LHK: LHK_02742
+            AQL: BXU06_10255
+            MAER: DAI18_03390
+            RSO: RSc1358(aceA)
+            RSE: F504_1401
+            RPU: CDC45_06995
+            RNC: GO999_09570(aceA)
+            RSC: RCFBP_20071(aceA)
+            RSL: RPSI07_2008(aceA)
+            RSN: RSPO_c01997(aceA)
+            RSM: CMR15_20569(aceA)
+            RSY: RSUY_17960(icl)
+            RSG: JK151_11105(aceA)
+            RPI: Rpic_0542 Rpic_1232 Rpic_4801
+            RPF: Rpic12D_0529 Rpic12D_1295 Rpic12D_3724
+            RPJ: N234_12985 N234_35060
+            RMN: TK49_10930
+            RIN: ACS15_2003(aceA) ACS15_3960
+            RWE: KOL96_10795 KOL96_14330(aceA)
+            REH: H16_A2211(iclA) H16_A2227(iclB)
+            CNC: CNE_1c21150(iclA) CNE_1c21320(aceA)
+            CUH: BJN34_11190 BJN34_11320
+            REU: Reut_A0384 Reut_A1961
+            RME: Rmet_1385(aceA) Rmet_4737(aceA)
+            CTI: RALTA_A1766(aceA1) RALTA_B0267(aceA2)
+            CBW: RR42_m2469 RR42_s1037
+            CGD: CR3_1122
+            CCUP: BKK81_13180 BKK81_22750
+            CUP: BKK80_14110 BKK80_33565
+            CUU: BKK79_18890 BKK79_24445
+            CPAU: EHF44_12880(aceA) EHF44_25690
+            COX: E0W60_19055 E0W60_20615(aceA)
+            CCAM: M5D45_09055(aceA)
+            CCAX: KZ686_12530(aceA)
+            CUK: KB879_22965 KB879_23040(aceA)
+            CNAN: A2G96_14600 A2G96_21880
+            CUPR: IC580_05860(aceA)
+            CUPE: KLP38_09310(aceA) KLP38_19525
+            CUPP: CTP10_R19290(aceA) CTP10_R49620
+            CUPA: LPA45_10175(aceA) LPA45_18685
+            CUPD: ABNX08_012830(aceA) ABNX08_035090
+            BMA: BMA1586(aceA)
+            BMV: BMASAVP1_A2088(aceA)
+            BML: BMA10229_A3224(aceA)
+            BMN: BMA10247_1361(aceA)
+            BMAZ: BM44_1769(aceA)
+            BMAL: DM55_237(aceA)
+            BMAE: DM78_1899(aceA)
+            BMAQ: DM76_215(aceA)
+            BMAI: DM57_412
+            BMAF: DM51_1287(aceA)
+            BMAB: BM45_1331(aceA)
+            BPS: BPSL2188(aceA)
+            BPM: BURPS1710b_2613(aceA)
+            BPL: BURPS1106A_2524(aceA)
+            BPD: BURPS668_2470(aceA)
+            BPR: GBP346_A2594(aceA)
+            BPSE: BDL_3360(aceA)
+            BPSM: BBQ_1148(aceA)
+            BPSU: BBN_1275(aceA)
+            BPSD: BBX_1761(aceA)
+            BPZ: BP1026B_I1208(aceA)
+            BPQ: BPC006_I2570
+            BPK: BBK_2776(aceA)
+            BPSH: DR55_2396(aceA)
+            BPSA: BBU_3383(aceA)
+            BPSO: X996_1983(aceA)
+            BUT: X994_401(aceA)
+            BTE: BTH_I1998(aceA)
+            BTQ: BTQ_1912(aceA)
+            BTJ: BTJ_443(aceA)
+            BTZ: BTL_1683(aceA)
+            BTD: BTI_1443(aceA)
+            BTV: BTHA_1837(aceA)
+            BTHE: BTN_3085(aceA)
+            BTHM: BTRA_1963(aceA)
+            BTHA: DR62_3231
+            BTHL: BG87_1907(aceA)
+            BOK: DM82_1772(aceA)
+            BOC: BG90_2948(aceA)
+            BUU: WS70_06725
+            BSAV: WS86_07555
+            BHG: I6G56_13185(aceA)
+            BUD: AQ610_07275
+            BUL: BW21_1580(aceA)
+            BVI: Bcep1808_1954 Bcep1808_4997
+            BVE: AK36_1851(aceA) AK36_3874
+            BUR: Bcep18194_A5357 Bcep18194_B0610
+            BCM: Bcenmc03_2067 Bcenmc03_5860
+            BCH: Bcen2424_2048 Bcen2424_4447
+            BCJ: BCAL2118(aceA) BCAM1588
+            BCEN: DM39_2110(aceA) DM39_783
+            BCEW: DM40_2684(aceA) DM40_4470
+            BCEO: I35_2045(aceA) I35_5447
+            BAM: Bamb_2080 Bamb_3879
+            BAC: BamMC406_1950 BamMC406_4340
+            BMJ: BMULJ_02018(aceA)
+            BMU: Bmul_1229
+            BMK: DM80_2928(aceA)
+            BMUL: NP80_2106(aceA)
+            BCT: GEM_1393 GEM_4139
+            BCED: DM42_3051(aceA) DM42_6372
+            BCEP: APZ15_15205 APZ15_27635
+            BDL: AK34_1059(aceA)
+            BPYR: ABD05_00140 ABD05_24105
+            BCON: NL30_01080 NL30_12565
+            BUB: BW23_2950(aceA) BW23_5312
+            BDF: WI26_09720 WI26_21030
+            BLAT: WK25_09870 WK25_24790
+            BTEI: WS51_05585 WS51_20575
+            BSEM: WJ12_10275 WJ12_27935
+            BPSL: WS57_22295 WS57_28790
+            BMEC: WJ16_10505 WJ16_29820
+            BSTG: WT74_08775 WT74_10665
+            BSTL: BBJ41_01675 BBJ41_30105
+            BANN: JFN94_10315(aceA) JFN94_25495
+            BARI: NLX30_11910(aceA) NLX30_30360
+            BAEN: L3V59_11675(aceA) L3V59_25995
+            BSER: R0290_10425(aceA) R0290_27105
+            BSOA: ACVQKU_10680(aceA) ACVQKU_25450
+            BGL: bglu_1g12420
+            BGU: KS03_2207(aceA)
+            BUG: BC1001_2195
+            BGF: BC1003_1258
+            BGD: bgla_1g25970
+            BGO: BM43_3883(aceA)
+            BYI: BYI23_A010280
+            BUK: MYA_1833 MYA_4215
+            BUQ: AC233_10050
+            BGP: BGL_1c24890(aceA)
+            BPLA: bpln_1g24520
+            BUM: AXG89_11775
+            BUI: AX768_05570
+            BURK: DM992_10125 DM992_22905
+            BURT: BTHE68_10300(aceA) BTHE68_50050
+            BURM: GJG85_10785(aceA) GJG85_19055
+            BURF: Bsp3421_003845(aceA)
+            BUV: FPJ27_16585 FPJ27_30485(aceA)
+            BXE: Bxe_A1651
+            BXB: DR64_3816(aceA)
+            BPH: Bphy_1368
+            BGE: BC1002_1802
+            BPX: BUPH_02767
+            BPY: Bphyt_2486
+            BUZ: AYM40_12870 AYM40_33645
+            BFN: OI25_3113(aceA)
+            BCAI: K788_0003142 K788_0003745
+            PSPW: BJG93_03435(aceA)
+            PARA: BTO02_09635
+            PARB: CJU94_12720 CJU94_30490
+            PHS: C2L64_06430 C2L64_20430
+            PTER: C2L65_06170 C2L65_18635
+            PGP: CUJ91_10410
+            PCJ: CUJ87_06150
+            PTS: CUJ90_10665
+            PCAF: DSC91_003813
+            PMEG: FNZ07_24870(aceA)
+            PTRO: G5S35_06340(aceA) G5S35_16575
+            PGIS: I6I06_02700(aceA)
+            PACP: FAZ97_06155(aceA) FAZ97_28380
+            PACS: FAZ98_06030(aceA)
+            PEW: KZJ38_13620(aceA)
+            PDIO: PDMSB3_2628(aceA)
+            PBRY: NDK50_12200(aceA)
+            PSAA: QEN71_06270(aceA)
+            PKF: RW095_25780(aceA)
+            PBON: QS306_08835(aceA)
+            PPAI: E1956_11575(aceA) E1956_35800
+            PHUN: U0042_09045(aceA)
+            PLAD: PPGU16_12400(aceA) PPGU16_71950
+            PAZZ: PBP221_12360(aceA) PBP221_74370
+            PADD: ACOCG7_23130(aceA)
+            PAPG: PPGU19_014250(aceA)
+            BRH: RBRH_00316
+            MENF: IHE33_13700(aceA)
+            PNU: Pnuc_1506
+            PDQ: CL55_00014700
+            POH: DPM16_02695
+            PTRP: DCO17_07825
+            PANI: DCO16_08020
+            PPAL: AOC06_02770(aceA)
+            PCOS: C2747_07460(aceA)
+            PYT: PKF023_04950(aceA)
+            PIU: AOC20_02380(aceA)
+            PWU: A8O14_02280
+            PARD: DN92_07710
+            POLY: PSHI2_08620(aceA)
+            POLN: PSHI8_08620(aceA)
+            POLK: PKF022_04790(aceA)
+            POLT: TUM22923_11850(aceA)
+            POLH: PHIN6_05000(aceA)
+            PPK: U875_13205
+            PPNO: DA70_05445
+            PPNM: LV28_00815
+            PRB: X636_21650
+            PPUL: RO07_19660
+            PSPU: NA29_17560
+            PAPI: SG18_18750
+            PVE: UC34_10890
+            POX: MB84_15255
+            PTX: ABW99_08545
+            PFG: AB870_21345
+            PNR: AT302_22525
+            PAND: DRB87_09995 DRB87_10530
+            PFIB: PI93_016765(aceA)
+            PCOM: NTU39_11975(aceA)
+            PANN: PanNE5_38480 PanNE5_39450(aceA)
+            PANX: OYT13_09975(aceA) OYT13_10485
+            PLG: NCTC10937_03532(aceA)
+            HYF: DTO96_101758(aceA)
+            LMIR: NCTC12852_02099(aceA)
+            CABA: SBC2_14170(aceA)
+            BUO: BRPE64_ACDS11540(aceA) BRPE64_CCDS04860
+            CABK: NK8_11110(aceA) NK8_45720
+            BUE: BRPE67_ACDS10610
+            LIMN: HKT17_05105(aceA)
+            LTO: RGQ30_10970(aceA)
+            TVL: FAZ95_08945(aceA)
+            TCAR: U0034_01910(aceA)
+            PMEM: HTMS3_12380(aceA)
+            BPE: BP2085(aceA)
+            BPC: BPTD_2052(aceA)
+            BPER: BN118_2044(aceA)
+            BPET: B1917_1863(aceA)
+            BPEU: Q425_29650(aceA)
+            BPAR: BN117_3091(aceA)
+            BPA: BPP1769(aceA)
+            BBH: BN112_1142(aceA)
+            BBR: BB3339(aceA)
+            BBM: BN115_1812(aceA)
+            BBX: BBS798_3171(aceA)
+            BPT: Bpet3251(aceA)
+            BHO: D560_2976(aceA)
+            BHM: D558_2951(aceA)
+            BHZ: ACR54_01408(aceA)
+            BTRM: SAMEA390648704149(aceA)
+            BPDZ: BBN53_14730
+            BGM: CAL15_10790
+            BOJ: CBF45_11315
+            AXY: AXYL_04372(aceA)
+            AXO: NH44784_063551
+            AXN: AX27061_4595
+            AXX: ERS451415_04626(aceA)
+            ADT: APT56_21140
+            AIS: BUW96_11055
+            ASW: CVS48_23215
+            ACHR: C2U31_16250
+            ACHB: DVB37_17600
+            ADY: HLG70_02290(aceA)
+            ACHO: H4P35_16930(aceA)
+            AMUI: PE062_13940(aceA)
+            APES: FOC84_24020(aceA)
+            AAEG: RA224_11220(aceA)
+            ASEL: RAS12_01840(aceA)
+            ACHM: V6V88_17740(aceA)
+            ACHA: KYT87_18330(aceA)
+            AVH: WHX56_24615(aceA)
+            ACHH: ABFG95_07135(aceA)
+            ACHJ: LN047_17670(aceA)
+            ACPD: ACM1PE_17670(aceA)
+            ARUH: AruCF_1382
+            PUT: PT7_1448
+            PUS: CKA81_07045
+            POLL: OEG81_10785(aceA)
+            AMIM: MIM_c16480(aceA)
+            AALN: Q3V95_07805(aceA)
+            CDN: BN940_07326
+            CGIN: ABRZ00_00890(aceA)
+            CAST: ABCV34_06915(aceA)
+            BPSI: IX83_07320
+            AFA: UZ73_02190
+            AFQ: AFA_11795
+            AAQU: D3M96_12630
+            AAMM: FE795_11050(aceA)
+            ALCN: MID00_15360(aceA)
+            ALCS: AADW57_07125(aceA)
+            APAR: AB1Z35_05685(aceA)
+            PHN: PAEH1_04385
+            ODI: ODI_R2788
+            BOZ: DBV39_07325
+            ODH: DHf2319_04765(aceA)
+            OUR: CEQ07_07355
+            OUE: I6G29_12380
+            PIG: EGT29_12840(aceA)
+            PACR: FXN63_14615(aceA)
+            KGY: EHF36_11560(aceA)
+            PARK: LSG25_04375(aceA)
+            AAQA: ACMYR3_07555(aceA)
+            PAJC: ACSBPU_12455(aceA)
+            RFR: Rfer_1335
+            RSB: RS694_08985
+            RAC: RA876_10035
+            RHY: RD110_08490
+            RHF: EUB48_12195(aceA)
+            RHG: EXZ61_10820(aceA)
+            RHOA: HZ993_02700(aceA)
+            RHOB: HTY51_08840(aceA)
+            RMK: RAN89_13015(aceA)
+            RLH: MIZ03_2051
+            RHOF: AB3G31_18370(aceA)
+            RHOG: AAGF34_21635(aceA)
+            POL: Bpro_2101
+            PNA: Pnap_2855
+            POS: DT070_19695
+            POO: F7R28_10865(aceA)
+            PVAC: HC248_01948(aceA_1) HC248_01999(aceA_2)
+            AJS: Ajs_2401
+            ACK: C380_14220
+            ACRA: BSY15_3958(aceA)
+            ACID: CBP33_11120
+            ACIP: CBP36_11045
+            ACIN: CBP34_10950
+            ACIS: CBP35_07885
+            ACIO: EAG14_07170(aceA)
+            ARAD: KI609_10165(aceA)
+            ATEM: PQV96_06535(aceA)
+            ACIQ: ACDW_28230(aceA)
+            ACIV: EXV95_07085(aceA)
+            ASAH: AVXHC19_25100(aceA)
+            AFAC: ACN9MJ_16085(aceA)
+            ACIX: AAFF19_11435(aceA)
+            AAV: Aave_2860
+            AAA: Acav_2379
+            AMON: H9L24_02220(aceA)
+            VEI: Veis_3088
+            DAC: Daci_4617
+            DEL: DelCs14_2193
+            DTS: BI380_00630
+            DHK: BO996_20960
+            DLA: I6G47_01355(aceA)
+            DELU: OK021_16685(aceA)
+            VAP: Vapar_1869
+            VPE: Varpa_3949
+            VPD: VAPA_1c19640(aceA)
+            VAA: AX767_17195
+            VBO: CKY39_22345
+            VAM: C4F17_08500
+            VAZ: H7F35_25315(aceA)
+            VAV: IG196_19545(aceA)
+            VAE: RZE79_20200(aceA)
+            VAX: H7F36_20810(aceA)
+            VAW: SFB74_12455(aceA)
+            VAY: ACTG4X_13395(aceA)
+            CTT: CtCNB1_3032
+            CTES: O987_18650
+            CKE: B5M06_15990
+            CSER: CCO03_05480
+            COF: FOZ74_14175(aceA)
+            CAQT: KAQ61_07905(aceA)
+            CODO: LAD35_07240(aceA)
+            CTEZ: CT3_20640(aceA)
+            AANT: HUK68_11390(aceA)
+            CRJ: QMY55_14955(aceA)
+            CENP: M9799_01260(aceA)
+            COMB: MJ205_06250(aceA)
+            CSQU: N4T19_06480(aceA)
+            CPIS: HS961_15960(aceA)
+            CSEN: ACQYWY_05410(aceA)
+            ADN: Alide_2516
+            ADK: Alide2_2832
+            RTA: Rta_23660(aceA)
+            OTK: C6570_08650
+            OTD: J1M35_12570(aceA)
+            LIM: L103DPR2_02012(aceA)
+            LIH: L63ED372_01514(aceA)
+            LIMI: LINBF2_09600(aceA)
+            LIMT: LTEGF4_08870(aceA)
+            LIMM: LMORI2_15530(aceA)
+            LIK: ACHEXK_07200(aceA)
+            LIY: ACHEXL_05840(aceA)
+            HYR: BSY239_1450(aceA)
+            HYB: Q5W_12220
+            HYL: LPB072_13285
+            HYC: E5678_03180(aceA)
+            HPSE: HPF_14895(aceA)
+            HYN: F9K07_16680(aceA)
+            HTN: KI616_11025(aceA)
+            HCZ: G9Q37_05665(aceA)
+            HYY: JNX00_14020(aceA)
+            HYDR: SOM08_12935(aceA)
+            HYDA: ABSY19_26615(aceA)
+            HYX: IM738_06315(aceA)
+            DPY: BA022_06765
+            DIH: G7047_04375(aceA)
+            DRG: H9K76_07625(aceA)
+            DLS: P4826_06235(aceA)
+            DIJ: HND92_08085(aceA)
+            DIM: K2L43_08165(aceA)
+            DIS: I3K84_05650(aceA)
+            DIL: MRB47_12640(aceA)
+            DIA: Dtpsy_1447
+            SIMP: C6571_00475
+            MELM: C7H73_10995
+            MELA: C6568_15210
+            MJE: LVC68_09840(aceA)
+            CBAA: SRAA_0862
+            CBAB: SMCB_1209
+            HGR: DW355_10570
+            BWN: ACI3EV_05855(aceA)
+            STHM: IS481_08270(aceA)
+            PBH: AAW51_2980
+            SAQA: OMP39_07130(aceA)
+            MPT: Mpe_A1889
+            METP: C1M51_18170
+            RGE: RGE_26170(aceA)
+            RBN: RBXJA2T_08565
+            RDP: RD2015_3164
+            ROI: N4261_17370(aceA)
+            KIA: G8A07_14115(aceA)
+            PKT: AT984_08420
+            PAQA: K9V56_011750(aceA)
+            PAIS: PFX98_19680(aceA)
+            MIU: ABE85_10800
+            ROG: ACQZ13_18605(aceA)
+            ROJ: ACO228_02855(aceA)
+            SNN: EWH46_08325(aceA)
+            SMIO: CATMQ487_26880(aceA)
+            LCH: Lcho_1744
+            IDC: LRM40_09545(aceA)
+            ATER: MW290_13155(aceA)
+            RGU: A4W93_11145
+            AON: DEH84_10435
+            AQJ: LRS07_13280(aceA)
+            HAR: HEAR1689(aceA)
+            MMS: mma_1943(aceA)
+            JAG: GJA_3258(aceA)
+            JAB: VN23_20145
+            JAZ: YQ44_07620 YQ44_21090
+            JAL: BZG29_06780
+            JSV: CNX70_07035
+            JAJ: EKL02_12935(aceA)
+            JAS: FJQ89_23760
+            JLV: G3257_06905
+            JAH: JAB4_014270
+            JRI: P9875_06900
+            JAE: OPV09_07100
+            HSE: Hsero_2114(aceA)
+            HSZ: ACP92_10555
+            HHT: F506_16330
+            HRB: Hrubri_1996(aceA)
+            HEE: hmeg3_13350
+            HHF: E2K99_11050(aceA)
+            HFR: G5S34_11550(aceA)
+            HEW: HBDW_20490(aceA)
+            CFU: CFU_1553(aceA)
+            CARE: LT85_3195
+            CPRA: CPter91_2036(aceA)
+            MNR: ACZ75_01630
+            MASW: AM586_16885 AM586_18995
+            MASS: CR152_18675
+            MTIM: DIR46_22560
+            MASY: DPH57_02610 DPH57_05060
+            MANC: IV454_18365(aceA)
+            MFY: HH212_16805(aceA)
+            MVAR: MasN3_34100(aceA)
+            MENY: LSQ66_12400(aceA)
+            MLIR: LPB04_14000(aceA) LPB04_18910
+            MASZ: C9I28_19450
+            MALI: EYF70_25155
+            MUM: FCL38_08090
+            MFLA: GO485_06115(aceA)
+            MPLI: E1742_06685(aceA)
+            TCT: PX653_03325(aceA) PX653_05825
+            PLUE: EWM63_01535
+            DUG: HH213_05720
+            DZO: SR858_16945(aceA)
+            TMJ: P0M04_19110(aceA) P0M04_20175
+            RUG: QC826_09130(aceA) QC826_25955
+            EHB: E7V67_014755 E7V67_017300
+            UND: UNDKW_2865(aceA)
+            UNY: UNDYM_2944(aceA)
+            NOK: FAY22_05430(aceA)
+            GLC: JQN73_09745
+            ACTB: RHM62_13705
+            UCY: RF679_10190(aceA)
+            UPV: EJN92_07685 EJN92_18075(aceA)
+            UPI: EJG51_001345(aceA) EJG51_010930
+            TIN: Tint_1382
+            THI: THI_1747(aceA)
+            XYK: GT347_24410(aceA)
+            XYG: R9X41_15460(aceA)
+            TTW: LCC91_07150(aceA)
+            TEK: ACPP3B_10120(aceA)
+            ETB: N7L95_01215(aceA)
+            PCAZ: ACMDW7_07630(aceA)
+            SHD: SUTH_01085
+            METR: BSY238_516(aceA)
+            DOE: DENOEST_0609(aceA)
+            DENI: B9N43_15570
+            RBU: PG1C_03880
+            UPL: DSM104440_00519(aceA)
+            DSU: Dsui_0011
+            ARES: IWH25_17335(aceA)
+            AIQ: Azoinq_03285(aceA)
+            OTR: OTERR_07490(aceA)
+            NIV: JY500_15155(aceA)
+            EBA: ebA4473(aceA)
+            ABRE: pbN1_29010(aceA)
+            APET: ToN1_11260(aceA)
+            RBH: B4966_03535
+            DAR: Daro_3098
+            DEY: HYN24_04580
+            DDEN: KI615_15745(aceA)
+            DECH: GBK02_06695(aceA)
+            DAJ: VX159_11695(aceA)
+            QAU: KI612_06085(aceA)
+            FLE: KI610_07570(aceA)
+            AHV: AADV58_14000(aceA)
+            AZO: azo1117(aceA)
+            AOA: dqs_1228
+            AZA: AZKH_1214(aceA)
+            AZI: AzCIB_3289
+            AZD: CDA09_03405
+            AZR: CJ010_06720
+            TMZ: Tmz1t_1247
+            THU: AC731_000035
+            THAU: C4PIVTH_0317(aceA)
+            TCL: Tchl_3250
+            THK: CCZ27_13075
+            TAK: Tharo_2322
+            THAG: CKCBHOJB_02884(aceA)
+            THAJ: AAG895_14595(aceA)
+            AZQ: G3580_14035(aceA)
+            ACOM: CEW83_09905
+            ATW: C0099_05620
+            ZPA: C3497_03285
+            FPHO: SHINM1_016410(aceA)
+            APP: CAP2UW1_3854
+            ACOG: HWD57_21255(aceA)
+            DDZ: DSYM_09850
+            BPRC: D521_1364
+            MLO: mll6527
+            MLN: A9174_13035
+            MCI: Mesci_2416
+            MCIC: A4R28_29275
+            MOP: Mesop_2550
+            MAM: Mesau_02442
+            MAMO: A6B35_09135
+            MESW: A9K65_012660
+            MESM: EJ066_30945(aceA)
+            MESP: C1M53_05280
+            MHUA: MCHK_0208(aceA)
+            MJR: EB229_13030(aceA)
+            MERD: EB233_28630(aceA)
+            MESR: FGU64_16900(aceA)
+            MOH: IHQ72_08585(aceA)
+            MMEI: LRP31_31790(aceA)
+            MESJ: MJ8_11710
+            MESI: LGH82_13515(aceA)
+            MESU: LHFGNBLO_005898(aceA)
+            MESS: ABSY17_19345(aceA)
+            MEWS: QAZ47_30630(aceA)
+            MEWM: QAZ22_30750(aceA)
+            MEAA: ACG873_30610(aceA)
+            MEOR: ACIU1A_20180(aceA)
+            MESN: GA830_08670(aceA)
+            MEIR: GA829_31520(aceA)
+            MESX: MesoLj131a_58570
+            NIY: FQ775_15465(aceA)
+            NKI: KW403_11900(aceA)
+            NRH: T8J41_02135(aceA)
+            NTU: NTH_02907(icl)
+            MESO: BSQ44_19460
+            MES: Meso_0311
+            CHEA: PVE73_22235(aceA)
+            AAK: AA2016_5190
+            AMIH: CO731_01951 CO731_04791(icl)
+            AMIS: Amn_14160
+            ANJ: AMD1_4686(aceA)
+            AMIO: N7E70_025735(aceA)
+            AMIW: H5P29_27055(aceA)
+            PHT: BLM14_14285
+            PHYL: HB779_08505(aceA)
+            PMEL: LLE53_011580(aceA)
+            PPED: LLE51_006230(aceA)
+            RPOD: E0E05_08535
+            ORM: HTY61_01455
+            PLA: Plav_0592
+            PMOB: HG718_02495(aceA)
+            PECT: BN1012_Phect585
+            RBS: RHODOSMS8_00108(icl)
+            SME: SMc00768(aceA)
+            SMK: Sinme_0415
+            SMQ: SinmeB_0320
+            SMX: SM11_chr0359(aceA)
+            SMI: BN406_00337(aceA)
+            SMEG: C770_GR4Chr0701
+            SMEL: SM2011_c00768(aceA)
+            SMER: DU99_03645
+            SMD: Smed_0308
+            RHI: NGR_c14310
+            SFH: SFHH103_01334
+            SFD: USDA257_c03640(aceA)
+            SIX: BSY16_2452(aceA)
+            SAME: SAMCFNEI73_Ch0719(aceA)
+            SINO: SS05631_c03760
+            ESJ: SJ05684_c03070
+            EAK: EKH55_0301
+            EMX: FKV68_03915(aceA)
+            ENU: PYH37_002927(aceA)
+            EGI: PZN02_000523(aceA)
+            SKM: PZL22_004312(aceA)
+            STEG: QA637_01605(aceA)
+            SCHP: RB548_01705(aceA)
+            SPRE: N0Q91_14430(aceA)
+            EAD: OV14_1629
+            EAH: FA04_01665
+            ECAA: J3R84_01765(aceA)
+            ENP: JVX98_18765(aceA)
+            EAW: ACEP9W_10560(aceA)
+            ATU: Atu0607(aceA)
+            ATA: AWN88_22395
+            AGR: AGROH133_04052(aceA)
+            ATF: Ach5_05320(aceA)
+            ARAI: ACN9MK_01220(aceA)
+            AGC: BSY240_2077(aceA)
+            AGT: EYD00_01265(aceA)
+            ARUI: G6M88_10245(aceA)
+            AVQ: HRR99_02040(aceA)
+            ASAL: CFBP5507_01260(aceA)
+            RIR: BN877_I0582(aceA)
+            RPUS: CFBP5875_01250(aceA)
+            ACUC: KZ699_01560(aceA)
+            ALEG: CFBP4996_01210(aceA)
+            AGRC: GSF67_01660(aceA)
+            AGRZ: A6U84_01185(aceA)
+            AARS: AB1J11_001235(aceA)
+            RET: RHE_CH00712(aceA)
+            REC: RHECIAT_CH0000795(aceA)
+            REL: REMIM1_CH00727(aceA-1) REMIM1_PF00915(aceA-2)
+            REP: IE4803_CH00742(aceA)
+            REI: IE4771_CH00768(aceA)
+            RLE: RL0761(aceA)
+            RLT: Rleg2_0373
+            RLG: Rleg_0405
+            RLB: RLEG3_11915
+            RLU: RLEG12_13235
+            RHL: LPU83_0851(aceA)
+            RGA: RGR602_CH00773(aceA-1) RGR602_PB00372(aceA-2)
+            RHN: AMJ98_CH00753(aceA)
+            RPHA: AMC79_CH00760(aceA)
+            RHX: AMK02_CH00756(aceA)
+            RHV: BA939_11905
+            RHK: Kim5_CH00738(aceA)
+            REZ: AMJ99_CH00753(aceA)
+            RHR: CKA34_22085
+            RGR: FZ934_00815(aceA)
+            RAD: CO657_01940(aceA)
+            ROY: G3A56_08050(aceA)
+            RII: FFM53_009285(aceA)
+            RHID: FFM81_017360(aceA)
+            RBQ: J2J99_03765(aceA)
+            RLN: J0663_12370(aceA)
+            RBAN: J2J98_03565(aceA)
+            RRG: J3P73_04410(aceA)
+            RROS: D4A92_10500
+            RAW: NE851_13820(aceA)
+            RSUL: N2599_01625(aceA)
+            RLW: RlegWSM1455_01930(aceA)
+            RCT: PYR68_01890(aceA)
+            RBW: RLCC275e_01975(aceA)
+            RIF: U5G49_000400(aceA)
+            RHIZ: QMO80_001848(aceA)
+            RHIB: I8E17_22180(aceA)
+            RHIA: ACO34A_04680
+            RHIY: BLX90_01325
+            RHIW: KQ933_01605(aceA)
+            RBIN: PO860_01880(aceA)
+            RHIP: NE852_04210(aceA)
+            RHIK: MHI61_19975(aceA)
+            RHIS: N2A41_01945(aceA)
+            RHIO: P6U16_06935(aceA)
+            RHIC: MF410_15435(aceA)
+            RHIU: IM739_06570(aceA)
+            RSOP: N2597_01745(aceA)
+            NGL: RG1141_CH02960
+            NGG: RG540_CH02310
+            NEO: CYG48_01345
+            NEN: NCHU2750_03150(aceA)
+            NPM: QEO92_01705(aceA)
+            RHT: NT26_0272(aceA)
+            RFV: RFYW14_00553(aceA)
+            AVV: RvVAT039_22390(aceA)
+            AVF: RvVAR031_09690(aceA)
+            AVI: Avi_0816(aceA)
+            RTR: RTCIAT899_PB02170 RTCIAT899_PC03535(aceA)
+            RJG: CCGE525_24385
+            RLS: HB780_09155(aceA)
+            ARA: Arad_8429(aceA)
+            ARO: B0909_10585
+            SHZ: shn_01860
+            SZO: K8M09_02175(aceA)
+            SOJ: K6301_01800(aceA)
+            SSUM: Q9314_07495(aceA)
+            SHIN: LHJ69_16215(aceA)
+            ABAW: D5400_06095(aceA)
+            PDES: FE840_007580(aceA)
+            HOE: IMCC20628_03400
+            HOAX: ABWH89_22710(aceA)
+            ASIT: N7E02_19185(aceA)
+            AGOU: QTJ18_24790(aceA)
+            BME: BMEI0409
+            BMEL: DK63_1014(aceA)
+            BMI: BMEA_A1667(aceA)
+            BMZ: BM28_A1619(aceA)
+            BMG: BM590_A1603
+            BMW: BMNI_I1553
+            BMEE: DK62_1931(aceA)
+            BMF: BAB1_1631
+            BMB: BruAb1_1601(aceA)
+            BMC: BAbS19_I15240
+            BAA: BAA13334_I01395
+            BABO: DK55_1581(aceA)
+            BABR: DO74_308(aceA)
+            BABT: DK49_1339(aceA)
+            BABB: DK48_538(aceA)
+            BABU: DK53_1565(aceA)
+            BABS: DK51_1977(aceA)
+            BABC: DO78_1486(aceA)
+            BMS: BR1614(aceA)
+            BSI: BS1330_I1608(aceA)
+            BSF: BSS2_I1566(aceA)
+            BSUI: BSSP1_I1631(aceA)
+            BSUP: BSPT1_I1648(aceA)
+            BSUV: BSPT2_I1630(aceA)
+            BSUC: BSSP2_I1635(aceA)
+            BMT: BSUIS_A1670(aceA)
+            BSZ: DK67_714(aceA)
+            BSV: BSVBI22_A1608(aceA)
+            BOV: BOV_1558(aceA)
+            BCS: BCAN_A1651(aceA)
+            BSK: BCA52141_I2608
+            BOL: BCOUA_I1614(aceA)
+            BCAR: DK60_1623(aceA)
+            BCAS: DA85_07745
+            BMR: BMI_I1629(aceA)
+            BCET: V910_100406
+            BCEE: V568_100451
+            BVL: BF3285c1_1246(aceA1)
+            BIO: BR141012304_11082(aceA)
+            BPP: BPI_I1669(aceA)
+            BPV: DK65_1885(aceA)
+            BRU: BFS01_07755
+            BRJ: BKD03_13730
+            OIN: IAR37_16195(aceA)
+            OAN: Oant_3930
+            OAH: DR92_4328(aceA)
+            OPS: A8A54_15075
+            BPSN: NIK97_19420(aceA)
+            BRUB: GRI33_07845(aceA)
+            OCR: HGK82_22435(aceA)
+            OCL: GTN27_15505(aceA)
+            OCC: KMS41_15995(aceA)
+            OCH: CES85_4398(aceA)
+            PSCQ: KHQ08_04965(aceA)
+            PSXF: LDL70_02995(aceA)
+            BJA: blr2455(blr2455)
+            BJU: BJ6T_73810
+            BJP: RN69_35780
+            BRA: BRADO3748(aceA)
+            BBT: BBta_4188(aceA)
+            BRS: S23_55560(aceA)
+            AOL: S58_37980
+            BRC: BCCGELA001_27615
+            BRAD: BF49_2345
+            BIC: LMTR13_07145
+            BRO: BRAD285_3635(aceA)
+            BRK: CWS35_14815
+            BOT: CIT37_00355
+            BRQ: CIT40_06745
+            BGQ: X265_28860
+            BGZ: XH91_26810
+            BSYM: CIT39_05535
+            BBET: F8237_07660
+            BARH: WN72_12410
+            BVZ: BRAD3257_6604
+            BEL: BE61_75840
+            BDG: LPJ38_33630
+            BSEP: HAP48_0027790
+            BQB: J4P68_0029590
+            BSEI: KMZ68_07460
+            BBAN: J4G43_013455
+            BCAN: BcanWSM471_11330
+            BAUT: QA635_31350
+            BBRA: QA636_32900
+            BGK: IC762_08545
+            BCOU: IC761_27040
+            BPAH: QA639_11720
+            BXN: I3J27_08400
+            BROS: QUH67_08525
+            BRAZ: LRP30_10105
+            BOY: LQG66_04715
+            BRAY: ML401_07510
+            BRAI: FJV43_25370
+            BRAA: NL528_12785
+            BLUP: AB3L03_09425
+            BGEA: ACP2YP_09805
+            BGEP: ACP2YO_10870
+            BRAN: RX330_09205
+            BRAB: RX331_31275
+            BRAR: ACKN7S_38530
+            BRAL: AB8Z38_15170
+            BDY: ACETMP_15460
+            BYU: N2605_05455
+            BHUA: N2603_34240
+            BRAH: RX329_34030
+            RPA: TX73_022775
+            RPB: RPB_4199
+            RPC: RPC_1379
+            RPD: RPD_4053
+            RPE: RPE_1395
+            RPT: Rpal_4878
+            RPX: Rpdx1_4610
+            RBK: E0H22_22630
+            RHOR: ONR75_29600
+            RHOL: RBJ75_15505
+            RHOE: LRC39_22215
+            NWI: Nwi_2985
+            NHA: Nham_1097
+            OCA: OCAR_7022
+            OCG: OCA5_c10710(aceA)
+            OCO: OCA4_c10710(aceA)
+            PCAX: AFIC_002417
+            VGO: GJW-30_1_01322(icl)
+            TRB: HB776_16345
+            TALZ: RPMA_21470
+            TARD: RSO67_10080
+            TARV: FIU28_23355
+            TARC: FNL53_24585
+            BOW: NWE53_00995
+            STAR: G3545_14470(aceA)
+            LNE: FZC33_32620(aceA)
+            SNO: Snov_0815
+            ANC: GBB76_00950(aceA)
+            APRA: G3A50_16685(aceA)
+            APOL: K9D25_19990(aceA)
+            MOC: BB934_16810
+            MIV: C4E04_01845
+            MICO: GDR74_02215(aceA)
+            MTEZ: HPT29_002035(aceA)
+            MLD: U0023_09425(aceA)
+            BID: Bind_0047
+            MSL: Msil_3157
+            MTUN: MTUNDRAET4_2959(aceA)
+            MLG: CWB41_11910
+            MEHY: MHY1_02232(icl1)
+            MEDK: QEV83_10105
+            MPOL: RZS28_04630
+            BBAR: RHAL1_02799
+            BBAI: CU048_13125
+            HDN: Hden_2058
+            HNI: W911_09440
+            RLAC: QMO75_14225
+            PHL: KKY_3382
+            PEM: OF122_00195(aceA)
+            PNF: V6617_00185(aceA)
+            DEI: C4375_07570
+            DEA: FPZ08_16645(aceA)
+            DSAL: K1X15_20385(aceA)
+            DEVO: H4N61_01270(aceA)
+            DAG: PSQ19_13610(aceA)
+            DRP: PSQ90_05985(aceA)
+            DEVD: GHV40_19370(aceA)
+            DPV: ACE4RL_02265(aceA)
+            DEVS: NYQ88_00690(aceA)
+            MMYR: MXMO3_00229
+            MHAR: L1P08_15780(aceA)
+            MEY: TM49_17905
+            MAAD: AZF01_10555
+            MMED: Mame_01386(icl)
+            MLUT: JET14_08920(aceA)
+            AUA: M673_19275
+            AALA: IGS74_06350(aceA)
+            AALM: LUX29_07190(aceA)
+            AUZ: Sa4125_10810
+            AUB: LXB15_16610(aceA)
+            JAV: OXU80_00900(aceA)
+            ACUT: MRB58_08355(aceA)
+            CCR: CC_1764
+            CCS: CCNA_01841
+            CHQ: AQ619_18090
+            CMB: CSW64_13355
+            CFH: C1707_16490
+            CAUB: AMEJIAPC_00431(aceA)
+            CIW: ABOZ73_17700
+            CAUE: ACN2C6_09085
+            PZU: PHZ_c3210(aceA)
+            PHB: HYN04_03130
+            CAUL: KCG34_25040
+            PHEY: O4N75_18245
+            BSB: Bresu_1695
+            BRD: JL11_07295
+            BNE: DA69_08545
+            BRG: A4249_02595
+            BRL: BZG35_12225
+            BVC: CEP68_02935
+            BDM: EQG53_16050(aceA)
+            BRF: E4M01_06720(aceA)
+            BREV: E7T10_12680(aceA)
+            BMED: GYM46_02960(aceA)
+            BVY: NCTC9239_00841(icl)
+            BND: KWG56_09395(aceA)
+            BPON: IFE19_12420(aceA)
+            BGOE: IFJ75_11795
+            BVIT: JIP62_07170
+            BALB: M8231_01750(aceA)
+            BFQ: JX001_07160(aceA)
+            BRES: E4341_11735(aceA)
+            BREA: HZ989_07735(aceA)
+            BBUL: U0030_03530(aceA)
+            BREU: FKQ52_10815(aceA)
+            BSTA: ACETK8_09105(aceA)
+            BIR: ACETKC_12755(aceA)
+            BREN: KKHFBJBL_01520(icl)
+            AEX: Astex_0457
+            ASTI: Q1W73_15740(aceA)
+            ASTD: ATDW_18210(aceA)
+            ASTM: MMA231_00532(icl)
+            APAH: KB221_10345(aceA)
+            PDE: Pden_1363
+            PAMI: JCM7686_pAMI6p121
+            PARU: CYR75_00725
+            PAMN: pAMV1p0017(aceA)
+            PARS: DRW48_04360
+            PMEH: JWJ88_12435
+            PALP: JHW40_21990
+            PAEZ: PAE61_04000
+            PALS: PAF20_13415
+            PDIM: PAF18_10555
+            PFEO: E3U26_16470
+            RSU: NHU_04486(aceA)
+            TLB: RPE78_16235
+            YPHY: AABB29_06950
+            HML: HmaOT1_12480
+            LIT: FPZ52_16105
+            PPAF: I8N54_11460
+            LVR: T8T21_19300
+            RCP: RCAP_rcc03338(aceA)
+            MMR: Mmar10_1625
+            GAK: X907_2026
+            GABY: AB6B38_06695(aceA)
+            HYT: HXX25_13165(aceA)
+            OAX: ABWI01_03175(aceA)
+            FRB: AB6B37_06585
+            APOP: AB6B39_00500
+            LIJ: ACJ3XI_08815
+            HNE: HNE_1239(aceA)
+            NAR: Saro_1029
+            NPP: PP1Y_AT18131
+            NPN: JI59_15975
+            NRE: BES08_08870
+            NOV: TQ38_012625
+            NOT: C7W88_00955
+            NOR: FA702_08935
+            NGF: FRF71_12000
+            NOG: GKE62_01460
+            NDR: HT578_05940
+            NHUM: PQ457_14025
+            NOL: NSDW_25690
+            NCP: U0041_15460
+            NOVO: IM701_03815
+            NOVB: ACFFDA_27745
+            NRZ: R9J51_18575
+            NAEO: ACLIMP_14245
+            SPHM: G432_02145
+            STAX: MC45_11490
+            SPHI: TS85_23275
+            SSAN: NX02_24125
+            SNJ: A7E77_10180
+            SMY: BJP26_06085
+            SPAN: AWL63_04395
+            SKR: BRX40_02605
+            SPLM: BXU08_11960
+            SPLK: AV944_06110
+            SPKC: KC8_05660
+            SPHC: CVN68_19575
+            SPHF: DM480_03080
+            SPHA: D3Y57_09895
+            SPAU: DRN02_018010(aceA)
+            SLUT: H9L13_01665(aceA)
+            SRHI: H9L12_11835(aceA)
+            SLAN: GV829_00390
+            SDH: H9L15_06105(aceA)
+            SPAP: H3Z74_11520
+            SXA: FMM02_06130(aceA)
+            SPAI: FPZ24_04040
+            SSIN: G7078_01135(aceA)
+            SSAU: H8M03_08805(aceA)
+            SARI: H5J25_06695
+            SCHY: GVO57_05290(aceA)
+            SSUA: FPZ54_13025
+            SBIN: SBA_ch1_13290
+            SAER: NEF64_11590
+            SMOR: LHA26_10115
+            SGLC: M1K48_10335
+            SQO: NMP03_06805(aceA)
+            SCAB: LZK98_07220(aceA)
+            SRAD: LLW23_04135
+            SHAN: PPZ50_10390
+            SNAP: PQ455_05725
+            SDON: M9980_11235(aceA)
+            SSAG: KV697_17345(aceA)
+            SABI: PBT88_04810
+            SAAP: E2E30_10400
+            SPNB: O3305_12965(aceA)
+            SPCL: F9288_04295
+            SPRR: OIM94_10045(aceA)
+            SPMB: OKW87_15130(aceA)
+            SPSO: G4G27_03830
+            SPMS: ACO227_05195
+            SPJN: LRS08_10365
+            SWU: SH591_09685(aceA)
+            SPNW: F1C10_15390
+            SPAF: ACPVPU_12195
+            CIJ: WG74_10355
+            SPHJ: BSL82_16200
+            HGN: E6W36_08085(aceA)
+            SSAA: RPR59_13090(aceA)
+            SPZR: G5C33_05645
+            ACOA: RB602_07305(aceA)
+            SAL: Sala_0943
+            SPHK: SKP52_07400
+            SPHP: LH20_09800
+            SMAG: AN936_09940
+            SMAZ: LH19_10205
+            STER: AOA14_14505
+            SGI: SGRAN_2065(aceA)
+            SPHQ: BWQ93_04355
+            SPHO: C3E99_08720
+            SPHX: E5675_12650
+            SINA: KNJ79_11435
+            SPEG: SPYCW_1207
+            SPFD: SPYCA_1335
+            SPBS: L7H23_00205
+            SPUS: KEC45_09970
+            SPOG: EEB18_000240
+            SPYF: EAO27_06700
+            SPJJ: V6U71_11025
+            SPHU: SPPYR_2171(aceA)
+            SWI: Swit_2926
+            SPHD: HY78_10860
+            RDI: CMV14_02265
+            SJP: SJA_C1-28310(aceA)
+            SINB: SIDU_00700
+            SCH: Sphch_2843
+            SSY: SLG_09310
+            SYB: TZ53_01110
+            SBD: ATN00_18385
+            SPMI: K663_18686
+            SPHB: EP837_03580(aceA)
+            SPHR: BSY17_1991
+            SPHT: K426_06345
+            SHYD: CJD35_02140
+            SYA: A6768_01520
+            SCLO: SCLO_1030750
+            SPYG: YGS_C1P1906
+            SBAR: H5V43_10235
+            SAMI: SAMIE_1021110
+            SPPH: KFK14_17205
+            SPAG: sphantq_01235
+            SPCA: GL174_08250
+            SPRS: EGM87_10960
+            SPJS: NUH86_17135
+            SPWT: N6H05_22515
+            SPTA: Sj15T_20920
+            SPHG: AZE99_09485
+            SFLA: SPHFLASMR4Y_00498
+            SPHY: CHN51_13530
+            SLAA: EUU25_04690
+            PARJ: J4G78_04615
+            PHAO: HF685_04805
+            SPHL: LPB140_06410
+            BLAS: BSY18_2299
+            BFW: B5J99_03060
+            PALG: HFP57_13125(aceA)
+            PARP: HFP51_12335(aceA)
+            SMIC: SmB9_14490
+            SPHS: ETR14_10405(aceA)
+            SAND: H3309_04545(aceA)
+            POQ: KZX46_07765
+            PMEA: KTC28_03395
+            AEP: AMC99_01001
+            ALH: G6N82_01950
+            ARUE: QQX03_08500
+            ALTN: LBX01_12610
+            ALTC: P7228_12995
+            AMX: AM2010_1036
+            PMAS: NCF86_06090
+            ANH: A6F65_00322
+            ADO: A6F68_02056
+            TFV: IDJ81_11115
+            CNA: AB433_00910
+            CMAN: A9D14_03170
+            ERY: CP97_08590
+            EGN: BMF35_a2197
+            EFV: CHH26_09120
+            QCI: NCF85_05015
+            QSP: L1F33_10795
+            QSO: IRL76_04685
+            QAR: K3148_00145
+            QGE: K3136_13875
+            QPS: K3166_04620
+            QXI: K3162_13120
+            QPR: SD421_11675
+            QIP: ACFCXQ_09845
+            QID: ACFCW2_13160
+            ELI: ELI_05300
+            ELQ: Ga0102493_112689
+            ERK: CD351_09210
+            ERR: DVR09_08995
+            ERF: FIU90_09300
+            EMV: HQR01_08685
+            PNS: A9D12_11500
+            ERYT: KDC96_05725
+            ERYZ: F7D01_14020
+            ERYS: LY632_09460
+            ERQ: PS060_14740
+            PORL: BG023_111789
+            PHZ: CHX26_10285
+            POT: E2E27_12680
+            PORC: CBR61_09815
+            PORU: KVF90_10900
+            NTD: EGO55_03405
+            CAEN: K5X80_00970
+            AFLV: QQW98_12440
+            BMAA: T8S45_04555(aceA)
+            PAUI: WAB17_12905
+            EBK: PF049_08325
+            GBE: GbCGDNIH1_0486
+            GBH: GbCGDNIH2_0486
+            GBC: GbCGDNIH3_0486
+            GBS: GbCGDNIH4_0486
+            GDI: GDI2449(aceA)
+            GDJ: Gdia_0698
+            AACE: A0U92_08370
+            RAP: RHOA_2070(aceA)
+            ACR: Acry_1090 Acry_1501
+            AMV: ACMV_08010(aceA) ACMV_15470(aceA)
+            ACIM: GT370_16770
+            RGI: RGI145_02775
+            ROS: CTJ15_20630
+            RMUC: FOB66_17355
+            RMT: IAI58_16180(aceA)
+            RFL: Rmf_47770
+            RCV: PFY06_02465(aceA)
+            RCD: LPC08_18700(aceA)
+            SRF: LHU95_19670(aceA)
+            ELIO: KO353_06665(aceA)
+            AZL: AZL_d00840(aceA)
+            ALI: AZOLI_p40649(aceA)
+            ABS: AZOBR_10531(aceA)
+            ABQ: ABAZ39_13455
+            ABF: AMK58_13240
+            ATI: AL072_23530
+            AHU: A6A40_25510
+            AZT: TSH58p_10535
+            AZM: DM194_23345
+            AZZ: DEW08_17505
+            AOZ: HUE56_04100(aceA)
+            AARE: D3093_10520
+            AZS: E6C72_26205(aceA)
+            AZP: E6C67_01275(aceA)
+            ADJ: ACIU1J_12085(aceA)
+            NAO: Y958_13785
+            NCB: C0V82_11855
+            SKT: IGS68_01500(aceA)
+            SMUC: JL100_001800(aceA)
+            SROE: JL101_023980(aceA)
+            RCE: RC1_2686(aceA)
+            ACRU: HHL28_13770(aceA)
+            NACI: NUH88_07605(aceA)
+            THAR: T8K17_03865(aceA)
+            PBR: PB2503_04902
+            HFL: PUV54_05285
+            HFO: ABFZ83_11310(aceA)
+            PUB: SAR11_1240(aceA)
+            PEG: E5R92_06995(aceA)
+            PELA: B5L73_02600
+            APM: HIMB5_00004390
+            APB: SAR116_2473
+            KOZ: KFF44_00225
+            TMK: QGN29_03475
+            GSO: PH603_01025(aceA)
+            HTL: HPTL_0332
+            DEU: DBW_3323(icl)
+            DWD: DSCW_20600
+            DALK: DSCA_17670
+            DVR: Dvar_58200
+            DML: Dmul_36570(aceA)
+            ADE: Adeh_2221
+            ACP: A2cp1_1726
+            AFW: Anae109_1587
+            ANK: AnaeK_1653
+            APAU: AMPC_32180(aceA)
+            MXA: MXAN_6442(aceA)
+            MSD: MYSTI_07038
+            MFB: MFUL124B02_37260
+            MYX: QEG98_35945(aceA)
+            MLAN: JY572_32130(aceA)
+            MFAE: VZP55_17105(aceA)
+            MVH: ACN6A1_04515(aceA)
+            MYK: KGD87_21110(aceA)
+            MYM: A176_000447
+            PFLY: VZL07_08815(aceA)
+            CCX: COCOR_07035(aceA)
+            MFU: LILAB_14340
+            MMAS: MYMAC_006149
+            CEXI: ACN6A2_22820(aceA)
+            PPAK: JY651_49105(aceA)
+            SUR: STAUR_7197(aceA)
+            AGE: AA314_09077
+            AVM: JQX13_05480(aceA)
+            MBD: MEBOL_002098
+            CFUS: CYFUS_008852
+            PBRU: LZC95_16985(aceA)
+            PRUE: LVJ94_16825(aceA)
+            PALJ: LZC94_25170(aceA)
+            SCL: sce8726(aceA)
+            SCU: SCE1572_50080
+            SORG: NQZ70_10193(icl)
+            CCRO: CMC5_008050(aceA)
+            PAUU: E8A73_030440(aceA)
+            MRM: A7982_10634
+            SAMY: DB32_008664
+            LLU: AKJ09_08596
+            HOH: Hoch_6438
+            NANN: O0S08_44570(aceA)
+            BDC: DOE51_00435
+            BREY: MNR06_11520(aceA)
+            BDV: QJS83_08280(aceA)
+            PSTI: SOO65_15805(aceA)
+            PERD: ACJVC5_19240(aceA)
+            TRO: trd_0496
+            PUV: PUV_11650(aceA)
+            WCH: wcw_0719(aceA)
+            MIN: Minf_0891(aceA)
+            MKC: kam1_923
+            MFH: MFUM_1085(aceA)
+            MCAO: IT6_02140(aceA)
+            AGV: OJF2_52770(aceA)
+            PBAP: Pla133_42900(icl)
+            SLR: L21SP2_2543
+            ABA: Acid345_4706
+            TALB: FTW19_20125(aceA)
+            ORP: MOP44_16055(aceA)
+            SUS: Acid_5701
+            SCOR: J3U87_01345(aceA)
+            GEX: GETHOR_25940
+            GEP: Q9293_16695(aceA)
+            GET: QOZ81_002971(aceA)
+            MSIL: METEAL_24630
+            MSEA: METESE_17120
+            MICA: P0L94_07585
+            CHF: KTO58_13420(aceA)
+            CHIM: CK934_15485
+            ARAC: E0W69_001460(aceA)
+            PGO: FSB84_02675(aceA)
+            SCN: Solca_4440
+            SLAS: L2B55_04240(aceA)
+            MDA: IPZ59_14055(aceA)
+            EOL: Emtol_0634
+            RUP: DTQ70_27885
+            FLI: Fleli_1793
+            BER: ACE193_12640(aceA)
+            HSW: Hsw_3147
+            HYM: N008_13290
+            HYD: PK28_13965
+            HYE: AM218_02475
+            HYH: D3Y59_00240
+            HYJ: FHG12_13725(aceA)
+            HQI: H9L05_12025(aceA)
+            HRS: HER32_05715(aceA)
+            HBN: GUY19_19150(aceA)
+            HYK: O9Z63_12125(aceA)
+            HSK: H4317_05420(aceA)
+            HCW: O3303_10225(aceA)
+            HCU: MUN79_26375(aceA)
+            HCF: MUN80_24205(aceA)
+            HYQ: OIS50_00270(aceA)
+            PACT: CA264_09255
+            MTT: Ftrac_3651
+            MHAA: Q3Y49_00340(aceA)
+            MARP: QYS47_06270(aceA)
+            MSAA: QYS49_16905(aceA)
+            FPF: DCC35_08680
+            FLM: MY04_1345(aceA)
+            FLL: EI427_07815(aceA)
+            FYA: KMW28_09515(aceA)
+            FKA: KM029_02720(aceA)
+            CLIT: OQ292_27895(aceA)
+            FUV: JR347_05140(aceA)
+            FUA: LVD17_11030(aceA)
+            FLW: LVD16_13535(aceA)
+            TPEL: P0M28_28855(aceA)
+            PPSV: PEPS_37790(aceA)
+            FJO: Fjoh_1739
+            FJG: BB050_00868(aceA)
+            FBR: FBFL15_0367(aceA)
+            FIN: KQS_09775(aceA)
+            FCR: HYN56_09160
+            FSE: DI487_11605
+            FFL: HYN86_08170
+            FEN: J0383_06895(aceA)
+            FSD: LXD69_04285(aceA)
+            FPB: NLJ00_09195(aceA)
+            FBI: L0669_09025(aceA)
+            FCS: TRV642_1792(aceA)
+            FPLU: NLG42_08445(aceA)
+            FHU: M0M44_08995(aceA)
+            FPEC: Q1W71_20975(aceA)
+            FOK: KK2020170_14250(aceA)
+            FGC: LNP27_03050(aceA)
+            FCG: LNP23_08540(aceA)
+            FFV: LNP22_08425(aceA)
+            FLZ: GIY83_16170(aceA)
+            FLF: FLGSB24_15810(aceA)
+            FSF: AABD74_08530(aceA)
+            FLAV: HAV12_020200(aceA)
+            FLY: P0R33_09110(aceA)
+            FLQ: CFS9_23100(aceA)
+            CAT: CA2559_12313
+            KDI: Krodi_0491
+            DOK: MED134_01780(aceA)
+            DDO: I597_2817
+            DOD: DCS32_09615
+            LAN: Lacal_0195
+            LACI: CW733_14210
+            LNU: N7U66_15170
+            LACW: FG167_12775
+            ZLA: Q5W13_15930
+            PTQ: P700755_000203
+            NOM: AAT17_02745
+            NSD: BST91_03110
+            POM: MED152_00580(aceA)
+            POA: CW731_15195
+            PLIT: K8354_07630
+            PPEC: H9W90_06995
+            WIJ: BWZ20_02385
+            SYI: SB49_15580
+            TEN: LPB136_05895
+            TJE: TJEJU_1370(aceA)
+            TMAR: MARIT_2180(aceA)
+            TMP: F9Y86_13750
+            TOV: PG911_12175
+            TRT: PG912_09375
+            TTG: P8625_04515
+            TSIG: D6T69_11395
+            TPLT: T19A05C_3584
+            TVAI: T19A02B_0774
+            TPOY: T19A14A_1331
+            OLL: CW732_08930
+            OAQ: DZC78_14675
+            KOS: KORDIASMS9_04376(icl)
+            AQB: D1818_17965
+            AQA: D1815_13450
+            AQD: D1816_20785
+            AQR: HN014_11545(aceA)
+            ABEZ: ACE94K_00920
+            ARHO: ACE939_14960(aceA)
+            AMUE: ACSTS3_20935(aceA)
+            PSYN: E9099_01425
+            MESQ: C7H62_2574
+            FLG: LV716_12160(aceA)
+            FAJ: ABTP35_03060(aceA)
+            SABU: MBM09_07250
+            ZSP: MQE36_12915(aceA)
+            FBM: MQE35_15400(aceA)
+            SAHN: JRG66_01920
+            SAZS: VS868_13055
+            ALUT: O5O44_09985
+            MCAA: R3L15_13880
+            FBA: FIC_00669
+            FBU: UJ101_00208(aceA)
+            EAO: BD94_0719
+            EMN: M876_01875
+            EEN: BBD30_03715
+            ELB: VO54_01955(aceA)
+            EMG: BBD33_00385
+            EGO: BBD34_12500
+            EGM: AYC65_13910
+            ELZ: FCS00_07690(aceA)
+            ELT: FGE20_04005(aceA)
+            ELIZ: JCR23_15185(aceA)
+            CHZ: CHSO_4127(aceA)
+            CGN: OK18_03180
+            CHH: A0O34_13310
+            CIO: CEQ15_09045 CEQ15_14215
+            CHRY: CEY12_10380
+            CPIP: CJF12_18430
+            CHRS: EAG08_15010(aceA)
+            CHRZ: CO230_08110
+            CARH: EGY05_17205(aceA)
+            CNK: EG343_09140(aceA)
+            CJT: EG359_10100(aceA)
+            CIL: EG358_17590(aceA)
+            CCAU: EG346_11120(aceA)
+            CBEN: EG339_00585(aceA)
+            CGLE: NCTC11432_01334(aceA_1) NCTC11432_02452(aceA_2)
+            CLAC: EG342_00815(aceA)
+            CTAK: 4412677_02017(aceA)
+            CSAL: NBC122_01738(aceA)
+            CBP: EB354_01220(aceA)
+            CCAO: H5J24_02610(aceA)
+            CRHI: KB553_11015(aceA)
+            CORZ: MTP08_08735(aceA) MTP08_10630(aceA)
+            CSUP: MTP09_03955(aceA)
+            CDAE: MUU74_08815(aceA)
+            CCAB: PFY12_05955(aceA)
+            CHRJ: CHRYMOREF3P_2028(aceA)
+            CORA: N0B40_19930(aceA)
+            CGAM: PFY09_08465(aceA)
+            CHRC: QGN23_14410(aceA)
+            CMAQ: H0S70_06830(aceA)
+            CCUC: JNG87_00880(aceA)
+            CHRD: KYG33_10605(aceA)
+            CHRP: G6R40_05780(aceA)
+            CHRT: MKS83_09415(aceA)
+            CHRK: KCF3NO3_06590(aceA)
+            CHRH: KBP46_19355(aceA)
+            CSCO: ACLB9Y_02170(aceA)
+            CHRR: ACL0VS_04785(aceA)
+            CJG: NCTC13459_01176(aceA)
+            CCAS: EIB73_05510(aceA)
+            CANT: NCTC13489_01193(aceA)
+            KDA: EIB71_08080(aceA)
+            KHI: EG338_12910(aceA)
+            KBE: J4771_12470(aceA)
+            KFA: Q73A0000_00370(aceA)
+            CFAE: LL667_03280(aceA)
+            EVA: EIB75_15345(aceA)
+            CNR: EB819_09030(aceA)
+            EBV: F0358_10885(aceA)
+            EFAL: FH779_11075(aceA)
+            ESTE: HNV03_03930(aceA)
+            CIV: IMZ16_08805(aceA)
+            CHYD: H4K34_13780(aceA)
+            RMR: Rmar_2249
+            RMG: Rhom172_0626
+            CPRV: CYPRO_2169
+            BSED: DN745_18290
+            PCAY: FRD00_06540(aceA)
+            BBAE: FRD01_18095(aceA)
+            BLI: BL02646
+            BLD: BLi04207(aceA)
+            BLH: BaLi_c41990(aceA)
+            BSON: S101395_04916(aceA)
+            BAN: BA_1132(aceA)
+            BAR: GBAA_1132(aceA)
+            BAT: BAS1052
+            BAH: BAMEG_3448(aceA)
+            BAI: BAA_1216(aceA)
+            BAX: H9401_1068
+            BANT: A16_11900
+            BANR: A16R_12050
+            BANS: BAPAT_1072
+            BANH: HYU01_05885
+            BANV: DJ46_5576(aceA)
+            BAL: BACI_c11610(aceA)
+            BCE: BC1128
+            BCA: BCE_1229(aceA)
+            BCZ: BCE33L1030(aceA)
+            BCR: BCAH187_A1287(aceA)
+            BCB: BCB4264_A1182(aceA)
+            BCU: BCAH820_1210(aceA)
+            BCG: BCG9842_B4157(aceA)
+            BCQ: BCQ_1192(aceA)
+            BCX: BCA_1173(aceA)
+            BNC: BCN_1105
+            BCF: bcf_05675
+            BCER: BCK_02735
+            BCEF: BcrFT9_00974
+            BCY: Bcer98_0854
+            BTK: BT9727_1027(aceA)
+            BTL: BALH_0996
+            BTB: BMB171_C0994(aceA)
+            BTT: HD73_1290
+            BTHI: BTK_06480
+            BTC: CT43_CH1064(aceA)
+            BTF: YBT020_06290
+            BTG: BTB_c11810(aceA)
+            BTI: BTG_15380
+            BTN: BTF1_03345
+            BTHT: H175_ch1078
+            BTHU: YBT1518_06700
+            BTW: BF38_2361(aceA)
+            BTHY: AQ980_24490
+            BWE: BcerKBAB4_1033
+            BWW: bwei_3878(aceA)
+            BMYO: BG05_4764(aceA)
+            BTM: MC28_0348(aceA)
+            BTY: Btoyo_3768
+            BMYC: DJ92_3746(aceA)
+            BBY: CY96_04855
+            BWD: CT694_06145
+            BTRO: FJR70_27850(aceA)
+            BMOB: MLA2C4_05940
+            BNT: GSN03_05805(aceA)
+            BPAC: LMD38_20790(aceA)
+            BPAN: NLJ82_05880(aceA)
+            BALU: QRY64_08130(aceA)
+            BAAP: BGI23_05725
+            BPAM: AABL52_21190(aceA)
+            BAHB: CU648_20545
+            BPAY: AAG068_05770(aceA)
+            BIF: N288_01785
+            BMET: BMMGA3_01750(aceA)
+            BSM: BSM4216_3411
+            BGY: BGLY_4599
+            BFD: NCTC4823_02873(aceA)
+            BSHI: LGQ02_20650(aceA)
+            BACI: B1NLA3E_01645
+            GST: HW35_11805
+            BACO: OXB_1630
+            BACQ: DOE78_01950
+            BACA: FAY30_02095(aceA)
+            BAQU: K6959_01135(aceA)
+            BHAI: KJK41_01835(aceA)
+            BCAO: LC087_01100(aceA)
+            BARD: QRY57_07315(aceA)
+            BASB: M662_14105(aceA)
+            BACF: AM500_24085
+            BKN: WDJ61_02760(aceA)
+            BASD: LCG60_15650(aceA)
+            BHAM: ABN702_13730(aceA)
+            BACV: I7V34_18535(aceA)
+            BAEZ: DPQ26_06075
+            BACH: BSZ43_20690
+            BACJ: CJO35_20870
+            BAAZ: GD442_05585(aceA)
+            BACN: GNK04_08525(aceA)
+            BABD: EKQ63_07300(aceA)
+            BACD: C3Y97_05865
+            BANP: M654_001400(aceA)
+            BACK: KH172YL63_03490
+            BACR: BHV55_06000(aceA)
+            BAKC: R5H20_22685(aceA)
+            BAPP: MU858_05720(aceA)
+            BABZ: BAQ53_05350
+            BAPM: K9N56_22660(aceA)
+            BCRB: K8M08_08125(aceA)
+            BHK: B4U37_06570
+            BCOH: BC6307_08925
+            NIAK: Q5760_02340(aceA)
+            BMQ: BMQ_0634(aceA)
+            BMD: BMD_0637(aceA)
+            BMH: BMWSH_4623(aceA)
+            BMEG: BG04_2926(aceA)
+            BEO: BEH_03550
+            BFX: BC359_17200
+            PARH: I5S86_18465(aceA)
+            PKS: IE339_03475(aceA)
+            PRIE: ACN5XJ_03265(aceA)
+            BHA: BH2677
+            BKW: BkAM31D_15750(aceA)
+            BCL: ABC2973
+            BPF: BpOF4_01185(aceA)
+            BON: A361_01965
+            BKO: CKF48_07120
+            CFIR: NAF01_01905(aceA)
+            CSOA: LIS82_03315(aceA)
+            CSPG: LS684_02385(aceA)
+            CPSS: M5V91_20270(aceA)
+            BDA: FSZ17_03865(aceA)
+            CYX: ACR42H_01945(aceA)
+            CSUA: IM538_04775(aceA)
+            OIH: OB2404
+            OCN: CUC15_06460
+            OKM: ACN6MR_12400(aceA)
+            LSP: Bsph_0633
+            LGY: T479_00540
+            LFU: HR49_23245
+            LYS: LBYS11_00745
+            LYB: C3943_00730
+            LYZ: DCE79_00535
+            LYG: C1N55_00645
+            LPAK: GDS87_00650(aceA)
+            LAGR: FJQ98_00650(aceA)
+            LMAC: I6G82_17995(aceA)
+            LYC: FH508_0000635(aceA)
+            LCAP: ICJ70_23865(aceA)
+            LYP: MTP04_00890
+            LIU: OU989_00640(aceA)
+            LYQ: MY533_00505(aceA)
+            LYO: NV349_00635(aceA)
+            LYI: AAJG31_12835(aceA)
+            LXN: ACQCPS_00645(aceA)
+            LYR: AB9L17_00700(aceA)
+            LCAN: AA0Y26_00010(aceA)
+            HHD: HBHAL_3971
+            HMN: HM131_07185
+            HLI: HLI_17035
+            HNZ: P9989_15070(aceA)
+            HSAN: MUN89_08790(aceA)
+            HSHI: MUO14_04895(aceA)
+            VIR: X953_13665
+            VHL: BME96_12805
+            VIG: BKP57_18070
+            VIL: CFK37_11850
+            VNE: CFK40_07190
+            VPN: A21D_00072(aceA)
+            VIM: GWK91_15370(aceA)
+            VPT: KBP50_11650(aceA)
+            VNT: OLD84_12745(aceA)
+            VIK: KFZ58_12485(aceA)
+            VSS: PD280_12855(aceA)
+            LAO: AOX59_00125
+            LEX: Len3610_09785(aceA)
+            SJE: AAV35_007955
+            SAPL: U0355_08590(aceA)
+            APAK: AP3564_09785
+            ACOP: RI196_05055(aceA)
+            BSJ: UP17_18175
+            BMUR: ABE28_016975
+            PBUT: DTO10_05055
+            PASA: BAOM_4081
+            PPSR: I6J18_18565(aceA)
+            PFRI: L8956_18800(aceA)
+            PERI: RE409_20750(aceA)
+            PERJ: JNUCC41_01385(aceA)
+            PERS: ACJ9PY_19285(aceA)
+            PESI: V1500_20350(aceA)
+            PERR: ACDZ29_02740(aceA)
+            BTHV: CQJ30_02440
+            PSYH: D0S48_11255
+            PSYB: KD050_11950(aceA)
+            PPSN: ACQCPR_01215(aceA)
+            PPST: ACN6MU_14820(aceA)
+            PRD: F7984_01945(aceA)
+            RUE: DT065_07310
+            SALE: EPH95_07815(aceA)
+            SCIB: HUG20_14650(aceA)
+            SCIA: HUG15_17435(aceA)
+            POF: GS400_02085(aceA)
+            PCHU: QNI29_01740(aceA)
+            PONA: IMZ31_01685(aceA)
+            NMK: CHR53_02540
+            NTM: BTDUT50_04615
+            NDT: L1999_02310(aceA)
+            NCM: QNK12_01770(aceA)
+            NNV: QNH39_02475(aceA)
+            NNA: ACN6MT_01875(aceA)
+            NPG: AA0X95_00575(aceA)
+            NNR: RCG22_13800(aceA)
+            MEKU: HUW50_13185(aceA)
+            MSEM: GMB29_04525(aceA)
+            MDG: K8L98_05215(aceA)
+            MLIT: KDJ21_000640(aceA)
+            MEBZ: LPC09_04055(aceA)
+            MRL: WCV66_26250(aceA)
+            MSEE: WCV65_06260(aceA)
+            MHRF: QLQ22_05255(aceA)
+            BWH: A9C19_15285
+            AIA: AWH56_016355(aceA)
+            BVQ: FHE72_02155(aceA)
+            RMF: D5E69_02125(aceA)
+            RAZ: U9J35_01845(aceA)
+            ROD: P8596_01880(aceA)
+            ROSS: V2W31_01835(aceA)
+            RSJ: V1502_02290(aceA)
+            BCK: BCO26_2643
+            BAG: Bcoa_1629
+            BCOA: BF29_1841(aceA)
+            BVJ: I5776_19275(aceA)
+            BOU: I5818_23705(aceA)
+            HSPO: JGZ69_05160(aceA)
+            CTHU: HUR95_02165(aceA)
+            BBEV: BBEV_1993(aceA)
+            BSE: Bsel_1570
+            GAJ: MY490_17030(aceA)
+            SLMS: MM221_08090(aceA)
+            MJO: FOF60_01755(aceA)
+            MSUT: LC048_21305(aceA)
+            SFOR: QNH23_09950(aceA)
+            ECTO: MUG87_16815(aceA)
+            ALKL: MM271_17610(aceA)
+            ALKG: MOJ78_13090(aceA)
+            APHE: AA0017_06930(aceA)
+            DOM: RRU94_22850(aceA)
+            AHAL: FTX54_015825(aceA)
+            BBAD: K7T73_02375(aceA)
+            RPHO: AA0X71_21325(aceA)
+            BBAM: RJD24_14330(aceA)
+            SACL: ACNQFZ_05905(aceA)
+            FPN: ABE65_019715
+            FAR: ABE41_018735
+            FEC: QNH15_06005(aceA)
+            FTGC: ACNJYY_20230(aceA)
+            PNH: V1497_18415(aceA)
+            PHJ: LC071_20135(aceA)
+            GKA: GK0676
+            GTE: GTCCBUS3UF5_7500
+            GTK: GT3570_03250
+            GTM: GT3921_16195
+            GLI: GLN3_13600
+            BCAL: CWI35_06785
+            GTN: GTNG_0583
+            GWC: GWCH70_0665
+            GYC: GYMC61_1480
+            GYA: GYMC52_0603
+            GCT: GC56T3_2885
+            GMC: GY4MC1_3133
+            GGH: GHH_c06290(aceA)
+            GJF: M493_03525
+            GEA: GARCT_00652(aceA)
+            GEL: IB49_13645
+            GSE: GT50_12980
+            GSR: GS3922_12635
+            GEJ: A0V43_00740
+            GZA: IC807_16930(aceA)
+            GIC: ACPVTF_03955(aceA)
+            GTH: Geoth_3152
+            PTL: AOT13_06870
+            PTB: DER53_07910(aceA)
+            PARG: PspKH34_30620(aceA)
+            PCAL: BV455_01079(aceA)
+            AFL: Aflv_2241
+            AGN: AFK25_03015
+            ANM: GFC28_1881(aceA)
+            ANL: GFC29_3553(aceA)
+            AND: GRQ40_03845(aceA)
+            AAYD: B379_03620
+            ANOX: ACPF7I_02890(aceA)
+            ACAI: ISX45_00775(aceA)
+            AAMY: GFC30_1051(aceA)
+            EAT: EAT1b_1896
+            EAP: KB235_00835(aceA)
+            EAUR: NMQ00_14930(aceA)
+            EMM: PTI97_00580(aceA)
+            EPF: OE059_14205(aceA)
+            EMEX: ACNOIU_14595(aceA)
+            BBE: BBR47_00200(aceA)
+            BLR: BRLA_c000340
+            BFM: BP422_25395
+            BAGR: BA6348_02725
+            BRW: GOP56_16075(aceA)
+            BCHS: JNE38_00255(aceA)
+            BCOP: JD108_00140(aceA)
+            BPAB: PSE45_00255(aceA)
+            BHUI: LOK74_20950(aceA)
+            BAYD: BSPP4475_20535(aceA)
+            BBOR: RFB14_26845(aceA)
+            BRUM: NDK47_00130(aceA)
+            BREH: HP435_00255(aceA)
+            ASED: IRT44_05350(aceA)
+            BREP: M655_000515(aceA)
+            BGEL: AAFJ72_00240(aceA)
+            BREW: A6764_01365(aceA)
+            PLV: ERIC2_c27370(aceA)
+            PNP: IJ22_08280
+            PALR: HGI30_11230(aceA)
+            PTHI: NDS46_24550(aceA)
+            PDY: QJQ58_27585(aceA)
+            PELG: ACJ7K1_21620(aceA)
+            PAZR: PAJ34TS1_24560(aceA)
+            PLIR: ACKGJP_27825(aceA)
+            ANX: ACH33_04725
+            ATHE: K3F53_14190(aceA)
+            ANEU: PP175_04325(aceA)
+            AAC: Aaci_0028
+            AAD: TC41_0033(aceA)
+            ADAU: NZD86_09950(aceA)
+            ALIC: GI364_17325(aceA)
+            AFX: JZ786_04660(aceA)
+            ACUR: JZ785_14760(aceA)
+            ACYC: JI721_04370(aceA)
+            BTS: Btus_1003
+            KYR: CVV65_11120
+            EFF: skT53_26030
+            FFE: LSG31_16385(aceA)
+            SIV: SSIL_3809
+            SSIL: SOLI23_18980
+            SOB: CSE16_00575
+            PLN: Plano_1565
+            PKU: AUO94_08270
+            PRT: AUC31_15990
+            PANA: BBH88_11720
+            PDG: BCM40_07435
+            PHC: BBI08_04600
+            PMAR: B0X71_13310
+            PPLA: BBI15_06665
+            PFAE: AJGP001_08980
+            PLX: CW734_12640
+            PMAT: BBI11_12105
+            PDEC: H1Q58_11375(aceA)
+            PLAY: DNR44_008800(aceA)
+            PLIQ: QWY22_14125(aceA)
+            PSHE: QWY16_14180(aceA)
+            PSHX: QWY21_14160(aceA)
+            PKW: ACM1PH_05390(aceA)
+            PLAO: M1Q06_11585(aceA)
+            PDAI: DHX103_03040(aceA)
+            PGLA: HF394_01630(aceA)
+            JEO: JMA_33590
+            JEB: DH10bf12_02230(aceA)
+            KUR: ASO14_2284(aceA)
+            KZO: NCTC404_00203(aceA)
+            SPSY: AZE41_17770
+            SPOR: SporoP33_12580
+            SPOP: SporoP37_12895
+            SURE: SporoP32a_13215
+            SPOS: DV702_00770
+            SPAE: E2C16_05090(aceA)
+            SURL: BI350_08940
+            SOW: QWT69_03945(aceA)
+            SPOH: GGGNBK_05755(aceA)
+            SPOQ: ACP8HH_03340(aceA)
+            RST: ATY39_01865
+            PANC: E2636_15355(aceA)
+            VIJ: JNUCC6_19120(aceA)
+            UTH: DKZ56_01745(aceA)
+            CAUU: ACF3OH_13095(aceA)
+            LFB: C1X05_09750
+            TVU: AB849_002550(aceA)
+            KPUL: GXN76_03495(aceA)
+            KEB: GXN75_03740(aceA)
+            PABS: JIR001_04910
+            HYI: K2M58_05635(aceA)
+            STH: STH590
+            CMIC: caldi_16260
+            TMR: Tmar_1769
+            THEF: E1B22_00405(aceA)
+            THEP: DYI95_008860(aceA)
+            TCP: Q5761_09080(aceA)
+            SAY: TPY_0122(aceA)
+            SAP: Sulac_0111
+            LPIL: LIP_0998
+            ERZ: ER308_16290(aceA)
+            MTU: Rv0467(icl1) Rv1915(aceAa) Rv1916(aceAb)
+            MTV: RVBD_0467 RVBD_1915 RVBD_1916
+            MTC: MT0483(aceA-1) MT1966(aceA-2)
+            MRA: MRA_0473(icl) MRA_1926(aceAa) MRA_1927(aceAb)
+            MTF: TBFG_10474 TBFG_11944 TBFG_11945
+            MTB: TBMG_00469 TBMG_02076 TBMG_02077
+            MTK: TBSG_00474 TBSG_02086 TBSG_02087
+            MTZ: TBXG_000467 TBXG_004002 TBXG_004003
+            MTG: MRGA327_02950 MRGA327_11800 MRGA327_11805
+            MTI: MRGA423_02950 MRGA423_11930
+            MTE: CCDC5079_0438 CCDC5079_1771
+            MTUR: CFBS_0485(icl) CFBS_2010(aceAb)
+            MTL: CCDC5180_0431 CCDC5180_1748
+            MTO: MTCTRI2_0471(icl) MTCTRI2_1948(aceAa) MTCTRI2_1949(aceAb)
+            MTD: UDA_0467(icl) UDA_1915(aceAa) UDA_1916(aceAb)
+            MTN: ERDMAN_0512(icl) ERDMAN_2108(aceAb)
+            MTJ: J112_02485 J112_10205 J112_10210
+            MTUB: MT7199_0476 MT7199_1942(aceAb)
+            MTUC: J113_03320 J113_13245
+            MTUE: J114_02485 J114_10210 J114_10215
+            MTX: M943_02420 M943_09955
+            MTUH: I917_13565 I917_13570
+            MTUL: TBHG_00464 TBHG_01872
+            MTUT: HKBT1_0485(icl) HKBT1_2007(aceAb)
+            MTUU: HKBT2_0485(icl)
+            MTQ: HKBS1_0485(icl) HKBS1_2011(aceAb)
+            MBO: BQ2027_MB0476(icl) BQ2027_MB1950(aceA)
+            MBB: BCG_0507(icl) BCG_1954(aceA)
+            MBT: JTY_0477(icl) JTY_1938(aceA)
+            MBM: BCGMEX_0478(icl) BCGMEX_1935(aceA)
+            MBK: K60_004930 K60_020080
+            MBX: BCGT_0241 BCGT_1746
+            MAF: MAF_04700(icl) MAF_19380(aceAa) MAF_19390(aceAb)
+            MMIC: RN08_0520 RN08_2127
+            MCE: MCAN_04661(icl) MCAN_19311(aceAa) MCAN_19321(aceAb)
+            MCQ: BN44_10517(icl) BN44_40186(aceA)
+            MCV: BN43_10506(icl) BN43_31065
+            MCX: BN42_20191(icl) BN42_30208(aceA)
+            MCZ: BN45_10516(icl) BN45_50186(aceA)
+            MORY: MO_000494(aceA) MO_002015(aceA)
+            MLE: ML1985(aceA)
+            MLB: MLBr01985(aceA)
+            MPA: MAP_1643(aceAb) MAP_3961(aceA)
+            MAO: MAP4_2195 MAP4_4077
+            MAVI: RC58_10925 RC58_20255
+            MAVU: RE97_10935 RE97_20305
+            MAV: MAV_2781(aceA) MAV_4682(aceA)
+            MAVM: MAA44156_01628(icl_1) MAA44156_04124(icl_2)
+            MIT: OCO_26130 OCO_45770
+            MIA: OCU_26010 OCU_45490
+            MID: MIP_03653 MIP_06933
+            MYO: OEM_24630 OEM_45920
+            MCHI: AN480_13770 AN480_23870
+            MIR: OCQ_24720 OCQ_46830
+            MMAL: CKJ54_11815 CKJ54_21760
+            MLP: MLM_3847
+            MMAN: MMAN_12880(aceA_1) MMAN_34000(aceA_2)
+            MSER: MTY59_09070(icl) MTY59_41960(aceA)
+            MSA: Mycsm_00523 Mycsm_03482
+            MUL: MUL_2943(aceAb) MUL_4536(icl)
+            MMI: MMAR_0792(icl) MMAR_2821(aceAb)
+            MMAE: MMARE11_07420(icl) MMARE11_27420(aceAb)
+            MLI: MULP_00808(icl) MULP_02582(icl2)
+            MPSE: MPSD_09160(aceA_1) MPSD_29080(aceA_2)
+            MSHO: MSHO_25370(aceA_1) MSHO_42290(aceA_2)
+            MMC: Mmcs_0187 Mmcs_0636
+            MKM: Mkms_0196 Mkms_0649
+            MJL: Mjls_0176 Mjls_0629
+            MMM: W7S_12690 W7S_22995
+            MKN: MKAN_00955 MKAN_18250
+            MYV: G155_16795 G155_25850
+            MYE: AB431_03660 AB431_17415
+            MHAD: B586_11300 B586_19685
+            MDX: BTO20_04885 BTO20_15190
+            MSHG: MSG_00686(icl) MSG_02708(aceA)
+            MFJ: MFLOJ_05100(aceA_1) MFLOJ_27860(aceA_2)
+            MSTO: MSTO_06430(aceA_1) MSTO_31770(aceA_2)
+            MSIM: MSIM_17840(aceA_1) MSIM_50440(aceA_2)
+            MSAK: MSAS_08090(aceA) MSAS_41910(icl)
+            MKU: I2456_04095(aceA) I2456_13895
+            MLW: MJO58_03705(aceA) MJO58_14275(aceA)
+            MXE: MYXE_24410(aceA) MYXE_43100(icl)
+            MNV: MNVI_22700(icl) MNVI_42090(aceA)
+            MPAG: C0J29_04375 C0J29_16225
+            MNM: MNVM_13630(aceA_1) MNVM_40500(aceA_2)
+            MGOR: H0P51_04045(aceA) H0P51_15215
+            MCOO: MCOO_39060(aceA_1) MCOO_46070(aceA_2)
+            MBAI: MB901379_00676(icl) MB901379_02605(aceA)
+            MSEO: MSEO_15290(aceA_1) MSEO_46030(aceA_2)
+            MHEK: JMUB5695_02360(aceA) JMUB5695_04195(icl)
+            MGAU: MGALJ_15550(aceA_1) MGALJ_50520(aceA_2)
+            MLJ: MLAC_18920(aceA_1) MLAC_36900(aceA_2)
+            MBRD: MBRA_09370(icl) MBRA_38210(aceA)
+            MSHJ: MSHI_08940(aceA) MSHI_29700(icl)
+            MMAM: K3U93_12990(aceA) K3U93_21050(aceA)
+            MSPG: F6B93_03180(aceA) F6B93_11655
+            MOT: LTS72_10105(aceA) LTS72_22015(aceA)
+            MLM: MLPF_3241(aceA)
+            MPAA: MKK62_17775(aceA) MKK62_21455(aceA)
+            MMEH: M5I08_04225(aceA) M5I08_06335(aceA)
+            MKY: IWGMT90018_07960(aceA_1) IWGMT90018_29130(aceA_2)
+            MADI: A7U43_14790 A7U43_26580
+            MWU: PT015_20975(aceA) PT015_24470(aceA)
+            MYW: BVC93_05785 BVC93_27125
+            MYJ: BCA37_06320 BCA37_15495
+            MHAF: ACEL92_13170(aceA) ACEL92_24005(aceA)
+            MFG: K6L26_15080(aceA) K6L26_27050(aceA)
+            MSM: MSMEG_0911(aceA) MSMEG_3706(aceA)
+            MSG: MSMEI_0889(icl) MSMEI_3618(aceAb)
+            MSB: LJ00_04525 LJ00_18415
+            MSN: LI99_04525 LI99_18420
+            MSH: LI98_04525 LI98_18425
+            MVA: Mvan_0801 Mvan_2977
+            MAUS: JN090_02850(aceA) JN090_14170(aceA)
+            MGI: Mflv_0107 Mflv_3260
+            MSP: Mspyr1_06760 Mspyr1_25880
+            MCB: Mycch_0579 Mycch_2899
+            MNE: D174_05300 D174_16105
+            MYN: MyAD_05190 MyAD_15825
+            MFT: XA26_34420 XA26_52400
+            MPHL: MPHLCCUG_02488(aceA) MPHLCCUG_04545(icl)
+            MVQ: MYVA_0638(icl) MYVA_3099(aceA)
+            MLL: B1R94_03795 B1R94_14180
+            MRH: MycrhN_1176 MycrhN_4982
+            MTHN: 4412656_00565(aceA) 4412656_02358(icl)
+            MHAS: MHAS_01915(aceAb) MHAS_04829(icl1)
+            MDU: MDUV_11830(aceA_1) MDUV_37620(aceA_2)
+            MCHT: MCHIJ_03670(aceA_1) MCHIJ_37130(aceA_2)
+            MDR: MDOR_00660(aceA_1) MDOR_03170(aceA_2)
+            MAUU: NCTC10437_00663(aceA_1) NCTC10437_02842(aceA_2)
+            MMAG: MMAD_08310(aceA_1) MMAD_44270(aceA_2)
+            MMOR: MMOR_34480(aceA_1) MMOR_58650(aceA_2)
+            MFX: MFAL_22650(aceA)
+            MAIC: MAIC_30550(aceA_1) MAIC_49110(aceA_2)
+            MIJ: MINS_10900(aceA)
+            MALV: MALV_05580(aceA_1) MALV_27730(aceA_2)
+            MTY: MTOK_29280(aceA_1) MTOK_47030(aceA_2)
+            MPSC: MPSYJ_02750(aceA_1) MPSYJ_34940(aceA_2)
+            MARZ: MARA_23120(aceA_1) MARA_31660(aceA_2)
+            MGAD: MGAD_09210(aceA_1) MGAD_48940(aceA_2)
+            MHEV: MHEL_14960(aceA_1) MHEL_54160(aceA_2)
+            MSAR: MSAR_22650(aceA_1) MSAR_38280(aceA_2)
+            MANY: MANY_15910(aceA_1) MANY_46910(aceA_2)
+            MAUB: MAUB_06270(aceA) MAUB_24330
+            MPOF: MPOR_11500(aceA_1) MPOR_34810(aceA_2)
+            MPHU: MPHO_06330(aceA) MPHO_46270
+            MMUC: C1S78_015160 C1S78_024140(aceA)
+            MMAT: MMAGJ_37940(aceA_1) MMAGJ_67280(aceA_2)
+            MBOK: MBOE_02720(aceA_1) MBOE_39940(aceA_2)
+            MSEI: MSEDJ_19890(aceA_1) MSEDJ_43540(aceA_2)
+            MFLV: NCTC10271_02424(icl) NCTC10271_04509(aceA)
+            MCEE: MCEL_06860(aceA_1) MCEL_27390(aceA_2)
+            MBRM: L2Z93_003409(aceA)
+            MMON: EWR22_01030 EWR22_03355(aceA)
+            MGO: AFA91_00715 AFA91_21410
+            MHOL: K3U96_12145(aceA) K3U96_23260(aceA)
+            MSEN: K3U95_04505(aceA) K3U95_14285(aceA)
+            MPAE: K0O64_03500(aceA) K0O64_16610(aceA)
+            MRF: MJO55_03190(aceA) MJO55_14675(aceA)
+            MDF: K0O62_04150(aceA) K0O62_16580(aceA)
+            MCRO: MI149_04065(aceA) MI149_17520(aceA)
+            MGRO: FZ046_09520(aceA)
+            MFRE: EXE63_10900(aceA) EXE63_27955
+            MBUG: MU0053_002301(aceA) MU0053_004026(aceA)
+            MYQ: TUM20985_10650(aceA_1) TUM20985_50740(aceA_2)
+            MFLU: HZU40_08795(aceA) HZU40_17640
+            MYH: QU592_04780(aceA) QU592_17315(aceA)
+            MPAT: MPNTM1_00592(aceA_1) MPNTM1_04012(aceA_2)
+            MWJ: ACOI2T_15755(aceA) ACOI2T_31385(aceA)
+            MYCE: ACRDU6_07050(aceA) ACRDU6_16630(aceA)
+            MKR: MKOR_07500(aceA_1) MKOR_25520(aceA_2)
+            MPAK: MIU77_08085(aceA) MIU77_16230(aceA)
+            MAB: MAB_4095c
+            MMV: MYCMA_2280
+            MABB: MASS_4105
+            MABL: MMASJCM_4180
+            MCHE: BB28_21090
+            MIZ: BAB75_23490
+            MSTE: MSTE_04272
+            MSAO: MYCSP_19120
+            MSAL: DSM43276_03933(aceA)
+            MYY: RHO23_17260(aceA)
+            MJD: JDM601_0458(icl) JDM601_2004(aceAb)
+            MTER: 4434518_00452(aceA) 4434518_01956(aceAb)
+            MMIN: MMIN_21700(aceA_1) MMIN_36390(aceA_2)
+            MHIB: MHIB_14760(aceA_1) MHIB_39750(aceA_2)
+            MHER: K3U94_02660(aceA) K3U94_11475(aceA)
+            MVM: MJO54_02670(aceA) MJO54_11465(aceA)
+            MKK: MU0083_000403(aceA) MU0083_001882(aceA)
+            ASD: AS9A_0605
+            CGL: Cgl0097(Cgl0097) Cgl2331(Cgl2331)
+            CGB: cg0127 cg2560(aceA)
+            CGU: WA5_0096 WA5_2248(AceA)
+            CGT: cgR_2212
+            CGS: C624_11315
+            CGG: C629_11325
+            CGM: cgp_0127 cgp_2560(aceA)
+            CGJ: AR0_11155
+            CGQ: CGLAR1_11005
+            CGX: SB89_10810
+            CEF: CE2232(aceA)
+            CJK: jk1933(aceA)
+            CUR: cu0191
+            CUA: CU7111_0198(aceA)
+            CKP: ckrop_1958(aceA)
+            CRD: CRES_1979(aceA)
+            CVA: CVAR_2767(aceA)
+            CHN: A605_04580
+            CCN: H924_09795
+            CTER: A606_10265
+            CMD: B841_03170
+            CFN: CFAL_10850
+            CVT: B843_04745
+            CGY: CGLY_03015(aceA)
+            CAX: CATYP_06920
+            COA: DR71_1334(aceA)
+            CDO: CDOO_04525
+            CHM: B842_04095
+            CMQ: B840_03625(aceA)
+            CTED: CTEST_04035(aceA)
+            CLW: CLAC_01240
+            CDX: CDES_10590(aceA)
+            CCJZ: ccrud_10340
+            CFK: CFRA_04325
+            CSPH: CSPHI_00995
+            CXE: FOB82_06770(aceA)
+            CSAN: E3227_04400(aceA)
+            CPRE: Csp1_04970(aceA)
+            CSUR: N24_0125 N24_2396(aceA)
+            CANS: GP473_08500(aceA)
+            CLIA: C3E79_10870
+            CPRP: I6I69_09245(aceA)
+            CAMC: I6I65_08790(aceA)
+            CUO: CUROG_09510(aceA)
+            CQN: G7Y29_10380(aceA)
+            CKW: CKALI_10045(aceA)
+            CCOE: CETAM_04005(aceA)
+            COK: COCCU_10320(aceA)
+            CZO: IAU67_09145(aceA)
+            CFY: I6L56_09560(aceA)
+            CPSP: L9H27_03650(aceA)
+            CHEI: CHEID_09575(aceA)
+            CAQM: CAQUA_11035(aceA1)
+            CAUI: CAURIS_10985(aceA)
+            CFAC: CFAEC_10250(aceA)
+            CAUS: CAURIC_10350(aceA)
+            CATR: CATRI_03855(aceA)
+            CHAN: CHAN_01305(aceA)
+            CGF: CGUA_03135(aceA)
+            CAPP: CAPP_10960(aceA)
+            CBOV: CBOVI_01395(aceA)
+            CSUE: QP029_08150(aceA)
+            CBRE: QP027_11005(aceA)
+            CGP: KBP53_10980(aceA)
+            CPSK: Q0N40_10045(aceA)
+            CORS: PAB09_04635(aceA)
+            CORE: RIU96_01710(aceA)
+            CMAL: ACMX9P_00645(aceA)
+            CJAM: ACKFRT_09435(aceA)
+            CORK: OLX12_04270(aceA)
+            CORM: OLW90_04265(aceA)
+            CDEN: ACF3NM_07465(aceA)
+            BFV: C628_11285
+            NFA: NFA_52300(aceA)
+            NFR: ERS450000_04652(aceA)
+            NCY: NOCYR_5051(aceA)
+            NBR: O3I_039170
+            NNO: NONO_c70960(aceA)
+            NSL: BOX37_29965
+            NSR: NS506_00197(aceA)
+            NTP: CRH09_37250
+            NOZ: DMB37_17990
+            NOD: FOH10_34030(aceA)
+            NAH: F5544_41670(aceA)
+            NAD: NCTC11293_00165(aceA)
+            NWL: NWFMUON74_66460
+            NIE: KV110_38370(aceA)
+            NTC: KHQ06_08795(aceA)
+            NHU: H0264_08040(aceA)
+            NYA: LTV02_24970(aceA)
+            NGP: LTT66_09155(aceA)
+            NSPU: IFM12276_58160
+            NYU: D7D52_05990(aceA)
+            NVU: V7968_04335(aceA)
+            RHA: RHA1_ro02122
+            RER: RER_15740(aceA)
+            REY: O5Y_07490
+            REB: XU06_07725
+            RQI: C1M55_07975
+            ROP: ROP_18410(aceA)
+            ROA: Pd630_LPD06301
+            RPY: Y013_09760
+            RBY: CEJ39_20635
+            RHB: NY08_4679
+            RAET: JQ505_10880(aceA)
+            RHW: BFN03_12950
+            RRZ: CS378_09250
+            RHU: A3Q40_00192(aceA)
+            RHQ: IM25_01580
+            RHOD: AOT96_18350
+            RRT: 4535765_03766(aceA)
+            RCR: NCTC10994_03496(aceA)
+            RTM: G4H71_15065(aceA)
+            RKO: JWS14_11090(aceA)
+            RGO: KYT97_10755(aceA)
+            ROZ: CBI38_07525
+            RPSK: JWS13_34765(aceA)
+            RGOR: NMQ04_16495(aceA)
+            RHOP: D8W71_25510(aceA)
+            RHOO: RA302_07885(aceA)
+            RHOU: KZJ41_20875(aceA)
+            RHOW: A4U64_04950
+            RHOJ: JVH1_26665(aceA)
+            RHOS: QWW67_09540(aceA)
+            RHOQ: QWW98_09545(aceA)
+            RHOY: QNA09_17400(aceA)
+            RHOH: CPI83_21310
+            RHOX: RBB84_14480(aceA)
+            RHJS: OYT95_28065(aceA)
+            RSF: OED52_16360(aceA)
+            RHZQ: GO592_03955(aceA)
+            RHZG: BO226_14760
+            RHBH: A0W34_07750
+            RHPD: U9J23_18440(aceA)
+            RHON: EHW12_07765(aceA)
+            RHWB: FND50_28805(aceA)
+            RHPM: E5769_00475(aceA)
+            RHPC: E5720_13540(aceA)
+            RHSQ: E7742_14950(aceA)
+            RHWY: GFS60_01628(aceA)
+            RHDM: HFP48_20330(aceA)
+            RHWQ: HUN07_21820(aceA)
+            RHMM: ISO16_09505(aceA)
+            RHZP: HYG77_08330(aceA)
+            RHRC: P0M12_20210(aceA)
+            RHNY: ACBG85_07855(aceA)
+            RHRD: RDE2_37780(aceA)
+            RHDK: PST05_10805(aceA)
+            RHMZ: QWU03_10185(aceA)
+            RIO: ACM26Y_18830(aceA)
+            RHDE: PSR88_10715(aceA)
+            REQ: REQ_38290
+            PSOW: ABI214_18810(aceA)
+            RFA: A3L23_02746(aceA)
+            RHS: A3Q41_00615(aceA)
+            WHR: OG579_16645(aceA)
+            GBR: Gbro_0763
+            GPO: GPOL_c09380(aceA)
+            GOR: KTR9_0648
+            GOQ: ACH46_02620
+            GTA: BCM27_03800
+            GOC: CXX93_00625
+            GIT: C6V83_17495
+            GRU: GCWB2_03535(aceA)
+            GOM: D7316_02729(aceA)
+            GAV: C5O27_01495
+            GOD: GKZ92_03310(aceA)
+            GOS: QAD21_03425(aceA)
+            GOJ: GR168_03550(aceA)
+            GAM: GII34_02120(aceA)
+            GPD: GII33_01750(aceA)
+            GJI: H1R19_03285(aceA)
+            GOI: LK459_05895(aceA)
+            GHN: MVF96_03600(aceA)
+            GAMI: IHQ52_06155(aceA)
+            GMG: NWF22_13945(aceA)
+            GSI: P5P27_01105(aceA)
+            GOO: HUN08_02480(aceA)
+            GOP: ACE11G_15700(aceA)
+            GON: Q9K23_16345(aceA)
+            GABS: MP11Mi_18440(aceA)
+            SPIN: KV203_02450(aceA)
+            TPR: Tpau_3668
+            TSM: ASU32_20935
+            TPUL: TPB0596_40010
+            TSD: MTP03_41280
+            SRT: Srot_1911
+            DTM: BJL86_2732
+            DIT: C3V38_03300
+            DIZ: CT688_13870
+            DPC: A6048_14520
+            DLU: A6035_13515
+            DKN: NHB83_14055(aceA)
+            DCD: VYL96_13520(aceA)
+            DID: GJR88_04397
+            TOY: FO059_14410(aceA)
+            SCO: SCO0982(SCBAC19F3.09)
+            SALB: XNR_3159
+            SMA: SAVERM_2043(aceA)
+            SGR: SGR_1643
+            SGB: WQO_01395
+            SFI: SFUL_402
+            SCYE: R2B67_34750(aceA)
+            SVE: SVEN_5569
+            SDV: BN159_0717(icl)
+            SALS: SLNWT_6749
+            STRE: GZL_08179
+            SLD: T261_7513
+            SXI: SXIM_51230
+            STRM: M444_29235
+            SCZ: ABE83_33655
+            SLE: sle_00990(sle_00990)
+            SCLF: BB341_28805
+            SGS: AVL59_11055
+            SALU: DC74_1041
+            SALL: SAZ_05680
+            SVU: B1H20_00980
+            SALF: SMD44_00220
+            SALJ: SMD11_6366
+            SLX: SLAV_34415(icl)
+            SRJ: SRO_1011
+            SLK: SLUN_37210
+            SGD: ELQ87_02195(aceA)
+            SCYA: EJ357_38780(aceA)
+            SNQ: CP978_31720(aceA)
+            STIR: DDW44_25490
+            SKA: CP970_01985(aceA)
+            SGZ: C0216_11530
+            SVN: CP980_32585(aceA)
+            SRK: FGW37_30250(aceA)
+            SFIC: EIZ62_01385(aceA)
+            SGF: HEP81_00975
+            SCAV: CVT27_00855
+            SRIM: CP984_02305(aceA)
+            SCHA: CP983_08500(aceA)
+            SGX: H4W23_34095(aceA)
+            SSPB: CP982_04415(aceA)
+            SNF: JYK04_07659(icl1)
+            SHAR: HUT13_25890(aceA)
+            SDW: K7C20_02330(aceA)
+            SCAL: I6J39_01100(aceA)
+            SMOB: J7W19_06190(aceA) J7W19_28105(aceA)
+            SINE: KI385_05285(aceA)
+            SLF: JEQ17_11210(aceA)
+            SAOV: G3H79_37620(aceA)
+            SDUR: M4V62_05220(aceA)
+            SVIO: HWN34_16175(aceA)
+            SCIR: STRCI_007701(aceA)
+            SXT: KPP03845_106591(icl1)
+            SGK: PET44_27750(aceA)
+            SYUN: MOV08_37950(aceA)
+            SOV: QZH56_02355(aceA)
+            SHAU: K9S39_37460(aceA)
+            SKG: KJK29_36150(aceA)
+            SFP: QUY26_39035(aceA)
+            SARM: DVA86_21585
+            SPRF: K4G22_16240(aceA)
+            SRPA: HEP86_03105(aceA)
+            STRW: QHG49_04805(aceA)
+            SRPZ: HEP85_43250(aceA)
+            STII: DRB96_38015
+            STIC: DRB89_24830
+            SPAZ: ABXI76_35350(aceA)
+            SMOD: POD33_25385(aceA)
+            SSIR: WAB15_03325(aceA)
+            STRJ: H7827_02025(aceA)
+            SEXP: SLV14_001917(aceA)
+            SLUA: AB8735_30890(aceA)
+            STID: G7Z12_08620(aceA)
+            STCZ: JHY03_02710
+            STSG: B6R96_03705
+            STHU: M1P56_13820(aceA)
+            SHUG: ABVG11_30680(aceA)
+            STRX: A6E92_30515
+            STFR: SFR_3776(aceA)
+            STFD: B1K54_32945
+            STCL: CAC01_01890
+            STSM: B9S66_13990
+            STFI: WID27_35015(aceA)
+            STPJ: R1Y80_01470(aceA)
+            SCAF: N0X72_26730(aceA)
+            SBON: ACNNMR_25255(aceA)
+            ALIQ: AB5J87_35070(aceA)
+            STNE: DKG71_32150
+            KAB: B7C62_00900
+            KIS: HUT16_01610(aceA)
+            KCM: ABWK59_36405(aceA)
+            KNB: ACF9IK_35600(aceA)
+            KDR: ACQ614_34605(aceA)
+            LXL: KDY119_01053(aceA)
+            PSIC: J4E96_00165(aceA)
+            PPHP: VTA80_08515(aceA)
+            LSE: F1C12_00600(aceA)
+            LEIZ: IT072_13145(aceA)
+            LEIL: AAYO93_03450(aceA)
+            MTS: MTES_2434
+            MIM: AKG07_08400
+            MIO: AOA12_08810
+            MIX: AB663_000127
+            MIP: AXH82_02720
+            MCW: A8L33_00240
+            MPAL: BO218_06820
+            MIH: BJP65_12805
+            MICR: BMW26_12920
+            MAUR: BOH66_04450
+            MHOS: CXR34_04605
+            MFOL: DXT68_13020
+            MLV: CVS47_02510
+            MPRT: ET475_11255(aceA)
+            MSED: E3O41_09915(aceA)
+            MOY: CVS54_02962(icl1)
+            MSF: IT882_12775
+            MCAW: F6J84_03250
+            MRN: K8F61_09170(aceA)
+            MICS: C1N74_04265
+            MBIN: LXM64_03905(aceA)
+            MLIQ: NMQ05_14370(aceA)
+            MTEC: OAU46_03515
+            MPAO: IZR02_12885(aceA)
+            MAZA: NFX31_09565
+            MNF: JSY13_10220(aceA)
+            MSUW: GCM10025863_00010 GCM10025863_32660
+            MARK: QUC20_04025(aceA)
+            MRG: SM116_14930
+            MINV: T9R20_05200(aceA)
+            MEST: PTQ19_12440
+            MPLN: VC184_03855(aceA)
+            MLIY: RYJ27_02835(aceA)
+            MICE: EHF32_08965(aceA)
+            MAUG: KV397_03755(aceA)
+            MSUF: KV394_00970(aceA)
+            MHOT: PU630_03785(aceA)
+            MGAB: KV396_02615(aceA)
+            MBET: N8K70_03175(aceA)
+            MICM: CHE218_28990(aceA)
+            MICI: AB2L57_14545
+            MALP: QSU92_04140(aceA)
+            MJI: QNO14_11670
+            MWN: QNO26_03220
+            MINX: MICNX66_2695(aceA)
+            MPRL: AB0870_13535(aceA)
+            MICP: KY498_08005(aceA)
+            MIPP: KY497_06930(aceA)
+            MICJ: LRQ07_13565(aceA)
+            MIMZ: OED01_03610(aceA)
+            MCLI: PQV94_12445(aceA)
+            MIBD: P6897_04105(aceA)
+            MIAN: ABS642_19785(aceA)
+            MPRA: AA0Y20_07140(aceA)
+            MFLM: ACSJDX_02925
+            MCHN: HCR76_06825(aceA)
+            PSAE: ACSAGD_05245(aceA)
+            MVD: AWU67_12785
+            AGY: ATC03_03075
+            AGM: DCE93_02150
+            AGF: ET445_01150(aceA)
+            AARC: G127AT_10255(aceA)
+            AMAU: DSM26151_04920(icl)
+            ASOI: MTP13_01455(aceA)
+            AMAV: GCM10025877_21070(aceA)
+            ALAV: MTO99_17525(aceA)
+            AIL: FLP10_05875(aceA)
+            AEG: MUN74_05515(aceA)
+            CART: PA27867_0310
+            CRY: B7495_01490
+            CPHY: B5808_05785
+            MALK: MalAC0309_0296
+            CHRE: IE160_00405(aceA)
+            MHUM: NNL39_05620(aceA)
+            MDB: OVN18_05330(aceA)
+            MYL: C3E77_02105
+            MSPO: KXZ72_04010(aceA)
+            SALC: C2138_03480
+            SALA: ESZ53_03480(aceA)
+            SALD: FVA74_09855
+            HUM: DVJ78_15150
+            HUW: FPZ11_16580(aceA)
+            GRY: D7I44_01990(aceA)
+            LYD: D7I47_07165(aceA)
+            PROA: H4J02_12845(aceA)
+            PLAP: EAO79_00355(aceA)
+            PFLU: BWO91_16040
+            PLAA: ABMA10_18480(aceA)
+            LEU: Leucomu_06800
+            LTR: EVS81_12230
+            LEB: G7066_08150
+            LDN: H9L06_01055
+            LVI: G7068_02190
+            LINS: G7067_10135
+            LLUT: K1X41_00440
+            LARI: KI794_08960
+            LALL: MUN78_15145
+            LRP: MUN76_01830
+            LTN: KVY00_02360
+            LEUC: AB3K78_02245
+            AGRO: JSQ78_00675(aceA)
+            AGRS: OVA14_09430(aceA)
+            AGRI: MU522_00060(aceA) MU522_12980(aceA)
+            MANT: BHD05_01320
+            HEA: HL652_03080(aceA)
+            GLN: F1C58_09425(aceA)
+            SUBT: KPL76_13695
+            SUBA: LQ955_13115
+            GSD: M3M28_09525(aceA)
+            GMN: GMOLON4_1793(icl)
+            ART: Arth_0583
+            ARR: ARUE_c06840
+            ARM: ART_3158
+            ARL: AFL94_01655
+            ARE: AL755_01845
+            AAQ: AOC05_17415
+            ARW: MB46_18280
+            ARH: AHiyo8_28710
+            ARY: ATC04_16365
+            ARU: ASPU41_08535
+            ARQ: BWQ92_07305
+            ARN: CGK93_03820
+            ARX: ARZXY2_3272(aceA)
+            ARTH: C3B78_02870
+            ARTP: E5206_00725(aceA)
+            ACIT: HPK19_12285(aceA)
+            AAGI: NCTC2676_1_00343(aceA)
+            AJG: KKR91_01705(aceA)
+            ASUN: KG104_01435(aceA)
+            ASUF: MNQ99_17405(aceA)
+            ARTY: AHiyo4_06510
+            APOA: J0916_16195(aceA)
+            AWW: G8758_16060(aceA)
+            ACAO: NF551_01585(aceA)
+            AZH: MUK71_01735(aceA)
+            AGEG: MUG94_01420(aceA)
+            AOD: Q8Z05_10930(aceA)
+            AKO: N9A08_01800(aceA)
+            AZX: N2K95_01720(aceA)
+            AJR: N2K98_01585(aceA)
+            ARTU: E7Y32_03305(aceA)
+            ARTZ: FCN77_03345(aceA)
+            ARTQ: CGQ24_17640
+            ARTA: OL239_18830(aceA)
+            ARTT: IG195_04820(aceA)
+            ARTC: KY499_09990(aceA)
+            ARTL: ArtHe_16755(aceA)
+            ARTE: QI450_00685(aceA)
+            ARTN: ABCW42_02145(aceA)
+            ARI: UM93_15780
+            AAU: AAur_0722(aceA)
+            PUE: FV140_03410(aceA)
+            PNV: JMY29_03235(aceA)
+            PAYJ: HMI59_17990(aceA)
+            PAGO: IRJ34_03280(aceA)
+            PAYN: HMI60_07430(aceA)
+            PHRZ: QN084_14795(aceA)
+            PANY: ACPFL9_03660(aceA)
+            PIL: GMCHHGAN_000611(aceA)
+            ARZ: AUT26_03115
+            ACH: Achl_0711
+            APN: Asphe3_06080
+            PSUL: AU252_00960 AU252_07200
+            PSNI: NIBR502771_01835(aceA)
+            PSEY: GU243_19340(aceA)
+            PDEL: JCQ34_02755(aceA)
+            POK: SMD14_03110(aceA)
+            PSLS: KTR40_02975(aceA)
+            PQA: WHH00_15650(aceA)
+            PSNB: NIBR502770_00655(aceA)
+            AAI: AARI_03310(aceA)
+            GAR: AOZ07_02050
+            GCR: GcLGCM259_0286(icl)
+            GLU: F0M17_01630(aceA)
+            GPR: JQN66_01725(aceA)
+            GMI: NMP99_01915(aceA)
+            GMY: XH9_06950(aceA)
+            GNC: QQS42_01725(aceA)
+            GLM: N6V40_00865(aceA)
+            GEY: QMQ05_01965(aceA)
+            RSA: RSal33209_0173
+            KRH: KRH_02220(aceA)
+            KFV: AS188_14505
+            KII: KocCE7_00985(aceA)
+            KRS: EQG70_05325(aceA)
+            KOD: HBK84_01230(aceA)
+            KVR: CIB50_0000473(icl1)
+            MLU: Mlut_02080
+            MICK: B1A86_00000735(aceA)
+            MYU: M8233_00780(aceA)
+            MLY: CJ228_007560(aceA)
+            MPOR: KW076_04135(aceA)
+            MTEU: R3I42_12915(aceA)
+            MICU: SOY78_00185(aceA)
+            SATK: SA2016_0553
+            CCYC: SCMU_06040(aceA)
+            SPUE: AB5L97_02795(aceA)
+            NAE: BHE16_06570
+            AUL: DCC27_007670
+            AIG: QDX25_07585(aceA)
+            CIG: E7744_13335(aceA)
+            CMUA: P8192_02925(aceA)
+            PAEY: KUF55_01420(aceA)
+            ACRY: AC20117_08645
+            BRV: CFK39_08360
+            BSAU: DWV08_14125
+            BRR: C1N80_02685
+            BRHA: NLU66_02935(aceA)
+            BRAC: RBL05_14900(aceA)
+            DNI: HX89_09675
+            DAY: FV141_08805(aceA)
+            DERM: H7F30_08635(aceA)
+            LMOI: VV02_11810
+            YIM: J5M86_05005(aceA)
+            ALX: LVQ62_15430(aceA)
+            BEI: GCM100_23260(aceA)
+            XCE: Xcel_0923
+            XYL: ET495_09515(aceA)
+            XYA: ET471_09775(aceA)
+            IVA: Isova_0887
+            IDO: I598_1394(icl)
+            IHA: UQW22_18455(aceA)
+            CET: B8281_16620
+            CCEU: CBR64_14735
+            CPRT: FIC82_015455(aceA)
+            PROU: AB1046_21860(aceA)
+            PROZ: ACO229_16760(aceA)
+            SANW: G7063_03480(aceA)
+            CFL: Cfla_0073
+            CFI: Celf_2830
+            CGA: Celgi_0624
+            CEZ: CBP52_17255
+            CELH: GXP71_01685(aceA)
+            CPAL: F1D97_06810(aceA)
+            CWAN: KG103_00210(aceA)
+            CFEN: KG102_00265(aceA)
+            CWN: NP075_00210(aceA)
+            CCHE: NP064_00230(aceA)
+            CXIE: NP048_00310(aceA)
+            CELN: CELD12_32670
+            OEK: FFI11_016955(aceA)
+            PSEK: GCM125_02810
+            SERJ: SGUI_3270
+            ORN: DV701_00585
+            ORZ: FNH13_16400(aceA)
+            OCP: NF557_14225(aceA)
+            OFA: NF556_17595(aceA)
+            SERW: FY030_09885(aceA)
+            OPU: ACQBAT_10195(aceA)
+            BLY: A2T55_02540
+            BLIN: BLSMQ_0409
+            BRI: FDF13_02725(aceA)
+            BLUT: EW640_12170(aceA)
+            BCAU: I6G59_05520(aceA)
+            BSPO: L1F31_02290(aceA)
+            BREB: PGC08_02225(aceA)
+            BREJ: LJ362_01535(aceA)
+            BKR: AAFP32_01360(aceA)
+            SEVR: LWF01_03680(aceA)
+            GYU: FE374_13925(aceA)
+            GEW: MF406_06020(aceA)
+            GPE: AA0005_13775(aceA)
+            MPH: MLP_45790(aceA)
+            TEZ: BKM78_05660
+            TLA: TLA_TLA_01145(icl1)
+            RAIN: Rai3103_13995(aceA)
+            BRT: J4N02_12530(aceA)
+            AFUV: AADG42_13760(aceA)
+            AER: AERYTH_12495
+            MGG: MPLG2_3173
+            TFU: Tfu_1377
+            THAO: NI17_004580(aceA)
+            TALX: FOF52_04075(aceA)
+            NDA: Ndas_1429
+            NAL: B005_4023(aceA)
+            NGV: CDO52_13475
+            NEX: NE857_13005(aceA)
+            NAKE: KGD83_18695(aceA)
+            NCG: KGD84_21405(aceA)
+            NOCB: UIS43_00865(aceA)
+            NMOR: ACUKCB_03845(aceA)
+            NOCM: ACSTA4_11500(aceA)
+            STRR: EKD16_11645(icl)
+            SNAH: OUQ99_20400(aceA)
+            SAIU: J4H86_04080(aceA)
+            TCU: Tcur_2490
+            ACTW: F7P10_41060(aceA)
+            AGRA: AGRA3207_007815(aceA)
+            AMAZ: LUW76_00905(aceA)
+            ACIR: OG979_40810(aceA)
+            AWS: ACN3XK_28405(aceA) ACN3XK_28635(aceA)
+            SPIQ: OHA34_05540(aceA)
+            ACTQ: OG417_23580(aceA)
+            SRO: Sros_3449
+            NOA: BKM31_25800
+            NOW: GBF35_20300(aceA)
+            NCX: Nocox_24640(icl)
+            NGN: LCN96_20785(aceA)
+            NFS: OIE67_25600(aceA)
+            TBI: Tbis_1865
+            MHAI: OHB01_27020(aceA)
+            FAL: FRAAL2355(aceA)
+            NML: Namu_0999
+            NAKA: H7F38_24820(aceA)
+            MMAR: MODMU_2863(aceA)
+            SEN: SACE_1449(aceA)
+            SACG: FDZ84_19145(aceA)
+            SVI: Svir_28360
+            SACC: EYD13_15565(icl)
+            AMD: AMED_1638(aceA)
+            AMN: RAM_08320
+            AMM: AMES_1627(aceA)
+            AMZ: B737_1628(aceA)
+            AOI: AORI_6277(aceA)
+            AJA: AJAP_08025(icl)
+            AMQ: AMETH_1447(aceA)
+            AMYC: CU254_06650
+            AMYB: BKN51_24915
+            AAB: A4R43_20220
+            AMYY: YIM_09420(icl)
+            AORI: SD37_08910
+            AACD: LWP59_07105(aceA)
+            APRT: MUY14_28290(aceA)
+            AROO: NQK81_34390(aceA)
+            ATHM: L1857_09845(aceA)
+            ARHD: VSH64_46365(aceA)
+            AMOG: QRX60_02495(aceA) QRX60_49265(aceA)
+            ACYN: ORV05_25935(aceA)
+            ACOR: LCL61_33985(aceA)
+            AMYZ: HUW46_06759(icl1)
+            ACAB: QRX50_48255(aceA)
+            ANW: QP939_02650(aceA)
+            AMYD: K1T34_26890(aceA)
+            ABAR: AMYBAR_001399(aceA)
+            AMYE: MJQ72_18115(aceA)
+            AMYS: CVV72_37905
+            ARHI: AB5I40_18175(aceA)
+            AMYO: AB5J62_31415(aceA)
+            PSEE: FRP1_00520
+            PSEH: XF36_03235 XF36_04505
+            PSEQ: AD006_08160
+            PECQ: AD017_15995
+            PAUT: Pdca_61810(aceA)
+            APRE: CNX65_10020
+            AMI: Amir_2006
+            KAL: KALB_3799
+            KUT: JJ691_47250(aceA)
+            LENT: JNUCC0626_10455(aceA)
+            AHM: TL08_04325
+            ACTI: UA75_04340
+            ACAD: UA74_04240
+            AHG: AHOG_04105(icl)
+            ACTA: C1701_01430
+            ACAU: ACOJVX_10225(aceA)
+            PMAD: BAY61_24115
+            SACE: GIY23_06585(aceA)
+            ACTY: OG774_02435(aceA)
+            MICH: FJK98_13710(aceA)
+            MCAB: HXZ27_16580(aceA)
+            MSAG: GCM10017556_58600(aceA)
+            VMA: VAB18032_19180
+            MCRA: ID554_26905(aceA)
+            VER: HUT12_16260(aceA)
+            MENO: Jiend_56640(aceA)
+            MCAY: PVK37_24660(aceA)
+            MICF: QQG74_15170(aceA)
+            MCYN: Q2K16_08060(aceA)
+            VET: ACQVFL_12885(aceA)
+            ASE: ACPL_5157(aceA)
+            AMS: AMIS_52590
+            ACTN: L083_4980(aceA)
+            ACTS: ACWT_5027
+            AIH: Aiant_09020(aceA)
+            ACTR: Asp14428_79930(aceA)
+            ACTL: L3i22_074130(aceA)
+            ASIC: Q0Z83_006630(aceA)
+            AOU: ACTOB_005685(aceA)
+            ACTE: ACTI_77530
+            AFS: AFR_25790
+            PLK: CIK06_27940
+            PLAB: C6361_22235
+            PLAT: C6W10_17195
+            PFLA: Pflav_044170(aceA)
+            PSUU: Psuf_074340(aceA)
+            ATL: Athai_27130
+            ASER: Asera_47580
+            PRY: Prubr_10830(aceA)
+            DVC: Dvina_28195(aceA)
+            DMAT: Dmats_23505(aceA)
+            DFU: Dfulv_28215(aceA) Dfulv_31820(aceA)
+            DROS: Drose_21850(aceA) Drose_23960(aceA)
+            DACT: KZZ52_37345(aceA)
+            NHY: JQS43_15395(aceA)
+            CCAZ: COUCH_18700(aceA)
+            SOLW: O7608_24615(aceA)
+            SNA: Snas_5339
+            NAV: JQS30_00900(aceA)
+            GLY: K3N28_01975(aceA)
+            WIK: H8R18_06220(aceA)
+            VCB: CYK25_008355(aceA)
+            AEY: CDG81_06045
+            RXY: Rxyl_2063
+            RRD: RradSPS_1854
+            RUB: GBA63_13555(aceA)
+            RMAR: GBA65_06230(aceA)
+            LEPV: J4558_02810
+            LSC: KIK02_03415(aceA)
+            CYC: PCC7424_4054
+            CYJ: Cyan7822_2461
+            NCN: BZZ01_22745
+            PLP: Ple7327_4013
+            RRS: RoseRS_4164
+            RCA: Rcas_4375
+            CAU: Caur_3889
+            CHL: Chy400_4203
+            CAG: Cagg_0040
+            HAU: Haur_1017
+            CALL: OZ401_000454(aceA)
+            CAP: CLDAP_15220(aceA)
+            PBF: CFX0092_A2024(aceA)
+            KBS: EPA93_38065(aceA)
+            KBB: ccbrp13_07130
+            THUG: KNN16_07645(aceA)
+            VAB: WPS_21200
+            DRA: DR_0828
+            DGE: Dgeo_1287
+            DDR: Deide_11980
+            DMR: Deima_1262
+            DPT: Deipr_1529
+            DGO: DGo_CA1271(aceA)
+            DPD: Deipe_3215
+            DSW: QR90_13710
+            DCH: SY84_15515
+            DPU: SU48_06580
+            DEZ: DKM44_12455
+            DWU: DVJ83_07135
+            DFC: DFI_05370
+            DEIN: DAAJ005_06180(aceA)
+            DGA: DEGR_13490
+            DPH: EHF33_07055(aceA)
+            DAH: DAETH_17440
+            DAQU: M8445_13945(aceA)
+            DTAE: LAJ19_06985(aceA)
+            DMB: E5F05_12385(aceA)
+            DSC: ABOD76_16630(aceA)
+            DEID: HLB42_13570(aceA)
+            DSJ: ACINK0_01495(aceA)
+            TRA: Trad_1541
+            TTH: TT_C1485
+            TTJ: TTHA1836(TTHA1836)
+            TTS: Ththe16_1853
+            TTL: TtJL18_1934
+            TSC: TSC_c03940(aceA)
+            THC: TCCBUS3UF1_19380
+            TOS: Theos_0115
+            TAQ: TO73_0295
+            TPAR: AV541_01540
+            TBC: A0O31_01274
+            TANT: KNN15_06200(aceA)
+            TBF: KQ693_04445(aceA)
+            MRB: Mrub_0768
+            MRE: K649_03475
+            MTAI: Mtai_v1c04970
+            MSV: Mesil_1009
+            MHD: Marky_1224
+            HDL: HALDL1_15305
+            HHB: Hhub_3379(aceA)
+            HNO: LT974_13705(aceA)
+            HLU: LT972_01035(aceA)
+            HANX: ABSL23_02870(aceA)
+            HSU: HLASF_2006(aceA)
+            HSF: HLASA_1992(aceA)
+            HAHS: HSRCO_2657(prpB)
+            SALR: FQU85_05720
+            HJE: HacjB3_05940
+            HDO: MUK72_12485(aceA)
+            SAIM: K0C01_04125(aceA)
+            HALI: BV210_07625
+            HPAL: ACOZ4N_12845(aceA)
+            SSAI: N0B31_10630(aceA)
+            HAAD: MW046_07195(aceA)
+            NPH: NP_4432A(aceA)
+            NMO: Nmlp_2356(aceA)
+            NHO: HWV23_13660
+            NSAL: HWV07_07390
+            HWA: HQ_3094A(aceA)
+            HWC: Hqrw_3626(aceA)
+            HVO: HVO_1984(aceA)
+            HALE: G3A49_12905
+            HLN: SVXHx_2636(acea)
+            HME: HFX_2079(aceA)
+            HGI: ABY42_09670
+            HLS: KU306_02600(aceA)
+            HDR: ACOZ39_12500(aceA)
+            HBO: Hbor_05790
+            HAQ: DU484_04585
+            HAJ: DU500_05000
+            HAER: DU502_02910
+            HRA: EI982_10700
+            HALM: FCF25_01175
+            HLA: Hlac_2153
+            HALP: DOS48_10385
+            HALB: EKH57_01740
+            HEZZ: EO776_10965
+            HALQ: Hrr1229_011330
+            HSS: J7656_06700(aceA)
+            HSAI: HPS36_12155
+            HAZZ: KI388_07850(aceA)
+            HTP: ACOZ36_07795(aceA)
+            HXJ: ACOZ35_06335(aceA)
+            SRUB: C2R22_18875
+            HALG: HUG10_17635
+            HALU: HUG12_18585
+            HMP: K6T50_12840(aceA)
+            HRE: K6T36_12745(aceA)
+            HRM: K6T25_03880(aceA)
+            HACB: Hbl1158_04100(aceA)
+            NMG: Nmag_3362(aceA)
+            NAJ: B1756_06550
+            SSO: SSO1333(aceA_icl)
+            SSHI: J5U23_01499
+            SIS: LS215_1004
+            SIA: M1425_0657
+            SIM: M1627_0663
+            SID: M164_0683
+            SIY: YG5714_0575
+            SIN: YN1551_2349
+            SII: LD85_0644
+            SIH: SiH_0491
+            SIR: SiRe_0742
+            SIC: SiL_0911
+            SULA: BFU36_12750
+            SULE: GFS03_04260(aceA)
+            SAI: Saci_2191(aceA)
+            SACN: SacN8_10675
+            SACR: SacRon12I_10925
+            SACS: SUSAZ_10050
+            SULO: GFS33_10445(aceA)
+            PAI: PAE1872
+            POG: Pogu_1657
+            CSU: CSUB_C1142
+DBLINKS     ExplorEnz - The Enzyme Database: 4.1.3.1
+            IUBMB Enzyme Nomenclature: 4.1.3.1
+            ExPASy - ENZYME nomenclature database: 4.1.3.1
+            BRENDA, the Enzyme Database: 4.1.3.1
+            CAS: 9045-78-7
+///
