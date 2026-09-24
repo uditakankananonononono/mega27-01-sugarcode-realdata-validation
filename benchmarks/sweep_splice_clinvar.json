@@ -1,0 +1,147 @@
+{
+ "reference": "ClinVar (esearch/esummary, canonical +/-1,2 SNVs, MANE-named)",
+ "per_gene": {
+  "TP53": {
+   "accession": "NG_017013.2",
+   "clinvar_transcripts": [
+    "NM_000546.6"
+   ],
+   "n": 9,
+   "junction_found": 9,
+   "ref_base_ok": 9,
+   "examples_bad": [],
+   "n_exons_map": 10
+  },
+  "BRCA1": {
+   "accession": "NG_005905.2",
+   "clinvar_transcripts": [
+    "NM_007294.4"
+   ],
+   "n": 4,
+   "junction_found": 4,
+   "ref_base_ok": 4,
+   "examples_bad": [],
+   "n_exons_map": 22
+  },
+  "BRCA2": {
+   "accession": "NG_012772.3",
+   "clinvar_transcripts": [
+    "NM_000059.4"
+   ],
+   "n": 16,
+   "junction_found": 16,
+   "ref_base_ok": 16,
+   "examples_bad": [],
+   "n_exons_map": 26
+  },
+  "MLH1": {
+   "accession": "NG_007109.2",
+   "clinvar_transcripts": [
+    "NM_000249.4"
+   ],
+   "n": 13,
+   "junction_found": 13,
+   "ref_base_ok": 13,
+   "examples_bad": [],
+   "n_exons_map": 19
+  },
+  "MSH2": {
+   "accession": "NG_007110.2",
+   "clinvar_transcripts": [
+    "NM_000251.3",
+    "NM_022055.2"
+   ],
+   "n": 5,
+   "junction_found": 4,
+   "ref_base_ok": 4,
+   "examples_bad": [
+    {
+     "title": "NM_022055.2(KCNK12):c.392-1G>A",
+     "window": null,
+     "base": null
+    }
+   ],
+   "n_exons_map": 16
+  },
+  "APC": {
+   "accession": "NG_008481.4",
+   "clinvar_transcripts": [
+    "NM_000038.6",
+    "NM_001127511.3"
+   ],
+   "n": 20,
+   "junction_found": 19,
+   "ref_base_ok": 19,
+   "examples_bad": [
+    {
+     "title": "NM_001127511.3(APC):c.165+1G>T",
+     "window": null,
+     "base": null
+    }
+   ],
+   "n_exons_map": 15
+  },
+  "PTEN": {
+   "accession": "NG_007466.2",
+   "clinvar_transcripts": [
+    "NM_000314.8"
+   ],
+   "n": 8,
+   "junction_found": 8,
+   "ref_base_ok": 8,
+   "examples_bad": [],
+   "n_exons_map": 9
+  },
+  "ATM": {
+   "accession": "NG_009830.1",
+   "clinvar_transcripts": [
+    "NM_000051.4"
+   ],
+   "n": 23,
+   "junction_found": 23,
+   "ref_base_ok": 23,
+   "examples_bad": [],
+   "n_exons_map": 62
+  },
+  "CDH1": {
+   "status": "no RefSeqGene junction map for this gene"
+  },
+  "PALB2": {
+   "accession": "NG_007406.1",
+   "clinvar_transcripts": [
+    "NM_024675.4"
+   ],
+   "n": 18,
+   "junction_found": 18,
+   "ref_base_ok": 18,
+   "examples_bad": [],
+   "n_exons_map": 13
+  },
+  "CFTR": {
+   "accession": "NG_016465.4",
+   "clinvar_transcripts": [
+    "NM_000492.4"
+   ],
+   "n": 29,
+   "junction_found": 29,
+   "ref_base_ok": 29,
+   "examples_bad": [],
+   "n_exons_map": 27
+  },
+  "NF1": {
+   "accession": "NG_009018.1",
+   "clinvar_transcripts": [
+    "NM_001042492.3"
+   ],
+   "n": 16,
+   "junction_found": 16,
+   "ref_base_ok": 16,
+   "examples_bad": [],
+   "n_exons_map": 58
+  }
+ },
+ "total": 161,
+ "junction_found": 159,
+ "ref_base_ok": 159,
+ "harness_note": "A first run indexed acceptor windows as 15 intronic bases and scored 96/159; the windows are 14 intronic + the first exonic base (consistent across junction_map, utr_junction_map and cdna_junction_map). With correct indexing 159/159. The 2 unmatched variants are named on other transcripts: NM_022055.2 (KCNK12, a neighbouring gene returned by the MSH2 search) and NM_001127511.3 (a non-MANE APC isoform)."
+}
