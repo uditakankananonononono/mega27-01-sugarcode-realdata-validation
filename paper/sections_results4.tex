@@ -51,3 +51,14 @@ tRNA & 86\\
 mobile\_genetic\_element & 50\\
 sequence\_feature & 48\\
 \hline\end{tabular}\caption{Feature types in GCF\_000005845.2 (benchmarks/sweep\_gff\_gffutils.json).}\end{table}
+\subsection{Newick trees}
+bio.newick parsed 6 Open Tree of Life synthetic subtrees with 3,655 leaves in total, including quoted labels with spaces and parentheses and empty leaves left by the height limit. Leaf sets equal Biopython Bio.Phylo and DendroPy, internal-node counts and internal labels equal Bio.Phylo, and write--parse is lossless in 6/6 trees. These trees have no branch lengths, so this checks topology and labels only.
+\begin{table}[h]\centering\small\begin{tabular}{lrrrc}\hline root & leaves & unnamed & internal & all checks\\\hline
+Insecta\_ott1062253 & 1094 & 14 & 248 & yes\\
+Laurasiatheria\_ott392223 & 728 & 13 & 118 & yes\\
+Carnivora\_ott44565 & 53 & 13 & 48 & yes\\
+Metazoa\_ott691846 & 1581 & 19 & 179 & yes\\
+Aves\_ott81461 & 142 & 16 & 80 & yes\\
+Primates\_ott913935 & 57 & 11 & 57 & yes\\
+\hline\end{tabular}\caption{bio.newick vs Bio.Phylo/DendroPy (benchmarks/sweep\_newick\_biophylo.json).}\end{table}
+\paragraph{(F43) Tree size identity.} For a rooted tree with $n$ leaves, $m$ internal nodes and out-degrees $d_v$, the edge count is $n+m-1=\sum_{v\,\mathrm{internal}}d_v$; a strictly binary tree has $m=n-1$. The Carnivora subtree has 53 leaves and 48 internal nodes, so it is far from binary, which exercises the parser on polytomies.

@@ -1,0 +1,92 @@
+{
+ "reference": "Biopython 1.88 Bio.Phylo; DendroPy 5.1.0",
+ "n_trees": 6,
+ "total_leaves": 3655,
+ "n_all_pass": 6,
+ "per_tree": [
+  {
+   "file": "data/opentree/ott1062253.nwk",
+   "root": "Insecta_ott1062253",
+   "leaves": 1094,
+   "unnamed_leaves": 14,
+   "unnamed_leaves_biopython": 14,
+   "internal": 248,
+   "binary": false,
+   "leaves_eq_biopython": true,
+   "internal_count_eq_biopython": true,
+   "internal_labels_eq_biopython": true,
+   "leaves_eq_dendropy": true,
+   "roundtrip": true
+  },
+  {
+   "file": "data/opentree/ott392223.nwk",
+   "root": "Laurasiatheria_ott392223",
+   "leaves": 728,
+   "unnamed_leaves": 13,
+   "unnamed_leaves_biopython": 13,
+   "internal": 118,
+   "binary": false,
+   "leaves_eq_biopython": true,
+   "internal_count_eq_biopython": true,
+   "internal_labels_eq_biopython": true,
+   "leaves_eq_dendropy": true,
+   "roundtrip": true
+  },
+  {
+   "file": "data/opentree/ott44565.nwk",
+   "root": "Carnivora_ott44565",
+   "leaves": 53,
+   "unnamed_leaves": 13,
+   "unnamed_leaves_biopython": 13,
+   "internal": 48,
+   "binary": false,
+   "leaves_eq_biopython": true,
+   "internal_count_eq_biopython": true,
+   "internal_labels_eq_biopython": true,
+   "leaves_eq_dendropy": true,
+   "roundtrip": true
+  },
+  {
+   "file": "data/opentree/ott691846.nwk",
+   "root": "Metazoa_ott691846",
+   "leaves": 1581,
+   "unnamed_leaves": 19,
+   "unnamed_leaves_biopython": 19,
+   "internal": 179,
+   "binary": false,
+   "leaves_eq_biopython": true,
+   "internal_count_eq_biopython": true,
+   "internal_labels_eq_biopython": true,
+   "leaves_eq_dendropy": true,
+   "roundtrip": true
+  },
+  {
+   "file": "data/opentree/ott81461.nwk",
+   "root": "Aves_ott81461",
+   "leaves": 142,
+   "unnamed_leaves": 16,
+   "unnamed_leaves_biopython": 16,
+   "internal": 80,
+   "binary": false,
+   "leaves_eq_biopython": true,
+   "internal_count_eq_biopython": true,
+   "internal_labels_eq_biopython": true,
+   "leaves_eq_dendropy": true,
+   "roundtrip": true
+  },
+  {
+   "file": "data/opentree/ott913935.nwk",
+   "root": "Primates_ott913935",
+   "leaves": 57,
+   "unnamed_leaves": 11,
+   "unnamed_leaves_biopython": 11,
+   "internal": 57,
+   "binary": false,
+   "leaves_eq_biopython": true,
+   "internal_count_eq_biopython": true,
+   "internal_labels_eq_biopython": true,
+   "leaves_eq_dendropy": true,
+   "roundtrip": true
+  }
+ ]
+}

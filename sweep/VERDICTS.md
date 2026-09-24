@@ -112,3 +112,6 @@ Numbers: benchmarks/sweep_proteinprops_restriction.json.
 
 ## bio.gff vs gffutils (2026-09-25)
 NCBI RefSeq E. coli K-12 MG1655 annotation (GCF_000005845.2_ASM584v2_genomic.gff.gz), 9,523 records: seqid/type/coords/strand/phase/attributes identical to gffutils in 9,523/9,523; children of 300 genes identical in 300/300; write->parse lossless. The first comparison showed 2/300 child mismatches; both were split CDS features (b0240, b4587) with a repeated ID that gffutils renames X_1, a comparison artifact, not a sugarcode error. VERIFIED. Numbers: benchmarks/sweep_gff_gffutils.json.
+
+## bio.newick vs Bio.Phylo and DendroPy (2026-09-25)
+6 Open Tree of Life synthetic subtrees (Insecta, Laurasiatheria, Carnivora, Metazoa, Aves, Primates; 3,655 leaves incl. quoted labels and empty leaves from height truncation): leaf sets equal Biopython and DendroPy, internal-node counts and internal labels equal Biopython, write->parse lossless, 6/6. VERIFIED (topology/labels only; these trees carry no branch lengths). Numbers: benchmarks/sweep_newick_biophylo.json.

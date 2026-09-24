@@ -198,3 +198,9 @@ rfam_family	RF00234	Rfam seed alignment glmS (rfam.org, 2026-09-25)	RF00234	swee
 rfam_family	RF00504	Rfam seed alignment Glycine (rfam.org, 2026-09-25)	RF00504	sweep/stockholm_vs_biopython.py
 refseq_genome	J01749.1	pBR322 complete sequence (NCBI efetch)	J01749.1	sweep/proteinprops_restriction_vs_biopython.py
 refseq_genome	NC_001416.1	Enterobacteria phage lambda genome (NCBI efetch)	NC_001416.1	sweep/proteinprops_restriction_vs_biopython.py
+opentree_node	ott1062253	Open Tree of Life synthetic subtree rooted at ott1062253 (height_limit 7)	ott1062253	sweep/newick_vs_biophylo.py
+opentree_node	ott392223	Open Tree of Life synthetic subtree rooted at ott392223 (height_limit 7)	ott392223	sweep/newick_vs_biophylo.py
+opentree_node	ott44565	Open Tree of Life synthetic subtree rooted at ott44565 (height_limit 7)	ott44565	sweep/newick_vs_biophylo.py
+opentree_node	ott691846	Open Tree of Life synthetic subtree rooted at ott691846 (height_limit 7)	ott691846	sweep/newick_vs_biophylo.py
+opentree_node	ott81461	Open Tree of Life synthetic subtree rooted at ott81461 (height_limit 7)	ott81461	sweep/newick_vs_biophylo.py
+opentree_node	ott913935	Open Tree of Life synthetic subtree rooted at ott913935 (height_limit 7)	ott913935	sweep/newick_vs_biophylo.py

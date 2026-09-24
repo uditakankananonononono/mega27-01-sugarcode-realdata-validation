@@ -108,7 +108,7 @@ bio	gnomad	95	0	not yet validated
 bio	gstats	194	1	not yet validated	
 bio	kmer	261	1	not yet validated	
 bio	motif	198	1	not yet validated	
-bio	newick	248	4	not yet validated	
+bio	newick	248	4	validated	benchmarks/sweep_newick_biophylo.json
 bio	orf	189	1	validated	benchmarks/sweep_orf_orfipy.json
 bio	pdb	313	1	not yet validated	
 bio	phylo	232	1	validated	benchmarks/sweep_phylo_dendropy.json
