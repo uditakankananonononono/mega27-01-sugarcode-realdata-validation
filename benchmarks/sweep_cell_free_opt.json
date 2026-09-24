@@ -1,0 +1,115 @@
+{
+ "module": "cell_free_opt",
+ "grid_after_fix": [
+  {
+   "grid_step": 1,
+   "tpl": 12,
+   "mg": 12,
+   "yield": 2.0,
+   "evaluated": 240975,
+   "hits_model_max": true
+  },
+  {
+   "grid_step": 2,
+   "tpl": 12,
+   "mg": 12,
+   "yield": 2.0,
+   "evaluated": 22275,
+   "hits_model_max": true
+  },
+  {
+   "grid_step": 3,
+   "tpl": 12,
+   "mg": 12,
+   "yield": 2.0,
+   "evaluated": 6720,
+   "hits_model_max": true
+  },
+  {
+   "grid_step": 4,
+   "tpl": 12,
+   "mg": 12,
+   "yield": 2.0,
+   "evaluated": 2625,
+   "hits_model_max": true
+  }
+ ],
+ "bug35_prefix": {
+  "grid_step": 2,
+  "tpl_returned": 10,
+  "yield": 1.879,
+  "model_max": 2.0
+ },
+ "grid_argmax_independent": {
+  "module": [
+   12,
+   120,
+   20,
+   12,
+   2
+  ],
+  "independent": [
+   12,
+   120,
+   20,
+   12,
+   2
+  ],
+  "match": true
+ },
+ "kinetics": {
+  "max_euler_deviation_vs_analytic": 0.25,
+  "euler_expected_bias": "left-Riemann overestimate on decreasing rate, O(vmax*dt/2) ~ 0.125 g/L",
+  "plateau_time_h": 6.0,
+  "final_g_l": 2.034,
+  "analytic_final": 1.9
+ },
+ "cost_model": {
+  "module_per_rxn": 0.695,
+  "independent": 0.695,
+  "match": true,
+  "plate": 66.72,
+  "plate_match": true
+ },
+ "batch_normalize": {
+  "normalized": [
+   2.0,
+   2.0,
+   2.0
+  ],
+  "expected": [
+   2.0,
+   2.0,
+   2.0
+  ],
+  "match": true,
+  "cv_zero": true
+ },
+ "replicate_qc": {
+  "cv_match": true,
+  "passes": true
+ },
+ "resource_sensitivity": {
+  "elasticities_match": true,
+  "most_sensitive": "mg_mm"
+ },
+ "pareto": {
+  "kept": [
+   {
+    "yield_g_l": 1.5,
+    "cost_usd": 0.5
+   },
+   {
+    "yield_g_l": 2.0,
+    "cost_usd": 1.0
+   },
+   {
+    "yield_g_l": 2.0,
+    "cost_usd": 1.0
+   }
+  ],
+  "expected_n": 3,
+  "duplicates_kept_by_design": true,
+  "correct": true
+ }
+}

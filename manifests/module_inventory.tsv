@@ -11,7 +11,7 @@ module	bioplayground	98	2	not yet validated
 module	bioprint_pro	143	2	not yet validated	
 module	biosimvr	200	2	not yet validated	
 module	car_t_designer	104	2	not yet validated	
-module	cell_free_opt	107	2	not yet validated	
+module	cell_free_opt	107	2	validated	sweep/cell_free_opt_grid.py -> benchmarks/sweep_cell_free_opt.json
 module	cell_twin	170	2	not yet validated	
 module	cellfatenet	199	2	not yet validated	
 module	cellpainter	289	3	not yet validated	
