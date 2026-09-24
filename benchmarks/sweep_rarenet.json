@@ -1,0 +1,121 @@
+{
+  "hpo_rows_total": 333984,
+  "diseases": {
+    "cystic_fibrosis": {
+      "gene": "CFTR",
+      "omim": "OMIM:219700",
+      "gene_disease_pair_in_hpo": true,
+      "n_hpo_terms_for_disease": 34,
+      "symptoms_matched": [
+        "recurrent_lung_infection",
+        "salty_skin"
+      ],
+      "symptoms_matched_via_clinical_synonym": [
+        "chronic_cough",
+        "poor_growth"
+      ],
+      "symptoms_unresolved": [],
+      "match_fraction": 0.5,
+      "match_fraction_with_synonyms": 1.0
+    },
+    "huntingtons": {
+      "gene": "HTT",
+      "omim": "OMIM:143100",
+      "gene_disease_pair_in_hpo": true,
+      "n_hpo_terms_for_disease": 14,
+      "symptoms_matched": [
+        "chorea"
+      ],
+      "symptoms_matched_via_clinical_synonym": [
+        "cognitive_decline",
+        "mood_changes"
+      ],
+      "symptoms_unresolved": [
+        "adult_onset"
+      ],
+      "match_fraction": 0.25,
+      "match_fraction_with_synonyms": 0.75
+    },
+    "marfan": {
+      "gene": "FBN1",
+      "omim": "OMIM:154700",
+      "gene_disease_pair_in_hpo": true,
+      "n_hpo_terms_for_disease": 71,
+      "symptoms_matched": [
+        "tall_stature"
+      ],
+      "symptoms_matched_via_clinical_synonym": [
+        "aortic_dilation",
+        "lens_dislocation",
+        "long_limbs"
+      ],
+      "symptoms_unresolved": [],
+      "match_fraction": 0.25,
+      "match_fraction_with_synonyms": 1.0
+    },
+    "phenylketonuria": {
+      "gene": "PAH",
+      "omim": "OMIM:261600",
+      "gene_disease_pair_in_hpo": true,
+      "n_hpo_terms_for_disease": 30,
+      "symptoms_matched": [
+        "intellectual_disability",
+        "seizures"
+      ],
+      "symptoms_matched_via_clinical_synonym": [
+        "eczema"
+      ],
+      "symptoms_unresolved": [
+        "musty_odor"
+      ],
+      "match_fraction": 0.5,
+      "match_fraction_with_synonyms": 0.75
+    },
+    "gaucher": {
+      "gene": "GBA1",
+      "omim": "OMIM:230800",
+      "gene_disease_pair_in_hpo": true,
+      "n_hpo_terms_for_disease": 25,
+      "symptoms_matched": [
+        "anemia",
+        "bone_pain"
+      ],
+      "symptoms_matched_via_clinical_synonym": [
+        "hepatosplenomegaly"
+      ],
+      "symptoms_unresolved": [
+        "fatigue"
+      ],
+      "match_fraction": 0.5,
+      "match_fraction_with_synonyms": 0.75
+    },
+    "duchenne_md": {
+      "gene": "DMD",
+      "omim": "OMIM:310200",
+      "gene_disease_pair_in_hpo": true,
+      "n_hpo_terms_for_disease": 32,
+      "symptoms_matched": [
+        "calf_hypertrophy",
+        "childhood_onset",
+        "gower_sign",
+        "muscle_weakness"
+      ],
+      "symptoms_matched_via_clinical_synonym": [],
+      "symptoms_unresolved": [],
+      "match_fraction": 1.0,
+      "match_fraction_with_synonyms": 1.0
+    }
+  },
+  "diagnose_top1_full_signature": 6,
+  "diagnose_top1_of": 6,
+  "datasets": [
+    "HPO:genes_to_phenotype(2026-09-25)",
+    "omim:OMIM:219700",
+    "omim:OMIM:143100",
+    "omim:OMIM:154700",
+    "omim:OMIM:261600",
+    "omim:OMIM:230800",
+    "omim:OMIM:310200"
+  ],
+  "n_datasets": 7
+}

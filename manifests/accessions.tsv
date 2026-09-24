@@ -389,3 +389,10 @@ nct	NCT05699148	ClinicalTrials.gov v2 study record (2026-09-25)	NCT05699148	swee
 nct	NCT03085485	ClinicalTrials.gov v2 study record (2026-09-25)	NCT03085485	sweep/evidence_mining_live.py
 nct	NCT02965326	ClinicalTrials.gov v2 study record (2026-09-25)	NCT02965326	sweep/evidence_mining_live.py
 nct	NCT07363304	ClinicalTrials.gov v2 study record (2026-09-25)	NCT07363304	sweep/evidence_mining_live.py
+study	35	HPO genes_to_phenotype.txt gene-phenotype-disease annotations (obophenotype release 2026-09-25; 333,984 rows)	genes_to_phenotype.txt	sweep/rarenet_hpo.py
+omim	OMIM:219700	HPO annotation set for cystic_fibrosis (34 terms, gene CFTR)	OMIM:219700	sweep/rarenet_hpo.py
+omim	OMIM:143100	HPO annotation set for huntingtons (14 terms, gene HTT)	OMIM:143100	sweep/rarenet_hpo.py
+omim	OMIM:154700	HPO annotation set for marfan (71 terms, gene FBN1)	OMIM:154700	sweep/rarenet_hpo.py
+omim	OMIM:261600	HPO annotation set for phenylketonuria (30 terms, gene PAH)	OMIM:261600	sweep/rarenet_hpo.py
+omim	OMIM:230800	HPO annotation set for gaucher (25 terms, gene GBA1)	OMIM:230800	sweep/rarenet_hpo.py
+omim	OMIM:310200	HPO annotation set for duchenne_md (32 terms, gene DMD)	OMIM:310200	sweep/rarenet_hpo.py
