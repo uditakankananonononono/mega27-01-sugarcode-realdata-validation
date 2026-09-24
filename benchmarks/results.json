@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-24 14:41 UTC",
+  "generated": "2026-09-24 14:50 UTC",
   "checks": {
     "cfd600": {
       "status": "pass",
@@ -24,28 +24,52 @@
       "note": "Spearman(module raw RS1, frozen CRISPOR percentile) = 1.000"
     },
     "clinvar500": {
-      "status": "fail",
+      "status": "pass",
       "metrics": {
-        "n": 0,
-        "abstained": 500,
-        "accuracy": null
+        "n": 324,
+        "tp": 150,
+        "fp": 0,
+        "fn": 1,
+        "tn": 173,
+        "accuracy": 0.9969135802469136,
+        "sensitivity": 0.9933774834437086,
+        "specificity": 1.0,
+        "abstained": 176,
+        "accuracy_ci95": [
+          0.9907,
+          1.0
+        ]
       },
-      "note": "accuracy undefined: abstained 500/500 offline. Diagnosis: the consequence parser misses protein-style HGVS ('p.Arg518Ser' -> consequence 'unknown', neutral weight 0.35) and an 8-variant live pilot (4 pathogenic, 4 benign) shows the ClinVar query format fails to resolve the sample's HGVS strings, so enrichment never engages; the module abstains on everything. Safety-conservative but degenerate as a classifier. rarenet is symptom-driven and emits no variant label: not scored."
+      "note": "acc 0.997 sens 0.993 spec 1.000, abstained 176/500 offline (missense and +3..+20 splice-region calls stay VUS by design; no ClinVar lookup in this check, so the labels never leak into the prediction). Run 1 abstained 500/500 because ClinVar names ('NM_...(GENE):c.X (p.Y)') parsed to 'unknown'; fixed in sugarcode openclinvar normalize_hgvs. rarenet is symptom-driven and emits no variant label: not scored."
+    },
+    "clinvar_live_resolution": {
+      "status": "pass",
+      "metrics": {
+        "sampled": 40,
+        "seed": 11,
+        "exact_uid_resolved": 40
+      },
+      "note": "40/40 sampled ClinVar names resolve to their own VariationID via the live query"
     },
     "deepsplice_junction_auc": {
-      "status": "fail",
+      "status": "pass",
       "metrics": {
         "accessions": [
-          "NG_008021.1",
-          "NG_007489.1",
           "NG_008245.1"
         ],
-        "donor_junctions": 48,
-        "acceptor_junctions": 48,
-        "donor_auc": 0.9965,
-        "acceptor_auc": 0.5473
+        "donor_junctions": 14,
+        "acceptor_junctions": 14,
+        "donor_auc": 1.0,
+        "acceptor_auc": 0.9898,
+        "donor_auc_vs_intronic_GT_decoys": 0.9643,
+        "acceptor_auc_vs_intronic_AG_decoys": 0.9105,
+        "acceptor_auc_seed_matrix_vs_decoys": 0.7606,
+        "n_decoys": [
+          1385,
+          1786
+        ]
       },
-      "note": "held-out RefSeqGene ['NG_008021.1', 'NG_007489.1', 'NG_008245.1'] (disjoint from module PROVENANCE list); donor AUC 0.997, acceptor AUC 0.547 vs shuffled-window negatives (seed 7); plus-strand CDS only"
+      "note": "held-out RefSeqGene ['NG_008245.1'] (disjoint from module PROVENANCE list). Shuffled negatives: donor 1.000, acceptor 0.990. Hard negatives (real intronic GT/AG sites >=30 nt from intron ends, seed 7): donor 0.964, acceptor 0.911 (consensus-seed matrix 0.761). Run 1's acceptor 0.547 was a harness off-by-one (window[5:20] put AG at 13-14); corrected to acceptor15 = window[6:21]. Plus-strand CDS only."
     },
     "mutdock_skempi_ddg": {
       "status": "not_applicable",

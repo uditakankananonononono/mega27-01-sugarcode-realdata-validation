@@ -90,15 +90,38 @@ try:
     m = clinvar_runner.evaluate(classify)
 except ZeroDivisionError:
     m = {"n": 0, "abstained": 500, "accuracy": None}
-# Diagnosis (manual 8-variant live pilot, 2026-09-24): the live ClinVar query
-# format fails to resolve the sample's HGVS strings, so enrichment never engages.
-record("clinvar500", "fail" if (m.get("accuracy") or 0) < 0.5 else "pass", m,
+ok_cv = (m.get("accuracy") or 0) >= 0.9 and m.get("abstained", 500) < 250
+record("clinvar500", "pass" if ok_cv else "fail", m,
        (f"acc {m['accuracy']:.3f} sens {m['sensitivity']:.3f} spec {m['specificity']:.3f}, " if m.get("accuracy") is not None else "accuracy undefined: ")
-       + f"abstained {m['abstained']}/500 offline. Diagnosis: the consequence parser misses "
-       "protein-style HGVS ('p.Arg518Ser' -> consequence 'unknown', neutral weight 0.35) and an "
-       "8-variant live pilot (4 pathogenic, 4 benign) shows the ClinVar query format fails to resolve the sample's HGVS strings, so "
-       "enrichment never engages; the module abstains on everything. Safety-conservative but "
-       "degenerate as a classifier. rarenet is symptom-driven and emits no variant label: not scored.")
+       + f"abstained {m['abstained']}/500 offline (missense and +3..+20 splice-region calls stay VUS by design; "
+       "no ClinVar lookup in this check, so the labels never leak into the prediction). Run 1 abstained 500/500 "
+       "because ClinVar names ('NM_...(GENE):c.X (p.Y)') parsed to 'unknown'; fixed in sugarcode openclinvar "
+       "normalize_hgvs. rarenet is symptom-driven and emits no variant label: not scored.")
+
+# ------------------------------- 3b. openclinvar live exact-record resolution
+# Resolution only (does the module's live query find the variant's own ClinVar
+# record?), never scored as accuracy: that record IS the label.
+try:
+    from sugarcode.bio import entrez as ez
+    import csv as _csv
+    _rows = list(_csv.reader(open(DATA / "clinvar_sample_500.tsv"), delimiter="\t"))
+    _pick = random.Random(11).sample(_rows, 40)
+    _hit = 0
+    for _r in _pick:
+        try:
+            _ms = ez.clinvar_exact(_r[1], _r[2])
+        except Exception:
+            continue
+        _nv = oc.normalize_hgvs(_r[2]); _nd = (_nv["c"] or _r[2]).replace(" ", "")
+        _ms = [x for x in _ms if _nd in x["title"].replace(" ", "")]
+        _tx = (_nv["transcript"] or "").split(".")[0]
+        _ms = [x for x in _ms if _tx in x["title"]] or _ms
+        _hit += bool(_ms) and _ms[0]["uid"] == _r[0]
+    record("clinvar_live_resolution", "pass" if _hit >= 36 else "fail",
+           {"sampled": 40, "seed": 11, "exact_uid_resolved": _hit},
+           f"{_hit}/40 sampled ClinVar names resolve to their own VariationID via the live query")
+except Exception as e:
+    record("clinvar_live_resolution", "blocked", {}, f"live check failed: {e}")
 
 # -------------------------------------------- 4. deepsplice junction AUC
 from sugarcode.modules.deepsplice import core as ds
@@ -127,7 +150,7 @@ def parse_genbank(text):
     return seq, hj.parse_cds_exons("CDS " + cds.group(1))
 
 try:
-    don_pos, acc_pos, used = [], [], []
+    don_pos, acc_pos, used, dec_a, dec_d = [], [], [], [], []
     for acc in CANDIDATES:
         if acc.split(".")[0] in TRAINING: continue
         try: text = efetch_gb(acc)
@@ -138,7 +161,9 @@ try:
         if len(js) < 6: continue
         for j in js:
             if j.kind == "donor" and len(j.window) == 9: don_pos.append(j.window)
-            elif j.kind == "acceptor" and len(j.window) == 23: acc_pos.append(j.window[5:20])
+            elif j.kind == "acceptor" and len(j.window) == 23: acc_pos.append(hj.acceptor15(j.window))
+        da, dd = hj.intronic_decoys(seq, exons)
+        dec_a += da; dec_d += dd
         used.append(acc)
         if len(used) >= 3: break
     if not used: raise RuntimeError("no held-out RefSeqGene record fetched")
@@ -150,11 +175,25 @@ try:
         return out
     auc_d = svauc.auc([ds.score_donor(w) for w in don_pos], [ds.score_donor(w) for w in shuf(don_pos)])
     auc_a = svauc.auc([ds.score_acceptor(w) for w in acc_pos], [ds.score_acceptor(w) for w in shuf(acc_pos)])
-    record("deepsplice_junction_auc", "pass" if auc_d > 0.8 and auc_a > 0.8 else "fail",
+    rd = random.Random(7)
+    dec_a = rd.sample(dec_a, min(2000, len(dec_a))); dec_d = rd.sample(dec_d, min(2000, len(dec_d)))
+    hd_d = svauc.auc([ds.score_donor(w) for w in don_pos], [ds.score_donor(w) for w in dec_d])
+    hd_a = svauc.auc([ds.score_acceptor(w) for w in acc_pos], [ds.score_acceptor(w) for w in dec_a])
+    hd_a_seed = svauc.auc([ds.score_acceptor(w, matrix="seed") for w in acc_pos],
+                          [ds.score_acceptor(w, matrix="seed") for w in dec_a])
+    ok = min(auc_d, auc_a, hd_d, hd_a) > 0.8
+    record("deepsplice_junction_auc", "pass" if ok else "fail",
            {"accessions": used, "donor_junctions": len(don_pos), "acceptor_junctions": len(acc_pos),
-            "donor_auc": round(auc_d, 4), "acceptor_auc": round(auc_a, 4)},
-           f"held-out RefSeqGene {used} (disjoint from module PROVENANCE list); donor AUC {auc_d:.3f}, "
-           f"acceptor AUC {auc_a:.3f} vs shuffled-window negatives (seed 7); plus-strand CDS only")
+            "donor_auc": round(auc_d, 4), "acceptor_auc": round(auc_a, 4),
+            "donor_auc_vs_intronic_GT_decoys": round(hd_d, 4),
+            "acceptor_auc_vs_intronic_AG_decoys": round(hd_a, 4),
+            "acceptor_auc_seed_matrix_vs_decoys": round(hd_a_seed, 4),
+            "n_decoys": [len(dec_d), len(dec_a)]},
+           f"held-out RefSeqGene {used} (disjoint from module PROVENANCE list). Shuffled negatives: donor "
+           f"{auc_d:.3f}, acceptor {auc_a:.3f}. Hard negatives (real intronic GT/AG sites >=30 nt from intron "
+           f"ends, seed 7): donor {hd_d:.3f}, acceptor {hd_a:.3f} (consensus-seed matrix {hd_a_seed:.3f}). "
+           "Run 1's acceptor 0.547 was a harness off-by-one (window[5:20] put AG at 13-14); corrected to "
+           "acceptor15 = window[6:21]. Plus-strand CDS only.")
 except Exception as e:
     record("deepsplice_junction_auc", "blocked", {}, f"fetch/score failed: {e}")
 
@@ -257,3 +296,4 @@ out = ROOT / "benchmarks"; out.mkdir(exist_ok=True)
 n = {s: sum(1 for c in results["checks"].values() if c["status"] == s)
      for s in ("pass", "fail", "blocked", "not_applicable", "reference_only")}
 print(f"\nwrote benchmarks/results.json: {n}")
+
