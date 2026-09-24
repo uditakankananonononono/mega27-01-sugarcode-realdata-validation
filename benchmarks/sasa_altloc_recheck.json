@@ -1,0 +1,28 @@
+{
+ "after_altloc_fix": [
+  {
+   "pdb": "1gi1",
+   "n_sugarcode": 1629,
+   "n_freesasa": 1629,
+   "sugarcode_total": 9244.1,
+   "freesasa_total": 9192.7,
+   "per_atom_pearson": 0.9753
+  },
+  {
+   "pdb": "3po6",
+   "n_sugarcode": 2043,
+   "n_freesasa": 2043,
+   "sugarcode_total": 11967.1,
+   "freesasa_total": 11796.0,
+   "per_atom_pearson": 0.9829
+  },
+  {
+   "pdb": "4b2i",
+   "n_sugarcode": 1714,
+   "n_freesasa": 1714,
+   "sugarcode_total": 10595.2,
+   "freesasa_total": 10454.0,
+   "per_atom_pearson": 0.9813
+  }
+ ]
+}

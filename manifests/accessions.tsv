@@ -177,3 +177,8 @@ species		NCBI RefSeq assembly CDS, Oryctolagus cuniculus	GCF_964237555.1	sweep/c
 gtrnadb		GtRNAdb tRNA gene copy numbers, Esch_coli_K_12_MG1655	Esch_coli_K_12_MG1655	sweep/codon_tai_enc.py
 gtrnadb		GtRNAdb tRNA gene copy numbers, Baci_subt_subtilis_168	Baci_subt_subtilis_168	sweep/codon_tai_enc.py
 gtrnadb		GtRNAdb tRNA gene copy numbers, Scere3	Scere3	sweep/codon_tai_enc.py
+refseq_transcript	25	NCBI RefSeq mRNA NM_000546.6 (E-utilities efetch)	NM_000546.6	sweep/primer_vs_primer3.py
+refseq_transcript	25	NCBI RefSeq mRNA NM_007294.4 (E-utilities efetch)	NM_007294.4	sweep/primer_vs_primer3.py
+refseq_transcript	25	NCBI RefSeq mRNA NM_000059.4 (E-utilities efetch)	NM_000059.4	sweep/primer_vs_primer3.py
+refseq_transcript	25	NCBI RefSeq mRNA NM_004333.6 (E-utilities efetch)	NM_004333.6	sweep/primer_vs_primer3.py
+refseq_transcript	25	NCBI RefSeq mRNA NM_005228.5 (E-utilities efetch)	NM_005228.5	sweep/primer_vs_primer3.py

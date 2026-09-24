@@ -25,3 +25,5 @@ codon-bias	0.5.0	sweep/codon_tai_enc.py
 statsmodels	0.15.0	benchmarks/sweep_codon_cai_multispecies.json (BH-FDR)
 PyTorch	2.14.0+cpu	discovery/splice_region_vus/cnn_cv.py, cnn_cv_me.py (splice CNN)
 Matplotlib	3.10.9	paper/make_figs.py (all figures)
+FreeSASA	2.x (python)	sweep/sasa_vs_freesasa.py -> benchmarks/sweep_sasa_freesasa.json
+primer3-py	2.3.1	sweep/primer_vs_primer3.py -> benchmarks/sweep_primer_primer3.json; sugarcode bio.primer.hairpin_dg

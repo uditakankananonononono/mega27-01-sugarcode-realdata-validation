@@ -1,0 +1,194 @@
+{
+ "tool": "FreeSASA 2.x (Shrake-Rupley, 96 points, probe 1.4 A, default ProtOr radii)",
+ "structures": "RCSB PDB receptors from the LP-PDBBind docking set (hydrogens removed)",
+ "n": 18,
+ "median_rel_diff": 0.01165,
+ "max_abs_rel_diff": 0.0258,
+ "median_per_atom_pearson": 0.9803,
+ "per_structure": [
+  {
+   "pdb": "1cnw",
+   "n_atoms": 2039,
+   "sugarcode_total": 11620.2,
+   "freesasa_total": 11547.6,
+   "rel_diff": 0.0063,
+   "per_atom_pearson": 0.9801
+  },
+  {
+   "pdb": "1ejn",
+   "n_atoms": 1951,
+   "sugarcode_total": 11790.6,
+   "freesasa_total": 11671.2,
+   "rel_diff": 0.0102,
+   "per_atom_pearson": 0.9814
+  },
+  {
+   "pdb": "1f5l",
+   "n_atoms": 1933,
+   "sugarcode_total": 11383.0,
+   "freesasa_total": 11262.7,
+   "rel_diff": 0.0107,
+   "per_atom_pearson": 0.9795
+  },
+  {
+   "pdb": "1g54",
+   "n_atoms": 2058,
+   "sugarcode_total": 11993.0,
+   "freesasa_total": 11850.7,
+   "rel_diff": 0.012,
+   "per_atom_pearson": 0.9818
+  },
+  {
+   "pdb": "1gi1",
+   "error": "atom count 1688 vs 1629"
+  },
+  {
+   "pdb": "1k1j",
+   "n_atoms": 1629,
+   "sugarcode_total": 9052.8,
+   "freesasa_total": 8996.6,
+   "rel_diff": 0.0062,
+   "per_atom_pearson": 0.9749
+  },
+  {
+   "pdb": "1o3l",
+   "error": "atom count 1682 vs 1629"
+  },
+  {
+   "pdb": "1p1o",
+   "n_atoms": 1961,
+   "sugarcode_total": 11920.8,
+   "freesasa_total": 11901.7,
+   "rel_diff": 0.0016,
+   "per_atom_pearson": 0.9804
+  },
+  {
+   "pdb": "1y3x",
+   "error": "atom count 1673 vs 1622"
+  },
+  {
+   "pdb": "1zgi",
+   "n_atoms": 2315,
+   "sugarcode_total": 12932.6,
+   "freesasa_total": 12787.9,
+   "rel_diff": 0.0113,
+   "per_atom_pearson": 0.9821
+  },
+  {
+   "pdb": "2erz",
+   "n_atoms": 2913,
+   "sugarcode_total": 16632.9,
+   "freesasa_total": 16214.8,
+   "rel_diff": 0.0258,
+   "per_atom_pearson": 0.9812
+  },
+  {
+   "pdb": "2j4i",
+   "n_atoms": 2213,
+   "sugarcode_total": 13772.5,
+   "freesasa_total": 13554.5,
+   "rel_diff": 0.0161,
+   "per_atom_pearson": 0.9817
+  },
+  {
+   "pdb": "2x7t",
+   "n_atoms": 2049,
+   "sugarcode_total": 11657.3,
+   "freesasa_total": 11549.0,
+   "rel_diff": 0.0094,
+   "per_atom_pearson": 0.9819
+  },
+  {
+   "pdb": "2xab",
+   "error": "atom count 3310 vs 3272"
+  },
+  {
+   "pdb": "2xjg",
+   "n_atoms": 1678,
+   "sugarcode_total": 10961.6,
+   "freesasa_total": 10790.7,
+   "rel_diff": 0.0158,
+   "per_atom_pearson": 0.9781
+  },
+  {
+   "pdb": "2zdn",
+   "error": "atom count 1657 vs 1629"
+  },
+  {
+   "pdb": "3b3c",
+   "n_atoms": 2208,
+   "sugarcode_total": 10627.8,
+   "freesasa_total": 10456.3,
+   "rel_diff": 0.0164,
+   "per_atom_pearson": 0.9784
+  },
+  {
+   "pdb": "3d8w",
+   "error": "atom count 2068 vs 2049"
+  },
+  {
+   "pdb": "3hkq",
+   "n_atoms": 2049,
+   "sugarcode_total": 11770.2,
+   "freesasa_total": 11681.9,
+   "rel_diff": 0.0076,
+   "per_atom_pearson": 0.9817
+  },
+  {
+   "pdb": "3hll",
+   "error": "atom count 2718 vs 2715"
+  },
+  {
+   "pdb": "3ibi",
+   "n_atoms": 2049,
+   "sugarcode_total": 11883.3,
+   "freesasa_total": 11658.3,
+   "rel_diff": 0.0193,
+   "per_atom_pearson": 0.9817
+  },
+  {
+   "pdb": "3m35",
+   "n_atoms": 1629,
+   "sugarcode_total": 9324.7,
+   "freesasa_total": 9198.1,
+   "rel_diff": 0.0138,
+   "per_atom_pearson": 0.9767
+  },
+  {
+   "pdb": "3po6",
+   "error": "atom count 2131 vs 2043"
+  },
+  {
+   "pdb": "3r17",
+   "error": "atom count 2113 vs 2049"
+  },
+  {
+   "pdb": "3r4n",
+   "n_atoms": 3520,
+   "sugarcode_total": 23696.9,
+   "freesasa_total": 23287.1,
+   "rel_diff": 0.0176,
+   "per_atom_pearson": 0.9779
+  },
+  {
+   "pdb": "4b2i",
+   "error": "atom count 1730 vs 1714"
+  },
+  {
+   "pdb": "4db7",
+   "n_atoms": 3999,
+   "sugarcode_total": 23552.5,
+   "freesasa_total": 23242.0,
+   "rel_diff": 0.0134,
+   "per_atom_pearson": 0.9801
+  },
+  {
+   "pdb": "4f5y",
+   "n_atoms": 3106,
+   "sugarcode_total": 20565.2,
+   "freesasa_total": 20466.2,
+   "rel_diff": 0.0048,
+   "per_atom_pearson": 0.9802
+  }
+ ]
+}

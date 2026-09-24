@@ -1,0 +1,27 @@
+{
+ "n_oligos": 5404,
+ "transcripts": [
+  "NM_000546.6",
+  "NM_007294.4",
+  "NM_000059.4",
+  "NM_004333.6",
+  "NM_005228.5"
+ ],
+ "tools": "primer3-py 2.3.1 calc_tm/calc_hairpin; Biopython Tm_NN",
+ "tm_vs_primer3": {
+  "mean_diff": -0.1738,
+  "max_abs_diff": 0.9811,
+  "pearson": 0.999951
+ },
+ "primer3_vs_biopython_NN3_max_abs": 0.0,
+ "old_code_vs_biopython_NN4": {
+  "n_affected": 0,
+  "max_abs_diff": 0.0
+ },
+ "note": "sugarcode vendors DNA_NN4 (SantaLucia & Hicks 2004 unified); primer3 and Biopython default use SantaLucia 1998 (DNA_NN3); the ~0.17 C mean offset vs primer3 is a table choice, not a bug.",
+ "tm_vs_biopython_NN4": {
+  "mean_diff": 0.0,
+  "max_abs_diff": 0.0
+ },
+ "hairpin_stem_vs_primer3_dG_spearman": 0.0402
+}

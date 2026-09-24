@@ -61,3 +61,11 @@ Spearman with log abundance (non-ribosomal genes):
 - S. cerevisiae: 0.410, 0.592, 0.660, 0.447.
 tAI beats CAI-ribo in yeast but not in E. coli. The tools used were codon-bias and GtRNAdb gene copy numbers. Numbers: benchmarks/sweep_codon_tai_enc.json.
 Cross-species BH-FDR (statsmodels): ribosomal-reference CAI is significantly correlated with abundance (q<0.05) in 27/29 taxa.
+
+## bio.structures SASA vs FreeSASA (2026-09-24)
+- 28 RCSB receptors from the docking set (<=6000 atoms, H removed). 18 had identical atom sets: total SASA median relative difference +1.2% (max 2.6%), per-atom Pearson median 0.980 (benchmarks/sweep_sasa_freesasa.json). VERIFIED (radii differ from FreeSASA ProtOr, hence the small bias).
+- 10/28 disagreed on atom count: sugarcode kept every alternate location, so overlapping conformers were all counted. BUG CONFIRMED, fixed in sugarcode-ai (keep first altloc). Recheck on 3 of them: atom counts now match, per-atom Pearson 0.975-0.983 (benchmarks/sasa_altloc_recheck.json).
+
+## bio.primer vs primer3-py (2026-09-24)
+- 5,404 20-mers tiled from 5 RefSeq mRNAs. tm_nn equals Biopython Tm_NN with DNA_NN4 exactly (max diff 0.0). Versus primer3 (SantaLucia 1998 table) mean -0.17 C, max 0.98 C, Pearson 0.99995: table choice, not a bug (benchmarks/sweep_primer_primer3.json).
+- hairpin_max_stem (stem-length heuristic) vs primer3 hairpin dG: Spearman 0.04. NEGATIVE. Fix: sugarcode-ai bio.primer.hairpin_dg calls primer3 when installed.
