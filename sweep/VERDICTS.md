@@ -40,3 +40,11 @@ Numbers: benchmarks/sweep_neohunter_iedb.json. Verdict: heuristic THIN; PSSM VER
 Scoring power (Pearson with pK, bootstrap 95% CI): Vina crystal 0.274 [0.04,0.47]; Vina top pose 0.285; sugarcode Vina-form scorer on crystal pose 0.298 [0.03,0.48]; heavy-atom count 0.245 [-0.04,0.49].
 Verdict: sugarcode's pair scorer is on par with Vina for ranking crystal poses (the CIs overlap heavily), but its dock_vina_grid (straight-line ligand) is NOT a docking method. Fix shipped: real Vina in docking_studio/vina_real.py (sugarcode-ai e0564e4). No scoring-power SOTA claim: all scorers are weak on this split.
 Numbers: benchmarks/sweep_docking.json.
+
+## Cross-species CAI reference test (2026-09-24), a named, falsifiable claim
+Claim: CAI computed against a ribosomal-protein reference set tracks measured protein abundance better than CAI against the organism's genome-wide codon table.
+Test: all 405 PaxDb taxa were scanned; 40 were usable (at least 300 genes matched to NCBI RefSeq CDS); 29 have at least 15 ribosomal-protein genes.
+Result: the ribosomal reference is better in 27/29 taxa (median Spearman gain +0.082, Wilcoxon p=3.3e-7, sign test p=1.6e-6). The gains are largest in fast-growing microbes (Klebsiella +0.32, S. cerevisiae +0.18, P. aeruginosa +0.17) and near zero in mammals. The exceptions are Plasmodium falciparum and rat.
+Falsifiable prediction: for any new PaxDb organism with a strongly skewed codon usage, the ribosomal reference beats the genome table. For mammals and AT-rich parasites the difference is within 0.02.
+Novelty caveat: Sharp & Li (1987) proposed highly expressed reference sets. This is a systematic 29-taxon abundance-based test of that choice, not a new theory.
+Numbers: benchmarks/sweep_codon_cai_multispecies.json (per-taxon rows with assembly and PaxDb file IDs).

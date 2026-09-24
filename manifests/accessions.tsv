@@ -96,3 +96,81 @@ pdb_entry		RCSB PDB entry 6hrq	6HRQ	sweep/docking_bench.py
 pdb_entry		RCSB PDB entry 6oe0	6OE0	sweep/docking_bench.py
 pdb_entry		RCSB PDB entry 6rfn	6RFN	sweep/docking_bench.py
 pdb_entry		RCSB PDB entry 6u6w	6U6W	sweep/docking_bench.py
+species		PaxDb integrated abundance, Mus musculus	10090-ASTROCYTE-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Mus musculus	GCF_000001635.27	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Rattus norvegicus	10116-CARDIAC_VENTRICLE-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Rattus norvegicus	GCF_036323735.1	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Diaphorina citri	121845-WHOLE_ORGANISM-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Diaphorina citri	GCF_000475195.1	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Staphylococcus schleiferi	1295-WHOLE_ORGANISM-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Staphylococcus schleiferi	GCF_025558325.1	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Streptococcus pyogenes	1314-WHOLE_ORGANISM-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Streptococcus pyogenes	GCF_900475035.1	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Trypanosoma brucei brucei TREU927	185431-WHOLE_ORGANISM-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Trypanosoma brucei brucei TREU927	GCF_000002445.2	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819	192222-WHOLE_ORGANISM-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819	GCF_000009085.1	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Corynebacterium glutamicum ATCC 13032	196627-WHOLE_ORGANISM-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Corynebacterium glutamicum ATCC 13032	GCF_000011325.1	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Shigella flexneri 2a str. 301	198214-WHOLE_ORGANISM-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Shigella flexneri 2a str. 301	GCF_000006925.2	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Pseudomonas aeruginosa PAO1	208964-WHOLE_ORGANISM-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Pseudomonas aeruginosa PAO1	GCF_000006765.1	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Bacillus subtilis subsp. subtilis str. 168	224308-WHOLE_ORGANISM-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Bacillus subtilis subsp. subtilis str. 168	GCF_000009045.1	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Bradyrhizobium diazoefficiens USDA 110	224911-WHOLE_ORGANISM-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Bradyrhizobium diazoefficiens USDA 110	GCF_001642675.1	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Acidithiobacillus ferrooxidans ATCC 23270	243159-WHOLE_ORGANISM-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Acidithiobacillus ferrooxidans ATCC 23270	GCF_000021485.1	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539	243230-WHOLE_ORGANISM-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539	GCF_020546685.1	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Ruegeria pomeroyi DSS-3	246200-WHOLE_ORGANISM-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Ruegeria pomeroyi DSS-3	GCF_000011965.2	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Emiliania huxleyi CCMP1516	2903-WHOLE_ORGANISM-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Emiliania huxleyi CCMP1516	GCF_000372725.1	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Sodalis glossinidius str. 'morsitans'	343509-WHOLE_ORGANISM-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Sodalis glossinidius str. 'morsitans'	GCF_000010085.1	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Plasmodium falciparum 3D7	36329-WHOLE_ORGANISM-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Plasmodium falciparum 3D7	GCF_000002765.6	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Phytophthora infestans T30-4	403677-WHOLE_ORGANISM-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Phytophthora infestans T30-4	GCF_000142945.1	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Solanum lycopersicum	4081-PERICARP-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Solanum lycopersicum	GCF_036512215.1	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Nicotiana tabacum	4097-LEAF-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Nicotiana tabacum	GCF_000715075.1	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Tropilaelaps mercedesae	418985-WHOLE_ORGANISM-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Tropilaelaps mercedesae	GCA_002081605.1	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Dictyostelium discoideum AX4	44689-WHOLE_ORGANISM-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Dictyostelium discoideum AX4	GCF_000004695.1	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Saccharomyces cerevisiae S288C	4932-WHOLE_ORGANISM-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Saccharomyces cerevisiae S288C	GCF_000146045.2	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Klebsiella ornithinolytica	54291-WHOLE_ORGANISM-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Klebsiella ornithinolytica	GCF_030505655.1	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Caenorhabditis elegans	6239-WHOLE_ORGANISM-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Caenorhabditis elegans	GCF_000002985.6	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Drosophila melanogaster	7227-SPERM-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Drosophila melanogaster	GCF_000001215.4	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Apis mellifera	7460-ABDOMEN-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Apis mellifera	GCF_003254395.2	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Salmo salar	8030-LIVER-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Salmo salar	GCF_965601325.2	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Mycobacterium tuberculosis H37Rv	83332-WHOLE_ORGANISM-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Mycobacterium tuberculosis H37Rv	GCF_000195955.2	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Gallus gallus	9031-HEART-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Gallus gallus	GCF_016699485.2	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Staphylococcus aureus subsp. aureus NCTC 8325	93061-WHOLE_ORGANISM-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Staphylococcus aureus subsp. aureus NCTC 8325	GCF_000013425.1	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Macaca mulatta	9544-BILE_DUCT-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Macaca mulatta	GCF_049350105.2	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Homo sapiens	9606-ADRENAL_GLAND-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Homo sapiens	GCF_000001405.40	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Canis lupus familiaris	9615-PLASMA-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Canis lupus familiaris	GCF_011100685.1	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Sus scrofa	9823-LIVER-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Sus scrofa	GCF_054392235.1	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Bos taurus	9913-LENS_OF_CAMERA_TYPE_EYE-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Bos taurus	GCF_002263795.3	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Salmonella enterica subsp. enterica serovar Typhimurium str. LT2	99287-WHOLE_ORGANISM-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Salmonella enterica subsp. enterica serovar Typhimurium str. LT2	GCF_000006945.2	sweep/codon_cai_multispecies.py
+species		PaxDb integrated abundance, Oryctolagus cuniculus	9986-PERIPHERAL_REGION_OF_RETINA-integrated.txt	sweep/codon_cai_multispecies.py
+species		NCBI RefSeq assembly CDS, Oryctolagus cuniculus	GCF_964237555.1	sweep/codon_cai_multispecies.py
