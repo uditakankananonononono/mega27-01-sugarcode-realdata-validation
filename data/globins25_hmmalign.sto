@@ -1,0 +1,81 @@
+# STOCKHOLM 1.0
+
+#=GS sp|P02008|HBAZ_HUMAN  DE Hemoglobin subunit zeta OS=Homo sapiens OX=9606 GN=HBZ PE=1 SV=2
+#=GS sp|P69891|HBG1_HUMAN  DE Hemoglobin subunit gamma-1 OS=Homo sapiens OX=9606 GN=HBG1 PE=1 SV=3
+#=GS sp|P02100|HBE_HUMAN   DE Hemoglobin subunit epsilon OS=Homo sapiens OX=9606 GN=HBE1 PE=1 SV=2
+#=GS sp|P02144|MYG_HUMAN   DE Myoglobin OS=Homo sapiens OX=9606 GN=MB PE=1 SV=2
+#=GS sp|P69905|HBA_HUMAN   DE Hemoglobin subunit alpha OS=Homo sapiens OX=9606 GN=HBA1 PE=1 SV=2
+#=GS sp|P02042|HBD_HUMAN   DE Hemoglobin subunit delta OS=Homo sapiens OX=9606 GN=HBD PE=1 SV=2
+#=GS sp|P68871|HBB_HUMAN   DE Hemoglobin subunit beta OS=Homo sapiens OX=9606 GN=HBB PE=1 SV=2
+#=GS sp|P69892|HBG2_HUMAN  DE Hemoglobin subunit gamma-2 OS=Homo sapiens OX=9606 GN=HBG2 PE=1 SV=2
+#=GS sp|Q8WWM9|CYGB_HUMAN  DE Cytoglobin OS=Homo sapiens OX=9606 GN=CYGB PE=1 SV=1
+#=GS sp|Q9NPG2|NGB_HUMAN   DE Neuroglobin OS=Homo sapiens OX=9606 GN=NGB PE=1 SV=1
+#=GS sp|Q8N7X0|ADGB_HUMAN  DE Androglobin OS=Homo sapiens OX=9606 GN=ADGB PE=1 SV=3
+#=GS sp|P01946|HBA_RAT     DE Hemoglobin subunit alpha-1/2 OS=Rattus norvegicus OX=10116 GN=Hba1 PE=1 SV=3
+#=GS sp|Q575S8|CYGB2_DANRE DE Cytoglobin-2 OS=Danio rerio OX=7955 GN=cygb2 PE=2 SV=1
+#=GS sp|Q6VN46|MYG_DANRE   DE Myoglobin OS=Danio rerio OX=7955 GN=mb PE=2 SV=3
+#=GS sp|P01966|HBA_BOVIN   DE Hemoglobin subunit alpha OS=Bos taurus OX=9913 GN=HBA PE=1 SV=2
+#=GS sp|P02192|MYG_BOVIN   DE Myoglobin OS=Bos taurus OX=9913 GN=MB PE=1 SV=3
+#=GS sp|Q22663|GLB26_CAEEL DE Globin-like protein 26 OS=Caenorhabditis elegans OX=6239 GN=glb-26 PE=1 SV=1
+#=GS sp|Q90486|HBB1_DANRE  DE Hemoglobin subunit beta-1 OS=Danio rerio OX=7955 GN=ba1 PE=1 SV=3
+#=GS sp|Q90YJ2|NGB_DANRE   DE Neuroglobin OS=Danio rerio OX=7955 GN=ngb PE=1 SV=1
+#=GS sp|Q921A4|CYGB_RAT    DE Cytoglobin OS=Rattus norvegicus OX=10116 GN=Cygb PE=1 SV=1
+#=GS sp|P02070|HBB_BOVIN   DE Hemoglobin subunit beta OS=Bos taurus OX=9913 GN=HBB PE=1 SV=1
+#=GS sp|P02088|HBB1_MOUSE  DE Hemoglobin subunit beta-1 OS=Mus musculus OX=10090 GN=Hbb-b1 PE=1 SV=2
+#=GS sp|P11517|HBB2_RAT    DE Hemoglobin subunit beta-2 OS=Rattus norvegicus OX=10116 PE=1 SV=2
+#=GS sp|Q8UUR3|CYGB1_DANRE DE Cytoglobin-1 OS=Danio rerio OX=7955 GN=cygb1 PE=2 SV=2
+#=GS sp|P02089|HBB2_MOUSE  DE Hemoglobin subunit beta-2 OS=Mus musculus OX=10090 GN=Hbb-b2 PE=1 SV=2
+
+sp|P02008|HBAZ_HUMAN          -ETLERLFLSHPQTKTYFPHF--...--DLHPGSAQLRAHGSKVVAAVGDAVKSIDDIG---GALSKLSELHA....YILRVDPVNFKLLSHCLLVTLAARFP.aDFT.AEAHAAWDKFLSVVSSVL
+#=GR sp|P02008|HBAZ_HUMAN  PP .789*****************.......9******************************...***********....**************************.****.**************9975
+sp|P69891|HBG1_HUMAN          -ETLGRLLVVYPWTQRFFDSFGNl.sSASAIMGNPKVKAHGKKVLTSLGDATKHLDDLK---GTFAQLSELHC....DKLHVDPENFKLLGNVLVTVLAIHFG.kEFT.PEVQASWQKMVTAVASAL
+#=GR sp|P69891|HBG1_HUMAN  PP .6799*******************.**********************************...***********....**************************.****.**************9986
+sp|P02100|HBE_HUMAN           -EALGRLLVVYPWTQRFFDSFGNl.sSPSAILGNPKVKAHGKKVLTSFGDAIKNMDNLK---PAFAKLSELHC....DKLHVDPENFKLLGNVMVIILATHFG.kEFT.PEVQAAWQKLVSAVAIA-
+#=GR sp|P02100|HBE_HUMAN   PP .799********************.99********************************...***********....**************************.****.***********999865.
+sp|P02144|MYG_HUMAN           -EVLIRLFKGHPETLEKFDKFKHl.kSEDEMKASEDLKKHGATVLTALGGILKKKGHHE---AEIKPLAQSHA....TKHKIPVKYLEFISECIIQVLQSKHP.gDFG.ADAQGAMNKALELFRK--
+#=GR sp|P02144|MYG_HUMAN   PP .899********************.9*********************************...***********....**************************.****.**********998765..
+sp|P69905|HBA_HUMAN           AEALERMFLSFPTTKTYFPHF--...--DLSHGSAQVKGHGKKVADALTNAVAHVDDMP---NALSALSDLHA....HKLRVDPVNFKLLSHCLLVTLAAHLP.aEFT.PAVHASLDKFLASVSTVL
+#=GR sp|P69905|HBA_HUMAN   PP 589******************.......9******************************...9**********....**************************.****.************999875
+sp|P02042|HBD_HUMAN           -EALGRLLVVYPWTQRFFESFGDl.sSPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLK---GTFSQLSELHC....DKLHVDPENFRLLGNVLVCVLARNFG.kEFT.PQMQAAYQKVVAGVANAL
+#=GR sp|P02042|HBD_HUMAN   PP .799********************.9*********************************...***********....**************************.****.************999875
+sp|P68871|HBB_HUMAN           -EALGRLLVVYPWTQRFFESFGDl.sTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLK---GTFATLSELHC....DKLHVDPENFRLLGNVLVCVLAHHFG.kEFT.PPVQAAYQKVVAGVANAL
+#=GR sp|P68871|HBB_HUMAN   PP .799********************.**********************************...***********....**************************.****.************999875
+sp|P69892|HBG2_HUMAN          -ETLGRLLVVYPWTQRFFDSFGNl.sSASAIMGNPKVKAHGKKVLTSLGDAIKHLDDLK---GTFAQLSELHC....DKLHVDPENFKLLGNVLVTVLAIHFG.kEFT.PEVQASWQKMVTGVASAL
+#=GR sp|P69892|HBG2_HUMAN  PP .6799*******************.**********************************...***********....**************************.****.*************99986
+sp|Q8WWM9|CYGB_HUMAN          -AILVRFFVNFPSAKQYFSQFKHm.eDPLEMERSPQLRKHACRVMGALNTVVENLHDPDKVSSVLALVGKAHA....LKHKVEPVYFKILSGVILEVVAEEFA.sDFP.PETQRAWAKLRGLIYS--
+#=GR sp|Q8WWM9|CYGB_HUMAN  PP .6899*******************.9999********************************************....**************************.****.*********9888876..
+sp|Q9NPG2|NGB_HUMAN           --LFARLFALEPDLLPLFQYNCRqfsSPEDCLSSPEFLDHIRKVMLVIDAAVTNVEDLSSLEEYLASLGRKHR....-AVGVKLSSFSTVGESLLYMLEKCLG.pAFT.PATRAAWSQLYGAVVQAM
+#=GR sp|Q9NPG2|NGB_HUMAN   PP ..699*************8543345699*********************************************.....*************************.****.**************9987
+sp|Q8N7X0|ADGB_HUMAN          -----------------------...-----PESCRFTEQSLLIMKAIGNVIANFKDKGKLSAALKDLQTAHYpvpfHDKELTAQHFRVFHLSLWRLMK----..---.------------------
+#=GR sp|Q8N7X0|ADGB_HUMAN  PP ...............................67789999**********************************99999999999999999877766655............................
+sp|P01946|HBA_RAT             -EALQRMFAAFPTTKTYFSHI--...--DVSPGSAQVKAHGKKVADALAKAADHVEDLP---GALSTLSDLHA....HKLRVDPVNFKFLSHCLLVTLACHHP.gDFT.PAMHASLDKFLASVSTVL
+#=GR sp|P01946|HBA_RAT     PP .89*****************8.......9******************************...***********....**************************.****.************999875
+sp|Q575S8|CYGB2_DANRE         -TILIRFFVNFPSAKQYFSQFQDm.eDPEEMEKSSQLRKHARRVMNAINTVVENLHDPEKVSSVLVLVGKAHA....FKYKVEPIYFKILSGVILEILAEEFG.eCFT.PEVQTSWSKLMAALY---
+#=GR sp|Q575S8|CYGB2_DANRE PP .6899*******************.************************************************....**************************.****.**********99875...
+sp|Q6VN46|MYG_DANRE           -EVLNRLFKEYPDTLKLFPKFSG..iSQGDLAGSPAVAAHGATVLKKLGELLKAKGDHA---ALLKPLANTHA....NIHKVALNNFRLITEVLVKVMAEKAG..-LD.AAGQGALRRVMDAVIGD-
+#=GR sp|Q6VN46|MYG_DANRE   PP .79********************..**********************************...***********....**************************...**.************99876.
+sp|P01966|HBA_BOVIN           AEALERMFLSFPTTKTYFPHF--...--DLSHGSAQVKGHGAKVAAALTKAVEHLDDLP---GALSELSDLHA....HKLRVDPVNFKLLSHSLLVTLASHLP.sDFT.PAVHASLDKFLANVSTVL
+#=GR sp|P01966|HBA_BOVIN   PP 589******************.......9******************************...***********....**************************.****.**************9875
+sp|P02192|MYG_BOVIN           -EVLIRLFTGHPETLEKFDKFKHl.kTEAEMKASEDLKKHGNTVLTALGGILKKKGHHE---AEVKHLAESHA....NKHKIPVKYLEFISDAIIHVLHAKHP.sDFG.ADAQAAMSKALELFRN--
+#=GR sp|P02192|MYG_BOVIN   PP .899********************.99********************************...***********....**************************.****.**********998765..
+sp|Q22663|GLB26_CAEEL         -----------------------...TIGDILDRSTLDYHNLQIVEFLQKVMQSLDEPDKISKLCQEIGQKHAk.yrRSKGMKIDYWDKLGEAITETIREYQG.wKIH.RESLRAATVLVSYVVDQL
+#=GR sp|Q22663|GLB26_CAEEL PP ..........................5567777788889**********************************9.888999**********************.*999.999999999999999875
+sp|Q90486|HBB1_DANRE          --ALSRCLIVYPWTQRYFATFGNl.sSPAAIMGNPKVAAHGRTVMGGLERAIKNMDNVK---NTYAALSVMHS....EKLHVDPDNFRLLADCITVCAAMKFGqaGFN.ADVQEAWQKFLAVVVSAL
+#=GR sp|Q90486|HBB1_DANRE  PP ..799*******************.99********************************...9**********....*******************************.***************986
+sp|Q90YJ2|NGB_DANRE           --LFTRLFELDPALLTLFSYSTNc.gDAPECLSSPEFLEHVTKVMLVIDAAVSHLDDLHTLEDFLLNLGRKHQ....-AVGVNTQSFALVGESLLYMLQSSLG.pAYT.TSLRQAWLTMYSIVVSAM
+#=GR sp|Q90YJ2|NGB_DANRE   PP ..699*******************.************************************************.....*************************.****.************999987
+sp|Q921A4|CYGB_RAT            -AILVRFFVNFPSAKQYFSQFKHm.eDPLEMERSPQLRKHACRVMGALNTVVENLHDPDKVSSVLALVGKAHA....LKHKVEPMYFKILSGVILDVIAEEFA.nDFP.VETQKAWTKLRGLIYS--
+#=GR sp|Q921A4|CYGB_RAT    PP .6899*******************.9999********************************************....**************************.****.*********9888876..
+sp|P02070|HBB_BOVIN           -EALGRLLVVYPWTQRFFESFGDl.sTADAVMNNPKVKAHGKKVLDSFSNGMKHLDDLK---GTFAALSELHC....DKLHVDPENFKLLGNVLVVVLARNFG.kEFT.PVLQADFQKVVAGVANAL
+#=GR sp|P02070|HBB_BOVIN   PP .799********************.**********************************...***********....**************************.****.************999875
+sp|P02088|HBB1_MOUSE          -EALGRLLVVYPWTQRYFDSFGDl.sSASAIMGNAKVKAHGKKVITAFNDGLNHLDSLK---GTFASLSELHC....DKLHVDPENFRLLGNMIVIVLGHHLG.kDFT.PAAQAAFQKVVAGVATAL
+#=GR sp|P02088|HBB1_MOUSE  PP .799********************.9*********************************...***********....**************************.****.************999875
+sp|P11517|HBB2_RAT            AEALGRLLVVYPWTQRYFSKFGDl.sSASAIMGNPQVKAHGKKVINAFNDGLKHLDNLK---GTFAHLSELHC....DKLHVDPENFRLLGNMIVIVLGHHLG.kEFT.PCAQAAFQKVVAGVASAL
+#=GR sp|P11517|HBB2_RAT    PP 589*********************.9*********************************...***********....**************************.****.*************99986
+sp|Q8UUR3|CYGB1_DANRE         -AVLVRFFTNFPSAKQYFEHFREl.qDPAEMQQNAQLKEHGQRVLNALNTLVENLRDADKLNTIFNQMGKSHA....LRHKVDPVYFKILAGVILEVLVEAFP.qCFSpAEVQSSWSKLMGILY---
+#=GR sp|Q8UUR3|CYGB1_DANRE PP .5789*******************.************************************************....**************************.966625899******98765...
+sp|P02089|HBB2_MOUSE          -EALGRLLVVYPWTQRYFDSFGDl.sSASAIMGNPKVKAHGKKVITAFNEGLKNLDNLK---GTFASLSELHC....DKLHVDPENFRLLGNAIVIVLGHHLG.kDFT.PAAQAAFQKVVAGVATAL
+#=GR sp|P02089|HBB2_MOUSE  PP .799********************.9*********************************...***********....**************************.****.************999875
+#=GC PP_cons                  5789******************9...99*********************************************....**************************..***.***********9998876
+#=GC RF                       xxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx....xxxxxxxxxxxxxxxxxxxxxxxxxx..xxx.xxxxxxxxxxxxxxxxxx
+//

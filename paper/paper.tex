@@ -18,7 +18,7 @@ BRCA1 RefSeqGene segment disjoint from the module's training accessions and
 scored against the CRISPOR reference implementation of the CFD off-target
 model; a 500-variant stratified sample of the current ClinVar release; 4{,}956
 single-point mutations from SKEMPI 2.0; the BiGG \emph{E. coli} core
-metabolic model; and a globin-family alignment produced by EBI Clustal Omega.
+metabolic model; and a globin-family alignment built with HMMER \texttt{hmmalign} against Pfam PF00042.
 We report per-module agreement metrics with bootstrap confidence intervals,
 publish all fixtures with provenance, and document failure modes without
 suppressing negative results.
@@ -47,8 +47,9 @@ All datasets are public and carry recorded provenance (see
 SKEMPI 2.0 \cite{skempi} (150-mutation frozen subset, seed 7); BiGG
 \texttt{e\_coli\_core} \cite{bigg}; BRCA1 RefSeqGene NG\_005905.2:60000-70000
 (NCBI efetch); CRISPOR reference distribution \cite{crispor}; 25 reviewed
-globin-family UniProtKB sequences aligned with EBI Clustal Omega
-\cite{clustalo}.
+globin-family UniProtKB sequences aligned to the Pfam PF00042.29 HMM with
+HMMER3 \texttt{hmmalign} (pyhmmer 0.12.3); the EBI Clustal Omega job queued
+for over 40 minutes and was abandoned.
 \subsection{Mathematical Formulation}
 CFD off-target scoring follows Doench et al. 2016 \cite{doench2016}:
 $\mathrm{CFD} = \prod_i m_i \cdot p(\mathrm{PAM})$, with per-position
@@ -61,17 +62,180 @@ simplex solver; the published aerobic-glucose optimum for
 quantified with Pearson $r$, Mann-Whitney AUC, and binary-classification
 metrics; confidence intervals are percentile bootstrap with 1{,}000 resamples
 at fixed seed.
+\subsection{Derivations}
+\paragraph{(F1) Position weight matrix log-odds.} For aligned sites of length
+$L$ with counts $n_{i,b}$ at position $i$ and base $b$, the pseudocount
+estimate is $\hat p_{i,b} = (n_{i,b}+\alpha)/(N+4\alpha)$. The log-odds weight
+against background $q_b$ is
+\begin{equation}
+w_{i,b} = \log_2 \frac{\hat p_{i,b}}{q_b}, \qquad
+S(x) = \sum_{i=1}^{L} w_{i,x_i}.
+\end{equation}
+$S(x)$ is the log-likelihood ratio of site model to background under
+positional independence: $\log_2 \prod_i \hat p_{i,x_i} / \prod_i q_{x_i}$.
+
+\paragraph{(F2) Normalised score.} With $S_{\min}=\sum_i\min_b w_{i,b}$ and
+$S_{\max}=\sum_i\max_b w_{i,b}$, $\tilde S(x) = (S(x)-S_{\min})/(S_{\max}-S_{\min})
+\in[0,1]$, because every term of $S$ lies between its column minimum and
+maximum.
+
+\paragraph{(F3) Variant delta.} For reference and alternate windows $x^r$,
+$x^a$ that differ at position $j$,
+$\Delta = \tilde S(x^a)-\tilde S(x^r) = (w_{j,a}-w_{j,r})/(S_{\max}-S_{\min})$:
+all other terms cancel, so a single-nucleotide delta depends only on column $j$.
+
+\paragraph{(F4) Tract blend.} The acceptor score is
+$A(x) = (1-\lambda)\tilde S(x) + \lambda T(x)$ with $\lambda = 0.25$, where
+$T$ is the normalised pooled polypyrimidine-tract score. Linearity gives
+$\Delta A = (1-\lambda)\Delta\tilde S + \lambda \Delta T$.
+
+\paragraph{(F5) AUC as a Mann-Whitney statistic.} For scores
+$\{s^+_i\}_{i=1}^{m}$ and $\{s^-_j\}_{j=1}^{n}$,
+\begin{equation}
+\mathrm{AUC} = \frac{1}{mn}\sum_{i,j}\Big[\mathbb{1}(s^+_i>s^-_j)+\tfrac12\mathbb{1}(s^+_i=s^-_j)\Big]
+= \frac{R_+ - m(m+1)/2}{mn},
+\end{equation}
+where $R_+$ is the rank sum of positives in the pooled sample (mid-ranks for
+ties). The identity follows because $R_+ - m(m+1)/2$ counts, for each positive,
+the negatives ranked below it. Equivalently, AUC $=P(s^+>s^-)$.
+
+\paragraph{(F6) Within-position AUC.} To remove the prior carried by the
+intronic offset $k$, we report $\overline{\mathrm{AUC}} =
+\sum_k m_k \mathrm{AUC}_k / \sum_k m_k$ over offsets with at least 10
+positives and 10 negatives, weighting by positive count $m_k$.
+
+\paragraph{(F7) CNN objective.} With logit $z_\theta(x)$ and class weight
+$\omega = n_-/n_+$ computed on the training fold,
+\begin{equation}
+\mathcal{L}(\theta) = -\frac1N\sum_{i}\Big[\omega\, y_i\log\sigma(z_i) + (1-y_i)\log(1-\sigma(z_i))\Big] + \frac{\beta}{2}\|\theta\|^2,
+\end{equation}
+with gradient $\partial\mathcal{L}/\partial z_i = \big[\sigma(z_i)(\omega y_i + 1 - y_i) - \omega y_i\big]/N$.
+Setting $\omega = n_-/n_+$ makes both classes contribute equal total weight.
+
+\paragraph{(F8) Convolutional feature.} For one-hot input
+$X\in\{0,1\}^{8\times81}$ (reference and alternate channels) and filter
+$K\in\mathbb{R}^{8\times w}$,
+$h_t = \mathrm{ReLU}\big(\sum_{c}\sum_{u} K_{c,u} X_{c,t+u-\lceil w/2\rceil} + b\big)$.
+Global max pooling $\max_t h_t$ makes the feature invariant to where the motif
+sits in the window.
+
+\paragraph{(F9) Binding free energy.} $\Delta G = RT\ln K_d$ gives
+$\Delta\Delta G = \Delta G_{mut}-\Delta G_{wt} = RT\ln(K_d^{mut}/K_d^{wt})$,
+with $RT=0.596$ kcal/mol at 300 K.
+
+\paragraph{(F10) FBA duality.} The primal $\max c^\top v$ s.t.\ $Sv=0$,
+$l\le v\le u$ has the dual
+$\min u^\top\alpha - l^\top\beta$ s.t.\ $S^\top\pi + \alpha - \beta = c$,
+$\alpha,\beta\ge0$. HiGHS returns primal and dual solutions. Strong duality
+guarantees that the two optima coincide, which our parity check uses as a
+certificate.
+
+\paragraph{(F11) Codon Adaptation Index.} With relative adaptiveness
+$w_c = f_c/\max_{c'\in\mathrm{syn}(c)} f_{c'}$,
+$\mathrm{CAI} = \exp\big(\frac1L\sum_{\ell}\ln w_{c_\ell}\big)$, the geometric
+mean of $w$ over the $L$ scorable codons.
+
+\paragraph{(F12) ACMG Bayesian posterior.} Following Tavtigian et al.,
+$O_{P} = 350^{\,\mathrm{pts}/8}$ and
+$\mathrm{Post} = O_P\,\pi/\big((O_P-1)\pi+1\big)$. With $\pi=0.1$ and
+$\mathrm{pts}=6$: $O_P = 350^{0.75}\approx 80.92$, so Post $=8.092/8.992\approx0.8999$,
+matching the module's 0.8999 and the published 0.900.
+
+\paragraph{(F13) Profile-HMM forward recursion.} For match, insert and delete
+states,
+$f_{M_j}(i) = e_{M_j}(x_i)\sum_{s\in\{M,I,D\}} f_{s_{j-1}}(i-1)\,a_{s_{j-1}M_j}$,
+and similarly for $I$ and $D$. The log-odds score is
+$\log P(x\mid\mathcal{M}) - \sum_i \log q_{x_i}$.
+
+\paragraph{(F14) Bootstrap interval.} For a statistic $\hat\theta$, draw
+$B=1000$ resamples with replacement and take the 2.5th and 97.5th percentiles of
+$\{\hat\theta^{*}_b\}$.
+
 \subsection{Implementation and Testing}
 The validation suite is a pytest package (\texttt{sc\_validate}) with a
 repo-wide no-stub audit: no fixture may contain placeholder data. Live-data
 re-runs are separate scripts under \texttt{scripts/}; committed tests run
 hermetically against frozen fixtures. CI runs the suite on every push.
 \section{Results}
-\emph{Pending validation runs; filled on completion.}
+\subsection{CRISPR off-target (CFD) and on-target (Rule Set 1)}
+On 600 fresh guide/off-target pairs mined from BRCA1 RefSeqGene
+NG\_005905.2:60000-70000, the module's CFD score agreed with the CRISPOR
+reference implementation on 600/600 pairs to within $5\times10^{-7}$ (maximum
+absolute difference $5.0\times10^{-7}$). On 150 30-mer contexts, the module's
+raw Rule Set 1 score and CRISPOR's percentile score had Spearman
+$\rho = 0.9995$.
+
+\subsection{Metabolic modelling (FBA)}
+The module's flux-balance optimum on BiGG \texttt{e\_coli\_core}
+(objective \texttt{BIOMASS\_Ecoli\_core\_w\_GAM}) was $0.873922\ \mathrm{h^{-1}}$,
+identical to an independent SciPy/HiGHS solve ($0.873922$) and to the published
+$0.8739\ \mathrm{h^{-1}}$.
+
+\subsection{Codon adaptation and ACMG Bayesian scoring}
+Codon Adaptation Index values matched an independent geometric-mean
+recomputation from the Kazusa \emph{E. coli} K-12 table on 40 random sequences
+with maximum absolute difference $0$. The ACMG Bayesian posterior matched the
+Tavtigian et al.\ closed form $O_P = 350^{\,\mathrm{pts}/8}$ to $0$ across
+$-16\ldots16$ points; 6 points at prior 0.10 gives posterior 0.900.
+
+\subsection{Splice-site PWMs (deepsplice)}
+On 48 donor and 48 acceptor junctions from three held-out RefSeqGene records
+(NG\_008021.1, NG\_007489.1, NG\_008245.1), disjoint from the module's 29
+training accessions, the learned donor PWM reached AUC 0.997 and the acceptor
+PWM 0.998 against composition-matched shuffled windows. Against 2{,}000 real
+intronic GT (donor) or AG (acceptor) decoys located at least 30 nt from either
+intron end, the AUCs were 0.961 (donor) and 0.943 (acceptor). On the same
+decoys the consensus-seed acceptor matrix reached only 0.816, so the learned
+matrix does generalize.
+
+\subsection{Variant interpretation (openclinvar)}
+On the frozen 500-variant ClinVar sample (250 P/LP, 250 B/LB), run offline so
+that ClinVar's own label cannot enter the prediction, the patched module called
+324 variants with accuracy 0.997 (95\% bootstrap CI 0.991-1.000), sensitivity
+0.993 and specificity 1.000 (1 false negative, 0 false positives). It
+abstained on 176, all missense or splice-region $+3\ldots+20$ variants, which
+remain VUS by design. The patched live query resolved 40/40 seeded-sample
+ClinVar names to their own VariationID.
+
+\subsection{Profile HMM}
+With 5-fold cross-validation on the hmmalign MSA, models built by the module's
+\texttt{build\_profile\_hmm} separated held-out globins from 25 non-globins with
+AUC 0.952 on forward log-odds (0.962 length-normalised). The Pfam/HMMER3
+reference model reached 1.000 on the same fixtures.
+
 \section{Benchmark Comparison}
 \emph{Pending validation runs; filled on completion.}
 \section{Failure Modes and Negative Results}
-\emph{Pending validation runs; filled on completion.}
+\textbf{openclinvar, first run: 500/500 abstentions.} ClinVar names such as
+\texttt{NM\_000038.6(APC):c.1668T>C (p.Asp556=)} carry a transcript/gene prefix
+and a protein-level suffix. The consequence parser handled neither, so every
+variant parsed as \emph{unknown}. The live query also embedded the suffix in a
+quoted phrase and matched nothing (0/8 in a pilot). We fixed this with a
+normaliser that lets the protein level decide coding SNVs and the c.\ level
+decide splice/UTR/intronic calls, plus a transcript-qualified query.
+
+\textbf{deepsplice, first run: acceptor AUC 0.547.} This was a harness defect,
+not a model defect. The 23-nt MaxEntScan-style acceptor window was sliced as
+\texttt{[5:20]}, which places AG at positions 13-14 and drops the exon base;
+the module expects AG at 12-13. We reproduced the bug (AUC 0.524 off-frame) and
+the fix (0.998 at \texttt{[6:21]}), and a regression test now locks the frame.
+
+\textbf{profile\_hmm: residual gap to HMMER.} The module offers only a global
+alignment mode. A held-out globin with long flanks scores $-1116$ bits under
+forward, so the module cannot reach Pfam's AUC of 1.000. A local mode is the
+next tweak.
+
+\textbf{mutdock vs SKEMPI: no honest adapter.} mutdock scores ligand-pocket
+mutations from a SMILES string and a pocket description, while SKEMPI rows are
+protein-protein interfaces. We report naive baselines instead: the mean
+predictor has RMSE 1.63 kcal/mol, $|\Delta V|$ has Pearson $r=0.053$ and
+hydropathy loss $r=-0.129$ ($n=150$).
+
+\textbf{openclinvar accuracy is not a hard test.} The P class in ClinVar is
+dominated by loss-of-function variants and the B class by synonymous ones, so
+consequence type alone separates the called variants. Missense variants, the
+hard case, are still abstained.
+
 \section{Discussion}
 \emph{Pending validation runs; filled on completion.}
 \section{Conclusion}

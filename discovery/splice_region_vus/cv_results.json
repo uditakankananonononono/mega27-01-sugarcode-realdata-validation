@@ -1,0 +1,24 @@
+{
+ "n": 9235,
+ "n_pos": 2330,
+ "overall": {
+  "pwm": 0.8893,
+  "logit": 0.9121,
+  "cnn": 0.9355
+ },
+ "donor": {
+  "pwm": 0.9069,
+  "logit": 0.9284,
+  "cnn": 0.9538
+ },
+ "acceptor": {
+  "pwm": 0.8129,
+  "logit": 0.8709,
+  "cnn": 0.8794
+ },
+ "within_position_weighted": {
+  "pwm": 0.8093,
+  "logit": 0.8824,
+  "cnn": 0.9
+ }
+}

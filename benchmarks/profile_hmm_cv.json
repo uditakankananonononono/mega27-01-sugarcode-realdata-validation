@@ -1,0 +1,1 @@
+{"cv": "5-fold on hmmalign MSA", "n_pos": 25, "n_neg": 25, "auc_log_odds_bits": 0.952, "auc_per_residue": 0.9616, "min_pos": -1115.722518013113, "max_neg": -1.8447229415016182}
