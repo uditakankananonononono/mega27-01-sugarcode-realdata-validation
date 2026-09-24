@@ -3,7 +3,7 @@ Every number is read from a committed JSON/JSONL; nothing is typed by hand."""
 import json, csv, matplotlib; matplotlib.use('Agg')
 import matplotlib.pyplot as plt, numpy as np
 B='../benchmarks/'; D='../discovery/splice_region_vus/'
-def esc(s): return str(s).replace('_','\\_').replace('&','\\&').replace('%','\\%').replace('#','\\#')
+def esc(s): return str(s).replace('>=','$\\geq$').replace('<=','$\\leq$').replace('_','\\_').replace('&','\\&').replace('%','\\%').replace('#','\\#')
 ms=json.load(open(B+'sweep_codon_cai_multispecies.json')); te=json.load(open(B+'sweep_codon_tai_enc.json'))
 dk=json.load(open(B+'sweep_docking.json')); dr=[json.loads(l) for l in open(B+'sweep_docking_raw.jsonl')]
 cv=json.load(open(D+'cv_results_me.json')); mx=json.load(open(D+'maxent_cmp.json')); lm=json.load(open(D+'splice_logit_me_v1.json'))
@@ -80,3 +80,16 @@ X=['\\section{Structure and Primer Utilities Against Reference Tools}',
  f"\\paragraph{{Primers.}} On {pr['n_oligos']} 20-mers from {esc(', '.join(pr['transcripts']))}, the melting temperature equals Biopython's DNA\\_NN4 result (max difference {pr['tm_vs_biopython_NN4']['max_abs_diff']}). Against primer3 (SantaLucia 1998 table) the mean difference is {pr['tm_vs_primer3']['mean_diff']}\\,$^\\circ$C (max {pr['tm_vs_primer3']['max_abs_diff']}), a table choice. "
  f"The stem-length hairpin heuristic has Spearman {pr['hairpin_stem_vs_primer3_dG_spearman']} with primer3's hairpin $\\Delta G$, a negative result; the module now calls primer3 when installed."]
 open('sections_results2.tex','a').write('\n'.join(X)+'\n')
+# ---- phylo, ORF, VCF, DE (appended)
+ph=json.load(open(B+'sweep_phylo_dendropy.json')); orf=json.load(open(B+'sweep_orf_orfipy.json')); vc=json.load(open(B+'sweep_vcf_pysam.json')); de=json.load(open(B+'sweep_de_pydeseq2.json'))
+Y=['\\section{Sequence, Variant and Expression Utilities Against Reference Tools}']
+Y.append('\\paragraph{Phylogenetics.} '+esc(ph['tools'])+'. '+' '.join(f"{f}: NJ RF {r['nj']['rf_symmetric_difference']}, UPGMA RF {r['upgma']['rf_symmetric_difference']} (patristic Pearson {r['upgma']['patristic_pearson']}), distance model {esc(r['distance_model'])}." for f,r in ph['results'].items())+' The single UPGMA difference traces to two merge steps with tied minimum distances.')
+ok_c=sum(r['longest_equals_cds'] for r in orf['results']); ok_t=sum(r['translation_equals_annotation'] for r in orf['results'])
+Y.append(f"\\paragraph{{ORFs.}} On {len(orf['results'])} RefSeq mRNAs the longest ATG ORF equals the NCBI CDS in {ok_c}/{len(orf['results'])} and its translation equals the NCBI protein in {ok_t}/{len(orf['results'])}. Six-frame ORF sets equal orfipy's in {orf['orfipy_minlen_scan_identical_sets_of_5']['90']}/5 at orfipy minlen 90 ({esc(orf['boundary_note'])})")
+tv=vc['variant_type_vs_CLNVC']; agree=sum(n for k,n in tv.items() if k.split('->')[0] in ('single_nucleotide_variant','Duplication','Deletion','Insertion') or k=='Indel->indel')
+Y.append(f"\\paragraph{{VCF.}} {vc['n_records']} ClinVar GRCh38 records (5 gene regions, remote tabix via {esc(vc['tool'])}) parse identically on CHROM/POS/ID/REF/ALT; INFO differences after normalisation: {esc(vc['field_mismatches'])}. Variant type agrees with ClinVar CLNVC on {agree} records; the {vc['variant_type_disagreements']} others are equal-length multi-base changes (ClinVar: Indel; sugarcode: mnp).")
+Y.append(f"\\paragraph{{Differential expression.}} {esc(de['dataset'])}. Size factors equal PyDESeq2's (max relative difference {de['size_factor_max_rel_diff']:.1e}). PyDESeq2 with a cell-line block finds {de['pydeseq2_paired_n_sig']} genes at padj$<$0.05 ({de['pydeseq2_unpaired_n_sig']} unpaired); sugarcode's Welch test finds {de['welch']['n_sig_padj05']} ({de['welch']['overlap_with_pydeseq2_paired']} shared) and Wilcoxon {de['wilcoxon']['n_sig_padj05']}. Table~\\ref{{tab:dex}} shows that the simple tests miss every canonical dexamethasone-response gene; the module now offers a PyDESeq2 path.")
+Y.append('\\begin{table}[h]\\centering\\small\\caption{Canonical dexamethasone-response genes, GSE52778.}\\label{tab:dex}\\begin{tabular}{lrrrr}\\hline Gene & log2FC & padj PyDESeq2 & padj Welch & padj Wilcoxon\\\\\\hline')
+for g,v in de['canonical_dex_genes'].items(): Y.append(f"{g} & {v['pydeseq2_lfc']} & {v['pydeseq2_paired_padj']:.1e} & {v['welch_padj']:.2f} & {v['wilcoxon_padj']:.2f}\\\\")
+Y.append('\\hline\\end{tabular}\\end{table}')
+open('sections_results2.tex','a').write('\n'.join(Y)+'\n')
