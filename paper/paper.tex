@@ -240,10 +240,11 @@ hard case, are still abstained.
 
 \input{sections_auto}
 \input{sections_results2}
+\input{sections_results3}
 \section{Discussion}
 Validating each module against an independent reference exposed three kinds of result: implementations that match their reference exactly (CAI vs Biopython, CYP2D6 translation vs CPIC after the fix), implementations whose defaults were stale or weak (CPIC activity values, genome-wide CAI reference, Nussinov folding), and places where a strong published tool beats our model (SpliceAI on splice-region variants). Each fix is committed with the result file that motivated it. The CNN is useful as a calibrated, cheap second opinion at high thresholds, not as a replacement for SpliceAI.
 \section{Conclusion}
-The sweep so far corrected two clinically relevant defaults (CPIC activity values, clopidogrel handling of ``Likely'' phenotypes), improved CAI correlation with measured abundance, and replaced base-pair maximisation with thermodynamic folding. The dataset and tool targets set for this project are not yet met; the manifests in the appendix list exactly what was used.
+The sweep so far corrected two clinically relevant defaults (CPIC activity values, clopidogrel handling of ``Likely'' phenotypes), improved CAI correlation with measured abundance, and replaced base-pair maximisation with thermodynamic folding. The accession-level dataset target (120) and the formula target (10) are met; the external-tool target (40) is not yet met. The manifests in the appendix list exactly what was used.
 \input{sections_appendix}
 \input{sections_accessions}
 \bibliographystyle{plain}
