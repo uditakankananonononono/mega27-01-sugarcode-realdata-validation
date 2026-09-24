@@ -1,0 +1,21 @@
+{
+ "source": "https://raw.githubusercontent.com/MicrosoftResearch/Azimuth/master/azimuth/data/FC_plus_RES_withPredictions.csv",
+ "n_guides": 5310,
+ "n_genes": 17,
+ "target": "score_drug_gene_rank (measured, rank-normalised within gene)",
+ "spearman": {
+  "rule_set_2_with_position": 0.7106,
+  "rule_set_2_sequence_only": 0.6693,
+  "rule_set_1_doench2014": 0.3948,
+  "heuristic_edge_fallback": 0.1125,
+  "azimuth_repo_predictions_column": 0.7148
+ },
+ "per_gene_median_spearman": {
+  "rule_set_2_with_position": 0.6965,
+  "rule_set_2_sequence_only": 0.6599,
+  "rule_set_1_doench2014": 0.468,
+  "heuristic_edge_fallback": 0.1357,
+  "azimuth_repo_predictions_column": 0.6943
+ },
+ "caveat": "Rule Set 1 and Rule Set 2 were trained on these guides (FC for RS1, FC+RES for RS2): the correlations are in-sample and optimistic; the heuristic was not fitted to them."
+}

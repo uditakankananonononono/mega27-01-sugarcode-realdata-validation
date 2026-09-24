@@ -23,7 +23,7 @@ module	chemgpt_engine	305	6	not yet validated
 module	codon_opt	289	7	validated	benchmarks/sweep_codon_cai.json
 module	crispr_cargo	156	2	not yet validated	
 module	crispr_muse	278	2	not yet validated	
-module	crispr_opt	648	8	not yet validated	
+module	crispr_opt	648	8	validated	benchmarks/sweep_crispr_ontarget_fcres.json
 module	crisprater	97	3	not yet validated	
 module	crisprscan_score	178	2	validated	VERDICTS table + CRISPRscan finding
 module	dark_genome	202	2	not yet validated	
