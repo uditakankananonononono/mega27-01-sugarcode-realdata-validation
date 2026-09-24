@@ -1,0 +1,42 @@
+{
+ "source": "NCBI E-utilities esummary db=clinvar, 12 genes x 60 relevance-ranked single-gene records, fetched 2026-09-25 (batched; not counted as accession-level)",
+ "n_records": 720,
+ "consequence": {
+  "n_with_clinvar_consequence": 682,
+  "correct": 651,
+  "abstain": 30,
+  "wrong": 1,
+  "wrong_rows": [
+   [
+    "2430176",
+    "NM_000251.2(MSH2):c.2459-2_2472del",
+    "splice_disruption",
+    [
+     "genic downstream transcript variant"
+    ]
+   ]
+  ],
+  "pre_fix": {
+   "sugarcode_commit": "cdf160b",
+   "correct": 646,
+   "abstain": 32,
+   "wrong": 4,
+   "wrong_examples": [
+    "NM_007294.4(BRCA1):c.5468-64_5480dup -> intronic (ClinVar: splice acceptor)",
+    "NM_000249.4(MLH1):c.453+625_545+920delinsT -> intronic (ClinVar: splice acceptor+donor)",
+    "NM_000249.4(MLH1):c.545+1271_677+737delinsCA -> intronic",
+    "NM_000546.6(TP53):c.-19_*21del -> utr (ClinVar: frameshift/initiator codon)"
+   ]
+  },
+  "note_remaining": "MSH2 c.2459-2_2472del is annotated by ClinVar on an older transcript as genic downstream; c.2459-2 is an acceptor-site position, so the module call is kept"
+ },
+ "review_status_stars": {
+  "source": "https://www.ncbi.nlm.nih.gov/clinvar/docs/review_status/",
+  "n_statuses": 9,
+  "correct_after": 9,
+  "pre_fix_wrong": [
+   "criteria provided, multiple submitters: 1 (official 2)"
+  ]
+ },
+ "post_fix_sugarcode_commit": "7067655"
+}

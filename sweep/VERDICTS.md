@@ -173,3 +173,6 @@ BUG: v2 LOEUF cutoff 0.35 on r4 data; gnomAD v4 guidance 0.45. pLI agreement 51-
 
 ## modules.acmg_bayesian vs ClinGen VCEP classifications (2026-09-25)
 BUG FIXED (sugarcode cdf160b): ClinGen suffix notation (PM2_Supporting, PVS1_Very Strong, BS1_Stand Alone) was rejected; 5,699/7,929 rows lost a code, 4,583/7,929 panel calls reproduced. After: 0 rejected, 7,515/7,929 (94.8%) reproduced; ACMG-2015 rules baseline 7,267/7,929. Known difference kept: lone benign supporting (-1 pt) -> LB vs panels' VUS. benchmarks/sweep_acmg_erepo.json
+
+## modules.openclinvar vs ClinVar records + review-status table (2026-09-25)
+BUG FIXED (sugarcode 7067655). HGVS consequence on 682 ClinVar records (12 genes): before 646 right / 32 abstain / 4 wrong (exon-spanning ranges judged by start only), after 651 / 30 / 1 (older-transcript annotation, call kept). clinvar_stars: "criteria provided, multiple submitters" gave 1 star, official 2; now 9/9. benchmarks/sweep_openclinvar.json

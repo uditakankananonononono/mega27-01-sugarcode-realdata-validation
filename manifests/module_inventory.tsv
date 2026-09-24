@@ -62,7 +62,7 @@ module	neuroplan_ai	449	6	not yet validated
 module	nexus_support	299	2	not yet validated	
 module	omega_stats	161	4	not yet validated	
 module	oncocircuit	124	2	not yet validated	
-module	openclinvar	481	20	not yet validated	
+module	openclinvar	514	22	validated	benchmarks/sweep_openclinvar.json
 module	organoid_ai	216	2	not yet validated	
 module	organoid_screen	275	7	not yet validated	
 module	pdx_insight	138	2	not yet validated	

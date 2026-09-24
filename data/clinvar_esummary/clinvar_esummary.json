@@ -1,0 +1,7528 @@
+{
+"373892": {
+"gene": "BRCA1",
+"title": "NG_005905.2:g.(147057_150288)_(160933_166866)del",
+"mc": [],
+"review": "no classification for the single variant",
+"sig": "no classification for the single variant",
+"protein_change": ""
+},
+"267741": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.5277+2916_5277+2946delinsGG",
+"mc": [
+"intron variant"
+],
+"review": "no classification for the single variant",
+"sig": "no classification for the single variant",
+"protein_change": ""
+},
+"267740": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.5243_5277+2788del",
+"mc": [
+"splice donor variant"
+],
+"review": "no classification for the single variant",
+"sig": "no classification for the single variant",
+"protein_change": ""
+},
+"4890846": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.4587dup (p.Lys1530Ter)",
+"mc": [
+"nonsense",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "K1233*, K1234*, K1361*, K1401*, K1402*, K1403*, K1417*, K1418*, K1419*, K1440*, K1441*, K1442*, K1458*, K1459*, K1460*, K1461*, K1463*, K1481*, K1482*, K1483*, K1486*, K1487*, K1488*, K1489*, K1502*, K1503*, K1504*, K1510*, K1511*, K1525*, K1526*, K1527*, K1528*, K1529*, K1530*, K1550*, K1551*, K1552*, K259*, K299*, K300*, K313*, K314*, K317*, K318*, K337*, K338*, K339*, K345*, K347*, K355*, K356*, K357*, K359*, K360*, K378*, K379*, K380*, K382*, K384*, K385*, K386*, K387*, K388*, K400*, K401*, K402*, K423*, K424*, K425*, K426*, K427*, K448*, K449*, K661*, K662*"
+},
+"4871869": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.2850_2851del (p.Arg951fs)",
+"mc": [
+"frameshift variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "R655fs, R783fs, R823fs, R824fs, R839fs, R840fs, R862fs, R863fs, R880fs, R881fs, R883fs, R884fs, R903fs, R904fs, R909fs, R910fs, R924fs, R925fs, R948fs, R950fs, R951fs"
+},
+"4853057": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.5468-64_5480dup",
+"mc": [
+"splice acceptor variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4851364": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.2126_2130delinsAG (p.Phe709_Thr710delinsTer)",
+"mc": [
+"nonsense",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": ""
+},
+"4851359": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.2130del (p.Lys711fs)",
+"mc": [
+"frameshift variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "K415fs, K543fs, K583fs, K584fs, K599fs, K600fs, K622fs, K623fs, K640fs, K641fs, K643fs, K644fs, K663fs, K664fs, K669fs, K670fs, K684fs, K685fs, K708fs, K710fs, K711fs"
+},
+"4848411": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.2145C>G (p.Thr715=)",
+"mc": [
+"intron variant",
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4823850": {
+"gene": "BRCA1",
+"title": "GRCh37/hg19 17q21.31(chr17:41267743-41267796)x3",
+"mc": [],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4822953": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.544T>C (p.Leu182=)",
+"mc": [
+"synonymous variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4820939": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.1734T>A (p.Ser578=)",
+"mc": [
+"synonymous variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4687778": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.3199A>G (p.Asn1067Asp)",
+"mc": [
+"missense variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "N1000D, N1019D, N1020D, N1025D, N1026D, N1040D, N1041D, N1064D, N1066D, N1067D, N771D, N899D, N939D, N940D, N955D, N956D, N978D, N979D, N996D, N997D, N999D"
+},
+"4682099": {
+"gene": "BRCA1",
+"title": "GRCh37/hg19 17q21.31(chr17:41236314-41249306)x1",
+"mc": [],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": ""
+},
+"4682075": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.4978del (p.Glu1660fs)",
+"mc": [
+"frameshift variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "E1363fs, E1364fs, E1491fs, E1506fs, E1531fs, E1532fs, E1533fs, E1547fs, E1548fs, E1549fs, E1570fs, E1571fs, E1572fs, E1588fs, E1589fs, E1590fs, E1591fs, E1593fs, E1611fs, E1612fs, E1613fs, E1616fs, E1617fs, E1618fs, E1619fs, E1632fs, E1633fs, E1634fs, E1640fs, E1641fs, E1655fs, E1656fs, E1657fs, E1658fs, E1659fs, E1660fs, E1680fs, E1681fs, E1682fs, E380fs, E389fs, E429fs, E430fs, E443fs, E444fs, E447fs, E448fs, E467fs, E468fs, E469fs, E475fs, E477fs, E485fs, E486fs, E487fs, E489fs, E490fs, E508fs, E509fs, E510fs, E512fs, E514fs, E515fs, E516fs, E517fs, E518fs, E530fs, E531fs, E532fs, E553fs, E554fs, E555fs, E556fs, E557fs, E578fs, E579fs, E791fs, E792fs"
+},
+"4535447": {
+"gene": "BRCA1",
+"title": "GRCh37/hg19 17q21.31(chr17:41201138-41201211)x1",
+"mc": [],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": ""
+},
+"4527077": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.1989C>A (p.Ser663Arg)",
+"mc": [
+"missense variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "S367R, S495R, S535R, S536R, S551R, S552R, S574R, S575R, S592R, S593R, S595R, S596R, S615R, S616R, S621R, S622R, S636R, S637R, S660R, S662R, S663R"
+},
+"4526045": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.5407-29T>G",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4525970": {
+"gene": "BRCA1",
+"title": "NC_000017.10:g.(41243050_41243451)_(41277382_?)dup",
+"mc": [],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4086643": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.2162T>C (p.Phe721Ser)",
+"mc": [
+"intron variant",
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "F425S, F553S, F593S, F594S, F609S, F610S, F632S, F633S, F650S, F651S, F653S, F654S, F673S, F674S, F679S, F680S, F694S, F695S, F718S, F720S, F721S"
+},
+"4085547": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.723C>G (p.Pro241=)",
+"mc": [
+"synonymous variant",
+"intron variant",
+"5 prime UTR variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4076606": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.2410_2413del (p.Gln804fs)",
+"mc": [
+"frameshift variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "Q508fs, Q636fs, Q676fs, Q677fs, Q692fs, Q693fs, Q715fs, Q716fs, Q733fs, Q734fs, Q736fs, Q737fs, Q756fs, Q757fs, Q762fs, Q763fs, Q777fs, Q778fs, Q801fs, Q803fs, Q804fs"
+},
+"4076018": {
+"gene": "BRCA1",
+"title": "GRCh37/hg19 17q21.31(chr17:41235799-41248470)x1",
+"mc": [],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": ""
+},
+"3907065": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.2685A>G (p.Gln895=)",
+"mc": [
+"synonymous variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3893340": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.1753G>T (p.Glu585Ter)",
+"mc": [
+"nonsense",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "E289*, E417*, E457*, E458*, E473*, E474*, E496*, E497*, E514*, E515*, E517*, E518*, E537*, E538*, E543*, E544*, E558*, E559*, E582*, E584*, E585*"
+},
+"3777288": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.2794G>A (p.Val932Ile)",
+"mc": [
+"missense variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "V636I, V764I, V804I, V805I, V820I, V821I, V843I, V844I, V861I, V862I, V864I, V865I, V884I, V885I, V890I, V891I, V905I, V906I, V929I, V931I, V932I"
+},
+"3772201": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.1055A>G (p.Glu352Gly)",
+"mc": [
+"missense variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "E184G, E224G, E225G, E240G, E241G, E263G, E264G, E281G, E282G, E284G, E285G, E304G, E305G, E310G, E311G, E325G, E326G, E349G, E351G, E352G, E56G"
+},
+"3768868": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.4529T>A (p.Met1510Lys)",
+"mc": [
+"missense variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "M1213K, M1214K, M1341K, M1381K, M1382K, M1383K, M1397K, M1398K, M1399K, M1420K, M1421K, M1422K, M1438K, M1439K, M1440K, M1441K, M1443K, M1461K, M1462K, M1463K, M1466K, M1467K, M1468K, M1469K, M1482K, M1483K, M1484K, M1490K, M1491K, M1505K, M1506K, M1507K, M1508K, M1509K, M1510K, M1530K, M1531K, M1532K, M239K, M279K, M280K, M293K, M294K, M297K, M298K, M317K, M318K, M319K, M325K, M327K, M335K, M336K, M337K, M339K, M340K, M358K, M359K, M360K, M362K, M364K, M365K, M366K, M367K, M368K, M380K, M381K, M382K, M403K, M404K, M405K, M406K, M407K, M428K, M429K, M641K, M642K"
+},
+"3768012": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.2054A>G (p.Asn685Ser)",
+"mc": [
+"missense variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "N389S, N517S, N557S, N558S, N573S, N574S, N596S, N597S, N614S, N615S, N617S, N618S, N637S, N638S, N643S, N644S, N658S, N659S, N682S, N684S, N685S"
+},
+"3390311": {
+"gene": "BRCA1",
+"title": "GRCh37/hg19 17q21.31(chr17:41209069-41215968)x3",
+"mc": [],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": ""
+},
+"3387792": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.4616_4617dup (p.Glu1540fs)",
+"mc": [
+"frameshift variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "E1243fs, E1244fs, E1371fs, E1411fs, E1412fs, E1413fs, E1427fs, E1428fs, E1429fs, E1450fs, E1451fs, E1452fs, E1468fs, E1469fs, E1470fs, E1471fs, E1473fs, E1491fs, E1492fs, E1493fs, E1496fs, E1497fs, E1498fs, E1499fs, E1512fs, E1513fs, E1514fs, E1520fs, E1521fs, E1535fs, E1536fs, E1537fs, E1538fs, E1539fs, E1540fs, E1560fs, E1561fs, E1562fs, E269fs, E309fs, E310fs, E323fs, E324fs, E327fs, E328fs, E347fs, E348fs, E349fs, E355fs, E357fs, E365fs, E366fs, E367fs, E369fs, E370fs, E388fs, E389fs, E390fs, E392fs, E394fs, E395fs, E396fs, E397fs, E398fs, E410fs, E411fs, E412fs, E433fs, E434fs, E435fs, E436fs, E437fs, E458fs, E459fs, E671fs, E672fs"
+},
+"3373180": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.3194A>G (p.Asp1065Gly)",
+"mc": [
+"missense variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "D1017G, D1018G, D1023G, D1024G, D1038G, D1039G, D1062G, D1064G, D1065G, D769G, D897G, D937G, D938G, D953G, D954G, D976G, D977G, D994G, D995G, D997G, D998G"
+},
+"3372696": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.4276T>A (p.Ser1426Thr)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "S1130T, S1257T, S1298T, S1299T, S1313T, S1314T, S1315T, S1336T, S1337T, S1338T, S1354T, S1355T, S1356T, S1358T, S1359T, S1377T, S1378T, S1379T, S1383T, S1384T, S1385T, S1398T, S1399T, S1400T, S1422T, S1424T, S1425T, S1426T, S155T, S195T, S196T, S210T, S212T, S213T, S214T, S234T, S235T, S242T, S243T, S252T, S253T, S255T, S256T, S274T, S275T, S276T, S278T, S281T, S282T, S283T, S284T, S296T, S297T, S320T, S321T, S322T, S323T, S557T, S558T"
+},
+"3366033": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.418A>G (p.Ser140Gly)",
+"mc": [
+"missense variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "S114G, S137G, S13G, S140G, S70G, S93G, S96G"
+},
+"3362166": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.1914A>T (p.Glu638Asp)",
+"mc": [
+"missense variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "E342D, E470D, E510D, E511D, E526D, E527D, E549D, E550D, E567D, E568D, E570D, E571D, E590D, E591D, E596D, E597D, E611D, E612D, E635D, E637D, E638D"
+},
+"3361704": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.2349C>T (p.Ile783=)",
+"mc": [
+"synonymous variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"3361703": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.2305A>C (p.Ile769Leu)",
+"mc": [
+"intron variant",
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "I473L, I601L, I641L, I642L, I657L, I658L, I680L, I681L, I698L, I699L, I701L, I702L, I721L, I722L, I727L, I728L, I742L, I743L, I766L, I768L, I769L"
+},
+"3359763": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.302-10_302-5delinsAATTTA",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"3358041": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.*792G>A",
+"mc": [
+"3 prime UTR variant"
+],
+"review": "no assertion criteria provided",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3356079": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.*99C>A",
+"mc": [
+"3 prime UTR variant"
+],
+"review": "no assertion criteria provided",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3352239": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.*525T>C",
+"mc": [
+"3 prime UTR variant"
+],
+"review": "no assertion criteria provided",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"3350129": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.611T>A (p.Leu204Ter)",
+"mc": [
+"nonsense",
+"intron variant"
+],
+"review": "no assertion criteria provided",
+"sig": "Uncertain significance",
+"protein_change": "L133*, L134*, L156*, L157*, L159*, L177*, L178*, L201*, L203*, L204*, L76*, L77*"
+},
+"3349905": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.4358-1660C>T",
+"mc": [
+"intron variant"
+],
+"review": "no assertion criteria provided",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3347358": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.5194-22G>T",
+"mc": [
+"intron variant"
+],
+"review": "no assertion criteria provided",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3346057": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.442-28C>T",
+"mc": [
+"intron variant"
+],
+"review": "no assertion criteria provided",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3344405": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.4991_4992dup (p.Val1665fs)",
+"mc": [
+"frameshift variant",
+"intron variant"
+],
+"review": "no assertion criteria provided",
+"sig": "Likely pathogenic",
+"protein_change": "V1368fs, V1369fs, V1496fs, V1511fs, V1536fs, V1537fs, V1538fs, V1552fs, V1553fs, V1554fs, V1575fs, V1576fs, V1577fs, V1593fs, V1594fs, V1595fs, V1596fs, V1598fs, V1616fs, V1617fs, V1618fs, V1621fs, V1622fs, V1623fs, V1624fs, V1637fs, V1638fs, V1639fs, V1645fs, V1646fs, V1660fs, V1661fs, V1662fs, V1663fs, V1664fs, V1665fs, V1685fs, V1686fs, V1687fs, V385fs, V394fs, V434fs, V435fs, V448fs, V449fs, V452fs, V453fs, V472fs, V473fs, V474fs, V480fs, V482fs, V490fs, V491fs, V492fs, V494fs, V495fs, V513fs, V514fs, V515fs, V517fs, V519fs, V520fs, V521fs, V522fs, V523fs, V535fs, V536fs, V537fs, V558fs, V559fs, V560fs, V561fs, V562fs, V583fs, V584fs, V796fs, V797fs"
+},
+"3340388": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.934G>A (p.Gly312Ser)",
+"mc": [
+"missense variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "G144S, G16S, G184S, G185S, G200S, G201S, G223S, G224S, G241S, G242S, G244S, G245S, G264S, G265S, G270S, G271S, G285S, G286S, G309S, G311S, G312S"
+},
+"3339864": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.3089A>G (p.Asn1030Ser)",
+"mc": [
+"intron variant",
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "N1003S, N1004S, N1027S, N1029S, N1030S, N734S, N862S, N902S, N903S, N918S, N919S, N941S, N942S, N959S, N960S, N962S, N963S, N982S, N983S, N988S, N989S"
+},
+"3338724": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.897A>T (p.Val299=)",
+"mc": [
+"synonymous variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"3336170": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.*3G>A",
+"mc": [
+"3 prime UTR variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"3248648": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.5468-11T>A",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"3236465": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.*8C>T",
+"mc": [
+"3 prime UTR variant"
+],
+"review": "",
+"sig": "",
+"protein_change": ""
+},
+"3233526": {
+"gene": "BRCA1",
+"title": "NC_000017.10:g.(41246878_41247862)_(41247940_41249260)dup",
+"mc": [],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"3054341": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.*721G>A",
+"mc": [
+"3 prime UTR variant"
+],
+"review": "no assertion criteria provided",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3038363": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.*536A>G",
+"mc": [
+"3 prime UTR variant"
+],
+"review": "no assertion criteria provided",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3034892": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.5468-30C>G",
+"mc": [
+"intron variant"
+],
+"review": "no assertion criteria provided",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3033443": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.1498_1499del (p.Thr499_Asn500insTer)",
+"mc": [
+"nonsense",
+"intron variant",
+"frameshift variant"
+],
+"review": "no assertion criteria provided",
+"sig": "Likely pathogenic",
+"protein_change": ""
+},
+"3032864": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.5333-21A>C",
+"mc": [
+"intron variant"
+],
+"review": "no assertion criteria provided",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3026904": {
+"gene": "BRCA1",
+"title": "NM_007294.4(BRCA1):c.404_408del (p.Lys135fs)",
+"mc": [
+"frameshift variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "K109fs, K132fs, K135fs, K65fs, K88fs, K8fs, K91fs"
+},
+"2682578": {
+"gene": "BRCA1",
+"title": "NC_000017.10:g.(41199721_41201137)_(41277382_?)dup",
+"mc": [],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4887945": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.5078T>C (p.Leu1693Pro)",
+"mc": [
+"missense variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "L1693P"
+},
+"4882924": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.3151T>G (p.Leu1051Val)",
+"mc": [
+"missense variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "L1051V"
+},
+"4876247": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.1909G>A (p.Gly637Ser)",
+"mc": [
+"missense variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "G637R, G637S"
+},
+"4876239": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.9396A>T (p.Lys3132Asn)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "K1488N, K3100N, K3115N, K3132N, K993N"
+},
+"4857010": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.3152T>A (p.Leu1051Ter)",
+"mc": [
+"nonsense",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "L1051*"
+},
+"4853800": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.5864delinsAGT (p.Ser1955Ter)",
+"mc": [
+"nonsense",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "S1955*"
+},
+"4853599": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.7215_7216inv (p.Phe2406Val)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "F2374V, F2406V, F267V, F762V"
+},
+"4853216": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.7580T>A (p.Val2527Glu)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "V2495E, V2527E, V388E, V883E"
+},
+"4853210": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.7391_7393del (p.Gln2464_Ala2465delinsPro)",
+"mc": [
+"inframe_indel",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4852795": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.3870C>G (p.Cys1290Trp)",
+"mc": [
+"missense variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": "C1290W"
+},
+"4852730": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.317-171G>A",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4852579": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.1909+12T>C",
+"mc": [
+"intron variant"
+],
+"review": "",
+"sig": "",
+"protein_change": ""
+},
+"4850687": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.772C>A (p.Gln258Lys)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": "Q135K, Q258K"
+},
+"4850686": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.166A>T (p.Asn56Tyr)",
+"mc": [
+"5 prime UTR variant",
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": "N56Y"
+},
+"4850076": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.1056C>G (p.Tyr352Ter)",
+"mc": [
+"nonsense",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "Y352*"
+},
+"4850069": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.4717del (p.Cys1573fs)",
+"mc": [
+"frameshift variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "C1573fs"
+},
+"4848841": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.3323A>T (p.Lys1108Met)",
+"mc": [
+"missense variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "K1108M"
+},
+"4848464": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.7806-9T>C",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4848207": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.9649-17_9649-16delinsCA",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4847601": {
+"gene": "BRCA2",
+"title": "NC_000013.10:g.(32907525_32910401)_(32915334_32918694)dup",
+"mc": [],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4845301": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.6955dup (p.Arg2319fs)",
+"mc": [
+"frameshift variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "R180fs, R2287fs, R2319fs, R675fs"
+},
+"4823740": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.8623G>C (p.Glu2875Gln)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "E1231Q, E2843Q, E2875Q, E736Q"
+},
+"4813128": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.219del (p.Gln73fs)",
+"mc": [
+"frameshift variant",
+"5 prime UTR variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "Q73fs"
+},
+"4795581": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.3607A>G (p.Ser1203Gly)",
+"mc": [
+"missense variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "S1203G"
+},
+"4756014": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.5102A>G (p.Gln1701Arg)",
+"mc": [
+"missense variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "Q1701R"
+},
+"4755851": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.5306A>T (p.Asp1769Val)",
+"mc": [
+"missense variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "D1769V"
+},
+"4689672": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.5050A>C (p.Thr1684Pro)",
+"mc": [
+"missense variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "T1684P"
+},
+"4688835": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.9078G>T (p.Gln3026His)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "Q1382H, Q2994H, Q3009H, Q3026H, Q887H"
+},
+"4688044": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.9236T>A (p.Val3079Asp)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "V1435D, V3047D, V3062D, V3079D, V940D"
+},
+"4687772": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.8326T>G (p.Leu2776Val)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "L1132V, L2744V, L2776V, L637V"
+},
+"4687555": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.4494T>C (p.Gly1498=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4683156": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.3307_3322del (p.Leu1103fs)",
+"mc": [
+"frameshift variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "L1103fs"
+},
+"4682110": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.9394A>T (p.Lys3132Ter)",
+"mc": [
+"nonsense",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "K1488*, K3100*, K3115*, K3132*, K993*"
+},
+"4537111": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.644A>C (p.Glu215Ala)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "E215A, E92A"
+},
+"4537110": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.5302C>G (p.Leu1768Val)",
+"mc": [
+"intron variant",
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "L1768V"
+},
+"4529598": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.2435A>G (p.Asn812Ser)",
+"mc": [
+"missense variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "N812S"
+},
+"4527673": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.4364A>G (p.Glu1455Gly)",
+"mc": [
+"missense variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "E1455G"
+},
+"4527308": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.10233_10234dup (p.Ile3412fs)",
+"mc": [
+"frameshift variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "I1273fs, I1768fs, I3380fs, I3395fs, I3412fs"
+},
+"4525719": {
+"gene": "BRCA2",
+"title": "NC_000013.10:g.(32900751_32903579)_(32905168_32906408)del",
+"mc": [],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4294337": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.3095_3098del (p.Lys1032fs)",
+"mc": [
+"frameshift variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "K1032fs"
+},
+"4281934": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.4519C>G (p.Gln1507Glu)",
+"mc": [
+"missense variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "Q1507E"
+},
+"4278665": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.1172T>C (p.Leu391Ser)",
+"mc": [
+"missense variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "L391S"
+},
+"4086018": {
+"gene": "BRCA2",
+"title": "GRCh37/hg19 13q13.1(chr13:32950807-32950928)x1",
+"mc": [],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": ""
+},
+"4085420": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.300del (p.Lys100fs)",
+"mc": [
+"frameshift variant",
+"5 prime UTR variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "K100fs"
+},
+"4085318": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.6726T>C (p.Asp2242=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4085123": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.8580G>C (p.Lys2860Asn)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "K1216N, K2828N, K2860N, K721N"
+},
+"3907145": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.74G>T (p.Gly25Val)",
+"mc": [
+"missense variant",
+"5 prime UTR variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "G25V"
+},
+"3907069": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.10127C>T (p.Ser3376Leu)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "S1237L, S1732L, S3344L, S3359L, S3376L"
+},
+"3906890": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.3901A>C (p.Thr1301Pro)",
+"mc": [
+"missense variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "T1301P"
+},
+"3906281": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.9794G>C (p.Cys3265Ser)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "C1126S, C1621S, C3233S, C3248S, C3265S"
+},
+"3902580": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.470A>T (p.Lys157Met)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "K157M, K34M"
+},
+"3902467": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.1702A>C (p.Thr568Pro)",
+"mc": [
+"missense variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "T568P"
+},
+"3898742": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.7976+1del",
+"mc": [
+"splice donor variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": ""
+},
+"3898741": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.7976+4A>T",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"3896634": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.535C>G (p.His179Asp)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "H179D, H56D"
+},
+"3895932": {
+"gene": "BRCA2",
+"title": "NC_000013.10:g.(32893463_32899212)_(32974406_?)dup",
+"mc": [],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"3895900": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.1155G>A (p.Lys385=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3780977": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.6776A>G (p.Asn2259Ser)",
+"mc": [
+"missense variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "N2259S"
+},
+"3769797": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.10062_10070del (p.Ser3356_Gly3358del)",
+"mc": [
+"inframe_indel",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"3769269": {
+"gene": "BRCA2",
+"title": "NM_000059.4(BRCA2):c.3348T>G (p.Thr1116=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4852755": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.1101-88G>A",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"4852731": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.993+181AT[3]",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4822393": {
+"gene": "TP53",
+"title": "NC_000017.11:g.7666217A>G",
+"mc": [],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4281284": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.-28-1102T>C",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"4086450": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.993+333G>T",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4083687": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.-28-3132T>C",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"4083530": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.1101-73G>C",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"4055875": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.816_864del (p.Arg273fs)",
+"mc": [
+"frameshift variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "R114fs, R234fs, R141fs, R273fs"
+},
+"3905024": {
+"gene": "TP53",
+"title": "NC_000017.11:g.7666193C>T",
+"mc": [],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3898631": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.247G>T (p.Ala83Ser)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "A44S, A83S"
+},
+"3893309": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.404G>C (p.Cys135Ser)",
+"mc": [
+"missense variant",
+"5 prime UTR variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "C135S, C3S, C96S"
+},
+"3773928": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.-26G>A",
+"mc": [
+"5 prime UTR variant",
+"non-coding transcript variant",
+"splice acceptor variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"3766516": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.441_442insCTTC (p.Asp148fs)",
+"mc": [
+"frameshift variant",
+"5 prime UTR variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "D109fs, D148fs, D16fs"
+},
+"3366184": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.156_163del (p.Gln52fs)",
+"mc": [
+"frameshift variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "Q13fs, Q52fs"
+},
+"3348739": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.673-29C>G",
+"mc": [
+"intron variant"
+],
+"review": "no assertion criteria provided",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3340289": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.293del (p.Pro98fs)",
+"mc": [
+"frameshift variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "P59fs, P98fs"
+},
+"3252121": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.762del (p.Ile255fs)",
+"mc": [
+"frameshift variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "I123fs, I216fs, I255fs, I96fs"
+},
+"3054491": {
+"gene": "TP53",
+"title": "NC_000017.11:g.7668195G>A",
+"mc": [],
+"review": "no assertion criteria provided",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3051986": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.*1169A>G",
+"mc": [
+"3 prime UTR variant",
+"non-coding transcript variant"
+],
+"review": "no assertion criteria provided",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3032270": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.673-45C>T",
+"mc": [
+"intron variant"
+],
+"review": "no assertion criteria provided",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"2584754": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.722_724del (p.Ser241del)",
+"mc": [
+"inframe_deletion",
+"non-coding transcript variant"
+],
+"review": "no assertion criteria provided",
+"sig": "Likely pathogenic",
+"protein_change": "S109del, S202del, S241del, S82del"
+},
+"2578312": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.645_662del (p.Ser215_Glu221delinsArg)",
+"mc": [
+"inframe_indel"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"1879359": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.420_431del (p.Cys141_Gln144del)",
+"mc": [
+"inframe_deletion",
+"5 prime UTR variant",
+"inframe_indel"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": ""
+},
+"1343497": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.263C>G (p.Ala88Gly)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "A49G, A88G"
+},
+"1318554": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.567_572del (p.Pro190_Pro191del)",
+"mc": [
+"inframe_deletion"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"1316731": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.197T>C (p.Met66Thr)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "M27T, M66T"
+},
+"1315778": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.-28-3C>G",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"1294447": {
+"gene": "TP53",
+"title": "NC_000017.11:g.7668134G>A",
+"mc": [],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"1288516": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.993+577A>T",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"1277877": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.-28-318_-28-317del",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"1269356": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.1101-221G>A",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"1259818": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.993+409del",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"1250065": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.993+391_993+392dup",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"1242213": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.-28-317del",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"1237084": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.993+505G>A",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"1220272": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.-28-341C>T",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"1213246": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.376-159_376-158del",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"1191520": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.578_580delinsCAGACCTAAA (p.His193fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "H154fs, H193fs, H34fs, H61fs"
+},
+"1174011": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.-19_*21del (p.Met1fs)",
+"mc": [
+"frameshift variant",
+"splice acceptor variant",
+"splice donor variant",
+"initiator_codon_variant"
+],
+"review": "no assertion criteria provided",
+"sig": "Pathogenic",
+"protein_change": "M1fs"
+},
+"996281": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.419_430del (p.Thr140_Gln144delinsLys)",
+"mc": [
+"inframe_indel",
+"5 prime UTR variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"871292": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.927del (p.Asn310fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "N178fs, N310fs, N271fs, N151fs"
+},
+"811280": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.416del (p.Lys139fs)",
+"mc": [
+"frameshift variant",
+"5 prime UTR variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "K100fs, K139fs, K7fs"
+},
+"803310": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.376-161_376-158del",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"803308": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.376-158del",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"803307": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.713dup (p.Cys238fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "C238fs, C199fs, C106fs, C79fs"
+},
+"803306": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.993+257del",
+"mc": [
+"3 prime UTR variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"677859": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.-28-177G>C",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"677776": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.673-236dup",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"635383": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.1101-2A>C",
+"mc": [
+"splice acceptor variant"
+],
+"review": "",
+"sig": "",
+"protein_change": ""
+},
+"633446": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.919+5G>T",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"633020": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.557_559+2delinsGGGG",
+"mc": [
+"splice donor variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": ""
+},
+"633019": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.559+2del",
+"mc": [
+"splice donor variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": ""
+},
+"633018": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.1011C>G (p.Arg337=)",
+"mc": [
+"synonymous variant",
+"3 prime UTR variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"592196": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.314del (p.Gly105fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "G105fs, G66fs"
+},
+"584920": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.993+303T>A",
+"mc": [
+"missense variant",
+"3 prime UTR variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "I211K, I343K, I304K, I184K"
+},
+"584919": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.1069A>G (p.Lys357Glu)",
+"mc": [
+"missense variant",
+"3 prime UTR variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "K225E, K357E, K318E, K198E"
+},
+"545786": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.514_517dup (p.Val173fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "V134fs, V14fs, V173fs, V41fs"
+},
+"545773": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.247_256del (p.Ala83fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "A83fs, A44fs"
+},
+"514422": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.870C>A (p.Arg290=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"507871": {
+"gene": "TP53",
+"title": "NM_000546.6(TP53):c.-28-14T>G",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"242651": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.453+625_545+920delinsT",
+"mc": [
+"splice acceptor variant",
+"splice donor variant",
+"intron variant"
+],
+"review": "no classification for the single variant",
+"sig": "no classification for the single variant",
+"protein_change": ""
+},
+"242650": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.545+1271_677+737delinsCA",
+"mc": [
+"splice acceptor variant",
+"splice donor variant"
+],
+"review": "no classification for the single variant",
+"sig": "no classification for the single variant",
+"protein_change": ""
+},
+"4885413": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.117-97T>C",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4882194": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.205A>G (p.Arg69Gly)",
+"mc": [
+"missense variant",
+"5 prime UTR variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "R69G"
+},
+"4882105": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.116+156C>T",
+"mc": [
+"intron variant",
+"5 prime UTR variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4876240": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.941_957del (p.Val314fs)",
+"mc": [
+"frameshift variant",
+"5 prime UTR variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "V216fs, V281fs, V314fs, V73fs"
+},
+"4873655": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.2187G>A (p.Leu729=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4856878": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.1039-1013G>A",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4852684": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.884+5T>A",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4686835": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.1418A>T (p.His473Leu)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "H115L, H132L, H232L, H375L, H440L, H473L"
+},
+"4686412": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.935A>G (p.His312Arg)",
+"mc": [
+"missense variant",
+"5 prime UTR variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "H214R, H279R, H312R, H71R"
+},
+"4685801": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.1066T>C (p.Ser356Pro)",
+"mc": [
+"missense variant",
+"5 prime UTR variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "S115P, S15P, S258P, S323P, S356P"
+},
+"4683074": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.83C>G (p.Pro28Arg)",
+"mc": [
+"5 prime UTR variant",
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "P28R"
+},
+"4683067": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.1615del (p.Ala539fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "A181fs, A198fs, A298fs, A441fs, A506fs, A539fs"
+},
+"4681757": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.1559-1732A>T",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4532200": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.719_725del (p.Ala239_Phe240insTer)",
+"mc": [
+"nonsense",
+"frameshift variant",
+"initiator_codon_variant",
+"5 prime UTR variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "M1fs"
+},
+"4281916": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.159G>C (p.Glu53Asp)",
+"mc": [
+"missense variant",
+"5 prime UTR variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "E53D"
+},
+"4085704": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.1881T>C (p.Ser627=)",
+"mc": [
+"synonymous variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4084231": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.1779A>C (p.Pro593=)",
+"mc": [
+"synonymous variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4076760": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.987C>G (p.His329Gln)",
+"mc": [
+"missense variant",
+"5 prime UTR variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "H231Q, H296Q, H329Q, H88Q"
+},
+"3897390": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.616A>G (p.Thr206Ala)",
+"mc": [
+"missense variant",
+"5 prime UTR variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "T108A, T173A, T206A"
+},
+"3768901": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.1912_1913delinsTT (p.Gly638Leu)",
+"mc": [
+"missense variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "G280L, G297L, G397L, G540L, G583L, G605L, G638L"
+},
+"3373689": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.2116G>A (p.Gly706Ser)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "G348S, G365S, G465S, G608S, G637S, G651S, G673S, G675S, G706S"
+},
+"3372628": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.2128A>T (p.Asn710Tyr)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "N352Y, N369Y, N469Y, N612Y, N641Y, N655Y, N677Y, N679Y, N710Y"
+},
+"3367912": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.1057G>C (p.Ala353Pro)",
+"mc": [
+"missense variant",
+"5 prime UTR variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "A112P, A12P, A255P, A320P, A353P"
+},
+"3360007": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.2232_2234delinsAGGAAATAT (p.Asn745delinsGlyAsnIle)",
+"mc": [
+"inframe_indel"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"3344166": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.1047A>C (p.Leu349=)",
+"mc": [
+"synonymous variant",
+"5 prime UTR variant"
+],
+"review": "no assertion criteria provided",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3342114": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.646_647del (p.Ile216fs)",
+"mc": [
+"frameshift variant",
+"5 prime UTR variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "I118fs, I183fs, I216fs"
+},
+"3054807": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.884+448T>C",
+"mc": [
+"intron variant"
+],
+"review": "no assertion criteria provided",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"2662147": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.1337G>A (p.Ser446Asn)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "S105N, S205N, S348N, S413N, S446N, S88N"
+},
+"2631570": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.1438_1439del (p.Glu480fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "no assertion criteria provided",
+"sig": "Likely pathogenic",
+"protein_change": "E122fs, E139fs, E239fs, E382fs, E447fs, E480fs"
+},
+"2627180": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.*6del",
+"mc": [
+"3 prime UTR variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"2499204": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.381A>T (p.Arg127Ser)",
+"mc": [
+"missense variant",
+"5 prime UTR variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "R127S, R29S, R94S"
+},
+"2428711": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.652T>A (p.Ser218Thr)",
+"mc": [
+"missense variant",
+"5 prime UTR variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "S120T, S185T, S218T"
+},
+"1878282": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.1993A>T (p.Asn665Tyr)",
+"mc": [
+"missense variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "N324Y, N567Y, N665Y, N307Y, N424Y, N610Y, N632Y, N634Y"
+},
+"1723390": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.830A>G (p.Glu277Gly)",
+"mc": [
+"missense variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "E179G, E244G, E277G, E36G"
+},
+"1703019": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.1039-30=",
+"mc": [
+"intron variant"
+],
+"review": "no assertion criteria provided",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"1703018": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.1039-32=",
+"mc": [
+"intron variant"
+],
+"review": "no assertion criteria provided",
+"sig": "Benign",
+"protein_change": ""
+},
+"1695067": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.1224C>G (p.Pro408=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"1685651": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.1989+11_1989+12del",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"1675908": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.1790G>T (p.Trp597Leu)",
+"mc": [
+"missense variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "W239L, W256L, W356L, W499L, W564L, W597L"
+},
+"1310967": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.5C>G (p.Ser2Trp)",
+"mc": [
+"missense variant",
+"5 prime UTR variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "S2W"
+},
+"1310865": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.1202_1203insGTT (p.Ser401delinsArgPhe)",
+"mc": [
+"inframe_indel"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"1309908": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.905A>G (p.Asn302Ser)",
+"mc": [
+"missense variant",
+"5 prime UTR variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "N204S, N269S, N302S, N61S"
+},
+"1296915": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.1038+254G>A",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"1292730": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.678-241_678-234dup",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"1283150": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.1559-1116A>T",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"1275921": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.1897-297T>C",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"1273867": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.1667+248TTTG[8]",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"1273110": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.678-209_678-208insGAGG",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"1264715": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.1409+1200AC[12]",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"1263346": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.1409+1200AC[15]",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"1260867": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.208-137del",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"1248564": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.1732-2322T>C",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"1241071": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.1409+1200AC[9]",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"1229936": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.307-1513C>G",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"1220662": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.1409+1385_1409+1386del",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"1217113": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.1039-9T>A",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"1216649": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.677+168C>A",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"1215903": {
+"gene": "MLH1",
+"title": "NM_000249.4(MLH1):c.1409+1153C>T",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"691528": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.2635-3C>T",
+"mc": [
+"intron variant"
+],
+"review": "no classification for the single variant",
+"sig": "no classification for the single variant",
+"protein_change": ""
+},
+"4885313": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.1718C>G (p.Ala573Gly)",
+"mc": [
+"missense variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "A121G, A274G, A433G, A507G, A523G, A553G, A562G, A573G, A586G"
+},
+"4885268": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.720C>G (p.Asp240Glu)",
+"mc": [
+"missense variant",
+"5 prime UTR variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "D100E, D174E, D220E, D240E"
+},
+"4884295": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.1816_1822del (p.Val606fs)",
+"mc": [
+"frameshift variant",
+"3 prime UTR variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "V154fs, V307fs, V466fs, V540fs, V556fs, V586fs, V595fs, V606fs, V619fs"
+},
+"4881987": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.535C>G (p.Pro179Ala)",
+"mc": [
+"non-coding transcript variant",
+"missense variant",
+"5 prime UTR variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "P113A, P159A, P179A, P39A"
+},
+"4851850": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.1510+115_1510+118delinsGTCC",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4851842": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.2460T>A (p.Gly820=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4823856": {
+"gene": "MSH2",
+"title": "GRCh37/hg19 2p21(chr2:47687858-47693947)x1",
+"mc": [],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": ""
+},
+"4688620": {
+"gene": "MSH2",
+"title": "NC_000002.11:g.(47643569_47656880)_(47710363_?)dup",
+"mc": [],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4687369": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.493T>C (p.Tyr165His)",
+"mc": [
+"missense variant",
+"non-coding transcript variant",
+"5 prime UTR variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "Y145H, Y165H, Y25H, Y99H"
+},
+"4683152": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.402dup (p.Leu135fs)",
+"mc": [
+"frameshift variant",
+"5 prime UTR variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "L115fs, L135fs, L69fs"
+},
+"4536447": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.1722G>C (p.Gln574His)",
+"mc": [
+"missense variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "Q122H, Q275H, Q434H, Q508H, Q524H, Q554H, Q563H, Q574H, Q587H"
+},
+"4530626": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.2635-8del",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4085686": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.2415C>A (p.Leu805=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4085685": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.2370G>A (p.Leu790=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4084235": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.2304A>G (p.Glu768=)",
+"mc": [
+"non-coding transcript variant",
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4083904": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.2262T>C (p.Thr754=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4083376": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.2211G>T (p.Arg737Ser)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "R285S, R438S, R597S, R671S, R687S, R717S, R726S, R737S, R750S"
+},
+"3898507": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.1386+2858T>A",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"3898505": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.1386+2728C>G",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3896571": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.793-9T>G",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3895879": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.231T>C (p.Ser77=)",
+"mc": [
+"synonymous variant",
+"5 prime UTR variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3778439": {
+"gene": "MSH2",
+"title": "NC_000002.12:g.47402579G>T",
+"mc": [],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"3772084": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.1386+2694G>C",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3768090": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.1235_1240del (p.Asn412_Leu414delinsIle)",
+"mc": [
+"inframe_indel",
+"5 prime UTR variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"3766732": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.366+88G>C",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3390053": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.1077-5T>A",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"3387836": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.1386+2715A>G",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3368485": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.2519T>A (p.Val840Glu)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "V388E, V541E, V700E, V774E, V790E, V820E, V829E, V840E, V853E"
+},
+"3368098": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.1772C>G (p.Pro591Arg)",
+"mc": [
+"missense variant",
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "P139R, P292R, P451R, P525R, P541R, P571R, P580R, P591R, P604R"
+},
+"3363506": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.89C>A (p.Pro30Gln)",
+"mc": [
+"missense variant",
+"5 prime UTR variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "P30Q"
+},
+"3355738": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.1077-145T>G",
+"mc": [
+"intron variant"
+],
+"review": "no assertion criteria provided",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3347236": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.212-3A>C",
+"mc": [
+"intron variant"
+],
+"review": "no assertion criteria provided",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3346384": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.2458+974A>C",
+"mc": [
+"intron variant"
+],
+"review": "no assertion criteria provided",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3346224": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.2485C>T (p.His829Tyr)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "no assertion criteria provided",
+"sig": "Uncertain significance",
+"protein_change": "H377Y, H530Y, H689Y, H763Y, H779Y, H809Y, H818Y, H829Y, H842Y"
+},
+"3342241": {
+"gene": "MSH2",
+"title": "GRCh37/hg19 2p21(chr2:47698104-47698201)x1",
+"mc": [],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": ""
+},
+"3338900": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.601T>A (p.Leu201Ile)",
+"mc": [
+"missense variant",
+"5 prime UTR variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "L135I, L181I, L201I, L61I"
+},
+"3252210": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.1227_1233dup (p.Asn412fs)",
+"mc": [
+"frameshift variant",
+"5 prime UTR variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "N113fs, N272fs, N346fs, N362fs, N392fs, N401fs, N412fs"
+},
+"3250992": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.110T>C (p.Phe37Ser)",
+"mc": [
+"missense variant",
+"5 prime UTR variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "F37S"
+},
+"3242335": {
+"gene": "MSH2",
+"title": "GRCh37/hg19 2p21(chr2:47647487-47663434)x1",
+"mc": [],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": ""
+},
+"3063802": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.8T>G (p.Val3Gly)",
+"mc": [
+"missense variant",
+"5 prime UTR variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "V3G"
+},
+"2682240": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.2342C>T (p.Ala781Val)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "A329V, A482V, A641V, A715V, A731V, A761V, A770V, A781V, A794V"
+},
+"2652122": {
+"gene": "MSH2",
+"title": "GRCh37/hg19 2p21(chr2:47707835-47710088)x1",
+"mc": [],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": ""
+},
+"2627144": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.1523G>T (p.Gly508Val)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "G209V, G368V, G442V, G458V, G488V, G497V, G508V, G521V, G56V"
+},
+"2578902": {
+"gene": "MSH2",
+"title": "GRCh37/hg19 2p21(chr2:47630331-47672796)x1",
+"mc": [],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": ""
+},
+"2578853": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.1277-3127A>G",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"2498819": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.498G>C (p.Val166=)",
+"mc": [
+"synonymous variant",
+"5 prime UTR variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"2430176": {
+"gene": "MSH2",
+"title": "NM_000251.2(MSH2):c.2459-2_2472del",
+"mc": [
+"genic downstream transcript variant"
+],
+"review": "no assertion criteria provided",
+"sig": "Likely pathogenic",
+"protein_change": ""
+},
+"2428801": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.557A>T (p.Asn186Ile)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "N120I, N166I, N186I, N46I"
+},
+"2413067": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.2600A>G (p.Glu867Gly)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "E415G, E568G, E727G, E801G, E817G, E847G, E856G, E867G, E880G"
+},
+"1879467": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.1277-3128TA[6]",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"1804663": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.2756A>C (p.Asn919Thr)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "N467T, N853T, N869T, N919T, N932T"
+},
+"1696113": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.1391A>G (p.Glu464Gly)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "E398G, E464G"
+},
+"1694955": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.1832T>G (p.Val611Gly)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "V545G, V611G"
+},
+"1691175": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.2687T>C (p.Phe896Ser)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "F830S, F896S"
+},
+"1685798": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.942+21_942+29dup",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"1685792": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.942+16_942+29dup",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"1685767": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.942+26_942+29dup",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"1685758": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.942+25_942+29dup",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"1685754": {
+"gene": "MSH2",
+"title": "NM_000251.3(MSH2):c.942+24_942+29dup",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"1706439": {
+"gene": "CFTR",
+"title": "NM_000492.4:c.(2619+1_2620-1)_(2988+1_2989-1)del",
+"mc": [],
+"review": "no classification for the single variant",
+"sig": "no classification for the single variant",
+"protein_change": ""
+},
+"1706438": {
+"gene": "CFTR",
+"title": "NM_000492.4:c.(164+1_165-1)_(1584+1_1585-1)del",
+"mc": [],
+"review": "no classification for the single variant",
+"sig": "no classification for the single variant",
+"protein_change": ""
+},
+"1705981": {
+"gene": "CFTR",
+"title": "NM_000492.4:c.2619+2288_2989-839delinsATTAATAATAATAAAT",
+"mc": [],
+"review": "no classification for the single variant",
+"sig": "no classification for the single variant",
+"protein_change": ""
+},
+"1705980": {
+"gene": "CFTR",
+"title": "NM_000492.4:c.165-291_1585-8528delinsATTTATTCCAAGGGAATAATAAAATAAATAATAATAATA",
+"mc": [],
+"review": "no classification for the single variant",
+"sig": "no classification for the single variant",
+"protein_change": ""
+},
+"4887648": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.2908+4C>T",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4887624": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.4136+5G>T",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4851205": {
+"gene": "CFTR",
+"title": "GRCh37/hg19 7q31.2(chr7:117141950-117159386)x1",
+"mc": [],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": ""
+},
+"4849019": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.200C>G (p.Pro67Arg)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "P67R"
+},
+"4818580": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.989_990insTA (p.Ile331fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "I331fs"
+},
+"4818579": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.962_968del (p.Ser321fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "S321fs"
+},
+"4818578": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.954delinsTT (p.Leu320fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "L320fs"
+},
+"4818576": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.751_767del (p.Gln250_Arg251insTer)",
+"mc": [
+"frameshift variant",
+"nonsense"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": ""
+},
+"4818575": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.742del (p.Arg248fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "R248fs"
+},
+"4818574": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.71_72delinsA (p.Ile23_Leu24insTer)",
+"mc": [
+"frameshift variant",
+"nonsense"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": ""
+},
+"4818573": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.708dup (p.Gln237fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "Q237fs"
+},
+"4818567": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.481del (p.Tyr161fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "Y161fs"
+},
+"4818566": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.463_466del (p.Ala155fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "A155fs"
+},
+"4818564": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.461del (p.Ile154fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "I154fs"
+},
+"4818560": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.43_44delinsG (p.Leu15fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "L15fs"
+},
+"4818557": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.424_427del (p.Ile142fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "I142fs"
+},
+"4818556": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.4231del (p.Gln1411fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "Q1411fs"
+},
+"4818555": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.4223_4230del (p.Leu1408fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "L1408fs"
+},
+"4818554": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.4137-2del",
+"mc": [
+"splice acceptor variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": ""
+},
+"4818553": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.4137-1G>C",
+"mc": [
+"splice acceptor variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": ""
+},
+"4818552": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.4137-1G>A",
+"mc": [
+"splice acceptor variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": ""
+},
+"4818551": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.4136+1G>T",
+"mc": [
+"splice donor variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": ""
+},
+"4818550": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.3909C>A (p.Asn1303Lys)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "N1303K"
+},
+"4818539": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.350_351delinsTT (p.Arg117Leu)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "R117L"
+},
+"4818523": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.300_305delinsAC (p.Leu101fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "L101fs"
+},
+"4818520": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.2881_2891del (p.Met961fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "M961fs"
+},
+"4818518": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.2807_2812delinsAC (p.Pro936fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "P936fs"
+},
+"4818516": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.2761G>T (p.Gly921Ter)",
+"mc": [
+"nonsense"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "G921*"
+},
+"4818515": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.2760_2761delinsA (p.Gly921fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "G921fs"
+},
+"4818514": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.2745_2746del (p.Phe916fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "F916fs"
+},
+"4818513": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.274-2A>T",
+"mc": [
+"splice acceptor variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": ""
+},
+"4818512": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.2734del (p.Ser912fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "S912fs"
+},
+"4818511": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.2658-1G>A",
+"mc": [
+"splice acceptor variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": ""
+},
+"4818508": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.2569_2570del (p.Lys857fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "K857fs"
+},
+"4818507": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.2538dup (p.Asn847fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "N847fs"
+},
+"4818506": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.2532_2533del (p.Thr845fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "T845fs"
+},
+"4818505": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.2496del (p.Phe834fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "F834fs"
+},
+"4818502": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.2435T>G (p.Leu812Ter)",
+"mc": [
+"nonsense"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "L812*"
+},
+"4818499": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.2284C>T (p.Gln762Ter)",
+"mc": [
+"nonsense"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "Q762*"
+},
+"4818498": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.2269dup (p.Thr757fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "T757fs"
+},
+"4818497": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.2236G>T (p.Glu746Ter)",
+"mc": [
+"nonsense"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "E746*"
+},
+"4818495": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.2037G>A (p.Trp679Ter)",
+"mc": [
+"nonsense"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "W679*"
+},
+"4818494": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.19del (p.Glu7fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "E7fs"
+},
+"4818492": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.1975_1976del (p.Asn659fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "N659fs"
+},
+"4818490": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.1949dup (p.Asp651fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "D651fs"
+},
+"4818489": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.1927_1931del (p.Lys643fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "K643fs"
+},
+"4818486": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.1865del (p.Gly622fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "G622fs"
+},
+"4818485": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.1777_1779delinsTAG (p.Lys593Ter)",
+"mc": [
+"nonsense"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "K593*"
+},
+"4818484": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.1766+2del",
+"mc": [
+"splice donor variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": ""
+},
+"4818483": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.1752del (p.Glu585fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "E585fs"
+},
+"4818482": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.1712T>G (p.Leu571Ter)",
+"mc": [
+"nonsense"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "L571*"
+},
+"4818463": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.1178_1188delinsG (p.Val393fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "V393fs"
+},
+"4818462": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.1123_1168del (p.Leu375fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "L375fs"
+},
+"4689548": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.1754A>C (p.Glu585Ala)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "E585A"
+},
+"4689345": {
+"gene": "CFTR",
+"title": "NM_000492.4(CFTR):c.1136A>T (p.Glu379Val)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "E379V"
+},
+"4689099": {
+"gene": "CFTR",
+"title": "NC_000007.13:g.(?_117120078)_(117182163_117188694)dup",
+"mc": [],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4887527": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.2403_2414del (p.Phe801_Arg805delinsLeu)",
+"mc": [
+"inframe_indel",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4881010": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.7036C>G (p.Pro2346Ala)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "P1962A, P2063A, P2186A, P2217A, P2220A, P2245A, P2255A, P2263A, P2287A, P2305A, P2318A, P2321A, P2328A, P2336A, P2339A, P2346A, P2356A, P2364A, P2374A"
+},
+"4795749": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.6992C>G (p.Pro2331Arg)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "P2202R, P2248R, P2349R, P2048R, P2171R, P2240R, P2313R, P2205R, P2272R, P2303R, P2321R, P2324R, P2331R, P1947R, P2230R, P2290R, P2306R, P2341R, P2359R"
+},
+"4755635": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.2648C>T (p.Thr883Ile)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "T499I, T600I, T723I, T754I, T757I, T782I, T792I, T800I, T824I, T842I, T855I, T858I, T865I, T873I, T876I, T883I, T893I, T901I, T911I"
+},
+"4685947": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.2185_2189del (p.Leu729fs)",
+"mc": [
+"frameshift variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "L345fs, L446fs, L569fs, L600fs, L603fs, L628fs, L638fs, L646fs, L670fs, L688fs, L701fs, L704fs, L711fs, L719fs, L722fs, L729fs, L739fs, L747fs, L757fs"
+},
+"4682092": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.1627-8A>G",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": ""
+},
+"4681941": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.1841C>T (p.Ala614Val)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "A513V, A523V, A531V, A555V, A573V, A586V, A589V, A596V, A604V, A607V, A614V, A624V, A632V, A642V, A230V, A331V, A454V, A485V, A488V"
+},
+"4540629": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.4175C>G (p.Ser1392Ter)",
+"mc": [
+"nonsense",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "S1008*, S1266*, S1333*, S1351*, S1382*, S1263*, S1301*, S1402*, S1109*, S1232*, S1291*, S1367*, S1374*, S1392*, S1309*, S1364*, S1385*, S1410*, S1420*"
+},
+"4530712": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.4948A>G (p.Asn1650Asp)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "N1266D, N1367D, N1490D, N1521D, N1524D, N1549D, N1559D, N1567D, N1591D, N1609D, N1622D, N1625D, N1632D, N1640D, N1643D, N1650D, N1660D, N1668D, N1678D"
+},
+"4527658": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.1171del (p.Ile391fs)",
+"mc": [
+"frameshift variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "I108fs, I332fs, I363fs, I366fs, I373fs, I391fs, I401fs"
+},
+"4282294": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.939A>C (p.Glu313Asp)",
+"mc": [
+"missense variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "E254D, E285D, E288D, E295D, E30D, E313D, E323D"
+},
+"4281360": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.4900C>A (p.Pro1634Thr)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "P1250T, P1351T, P1474T, P1505T, P1508T, P1533T, P1543T, P1551T, P1575T, P1593T, P1606T, P1609T, P1616T, P1624T, P1627T, P1634T, P1644T, P1652T, P1662T"
+},
+"4278906": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.976G>A (p.Asp326Asn)",
+"mc": [
+"missense variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "D267N, D298N, D301N, D308N, D326N, D336N, D43N"
+},
+"4278805": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.1213C>G (p.Arg405Gly)",
+"mc": [
+"missense variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "R122G, R346G, R377G, R380G, R387G, R405G, R415G"
+},
+"4278560": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.2482A>G (p.Thr828Ala)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "T444A, T545A, T668A, T699A, T702A, T727A, T737A, T745A, T769A, T787A, T800A, T803A, T810A, T818A, T821A, T828A, T838A, T846A, T856A"
+},
+"4085719": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.7725T>G (p.Ser2575=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4085718": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.7596T>C (p.His2532=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4085717": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.7593T>C (p.Ser2531=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4085716": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.7545A>C (p.Ile2515=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4085715": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.7494T>C (p.Ser2498=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4085714": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.7408A>C (p.Arg2470=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4085713": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.6513G>A (p.Gly2171=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4085712": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.6226C>T (p.Leu2076=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4085711": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.4227A>C (p.Pro1409=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4085710": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.4224A>G (p.Glu1408=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4085709": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.4164T>C (p.Thr1388=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4085708": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.3114T>C (p.Ser1038=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4085707": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.2187C>G (p.Leu729=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4085379": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.419_422del (p.Glu140fs)",
+"mc": [
+"frameshift variant",
+"5 prime UTR variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "E115fs, E140fs, E150fs, E81fs"
+},
+"4085294": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.4314A>C (p.Thr1438=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4084252": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.4089A>G (p.Lys1363=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4084251": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.4074G>C (p.Ala1358=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4084249": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.6510A>T (p.Pro2170=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4084248": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.3273A>G (p.Pro1091=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4084246": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.4071A>G (p.Gly1357=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4084241": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.7611T>C (p.Ser2537=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4084240": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.7590G>C (p.Arg2530=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4084239": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.7584T>A (p.Ile2528=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4084234": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.7426A>C (p.Arg2476=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4083942": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.7440A>G (p.Gln2480=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4074549": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.7357A>G (p.Arg2453Gly)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "R2069G, R2170G, R2293G, R2324G, R2327G, R2352G, R2362G, R2370G, R2394G, R2412G, R2425G, R2428G, R2435G, R2443G, R2446G, R2453G, R2463G, R2471G, R2481G"
+},
+"4071797": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.2694T>A (p.His898Gln)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "H514Q, H615Q, H738Q, H769Q, H772Q, H797Q, H807Q, H815Q, H839Q, H857Q, H870Q, H873Q, H880Q, H888Q, H891Q, H898Q, H908Q, H916Q, H926Q"
+},
+"3912007": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.3116G>A (p.Gly1039Glu)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "G1011E, G1014E, G1021E, G1029E, G1032E, G1039E, G1049E, G1057E, G1067E, G655E, G756E, G879E, G910E, G913E, G938E, G948E, G956E, G980E, G998E"
+},
+"3907591": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.4196G>T (p.Arg1399Leu)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "R1015L, R1116L, R1239L, R1270L, R1273L, R1298L, R1308L, R1316L, R1340L, R1358L, R1371L, R1374L, R1381L, R1389L, R1392L, R1399L, R1409L, R1417L, R1427L"
+},
+"3901403": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.8141G>T (p.Arg2714Leu)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "R2330L, R2431L, R2554L, R2585L, R2588L, R2613L, R2623L, R2631L, R2655L, R2673L, R2686L, R2689L, R2696L, R2704L, R2707L, R2714L, R2724L, R2732L, R2742L"
+},
+"3896050": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.1665A>C (p.Ala555=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3893531": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.2165G>T (p.Ser722Ile)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "S338I, S439I, S562I, S593I, S596I, S621I, S631I, S639I, S663I, S681I, S694I, S697I, S704I, S712I, S715I, S722I, S732I, S740I, S750I"
+},
+"3772630": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.5709_5717delinsT (p.Gln1904fs)",
+"mc": [
+"frameshift variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "Q1520fs, Q1621fs, Q1744fs, Q1775fs, Q1778fs, Q1803fs, Q1813fs, Q1821fs, Q1845fs, Q1863fs, Q1876fs, Q1879fs, Q1886fs, Q1894fs, Q1897fs, Q1904fs, Q1914fs, Q1922fs, Q1932fs"
+},
+"3772010": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.5509A>T (p.Ser1837Cys)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "S1453C, S1554C, S1677C, S1708C, S1711C, S1736C, S1746C, S1754C, S1778C, S1796C, S1809C, S1812C, S1819C, S1827C, S1830C, S1837C, S1847C, S1855C, S1865C"
+},
+"3766791": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.5069T>C (p.Ile1690Thr)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "I1306T, I1407T, I1530T, I1561T, I1564T, I1589T, I1599T, I1607T, I1631T, I1649T, I1662T, I1665T, I1672T, I1680T, I1683T, I1690T, I1700T, I1708T, I1718T"
+},
+"3600920": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.1651T>A (p.Leu551Met)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "L167M, L268M, L391M, L422M, L425M, L450M, L460M, L468M, L492M, L510M, L523M, L526M, L533M, L541M, L544M, L551M, L561M, L569M, L579M"
+},
+"3572742": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.3623C>A (p.Thr1208Asn)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "T1079N, T1117N, T1218N, T824N, T1082N, T1201N, T1226N, T1236N, T925N, T1198N, T1048N, T1107N, T1125N, T1149N, T1167N, T1180N, T1183N, T1190N, T1208N"
+},
+"3389710": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.2514A>G (p.Arg838=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3383686": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.1561T>A (p.Ser521Thr)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "S137T, S238T, S361T, S392T, S395T, S420T, S430T, S438T, S462T, S480T, S493T, S496T, S503T, S511T, S514T, S521T, S531T, S539T, S549T"
+},
+"3383685": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.4059dup (p.Phe1354fs)",
+"mc": [
+"frameshift variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "F1071fs, F1194fs, F1225fs, F1228fs, F1253fs, F1263fs, F1271fs, F1295fs, F1313fs, F1326fs, F1329fs, F1336fs, F1344fs, F1347fs, F1354fs, F1364fs, F1372fs, F1382fs, F970fs"
+},
+"3372986": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.92C>T (p.Ser31Phe)",
+"mc": [
+"missense variant",
+"5 prime UTR variant",
+"non-coding transcript variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "S31F"
+},
+"3368823": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.1636A>C (p.Ser546Arg)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "S162R, S263R, S386R, S417R, S420R, S445R, S455R, S463R, S487R, S505R, S518R, S521R, S528R, S536R, S539R, S546R, S556R, S564R, S574R"
+},
+"3368458": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.3250_3254delinsTC (p.Asp1084_Lys1085delinsSer)",
+"mc": [
+"inframe_indel",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"3365786": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.6538A>G (p.Lys2180Glu)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "K1796E, K1897E, K2020E, K2051E, K2054E, K2079E, K2089E, K2097E, K2121E, K2139E, K2152E, K2155E, K2162E, K2170E, K2173E, K2180E, K2190E, K2198E, K2208E"
+},
+"3359893": {
+"gene": "APC",
+"title": "NM_000038.6(APC):c.4975G>A (p.Asp1659Asn)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "D1275N, D1376N, D1499N, D1530N, D1533N, D1558N, D1568N, D1576N, D1600N, D1618N, D1631N, D1634N, D1641N, D1649N, D1652N, D1659N, D1669N, D1677N, D1687N"
+},
+"4887840": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-53A>G",
+"mc": [
+"5 prime UTR variant",
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "Q156R"
+},
+"4885596": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-329C>G",
+"mc": [
+"5 prime UTR variant",
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "P64R"
+},
+"4885578": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-514C>T",
+"mc": [
+"5 prime UTR variant",
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "R3W"
+},
+"4884119": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.18_29dup (p.Val9_Ser10insArgGluIleVal)",
+"mc": [
+"inframe_insertion",
+"5 prime UTR variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4882546": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-333C>T",
+"mc": [
+"5 prime UTR variant",
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "L63F"
+},
+"4882529": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.224A>C (p.His75Pro)",
+"mc": [
+"missense variant",
+"5 prime UTR variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "H248P, H75P"
+},
+"4882510": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-248C>T",
+"mc": [
+"5 prime UTR variant",
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "S91F"
+},
+"4882499": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-515G>C",
+"mc": [
+"5 prime UTR variant",
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "E2D"
+},
+"4882482": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.165-4T>A",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4875220": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-193C>G",
+"mc": [
+"5 prime UTR variant",
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4873438": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-449G>A",
+"mc": [
+"5 prime UTR variant",
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4856922": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.493-6409G>C",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"4852728": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-309C>G",
+"mc": [
+"5 prime UTR variant",
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": "P71A"
+},
+"4851934": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.493-68A>G",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"4822780": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.831A>C (p.Thr277=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4821745": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-224C>T",
+"mc": [
+"5 prime UTR variant",
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "A99V"
+},
+"4813906": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-176C>G",
+"mc": [
+"5 prime UTR variant",
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "S115C"
+},
+"4690206": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.428G>T (p.Gly143Val)",
+"mc": [
+"missense variant",
+"5 prime UTR variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "G143V, G316V"
+},
+"4686519": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-118G>C",
+"mc": [
+"5 prime UTR variant",
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "E134D"
+},
+"4682081": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.766_779del (p.Glu256fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "E256fs, E429fs, E59fs"
+},
+"4538586": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.520T>G (p.Tyr174Asp)",
+"mc": [
+"missense variant",
+"5 prime UTR variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "Y174D, Y347D"
+},
+"4534234": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-488_-477dup",
+"mc": [
+"5 prime UTR variant",
+"inframe_insertion"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4282421": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-270C>A",
+"mc": [
+"5 prime UTR variant",
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "R84S"
+},
+"4281011": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-473A>C",
+"mc": [
+"5 prime UTR variant",
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4280819": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.801+64A>G",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4278568": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-176C>A",
+"mc": [
+"5 prime UTR variant",
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "S115Y"
+},
+"4085734": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-419C>T",
+"mc": [
+"5 prime UTR variant",
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4085249": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-265G>T",
+"mc": [
+"5 prime UTR variant",
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4085066": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.79+4780C>T",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4084854": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-395A>C",
+"mc": [
+"5 prime UTR variant",
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4084756": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-280C>A",
+"mc": [
+"5 prime UTR variant",
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4084755": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-292G>A",
+"mc": [
+"5 prime UTR variant",
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4084754": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-397C>T",
+"mc": [
+"5 prime UTR variant",
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4084753": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-398T>C",
+"mc": [
+"5 prime UTR variant",
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4084752": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-455T>G",
+"mc": [
+"5 prime UTR variant",
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4084751": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-467A>G",
+"mc": [
+"5 prime UTR variant",
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4084618": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-328G>T",
+"mc": [
+"5 prime UTR variant",
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4084509": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-220G>A",
+"mc": [
+"5 prime UTR variant",
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4084416": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-238C>T",
+"mc": [
+"5 prime UTR variant",
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4083742": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-485C>G",
+"mc": [
+"5 prime UTR variant",
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4083372": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.560A>T (p.Asp187Val)",
+"mc": [
+"missense variant",
+"5 prime UTR variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "D187V, D360V"
+},
+"4083023": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-174A>G",
+"mc": [
+"5 prime UTR variant",
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "S116G"
+},
+"4075521": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-150C>T",
+"mc": [
+"5 prime UTR variant",
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "P124S"
+},
+"3906512": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.79+2T>C",
+"mc": [
+"splice donor variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"3906093": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.164+15382C>T",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3905840": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-319C>T",
+"mc": [
+"5 prime UTR variant",
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3905721": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.801+531A>T",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3905720": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.164+15460T>C",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3905719": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.164+15406T>C",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3903209": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.17A>T (p.Lys6Ile)",
+"mc": [
+"missense variant",
+"5 prime UTR variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "K179I, K6I"
+},
+"3900926": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.460T>G (p.Phe154Val)",
+"mc": [
+"missense variant",
+"5 prime UTR variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "F154V, F327V"
+},
+"3899047": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.609T>G (p.Ile203Met)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "I203M, I376M, I6M"
+},
+"3769276": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-776G>C",
+"mc": [
+"5 prime UTR variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"3572467": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.367C>A (p.His123Asn)",
+"mc": [
+"missense variant",
+"5 prime UTR variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "H123N, H296N"
+},
+"3392788": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.912del (p.Ile303_Cys304insTer)",
+"mc": [
+"frameshift variant",
+"nonsense"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": ""
+},
+"3372634": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.32G>C (p.Arg11Thr)",
+"mc": [
+"missense variant",
+"5 prime UTR variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "R11T, R184T"
+},
+"3371163": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.832T>C (p.Phe278Leu)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "F278L, F451L, F81L"
+},
+"3370850": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.840A>G (p.Ile280Met)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "I280M, I453M, I83M"
+},
+"3370722": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.817T>A (p.Phe273Ile)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "F273I, F446I, F76I"
+},
+"3363444": {
+"gene": "PTEN",
+"title": "NM_000314.8(PTEN):c.-39TC[3]",
+"mc": [
+"5 prime UTR variant",
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "S163fs"
+},
+"264666": {
+"gene": "LDLR",
+"title": "NC_000019.10:g.11102664_11106687del",
+"mc": [
+"splice acceptor variant",
+"splice donor variant"
+],
+"review": "no classification for the single variant",
+"sig": "no classification for the single variant",
+"protein_change": ""
+},
+"264665": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.650_655dup (p.Asp217_Gly218dup)",
+"mc": [
+"inframe_insertion",
+"intron variant"
+],
+"review": "no classification for the single variant",
+"sig": "no classification for the single variant",
+"protein_change": ""
+},
+"264664": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.657_661del (p.Pro220fs)",
+"mc": [
+"frameshift variant",
+"intron variant"
+],
+"review": "no classification for the single variant",
+"sig": "no classification for the single variant",
+"protein_change": "P179fs, P220fs"
+},
+"4883621": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.756C>G (p.Ser252Arg)",
+"mc": [
+"missense variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "S125R, S211R, S252R"
+},
+"4883546": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.1487G>C (p.Gly496Ala)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "G328A, G369A, G455A, G496A"
+},
+"4875484": {
+"gene": "LDLR",
+"title": "GRCh37/hg19 19p13.2(chr19:11222190-11224438)x1",
+"mc": [],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": ""
+},
+"4859178": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.1419C>G (p.Ile473Met)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "I305M, I346M, I432M, I473M"
+},
+"4859177": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.821C>A (p.Thr274Lys)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "T106K, T147K, T233K, T274K"
+},
+"4859172": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.1514G>T (p.Gly505Val)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "G337V, G378V, G464V, G505V"
+},
+"4859171": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.1353C>T (p.Ile451=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4859170": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.2312-7_2312-5del",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4859169": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.1586+2T>G",
+"mc": [
+"splice donor variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": ""
+},
+"4859167": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.371_377del (p.Arg124fs)",
+"mc": [
+"frameshift variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "R124fs, R83fs"
+},
+"4848502": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.677C>A (p.Ser226Tyr)",
+"mc": [
+"missense variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "S185Y, S226Y"
+},
+"4847620": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.2554A>T (p.Met852Leu)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "M674L, M684L, M811L, M850L, M852L"
+},
+"4843895": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.2128A>G (p.Ser710Gly)",
+"mc": [
+"missense variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "S710G, S542G, S669G"
+},
+"4827584": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.2027G>A (p.Gly676Asp)",
+"mc": [
+"missense variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "G676D, G508D, G635D"
+},
+"4825490": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.2041T>C (p.Cys681Arg)",
+"mc": [
+"missense variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "C513R, C640R, C681R"
+},
+"4825489": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.1294del (p.Leu432fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "L264fs, L391fs, L305fs, L432fs"
+},
+"4825487": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.1280G>A (p.Arg427Lys)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": "R386K, R427K, R300K, R259K"
+},
+"4823870": {
+"gene": "LDLR",
+"title": "GRCh37/hg19 19p13.2(chr19:11226770-11227674)x3",
+"mc": [],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": ""
+},
+"4689971": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.2566G>A (p.Glu856Lys)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "E678K, E688K, E815K, E854K, E856K"
+},
+"4689731": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.747C>G (p.Ile249Met)",
+"mc": [
+"missense variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "I122M, I208M, I249M"
+},
+"4614507": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.2004G>C (p.Glu668Asp)",
+"mc": [
+"missense variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "E627D, E668D, E500D"
+},
+"4537256": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.2140+98G>A",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4536105": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.960C>G (p.Asp320Glu)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "D152E, D193E, D279E, D320E"
+},
+"4535448": {
+"gene": "LDLR",
+"title": "GRCh37/hg19 19p13.2(chr19:11215896-11244675)x1",
+"mc": [],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": ""
+},
+"4529905": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.1879G>C (p.Ala627Pro)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "A459P, A500P, A586P, A627P"
+},
+"4527039": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.*1394G>A",
+"mc": [
+"3 prime UTR variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4097144": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.1154del (p.Leu385fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "L385fs, L217fs, L258fs, L344fs"
+},
+"4097142": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.372G>T (p.Arg124=)",
+"mc": [
+"synonymous variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4097141": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.676_688del (p.Ser226fs)",
+"mc": [
+"frameshift variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "S226fs, S185fs"
+},
+"4097140": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.312T>A (p.Cys104Ter)",
+"mc": [
+"intron variant",
+"nonsense"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "C104*, C190*"
+},
+"4082564": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.*1912C>T",
+"mc": [
+"3 prime UTR variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4046747": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.141T>G (p.Asp47Glu)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "D133E, D47E"
+},
+"4046743": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.207del (p.Lys69fs)",
+"mc": [
+"frameshift variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "K155fs, K69fs"
+},
+"4046742": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.678T>G (p.Ser226=)",
+"mc": [
+"synonymous variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4046740": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.2550A>G (p.Arg850=)",
+"mc": [
+"synonymous variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4046739": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.1490C>A (p.Thr497Asn)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "T456N, T497N, T329N, T370N"
+},
+"4046737": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.2325T>G (p.Val775=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4046736": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.573A>G (p.Gln191=)",
+"mc": [
+"synonymous variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4046735": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.1113G>A (p.Leu371=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4046733": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.1141_1146del (p.Glu381_Gly382del)",
+"mc": [],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": ""
+},
+"3906563": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.1560G>T (p.Arg520Ser)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "R352S, R393S, R479S, R520S"
+},
+"3866809": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.1559G>C (p.Arg520Thr)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "R520T, R352T, R479T, R393T"
+},
+"3866806": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.999G>A (p.Lys333=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3772652": {
+"gene": "LDLR",
+"title": "GRCh37/hg19 19p13.2(chr19:11217241-11224438)x1",
+"mc": [],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": ""
+},
+"3772642": {
+"gene": "LDLR",
+"title": "GRCh37/hg19 19p13.2(chr19:11221328-11224438)x1",
+"mc": [],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": ""
+},
+"3602360": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.2020A>C (p.Asn674His)",
+"mc": [
+"missense variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "N506H, N633H, N674H"
+},
+"3600610": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.2390-2A>C",
+"mc": [
+"splice acceptor variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": ""
+},
+"3537746": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.1108A>T (p.Asn370Tyr)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "N202Y, N329Y, N243Y, N370Y"
+},
+"3537743": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.2214A>C (p.Thr738=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3537742": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.1095C>T (p.Ser365=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3537741": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.897T>C (p.Ala299=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"3537739": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.1786A>C (p.Lys596Gln)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "K428Q, K469Q, K555Q, K596Q"
+},
+"3537738": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.2558T>A (p.Val853Asp)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "V812D, V675D, V853D, V685D, V851D"
+},
+"3537734": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.1078G>A (p.Asp360Asn)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "D319N, D233N, D360N, D192N"
+},
+"3537730": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.2041_2042del (p.Cys681fs)",
+"mc": [
+"frameshift variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "C640fs, C513fs, C681fs"
+},
+"3375257": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.1274A>G (p.Asn425Ser)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "N257S, N298S, N384S, N425S"
+},
+"3374989": {
+"gene": "LDLR",
+"title": "NM_000527.5(LDLR):c.1507A>T (p.Thr503Ser)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "T335S, T376S, T462S, T503S"
+},
+"4883044": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.5675A>T (p.Asn1892Ile)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "N1892I"
+},
+"4882987": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.791A>G (p.Glu264Gly)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "E264G"
+},
+"4874986": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.2781G>T (p.Glu927Asp)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "E927D"
+},
+"4860599": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.5409C>G (p.Ile1803Met)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "I1803M"
+},
+"4860596": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.2928A>G (p.Lys976=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4860595": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.96C>A (p.Asp32Glu)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "D32E"
+},
+"4860593": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.1794G>A (p.Lys598=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4860592": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.1470C>T (p.Asn490=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4860590": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.4176G>A (p.Lys1392=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4860589": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.580T>G (p.Tyr194Asp)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "Y194D"
+},
+"4860588": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.1664del (p.Asn555fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "N555fs"
+},
+"4860585": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.2836G>C (p.Glu946Gln)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "E946Q"
+},
+"4860584": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.3228G>A (p.Leu1076=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4860583": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.4074G>A (p.Gln1358=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4844337": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.4010G>T (p.Arg1337Leu)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "R1337L"
+},
+"4844336": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.771G>T (p.Lys257Asn)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "K257N"
+},
+"4844332": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.3359A>T (p.Glu1120Val)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "E1120V"
+},
+"4844331": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.5457_5458delinsTA (p.Val1819_Arg1820=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4841539": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.1408-5T>C",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4841538": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.4164G>C (p.Glu1388Asp)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "E1388D"
+},
+"4841537": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.2037G>C (p.Lys679Asn)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "K679N"
+},
+"4839513": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.3772G>A (p.Glu1258Lys)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "E1258K"
+},
+"4823845": {
+"gene": "MYH7",
+"title": "GRCh37/hg19 14q11.2(chr14:23889054-23889443)x1",
+"mc": [],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4822685": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.5790+391C>T",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4822142": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.3191A>C (p.Glu1064Ala)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "E1064A"
+},
+"4687747": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.1933C>T (p.Gln645Ter)",
+"mc": [
+"nonsense"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "Q645*"
+},
+"4685295": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.782C>A (p.Ala261Glu)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "A261E"
+},
+"4681028": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.236A>C (p.Gln79Pro)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "Q79P"
+},
+"4680865": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.3466G>A (p.Ala1156Thr)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "A1156T"
+},
+"4614647": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.1014G>A (p.Val338=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4614646": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.1032G>A (p.Glu344=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4614644": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.4170-2A>G",
+"mc": [
+"splice acceptor variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4614642": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.686C>A (p.Ala229Asp)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "A229D"
+},
+"4614641": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.1428C>G (p.Leu476=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4614640": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.995C>G (p.Thr332Ser)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "T332S"
+},
+"4614639": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.1888C>G (p.Pro630Ala)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "P630A"
+},
+"4614638": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.1898A>G (p.Lys633Arg)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "K633R"
+},
+"4540178": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.3202G>C (p.Asp1068His)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "D1068H"
+},
+"4278631": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.2680-1G>T",
+"mc": [
+"splice acceptor variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4114897": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.3246-3C>G",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4114896": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.1434C>T (p.Ile478=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4114892": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.4083T>C (p.Leu1361=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4114890": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.4071G>C (p.Leu1357=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4114889": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.5454G>C (p.Arg1818=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4114888": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.4080C>T (p.Val1360=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4114885": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.1463T>C (p.Phe488Ser)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "F488S"
+},
+"4114884": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.592A>C (p.Ile198Leu)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "I198L"
+},
+"4114883": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.1012G>C (p.Val338Leu)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "V338L"
+},
+"4114882": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.435G>A (p.Lys145=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4114881": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.811T>G (p.Ser271Ala)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "S271A"
+},
+"4114880": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.1260G>T (p.Val420=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4114876": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.222C>G (p.Asp74Glu)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": "D74E"
+},
+"4114874": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.2100G>T (p.Glu700Asp)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "E700D"
+},
+"4114873": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.1747G>A (p.Ala583Thr)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "A583T"
+},
+"4087825": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.3437T>A (p.Ile1146Asn)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "I1146N"
+},
+"4085377": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.345+8C>A",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4085060": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.5790+357G>C",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4082716": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.4018T>C (p.Cys1340Arg)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "C1340R"
+},
+"4082561": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.2246T>C (p.Leu749Pro)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "L749P"
+},
+"4075715": {
+"gene": "MYH7",
+"title": "NM_000257.4(MYH7):c.1241G>C (p.Gly414Ala)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "G414A"
+},
+"4888148": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.2581T>C (p.Phe861Leu)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "F861L"
+},
+"4888046": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.3838-3C>G",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4887936": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.5051A>G (p.Glu1684Gly)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "E1631G, E1652G, E1666G, E1667G, E1684G, E1685G"
+},
+"4885398": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.4934T>C (p.Leu1645Pro)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "L1592P, L1613P, L1627P, L1628P, L1645P, L1646P"
+},
+"4882099": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.280A>T (p.Ile94Phe)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "I94F"
+},
+"4873097": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.4626G>C (p.Val1542=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4864178": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.1923G>C (p.Gln641His)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "Q641H"
+},
+"4864176": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.5920C>A (p.Pro1974Thr)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "P1921T, P1942T, P1956T, P1957T, P1974T, P1975T"
+},
+"4864175": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.3663+1G>C",
+"mc": [
+"splice donor variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": ""
+},
+"4864174": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.2032G>A (p.Glu678Lys)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "E678K"
+},
+"4864173": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.4397G>T (p.Gly1466Val)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "G1413V, G1448V, G1449V, G1466V, G1467V"
+},
+"4864172": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.5164A>G (p.Thr1722Ala)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "T1669A, T1690A, T1704A, T1705A, T1722A, T1723A"
+},
+"4864171": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.5186_5187insT (p.Thr1730fs)",
+"mc": [
+"frameshift variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "T1677fs, T1698fs, T1712fs, T1713fs, T1730fs, T1731fs"
+},
+"4864169": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.195A>G (p.Pro65=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4864168": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.3960+5G>A",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4864166": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.2398C>G (p.Arg800Gly)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "R800G"
+},
+"4864165": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.5835C>T (p.Gly1945=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4864164": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.611+2dup",
+"mc": [
+"splice donor variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4864163": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.2642T>G (p.Met881Arg)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "M881R"
+},
+"4864161": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.853A>C (p.Thr285Pro)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "T285P"
+},
+"4864160": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.1078T>C (p.Trp360Arg)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "W360R"
+},
+"4852976": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.4811-9T>C",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4852008": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.2267del (p.Phe756fs)",
+"mc": [
+"frameshift variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "F756fs"
+},
+"4851786": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.5812G>T (p.Glu1938Ter)",
+"mc": [
+"nonsense",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "E1885*, E1906*, E1920*, E1921*, E1938*, E1939*"
+},
+"4843582": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.5580C>T (p.Val1860=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4843579": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.5826G>A (p.Glu1942=)",
+"mc": [
+"non-coding transcript variant",
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4840578": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.2228G>A (p.Ser743Asn)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "S743N"
+},
+"4840373": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.2641A>G (p.Met881Val)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "M881V"
+},
+"4839643": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.2024A>G (p.Glu675Gly)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "E675G"
+},
+"4838928": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.5851A>C (p.Met1951Leu)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "M1919L, M1934L, M1951L, M1933L, M1898L, M1952L"
+},
+"4833963": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.5971G>T (p.Gly1991Trp)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "G1959W, G1991W, G1974W, G1992W, G1938W, G1973W"
+},
+"4831935": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.3461C>G (p.Pro1154Arg)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "P1101R, P1155R, P1154R"
+},
+"4827344": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.461C>T (p.Pro154Leu)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "P154L"
+},
+"4827342": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.5847C>G (p.Tyr1949Ter)",
+"mc": [
+"nonsense",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "Y1931*, Y1949*, Y1950*, Y1896*, Y1917*, Y1932*"
+},
+"4795628": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.41G>C (p.Arg14Pro)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "R14P"
+},
+"4795613": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.3778T>G (p.Tyr1260Asp)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "Y1260D, Y1207D, Y1261D"
+},
+"4755917": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.5350C>T (p.Pro1784Ser)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "P1731S, P1752S, P1766S, P1767S, P1784S, P1785S"
+},
+"4755764": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.1616C>T (p.Ser539Phe)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "S539F"
+},
+"4689953": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.3806C>G (p.Ala1269Gly)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "A1216G, A1269G, A1270G"
+},
+"4687025": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.3956T>C (p.Met1319Thr)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "M1266T, M1319T, M1320T"
+},
+"4686504": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.56A>T (p.Glu19Val)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "E19V"
+},
+"4686333": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.3766A>C (p.Lys1256Gln)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "K1203Q, K1256Q, K1257Q"
+},
+"4686313": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.1352G>A (p.Arg451Lys)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "R451K"
+},
+"4681098": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.3761T>C (p.Leu1254Pro)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "L1201P, L1254P, L1255P"
+},
+"4680998": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.5750A>T (p.Gln1917Leu)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "Q1864L, Q1885L, Q1899L, Q1900L, Q1917L, Q1918L"
+},
+"4614941": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.4139A>C (p.Lys1380Thr)",
+"mc": [
+"non-coding transcript variant",
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "K1381T, K1327T, K1380T"
+},
+"4614940": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.998+1G>C",
+"mc": [
+"splice donor variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": ""
+},
+"4614937": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.6006C>T (p.Asp2002=)",
+"mc": [
+"synonymous variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4614936": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.1903G>T (p.Glu635Ter)",
+"mc": [
+"nonsense",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "E635*"
+},
+"4540209": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.4580A>G (p.Gln1527Arg)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "Q1474R, Q1509R, Q1510R, Q1527R, Q1528R"
+},
+"4540007": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.2560G>A (p.Ala854Thr)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "A854T"
+},
+"4537709": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.2117T>A (p.Ile706Asn)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "I706N"
+},
+"4537605": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.689dup (p.Ser231fs)",
+"mc": [
+"frameshift variant",
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "S231fs"
+},
+"4536358": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.4299T>G (p.Tyr1433Ter)",
+"mc": [
+"nonsense",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "Y1380*, Y1415*, Y1416*, Y1433*, Y1434*"
+},
+"4532453": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.4304A>G (p.Glu1435Gly)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "E1382G, E1417G, E1418G, E1435G, E1436G"
+},
+"4529940": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.4465G>A (p.Glu1489Lys)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "E1436K, E1471K, E1472K, E1489K, E1490K"
+},
+"4528056": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.2195T>A (p.Leu732His)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "L732H"
+},
+"4527781": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.5519C>T (p.Pro1840Leu)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "P1787L, P1808L, P1822L, P1823L, P1840L, P1841L"
+},
+"4527559": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.5404C>G (p.Pro1802Ala)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "P1749A, P1770A, P1784A, P1785A, P1802A, P1803A"
+},
+"4527456": {
+"gene": "SCN5A",
+"title": "NM_000335.5(SCN5A):c.1079G>T (p.Trp360Leu)",
+"mc": [
+"missense variant",
+"non-coding transcript variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "W360L"
+},
+"242691": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.5726_5727del (p.Glu1909fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "no classification for the single variant",
+"sig": "no classification for the single variant",
+"protein_change": "E1909fs"
+},
+"4887899": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.2969A>G (p.Asn990Ser)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "N990S"
+},
+"4886414": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.14423T>C (p.Phe4808Ser)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "F4803S, F4808S"
+},
+"4886161": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.13412C>T (p.Ser4471Phe)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "S4466F, S4471F"
+},
+"4886158": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.1399C>G (p.Leu467Val)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "L467V"
+},
+"4886151": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.14825G>A (p.Gly4942Asp)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "G4937D, G4942D"
+},
+"4886118": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.11593A>G (p.Ile3865Val)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "I3860V, I3865V"
+},
+"4886109": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.3662G>C (p.Gly1221Ala)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "G1221A"
+},
+"4886095": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.13186C>A (p.Pro4396Thr)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "P4391T, P4396T"
+},
+"4886088": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.14901C>A (p.Asp4967Glu)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "D4962E, D4967E"
+},
+"4883664": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.7462C>T (p.Pro2488Ser)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "P2488S"
+},
+"4883617": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.2398A>C (p.Lys800Gln)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "K800Q"
+},
+"4883611": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.2338G>T (p.Val780Phe)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "V780F"
+},
+"4883564": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.14173-764G>A",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4883555": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.5162G>A (p.Ser1721Asn)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "S1721N"
+},
+"4874858": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.2046G>A (p.Arg682=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4874513": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.11336T>A (p.Leu3779Gln)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "L3774Q, L3779Q"
+},
+"4873758": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.12940C>T (p.Arg4314Trp)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "R4309W, R4314W"
+},
+"4873372": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.2963C>G (p.Ala988Gly)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "A988G"
+},
+"4871726": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.5804_5805del (p.Val1935fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": "V1935fs"
+},
+"4856849": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.2034_2037delinsTGT (p.Thr679fs)",
+"mc": [
+"frameshift variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely pathogenic",
+"protein_change": "T679fs"
+},
+"4856787": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.3902G>C (p.Arg1301Pro)",
+"mc": [
+"missense variant"
+],
+"review": "reviewed by expert panel",
+"sig": "Uncertain significance",
+"protein_change": "R1301P"
+},
+"4853785": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.12789G>C (p.Glu4263Asp)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "E4258D, E4263D"
+},
+"4853666": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.5682G>A (p.Glu1894=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4852736": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.7835+75_7836-67dup",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Benign",
+"protein_change": ""
+},
+"4852717": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.6794T>C (p.Leu2265Pro)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "L2265P"
+},
+"4851844": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.13514+202dup",
+"mc": [
+"intron variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4848769": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.5010C>G (p.Arg1670=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4848761": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.10187A>T (p.Asp3396Val)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "D3396V"
+},
+"4847947": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.7292A>G (p.Asp2431Gly)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "D2431G"
+},
+"4823546": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.3207C>A (p.Asp1069Glu)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "D1069E"
+},
+"4823472": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.6861C>T (p.Ala2287=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4795479": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.7717G>A (p.Glu2573Lys)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "E2573K"
+},
+"4755966": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.4917C>A (p.His1639Gln)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "H1639Q"
+},
+"4755962": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.11003G>A (p.Ser3668Asn)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "S3663N, S3668N"
+},
+"4755809": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.10091G>T (p.Arg3364Leu)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "R3364L"
+},
+"4755795": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.2135C>T (p.Ser712Phe)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "S712F"
+},
+"4755711": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.12496G>A (p.Ala4166Thr)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "A4161T, A4166T"
+},
+"4755668": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.11938G>A (p.Ala3980Thr)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "A3975T, A3980T"
+},
+"4690135": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.3830G>A (p.Gly1277Asp)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "G1277D"
+},
+"4690080": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.1725C>G (p.Asn575Lys)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "N575K"
+},
+"4690079": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.2140G>T (p.Gly714Cys)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "G714C"
+},
+"4689808": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.7802A>T (p.Asp2601Val)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "D2601V"
+},
+"4689700": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.3128G>T (p.Arg1043Leu)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "R1043L"
+},
+"4688649": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.1433A>C (p.Gln478Pro)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "Q478P"
+},
+"4688345": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.12914T>C (p.Leu4305Pro)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "L4300P, L4305P"
+},
+"4687507": {
+"gene": "RYR1",
+"title": "NC_000019.9:g.(38954491_38955278)_(38955363_38956730)del",
+"mc": [],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": ""
+},
+"4686916": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.3281T>G (p.Val1094Gly)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "V1094G"
+},
+"4686911": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.11505G>A (p.Met3835Ile)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "M3830I, M3835I"
+},
+"4686750": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.3676G>A (p.Ala1226Thr)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "A1226T"
+},
+"4686547": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.7880T>C (p.Val2627Ala)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "V2627A"
+},
+"4686311": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.1417C>T (p.Arg473Cys)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "R473C"
+},
+"4686207": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.9397A>C (p.Thr3133Pro)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "T3133P"
+},
+"4685340": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.12327C>G (p.Phe4109Leu)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "F4104L, F4109L"
+},
+"4685031": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.5116C>G (p.Leu1706Val)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "L1706V"
+},
+"4685022": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.7934C>G (p.Thr2645Ser)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "T2645S"
+},
+"4682088": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.2070C>T (p.Gly690=)",
+"mc": [
+"synonymous variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Likely benign",
+"protein_change": ""
+},
+"4682000": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.9625C>A (p.Gln3209Lys)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "Q3209K"
+},
+"4681971": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.9122+1G>T",
+"mc": [
+"splice donor variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Pathogenic",
+"protein_change": ""
+},
+"4681156": {
+"gene": "RYR1",
+"title": "NM_000540.3(RYR1):c.3116_3117delinsCT (p.Cys1039Ser)",
+"mc": [
+"missense variant"
+],
+"review": "criteria provided, single submitter",
+"sig": "Uncertain significance",
+"protein_change": "C1039S"
+}
+}
