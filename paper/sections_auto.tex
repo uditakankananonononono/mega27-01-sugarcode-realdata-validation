@@ -9,8 +9,10 @@ RF00010 & 354.5 & 0.189 & 0.545 & 0.594 & 0.592 & 0.572\\
 Base-pair maximisation (Nussinov) loses to thermodynamic folding on all three families; ensemble decoders (centroid/MEA) beat MFE only on the long RNase P family. The shipped \texttt{rna\_nussinov.fold\_energy} now delegates to ViennaRNA.
 \subsection{Codon adaptation index versus protein abundance}
 On 3489 \emph{E. coli} K-12 genes (NCBI GCF\_000005845.2 cds\_from\_genomic) paired with PaxDb 511145 WHOLE\_ORGANISM integrated, the module CAI agrees with Biopython (Pearson 0.99969 on 500 genes). Spearman correlation with $\log_{10}$ abundance is 0.4958 with the genome-wide reference table and 0.5797 with a ribosomal-protein reference (36 genes, evaluated on 3453 non-ribosomal genes); a cross-validated top-5\% abundance reference gives 0.5741. The ribosomal reference is now shipped as \texttt{ecoli\_highexpr}. File: \texttt{benchmarks/sweep\_codon\_cai.json}.
+\begin{center}\includegraphics[width=0.8\textwidth]{figs/rna_f1.png}\\ \small Figure 1. Base-pair F1 by folding method (sweep\_rna*.json).\end{center}
 \subsection{Pharmacogenomic phenotype translation versus CPIC}
 Against the full CPIC diplotype tables, the original module covered 45/666 CYP2C19 and 253/16836 CYP2D6 diplotypes, with 36 CYP2D6 disagreements traced to stale activity values (*9, *41). After vendoring current CPIC tables: 666/666 and 16836/16836. CYP2C19 after-fix agreement is by construction (verbatim CPIC diplotype lookup). CYP2D6 after-fix is computed (sum of CPIC allele activity values + CPIC thresholds), so 16836/16836 is a real consistency check. File: \texttt{benchmarks/sweep\_pgx\_cpic.json}.
+\begin{center}\includegraphics[width=0.8\textwidth]{figs/pgx_cpic.png}\\ \small Figure 2. CPIC agreement before and after the fix (sweep\_pgx\_cpic.json).\end{center}
 \section{Discovery Track: Splice-Region VUS Reclassification}
 A dinucleotide-window CNN trained on ClinVar splice-region variants reaches gene-grouped 5-fold AUROC 0.935 (logistic 0.912, PWM 0.889); within-position AUROC 0.900. In a head-to-head on n=757 variants SpliceAI scores 0.9775 versus 0.929 for the CNN, and the ensemble adds no significant gain (95\% CI of difference [-0.0087, 0.0081]). We therefore make no state-of-the-art claim. Files: \texttt{discovery/splice\_region\_vus/}.
 \begin{center}\small\begin{tabular}{rrrrrr}\hline CNN threshold & TP & FP & sensitivity & FPR & PPV (prior 3\%)\\\hline
@@ -20,4 +22,5 @@ A dinucleotide-window CNN trained on ClinVar splice-region variants reaches gene
 0.95 & 729 & 33 & 0.3129 & 0.00478 & 0.6694\\
 0.98 & 435 & 11 & 0.1867 & 0.00159 & 0.7838\\
 \hline\end{tabular}\end{center}
+\begin{center}\includegraphics[width=0.8\textwidth]{figs/cnn_operating.png}\\ \small Figure 3. Splice CNN operating points (cnn\_calibration.json).\end{center}
 Consensus VUS candidates (SpliceAI and CNN agreement) number 267 rows in \texttt{vus\_candidates\_consensus.tsv}; none of the top 20 had a matching LOVD record (\texttt{lovd\_top20.json}). These are hypotheses for RNA-level testing, not reclassifications.

@@ -31,6 +31,13 @@ o.append('\\hline\\end{tabular}\\end{center}')
 o.append('\\section{Dataset Manifest}\\begin{center}\\scriptsize\\begin{tabular}{rp{4.2cm}p{3.6cm}p{5cm}}\\hline \\# & Dataset & Accession/version & Used in\\\\\\hline')
 for r in csv.DictReader(open('../manifests/datasets.tsv'),delimiter='\t'): o.append(f"{r['id']} & {esc(r['dataset'])} & {esc(r['accession_or_version'])} & {esc(r['used_in'])}\\\\")
 o.append('\\hline\\end{tabular}\\end{center}')
+fig=lambda f,cap:'\\begin{center}\\includegraphics[width=0.8\\textwidth]{'+f+'}\\\\ \\small '+cap+'\\end{center}'
+j=[k for k,x in enumerate(o) if 'Pharmacogenomic phenotype' in x][0]
+o.insert(j,fig('figs/rna_f1.png','Figure 1. Base-pair F1 by folding method (sweep\\_rna*.json).'))
+j=[k for k,x in enumerate(o) if 'Discovery Track' in x][0]
+o.insert(j,fig('figs/pgx_cpic.png','Figure 2. CPIC agreement before and after the fix (sweep\\_pgx\\_cpic.json).'))
+j=[k for k,x in enumerate(o) if x.startswith('Consensus VUS')][0]
+o.insert(j,fig('figs/cnn_operating.png','Figure 3. Splice CNN operating points (cnn\\_calibration.json).'))
 i=[k for k,x in enumerate(o) if x.startswith('\\appendix')][0]
 open('sections_auto.tex','w').write('\n'.join(o[:i])+'\n')
 open('sections_appendix.tex','w').write('\n'.join(o[i:])+'\n')
