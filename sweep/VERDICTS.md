@@ -179,3 +179,6 @@ BUG FIXED (sugarcode 7067655). HGVS consequence on 682 ClinVar records (12 genes
 
 ## modules.crispr_opt on-target scorers vs Doench 2016 FC+RES (2026-09-25)
 No code bug. 5,310 guides, 17 genes. Spearman vs measured: RS2+position 0.7106, RS2 sequence-only 0.6693, RS1 0.3948, edge heuristic 0.1125 (in-sample for RS1/RS2). Open: design_guides ranks with RS1; switching to RS2 needs a held-out screen. benchmarks/sweep_crispr_ontarget_fcres.json
+
+## modules.gene_analysis.power_estimate vs statsmodels NormalIndPower (2026-09-25)
+BUG FIXED (sugarcode 4defcdb). Two-entry z table matched 7/41 grid cases (power 0.5 gave 16 vs 8; power 0.99 gave 21 vs 37); exact quantiles now 41/41. Formula check only; rest of gene_analysis not validated (not counted in inventory). benchmarks/sweep_power_statsmodels.json
