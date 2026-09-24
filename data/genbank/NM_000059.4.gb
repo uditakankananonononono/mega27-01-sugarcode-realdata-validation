@@ -1,0 +1,787 @@
+LOCUS       NM_000059              11954 bp    mRNA    linear   PRI 10-SEP-2026
+DEFINITION  Homo sapiens BRCA2 DNA repair associated (BRCA2), transcript
+            variant 1, mRNA.
+ACCESSION   NM_000059
+VERSION     NM_000059.4
+KEYWORDS    RefSeq; MANE Select.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 11954)
+  AUTHORS   Kotsopoulos,J., Lubinski,J., Huzarski,T., Bychkovsky,B.L.,
+            Moller,P., Kim,R.H., Tung,N., Eisen,A., Foulkes,W., Singer,C.F.,
+            Aeilts,A., Neuhausen,S.L., Bordeleau,L., Karlan,B., Fruscio,R.,
+            Eng,C., Olopade,O., Zakalik,D., Couch,F., Y Cajal,T.R., Sun,P.,
+            Gronwald,J. and Narod,S.A.
+  TITLE     Incidence of endometrial cancer in BRCA mutation carriers
+  JOURNAL   Gynecol Oncol 189, 148-155 (2024)
+   PUBMED   39173195
+  REMARK    GeneRIF: Incidence of endometrial cancer in BRCA mutation carriers.
+REFERENCE   2  (bases 1 to 11954)
+  AUTHORS   Dunce,J.M. and Davies,O.R.
+  TITLE     BRCA2 stabilises RAD51 and DMC1 nucleoprotein filaments through a
+            conserved interaction mode
+  JOURNAL   Nat Commun 15 (1), 8292 (2024)
+   PUBMED   39333100
+REFERENCE   3  (bases 1 to 11954)
+  AUTHORS   Huang,Y., Li,W., Foo,T., Ji,J.H., Wu,B., Tomimatsu,N., Fang,Q.,
+            Gao,B., Long,M., Xu,J., Maqbool,R., Mukherjee,B., Ni,T., Alejo,S.,
+            He,Y., Burma,S., Lan,L., Xia,B. and Zhao,W.
+  TITLE     DSS1 restrains BRCA2's engagement with dsDNA for homologous
+            recombination, replication fork protection, and R-loop homeostasis
+  JOURNAL   Nat Commun 15 (1), 7081 (2024)
+   PUBMED   39152168
+  REMARK    GeneRIF: DSS1 restrains BRCA2's engagement with dsDNA for
+            homologous recombination, replication fork protection, and R-loop
+            homeostasis.
+REFERENCE   4  (bases 1 to 11954)
+  AUTHORS   Fishchuk,L., Rossokha,Z., Lobanova,O., Cheshuk,V., Vereshchako,R.,
+            Vershyhora,V., Medvedieva,N., Dubitskaa,O. and Gorovenko,N.
+  TITLE     Hypermethylation of the BRCA2 gene promoter and its
+            co-hypermethylation with the BRCA1 gene promoter in patients with
+            breast cancer
+  JOURNAL   Cancer Biomark 40 (3-4), 275-283 (2024)
+   PUBMED   39177589
+  REMARK    GeneRIF: Hypermethylation of the BRCA2 gene promoter and its
+            co-hypermethylation with the BRCA1 gene promoter in patients with
+            breast cancer.
+REFERENCE   5  (bases 1 to 11954)
+  AUTHORS   Whitney,M., Thayer,M., Reifsteck,C., Olson,S., Smith,L.,
+            Jakobs,P.M., Leach,R., Naylor,S., Joenje,H. and Grompe,M.
+  TITLE     Microcell mediated chromosome transfer maps the Fanconi anaemia
+            group D gene to chromosome 3p
+  JOURNAL   Nat Genet 11 (3), 341-343 (1995)
+   PUBMED   7581463
+REFERENCE   6  (bases 1 to 11954)
+  AUTHORS   Schutte,M., da Costa,L.T., Hahn,S.A., Moskaluk,C., Hoque,A.T.,
+            Rozenblum,E., Weinstein,C.L., Bittner,M., Meltzer,P.S., Trent,J.M.
+            et al.
+  TITLE     Identification by representational difference analysis of a
+            homozygous deletion in pancreatic carcinoma that lies within the
+            BRCA2 region
+  JOURNAL   Proc Natl Acad Sci U S A 92 (13), 5950-5954 (1995)
+   PUBMED   7597059
+REFERENCE   7  (bases 1 to 11954)
+  AUTHORS   Mehta,P.A. and Ebens,C.L.
+  TITLE     Fanconi Anemia
+  JOURNAL   (in) Adam MP, Bick S, Mirzaa GM, Wallace SE and Amemiya A (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   20301575
+REFERENCE   8  (bases 1 to 11954)
+  AUTHORS   Turner,J.T., Brzezinski,J. and Dome,J.S.
+  TITLE     Wilms Tumor Predisposition
+  JOURNAL   (in) Adam MP, Bick S, Mirzaa GM, Wallace SE and Amemiya A (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   20301471
+REFERENCE   9  (bases 1 to 11954)
+  AUTHORS   Petrucelli,N., Daly,M.B. and Pal,T.
+  TITLE     BRCA1- and BRCA2-Associated Hereditary Breast and Ovarian Cancer
+  JOURNAL   (in) Adam MP, Bick S, Mirzaa GM, Wallace SE and Amemiya A (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   20301425
+REFERENCE   10 (bases 1 to 11954)
+  AUTHORS   Watson,C.G.
+  TITLE     The life of a resolution--how ADA policy is made
+  JOURNAL   J Conf Workshop, 14-23 (1975)
+   PUBMED   1072445
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AL445212.9 and AL137247.14.
+            
+            On Feb 27, 2020 this sequence version replaced NM_000059.3.
+            
+            Summary: The product of this gene in involved in maintenance of
+            genome stability. It is involved in double-strand break repair
+            pathways during mitotic and meiotic homologous recombination and
+            functions in protecting DNA replication forks. The encoded protein
+            contains sites for interactions with PALB2 and EMSY and an
+            N-terminal DNA binding domain. It also contains a RAD51 binding
+            domain with multiple components. It has multiple BRC repeats, an
+            alpha helix domain, oligonucleotide binding folds, and a tower-like
+            domain. It has a nuclear localization signal and a phosphorylation
+            site for cyclin-dependent kinase. The C-terminus of the protein can
+            bind single-stranded and double-stranded DNA. The product of this
+            gene interacts with multiple proteins, including RAD51. It is
+            involved in recruiting RAD51 filaments to DNA double-strand break
+            sites and also in cytoplasmic division. It also acts as a tumor
+            suppressor. Mutations in this gene or decreased expression have
+            been implicated in multiple tumor types, including breast, ovarian,
+            pancreatic, prostate and other cancers. [provided by RefSeq, May
+            2026].
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: SRR14038193.3812502.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMEA1965299, SAMEA1968968
+                                           [ECO:0000348]
+            ##Evidence-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            MANE Ensembl match     :: ENST00000380152.8/ ENSP00000369497.3
+            RefSeq Select criteria :: based on manual assertion, conservation,
+                                      expression, longest protein
+            ##RefSeq-Attributes-END##
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-160               AL445212.9         83696-83855
+            161-266             AL445212.9         84610-84715
+            267-515             AL445212.9         87265-87513
+            516-624             AL445212.9         93264-93372
+            625-674             AL445212.9         94289-94338
+            675-715             AL445212.9         94430-94470
+            716-830             AL445212.9         94687-94801
+            831-880             AL445212.9         97631-97680
+            881-992             AL445212.9         99107-99218
+            993-2108            AL445212.9         100460-101575
+            2109-7040           AL445212.9         104453-109384
+            7041-7136           AL445212.9         112746-112841
+            7137-7206           AL445212.9         115015-115084
+            7207-7634           AL445212.9         123049-123476
+            7635-7816           AL445212.9         124616-124797
+            7817-8004           AL445212.9         125930-126117
+            8005-8175           AL445212.9         130711-130881
+            8176-8530           AL445212.9         131367-131721
+            8531-8686           AL445212.9         138590-138745
+            8687-8831           AL445212.9         139144-139288
+            8832-8953           AL445212.9         144858-144979
+            8954-9152           AL445212.9         147505-147703
+            9153-9316           AL445212.9         147938-148101
+            9317-9455           AL445212.9         148195-148333
+            9456-9700           AL445212.9         162877-163121
+            9701-9847           AL445212.9         165086-165232
+            9848-10155          AL445212.9         166350-166657
+            10156-11954         AL137247.14        101-1899
+FEATURES             Location/Qualifiers
+     source          1..11954
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="13"
+                     /map="13q13.1"
+     gene            1..11954
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /note="BRCA2 DNA repair associated"
+                     /db_xref="GeneID:675"
+                     /db_xref="HGNC:HGNC:1101"
+                     /db_xref="MIM:600185"
+     exon            1..160
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /inference="alignment:Splign:2.1.0"
+     exon            161..266
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /inference="alignment:Splign:2.1.0"
+     misc_feature    191..193
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /note="upstream in-frame stop codon"
+     CDS             200..10456
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /note="isoform 1 is encoded by transcript variant 1;
+                     BRCA1/BRCA2-containing complex, subunit 2; breast cancer
+                     type 2 susceptibility protein; DNA repair-associated
+                     BRCA2; breast cancer 2 tumor suppressor; breast and
+                     ovarian cancer susceptibility gene, early onset; Fanconi
+                     anemia group D1 protein; breast and ovarian cancer
+                     susceptibility protein 2; breast cancer 2, early onset;
+                     mutant BRCA2; mutant DNA repair-associated protein 2;
+                     BRCA2 DNA repair associated protein"
+                     /codon_start=1
+                     /product="breast cancer type 2 susceptibility protein
+                     isoform 1"
+                     /protein_id="NP_000050.3"
+                     /db_xref="CCDS:CCDS9344.1"
+                     /db_xref="GeneID:675"
+                     /db_xref="HGNC:HGNC:1101"
+                     /db_xref="MIM:600185"
+                     /translation="MPIGSKERPTFFEIFKTRCNKADLGPISLNWFEELSSEAPPYNS
+                     EPAEESEHKNNNYEPNLFKTPQRKPSYNQLASTPIIFKEQGLTLPLYQSPVKELDKFK
+                     LDLGRNVPNSRHKSLRTVKTKMDQADDVSCPLLNSCLSESPVVLQCTHVTPQRDKSVV
+                     CGSLFHTPKFVKGRQTPKHISESLGAEVDPDMSWSSSLATPPTLSSTVLIVRNEEASE
+                     TVFPHDTTANVKSYFSNHDESLKKNDRFIASVTDSENTNQREAASHGFGKTSGNSFKV
+                     NSCKDHIGKSMPNVLEDEVYETVVDTSEEDSFSLCFSKCRTKNLQKVRTSKTRKKIFH
+                     EANADECEKSKNQVKEKYSFVSEVEPNDTDPLDSNVANQKPFESGSDKISKEVVPSLA
+                     CEWSQLTLSGLNGAQMEKIPLLHISSCDQNISEKDLLDTENKRKKDFLTSENSLPRIS
+                     SLPKSEKPLNEETVVNKRDEEQHLESHTDCILAVKQAISGTSPVASSFQGIKKSIFRI
+                     RESPKETFNASFSGHMTDPNFKKETEASESGLEIHTVCSQKEDSLCPNLIDNGSWPAT
+                     TTQNSVALKNAGLISTLKKKTNKFIYAIHDETSYKGKKIPKDQKSELINCSAQFEANA
+                     FEAPLTFANADSGLLHSSVKRSCSQNDSEEPTLSLTSSFGTILRKCSRNETCSNNTVI
+                     SQDLDYKEAKCNKEKLQLFITPEADSLSCLQEGQCENDPKSKKVSDIKEEVLAAACHP
+                     VQHSKVEYSDTDFQSQKSLLYDHENASTLILTPTSKDVLSNLVMISRGKESYKMSDKL
+                     KGNNYESDVELTKNIPMEKNQDVCALNENYKNVELLPPEKYMRVASPSRKVQFNQNTN
+                     LRVIQKNQEETTSISKITVNPDSEELFSDNENNFVFQVANERNNLALGNTKELHETDL
+                     TCVNEPIFKNSTMVLYGDTGDKQATQVSIKKDLVYVLAEENKNSVKQHIKMTLGQDLK
+                     SDISLNIDKIPEKNNDYMNKWAGLLGPISNHSFGGSFRTASNKEIKLSEHNIKKSKMF
+                     FKDIEEQYPTSLACVEIVNTLALDNQKKLSKPQSINTVSAHLQSSVVVSDCKNSHITP
+                     QMLFSKQDFNSNHNLTPSQKAEITELSTILEESGSQFEFTQFRKPSYILQKSTFEVPE
+                     NQMTILKTTSEECRDADLHVIMNAPSIGQVDSSKQFEGTVEIKRKFAGLLKNDCNKSA
+                     SGYLTDENEVGFRGFYSAHGTKLNVSTEALQKAVKLFSDIENISEETSAEVHPISLSS
+                     SKCHDSVVSMFKIENHNDKTVSEKNNKCQLILQNNIEMTTGTFVEEITENYKRNTENE
+                     DNKYTAASRNSHNLEFDGSDSSKNDTVCIHKDETDLLFTDQHNICLKLSGQFMKEGNT
+                     QIKEDLSDLTFLEVAKAQEACHGNTSNKEQLTATKTEQNIKDFETSDTFFQTASGKNI
+                     SVAKESFNKIVNFFDQKPEELHNFSLNSELHSDIRKNKMDILSYEETDIVKHKILKES
+                     VPVGTGNQLVTFQGQPERDEKIKEPTLLGFHTASGKKVKIAKESLDKVKNLFDEKEQG
+                     TSEITSFSHQWAKTLKYREACKDLELACETIEITAAPKCKEMQNSLNNDKNLVSIETV
+                     VPPKLLSDNLCRQTENLKTSKSIFLKVKVHENVEKETAKSPATCYTNQSPYSVIENSA
+                     LAFYTSCSRKTSVSQTSLLEAKKWLREGIFDGQPERINTADYVGNYLYENNSNSTIAE
+                     NDKNHLSEKQDTYLSNSSMSNSYSYHSDEVYNDSGYLSKNKLDSGIEPVLKNVEDQKN
+                     TSFSKVISNVKDANAYPQTVNEDICVEELVTSSSPCKNKNAAIKLSISNSNNFEVGPP
+                     AFRIASGKIVCVSHETIKKVKDIFTDSFSKVIKENNENKSKICQTKIMAGCYEALDDS
+                     EDILHNSLDNDECSTHSHKVFADIQSEEILQHNQNMSGLEKVSKISPCDVSLETSDIC
+                     KCSIGKLHKSVSSANTCGIFSTASGKSVQVSDASLQNARQVFSEIEDSTKQVFSKVLF
+                     KSNEHSDQLTREENTAIRTPEHLISQKGFSYNVVNSSAFSGFSTASGKQVSILESSLH
+                     KVKGVLEEFDLIRTEHSLHYSPTSRQNVSKILPRVDKRNPEHCVNSEMEKTCSKEFKL
+                     SNNLNVEGGSSENNHSIKVSPYLSQFQQDKQQLVLGTKVSLVENIHVLGKEQASPKNV
+                     KMEIGKTETFSDVPVKTNIEVCSTYSKDSENYFETEAVEIAKAFMEDDELTDSKLPSH
+                     ATHSLFTCPENEEMVLSNSRIGKRRGEPLILVGEPSIKRNLLNEFDRIIENQEKSLKA
+                     SKSTPDGTIKDRRLFMHHVSLEPITCVPFRTTKERQEIQNPNFTAPGQEFLSKSHLYE
+                     HLTLEKSSSNLAVSGHPFYQVSATRNEKMRHLITTGRPTKVFVPPFKTKSHFHRVEQC
+                     VRNINLEENRQKQNIDGHGSDDSKNKINDNEIHQFNKNNSNQAVAVTFTKCEEEPLDL
+                     ITSLQNARDIQDMRIKKKQRQRVFPQPGSLYLAKTSTLPRISLKAAVGGQVPSACSHK
+                     QLYTYGVSKHCIKINSKNAESFQFHTEDYFGKESLWTGKGIQLADGGWLIPSNDGKAG
+                     KEEFYRALCDTPGVDPKLISRIWVYNHYRWIIWKLAAMECAFPKEFANRCLSPERVLL
+                     QLKYRYDTEIDRSRRSAIKKIMERDDTAAKTLVLCVSDIISLSANISETSSNKTSSAD
+                     TQKVAIIELTDGWYAVKAQLDPPLLAVLKNGRLTVGQKIILHGAELVGSPDACTPLEA
+                     PESLMLKISANSTRPARWYTKLGFFPDPRPFPLPLSSLFSDGGNVGCVDVIIQRAYPI
+                     QWMEKTSSGLYIFRNEREEEKEAAKYVEAQQKRLEALFTKIQEEFEEHEENTTKPYLP
+                     SRALTRQQVRALQDGAELYEAVKNAADPAYLEGYFSEEQLRALNNHRQMLNDKKQAQI
+                     QLEIRKAMESAEQKEQGLSRDVTTVWKLRIVSYSKKEKDSVILSIWRPSSDLYSLLTE
+                     GKRYRIYHLATSKSKSKSERANIQLAATKKTQYQQLPVSDEILFQIYQPREPLHFSKF
+                     LDPDFQPSCSEVDLIGFVVSVVKKTGLAPFVYLSDECYNLLAIKFWIDLNEDIIKPHM
+                     LIAASNLQWRPESKSGLLTLFAGDFSVFSASPKEGHFQETFNKMKNTVENIDILCNEA
+                     ENKLMHILHANDPKWSTPTKDCTSGPYTAQIIPGTGNKLLMSSPNCEIYYQSPLSLCM
+                     AKRKSVSTPVSAQMTSKSCKGEKEIDDQKNCKKRRALDFLSRLPLPPPVSPICTFVSP
+                     AAQKAFQPPRSCGTKYETPIKKKELNSPQMTPFKKFNEISLLESNSIADEELALINTQ
+                     ALLSGSTGEKQFISVSESTRTAPTSSEDYLRLKRRCTTSLIKEQESSQASTEECEKNK
+                     QDTITTKKYI"
+     misc_feature    200..319
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /note="propagated from UniProtKB/Swiss-Prot (P51587.4);
+                     Region: Interaction with PALB2"
+     misc_feature    308..403
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /note="propagated from UniProtKB/Swiss-Prot (P51587.4);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    407..409
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P51587.4); phosphorylation site"
+     misc_feature    1271..1342
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /note="propagated from UniProtKB/Swiss-Prot (P51587.4);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    1532..1534
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P51587.4); phosphorylation site"
+     misc_feature    1673..1675
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P51587.4); phosphorylation site"
+     misc_feature    2114..3199
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /note="propagated from UniProtKB/Swiss-Prot (P51587.4);
+                     Region: Interaction with NPM1.
+                     /evidence=ECO:0000269|PubMed:21084279"
+     misc_feature    2462..2464
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:17525332; propagated from
+                     UniProtKB/Swiss-Prot (P51587.4); phosphorylation site"
+     misc_feature    3203..3307
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /note="propagated from UniProtKB/Swiss-Prot (P51587.4);
+                     Region: BRCA2 1"
+     misc_feature    3206..6445
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /note="propagated from UniProtKB/Swiss-Prot (P51587.4);
+                     Region: Interaction with RAD51.
+                     /evidence=ECO:0000250|UniProtKB:P97929"
+     misc_feature    4211..5542
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /note="propagated from UniProtKB/Swiss-Prot (P51587.4);
+                     Region: Interaction with POLH.
+                     /evidence=ECO:0000269|PubMed:24485656"
+     misc_feature    4427..4984
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /note="propagated from UniProtKB/Swiss-Prot (P51587.4);
+                     Region: Required for stimulation of POLH DNA
+                     polymerization activity.
+                     /evidence=ECO:0000269|PubMed:24485656"
+     misc_feature    6107..6109
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P51587.4); phosphorylation site"
+     misc_feature    6302..6304
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P51587.4); phosphorylation site"
+     misc_feature    6350..6454
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /note="propagated from UniProtKB/Swiss-Prot (P51587.4);
+                     Region: BRCA2 8"
+     misc_feature    6482..6484
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P51587.4); phosphorylation site"
+     misc_feature    7007..7210
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /note="propagated from UniProtKB/Swiss-Prot (P51587.4);
+                     Region: Interaction with HSF2BP.
+                     /evidence=ECO:0000269|PubMed:31242413"
+     misc_feature    7247..7834
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /note="propagated from UniProtKB/Swiss-Prot (P51587.4);
+                     Region: Interaction with FANCD2"
+     misc_feature    7487..7549
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /note="propagated from UniProtKB/Swiss-Prot (P51587.4);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    7640..8695
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /note="propagated from UniProtKB/Swiss-Prot (P51587.4);
+                     Region: Interaction with SEM1.
+                     /evidence=ECO:0000269|PubMed:10373512,
+                     ECO:0000269|PubMed:16205630"
+     misc_feature    8243..8293
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /note="propagated from UniProtKB/Swiss-Prot (P51587.4);
+                     Region: Nuclear export signal, masked by interaction with
+                     SEM1. /evidence=ECO:0000269|PubMed:24013206"
+     misc_feature    9992..10189
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /note="propagated from UniProtKB/Swiss-Prot (P51587.4);
+                     Region: TR2 region. /evidence=ECO:0000269|PubMed:17515903,
+                     ECO:0000269|PubMed:17515904"
+     misc_feature    10070..10072
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /note="Phosphoserine, by CDK1 and CDK2.
+                     /evidence=ECO:0000269|PubMed:15800615,
+                     ECO:0000269|PubMed:17515903; propagated from
+                     UniProtKB/Swiss-Prot (P51587.4); phosphorylation site"
+     misc_feature    10154..10156
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P51587.4); phosphorylation site"
+     misc_feature    10358..10360
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /note="Phosphothreonine, by CHEK1 and CHEK2.
+                     /evidence=ECO:0000269|PubMed:18317453; propagated from
+                     UniProtKB/Swiss-Prot (P51587.4); phosphorylation site"
+     misc_feature    10376..10453
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /note="propagated from UniProtKB/Swiss-Prot (P51587.4);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     exon            267..515
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /inference="alignment:Splign:2.1.0"
+     exon            516..624
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /inference="alignment:Splign:2.1.0"
+     exon            625..674
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /inference="alignment:Splign:2.1.0"
+     exon            675..715
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /inference="alignment:Splign:2.1.0"
+     exon            716..830
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /inference="alignment:Splign:2.1.0"
+     exon            831..880
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /inference="alignment:Splign:2.1.0"
+     exon            881..992
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /inference="alignment:Splign:2.1.0"
+     exon            993..2108
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2109..7040
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /inference="alignment:Splign:2.1.0"
+     exon            7041..7136
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /inference="alignment:Splign:2.1.0"
+     exon            7137..7206
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /inference="alignment:Splign:2.1.0"
+     exon            7207..7634
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /inference="alignment:Splign:2.1.0"
+     exon            7635..7816
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /inference="alignment:Splign:2.1.0"
+     exon            7817..8004
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /inference="alignment:Splign:2.1.0"
+     exon            8005..8175
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /inference="alignment:Splign:2.1.0"
+     exon            8176..8530
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /inference="alignment:Splign:2.1.0"
+     exon            8531..8686
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /inference="alignment:Splign:2.1.0"
+     exon            8687..8831
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /inference="alignment:Splign:2.1.0"
+     exon            8832..8953
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /inference="alignment:Splign:2.1.0"
+     exon            8954..9152
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /inference="alignment:Splign:2.1.0"
+     exon            9153..9316
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /inference="alignment:Splign:2.1.0"
+     exon            9317..9455
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /inference="alignment:Splign:2.1.0"
+     exon            9456..9700
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /inference="alignment:Splign:2.1.0"
+     exon            9701..9847
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /inference="alignment:Splign:2.1.0"
+     exon            9848..11954
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /inference="alignment:Splign:2.1.0"
+     regulatory      11933..11938
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /note="hexamer: AATAAA"
+     polyA_site      11954
+                     /gene="BRCA2"
+                     /gene_synonym="BRCC2; BROVCA2; FACD; FAD; FAD1; FANCD;
+                     FANCD1; GLM3; PNCA2; XRCC11"
+                     /note="major polyA site"
+ORIGIN      
+        1 agaggcggag ccgctgtggc actgctgcgc ctctgctgcg cctcgggtgt cttttgcggc
+       61 ggtgggtcgc cgccgggaga agcgtgaggg gacagatttg tgaccggcgc ggtttttgtc
+      121 agcttactcc ggccaaaaaa gaactgcacc tctggagcgg acttatttac caagcattgg
+      181 aggaatatcg taggtaaaaa tgcctattgg atccaaagag aggccaacat tttttgaaat
+      241 ttttaagaca cgctgcaaca aagcagattt aggaccaata agtcttaatt ggtttgaaga
+      301 actttcttca gaagctccac cctataattc tgaacctgca gaagaatctg aacataaaaa
+      361 caacaattac gaaccaaacc tatttaaaac tccacaaagg aaaccatctt ataatcagct
+      421 ggcttcaact ccaataatat tcaaagagca agggctgact ctgccgctgt accaatctcc
+      481 tgtaaaagaa ttagataaat tcaaattaga cttaggaagg aatgttccca atagtagaca
+      541 taaaagtctt cgcacagtga aaactaaaat ggatcaagca gatgatgttt cctgtccact
+      601 tctaaattct tgtcttagtg aaagtcctgt tgttctacaa tgtacacatg taacaccaca
+      661 aagagataag tcagtggtat gtgggagttt gtttcataca ccaaagtttg tgaagggtcg
+      721 tcagacacca aaacatattt ctgaaagtct aggagctgag gtggatcctg atatgtcttg
+      781 gtcaagttct ttagctacac cacccaccct tagttctact gtgctcatag tcagaaatga
+      841 agaagcatct gaaactgtat ttcctcatga tactactgct aatgtgaaaa gctatttttc
+      901 caatcatgat gaaagtctga agaaaaatga tagatttatc gcttctgtga cagacagtga
+      961 aaacacaaat caaagagaag ctgcaagtca tggatttgga aaaacatcag ggaattcatt
+     1021 taaagtaaat agctgcaaag accacattgg aaagtcaatg ccaaatgtcc tagaagatga
+     1081 agtatatgaa acagttgtag atacctctga agaagatagt ttttcattat gtttttctaa
+     1141 atgtagaaca aaaaatctac aaaaagtaag aactagcaag actaggaaaa aaattttcca
+     1201 tgaagcaaac gctgatgaat gtgaaaaatc taaaaaccaa gtgaaagaaa aatactcatt
+     1261 tgtatctgaa gtggaaccaa atgatactga tccattagat tcaaatgtag caaatcagaa
+     1321 gccctttgag agtggaagtg acaaaatctc caaggaagtt gtaccgtctt tggcctgtga
+     1381 atggtctcaa ctaacccttt caggtctaaa tggagcccag atggagaaaa tacccctatt
+     1441 gcatatttct tcatgtgacc aaaatatttc agaaaaagac ctattagaca cagagaacaa
+     1501 aagaaagaaa gattttctta cttcagagaa ttctttgcca cgtatttcta gcctaccaaa
+     1561 atcagagaag ccattaaatg aggaaacagt ggtaaataag agagatgaag agcagcatct
+     1621 tgaatctcat acagactgca ttcttgcagt aaagcaggca atatctggaa cttctccagt
+     1681 ggcttcttca tttcagggta tcaaaaagtc tatattcaga ataagagaat cacctaaaga
+     1741 gactttcaat gcaagttttt caggtcatat gactgatcca aactttaaaa aagaaactga
+     1801 agcctctgaa agtggactgg aaatacatac tgtttgctca cagaaggagg actccttatg
+     1861 tccaaattta attgataatg gaagctggcc agccaccacc acacagaatt ctgtagcttt
+     1921 gaagaatgca ggtttaatat ccactttgaa aaagaaaaca aataagttta tttatgctat
+     1981 acatgatgaa acatcttata aaggaaaaaa aataccgaaa gaccaaaaat cagaactaat
+     2041 taactgttca gcccagtttg aagcaaatgc ttttgaagca ccacttacat ttgcaaatgc
+     2101 tgattcaggt ttattgcatt cttctgtgaa aagaagctgt tcacagaatg attctgaaga
+     2161 accaactttg tccttaacta gctcttttgg gacaattctg aggaaatgtt ctagaaatga
+     2221 aacatgttct aataatacag taatctctca ggatcttgat tataaagaag caaaatgtaa
+     2281 taaggaaaaa ctacagttat ttattacccc agaagctgat tctctgtcat gcctgcagga
+     2341 aggacagtgt gaaaatgatc caaaaagcaa aaaagtttca gatataaaag aagaggtctt
+     2401 ggctgcagca tgtcacccag tacaacattc aaaagtggaa tacagtgata ctgactttca
+     2461 atcccagaaa agtcttttat atgatcatga aaatgccagc actcttattt taactcctac
+     2521 ttccaaggat gttctgtcaa acctagtcat gatttctaga ggcaaagaat catacaaaat
+     2581 gtcagacaag ctcaaaggta acaattatga atctgatgtt gaattaacca aaaatattcc
+     2641 catggaaaag aatcaagatg tatgtgcttt aaatgaaaat tataaaaacg ttgagctgtt
+     2701 gccacctgaa aaatacatga gagtagcatc accttcaaga aaggtacaat tcaaccaaaa
+     2761 cacaaatcta agagtaatcc aaaaaaatca agaagaaact acttcaattt caaaaataac
+     2821 tgtcaatcca gactctgaag aacttttctc agacaatgag aataattttg tcttccaagt
+     2881 agctaatgaa aggaataatc ttgctttagg aaatactaag gaacttcatg aaacagactt
+     2941 gacttgtgta aacgaaccca ttttcaagaa ctctaccatg gttttatatg gagacacagg
+     3001 tgataaacaa gcaacccaag tgtcaattaa aaaagatttg gtttatgttc ttgcagagga
+     3061 gaacaaaaat agtgtaaagc agcatataaa aatgactcta ggtcaagatt taaaatcgga
+     3121 catctccttg aatatagata aaataccaga aaaaaataat gattacatga acaaatgggc
+     3181 aggactctta ggtccaattt caaatcacag ttttggaggt agcttcagaa cagcttcaaa
+     3241 taaggaaatc aagctctctg aacataacat taagaagagc aaaatgttct tcaaagatat
+     3301 tgaagaacaa tatcctacta gtttagcttg tgttgaaatt gtaaatacct tggcattaga
+     3361 taatcaaaag aaactgagca agcctcagtc aattaatact gtatctgcac atttacagag
+     3421 tagtgtagtt gtttctgatt gtaaaaatag tcatataacc cctcagatgt tattttccaa
+     3481 gcaggatttt aattcaaacc ataatttaac acctagccaa aaggcagaaa ttacagaact
+     3541 ttctactata ttagaagaat caggaagtca gtttgaattt actcagttta gaaaaccaag
+     3601 ctacatattg cagaagagta catttgaagt gcctgaaaac cagatgacta tcttaaagac
+     3661 cacttctgag gaatgcagag atgctgatct tcatgtcata atgaatgccc catcgattgg
+     3721 tcaggtagac agcagcaagc aatttgaagg tacagttgaa attaaacgga agtttgctgg
+     3781 cctgttgaaa aatgactgta acaaaagtgc ttctggttat ttaacagatg aaaatgaagt
+     3841 ggggtttagg ggcttttatt ctgctcatgg cacaaaactg aatgtttcta ctgaagctct
+     3901 gcaaaaagct gtgaaactgt ttagtgatat tgagaatatt agtgaggaaa cttctgcaga
+     3961 ggtacatcca ataagtttat cttcaagtaa atgtcatgat tctgttgttt caatgtttaa
+     4021 gatagaaaat cataatgata aaactgtaag tgaaaaaaat aataaatgcc aactgatatt
+     4081 acaaaataat attgaaatga ctactggcac ttttgttgaa gaaattactg aaaattacaa
+     4141 gagaaatact gaaaatgaag ataacaaata tactgctgcc agtagaaatt ctcataactt
+     4201 agaatttgat ggcagtgatt caagtaaaaa tgatactgtt tgtattcata aagatgaaac
+     4261 ggacttgcta tttactgatc agcacaacat atgtcttaaa ttatctggcc agtttatgaa
+     4321 ggagggaaac actcagatta aagaagattt gtcagattta acttttttgg aagttgcgaa
+     4381 agctcaagaa gcatgtcatg gtaatacttc aaataaagaa cagttaactg ctactaaaac
+     4441 ggagcaaaat ataaaagatt ttgagacttc tgatacattt tttcagactg caagtgggaa
+     4501 aaatattagt gtcgccaaag agtcatttaa taaaattgta aatttctttg atcagaaacc
+     4561 agaagaattg cataactttt ccttaaattc tgaattacat tctgacataa gaaagaacaa
+     4621 aatggacatt ctaagttatg aggaaacaga catagttaaa cacaaaatac tgaaagaaag
+     4681 tgtcccagtt ggtactggaa atcaactagt gaccttccag ggacaacccg aacgtgatga
+     4741 aaagatcaaa gaacctactc tattgggttt tcatacagct agcgggaaaa aagttaaaat
+     4801 tgcaaaggaa tctttggaca aagtgaaaaa cctttttgat gaaaaagagc aaggtactag
+     4861 tgaaatcacc agttttagcc atcaatgggc aaagacccta aagtacagag aggcctgtaa
+     4921 agaccttgaa ttagcatgtg agaccattga gatcacagct gccccaaagt gtaaagaaat
+     4981 gcagaattct ctcaataatg ataaaaacct tgtttctatt gagactgtgg tgccacctaa
+     5041 gctcttaagt gataatttat gtagacaaac tgaaaatctc aaaacatcaa aaagtatctt
+     5101 tttgaaagtt aaagtacatg aaaatgtaga aaaagaaaca gcaaaaagtc ctgcaacttg
+     5161 ttacacaaat cagtcccctt attcagtcat tgaaaattca gccttagctt tttacacaag
+     5221 ttgtagtaga aaaacttctg tgagtcagac ttcattactt gaagcaaaaa aatggcttag
+     5281 agaaggaata tttgatggtc aaccagaaag aataaatact gcagattatg taggaaatta
+     5341 tttgtatgaa aataattcaa acagtactat agctgaaaat gacaaaaatc atctctccga
+     5401 aaaacaagat acttatttaa gtaacagtag catgtctaac agctattcct accattctga
+     5461 tgaggtatat aatgattcag gatatctctc aaaaaataaa cttgattctg gtattgagcc
+     5521 agtattgaag aatgttgaag atcaaaaaaa cactagtttt tccaaagtaa tatccaatgt
+     5581 aaaagatgca aatgcatacc cacaaactgt aaatgaagat atttgcgttg aggaacttgt
+     5641 gactagctct tcaccctgca aaaataaaaa tgcagccatt aaattgtcca tatctaatag
+     5701 taataatttt gaggtagggc cacctgcatt taggatagcc agtggtaaaa tcgtttgtgt
+     5761 ttcacatgaa acaattaaaa aagtgaaaga catatttaca gacagtttca gtaaagtaat
+     5821 taaggaaaac aacgagaata aatcaaaaat ttgccaaacg aaaattatgg caggttgtta
+     5881 cgaggcattg gatgattcag aggatattct tcataactct ctagataatg atgaatgtag
+     5941 cacgcattca cataaggttt ttgctgacat tcagagtgaa gaaattttac aacataacca
+     6001 aaatatgtct ggattggaga aagtttctaa aatatcacct tgtgatgtta gtttggaaac
+     6061 ttcagatata tgtaaatgta gtatagggaa gcttcataag tcagtctcat ctgcaaatac
+     6121 ttgtgggatt tttagcacag caagtggaaa atctgtccag gtatcagatg cttcattaca
+     6181 aaacgcaaga caagtgtttt ctgaaataga agatagtacc aagcaagtct tttccaaagt
+     6241 attgtttaaa agtaacgaac attcagacca gctcacaaga gaagaaaata ctgctatacg
+     6301 tactccagaa catttaatat cccaaaaagg cttttcatat aatgtggtaa attcatctgc
+     6361 tttctctgga tttagtacag caagtggaaa gcaagtttcc attttagaaa gttccttaca
+     6421 caaagttaag ggagtgttag aggaatttga tttaatcaga actgagcata gtcttcacta
+     6481 ttcacctacg tctagacaaa atgtatcaaa aatacttcct cgtgttgata agagaaaccc
+     6541 agagcactgt gtaaactcag aaatggaaaa aacctgcagt aaagaattta aattatcaaa
+     6601 taacttaaat gttgaaggtg gttcttcaga aaataatcac tctattaaag tttctccata
+     6661 tctctctcaa tttcaacaag acaaacaaca gttggtatta ggaaccaaag tgtcacttgt
+     6721 tgagaacatt catgttttgg gaaaagaaca ggcttcacct aaaaacgtaa aaatggaaat
+     6781 tggtaaaact gaaacttttt ctgatgttcc tgtgaaaaca aatatagaag tttgttctac
+     6841 ttactccaaa gattcagaaa actactttga aacagaagca gtagaaattg ctaaagcttt
+     6901 tatggaagat gatgaactga cagattctaa actgccaagt catgccacac attctctttt
+     6961 tacatgtccc gaaaatgagg aaatggtttt gtcaaattca agaattggaa aaagaagagg
+     7021 agagcccctt atcttagtgg gagaaccctc aatcaaaaga aacttattaa atgaatttga
+     7081 caggataata gaaaatcaag aaaaatcctt aaaggcttca aaaagcactc cagatggcac
+     7141 aataaaagat cgaagattgt ttatgcatca tgtttcttta gagccgatta cctgtgtacc
+     7201 ctttcgcaca actaaggaac gtcaagagat acagaatcca aattttaccg cacctggtca
+     7261 agaatttctg tctaaatctc atttgtatga acatctgact ttggaaaaat cttcaagcaa
+     7321 tttagcagtt tcaggacatc cattttatca agtttctgct acaagaaatg aaaaaatgag
+     7381 acacttgatt actacaggca gaccaaccaa agtctttgtt ccacctttta aaactaaatc
+     7441 acattttcac agagttgaac agtgtgttag gaatattaac ttggaggaaa acagacaaaa
+     7501 gcaaaacatt gatggacatg gctctgatga tagtaaaaat aagattaatg acaatgagat
+     7561 tcatcagttt aacaaaaaca actccaatca agcagtagct gtaactttca caaagtgtga
+     7621 agaagaacct ttagatttaa ttacaagtct tcagaatgcc agagatatac aggatatgcg
+     7681 aattaagaag aaacaaaggc aacgcgtctt tccacagcca ggcagtctgt atcttgcaaa
+     7741 aacatccact ctgcctcgaa tctctctgaa agcagcagta ggaggccaag ttccctctgc
+     7801 gtgttctcat aaacagctgt atacgtatgg cgtttctaaa cattgcataa aaattaacag
+     7861 caaaaatgca gagtcttttc agtttcacac tgaagattat tttggtaagg aaagtttatg
+     7921 gactggaaaa ggaatacagt tggctgatgg tggatggctc ataccctcca atgatggaaa
+     7981 ggctggaaaa gaagaatttt atagggctct gtgtgacact ccaggtgtgg atccaaagct
+     8041 tatttctaga atttgggttt ataatcacta tagatggatc atatggaaac tggcagctat
+     8101 ggaatgtgcc tttcctaagg aatttgctaa tagatgccta agcccagaaa gggtgcttct
+     8161 tcaactaaaa tacagatatg atacggaaat tgatagaagc agaagatcgg ctataaaaaa
+     8221 gataatggaa agggatgaca cagctgcaaa aacacttgtt ctctgtgttt ctgacataat
+     8281 ttcattgagc gcaaatatat ctgaaacttc tagcaataaa actagtagtg cagataccca
+     8341 aaaagtggcc attattgaac ttacagatgg gtggtatgct gttaaggccc agttagatcc
+     8401 tcccctctta gctgtcttaa agaatggcag actgacagtt ggtcagaaga ttattcttca
+     8461 tggagcagaa ctggtgggct ctcctgatgc ctgtacacct cttgaagccc cagaatctct
+     8521 tatgttaaag atttctgcta acagtactcg gcctgctcgc tggtatacca aacttggatt
+     8581 ctttcctgac cctagacctt ttcctctgcc cttatcatcg cttttcagtg atggaggaaa
+     8641 tgttggttgt gttgatgtaa ttattcaaag agcataccct atacagtgga tggagaagac
+     8701 atcatctgga ttatacatat ttcgcaatga aagagaggaa gaaaaggaag cagcaaaata
+     8761 tgtggaggcc caacaaaaga gactagaagc cttattcact aaaattcagg aggaatttga
+     8821 agaacatgaa gaaaacacaa caaaaccata tttaccatca cgtgcactaa caagacagca
+     8881 agttcgtgct ttgcaagatg gtgcagagct ttatgaagca gtgaagaatg cagcagaccc
+     8941 agcttacctt gagggttatt tcagtgaaga gcagttaaga gccttgaata atcacaggca
+     9001 aatgttgaat gataagaaac aagctcagat ccagttggaa attaggaagg ccatggaatc
+     9061 tgctgaacaa aaggaacaag gtttatcaag ggatgtcaca accgtgtgga agttgcgtat
+     9121 tgtaagctat tcaaaaaaag aaaaagattc agttatactg agtatttggc gtccatcatc
+     9181 agatttatat tctctgttaa cagaaggaaa gagatacaga atttatcatc ttgcaacttc
+     9241 aaaatctaaa agtaaatctg aaagagctaa catacagtta gcagcgacaa aaaaaactca
+     9301 gtatcaacaa ctaccggttt cagatgaaat tttatttcag atttaccagc cacgggagcc
+     9361 ccttcacttc agcaaatttt tagatccaga ctttcagcca tcttgttctg aggtggacct
+     9421 aataggattt gtcgtttctg ttgtgaaaaa aacaggactt gcccctttcg tctatttgtc
+     9481 agacgaatgt tacaatttac tggcaataaa gttttggata gaccttaatg aggacattat
+     9541 taagcctcat atgttaattg ctgcaagcaa cctccagtgg cgaccagaat ccaaatcagg
+     9601 ccttcttact ttatttgctg gagatttttc tgtgttttct gctagtccaa aagagggcca
+     9661 ctttcaagag acattcaaca aaatgaaaaa tactgttgag aatattgaca tactttgcaa
+     9721 tgaagcagaa aacaagctta tgcatatact gcatgcaaat gatcccaagt ggtccacccc
+     9781 aactaaagac tgtacttcag ggccgtacac tgctcaaatc attcctggta caggaaacaa
+     9841 gcttctgatg tcttctccta attgtgagat atattatcaa agtcctttat cactttgtat
+     9901 ggccaaaagg aagtctgttt ccacacctgt ctcagcccag atgacttcaa agtcttgtaa
+     9961 aggggagaaa gagattgatg accaaaagaa ctgcaaaaag agaagagcct tggatttctt
+    10021 gagtagactg cctttacctc cacctgttag tcccatttgt acatttgttt ctccggctgc
+    10081 acagaaggca tttcagccac caaggagttg tggcaccaaa tacgaaacac ccataaagaa
+    10141 aaaagaactg aattctcctc agatgactcc atttaaaaaa ttcaatgaaa tttctctttt
+    10201 ggaaagtaat tcaatagctg acgaagaact tgcattgata aatacccaag ctcttttgtc
+    10261 tggttcaaca ggagaaaaac aatttatatc tgtcagtgaa tccactagga ctgctcccac
+    10321 cagttcagaa gattatctca gactgaaacg acgttgtact acatctctga tcaaagaaca
+    10381 ggagagttcc caggccagta cggaagaatg tgagaaaaat aagcaggaca caattacaac
+    10441 taaaaaatat atctaagcat ttgcaaaggc gacaataaat tattgacgct taacctttcc
+    10501 agtttataag actggaatat aatttcaaac cacacattag tacttatgtt gcacaatgag
+    10561 aaaagaaatt agtttcaaat ttacctcagc gtttgtgtat cgggcaaaaa tcgttttgcc
+    10621 cgattccgta ttggtatact tttgcttcag ttgcatatct taaaactaaa tgtaatttat
+    10681 taactaatca agaaaaacat ctttggctga gctcggtggc tcatgcctgt aatcccaaca
+    10741 ctttgagaag ctgaggtggg aggagtgctt gaggccagga gttcaagacc agcctgggca
+    10801 acatagggag acccccatct ttacaaagaa aaaaaaaagg ggaaaagaaa atcttttaaa
+    10861 tctttggatt tgatcactac aagtattatt ttacaagtga aataaacata ccattttctt
+    10921 ttagattgtg tcattaaatg gaatgaggtc tcttagtaca gttattttga tgcagataat
+    10981 tccttttagt ttagctacta ttttagggga ttttttttag aggtaactca ctatgaaata
+    11041 gttctcctta atgcaaatat gttggttctg ctatagttcc atcctgttca aaagtcagga
+    11101 tgaatatgaa gagtggtgtt tccttttgag caattcttca tccttaagtc agcatgatta
+    11161 taagaaaaat agaaccctca gtgtaactct aattcctttt tactattcca gtgtgatctc
+    11221 tgaaattaaa ttacttcaac taaaaattca aatactttaa atcagaagat ttcatagtta
+    11281 atttattttt tttttcaaca aaatggtcat ccaaactcaa acttgagaaa atatcttgct
+    11341 ttcaaattgg cactgattct gcctgcttta tttttagcgc tatcacagga cccagagcct
+    11401 atgccctttt aaacttacca caaaagcaga agattaattc aatttaagat gatactctca
+    11461 tttgttacgt cctttttttt tttttttgga gatggagtct tgctttgtcg cccatgctgg
+    11521 agtgcagtgg catgatcctg gctcactgca gcctccactt cccgggttca cgtaattctc
+    11581 ccacctcaag cctccctagt agctgggatt acagggacgc accaccatgc ccagctaatt
+    11641 tttgcatttt tagtagagac tgggttttac catgttggcc aagctggtct caaactcctg
+    11701 atgtcaggtg atccatctgc ctcagcctcc caaagtgctg ggattatagg cgtgagccac
+    11761 tgtgcccggc caatatttgt tactttctta ggtttaatag agaaaaggga taaaacattt
+    11821 ctaactggga gttaattgca tggagaaggt cttaaatcag atgttttaat gccttaaatg
+    11881 tctgtataat atcatgtttt caaatctaat tataaatacg tttaaagcca agaataaatc
+    11941 ttttaaaaaa ttga
+//
+

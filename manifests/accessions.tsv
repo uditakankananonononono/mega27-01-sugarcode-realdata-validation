@@ -216,3 +216,24 @@ jaspar_matrix	MA0108.2	JASPAR 2024 profile TBP (jaspar.elixir.no REST)	MA0108.2	
 jaspar_matrix	MA0112.3	JASPAR 2024 profile ESR1 (jaspar.elixir.no REST)	MA0112.3	sweep/motif_vs_biopython.py
 jaspar_matrix	MA0113.3	JASPAR 2024 profile NR3C1 (jaspar.elixir.no REST)	MA0113.3	sweep/motif_vs_biopython.py
 jaspar_matrix	MA0139.1	JASPAR 2024 profile CTCF (jaspar.elixir.no REST)	MA0139.1	sweep/motif_vs_biopython.py
+nuccore_record	NC_000913.3	NCBI nuccore GenBank flat file (efetch gbwithparts, 1-60000)	NC_000913.3	sweep/genbank_vs_biopython.py
+nuccore_record	NC_001422.1	NCBI nuccore GenBank flat file (efetch gbwithparts)	NC_001422.1	sweep/genbank_vs_biopython.py
+nuccore_record	NC_001477.1	NCBI nuccore GenBank flat file (efetch gbwithparts)	NC_001477.1	sweep/genbank_vs_biopython.py
+nuccore_record	NC_001498.1	NCBI nuccore GenBank flat file (efetch gbwithparts)	NC_001498.1	sweep/genbank_vs_biopython.py
+nuccore_record	NC_001802.1	NCBI nuccore GenBank flat file (efetch gbwithparts)	NC_001802.1	sweep/genbank_vs_biopython.py
+nuccore_record	NC_001806.2	NCBI nuccore GenBank flat file (efetch gbwithparts)	NC_001806.2	sweep/genbank_vs_biopython.py
+nuccore_record	NC_002549.1	NCBI nuccore GenBank flat file (efetch gbwithparts)	NC_002549.1	sweep/genbank_vs_biopython.py
+nuccore_record	NC_003977.2	NCBI nuccore GenBank flat file (efetch gbwithparts)	NC_003977.2	sweep/genbank_vs_biopython.py
+nuccore_record	NC_012920.1	NCBI nuccore GenBank flat file (efetch gbwithparts)	NC_012920.1	sweep/genbank_vs_biopython.py
+nuccore_record	NC_045512.2	NCBI nuccore GenBank flat file (efetch gbwithparts)	NC_045512.2	sweep/genbank_vs_biopython.py
+nuccore_record	NG_005905.2	NCBI nuccore GenBank flat file (efetch gbwithparts)	NG_005905.2	sweep/genbank_vs_biopython.py
+nuccore_record	NM_000038.6	NCBI nuccore GenBank flat file (efetch gbwithparts)	NM_000038.6	sweep/genbank_vs_biopython.py
+nuccore_record	NM_000249.4	NCBI nuccore GenBank flat file (efetch gbwithparts)	NM_000249.4	sweep/genbank_vs_biopython.py
+nuccore_record	NM_000251.3	NCBI nuccore GenBank flat file (efetch gbwithparts)	NM_000251.3	sweep/genbank_vs_biopython.py
+nuccore_record	NM_000314.8	NCBI nuccore GenBank flat file (efetch gbwithparts)	NM_000314.8	sweep/genbank_vs_biopython.py
+nuccore_record	NM_001126112.3	NCBI nuccore GenBank flat file (efetch gbwithparts)	NM_001126112.3	sweep/genbank_vs_biopython.py
+nuccore_record	NM_001904.4	NCBI nuccore GenBank flat file (efetch gbwithparts)	NM_001904.4	sweep/genbank_vs_biopython.py
+nuccore_record	NM_002524.5	NCBI nuccore GenBank flat file (efetch gbwithparts)	NM_002524.5	sweep/genbank_vs_biopython.py
+nuccore_record	NM_004985.5	NCBI nuccore GenBank flat file (efetch gbwithparts)	NM_004985.5	sweep/genbank_vs_biopython.py
+study	29	UCSC hg38 cpgIslandExt track chr20 (api.genome.ucsc.edu getData/track)	hg38.cpgIslandExt.chr20	sweep/bed_vs_bioframe.py
+study	30	UCSC hg38 rmsk track chr20:0-5000000 (api.genome.ucsc.edu getData/track)	hg38.rmsk.chr20:0-5000000	sweep/bed_vs_bioframe.py

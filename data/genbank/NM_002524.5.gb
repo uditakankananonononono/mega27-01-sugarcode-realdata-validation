@@ -1,0 +1,325 @@
+LOCUS       NM_002524               4326 bp    mRNA    linear   PRI 08-SEP-2026
+DEFINITION  Homo sapiens NRAS proto-oncogene, GTPase (NRAS), mRNA.
+ACCESSION   NM_002524
+VERSION     NM_002524.5
+KEYWORDS    RefSeq; MANE Select.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 4326)
+  AUTHORS   Schaffer,L.V., Hu,M., Qian,G., Moon,K.M., Pal,A., Soni,N.,
+            Latham,A.P., Pontano Vaites,L., Tsai,D., Mattson,N.M., Licon,K.,
+            Bachelder,R., Cesnik,A., Gaur,I., Le,T., Leineweber,W., Palar,A.,
+            Pulido,E., Qin,Y., Zhao,X., Churas,C., Lenkiewicz,J., Chen,J.,
+            Ono,K., Pratt,D., Zage,P., Echeverria,I., Sali,A., Harper,J.W.,
+            Gygi,S.P., Foster,L.J., Huttlin,E.L., Lundberg,E. and Ideker,T.
+  TITLE     Multimodal cell maps as a foundation for structural and functional
+            genomics
+  JOURNAL   Nature 642 (8066), 222-231 (2025)
+   PUBMED   40205054
+  REMARK    Erratum:[Nature. 2025 Oct;646(8086):E16. doi:
+            10.1038/s41586-025-09648-x. PMID: 41039152]
+REFERENCE   2  (bases 1 to 4326)
+  AUTHORS   Valcikova,B., Vadovicova,N., Smolkova,K., Zacpalova,M., Krejci,P.,
+            Lee,S., Rauch,J., Kolch,W., von Kriegsheim,A., Dorotikova,A.,
+            Andrysik,Z., Vichova,R., Vacek,O., Soucek,K. and Uldrijan,S.
+  TITLE     eIF4F controls ERK MAPK signaling in melanomas with BRAF and NRAS
+            mutations
+  JOURNAL   Proc Natl Acad Sci U S A 121 (44), e2321305121 (2024)
+   PUBMED   39436655
+  REMARK    GeneRIF: eIF4F controls ERK MAPK signaling in melanomas with BRAF
+            and NRAS mutations.
+REFERENCE   3  (bases 1 to 4326)
+  AUTHORS   Yi,M., Soppet,D., McCormick,F. and Nissley,D.V.
+  TITLE     The prominent pervasive oncogenic role and tissue specific
+            permissiveness of RAS gene mutations
+  JOURNAL   Sci Rep 14 (1), 25452 (2024)
+   PUBMED   39455841
+  REMARK    GeneRIF: The prominent pervasive oncogenic role and tissue specific
+            permissiveness of RAS gene mutations.
+REFERENCE   4  (bases 1 to 4326)
+  AUTHORS   Soloveva,M., Solovev,M., Risinskaya,N., Nikulina,E., Yakutik,I.,
+            Biderman,B., Obukhova,T., Chabaeva,Y., Kulikov,S., Sudarikov,A. and
+            Mendeleeva,L.
+  TITLE     Loss of Heterozygosity and Mutations in the RAS-ERK Pathway Genes
+            in Tumor Cells of Various Loci in Multiple Myeloma
+  JOURNAL   Int J Mol Sci 25 (17), 9426 (2024)
+   PUBMED   39273371
+  REMARK    GeneRIF: Loss of Heterozygosity and Mutations in the RAS-ERK
+            Pathway Genes in Tumor Cells of Various Loci in Multiple Myeloma.
+REFERENCE   5  (bases 1 to 4326)
+  AUTHORS   Roberts,A.E.
+  TITLE     Noonan Syndrome
+  JOURNAL   (in) Adam MP, Bick S, Mirzaa GM, Wallace SE and Amemiya A (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   20301303
+REFERENCE   6  (bases 1 to 4326)
+  AUTHORS   Dracopoli,N.C. and Meisler,M.H.
+  TITLE     Mapping the human amylase gene cluster on the proximal short arm of
+            chromosome 1 using a highly informative (CA)n repeat
+  JOURNAL   Genomics 7 (1), 97-102 (1990)
+   PUBMED   1692298
+REFERENCE   7  (bases 1 to 4326)
+  AUTHORS   Yuasa,Y., Kamiyama,T., Kato,M., Iwama,T., Ikeuchi,T. and
+            Tonomura,A.
+  TITLE     Transforming genes from familial adenomatous polyposis patient
+            cells detected by a tumorigenicity assay
+  JOURNAL   Oncogene 5 (4), 589-596 (1990)
+   PUBMED   1970154
+REFERENCE   8  (bases 1 to 4326)
+  AUTHORS   Hancock,J.F., Magee,A.I., Childs,J.E. and Marshall,C.J.
+  TITLE     All ras proteins are polyisoprenylated but only some are
+            palmitoylated
+  JOURNAL   Cell 57 (7), 1167-1177 (1989)
+   PUBMED   2661017
+REFERENCE   9  (bases 1 to 4326)
+  AUTHORS   Hirai,H., Tanaka,S., Azuma,M., Anraku,Y., Kobayashi,Y.,
+            Fujisawa,M., Okabe,T., Urabe,A. and Takaku,F.
+  TITLE     Transforming genes in human leukemia cells
+  JOURNAL   Blood 66 (6), 1371-1378 (1985)
+   PUBMED   2998510
+REFERENCE   10 (bases 1 to 4326)
+  AUTHORS   Hall,A. and Brown,R.
+  TITLE     Human N-ras: cDNA cloning and gene structure
+  JOURNAL   Nucleic Acids Res 13 (14), 5255-5268 (1985)
+   PUBMED   2991860
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AL096773.6, BC005219.1,
+            AY941101.1, BC013214.1 and AW021410.1.
+            
+            On Nov 22, 2018 this sequence version replaced NM_002524.4.
+            
+            Summary: This is an N-ras oncogene encoding a membrane protein that
+            shuttles between the Golgi apparatus and the plasma membrane. This
+            shuttling is regulated through palmitoylation and depalmitoylation
+            by the ZDHHC9-GOLGA7 complex. The encoded protein, which has
+            intrinsic GTPase activity, is activated by a guanine
+            nucleotide-exchange factor and inactivated by a GTPase activating
+            protein. Mutations in this gene have been associated with somatic
+            rectal cancer, follicular thyroid cancer, autoimmune
+            lymphoproliferative syndrome, Noonan syndrome, and juvenile
+            myelomonocytic leukemia. [provided by RefSeq, Jun 2011].
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: SRR1803615.226704.1,
+                                           SRR11853564.1616.1 [ECO:0000332]
+            ##Evidence-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            MANE Ensembl match     :: ENST00000369535.5/ ENSP00000358548.4
+            RefSeq Select criteria :: based on single protein-coding transcript
+            ##RefSeq-Attributes-END##
+            COMPLETENESS: full length.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-14                AL096773.6         88338-88351
+            15-1012             BC005219.1         5-1002
+            1013-1806           AL096773.6         97327-98120
+            1807-2423           AY941101.1         414-1030
+            2424-4321           BC013214.1         150-2047
+            4322-4326           AW021410.1         13-17               c
+FEATURES             Location/Qualifiers
+     source          1..4326
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="1"
+                     /map="1p13.2"
+     gene            1..4326
+                     /gene="NRAS"
+                     /gene_synonym="ALPS4; CMNS; N-ras; NCMS; NRAS1; NS6;
+                     RALD1"
+                     /note="NRAS proto-oncogene, GTPase"
+                     /db_xref="GeneID:4893"
+                     /db_xref="HGNC:HGNC:7989"
+                     /db_xref="MIM:164790"
+     exon            1..114
+                     /gene="NRAS"
+                     /gene_synonym="ALPS4; CMNS; N-ras; NCMS; NRAS1; NS6;
+                     RALD1"
+                     /inference="alignment:Splign:2.1.0"
+     misc_feature    111..113
+                     /gene="NRAS"
+                     /gene_synonym="ALPS4; CMNS; N-ras; NCMS; NRAS1; NS6;
+                     RALD1"
+                     /note="upstream in-frame stop codon"
+     exon            115..242
+                     /gene="NRAS"
+                     /gene_synonym="ALPS4; CMNS; N-ras; NCMS; NRAS1; NS6;
+                     RALD1"
+                     /inference="alignment:Splign:2.1.0"
+     CDS             132..701
+                     /gene="NRAS"
+                     /gene_synonym="ALPS4; CMNS; N-ras; NCMS; NRAS1; NS6;
+                     RALD1"
+                     /EC_number="3.6.5.2"
+                     /note="v-ras neuroblastoma RAS viral oncogene homolog;
+                     N-ras protein part 4; neuroblastoma RAS viral (v-ras)
+                     oncogene homolog; transforming protein N-Ras;
+                     proto-oncogene GTPase"
+                     /codon_start=1
+                     /product="GTPase NRas"
+                     /protein_id="NP_002515.1"
+                     /db_xref="CCDS:CCDS877.1"
+                     /db_xref="GeneID:4893"
+                     /db_xref="HGNC:HGNC:7989"
+                     /db_xref="MIM:164790"
+                     /translation="MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQV
+                     VIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNSKSFADINLYREQIKR
+                     VKDSDDVPMVLVGNKCDLPTRTVDTKQAHELAKSYGIPFIETSAKTRQGVEDAFYTLV
+                     REIRQYRMKKLNSSDDGTQGCMGLPCVVM"
+     misc_feature    225..251
+                     /gene="NRAS"
+                     /gene_synonym="ALPS4; CMNS; N-ras; NCMS; NRAS1; NS6;
+                     RALD1"
+                     /note="propagated from UniProtKB/Swiss-Prot (P01111.1);
+                     Region: Effector region"
+     misc_feature    234..236
+                     /gene="NRAS"
+                     /gene_synonym="ALPS4; CMNS; N-ras; NCMS; NRAS1; NS6;
+                     RALD1"
+                     /note="(Microbial infection) O-linked (Glc) threonine, by
+                     P.sordellii toxin TcsL.
+                     /evidence=ECO:0000269|PubMed:19744486; propagated from
+                     UniProtKB/Swiss-Prot (P01111.1); glycosylation site"
+     misc_feature    396..398
+                     /gene="NRAS"
+                     /gene_synonym="ALPS4; CMNS; N-ras; NCMS; NRAS1; NS6;
+                     RALD1"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000269|PubMed:30712867; propagated from
+                     UniProtKB/Swiss-Prot (P01111.1); phosphorylation site"
+     misc_feature    627..686
+                     /gene="NRAS"
+                     /gene_synonym="ALPS4; CMNS; N-ras; NCMS; NRAS1; NS6;
+                     RALD1"
+                     /note="propagated from UniProtKB/Swiss-Prot (P01111.1);
+                     Region: Hypervariable region"
+     exon            243..421
+                     /gene="NRAS"
+                     /gene_synonym="ALPS4; CMNS; N-ras; NCMS; NRAS1; NS6;
+                     RALD1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            422..581
+                     /gene="NRAS"
+                     /gene_synonym="ALPS4; CMNS; N-ras; NCMS; NRAS1; NS6;
+                     RALD1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            582..705
+                     /gene="NRAS"
+                     /gene_synonym="ALPS4; CMNS; N-ras; NCMS; NRAS1; NS6;
+                     RALD1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            706..744
+                     /gene="NRAS"
+                     /gene_synonym="ALPS4; CMNS; N-ras; NCMS; NRAS1; NS6;
+                     RALD1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            745..4326
+                     /gene="NRAS"
+                     /gene_synonym="ALPS4; CMNS; N-ras; NCMS; NRAS1; NS6;
+                     RALD1"
+                     /inference="alignment:Splign:2.1.0"
+     regulatory      1811..1816
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="NRAS"
+                     /gene_synonym="ALPS4; CMNS; N-ras; NCMS; NRAS1; NS6;
+                     RALD1"
+                     /note="hexamer: AATATA"
+     polyA_site      1832
+                     /gene="NRAS"
+                     /gene_synonym="ALPS4; CMNS; N-ras; NCMS; NRAS1; NS6;
+                     RALD1"
+     regulatory      4294..4299
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="NRAS"
+                     /gene_synonym="ALPS4; CMNS; N-ras; NCMS; NRAS1; NS6;
+                     RALD1"
+                     /note="hexamer: AATAAA"
+     polyA_site      4326
+                     /gene="NRAS"
+                     /gene_synonym="ALPS4; CMNS; N-ras; NCMS; NRAS1; NS6;
+                     RALD1"
+                     /note="major polyA site"
+ORIGIN      
+        1 ggggccggaa gtgccgctcc ttggtggggg ctgttcatgg cggttccggg gtctccaaca
+       61 tttttcccgg ctgtggtcct aaatctgtcc aaagcagagg cagtggagct tgaggttctt
+      121 gctggtgtga aatgactgag tacaaactgg tggtggttgg agcaggtggt gttgggaaaa
+      181 gcgcactgac aatccagcta atccagaacc actttgtaga tgaatatgat cccaccatag
+      241 aggattctta cagaaaacaa gtggttatag atggtgaaac ctgtttgttg gacatactgg
+      301 atacagctgg acaagaagag tacagtgcca tgagagacca atacatgagg acaggcgaag
+      361 gcttcctctg tgtatttgcc atcaataata gcaagtcatt tgcggatatt aacctctaca
+      421 gggagcagat taagcgagta aaagactcgg atgatgtacc tatggtgcta gtgggaaaca
+      481 agtgtgattt gccaacaagg acagttgata caaaacaagc ccacgaactg gccaagagtt
+      541 acgggattcc attcattgaa acctcagcca agaccagaca gggtgttgaa gatgcttttt
+      601 acacactggt aagagaaata cgccagtacc gaatgaaaaa actcaacagc agtgatgatg
+      661 ggactcaggg ttgtatggga ttgccatgtg tggtgatgta acaagatact tttaaagttt
+      721 tgtcagaaaa gagccacttt caagctgcac tgacaccctg gtcctgactt ccctggagga
+      781 gaagtattcc tgttgctgtc ttcagtctca cagagaagct cctgctactt ccccagctct
+      841 cagtagttta gtacaataat ctctatttga gaagttctca gaataactac ctcctcactt
+      901 ggctgtctga ccagagaatg cacctcttgt tactccctgt tatttttctg ccctgggttc
+      961 ttccacagca caaacacacc tctgccaccc caggtttttc atctgaaaag cagttcatgt
+     1021 ctgaaacaga gaaccaaacc gcaaacgtga aattctattg aaaacagtgt cttgagctct
+     1081 aaagtagcaa ctgctggtga tttttttttt ctttttactg ttgaacttag aactatgcta
+     1141 atttttggag aaatgtcata aattactgtt ttgccaagaa tatagttatt attgctgttt
+     1201 ggtttgttta taatgttatc ggctctattc tctaaactgg catctgctct agattcataa
+     1261 atacaaaaat gaatactgaa ttttgagtct atcctagtct tcacaacttt gacgtaatta
+     1321 aatccaactt tcacagtgaa gtgccttttt cctagaagtg gtttgtagac ttcctttata
+     1381 atatttcagt ggaatagatg tctcaaaaat ccttatgcat gaaatgaatg tctgagatac
+     1441 gtctgtgact tatctaccat tgaaggaaag ctatatctat ttgagagcag atgccatttt
+     1501 gtacatgtat gaaattggtt ttccagaggc ctgttttggg gctttcccag gagaaagatg
+     1561 aaactgaaag cacatgaata atttcactta ataattttta cctaatctcc acttttttca
+     1621 taggttacta cctatacaat gtatgtaatt tgtttcccct agcttactga taaacctaat
+     1681 attcaatgaa cttccatttg tattcaaatt tgtgtcatac cagaaagctc tacatttgca
+     1741 gatgttcaaa tattgtaaaa ctttggtgca ttgttattta atagctgtga tcagtgattt
+     1801 tcaaacctca aatatagtat attaacaaat tacattttca ctgtatatca tggtatctta
+     1861 atgatgtata taattgcctt caatcccctt ctcaccccac cctctacagc ttcccccaca
+     1921 gcaatagggg cttgattatt tcagttgagt aaagcatggt gctaatggac cagggtcaca
+     1981 gtttcaaaac ttgaacaatc cagttagcat cacagagaaa gaaattcttc tgcatttgct
+     2041 cattgcacca gtaactccag ctagtaattt tgctaggtag ctgcagttag ccctgcaagg
+     2101 aaagaagagg tcagttagca caaacccttt accatgactg gaaaactcag tatcacgtat
+     2161 ttaaacattt ttttttcttt tagccatgta gaaactctaa attaagccaa tattctcatt
+     2221 tgagaatgag gatgtctcag ctgagaaacg ttttaaattc tctttattca taatgttctt
+     2281 tgaagggttt aaaacaagat gttgataaat ctaagctgat gagtttgctc aaaacaggaa
+     2341 gttgaaattg ttgagacagg aatggaaaat ataattaatt gatacctatg aggatttgga
+     2401 ggcttggcat tttaatttgc agataatacc ctggtaattc tcatgaaaaa tagacttgga
+     2461 taacttttga taaaagacta attccaaaat ggccactttg ttcctgtctt taatatctaa
+     2521 atacttactg aggtcctcca tcttctatat tatgaatttt catttattaa gcaaatgtca
+     2581 tattaccttg aaattcagaa gagaagaaac atatactgtg tccagagtat aatgaacctg
+     2641 cagagttgtg cttcttactg ctaattctgg gagctttcac agtactgtca tcatttgtaa
+     2701 atggaaattc tgcttttctg tttctgctcc ttctggagca gtgctactct gtaattttcc
+     2761 tgaggcttat cacctcagtc atttcttttt taaatgtctg tgactggcag tgattctttt
+     2821 tcttaaaaat ctattaaatt tgatgtcaaa ttagggagaa agatagttac tcatcttggg
+     2881 ctcttgtgcc aatagccctt gtatgtatgt acttagagtt ttccaagtat gttctaagca
+     2941 cagaagtttc taaatggggc caaaattcag acttgagtat gttctttgaa taccttaaga
+     3001 agttacaatt agccgggcat ggtggcccgt gcctgtagtc ccagctactt gagaggctga
+     3061 ggcaggagaa tcacttcaac ccaggaggtg gaggttacag tgagcagaga tcgtgccact
+     3121 gcactccagc ctgggtgaca agagagactt gtctccaaaa aaaaagttac acctaggtgt
+     3181 gaattttggc acaaaggagt gacaaactta tagttaaaag ctgaataact tcagtgtggt
+     3241 ataaaacgtg gtttttaggc tatgtttgtg attgctgaaa agaattctag tttacctcaa
+     3301 aatccttctc tttccccaaa ttaagtgcct ggccagctgt cataaattac atattccttt
+     3361 tggttttttt aaaggttaca tgttcaagag tgaaaataag atgttctgtc tgaaggctac
+     3421 catgccggat ctgtaaatga acctgttaaa tgctgtattt gctccaacgg cttactatag
+     3481 aatgttactt aatacaatat catacttatt acaattttta ctataggagt gtaataggta
+     3541 aaattaatct ctattttagt gggcccatgt ttagtctttc accatccttt aaactgctgt
+     3601 gaattttttt gtcatgactt gaaagcaagg atagagaaac actttagaga tatgtggggt
+     3661 ttttttacca ttccagagct tgtgagcata atcatatttg ctttatattt atagtcatga
+     3721 actcctaagt tggcagctac aaccaagaac caaaaaatgg tgcgttctgc ttcttgtaat
+     3781 tcatctctgc taataaatta taagaagcaa ggaaaattag ggaaaatatt ttatttggat
+     3841 ggtttctata aacaagggac tataattctt gtacattatt tttcatcttt gctgtttctt
+     3901 tgagcagtct aatgtgccac acaattatct aaggtatttg ttttctataa gaattgtttt
+     3961 aaaagtattc ttgttaccag agtagttgta ttatatttca aaacgtaaga tgatttttaa
+     4021 aagcctgagt actgacctaa gatggaattg tatgaactct gctctggagg gaggggagga
+     4081 tgtccgtgga agttgtaaga cttttatttt tttgtgccat caaatatagg taaaaataat
+     4141 tgtgcaattc tgctgtttaa acaggaacta ttggcctcct tggccctaaa tggaagggcc
+     4201 gatattttaa gttgattatt ttattgtaaa ttaatccaac ctagttcttt ttaatttggt
+     4261 tgaatgtttt ttcttgttaa atgatgttta aaaaataaaa actggaagtt cttggcttag
+     4321 tcataa
+//
+

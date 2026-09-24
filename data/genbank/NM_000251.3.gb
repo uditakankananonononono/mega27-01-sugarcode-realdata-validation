@@ -1,0 +1,386 @@
+LOCUS       NM_000251               3115 bp    mRNA    linear   PRI 07-SEP-2026
+DEFINITION  Homo sapiens mutS homolog 2 (MSH2), transcript variant 1, mRNA.
+ACCESSION   NM_000251
+VERSION     NM_000251.3
+KEYWORDS    RefSeq; MANE Select.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 3115)
+  AUTHORS   Tu,X., Zhang,H. and Ren,H.
+  TITLE     LINC01232 targeting miR-1250-3p/MSH2 axis attenuates mesangial cell
+            proliferation and fibrosis in diabetic nephropathy
+  JOURNAL   Mol Cell Biochem 479 (8), 2093-2103 (2024)
+   PUBMED   37642881
+  REMARK    GeneRIF: LINC01232 targeting miR-1250-3p/MSH2 axis attenuates
+            mesangial cell proliferation and fibrosis in diabetic nephropathy.
+REFERENCE   2  (bases 1 to 3115)
+  AUTHORS   Li,M., Yan,X., Liu,H., Miao,W., Wu,W., Zhao,Y., Wang,C. and Liu,H.
+  TITLE     Novel MSH2 and TSC2 variants in a Chinese family with Lynch
+            syndrome and their synergistic impact in urothelial carcinoma
+  JOURNAL   Transl Res 265, 26-35 (2024)
+   PUBMED   37914149
+  REMARK    GeneRIF: Novel MSH2 and TSC2 variants in a Chinese family with
+            Lynch syndrome and their synergistic impact in urothelial
+            carcinoma.
+REFERENCE   3  (bases 1 to 3115)
+  AUTHORS   Mirabdolhosseini,S.M., Yaghoob Taleghani,M., Rejali,L., Sadeghi,H.,
+            Fatemi,N., Tavallaei,M., Famil Meyari,A., Saeidi,N., Ketabi
+            Moghadam,P., Sadeghi,A., Asadzadeh Aghdaei,H., Zali,M.R. and
+            Nazemalhosseini Mojarad,E.
+  TITLE     Rare single-nucleotide variants of MLH1 and MSH2 genes in patients
+            with Lynch syndrome
+  JOURNAL   Cancer Rep (Hoboken) 7 (1), e1930 (2024)
+   PUBMED   37919876
+  REMARK    GeneRIF: Rare single-nucleotide variants of MLH1 and MSH2 genes in
+            patients with Lynch syndrome.
+REFERENCE   4  (bases 1 to 3115)
+  AUTHORS   Sharbati,F., Tabriz,H.M. and Nazar,E.
+  TITLE     Assessing the role of MSH2 and MSH6 gene expression deficiency in
+            prostate cancer progression, a cross-sectional study
+  JOURNAL   Cancer Treat Res Commun 40, 100826 (2024)
+   PUBMED   38870667
+  REMARK    GeneRIF: Assessing the role of MSH2 and MSH6 gene expression
+            deficiency in prostate cancer progression, a cross-sectional study.
+REFERENCE   5  (bases 1 to 3115)
+  AUTHORS   Dutta,P., Pal,D., Roy,A., Mandal,R.K. and Panda,C.K.
+  TITLE     Role of MLH1 and MSH2 deficiency in the development of
+            tumorigenesis and chemo-tolerance of cervical Carcinoma: Clinical
+            implications
+  JOURNAL   Gene 888, 147746 (2023)
+   PUBMED   37657688
+  REMARK    GeneRIF: Role of MLH1 and MSH2 deficiency in the development of
+            tumorigenesis and chemo-tolerance of cervical Carcinoma: Clinical
+            implications.
+REFERENCE   6  (bases 1 to 3115)
+  AUTHORS   Wilson,T.M., Ewel,A., Duguid,J.R., Eble,J.N., Lescoe,M.K.,
+            Fishel,R. and Kelley,M.R.
+  TITLE     Differential cellular expression of the human MSH2 repair enzyme in
+            small and large intestine
+  JOURNAL   Cancer Res 55 (22), 5146-5150 (1995)
+   PUBMED   7585562
+REFERENCE   7  (bases 1 to 3115)
+  AUTHORS   Wei,Q., Xu,X., Cheng,L., Legerski,R.J. and Ali-Osman,F.
+  TITLE     Simultaneous amplification of four DNA repair genes and beta-actin
+            in human lymphocytes by multiplex reverse transcriptase-PCR
+  JOURNAL   Cancer Res 55 (21), 5025-5029 (1995)
+   PUBMED   7585546
+REFERENCE   8  (bases 1 to 3115)
+  AUTHORS   Drummond,J.T., Li,G.M., Longley,M.J. and Modrich,P.
+  TITLE     Isolation of an hMSH2-p160 heterodimer that restores DNA mismatch
+            repair to tumor cells
+  JOURNAL   Science 268 (5219), 1909-1912 (1995)
+   PUBMED   7604264
+REFERENCE   9  (bases 1 to 3115)
+  AUTHORS   Idos,G. and Valle,L.
+  TITLE     Lynch Syndrome
+  JOURNAL   (in) Adam MP, Bick S, Mirzaa GM, Wallace SE and Amemiya A (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   20301390
+REFERENCE   10 (bases 1 to 3115)
+  AUTHORS   Lynch,H.T., Schuelke,G.S., Kimberling,W.J., Albano,W.A.,
+            Lynch,J.F., Biscone,K.A., Lipkin,M.L., Deschner,E.E., Mikol,Y.B.,
+            Sandberg,A.A. et al.
+  TITLE     Hereditary nonpolyposis colorectal cancer (Lynch syndromes I and
+            II). II. Biomarker studies
+  JOURNAL   Cancer 56 (4), 939-951 (1985)
+   PUBMED   4016686
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from U04045.1, AK304496.1 and
+            CB250419.1.
+            
+            On Aug 31, 2019 this sequence version replaced NM_000251.2.
+            
+            Summary: This locus is frequently mutated in hereditary
+            nonpolyposis colon cancer (HNPCC). When cloned, it was discovered
+            to be a human homolog of the E. coli mismatch repair gene mutS,
+            consistent with the characteristic alterations in microsatellite
+            sequences (RER+ phenotype) found in HNPCC. Two transcript variants
+            encoding different isoforms have been found for this gene.
+            [provided by RefSeq, Apr 2012].
+            
+            Transcript Variant: This variant (1) represents the longer
+            transcript and encodes the longer isoform (1).
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: BC021566.1, BX649122.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMEA1965299, SAMEA1966682
+                                           [ECO:0000348]
+            ##Evidence-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            MANE Ensembl match     :: ENST00000233146.7/ ENSP00000233146.2
+            RefSeq Select criteria :: based on conservation, expression
+            ##RefSeq-Attributes-END##
+            COMPLETENESS: complete on the 3' end.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-2915              U04045.1           33-2947
+            2916-3113           AK304496.1         2821-3018
+            3114-3115           CB250419.1         23-24               c
+FEATURES             Location/Qualifiers
+     source          1..3115
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="2"
+                     /map="2p21-p16.3"
+     gene            1..3115
+                     /gene="MSH2"
+                     /gene_synonym="COCA1; FCC1; hMSH2; HNPCC; HNPCC1; LCFS2;
+                     LYNCH1; MMRCS2; MSH-2"
+                     /note="mutS homolog 2"
+                     /db_xref="GeneID:4436"
+                     /db_xref="HGNC:HGNC:7325"
+                     /db_xref="MIM:609309"
+     exon            1..247
+                     /gene="MSH2"
+                     /gene_synonym="COCA1; FCC1; hMSH2; HNPCC; HNPCC1; LCFS2;
+                     LYNCH1; MMRCS2; MSH-2"
+                     /inference="alignment:Splign:2.1.0"
+     misc_feature    22..24
+                     /gene="MSH2"
+                     /gene_synonym="COCA1; FCC1; hMSH2; HNPCC; HNPCC1; LCFS2;
+                     LYNCH1; MMRCS2; MSH-2"
+                     /note="upstream in-frame stop codon"
+     CDS             37..2841
+                     /gene="MSH2"
+                     /gene_synonym="COCA1; FCC1; hMSH2; HNPCC; HNPCC1; LCFS2;
+                     LYNCH1; MMRCS2; MSH-2"
+                     /note="isoform 1 is encoded by transcript variant 1; mutS
+                     homolog 2, colon cancer, nonpolyposis type 1; DNA mismatch
+                     repair protein Msh2 transcript; MutS-like 2"
+                     /codon_start=1
+                     /product="DNA mismatch repair protein Msh2 isoform 1"
+                     /protein_id="NP_000242.1"
+                     /db_xref="CCDS:CCDS1834.1"
+                     /db_xref="GeneID:4436"
+                     /db_xref="HGNC:HGNC:7325"
+                     /db_xref="MIM:609309"
+                     /translation="MAVQPKETLQLESAAEVGFVRFFQGMPEKPTTTVRLFDRGDFYT
+                     AHGEDALLAAREVFKTQGVIKYMGPAGAKNLQSVVLSKMNFESFVKDLLLVRQYRVEV
+                     YKNRAGNKASKENDWYLAYKASPGNLSQFEDILFGNNDMSASIGVVGVKMSAVDGQRQ
+                     VGVGYVDSIQRKLGLCEFPDNDQFSNLEALLIQIGPKECVLPGGETAGDMGKLRQIIQ
+                     RGGILITERKKADFSTKDIYQDLNRLLKGKKGEQMNSAVLPEMENQVAVSSLSAVIKF
+                     LELLSDDSNFGQFELTTFDFSQYMKLDIAAVRALNLFQGSVEDTTGSQSLAALLNKCK
+                     TPQGQRLVNQWIKQPLMDKNRIEERLNLVEAFVEDAELRQTLQEDLLRRFPDLNRLAK
+                     KFQRQAANLQDCYRLYQGINQLPNVIQALEKHEGKHQKLLLAVFVTPLTDLRSDFSKF
+                     QEMIETTLDMDQVENHEFLVKPSFDPNLSELREIMNDLEKKMQSTLISAARDLGLDPG
+                     KQIKLDSSAQFGYYFRVTCKEEKVLRNNKNFSTVDIQKNGVKFTNSKLTSLNEEYTKN
+                     KTEYEEAQDAIVKEIVNISSGYVEPMQTLNDVLAQLDAVVSFAHVSNGAPVPYVRPAI
+                     LEKGQGRIILKASRHACVEVQDEIAFIPNDVYFEKDKQMFHIITGPNMGGKSTYIRQT
+                     GVIVLMAQIGCFVPCESAEVSIVDCILARVGAGDSQLKGVSTFMAEMLETASILRSAT
+                     KDSLIIIDELGRGTSTYDGFGLAWAISEYIATKIGAFCMFATHFHELTALANQIPTVN
+                     NLHVTALTTEETLTMLYQVKKGVCDQSFGIHVAELANFPKHVIECAKQKALELEEFQY
+                     IGESQGYDIMEPAAKKCYLEREQGEKIIQEFLSKVKQMPFTEMSEENITIKLKQLKAE
+                     VIAKNNSFVNEIISRIKVTT"
+     misc_feature    40..42
+                     /gene="MSH2"
+                     /gene_synonym="COCA1; FCC1; hMSH2; HNPCC; HNPCC1; LCFS2;
+                     LYNCH1; MMRCS2; MSH-2"
+                     /note="N-acetylalanine.
+                     /evidence=ECO:0007744|PubMed:22814378; propagated from
+                     UniProtKB/Swiss-Prot (P43246.1); acetylation site"
+     misc_feature    1699..1701
+                     /gene="MSH2"
+                     /gene_synonym="COCA1; FCC1; hMSH2; HNPCC; HNPCC1; LCFS2;
+                     LYNCH1; MMRCS2; MSH-2"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0007744|PubMed:19608861; propagated from
+                     UniProtKB/Swiss-Prot (P43246.1); acetylation site"
+     misc_feature    1735..1737
+                     /gene="MSH2"
+                     /gene_synonym="COCA1; FCC1; hMSH2; HNPCC; HNPCC1; LCFS2;
+                     LYNCH1; MMRCS2; MSH-2"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0000250|UniProtKB:P43247; propagated from
+                     UniProtKB/Swiss-Prot (P43246.1); acetylation site"
+     misc_feature    1837..2049
+                     /gene="MSH2"
+                     /gene_synonym="COCA1; FCC1; hMSH2; HNPCC; HNPCC1; LCFS2;
+                     LYNCH1; MMRCS2; MSH-2"
+                     /note="propagated from UniProtKB/Swiss-Prot (P43246.1);
+                     Region: Interaction with EXO1"
+     misc_feature    2569..2571
+                     /gene="MSH2"
+                     /gene_synonym="COCA1; FCC1; hMSH2; HNPCC; HNPCC1; LCFS2;
+                     LYNCH1; MMRCS2; MSH-2"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0000269|PubMed:24882211; propagated from
+                     UniProtKB/Swiss-Prot (P43246.1); acetylation site"
+     misc_feature    2575..2577
+                     /gene="MSH2"
+                     /gene_synonym="COCA1; FCC1; hMSH2; HNPCC; HNPCC1; LCFS2;
+                     LYNCH1; MMRCS2; MSH-2"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0000269|PubMed:24882211; propagated from
+                     UniProtKB/Swiss-Prot (P43246.1); acetylation site"
+     misc_feature    2647..2649
+                     /gene="MSH2"
+                     /gene_synonym="COCA1; FCC1; hMSH2; HNPCC; HNPCC1; LCFS2;
+                     LYNCH1; MMRCS2; MSH-2"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0000269|PubMed:24882211; propagated from
+                     UniProtKB/Swiss-Prot (P43246.1); acetylation site"
+     misc_feature    2710..2712
+                     /gene="MSH2"
+                     /gene_synonym="COCA1; FCC1; hMSH2; HNPCC; HNPCC1; LCFS2;
+                     LYNCH1; MMRCS2; MSH-2"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0000269|PubMed:24882211; propagated from
+                     UniProtKB/Swiss-Prot (P43246.1); acetylation site"
+     misc_feature    2797..2799
+                     /gene="MSH2"
+                     /gene_synonym="COCA1; FCC1; hMSH2; HNPCC; HNPCC1; LCFS2;
+                     LYNCH1; MMRCS2; MSH-2"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P43246.1); phosphorylation site"
+     exon            248..402
+                     /gene="MSH2"
+                     /gene_synonym="COCA1; FCC1; hMSH2; HNPCC; HNPCC1; LCFS2;
+                     LYNCH1; MMRCS2; MSH-2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            403..681
+                     /gene="MSH2"
+                     /gene_synonym="COCA1; FCC1; hMSH2; HNPCC; HNPCC1; LCFS2;
+                     LYNCH1; MMRCS2; MSH-2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            682..828
+                     /gene="MSH2"
+                     /gene_synonym="COCA1; FCC1; hMSH2; HNPCC; HNPCC1; LCFS2;
+                     LYNCH1; MMRCS2; MSH-2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            829..978
+                     /gene="MSH2"
+                     /gene_synonym="COCA1; FCC1; hMSH2; HNPCC; HNPCC1; LCFS2;
+                     LYNCH1; MMRCS2; MSH-2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            979..1112
+                     /gene="MSH2"
+                     /gene_synonym="COCA1; FCC1; hMSH2; HNPCC; HNPCC1; LCFS2;
+                     LYNCH1; MMRCS2; MSH-2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1113..1312
+                     /gene="MSH2"
+                     /gene_synonym="COCA1; FCC1; hMSH2; HNPCC; HNPCC1; LCFS2;
+                     LYNCH1; MMRCS2; MSH-2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1313..1422
+                     /gene="MSH2"
+                     /gene_synonym="COCA1; FCC1; hMSH2; HNPCC; HNPCC1; LCFS2;
+                     LYNCH1; MMRCS2; MSH-2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1423..1546
+                     /gene="MSH2"
+                     /gene_synonym="COCA1; FCC1; hMSH2; HNPCC; HNPCC1; LCFS2;
+                     LYNCH1; MMRCS2; MSH-2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1547..1697
+                     /gene="MSH2"
+                     /gene_synonym="COCA1; FCC1; hMSH2; HNPCC; HNPCC1; LCFS2;
+                     LYNCH1; MMRCS2; MSH-2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1698..1795
+                     /gene="MSH2"
+                     /gene_synonym="COCA1; FCC1; hMSH2; HNPCC; HNPCC1; LCFS2;
+                     LYNCH1; MMRCS2; MSH-2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1796..2041
+                     /gene="MSH2"
+                     /gene_synonym="COCA1; FCC1; hMSH2; HNPCC; HNPCC1; LCFS2;
+                     LYNCH1; MMRCS2; MSH-2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2042..2246
+                     /gene="MSH2"
+                     /gene_synonym="COCA1; FCC1; hMSH2; HNPCC; HNPCC1; LCFS2;
+                     LYNCH1; MMRCS2; MSH-2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2247..2494
+                     /gene="MSH2"
+                     /gene_synonym="COCA1; FCC1; hMSH2; HNPCC; HNPCC1; LCFS2;
+                     LYNCH1; MMRCS2; MSH-2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2495..2670
+                     /gene="MSH2"
+                     /gene_synonym="COCA1; FCC1; hMSH2; HNPCC; HNPCC1; LCFS2;
+                     LYNCH1; MMRCS2; MSH-2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2671..3115
+                     /gene="MSH2"
+                     /gene_synonym="COCA1; FCC1; hMSH2; HNPCC; HNPCC1; LCFS2;
+                     LYNCH1; MMRCS2; MSH-2"
+                     /inference="alignment:Splign:2.1.0"
+     regulatory      3092..3097
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="MSH2"
+                     /gene_synonym="COCA1; FCC1; hMSH2; HNPCC; HNPCC1; LCFS2;
+                     LYNCH1; MMRCS2; MSH-2"
+                     /note="hexamer: AATAAA"
+     polyA_site      3115
+                     /gene="MSH2"
+                     /gene_synonym="COCA1; FCC1; hMSH2; HNPCC; HNPCC1; LCFS2;
+                     LYNCH1; MMRCS2; MSH-2"
+                     /note="major polyA site"
+ORIGIN      
+        1 gcattttctt caaccaggag gtgaggaggt ttcgacatgg cggtgcagcc gaaggagacg
+       61 ctgcagttgg agagcgcggc cgaggtcggc ttcgtgcgct tctttcaggg catgccggag
+      121 aagccgacca ccacagtgcg ccttttcgac cggggcgact tctatacggc gcacggcgag
+      181 gacgcgctgc tggccgcccg ggaggtgttc aagacccagg gggtgatcaa gtacatgggg
+      241 ccggcaggag caaagaatct gcagagtgtt gtgcttagta aaatgaattt tgaatctttt
+      301 gtaaaagatc ttcttctggt tcgtcagtat agagttgaag tttataagaa tagagctgga
+      361 aataaggcat ccaaggagaa tgattggtat ttggcatata aggcttctcc tggcaatctc
+      421 tctcagtttg aagacattct ctttggtaac aatgatatgt cagcttccat tggtgttgtg
+      481 ggtgttaaaa tgtccgcagt tgatggccag agacaggttg gagttgggta tgtggattcc
+      541 atacagagga aactaggact gtgtgaattc cctgataatg atcagttctc caatcttgag
+      601 gctctcctca tccagattgg accaaaggaa tgtgttttac ccggaggaga gactgctgga
+      661 gacatgggga aactgagaca gataattcaa agaggaggaa ttctgatcac agaaagaaaa
+      721 aaagctgact tttccacaaa agacatttat caggacctca accggttgtt gaaaggcaaa
+      781 aagggagagc agatgaatag tgctgtattg ccagaaatgg agaatcaggt tgcagtttca
+      841 tcactgtctg cggtaatcaa gtttttagaa ctcttatcag atgattccaa ctttggacag
+      901 tttgaactga ctacttttga cttcagccag tatatgaaat tggatattgc agcagtcaga
+      961 gcccttaacc tttttcaggg ttctgttgaa gataccactg gctctcagtc tctggctgcc
+     1021 ttgctgaata agtgtaaaac ccctcaagga caaagacttg ttaaccagtg gattaagcag
+     1081 cctctcatgg ataagaacag aatagaggag agattgaatt tagtggaagc ttttgtagaa
+     1141 gatgcagaat tgaggcagac tttacaagaa gatttacttc gtcgattccc agatcttaac
+     1201 cgacttgcca agaagtttca aagacaagca gcaaacttac aagattgtta ccgactctat
+     1261 cagggtataa atcaactacc taatgttata caggctctgg aaaaacatga aggaaaacac
+     1321 cagaaattat tgttggcagt ttttgtgact cctcttactg atcttcgttc tgacttctcc
+     1381 aagtttcagg aaatgataga aacaacttta gatatggatc aggtggaaaa ccatgaattc
+     1441 cttgtaaaac cttcatttga tcctaatctc agtgaattaa gagaaataat gaatgacttg
+     1501 gaaaagaaga tgcagtcaac attaataagt gcagccagag atcttggctt ggaccctggc
+     1561 aaacagatta aactggattc cagtgcacag tttggatatt actttcgtgt aacctgtaag
+     1621 gaagaaaaag tccttcgtaa caataaaaac tttagtactg tagatatcca gaagaatggt
+     1681 gttaaattta ccaacagcaa attgacttct ttaaatgaag agtataccaa aaataaaaca
+     1741 gaatatgaag aagcccagga tgccattgtt aaagaaattg tcaatatttc ttcaggctat
+     1801 gtagaaccaa tgcagacact caatgatgtg ttagctcagc tagatgctgt tgtcagcttt
+     1861 gctcacgtgt caaatggagc acctgttcca tatgtacgac cagccatttt ggagaaagga
+     1921 caaggaagaa ttatattaaa agcatccagg catgcttgtg ttgaagttca agatgaaatt
+     1981 gcatttattc ctaatgacgt atactttgaa aaagataaac agatgttcca catcattact
+     2041 ggccccaata tgggaggtaa atcaacatat attcgacaaa ctggggtgat agtactcatg
+     2101 gcccaaattg ggtgttttgt gccatgtgag tcagcagaag tgtccattgt ggactgcatc
+     2161 ttagcccgag taggggctgg tgacagtcaa ttgaaaggag tctccacgtt catggctgaa
+     2221 atgttggaaa ctgcttctat cctcaggtct gcaaccaaag attcattaat aatcatagat
+     2281 gaattgggaa gaggaacttc tacctacgat ggatttgggt tagcatgggc tatatcagaa
+     2341 tacattgcaa caaagattgg tgctttttgc atgtttgcaa cccattttca tgaacttact
+     2401 gccttggcca atcagatacc aactgttaat aatctacatg tcacagcact caccactgaa
+     2461 gagaccttaa ctatgcttta tcaggtgaag aaaggtgtct gtgatcaaag ttttgggatt
+     2521 catgttgcag agcttgctaa tttccctaag catgtaatag agtgtgctaa acagaaagcc
+     2581 ctggaacttg aggagtttca gtatattgga gaatcgcaag gatatgatat catggaacca
+     2641 gcagcaaaga agtgctatct ggaaagagag caaggtgaaa aaattattca ggagttcctg
+     2701 tccaaggtga aacaaatgcc ctttactgaa atgtcagaag aaaacatcac aataaagtta
+     2761 aaacagctaa aagctgaagt aatagcaaag aataatagct ttgtaaatga aatcatttca
+     2821 cgaataaaag ttactacgtg aaaaatccca gtaatggaat gaaggtaata ttgataagct
+     2881 attgtctgta atagttttat attgttttat attaaccctt tttccatagt gttaactgtc
+     2941 agtgcccatg ggctatcaac ttaataagat atttagtaat attttacttt gaggacattt
+     3001 tcaaagattt ttattttgaa aaatgagagc tgtaactgag gactgtttgc aattgacata
+     3061 ggcaataata agtgatgtgc tgaattttat aaataaaatc atgtagtttg tggaa
+//
+

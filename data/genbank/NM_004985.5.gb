@@ -1,0 +1,329 @@
+LOCUS       NM_004985               5306 bp    mRNA    linear   PRI 09-SEP-2026
+DEFINITION  Homo sapiens KRas proto-oncogene, GTPase (KRAS), transcript variant
+            b, mRNA.
+ACCESSION   NM_004985
+VERSION     NM_004985.5
+KEYWORDS    RefSeq; MANE Select.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 5306)
+  AUTHORS   Czyzyk,D., Yan,W., Messing,S., Gillette,W., Tsuji,T., Yamaguchi,M.,
+            Furuzono,S., Turner,D.M., Esposito,D., Nissley,D.V., McCormick,F.
+            and Simanshu,D.K.
+  TITLE     Structural insights into isoform-specific RAS-PI3Kalpha
+            interactions and the role of RAS in PI3Kalpha activation
+  JOURNAL   Nat Commun 16 (1), 525 (2025)
+   PUBMED   39788953
+REFERENCE   2  (bases 1 to 5306)
+  AUTHORS   Gomes-Fernandes,B., Trindade,L.M., de Castro Bastos Rodrigues,M.,
+            Cardoso,J.P.D., Lima,F.T., Rogerio,L., de Vasconcelos Generoso,S.,
+            Carneiro,J.G., da Silva,R.G., de Souza,R.P., De Marco,L. and
+            Bastos-Rodrigues,L.
+  TITLE     Association between KRAS mutation and alcohol consumption in
+            Brazilian patients with colorectal cancer
+  JOURNAL   Sci Rep 14 (1), 26445 (2024)
+   PUBMED   39488539
+  REMARK    GeneRIF: Association between KRAS mutation and alcohol consumption
+            in Brazilian patients with colorectal cancer.
+REFERENCE   3  (bases 1 to 5306)
+  AUTHORS   Chen,Y., Zheng,Y. and Liu,S.
+  TITLE     KRAS mutation promotes the colonization of Fusobacterium nucleatum
+            in colorectal cancer by down-regulating SERTAD4
+  JOURNAL   J Cell Mol Med 28 (20), e70182 (2024)
+   PUBMED   39462261
+  REMARK    GeneRIF: KRAS mutation promotes the colonization of Fusobacterium
+            nucleatum in colorectal cancer by down-regulating SERTAD4.
+REFERENCE   4  (bases 1 to 5306)
+  AUTHORS   Moog,U. and Dobyns,W.B.
+  TITLE     Encephalocraniocutaneous Lipomatosis
+  JOURNAL   (in) Adam MP, Bick S, Mirzaa GM, Wallace SE and Amemiya A (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   35099867
+REFERENCE   5  (bases 1 to 5306)
+  AUTHORS   Gripp,K.W. and Weaver,K.N.
+  TITLE     HRAS-Related Costello Syndrome
+  JOURNAL   (in) Adam MP, Bick S, Mirzaa GM, Pagon RA, Wallace SE and Amemiya A
+            (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   20301680
+REFERENCE   6  (bases 1 to 5306)
+  AUTHORS   Rauen,K.A.
+  TITLE     Cardiofaciocutaneous Syndrome
+  JOURNAL   (in) Adam MP, Bick S, Mirzaa GM, Pagon RA, Wallace SE and Amemiya A
+            (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   20301365
+REFERENCE   7  (bases 1 to 5306)
+  AUTHORS   Roberts,A.E.
+  TITLE     Noonan Syndrome
+  JOURNAL   (in) Adam MP, Bick S, Mirzaa GM, Wallace SE and Amemiya A (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   20301303
+REFERENCE   8  (bases 1 to 5306)
+  AUTHORS   Grimmond,S.M., Raghavan,D. and Russell,P.J.
+  TITLE     Detection of a rare point mutation in Ki-ras of a human bladder
+            cancer xenograft by polymerase chain reaction and direct sequencing
+  JOURNAL   Urol Res 20 (2), 121-126 (1992)
+   PUBMED   1553789
+REFERENCE   9  (bases 1 to 5306)
+  AUTHORS   Haritani,H., Esumi,M., Uchida,T. and Shikata,T.
+  TITLE     Oncogene expression in the liver tissue of patients with
+            nonneoplastic liver disease
+  JOURNAL   Cancer 67 (10), 2594-2598 (1991)
+   PUBMED   2015559
+REFERENCE   10 (bases 1 to 5306)
+  AUTHORS   Slebos,R.J., Habets,G.G., Evers,S.G., Mooi,W.J. and Rodenhuis,S.
+  TITLE     Allele-specific detection of K-ras oncogene expression in human
+            non-small-cell lung carcinomas
+  JOURNAL   Int J Cancer 48 (1), 51-56 (1991)
+   PUBMED   1850383
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from M54968.1, AK292510.1 and
+            AC092794.10.
+            This sequence is a reference standard in the RefSeqGene project.
+            
+            On Apr 18, 2019 this sequence version replaced NM_004985.4.
+            
+            Summary: This gene, a Kirsten ras oncogene homolog from the
+            mammalian ras gene family, encodes a protein that is a member of
+            the small GTPase superfamily. A single amino acid substitution is
+            responsible for an activating mutation. The transforming protein
+            that results is implicated in various malignancies, including lung
+            adenocarcinoma, mucinous adenoma, ductal carcinoma of the pancreas
+            and colorectal carcinoma. Alternative splicing leads to variants
+            encoding two isoforms that differ in the C-terminal region.
+            [provided by RefSeq, Jul 2008].
+            
+            Transcript Variant: This variant (b) is composed of five exons and
+            lacks exon 4a which the longer transcript variant (a) includes.
+            This predominant variant (b) has a cds that terminates in exon 4b
+            and encodes isoform b.
+            
+            Sequence Note: This RefSeq record was created from transcript and
+            genomic sequence data to make the sequence consistent with the
+            reference genome assembly. The genomic coordinates used for the
+            transcript record were based on transcript alignments.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: SRR1803611.7529.1,
+                                           SRR1803611.125667.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMEA2145743 [ECO:0000348]
+            ##Evidence-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            MANE Ensembl match     :: ENST00000311936.8/ ENSP00000308495.3
+            RefSeq Select criteria :: based on manual assertion, conservation,
+                                      expression
+            ##RefSeq-Attributes-END##
+            COMPLETENESS: complete on the 3' end.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-223               M54968.1           3-225
+            224-933             AK292510.1         187-896
+            934-5306            AC092794.10        18030-22402
+FEATURES             Location/Qualifiers
+     source          1..5306
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="12"
+                     /map="12p12.1"
+     gene            1..5306
+                     /gene="KRAS"
+                     /gene_synonym="'C-K-RAS; C-K-RAS; c-Ki-ras; c-Ki-ras2;
+                     CFC2; K-Ras; K-Ras 2; K-RAS2A; K-RAS2B; K-RAS4A; K-RAS4B;
+                     KI-RAS; KRAS1; KRAS2; NS; NS3; OES; RALD; RALD2; RASK2"
+                     /note="KRas proto-oncogene, GTPase"
+                     /db_xref="GeneID:3845"
+                     /db_xref="HGNC:HGNC:6407"
+                     /db_xref="MIM:190070"
+     exon            1..179
+                     /gene="KRAS"
+                     /gene_synonym="'C-K-RAS; C-K-RAS; c-Ki-ras; c-Ki-ras2;
+                     CFC2; K-Ras; K-Ras 2; K-RAS2A; K-RAS2B; K-RAS4A; K-RAS4B;
+                     KI-RAS; KRAS1; KRAS2; NS; NS3; OES; RALD; RALD2; RASK2"
+                     /inference="alignment:Splign:2.1.0"
+     misc_feature    128..130
+                     /gene="KRAS"
+                     /gene_synonym="'C-K-RAS; C-K-RAS; c-Ki-ras; c-Ki-ras2;
+                     CFC2; K-Ras; K-Ras 2; K-RAS2A; K-RAS2B; K-RAS4A; K-RAS4B;
+                     KI-RAS; KRAS1; KRAS2; NS; NS3; OES; RALD; RALD2; RASK2"
+                     /note="upstream in-frame stop codon"
+     exon            180..301
+                     /gene="KRAS"
+                     /gene_synonym="'C-K-RAS; C-K-RAS; c-Ki-ras; c-Ki-ras2;
+                     CFC2; K-Ras; K-Ras 2; K-RAS2A; K-RAS2B; K-RAS4A; K-RAS4B;
+                     KI-RAS; KRAS1; KRAS2; NS; NS3; OES; RALD; RALD2; RASK2"
+                     /inference="alignment:Splign:2.1.0"
+     CDS             191..757
+                     /gene="KRAS"
+                     /gene_synonym="'C-K-RAS; C-K-RAS; c-Ki-ras; c-Ki-ras2;
+                     CFC2; K-Ras; K-Ras 2; K-RAS2A; K-RAS2B; K-RAS4A; K-RAS4B;
+                     KI-RAS; KRAS1; KRAS2; NS; NS3; OES; RALD; RALD2; RASK2"
+                     /EC_number="3.6.5.2"
+                     /note="isoform b is encoded by transcript variant b;
+                     v-Ki-ras2 Kirsten rat sarcoma 2 viral oncogene homolog;
+                     transforming protein p21; c-Kirsten-ras protein; K-ras p21
+                     protein; oncogene KRAS2; PR310 c-K-ras oncogene; cellular
+                     c-Ki-ras2 proto-oncogene; Kirsten rat sarcoma viral
+                     proto-oncogene; GTPase KRas; KRAS-ENOPH fusion;
+                     Kras-Enoph1 fusion protein; Kirsten rat sarcoma viral
+                     oncogene homolog; cellular transforming proto-oncogene;
+                     proto-oncogene GTPase"
+                     /codon_start=1
+                     /product="GTPase KRas isoform b"
+                     /protein_id="NP_004976.2"
+                     /db_xref="CCDS:CCDS8702.1"
+                     /db_xref="GeneID:3845"
+                     /db_xref="HGNC:HGNC:6407"
+                     /db_xref="MIM:190070"
+                     /translation="MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQV
+                     VIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKR
+                     VKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQGVDDAFYTLV
+                     REIRKHKEKMSKDGKKKKKKSKTKCVIM"
+     exon            302..480
+                     /gene="KRAS"
+                     /gene_synonym="'C-K-RAS; C-K-RAS; c-Ki-ras; c-Ki-ras2;
+                     CFC2; K-Ras; K-Ras 2; K-RAS2A; K-RAS2B; K-RAS4A; K-RAS4B;
+                     KI-RAS; KRAS1; KRAS2; NS; NS3; OES; RALD; RALD2; RASK2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            481..640
+                     /gene="KRAS"
+                     /gene_synonym="'C-K-RAS; C-K-RAS; c-Ki-ras; c-Ki-ras2;
+                     CFC2; K-Ras; K-Ras 2; K-RAS2A; K-RAS2B; K-RAS4A; K-RAS4B;
+                     KI-RAS; KRAS1; KRAS2; NS; NS3; OES; RALD; RALD2; RASK2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            641..5306
+                     /gene="KRAS"
+                     /gene_synonym="'C-K-RAS; C-K-RAS; c-Ki-ras; c-Ki-ras2;
+                     CFC2; K-Ras; K-Ras 2; K-RAS2A; K-RAS2B; K-RAS4A; K-RAS4B;
+                     KI-RAS; KRAS1; KRAS2; NS; NS3; OES; RALD; RALD2; RASK2"
+                     /inference="alignment:Splign:2.1.0"
+     regulatory      3595..3600
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="KRAS"
+                     /gene_synonym="'C-K-RAS; C-K-RAS; c-Ki-ras; c-Ki-ras2;
+                     CFC2; K-Ras; K-Ras 2; K-RAS2A; K-RAS2B; K-RAS4A; K-RAS4B;
+                     KI-RAS; KRAS1; KRAS2; NS; NS3; OES; RALD; RALD2; RASK2"
+                     /note="hexamer: AATAAA"
+     polyA_site      3621
+                     /gene="KRAS"
+                     /gene_synonym="'C-K-RAS; C-K-RAS; c-Ki-ras; c-Ki-ras2;
+                     CFC2; K-Ras; K-Ras 2; K-RAS2A; K-RAS2B; K-RAS4A; K-RAS4B;
+                     KI-RAS; KRAS1; KRAS2; NS; NS3; OES; RALD; RALD2; RASK2"
+     regulatory      5286..5291
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="KRAS"
+                     /gene_synonym="'C-K-RAS; C-K-RAS; c-Ki-ras; c-Ki-ras2;
+                     CFC2; K-Ras; K-Ras 2; K-RAS2A; K-RAS2B; K-RAS4A; K-RAS4B;
+                     KI-RAS; KRAS1; KRAS2; NS; NS3; OES; RALD; RALD2; RASK2"
+                     /note="hexamer: AATAAA"
+     polyA_site      5306
+                     /gene="KRAS"
+                     /gene_synonym="'C-K-RAS; C-K-RAS; c-Ki-ras; c-Ki-ras2;
+                     CFC2; K-Ras; K-Ras 2; K-RAS2A; K-RAS2B; K-RAS4A; K-RAS4B;
+                     KI-RAS; KRAS1; KRAS2; NS; NS3; OES; RALD; RALD2; RASK2"
+                     /note="major polyA site"
+ORIGIN      
+        1 ctaggcggcg gccgcggcgg cggaggcagc agcggcggcg gcagtggcgg cggcgaaggt
+       61 ggcggcggct cggccagtac tcccggcccc cgccatttcg gactgggagc gagcgcggcg
+      121 caggcactga aggcggcggc ggggccagag gctcagcggc tcccaggtgc gggagagagg
+      181 cctgctgaaa atgactgaat ataaacttgt ggtagttgga gctggtggcg taggcaagag
+      241 tgccttgacg atacagctaa ttcagaatca ttttgtggac gaatatgatc caacaataga
+      301 ggattcctac aggaagcaag tagtaattga tggagaaacc tgtctcttgg atattctcga
+      361 cacagcaggt caagaggagt acagtgcaat gagggaccag tacatgagga ctggggaggg
+      421 ctttctttgt gtatttgcca taaataatac taaatcattt gaagatattc accattatag
+      481 agaacaaatt aaaagagtta aggactctga agatgtacct atggtcctag taggaaataa
+      541 atgtgatttg ccttctagaa cagtagacac aaaacaggct caggacttag caagaagtta
+      601 tggaattcct tttattgaaa catcagcaaa gacaagacag ggtgttgatg atgccttcta
+      661 tacattagtt cgagaaattc gaaaacataa agaaaagatg agcaaagatg gtaaaaagaa
+      721 gaaaaagaag tcaaagacaa agtgtgtaat tatgtaaata caatttgtac ttttttctta
+      781 aggcatacta gtacaagtgg taatttttgt acattacact aaattattag catttgtttt
+      841 agcattacct aatttttttc ctgctccatg cagactgtta gcttttacct taaatgctta
+      901 ttttaaaatg acagtggaag tttttttttc ctctaagtgc cagtattccc agagttttgg
+      961 tttttgaact agcaatgcct gtgaaaaaga aactgaatac ctaagatttc tgtcttgggg
+     1021 cttttggtgc atgcagttga ttacttctta tttttcttac caattgtgaa tgttggtgtg
+     1081 aaacaaatta atgaagcttt tgaatcatcc ctattctgtg ttttatctag tcacataaat
+     1141 ggattaatta ctaatttcag ttgagacctt ctaattggtt tttactgaaa cattgaggga
+     1201 acacaaattt atgggcttcc tgatgatgat tcttctaggc atcatgtcct atagtttgtc
+     1261 atccctgatg aatgtaaagt tacactgttc acaaaggttt tgtctccttt ccactgctat
+     1321 tagtcatggt cactctcccc aaaatattat attttttcta taaaaagaaa aaaatggaaa
+     1381 aaaattacaa ggcaatggaa actattataa ggccatttcc ttttcacatt agataaatta
+     1441 ctataaagac tcctaatagc ttttcctgtt aaggcagacc cagtatgaaa tggggattat
+     1501 tatagcaacc attttggggc tatatttaca tgctactaaa tttttataat aattgaaaag
+     1561 attttaacaa gtataaaaaa ttctcatagg aattaaatgt agtctccctg tgtcagactg
+     1621 ctctttcata gtataacttt aaatcttttc ttcaacttga gtctttgaag atagttttaa
+     1681 ttctgcttgt gacattaaaa gattatttgg gccagttata gcttattagg tgttgaagag
+     1741 accaaggttg caaggccagg ccctgtgtga acctttgagc tttcatagag agtttcacag
+     1801 catggactgt gtccccacgg tcatccagtg ttgtcatgca ttggttagtc aaaatgggga
+     1861 gggactaggg cagtttggat agctcaacaa gatacaatct cactctgtgg tggtcctgct
+     1921 gacaaatcaa gagcattgct tttgtttctt aagaaaacaa actctttttt aaaaattact
+     1981 tttaaatatt aactcaaaag ttgagatttt ggggtggtgg tgtgccaaga cattaatttt
+     2041 ttttttaaac aatgaagtga aaaagtttta caatctctag gtttggctag ttctcttaac
+     2101 actggttaaa ttaacattgc ataaacactt ttcaagtctg atccatattt aataatgctt
+     2161 taaaataaaa ataaaaacaa tccttttgat aaatttaaaa tgttacttat tttaaaataa
+     2221 atgaagtgag atggcatggt gaggtgaaag tatcactgga ctaggaagaa ggtgacttag
+     2281 gttctagata ggtgtctttt aggactctga ttttgaggac atcacttact atccatttct
+     2341 tcatgttaaa agaagtcatc tcaaactctt agtttttttt ttttacaact atgtaattta
+     2401 tattccattt acataaggat acacttattt gtcaagctca gcacaatctg taaattttta
+     2461 acctatgtta caccatcttc agtgccagtc ttgggcaaaa ttgtgcaaga ggtgaagttt
+     2521 atatttgaat atccattctc gttttaggac tcttcttcca tattagtgtc atcttgcctc
+     2581 cctaccttcc acatgcccca tgacttgatg cagttttaat acttgtaatt cccctaacca
+     2641 taagatttac tgctgctgtg gatatctcca tgaagttttc ccactgagtc acatcagaaa
+     2701 tgccctacat cttatttcct cagggctcaa gagaatctga cagataccat aaagggattt
+     2761 gacctaatca ctaattttca ggtggtggct gatgctttga acatctcttt gctgcccaat
+     2821 ccattagcga cagtaggatt tttcaaacct ggtatgaata gacagaaccc tatccagtgg
+     2881 aaggagaatt taataaagat agtgctgaaa gaattcctta ggtaatctat aactaggact
+     2941 actcctggta acagtaatac attccattgt tttagtaacc agaaatcttc atgcaatgaa
+     3001 aaatacttta attcatgaag cttacttttt ttttttggtg tcagagtctc gctcttgtca
+     3061 cccaggctgg aatgcagtgg cgccatctca gctcactgca acctccatct cccaggttca
+     3121 agcgattctc gtgcctcggc ctcctgagta gctgggatta caggcgtgtg ccactacact
+     3181 caactaattt ttgtattttt aggagagacg gggtttcacc ctgttggcca ggctggtctc
+     3241 gaactcctga cctcaagtga ttcacccacc ttggcctcat aaacctgttt tgcagaactc
+     3301 atttattcag caaatattta ttgagtgcct accagatgcc agtcaccaca caaggcactg
+     3361 ggtatatggt atccccaaac aagagacata atcccggtcc ttaggtagtg ctagtgtggt
+     3421 ctgtaatatc ttactaaggc ctttggtata cgacccagag ataacacgat gcgtatttta
+     3481 gttttgcaaa gaaggggttt ggtctctgtg ccagctctat aattgttttg ctacgattcc
+     3541 actgaaactc ttcgatcaag ctactttatg taaatcactt cattgtttta aaggaataaa
+     3601 cttgattata ttgttttttt atttggcata actgtgattc ttttaggaca attactgtac
+     3661 acattaaggt gtatgtcaga tattcatatt gacccaaatg tgtaatattc cagttttctc
+     3721 tgcataagta attaaaatat acttaaaaat taatagtttt atctgggtac aaataaacag
+     3781 gtgcctgaac tagttcacag acaaggaaac ttctatgtaa aaatcactat gatttctgaa
+     3841 ttgctatgtg aaactacaga tctttggaac actgtttagg tagggtgtta agacttacac
+     3901 agtacctcgt ttctacacag agaaagaaat ggccatactt caggaactgc agtgcttatg
+     3961 aggggatatt taggcctctt gaatttttga tgtagatggg cattttttta aggtagtggt
+     4021 taattacctt tatgtgaact ttgaatggtt taacaaaaga tttgtttttg tagagatttt
+     4081 aaagggggag aattctagaa ataaatgtta cctaattatt acagccttaa agacaaaaat
+     4141 ccttgttgaa gtttttttaa aaaaagctaa attacataga cttaggcatt aacatgtttg
+     4201 tggaagaata tagcagacgt atattgtatc atttgagtga atgttcccaa gtaggcattc
+     4261 taggctctat ttaactgagt cacactgcat aggaatttag aacctaactt ttataggtta
+     4321 tcaaaactgt tgtcaccatt gcacaatttt gtcctaatat atacatagaa actttgtggg
+     4381 gcatgttaag ttacagtttg cacaagttca tctcatttgt attccattga tttttttttt
+     4441 cttctaaaca ttttttcttc aaacagtata taactttttt taggggattt ttttttagac
+     4501 agcaaaaact atctgaagat ttccatttgt caaaaagtaa tgatttcttg ataattgtgt
+     4561 agtaatgttt tttagaaccc agcagttacc ttaaagctga atttatattt agtaacttct
+     4621 gtgttaatac tggatagcat gaattctgca ttgagaaact gaatagctgt cataaaatga
+     4681 aactttcttt ctaaagaaag atactcacat gagttcttga agaatagtca taactagatt
+     4741 aagatctgtg ttttagttta atagtttgaa gtgcctgttt gggataatga taggtaattt
+     4801 agatgaattt aggggaaaaa aaagttatct gcagatatgt tgagggccca tctctccccc
+     4861 cacaccccca cagagctaac tgggttacag tgttttatcc gaaagtttcc aattccactg
+     4921 tcttgtgttt tcatgttgaa aatacttttg catttttcct ttgagtgcca atttcttact
+     4981 agtactattt cttaatgtaa catgtttacc tggaatgtat tttaactatt tttgtatagt
+     5041 gtaaactgaa acatgcacat tttgtacatt gtgctttctt ttgtgggaca tatgcagtgt
+     5101 gatccagttg ttttccatca tttggttgcg ctgacctagg aatgttggtc atatcaaaca
+     5161 ttaaaaatga ccactctttt aattgaaatt aacttttaaa tgtttatagg agtatgtgct
+     5221 gtgaagtgat ctaaaatttg taatattttt gtcatgaact gtactactcc taattattgt
+     5281 aatgtaataa aaatagttac agtgac
+//
+

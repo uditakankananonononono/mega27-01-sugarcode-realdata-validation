@@ -1,0 +1,547 @@
+LOCUS       NM_004333               6459 bp    mRNA    linear   PRI 09-SEP-2026
+DEFINITION  Homo sapiens B-Raf proto-oncogene, serine/threonine kinase (BRAF),
+            transcript variant 1, mRNA.
+ACCESSION   NM_004333
+VERSION     NM_004333.6
+KEYWORDS    RefSeq; MANE Select.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 6459)
+  AUTHORS   Schaffer,L.V., Hu,M., Qian,G., Moon,K.M., Pal,A., Soni,N.,
+            Latham,A.P., Pontano Vaites,L., Tsai,D., Mattson,N.M., Licon,K.,
+            Bachelder,R., Cesnik,A., Gaur,I., Le,T., Leineweber,W., Palar,A.,
+            Pulido,E., Qin,Y., Zhao,X., Churas,C., Lenkiewicz,J., Chen,J.,
+            Ono,K., Pratt,D., Zage,P., Echeverria,I., Sali,A., Harper,J.W.,
+            Gygi,S.P., Foster,L.J., Huttlin,E.L., Lundberg,E. and Ideker,T.
+  TITLE     Multimodal cell maps as a foundation for structural and functional
+            genomics
+  JOURNAL   Nature 642 (8066), 222-231 (2025)
+   PUBMED   40205054
+  REMARK    Erratum:[Nature. 2025 Oct;646(8086):E16. doi:
+            10.1038/s41586-025-09648-x. PMID: 41039152]
+REFERENCE   2  (bases 1 to 6459)
+  AUTHORS   Valcikova,B., Vadovicova,N., Smolkova,K., Zacpalova,M., Krejci,P.,
+            Lee,S., Rauch,J., Kolch,W., von Kriegsheim,A., Dorotikova,A.,
+            Andrysik,Z., Vichova,R., Vacek,O., Soucek,K. and Uldrijan,S.
+  TITLE     eIF4F controls ERK MAPK signaling in melanomas with BRAF and NRAS
+            mutations
+  JOURNAL   Proc Natl Acad Sci U S A 121 (44), e2321305121 (2024)
+   PUBMED   39436655
+  REMARK    GeneRIF: eIF4F controls ERK MAPK signaling in melanomas with BRAF
+            and NRAS mutations.
+REFERENCE   3  (bases 1 to 6459)
+  AUTHORS   von Ammon,J.L., Machado,G.J.R., da Matta,R.R.C., Telles,A.C.,
+            Carrijo,F., Dos Santos,B.A.F., Brandao,J.C.D., da Silva,T.M.,
+            Hecht,F., Colozza-Gama,G.A., Tezzei,J.H., Cerutti,J.M. and
+            Ramos,H.E.
+  TITLE     Follicular cell-derived thyroid carcinomas harboring novel genetic
+            BRAFNON-V600E mutations: real-world data obtained using a multigene
+            panel
+  JOURNAL   Arch Endocrinol Metab 68, e240067 (2024)
+   PUBMED   39420942
+  REMARK    GeneRIF: Follicular cell-derived thyroid carcinomas harboring novel
+            genetic BRAF[NON-V600E] mutations: real-world data obtained using a
+            multigene panel.
+REFERENCE   4  (bases 1 to 6459)
+  AUTHORS   Gripp,K.W. and Weaver,K.N.
+  TITLE     HRAS-Related Costello Syndrome
+  JOURNAL   (in) Adam MP, Bick S, Mirzaa GM, Pagon RA, Wallace SE and Amemiya A
+            (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   20301680
+REFERENCE   5  (bases 1 to 6459)
+  AUTHORS   Gelb,B.D. and Tartaglia,M.
+  TITLE     Noonan Syndrome with Multiple Lentigines
+  JOURNAL   (in) Adam MP, Bick S, Mirzaa GM, Wallace SE and Amemiya A (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   20301557
+REFERENCE   6  (bases 1 to 6459)
+  AUTHORS   Rauen,K.A.
+  TITLE     Cardiofaciocutaneous Syndrome
+  JOURNAL   (in) Adam MP, Bick S, Mirzaa GM, Pagon RA, Wallace SE and Amemiya A
+            (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   20301365
+REFERENCE   7  (bases 1 to 6459)
+  AUTHORS   Roberts,A.E.
+  TITLE     Noonan Syndrome
+  JOURNAL   (in) Adam MP, Bick S, Mirzaa GM, Wallace SE and Amemiya A (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   20301303
+REFERENCE   8  (bases 1 to 6459)
+  AUTHORS   Stephens,R.M., Sithanandam,G., Copeland,T.D., Kaplan,D.R.,
+            Rapp,U.R. and Morrison,D.K.
+  TITLE     95-kilodalton B-Raf serine/threonine kinase: identification of the
+            protein and its major autophosphorylation site
+  JOURNAL   Mol Cell Biol 12 (9), 3733-3742 (1992)
+   PUBMED   1508179
+REFERENCE   9  (bases 1 to 6459)
+  AUTHORS   Eychene,A., Barnier,J.V., Apiou,F., Dutrillaux,B. and Calothy,G.
+  TITLE     Chromosomal assignment of two human B-raf(Rmil) proto-oncogene
+            loci: B-raf-1 encoding the p94Braf/Rmil and B-raf-2, a processed
+            pseudogene
+  JOURNAL   Oncogene 7 (8), 1657-1660 (1992)
+   PUBMED   1630826
+REFERENCE   10 (bases 1 to 6459)
+  AUTHORS   Sithanandam,G., Druck,T., Cannizzaro,L.A., Leuzzi,G., Huebner,K.
+            and Rapp,U.R.
+  TITLE     B-raf and a B-raf pseudogene are located on 7q in man
+  JOURNAL   Oncogene 7 (4), 795-799 (1992)
+   PUBMED   1565476
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AC006006.2, DB454480.1,
+            BC101757.1, M95712.2, AW971583.1 and AC006344.2.
+            
+            On Jun 2, 2019 this sequence version replaced NM_004333.5.
+            
+            Summary: This gene encodes a protein belonging to the RAF family of
+            serine/threonine protein kinases. This protein plays a role in
+            regulating the MAP kinase/ERK signaling pathway, which affects cell
+            division, differentiation, and secretion. Mutations in this gene,
+            most commonly the V600E mutation, are the most frequently
+            identified cancer-causing mutations in melanoma, and have been
+            identified in various other cancers as well, including non-Hodgkin
+            lymphoma, colorectal cancer, thyroid carcinoma, non-small cell lung
+            carcinoma, hairy cell leukemia and adenocarcinoma of lung.
+            Mutations in this gene are also associated with
+            cardiofaciocutaneous, Noonan, and Costello syndromes, which exhibit
+            overlapping phenotypes. A pseudogene of this gene has been
+            identified on the X chromosome. [provided by RefSeq, Aug 2017].
+            
+            Sequence Note: This RefSeq record was created from transcript and
+            genomic sequence data to make the sequence consistent with the
+            reference genome assembly. The genomic coordinates used for the
+            transcript record were based on transcript alignments.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: M95712.2, BC101757.1 [ECO:0000332]
+            RNAseq introns              :: mixed sample support SAMEA1965299,
+                                           SAMEA1966682 [ECO:0006172]
+            ##Evidence-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            MANE Ensembl match     :: ENST00000646891.2/ ENSP00000493543.1
+            RefSeq Select criteria :: based on manual assertion, expression
+            ##RefSeq-Attributes-END##
+            COMPLETENESS: complete on the 3' end.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-1                 AC006006.2         44051-44051         c
+            2-204               DB454480.1         1-203
+            205-2570            BC101757.1         1-2366
+            2571-2635           M95712.2           2406-2470
+            2636-2970           AW971583.1         139-473             c
+            2971-6459           AC006344.2         47430-50918         c
+FEATURES             Location/Qualifiers
+     source          1..6459
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="7"
+                     /map="7q34"
+     gene            1..6459
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /note="B-Raf proto-oncogene, serine/threonine kinase"
+                     /db_xref="GeneID:673"
+                     /db_xref="HGNC:HGNC:1097"
+                     /db_xref="MIM:164757"
+     exon            1..364
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /inference="alignment:Splign:2.1.0"
+     misc_feature    53..55
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /note="upstream in-frame stop codon"
+     CDS             227..2527
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /EC_number="2.7.11.1"
+                     /note="isoform 1 is encoded by transcript variant 1;
+                     serine/threonine-protein kinase B-raf; B-Raf
+                     serine/threonine-protein; B-Raf proto-oncogene
+                     serine/threonine-protein kinase (p94); murine sarcoma
+                     viral (v-raf) oncogene homolog B1; v-raf murine sarcoma
+                     viral oncogene homolog B1; 94 kDa B-raf protein;
+                     proto-oncogene B-Raf"
+                     /codon_start=1
+                     /product="serine/threonine-protein kinase B-raf isoform 1"
+                     /protein_id="NP_004324.2"
+                     /db_xref="CCDS:CCDS5863.1"
+                     /db_xref="GeneID:673"
+                     /db_xref="HGNC:HGNC:1097"
+                     /db_xref="MIM:164757"
+                     /translation="MAALSGGGGGGAEPGQALFNGDMEPEAGAGAGAAASSAADPAIP
+                     EEVWNIKQMIKLTQEHIEALLDKFGGEHNPPSIYLEAYEEYTSKLDALQQREQQLLES
+                     LGNGTDFSVSSSASMDTVTSSSSSSLSVLPSSLSVFQNPTDVARSNPKSPQKPIVRVF
+                     LPNKQRTVVPARCGVTVRDSLKKALMMRGLIPECCAVYRIQDGEKKPIGWDTDISWLT
+                     GEELHVEVLENVPLTTHNFVRKTFFTLAFCDFCRKLLFQGFRCQTCGYKFHQRCSTEV
+                     PLMCVNYDQLDLLFVSKFFEHHPIPQEEASLAETALTSGSSPSAPASDSIGPQILTSP
+                     SPSKSIPIPQPFRPADEDHRNQFGQRDRSSSAPNVHINTIEPVNIDDLIRDQGFRGDG
+                     GSTTGLSATPPASLPGSLTNVKALQKSPGPQRERKSSSSSEDRNRMKTLGRRDSSDDW
+                     EIPDGQITVGQRIGSGSFGTVYKGKWHGDVAVKMLNVTAPTPQQLQAFKNEVGVLRKT
+                     RHVNILLFMGYSTKPQLAIVTQWCEGSSLYHHLHIIETKFEMIKLIDIARQTAQGMDY
+                     LHAKSIIHRDLKSNNIFLHEDLTVKIGDFGLATVKSRWSGSHQFEQLSGSILWMAPEV
+                     IRMQDKNPYSFQSDVYAFGIVLYELMTGQLPYSNINNRDQIIFMVGRGYLSPDLSKVR
+                     SNCPKAMKRLMAECLKKKRDERPLFPQILASIELLARSLPKIHRSASEPSLNRAGFQT
+                     EDFSLYACASPKTPIQAGGYGAFPVH"
+     misc_feature    227..340
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15056.4);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    230..232
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /note="N-acetylalanine. /evidence=ECO:0000269|Ref.8;
+                     propagated from UniProtKB/Swiss-Prot (P15056.4);
+                     acetylation site"
+     misc_feature    677..679
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:23186163,
+                     ECO:0007744|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (P15056.4); phosphorylation site"
+     misc_feature    1148..1588
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15056.4);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    1223..1225
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:P28028; propagated from
+                     UniProtKB/Swiss-Prot (P15056.4); phosphorylation site"
+     misc_feature    1319..1321
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /note="Phosphoserine, by SGK1.
+                     /evidence=ECO:0000269|PubMed:11410590, ECO:0000269|Ref.8,
+                     ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P15056.4); phosphorylation site"
+     misc_feature    1343..1345
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /note="Phosphothreonine, by autocatalysis.
+                     /evidence=ECO:0000269|PubMed:1508179; propagated from
+                     UniProtKB/Swiss-Prot (P15056.4); phosphorylation site"
+     misc_feature    1364..1369
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /note="Breakpoint for translocation to form KIAA1549-BRAF
+                     fusion protein; propagated from UniProtKB/Swiss-Prot
+                     (P15056.4); other site"
+     misc_feature    1412..1414
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /note="Phosphothreonine. /evidence=ECO:0000269|Ref.8;
+                     propagated from UniProtKB/Swiss-Prot (P15056.4);
+                     phosphorylation site"
+     misc_feature    1421..1423
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /note="Phosphoserine. /evidence=ECO:0000269|Ref.8;
+                     propagated from UniProtKB/Swiss-Prot (P15056.4);
+                     phosphorylation site"
+     misc_feature    1427..1429
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /note="Phosphothreonine. /evidence=ECO:0000269|Ref.8,
+                     ECO:0007744|PubMed:16964243, ECO:0007744|PubMed:18669648,
+                     ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P15056.4); phosphorylation site"
+     misc_feature    1538..1543
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /note="Breakpoint for translocation to form KIAA1549-BRAF
+                     fusion protein; propagated from UniProtKB/Swiss-Prot
+                     (P15056.4); other site"
+     misc_feature    1562..1564
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648,
+                     ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P15056.4); phosphorylation site"
+     misc_feature    1565..1567
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648; propagated from
+                     UniProtKB/Swiss-Prot (P15056.4); phosphorylation site"
+     misc_feature    2237..2239
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /note="Omega-N-methylarginine, by PRMT5.
+                     /evidence=ECO:0000269|PubMed:21917714; propagated from
+                     UniProtKB/Swiss-Prot (P15056.4); methylation site"
+     misc_feature    2411..2413
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /note="Phosphoserine. /evidence=ECO:0000269|Ref.8,
+                     ECO:0007744|PubMed:18669648, ECO:0007744|PubMed:21406692,
+                     ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P15056.4); phosphorylation site"
+     misc_feature    2474..2476
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:P28028; propagated from
+                     UniProtKB/Swiss-Prot (P15056.4); phosphorylation site"
+     misc_feature    2483..2485
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /note="Phosphothreonine, by MAPK1.
+                     /evidence=ECO:0000269|PubMed:19710016; propagated from
+                     UniProtKB/Swiss-Prot (P15056.4); phosphorylation site"
+     exon            365..466
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            467..730
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            731..834
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            835..937
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            938..1086
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1087..1206
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1207..1366
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1367..1403
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1404..1540
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1541..1658
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1659..1743
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1744..1920
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1921..1967
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1968..2086
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2087..2218
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2219..2353
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2354..6459
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /inference="alignment:Splign:2.1.0"
+     regulatory      2575..2580
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /note="hexamer: AATGAA"
+     polyA_site      2603
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /note="major polyA site"
+     regulatory      2607..2612
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /note="hexamer: AATAAA"
+     polyA_site      2642
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /note="major polyA site"
+     regulatory      3088..3093
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /note="hexamer: AATAAA"
+     polyA_site      3112
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /note="major polyA site"
+     regulatory      3241..3246
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /note="hexamer: AATACA"
+     polyA_site      3264
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+     regulatory      4767..4772
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /note="hexamer: AATAAA"
+     polyA_site      4794
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+     regulatory      6330..6335
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /note="hexamer: AATAAA"
+     polyA_site      6355
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+     regulatory      6437..6442
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+                     /note="hexamer: AATAAA"
+     polyA_site      6459
+                     /gene="BRAF"
+                     /gene_synonym="B-raf; B-RAF1; BRAF-1; BRAF1; NS7; RAFB1"
+ORIGIN      
+        1 cttcccccaa tcccctcagg ctcggctgcg cccggggccg cgggccggta cctgaggtgg
+       61 cccaggcgcc ctccgcccgc ggcgccgccc gggccgctcc tccccgcgcc ccccgcgccc
+      121 cccgctcctc cgcctccgcc tccgcctccg cctcccccag ctctccgcct cccttccccc
+      181 tccccgcccg acagcggccg ctcgggcccc ggctctcggt tataagatgg cggcgctgag
+      241 cggtggcggt ggtggcggcg cggagccggg ccaggctctg ttcaacgggg acatggagcc
+      301 cgaggccggc gccggcgccg gcgccgcggc ctcttcggct gcggaccctg ccattccgga
+      361 ggaggtgtgg aatatcaaac aaatgattaa gttgacacag gaacatatag aggccctatt
+      421 ggacaaattt ggtggggagc ataatccacc atcaatatat ctggaggcct atgaagaata
+      481 caccagcaag ctagatgcac tccaacaaag agaacaacag ttattggaat ctctggggaa
+      541 cggaactgat ttttctgttt ctagctctgc atcaatggat accgttacat cttcttcctc
+      601 ttctagcctt tcagtgctac cttcatctct ttcagttttt caaaatccca cagatgtggc
+      661 acggagcaac cccaagtcac cacaaaaacc tatcgttaga gtcttcctgc ccaacaaaca
+      721 gaggacagtg gtacctgcaa ggtgtggagt tacagtccga gacagtctaa agaaagcact
+      781 gatgatgaga ggtctaatcc cagagtgctg tgctgtttac agaattcagg atggagagaa
+      841 gaaaccaatt ggttgggaca ctgatatttc ctggcttact ggagaagaat tgcatgtgga
+      901 agtgttggag aatgttccac ttacaacaca caactttgta cgaaaaacgt ttttcacctt
+      961 agcattttgt gacttttgtc gaaagctgct tttccagggt ttccgctgtc aaacatgtgg
+     1021 ttataaattt caccagcgtt gtagtacaga agttccactg atgtgtgtta attatgacca
+     1081 acttgatttg ctgtttgtct ccaagttctt tgaacaccac ccaataccac aggaagaggc
+     1141 gtccttagca gagactgccc taacatctgg atcatcccct tccgcacccg cctcggactc
+     1201 tattgggccc caaattctca ccagtccgtc tccttcaaaa tccattccaa ttccacagcc
+     1261 cttccgacca gcagatgaag atcatcgaaa tcaatttggg caacgagacc gatcctcatc
+     1321 agctcccaat gtgcatataa acacaataga acctgtcaat attgatgact tgattagaga
+     1381 ccaaggattt cgtggtgatg gaggatcaac cacaggtttg tctgctaccc cccctgcctc
+     1441 attacctggc tcactaacta acgtgaaagc cttacagaaa tctccaggac ctcagcgaga
+     1501 aaggaagtca tcttcatcct cagaagacag gaatcgaatg aaaacacttg gtagacggga
+     1561 ctcgagtgat gattgggaga ttcctgatgg gcagattaca gtgggacaaa gaattggatc
+     1621 tggatcattt ggaacagtct acaagggaaa gtggcatggt gatgtggcag tgaaaatgtt
+     1681 gaatgtgaca gcacctacac ctcagcagtt acaagccttc aaaaatgaag taggagtact
+     1741 caggaaaaca cgacatgtga atatcctact cttcatgggc tattccacaa agccacaact
+     1801 ggctattgtt acccagtggt gtgagggctc cagcttgtat caccatctcc atatcattga
+     1861 gaccaaattt gagatgatca aacttataga tattgcacga cagactgcac agggcatgga
+     1921 ttacttacac gccaagtcaa tcatccacag agacctcaag agtaataata tatttcttca
+     1981 tgaagacctc acagtaaaaa taggtgattt tggtctagct acagtgaaat ctcgatggag
+     2041 tgggtcccat cagtttgaac agttgtctgg atccattttg tggatggcac cagaagtcat
+     2101 cagaatgcaa gataaaaatc catacagctt tcagtcagat gtatatgcat ttggaattgt
+     2161 tctgtatgaa ttgatgactg gacagttacc ttattcaaac atcaacaaca gggaccagat
+     2221 aatttttatg gtgggacgag gatacctgtc tccagatctc agtaaggtac ggagtaactg
+     2281 tccaaaagcc atgaagagat taatggcaga gtgcctcaaa aagaaaagag atgagagacc
+     2341 actctttccc caaattctcg cctctattga gctgctggcc cgctcattgc caaaaattca
+     2401 ccgcagtgca tcagaaccct ccttgaatcg ggctggtttc caaacagagg attttagtct
+     2461 atatgcttgt gcttctccaa aaacacccat ccaggcaggg ggatatggtg cgtttcctgt
+     2521 ccactgaaac aaatgagtga gagagttcag gagagtagca acaaaaggaa aataaatgaa
+     2581 catatgtttg cttatatgtt aaattgaata aaatactctc ttttttttta aggtgaacca
+     2641 aagaacactt gtgtggttaa agactagata taatttttcc ccaaactaaa atttatactt
+     2701 aacattggat ttttaacatc caagggttaa aatacataga cattgctaaa aattggcaga
+     2761 gcctcttcta gaggctttac tttctgttcc gggtttgtat cattcacttg gttattttaa
+     2821 gtagtaaact tcagtttctc atgcaacttt tgttgccagc tatcacatgt ccactaggga
+     2881 ctccagaaga agaccctacc tatgcctgtg tttgcaggtg agaagttggc agtcggttag
+     2941 cctgggttag ataaggcaaa ctgaacagat ctaatttagg aagtcagtag aatttaataa
+     3001 ttctattatt attcttaata atttttctat aactatttct ttttataaca atttggaaaa
+     3061 tgtggatgtc ttttatttcc ttgaagcaat aaactaagtt tctttttata aattttgagt
+     3121 gcaggtgacc aaaaatattg ctgaggagtg gcacgtttga catgagtaaa atgtcttaac
+     3181 ttcggatttt tagcgggaaa atgttataaa ttggagtttc ttttaaatag ctttttttaa
+     3241 aatacattaa ggatgtctcg ctcatgtaga agtcaaattt tgttgcaaac gcattgctcc
+     3301 cttcacaccc aatctctccc ctgcaaaaaa tcttcacaga attctgtgag aacttttagg
+     3361 tgtgtttttc tttgagatac ctctggttgc caaacaccag gtaatagatt ttttaaagtt
+     3421 gttattagat tattcttacc tctcatgatg catattttag caatcacctt atcattgtgt
+     3481 ctcatgttct gtcctcctta tattctttgc ccagcaagat tctacttatg atgaatgaat
+     3541 gctcttctcc ttttttcatt caatggtatg aagtatttgt tagggttctt tagtacttac
+     3601 actttgttgt gtagaaaatg actgtaatgt ggtggtcagt gtattcttac tgtgattcag
+     3661 agggaatcaa aagtagaaag caacagcacg tggtcctatc aaagatttgg ccatctctgc
+     3721 ttcactgtca gcctcttaac tatatcttca cttactcaat ttggttttgt catgattttt
+     3781 aaatgtagcc aatagatcaa ggttcttcca gtaaacacat atctgcataa atgcctcctt
+     3841 gaagtcaata aagaaggaaa ttgagaagac tttaaattaa tgataattta gtttttaagt
+     3901 acccacaaat aaatttttga aacattttct ttatttgaat acttagatgt catccaggaa
+     3961 aatcactcaa taataattac ggcaaatctt taacccctca tttgggtagc ttaagataag
+     4021 taatgccatt atgaatcaga attgattcat gactttagtt aagaaaatga aaaggaacat
+     4081 ttcacgtatt tttaaaaatg atactaagga ataaagaagt acaactattg gaaaatatct
+     4141 aagtatatga tttttaaatc ctccagtggc attaaatata tgattattag taattgttag
+     4201 atagggtttt attcattcac aaatagaaga ctagcaagca tgtaactaac aaagttttta
+     4261 caaaattgac tttgtggaat gctccaaatg tttggccatt ttgaggcaca aggtcagggg
+     4321 tctctttatt gatagagctc cttctataat ttcccagcat acctgcctca cagttatctt
+     4381 cctttcattg ttcactctct ttttcttctc aatgccatcc tgcctaggct cccatcatct
+     4441 gcatctgaca cctttccttt ctttctttac tagtctcctt tgcgatgggt gtggctaagc
+     4501 tctgtagagc cactcagaaa ctcattgttc cattctgtag ccagtaaaac atgcctccaa
+     4561 agtgtcacag agtaattcta ctctctcttt taaattaggt ccaccggaaa tgttagtgaa
+     4621 aggacattaa aaatgtgaca ggtgacatgt ttagctaaca tggatctgga gaaataggaa
+     4681 gcagtagaat taaatgtttc cctttcaggt ttaattgtat ttgttcttgg gttttgtttt
+     4741 atactgagtt ttaaatatat tctccaaata aaaacattat tttttctaac catatgtaga
+     4801 gttaatctct ttgactaagt aattgaaaca aaagaacatt tgttcttttg tgactgcttt
+     4861 tttcctaaaa cctgagccct cttttttttt tttgaaatta aagttgattt cctttttttt
+     4921 tttttttttt tttttttttt tttttttttt tttgagacag agtctcgctc tgtcgcccag
+     4981 gctggagtgc agtggcggga tctcggctca ctgcaagctc cgcctcccgg gttcacgcca
+     5041 ttctcctgcc tcagcctccc aagtagctgg gactacaggc gcccgccact acgcccggct
+     5101 aattttttgt atttttagta gagacggggt ttcaccgttt tagccgggat ggtctcgatc
+     5161 tcctgacctc gtgatccgcc cgcctcggcc tcccaaagtg ctgggattac aggcgtgagc
+     5221 caccgcgccc ggccttaaaa gttgatttcc ttcttcagta aggaaacctt tttataaatt
+     5281 tgttttgcat tttaaaagtt ttactaatca atgatgagga aaaagatttg tcttcttgat
+     5341 tttaaatagt ttcaggatca caggatgtaa tcagatgctt ccagtttatt tattttcagg
+     5401 tattacacta gccatttaat cttttttatt tatttatttt cttcctgccc ctcggatggc
+     5461 atataccagc catttagata ctaaactcta atagttaaac caatagttaa aattgtcctc
+     5521 tctaaaacat tggctattta atataccagc ttaaatggcc tttctctcaa gtgagtcact
+     5581 cttagtttaa gaaaattatg tgccttttta aaaaatatta tgaaatggta cttcatgaca
+     5641 gaaacatttt atcagttata gtcttatttg attgaaaatt gttgagcatt tctgtaaaac
+     5701 tttttacttt actaaatatt tcatctttcc tgtgactgtt ttctcaaaga atttaaaaga
+     5761 ctcgatgtgt ctatgccaga atgtttctca tccttttgaa actgcctggg ccaggcgtag
+     5821 tggctcacgc tgtaatccca gcacttttgg aggccaaggt gggcagatcg cgtgagccca
+     5881 ggagtttgag accagcctgg acaacatggc gaaacggtgt ctctacagaa aaatttaaaa
+     5941 attagccaag catagtggtg cacaactgta gccccagcca ctcgggaggc tgacgtggga
+     6001 ggatcccttg aacctggggg cggaggctgc tgtgagcctt catcatgcca ctgcactcca
+     6061 gcctgggcaa caaagcaaaa ccctgtctca aaaaaagaaa agaaaaaaag aaactgcttg
+     6121 aaagtcatga cgaagaatgt caggagggga cttattctgg ctgcagttga ctttctcctt
+     6181 aaatgtcaag tagtgattga tttggataag aagtaaactg ttacttttca taacatactt
+     6241 taaggaattt atcaaattct atgtataatg cccattaaaa tatactccat tctggagtaa
+     6301 agggtaagag taatattttt aaactagtta ataaagtctt tagctttcac ataaaccatg
+     6361 atatttgagg tgtctaaaat cacagggtct tttttttttt tttcagtctt cccagttgtt
+     6421 ctctgctcta ttcctaaata aagttaactt gaaaatgca
+//
+

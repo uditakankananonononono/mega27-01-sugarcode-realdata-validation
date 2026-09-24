@@ -1,0 +1,518 @@
+LOCUS       NM_001904               3661 bp    mRNA    linear   PRI 09-SEP-2026
+DEFINITION  Homo sapiens catenin beta 1 (CTNNB1), transcript variant 1, mRNA.
+ACCESSION   NM_001904 XM_942045 XM_945648 XM_945650 XM_945651 XM_945652
+            XM_945653 XM_945654 XM_945655 XM_945657
+VERSION     NM_001904.4
+KEYWORDS    RefSeq; MANE Select.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 3661)
+  AUTHORS   Schaffer,L.V., Hu,M., Qian,G., Moon,K.M., Pal,A., Soni,N.,
+            Latham,A.P., Pontano Vaites,L., Tsai,D., Mattson,N.M., Licon,K.,
+            Bachelder,R., Cesnik,A., Gaur,I., Le,T., Leineweber,W., Palar,A.,
+            Pulido,E., Qin,Y., Zhao,X., Churas,C., Lenkiewicz,J., Chen,J.,
+            Ono,K., Pratt,D., Zage,P., Echeverria,I., Sali,A., Harper,J.W.,
+            Gygi,S.P., Foster,L.J., Huttlin,E.L., Lundberg,E. and Ideker,T.
+  TITLE     Multimodal cell maps as a foundation for structural and functional
+            genomics
+  JOURNAL   Nature 642 (8066), 222-231 (2025)
+   PUBMED   40205054
+  REMARK    Erratum:[Nature. 2025 Oct;646(8086):E16. doi:
+            10.1038/s41586-025-09648-x. PMID: 41039152]
+REFERENCE   2  (bases 1 to 3661)
+  AUTHORS   Serafin,D.S., Harris,N.R., Balint,L., Douglas,E.S. and Caron,K.M.
+  TITLE     Proximity interactome of lymphatic VE-cadherin reveals mechanisms
+            of junctional remodeling and reelin secretion
+  JOURNAL   Nat Commun 15 (1), 7734 (2024)
+   PUBMED   39232006
+REFERENCE   3  (bases 1 to 3661)
+  AUTHORS   Li,Y., Chen,X., Xiong,Y., Xu,X., Xie,C., Min,M., Liang,D., Chen,C.
+            and Mao,H.
+  TITLE     BRCC36 regulates beta-catenin ubiquitination to alleviate vascular
+            calcification in chronic kidney disease
+  JOURNAL   J Transl Med 22 (1), 820 (2024)
+   PUBMED   39227917
+  REMARK    GeneRIF: BRCC36 regulates beta-catenin ubiquitination to alleviate
+            vascular calcification in chronic kidney disease.
+REFERENCE   4  (bases 1 to 3661)
+  AUTHORS   Zhao,W., Wang,X., Han,L., Zhang,C., Wang,C., Kong,D., Zhang,M.,
+            Xu,T., Li,G., Hu,G., Luo,J., Yee,S.W., Yang,J., Stahl,A., Chen,X.
+            and Zhang,Y.
+  TITLE     SLC13A3 is a major effector downstream of activated beta-catenin in
+            liver cancer pathogenesis
+  JOURNAL   Nat Commun 15 (1), 7522 (2024)
+   PUBMED   39215042
+  REMARK    GeneRIF: SLC13A3 is a major effector downstream of activated
+            beta-catenin in liver cancer pathogenesis.
+REFERENCE   5  (bases 1 to 3661)
+  AUTHORS   Bai,Y., Li,R., Hao,J.F., Chen,L.W., Liu,S.T., Zhang,X.L.,
+            Lip,G.Y.H., Yang,J.K., Zou,Y.X. and Wang,H.
+  TITLE     Accumulated beta-catenin is associated with human atrial fibrosis
+            and atrial fibrillation
+  JOURNAL   J Transl Med 22 (1), 734 (2024)
+   PUBMED   39103891
+  REMARK    GeneRIF: Accumulated beta-catenin is associated with human atrial
+            fibrosis and atrial fibrillation.
+REFERENCE   6  (bases 1 to 3661)
+  AUTHORS   Sacco,P.A., McGranahan,T.M., Wheelock,M.J. and Johnson,K.R.
+  TITLE     Identification of plakoglobin domains required for association with
+            N-cadherin and alpha-catenin
+  JOURNAL   J Biol Chem 270 (34), 20201-20206 (1995)
+   PUBMED   7650039
+REFERENCE   7  (bases 1 to 3661)
+  AUTHORS   Brady-Kalnay,S.M., Rimm,D.L. and Tonks,N.K.
+  TITLE     Receptor protein tyrosine phosphatase PTPmu associates with
+            cadherins and catenins in vivo
+  JOURNAL   J Cell Biol 130 (4), 977-986 (1995)
+   PUBMED   7642713
+REFERENCE   8  (bases 1 to 3661)
+  AUTHORS   Kanai,Y., Ochiai,A., Shibata,T., Oyama,T., Ushijima,S., Akimoto,S.
+            and Hirohashi,S.
+  TITLE     c-erbB-2 gene product directly associates with beta-catenin and
+            plakoglobin
+  JOURNAL   Biochem Biophys Res Commun 208 (3), 1067-1072 (1995)
+   PUBMED   7702605
+REFERENCE   9  (bases 1 to 3661)
+  AUTHORS   Aberle,H., Butz,S., Stappert,J., Weissig,H., Kemler,R. and
+            Hoschuetzky,H.
+  TITLE     Assembly of the cadherin-catenin complex in vitro with recombinant
+            proteins
+  JOURNAL   J Cell Sci 107 (Pt 12), 3655-3663 (1994)
+   PUBMED   7706414
+REFERENCE   10 (bases 1 to 3661)
+  AUTHORS   Ho,S.K.L., Tsang,M.H.Y., Lee,M., Cheng,S.S.W., Luk,H.M., Lo,I.F.M.
+            and Chung,B.H.Y.
+  TITLE     CTNNB1 Neurodevelopmental Disorder
+  JOURNAL   (in) Adam MP, Bick S, Mirzaa GM, Wallace SE and Amemiya A (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   35593792
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from X87838.1 and AC104307.2.
+            This sequence is a reference standard in the RefSeqGene project.
+            
+            On Nov 23, 2018 this sequence version replaced NM_001904.3.
+            
+            Summary: The protein encoded by this gene is part of a complex of
+            proteins that constitute adherens junctions (AJs). AJs are
+            necessary for the creation and maintenance of epithelial cell
+            layers by regulating cell growth and adhesion between cells. The
+            encoded protein also anchors the actin cytoskeleton and may be
+            responsible for transmitting the contact inhibition signal that
+            causes cells to stop dividing once the epithelial sheet is
+            complete. Finally, this protein binds to the product of the APC
+            gene, which is mutated in adenomatous polyposis of the colon.
+            Mutations in this gene are a cause of colorectal cancer (CRC),
+            pilomatrixoma (PTR), medulloblastoma (MDB), and ovarian cancer.
+            Alternative splicing results in multiple transcript variants.
+            [provided by RefSeq, Aug 2016].
+            
+            Transcript Variant: This variant (1) represents the longest
+            transcript. Variants 1, 2 and 3 encode the same isoform (1).
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: BC058926.1, SRR1660809.110031.1
+                                           [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMEA1965299, SAMEA1966682
+                                           [ECO:0000348]
+            ##Evidence-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            MANE Ensembl match     :: ENST00000349496.11/ ENSP00000344456.5
+            RefSeq Select criteria :: based on conservation, expression,
+                                      longest protein
+            ##RefSeq-Attributes-END##
+            COMPLETENESS: full length.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-2572              X87838.1           1-2572
+            2573-3661           AC104307.2         83770-84858
+FEATURES             Location/Qualifiers
+     source          1..3661
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="3"
+                     /map="3p22.1"
+     gene            1..3661
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="catenin beta 1"
+                     /db_xref="GeneID:1499"
+                     /db_xref="HGNC:HGNC:2514"
+                     /db_xref="MIM:116806"
+     exon            1..166
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /inference="alignment:Splign:2.1.0"
+     exon            167..227
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /inference="alignment:Splign:2.1.0"
+     misc_feature    173..175
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="upstream in-frame stop codon"
+     CDS             215..2560
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="isoform 1 is encoded by transcript variant 1;
+                     catenin (cadherin-associated protein), beta 1, 88kDa"
+                     /codon_start=1
+                     /product="catenin beta-1 isoform 1"
+                     /protein_id="NP_001895.1"
+                     /db_xref="CCDS:CCDS2694.1"
+                     /db_xref="GeneID:1499"
+                     /db_xref="HGNC:HGNC:2514"
+                     /db_xref="MIM:116806"
+                     /translation="MATQADLMELDMAMEPDRKAAVSHWQQQSYLDSGIHSGATTTAP
+                     SLSGKGNPEEEDVDTSQVLYEWEQGFSQSFTQEQVADIDGQYAMTRAQRVRAAMFPET
+                     LDEGMQIPSTQFDAAHPTNVQRLAEPSQMLKHAVVNLINYQDDAELATRAIPELTKLL
+                     NDEDQVVVNKAAVMVHQLSKKEASRHAIMRSPQMVSAIVRTMQNTNDVETARCTAGTL
+                     HNLSHHREGLLAIFKSGGIPALVKMLGSPVDSVLFYAITTLHNLLLHQEGAKMAVRLA
+                     GGLQKMVALLNKTNVKFLAITTDCLQILAYGNQESKLIILASGGPQALVNIMRTYTYE
+                     KLLWTTSRVLKVLSVCSSNKPAIVEAGGMQALGLHLTDPSQRLVQNCLWTLRNLSDAA
+                     TKQEGMEGLLGTLVQLLGSDDINVVTCAAGILSNLTCNNYKNKMMVCQVGGIEALVRT
+                     VLRAGDREDITEPAICALRHLTSRHQEAEMAQNAVRLHYGLPVVVKLLHPPSHWPLIK
+                     ATVGLIRNLALCPANHAPLREQGAIPRLVQLLVRAHQDTQRRTSMGGTQQQFVEGVRM
+                     EEIVEGCTGALHILARDVHNRIVIRGLNTIPLFVQLLYSPIENIQRVAAGVLCELAQD
+                     KEAAEAIEAEGATAPLTELLHSRNEGVATYAAAVLFRMSEDKPQDYKKRLSVELTSSL
+                     FRTEPMAWNETADLGLDIGAQGEPLGYRQDDPSYRSFHSGGYGQDALGMDPMMEHEMG
+                     GHHPGADYPVDGLPDLGHAQDLMDGLPPGDSNQLAWFDTDL"
+     misc_feature    218..283
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35222.1);
+                     Region: Interaction with VCL. /evidence=ECO:0000250"
+     misc_feature    218..220
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="N-acetylalanine.
+                     /evidence=ECO:0007744|PubMed:22814378; propagated from
+                     UniProtKB/Swiss-Prot (P35222.1); acetylation site"
+     misc_feature    281..283
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="O-linked (GlcNAc) serine, alternate.
+                     /evidence=ECO:0000269|PubMed:24342833; propagated from
+                     UniProtKB/Swiss-Prot (P35222.1); glycosylation site"
+     misc_feature    281..283
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="Phosphoserine, by GSK3-beta, alternate.
+                     /evidence=ECO:0000269|PubMed:12027456; propagated from
+                     UniProtKB/Swiss-Prot (P35222.1); phosphorylation site"
+     misc_feature    299..301
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="Phosphoserine, by GSK3-beta.
+                     /evidence=ECO:0000269|PubMed:12027456; propagated from
+                     UniProtKB/Swiss-Prot (P35222.1); phosphorylation site"
+     misc_feature    311..313
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="Phosphoserine, by GSK3-beta and HIPK2.
+                     /evidence=ECO:0000269|PubMed:20307497,
+                     ECO:0000269|PubMed:25169422; propagated from
+                     UniProtKB/Swiss-Prot (P35222.1); phosphorylation site"
+     misc_feature    314..385
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35222.1);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    323..325
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="Phosphoserine, by GSK3-beta and HIPK2.
+                     /evidence=ECO:0000269|PubMed:20307497; propagated from
+                     UniProtKB/Swiss-Prot (P35222.1); phosphorylation site"
+     misc_feature    335..337
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="Phosphothreonine, by GSK3-beta.
+                     /evidence=ECO:0000269|PubMed:12027456,
+                     ECO:0000269|PubMed:30714168; propagated from
+                     UniProtKB/Swiss-Prot (P35222.1); phosphorylation site"
+     misc_feature    347..349
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000269|PubMed:12051714; propagated from
+                     UniProtKB/Swiss-Prot (P35222.1); phosphorylation site"
+     misc_feature    359..361
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0000269|PubMed:24824780; propagated from
+                     UniProtKB/Swiss-Prot (P35222.1); acetylation site"
+     misc_feature    404..406
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="Phosphotyrosine, by PTK6.
+                     /evidence=ECO:0000269|PubMed:20026641; propagated from
+                     UniProtKB/Swiss-Prot (P35222.1); phosphorylation site"
+     misc_feature    638..640
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="Phosphotyrosine, by FYN and PTK6.
+                     /evidence=ECO:0000269|PubMed:12640114,
+                     ECO:0000269|PubMed:20026641; propagated from
+                     UniProtKB/Swiss-Prot (P35222.1); phosphorylation site"
+     misc_feature    665..787
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35222.1);
+                     Region: ARM 1"
+     misc_feature    680..748
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35222.1);
+                     Region: Interaction with BCL9.
+                     /evidence=ECO:0000269|PubMed:17052462"
+     misc_feature    785..787
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="Phosphoserine, by CDK5.
+                     /evidence=ECO:0000269|PubMed:17009320,
+                     ECO:0007744|PubMed:21406692, ECO:0007744|PubMed:24275569;
+                     propagated from UniProtKB/Swiss-Prot (P35222.1);
+                     phosphorylation site"
+     misc_feature    791..916
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35222.1);
+                     Region: ARM 2"
+     misc_feature    917..1042
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35222.1);
+                     Region: ARM 3"
+     misc_feature    950..952
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="Phosphoserine, by CDK5.
+                     /evidence=ECO:0000269|PubMed:17009320; propagated from
+                     UniProtKB/Swiss-Prot (P35222.1); phosphorylation site"
+     misc_feature    1043..1168
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35222.1);
+                     Region: ARM 4"
+     misc_feature    1169..1294
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35222.1);
+                     Region: ARM 5"
+     misc_feature    1205..1207
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="Phosphotyrosine, by PTK6.
+                     /evidence=ECO:0000269|PubMed:20026641; propagated from
+                     UniProtKB/Swiss-Prot (P35222.1); phosphorylation site"
+     misc_feature    1211..1213
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="Phosphotyrosine, by SRC and PTK6.
+                     /evidence=ECO:0000269|PubMed:22056988,
+                     ECO:0000305|PubMed:20026641; propagated from
+                     UniProtKB/Swiss-Prot (P35222.1); phosphorylation site"
+     misc_feature    1295..1381
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35222.1);
+                     Region: ARM 6"
+     misc_feature    1412..1537
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35222.1);
+                     Region: ARM 7"
+     misc_feature    1538..1666
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35222.1);
+                     Region: ARM 8"
+     misc_feature    1679..1804
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35222.1);
+                     Region: ARM 9"
+     misc_feature    1805..1927
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35222.1);
+                     Region: ARM 10"
+     misc_feature    1868..1870
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:21406692,
+                     ECO:0007744|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (P35222.1); phosphorylation site"
+     misc_feature    1880..1882
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="(Microbial infection) Phosphothreonine.
+                     /evidence=ECO:0000269|PubMed:31801859; Phosphothreonine.
+                     /evidence=ECO:0007744|PubMed:18220336; propagated from
+                     UniProtKB/Swiss-Prot (P35222.1); phosphorylation site"
+     misc_feature    1994..2122
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35222.1);
+                     Region: ARM 11"
+     misc_feature    2123..2212
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35222.1);
+                     Region: ARM 12"
+     misc_feature    2237..2239
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:17081983,
+                     ECO:0007744|PubMed:18220336, ECO:0007744|PubMed:20068231;
+                     propagated from UniProtKB/Swiss-Prot (P35222.1);
+                     phosphorylation site"
+     misc_feature    2327..2557
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35222.1);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    2528..2557
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35222.1);
+                     Region: Interaction with SCRIB. /evidence=ECO:0000250"
+     exon            228..455
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /inference="alignment:Splign:2.1.0"
+     exon            456..709
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /inference="alignment:Splign:2.1.0"
+     exon            710..948
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /inference="alignment:Splign:2.1.0"
+     exon            949..1150
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1151..1295
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1296..1399
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1400..1738
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1739..1897
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1898..2017
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2018..2168
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2169..2290
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2291..2351
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2352..3661
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /inference="alignment:Splign:2.1.0"
+     regulatory      3642..3647
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="hexamer: ATTAAA"
+     polyA_site      3661
+                     /gene="CTNNB1"
+                     /gene_synonym="armadillo; CTNNB; EVR7; MRD19; NEDSDV"
+                     /note="major polyA site"
+ORIGIN      
+        1 aagcctctcg gtctgtggca gcagcgttgg cccggccccg ggagcggaga gcgaggggag
+       61 gcggagacgg aggaaggtct gaggagcagc ttcagtcccc gccgagccgc caccgcaggt
+      121 cgaggacggt cggactcccg cggcgggagg agcctgttcc cctgagggta tttgaagtat
+      181 accatacaac tgttttgaaa atccagcgtg gacaatggct actcaagctg atttgatgga
+      241 gttggacatg gccatggaac cagacagaaa agcggctgtt agtcactggc agcaacagtc
+      301 ttacctggac tctggaatcc attctggtgc cactaccaca gctccttctc tgagtggtaa
+      361 aggcaatcct gaggaagagg atgtggatac ctcccaagtc ctgtatgagt gggaacaggg
+      421 attttctcag tccttcactc aagaacaagt agctgatatt gatggacagt atgcaatgac
+      481 tcgagctcag agggtacgag ctgctatgtt ccctgagaca ttagatgagg gcatgcagat
+      541 cccatctaca cagtttgatg ctgctcatcc cactaatgtc cagcgtttgg ctgaaccatc
+      601 acagatgctg aaacatgcag ttgtaaactt gattaactat caagatgatg cagaacttgc
+      661 cacacgtgca atccctgaac tgacaaaact gctaaatgac gaggaccagg tggtggttaa
+      721 taaggctgca gttatggtcc atcagctttc taaaaaggaa gcttccagac acgctatcat
+      781 gcgttctcct cagatggtgt ctgctattgt acgtaccatg cagaatacaa atgatgtaga
+      841 aacagctcgt tgtaccgctg ggaccttgca taacctttcc catcatcgtg agggcttact
+      901 ggccatcttt aagtctggag gcattcctgc cctggtgaaa atgcttggtt caccagtgga
+      961 ttctgtgttg ttttatgcca ttacaactct ccacaacctt ttattacatc aagaaggagc
+     1021 taaaatggca gtgcgtttag ctggtgggct gcagaaaatg gttgccttgc tcaacaaaac
+     1081 aaatgttaaa ttcttggcta ttacgacaga ctgccttcaa attttagctt atggcaacca
+     1141 agaaagcaag ctcatcatac tggctagtgg tggaccccaa gctttagtaa atataatgag
+     1201 gacctatact tacgaaaaac tactgtggac cacaagcaga gtgctgaagg tgctatctgt
+     1261 ctgctctagt aataagccgg ctattgtaga agctggtgga atgcaagctt taggacttca
+     1321 cctgacagat ccaagtcaac gtcttgttca gaactgtctt tggactctca ggaatctttc
+     1381 agatgctgca actaaacagg aagggatgga aggtctcctt gggactcttg ttcagcttct
+     1441 gggttcagat gatataaatg tggtcacctg tgcagctgga attctttcta acctcacttg
+     1501 caataattat aagaacaaga tgatggtctg ccaagtgggt ggtatagagg ctcttgtgcg
+     1561 tactgtcctt cgggctggtg acagggaaga catcactgag cctgccatct gtgctcttcg
+     1621 tcatctgacc agccgacacc aagaagcaga gatggcccag aatgcagttc gccttcacta
+     1681 tggactacca gttgtggtta agctcttaca cccaccatcc cactggcctc tgataaaggc
+     1741 tactgttgga ttgattcgaa atcttgccct ttgtcccgca aatcatgcac ctttgcgtga
+     1801 gcagggtgcc attccacgac tagttcagtt gcttgttcgt gcacatcagg atacccagcg
+     1861 ccgtacgtcc atgggtggga cacagcagca atttgtggag ggggtccgca tggaagaaat
+     1921 agttgaaggt tgtaccggag cccttcacat cctagctcgg gatgttcaca accgaattgt
+     1981 tatcagagga ctaaatacca ttccattgtt tgtgcagctg ctttattctc ccattgaaaa
+     2041 catccaaaga gtagctgcag gggtcctctg tgaacttgct caggacaagg aagctgcaga
+     2101 agctattgaa gctgagggag ccacagctcc tctgacagag ttacttcact ctaggaatga
+     2161 aggtgtggcg acatatgcag ctgctgtttt gttccgaatg tctgaggaca agccacaaga
+     2221 ttacaagaaa cggctttcag ttgagctgac cagctctctc ttcagaacag agccaatggc
+     2281 ttggaatgag actgctgatc ttggacttga tattggtgcc cagggagaac cccttggata
+     2341 tcgccaggat gatcctagct atcgttcttt tcactctggt ggatatggcc aggatgcctt
+     2401 gggtatggac cccatgatgg aacatgagat gggtggccac caccctggtg ctgactatcc
+     2461 agttgatggg ctgccagatc tggggcatgc ccaggacctc atggatgggc tgcctccagg
+     2521 tgacagcaat cagctggcct ggtttgatac tgacctgtaa atcatccttt aggtaagaag
+     2581 ttttaaaaag ccagtttggg taaaatactt ttactctgcc tacagaactt cagaaagact
+     2641 tggttggtag ggtgggagtg gtttaggcta tttgtaaatc tgccacaaaa acaggtatat
+     2701 actttgaaag gagatgtctt ggaacattgg aatgttctca gatttctggt tgttatgtga
+     2761 tcatgtgtgg aagttattaa ctttaatgtt ttttgccaca gcttttgcaa cttaatactc
+     2821 aaatgagtaa catttgctgt tttaaacatt aatagcagcc tttctctctt tatacagctg
+     2881 tattgtctga acttgcattg tgattggcct gtagagttgc tgagagggct cgaggggtgg
+     2941 gctggtatct cagaaagtgc ctgacacact aaccaagctg agtttcctat gggaacaatt
+     3001 gaagtaaact ttttgttctg gtcctttttg gtcgaggagt aacaatacaa atggattttg
+     3061 ggagtgactc aagaagtgaa gaatgcacaa gaatggatca caagatggaa tttatcaaac
+     3121 cctagccttg cttgttaaat tttttttttt ttttttttaa gaatatctgt aatggtactg
+     3181 actttgcttg ctttgaagta gctctttttt tttttttttt tttttttttg cagtaactgt
+     3241 tttttaagtc tctcgtagtg ttaagttata gtgaatactg ctacagcaat ttctaatttt
+     3301 taagaattga gtaatggtgt agaacactaa ttcataatca ctctaattaa ttgtaatctg
+     3361 aataaagtgt aacaattgtg tagccttttt gtataaaata gacaaataga aaatggtcca
+     3421 attagtttcc tttttaatat gcttaaaata agcaggtgga tctatttcat gtttttgatc
+     3481 aaaaactatt tgggatatgt atgggtaggg taaatcagta agaggtgtta tttggaacct
+     3541 tgttttggac agtttaccag ttgcctttta tcccaaagtt gttgtaacct gctgtgatac
+     3601 gatgcttcaa gagaaaatgc ggttataaaa aatggttcag aattaaactt ttaattcatt
+     3661 c
+//
+

@@ -1,0 +1,948 @@
+LOCUS       NM_000038              10704 bp    mRNA    linear   PRI 09-SEP-2026
+DEFINITION  Homo sapiens APC regulator of Wnt signaling pathway (APC),
+            transcript variant 3, mRNA.
+ACCESSION   NM_000038
+VERSION     NM_000038.6
+KEYWORDS    RefSeq; MANE Select.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 10704)
+  AUTHORS   Schaffer,L.V., Hu,M., Qian,G., Moon,K.M., Pal,A., Soni,N.,
+            Latham,A.P., Pontano Vaites,L., Tsai,D., Mattson,N.M., Licon,K.,
+            Bachelder,R., Cesnik,A., Gaur,I., Le,T., Leineweber,W., Palar,A.,
+            Pulido,E., Qin,Y., Zhao,X., Churas,C., Lenkiewicz,J., Chen,J.,
+            Ono,K., Pratt,D., Zage,P., Echeverria,I., Sali,A., Harper,J.W.,
+            Gygi,S.P., Foster,L.J., Huttlin,E.L., Lundberg,E. and Ideker,T.
+  TITLE     Multimodal cell maps as a foundation for structural and functional
+            genomics
+  JOURNAL   Nature 642 (8066), 222-231 (2025)
+   PUBMED   40205054
+  REMARK    Erratum:[Nature. 2025 Oct;646(8086):E16. doi:
+            10.1038/s41586-025-09648-x. PMID: 41039152]
+REFERENCE   2  (bases 1 to 10704)
+  AUTHORS   Song,J., Ke,B. and Fang,X.
+  TITLE     APC and ZBTB2 May Mediate M2 Macrophage Infiltration to Promote the
+            Development of Renal Fibrosis: A Bioinformatics Analysis
+  JOURNAL   Biomed Res Int 2024, 5674711 (2024)
+   PUBMED   39328595
+  REMARK    GeneRIF: APC and ZBTB2 May Mediate M2 Macrophage Infiltration to
+            Promote the Development of Renal Fibrosis: A Bioinformatics
+            Analysis.
+REFERENCE   3  (bases 1 to 10704)
+  AUTHORS   Arteaga-Blanco,L.A., Evans,A.E. and Dixon,D.A.
+  TITLE     Plasma-Derived Extracellular Vesicles and Non-Extracellular Vesicle
+            Components from APCMin/+ Mice Promote Pro-Tumorigenic Activities
+            and Activate Human Colonic Fibroblasts via the NF-kappaB Signaling
+            Pathway
+  JOURNAL   Cells 13 (14), 1195 (2024)
+   PUBMED   39056778
+  REMARK    GeneRIF: Plasma-Derived Extracellular Vesicles and
+            Non-Extracellular Vesicle Components from APC[Min/+] Mice Promote
+            Pro-Tumorigenic Activities and Activate Human Colonic Fibroblasts
+            via the NF-kappaB Signaling Pathway.
+REFERENCE   4  (bases 1 to 10704)
+  AUTHORS   Lambertz,S. and Ballhausen,W.G.
+  TITLE     Identification of an alternative 5' untranslated region of the
+            adenomatous polyposis coli gene
+  JOURNAL   Hum Genet 90 (6), 650-652 (1993)
+   PUBMED   8383094
+REFERENCE   5  (bases 1 to 10704)
+  AUTHORS   Yen,T., Stanich,P.P., Axell,L. and Patel,S.G.
+  TITLE     APC-Associated Polyposis Conditions
+  JOURNAL   (in) Adam MP, Bick S, Mirzaa GM, Wallace SE and Amemiya A (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   20301519
+REFERENCE   6  (bases 1 to 10704)
+  AUTHORS   Nakatsuru,S., Yanagisawa,A., Ichii,S., Tahara,E., Kato,Y.,
+            Nakamura,Y. and Horii,A.
+  TITLE     Somatic mutation of the APC gene in gastric cancer: frequent
+            mutations in very well differentiated adenocarcinoma and
+            signet-ring cell carcinoma
+  JOURNAL   Hum Mol Genet 1 (8), 559-563 (1992)
+   PUBMED   1338691
+REFERENCE   7  (bases 1 to 10704)
+  AUTHORS   Miki,Y., Nishisho,I., Horii,A., Miyoshi,Y., Utsunomiya,J.,
+            Kinzler,K.W., Vogelstein,B. and Nakamura,Y.
+  TITLE     Disruption of the APC gene by a retrotransposal insertion of L1
+            sequence in a colon cancer
+  JOURNAL   Cancer Res 52 (3), 643-645 (1992)
+   PUBMED   1310068
+REFERENCE   8  (bases 1 to 10704)
+  AUTHORS   Nagase,H., Miyoshi,Y., Horii,A., Aoki,T., Petersen,G.M.,
+            Vogelstein,B., Maher,E., Ogawa,M., Maruyama,M., Utsunomiya,J. et
+            al.
+  TITLE     Screening for germ-line mutations in familial adenomatous polyposis
+            patients: 61 new patients and a summary of 150 unrelated patients
+  JOURNAL   Hum Mutat 1 (6), 467-473 (1992)
+   PUBMED   1338764
+REFERENCE   9  (bases 1 to 10704)
+  AUTHORS   Nishisho,I., Nakamura,Y., Miyoshi,Y., Miki,Y., Ando,H., Horii,A.,
+            Koyama,K., Utsunomiya,J., Baba,S. and Hedge,P.
+  TITLE     Mutations of chromosome 5q21 genes in FAP and colorectal cancer
+            patients
+  JOURNAL   Science 253 (5020), 665-669 (1991)
+   PUBMED   1651563
+REFERENCE   10 (bases 1 to 10704)
+  AUTHORS   Kinzler,K.W., Nilbert,M.C., Su,L.K., Vogelstein,B., Bryan,T.M.,
+            Levy,D.B., Smith,K.J., Preisinger,A.C., Hedge,P., McKechnie,D. et
+            al.
+  TITLE     Identification of FAP locus genes from chromosome 5q21
+  JOURNAL   Science 253 (5020), 661-665 (1991)
+   PUBMED   1651562
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from DA795663.1, M73548.1,
+            AB210001.1 and CA313732.1.
+            
+            On Nov 22, 2018 this sequence version replaced NM_000038.5.
+            
+            Summary: This gene encodes a tumor suppressor protein that acts as
+            an antagonist of the Wnt signaling pathway. It is also involved in
+            other processes including cell migration and adhesion,
+            transcriptional activation, and apoptosis. Defects in this gene
+            cause familial adenomatous polyposis (FAP), an autosomal dominant
+            pre-malignant disease that usually progresses to malignancy.
+            Mutations in the APC gene have been found to occur in most
+            colorectal cancers, where disease-associated mutations tend to be
+            clustered in a small region designated the mutation cluster region
+            (MCR) and result in a truncated protein product. [provided by
+            RefSeq, Jun 2022].
+            
+            Transcript Variant: This variant (3) differs in the 5' UTR, lacks a
+            portion of the 5' coding region, and initiates translation at an
+            alternate start codon, compared to variant 1. This variant also
+            contains an alternate in-frame exon compared to variant 1. The
+            encoded isoform (b) has a distinct N-terminus and is longer than
+            isoform a. Variants 2, 3, and 4 all encode the same isoform (b).
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: SRR1803613.217786.1, M73548.1
+                                           [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMEA1965299, SAMEA1966682
+                                           [ECO:0000348]
+            ##Evidence-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            MANE Ensembl match     :: ENST00000257430.9/ ENSP00000257430.4
+            RefSeq Select criteria :: based on manual assertion, conservation,
+                                      expression
+            ##RefSeq-Attributes-END##
+            COMPLETENESS: full length.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-40                DA795663.1         27-66
+            41-608              M73548.1           20-587
+            609-10521           AB210001.1         707-10619
+            10522-10704         CA313732.1         18-200              c
+FEATURES             Location/Qualifiers
+     source          1..10704
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="5"
+                     /map="5q22.2"
+     gene            1..10704
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="APC regulator of Wnt signaling pathway"
+                     /db_xref="GeneID:324"
+                     /db_xref="HGNC:HGNC:583"
+                     /db_xref="MIM:611731"
+     exon            1..41
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /inference="alignment:Splign:2.1.0"
+     exon            42..194
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /inference="alignment:Splign:2.1.0"
+     misc_feature    51..53
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="upstream in-frame stop codon"
+     CDS             60..8591
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="isoform b is encoded by transcript variant 3;
+                     adenomatous polyposis coli protein; WNT signaling pathway
+                     regulator; adenomatosis polyposis coli tumor suppressor;
+                     deleted in polyposis 2.5; protein phosphatase 1,
+                     regulatory subunit 46; adenomatous polyposis coli (APC);
+                     epididymis secretory sperm binding protein; APC, WNT
+                     signaling pathway regulator"
+                     /codon_start=1
+                     /product="adenomatous polyposis coli protein isoform b"
+                     /protein_id="NP_000029.2"
+                     /db_xref="CCDS:CCDS4107.1"
+                     /db_xref="GeneID:324"
+                     /db_xref="HGNC:HGNC:583"
+                     /db_xref="MIM:611731"
+                     /translation="MAAASYDQLLKQVEALKMENSNLRQELEDNSNHLTKLETEASNM
+                     KEVLKQLQGSIEDEAMASSGQIDLLERLKELNLDSSNFPGVKLRSKMSLRSYGSREGS
+                     VSSRSGECSPVPMGSFPRRGFVNGSRESTGYLEELEKERSLLLADLDKEEKEKDWYYA
+                     QLQNLTKRIDSLPLTENFSLQTDMTRRQLEYEARQIRVAMEEQLGTCQDMEKRAQRRI
+                     ARIQQIEKDILRIRQLLQSQATEAERSSQNKHETGSHDAERQNEGQGVGEINMATSGN
+                     GQGSTTRMDHETASVLSSSSTHSAPRRLTSHLGTKVEMVYSLLSMLGTHDKDDMSRTL
+                     LAMSSSQDSCISMRQSGCLPLLIQLLHGNDKDSVLLGNSRGSKEARARASAALHNIIH
+                     SQPDDKRGRREIRVLHLLEQIRAYCETCWEWQEAHEPGMDQDKNPMPAPVEHQICPAV
+                     CVLMKLSFDEEHRHAMNELGGLQAIAELLQVDCEMYGLTNDHYSITLRRYAGMALTNL
+                     TFGDVANKATLCSMKGCMRALVAQLKSESEDLQQVIASVLRNLSWRADVNSKKTLREV
+                     GSVKALMECALEVKKESTLKSVLSALWNLSAHCTENKADICAVDGALAFLVGTLTYRS
+                     QTNTLAIIESGGGILRNVSSLIATNEDHRQILRENNCLQTLLQHLKSHSLTIVSNACG
+                     TLWNLSARNPKDQEALWDMGAVSMLKNLIHSKHKMIAMGSAAALRNLMANRPAKYKDA
+                     NIMSPGSSLPSLHVRKQKALEAELDAQHLSETFDNIDNLSPKASHRSKQRHKQSLYGD
+                     YVFDTNRHDDNRSDNFNTGNMTVLSPYLNTTVLPSSSSSRGSLDSSRSEKDRSLERER
+                     GIGLGNYHPATENPGTSSKRGLQISTTAAQIAKVMEEVSAIHTSQEDRSSGSTTELHC
+                     VTDERNALRRSSAAHTHSNTYNFTKSENSNRTCSMPYAKLEYKRSSNDSLNSVSSSDG
+                     YGKRGQMKPSIESYSEDDESKFCSYGQYPADLAHKIHSANHMDDNDGELDTPINYSLK
+                     YSDEQLNSGRQSPSQNERWARPKHIIEDEIKQSEQRQSRNQSTTYPVYTESTDDKHLK
+                     FQPHFGQQECVSPYRSRGANGSETNRVGSNHGINQNVSQSLCQEDDYEDDKPTNYSER
+                     YSEEEQHEEEERPTNYSIKYNEEKRHVDQPIDYSLKYATDIPSSQKQSFSFSKSSSGQ
+                     SSKTEHMSSSSENTSTPSSNAKRQNQLHPSSAQSRSGQPQKAATCKVSSINQETIQTY
+                     CVEDTPICFSRCSSLSSLSSAEDEIGCNQTTQEADSANTLQIAEIKEKIGTRSAEDPV
+                     SEVPAVSQHPRTKSSRLQGSSLSSESARHKAVEFSSGAKSPSKSGAQTPKSPPEHYVQ
+                     ETPLMFSRCTSVSSLDSFESRSIASSVQSEPCSGMVSGIISPSDLPDSPGQTMPPSRS
+                     KTPPPPPQTAQTKREVPKNKAPTAEKRESGPKQAAVNAAVQRVQVLPDADTLLHFATE
+                     STPDGFSCSSSLSALSLDEPFIQKDVELRIMPPVQENDNGNETESEQPKESNENQEKE
+                     AEKTIDSEKDLLDDSDDDDIEILEECIISAMPTKSSRKAKKPAQTASKLPPPVARKPS
+                     QLPVYKLLPSQNRLQPQKHVSFTPGDDMPRVYCVEGTPINFSTATSLSDLTIESPPNE
+                     LAAGEGVRGGAQSGEFEKRDTIPTEGRSTDEAQGGKTSSVTIPELDDNKAEEGDILAE
+                     CINSAMPKGKSHKPFRVKKIMDQVQQASASSSAPNKNQLDGKKKKPTSPVKPIPQNTE
+                     YRTRVRKNADSKNNLNAERVFSDNKDSKKQNLKNNSKVFNDKLPNNEDRVRGSFAFDS
+                     PHHYTPIEGTPYCFSRNDSLSSLDFDDDDVDLSREKAELRKAKENKESEAKVTSHTEL
+                     TSNQQSANKTQAIAKQPINRGQPKPILQKQSTFPQSSKDIPDRGAATDEKLQNFAIEN
+                     TPVCFSHNSSLSSLSDIDQENNNKENEPIKETEPPDSQGEPSKPQASGYAPKSFHVED
+                     TPVCFSRNSSLSSLSIDSEDDLLQECISSAMPKKKKPSRLKGDNEKHSPRNMGGILGE
+                     DLTLDLKDIQRPDSEHGLSPDSENFDWKAIQEGANSIVSSLHQAAAAACLSRQASSDS
+                     DSILSLKSGISLGSPFHLTPDQEEKPFTSNKGPRILKPGEKSTLETKKIESESKGIKG
+                     GKKVYKSLITGKVRSNSEISGQMKQPLQANMPSISRGRTMIHIPGVRNSSSSTSPVSK
+                     KGPPLKTPASKSPSEGQTATTSPRGAKPSVKSELSPVARQTSQIGGSSKAPSRSGSRD
+                     STPSRPAQQPLSRPIQSPGRNSISPGRNGISPPNKLSQLPRTSSPSTASTKSSGSGKM
+                     SYTSPGRQMSQQNLTKQTGLSKNASSIPRSESASKGLNQMNNGNGANKKVELSRMSST
+                     KSSGSESDRSERPVLVRQSTFIKEAPSPTLRRKLEESASFESLSPSSRPASPTRSQAQ
+                     TPVLSPSLPDMSLSTHSSVQAGGWRKLPPNLSPTIEYNDGRPAKRHDIARSHSESPSR
+                     LPINRSGTWKREHSKHSSSLPRVSTWRRTGSSSSILSASSESSEKAKSEDEKHVNSIS
+                     GTKQSKENQVSAKGTWRKIKENEFSPTNSTSQTVSSGATNGAESKTLIYQMAPAVSKT
+                     EDVWVRIEDCPINNPRSGRSPTGNTPPVIDSVSEKANPNIKDSKDNQAKQNVGNGSVP
+                     MRTVGLENRLNSFIQVDAPDQKGTEIKPGQNNPVPVSETNESSIVERTPFSSSSSSKH
+                     SSPSGTVAARVTPFNYNPSPRKSSADSTSARPSQIPTPVNNNTKKRDSKTDSTESSGT
+                     QSPKRHSGSYLVTSV"
+     misc_feature    63..65
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="N-acetylalanine.
+                     /evidence=ECO:0007744|PubMed:22814378; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); acetylation site"
+     misc_feature    378..380
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:Q61315; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    390..392
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:Q61315; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    774..974
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    1416..1544
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: ARM 1"
+     misc_feature    1572..1700
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: ARM 2"
+     misc_feature    1701..1832
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: ARM 3"
+     misc_feature    1833..1973
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: ARM 4"
+     misc_feature    1974..2108
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: ARM 5"
+     misc_feature    2109..2234
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: ARM 6"
+     misc_feature    2235..2360
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: ARM 7"
+     misc_feature    2289..2291
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:20068231,
+                     ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    2301..2303
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    2397..2399
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648,
+                     ECO:0007744|PubMed:20068231, ECO:0007744|PubMed:24275569;
+                     propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     phosphorylation site"
+     misc_feature    2541..2693
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    2781..2783
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    2826..2888
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    2931..3020
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    2937..4070
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: Responsible for down-regulation through a process
+                     mediated by direct ubiquitination"
+     misc_feature    3018..3020
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:P70478; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    3117..3566
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: Interaction with catenins.
+                     /evidence=ECO:0000269|PubMed:8259519"
+     misc_feature    3171..3173
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:Q61315; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    3183..3185
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648,
+                     ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    3354..3566
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    3627..3791
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    3990..4187
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    4137..4139
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    4170..4172
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    4212..4214
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    4233..4235
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:Q61315; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    4242..4244
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:Q61315; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    4266..4484
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    4371..4373
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    4635..4766
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    4758..4760
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:P70478; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    4806..4892
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    5049..5210
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    5244..5567
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    5379..5381
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    5640..5642
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648,
+                     ECO:0007744|PubMed:21406692, ECO:0007744|PubMed:23186163;
+                     propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     phosphorylation site"
+     misc_feature    5646..5648
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648,
+                     ECO:0007744|PubMed:21406692; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    5649..5651
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648,
+                     ECO:0007744|PubMed:21406692; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    5655..5738
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: Highly charged"
+     misc_feature    5700..5909
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    5952..6092
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    5970..5972
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:Q61315; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    5976..5978
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:Q61315; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    6162..6236
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: Interaction with AXIN1.
+                     /evidence=ECO:0000269|PubMed:10811618"
+     misc_feature    6186..6275
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    6321..6323
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:P70478; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    6336..6338
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:P70478; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    6432..6434
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:Q61315; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    6444..6446
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:P70478; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    6447..6449
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:P70478; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    6453..6455
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:P70478; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    6498..7964
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    6510..6512
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0007744|PubMed:18669648; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    6558..8081
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: Basic region.
+                     /evidence=ECO:0000269|PubMed:17293347"
+     misc_feature    6837..6839
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648,
+                     ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    6867..6869
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    6906..6908
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648,
+                     ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    7476..7478
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    7482..8588
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: Interaction with DLG1.
+                     /evidence=ECO:0000269|PubMed:8638125"
+     misc_feature    7662..7664
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    7764..7766
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    8058..8201
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    8070..8072
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18220336,
+                     ECO:0007744|PubMed:18669648; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    8079..8588
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: Interaction with MAPRE1.
+                     /evidence=ECO:0000269|PubMed:17293347"
+     misc_feature    8079..8081
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648,
+                     ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    8094..8096
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0007744|PubMed:18669648; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    8187..8189
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:P70478; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    8229..8231
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    8244..8588
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    8424..8426
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648,
+                     ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P25054.2); phosphorylation site"
+     misc_feature    8466..8477
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: Microtubule tip localization signal"
+     misc_feature    8580..8588
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25054.2);
+                     Region: PDZ-binding"
+     exon            195..279
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /inference="alignment:Splign:2.1.0"
+     exon            280..481
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /inference="alignment:Splign:2.1.0"
+     exon            482..590
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /inference="alignment:Splign:2.1.0"
+     exon            591..704
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /inference="alignment:Splign:2.1.0"
+     exon            705..788
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /inference="alignment:Splign:2.1.0"
+     exon            789..893
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /inference="alignment:Splign:2.1.0"
+     exon            894..992
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /inference="alignment:Splign:2.1.0"
+     exon            993..1371
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1372..1467
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1468..1607
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1608..1685
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1686..1802
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1803..2017
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2018..10704
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /inference="alignment:Splign:2.1.0"
+     regulatory      9422..9427
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="hexamer: AATAAA"
+     polyA_site      9444
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="major polyA site"
+     regulatory      9584..9589
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="hexamer: AATAAA"
+     polyA_site      9618
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+     regulatory      10502..10507
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="hexamer: AATAAA"
+     polyA_site      10529
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+     regulatory      10682..10687
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+                     /note="hexamer: CATAAA"
+     polyA_site      10704
+                     /gene="APC"
+                     /gene_synonym="BTPS2; DESMD; DP2; DP2.5; DP3; GS; PPP1R46"
+ORIGIN      
+        1 actggagaca gaatggaggt gctgccggac tcggaaatgg ggtccaaggg tagccaagga
+       61 tggctgcagc ttcatatgat cagttgttaa agcaagttga ggcactgaag atggagaact
+      121 caaatcttcg acaagagcta gaagataatt ccaatcatct tacaaaactg gaaactgagg
+      181 catctaatat gaaggaagta cttaaacaac tacaaggaag tattgaagat gaagctatgg
+      241 cttcttctgg acagattgat ttattagagc gtcttaaaga gcttaactta gatagcagta
+      301 atttccctgg agtaaaactg cggtcaaaaa tgtccctccg ttcttatgga agccgggaag
+      361 gatctgtatc aagccgttct ggagagtgca gtcctgttcc tatgggttca tttccaagaa
+      421 gagggtttgt aaatggaagc agagaaagta ctggatattt agaagaactt gagaaagaga
+      481 ggtcattgct tcttgctgat cttgacaaag aagaaaagga aaaagactgg tattacgctc
+      541 aacttcagaa tctcactaaa agaatagata gtcttccttt aactgaaaat ttttccttac
+      601 aaacagatat gaccagaagg caattggaat atgaagcaag gcaaatcaga gttgcgatgg
+      661 aagaacaact aggtacctgc caggatatgg aaaaacgagc acagcgaaga atagccagaa
+      721 ttcagcaaat cgaaaaggac atacttcgta tacgacagct tttacagtcc caagcaacag
+      781 aagcagagag gtcatctcag aacaagcatg aaaccggctc acatgatgct gagcggcaga
+      841 atgaaggtca aggagtggga gaaatcaaca tggcaacttc tggtaatggt cagggttcaa
+      901 ctacacgaat ggaccatgaa acagccagtg ttttgagttc tagtagcaca cactctgcac
+      961 ctcgaaggct gacaagtcat ctgggaacca aggtggaaat ggtgtattca ttgttgtcaa
+     1021 tgcttggtac tcatgataag gatgatatgt cgcgaacttt gctagctatg tctagctccc
+     1081 aagacagctg tatatccatg cgacagtctg gatgtcttcc tctcctcatc cagcttttac
+     1141 atggcaatga caaagactct gtattgttgg gaaattcccg gggcagtaaa gaggctcggg
+     1201 ccagggccag tgcagcactc cacaacatca ttcactcaca gcctgatgac aagagaggca
+     1261 ggcgtgaaat ccgagtcctt catcttttgg aacagatacg cgcttactgt gaaacctgtt
+     1321 gggagtggca ggaagctcat gaaccaggca tggaccagga caaaaatcca atgccagctc
+     1381 ctgttgaaca tcagatctgt cctgctgtgt gtgttctaat gaaactttca tttgatgaag
+     1441 agcatagaca tgcaatgaat gaactagggg gactacaggc cattgcagaa ttattgcaag
+     1501 tggactgtga aatgtatggg cttactaatg accactacag tattacacta agacgatatg
+     1561 ctggaatggc tttgacaaac ttgacttttg gagatgtagc caacaaggct acgctatgct
+     1621 ctatgaaagg ctgcatgaga gcacttgtgg cccaactaaa atctgaaagt gaagacttac
+     1681 agcaggttat tgcgagtgtt ttgaggaatt tgtcttggcg agcagatgta aatagtaaaa
+     1741 agacgttgcg agaagttgga agtgtgaaag cattgatgga atgtgcttta gaagttaaaa
+     1801 aggaatcaac cctcaaaagc gtattgagtg ccttatggaa tttgtcagca cattgcactg
+     1861 agaataaagc tgatatatgt gctgtagatg gtgcacttgc atttttggtt ggcactctta
+     1921 cttaccggag ccagacaaac actttagcca ttattgaaag tggaggtggg atattacgga
+     1981 atgtgtccag cttgatagct acaaatgagg accacaggca aatcctaaga gagaacaact
+     2041 gtctacaaac tttattacaa cacttaaaat ctcatagttt gacaatagtc agtaatgcat
+     2101 gtggaacttt gtggaatctc tcagcaagaa atcctaaaga ccaggaagca ttatgggaca
+     2161 tgggggcagt tagcatgctc aagaacctca ttcattcaaa gcacaaaatg attgctatgg
+     2221 gaagtgctgc agctttaagg aatctcatgg caaataggcc tgcgaagtac aaggatgcca
+     2281 atattatgtc tcctggctca agcttgccat ctcttcatgt taggaaacaa aaagccctag
+     2341 aagcagaatt agatgctcag cacttatcag aaacttttga caatatagac aatttaagtc
+     2401 ccaaggcatc tcatcgtagt aagcagagac acaagcaaag tctctatggt gattatgttt
+     2461 ttgacaccaa tcgacatgat gataataggt cagacaattt taatactggc aacatgactg
+     2521 tcctttcacc atatttgaat actacagtgt tacccagctc ctcttcatca agaggaagct
+     2581 tagatagttc tcgttctgaa aaagatagaa gtttggagag agaacgcgga attggtctag
+     2641 gcaactacca tccagcaaca gaaaatccag gaacttcttc aaagcgaggt ttgcagatct
+     2701 ccaccactgc agcccagatt gccaaagtca tggaagaagt gtcagccatt catacctctc
+     2761 aggaagacag aagttctggg tctaccactg aattacattg tgtgacagat gagagaaatg
+     2821 cacttagaag aagctctgct gcccatacac attcaaacac ttacaatttc actaagtcgg
+     2881 aaaattcaaa taggacatgt tctatgcctt atgccaaatt agaatacaag agatcttcaa
+     2941 atgatagttt aaatagtgtc agtagtagtg atggttatgg taaaagaggt caaatgaaac
+     3001 cctcgattga atcctattct gaagatgatg aaagtaagtt ttgcagttat ggtcaatacc
+     3061 cagccgacct agcccataaa atacatagtg caaatcatat ggatgataat gatggagaac
+     3121 tagatacacc aataaattat agtcttaaat attcagatga gcagttgaac tctggaaggc
+     3181 aaagtccttc acagaatgaa agatgggcaa gacccaaaca cataatagaa gatgaaataa
+     3241 aacaaagtga gcaaagacaa tcaaggaatc aaagtacaac ttatcctgtt tatactgaga
+     3301 gcactgatga taaacacctc aagttccaac cacattttgg acagcaggaa tgtgtttctc
+     3361 catacaggtc acggggagcc aatggttcag aaacaaatcg agtgggttct aatcatggaa
+     3421 ttaatcaaaa tgtaagccag tctttgtgtc aagaagatga ctatgaagat gataagccta
+     3481 ccaattatag tgaacgttac tctgaagaag aacagcatga agaagaagag agaccaacaa
+     3541 attatagcat aaaatataat gaagagaaac gtcatgtgga tcagcctatt gattatagtt
+     3601 taaaatatgc cacagatatt ccttcatcac agaaacagtc attttcattc tcaaagagtt
+     3661 catctggaca aagcagtaaa accgaacata tgtcttcaag cagtgagaat acgtccacac
+     3721 cttcatctaa tgccaagagg cagaatcagc tccatccaag ttctgcacag agtagaagtg
+     3781 gtcagcctca aaaggctgcc acttgcaaag tttcttctat taaccaagaa acaatacaga
+     3841 cttattgtgt agaagatact ccaatatgtt tttcaagatg tagttcatta tcatctttgt
+     3901 catcagctga agatgaaata ggatgtaatc agacgacaca ggaagcagat tctgctaata
+     3961 ccctgcaaat agcagaaata aaagaaaaga ttggaactag gtcagctgaa gatcctgtga
+     4021 gcgaagttcc agcagtgtca cagcacccta gaaccaaatc cagcagactg cagggttcta
+     4081 gtttatcttc agaatcagcc aggcacaaag ctgttgaatt ttcttcagga gcgaaatctc
+     4141 cctccaaaag tggtgctcag acacccaaaa gtccacctga acactatgtt caggagaccc
+     4201 cactcatgtt tagcagatgt acttctgtca gttcacttga tagttttgag agtcgttcga
+     4261 ttgccagctc cgttcagagt gaaccatgca gtggaatggt aagtggcatt ataagcccca
+     4321 gtgatcttcc agatagccct ggacaaacca tgccaccaag cagaagtaaa acacctccac
+     4381 cacctcctca aacagctcaa accaagcgag aagtacctaa aaataaagca cctactgctg
+     4441 aaaagagaga gagtggacct aagcaagctg cagtaaatgc tgcagttcag agggtccagg
+     4501 ttcttccaga tgctgatact ttattacatt ttgccacgga aagtactcca gatggatttt
+     4561 cttgttcatc cagcctgagt gctctgagcc tcgatgagcc atttatacag aaagatgtgg
+     4621 aattaagaat aatgcctcca gttcaggaaa atgacaatgg gaatgaaaca gaatcagagc
+     4681 agcctaaaga atcaaatgaa aaccaagaga aagaggcaga aaaaactatt gattctgaaa
+     4741 aggacctatt agatgattca gatgatgatg atattgaaat actagaagaa tgtattattt
+     4801 ctgccatgcc aacaaagtca tcacgtaaag caaaaaagcc agcccagact gcttcaaaat
+     4861 tacctccacc tgtggcaagg aaaccaagtc agctgcctgt gtacaaactt ctaccatcac
+     4921 aaaacaggtt gcaaccccaa aagcatgtta gttttacacc gggggatgat atgccacggg
+     4981 tgtattgtgt tgaagggaca cctataaact tttccacagc tacatctcta agtgatctaa
+     5041 caatcgaatc ccctccaaat gagttagctg ctggagaagg agttagagga ggggcacagt
+     5101 caggtgaatt tgaaaaacga gataccattc ctacagaagg cagaagtaca gatgaggctc
+     5161 aaggaggaaa aacctcatct gtaaccatac ctgaattgga tgacaataaa gcagaggaag
+     5221 gtgatattct tgcagaatgc attaattctg ctatgcccaa agggaaaagt cacaagcctt
+     5281 tccgtgtgaa aaagataatg gaccaggtcc agcaagcatc tgcgtcttct tctgcaccca
+     5341 acaaaaatca gttagatggt aagaaaaaga aaccaacttc accagtaaaa cctataccac
+     5401 aaaatactga atataggaca cgtgtaagaa aaaatgcaga ctcaaaaaat aatttaaatg
+     5461 ctgagagagt tttctcagac aacaaagatt caaagaaaca gaatttgaaa aataattcca
+     5521 aggtcttcaa tgataagctc ccaaataatg aagatagagt cagaggaagt tttgcttttg
+     5581 attcacctca tcattacacg cctattgaag gaactcctta ctgtttttca cgaaatgatt
+     5641 ctttgagttc tctagatttt gatgatgatg atgttgacct ttccagggaa aaggctgaat
+     5701 taagaaaggc aaaagaaaat aaggaatcag aggctaaagt taccagccac acagaactaa
+     5761 cctccaacca acaatcagct aataagacac aagctattgc aaagcagcca ataaatcgag
+     5821 gtcagcctaa acccatactt cagaaacaat ccacttttcc ccagtcatcc aaagacatac
+     5881 cagacagagg ggcagcaact gatgaaaagt tacagaattt tgctattgaa aatactccgg
+     5941 tttgcttttc tcataattcc tctctgagtt ctctcagtga cattgaccaa gaaaacaaca
+     6001 ataaagaaaa tgaacctatc aaagagactg agccccctga ctcacaggga gaaccaagta
+     6061 aacctcaagc atcaggctat gctcctaaat catttcatgt tgaagatacc ccagtttgtt
+     6121 tctcaagaaa cagttctctc agttctctta gtattgactc tgaagatgac ctgttgcagg
+     6181 aatgtataag ctccgcaatg ccaaaaaaga aaaagccttc aagactcaag ggtgataatg
+     6241 aaaaacatag tcccagaaat atgggtggca tattaggtga agatctgaca cttgatttga
+     6301 aagatataca gagaccagat tcagaacatg gtctatcccc tgattcagaa aattttgatt
+     6361 ggaaagctat tcaggaaggt gcaaattcca tagtaagtag tttacatcaa gctgctgctg
+     6421 ctgcatgttt atctagacaa gcttcgtctg attcagattc catcctttcc ctgaaatcag
+     6481 gaatctctct gggatcacca tttcatctta cacctgatca agaagaaaaa ccctttacaa
+     6541 gtaataaagg cccacgaatt ctaaaaccag gggagaaaag tacattggaa actaaaaaga
+     6601 tagaatctga aagtaaagga atcaaaggag gaaaaaaagt ttataaaagt ttgattactg
+     6661 gaaaagttcg atctaattca gaaatttcag gccaaatgaa acagcccctt caagcaaaca
+     6721 tgccttcaat ctctcgaggc aggacaatga ttcatattcc aggagttcga aatagctcct
+     6781 caagtacaag tcctgtttct aaaaaaggcc caccccttaa gactccagcc tccaaaagcc
+     6841 ctagtgaagg tcaaacagcc accacttctc ctagaggagc caagccatct gtgaaatcag
+     6901 aattaagccc tgttgccagg cagacatccc aaataggtgg gtcaagtaaa gcaccttcta
+     6961 gatcaggatc tagagattcg accccttcaa gacctgccca gcaaccatta agtagaccta
+     7021 tacagtctcc tggccgaaac tcaatttccc ctggtagaaa tggaataagt cctcctaaca
+     7081 aattatctca acttccaagg acatcatccc ctagtactgc ttcaactaag tcctcaggtt
+     7141 ctggaaaaat gtcatataca tctccaggta gacagatgag ccaacagaac cttaccaaac
+     7201 aaacaggttt atccaagaat gccagtagta ttccaagaag tgagtctgcc tccaaaggac
+     7261 taaatcagat gaataatggt aatggagcca ataaaaaggt agaactttct agaatgtctt
+     7321 caactaaatc aagtggaagt gaatctgata gatcagaaag acctgtatta gtacgccagt
+     7381 caactttcat caaagaagct ccaagcccaa ccttaagaag aaaattggag gaatctgctt
+     7441 catttgaatc tctttctcca tcatctagac cagcttctcc cactaggtcc caggcacaaa
+     7501 ctccagtttt aagtccttcc cttcctgata tgtctctatc cacacattcg tctgttcagg
+     7561 ctggtggatg gcgaaaactc ccacctaatc tcagtcccac tatagagtat aatgatggaa
+     7621 gaccagcaaa gcgccatgat attgcacggt ctcattctga aagtccttct agacttccaa
+     7681 tcaataggtc aggaacctgg aaacgtgagc acagcaaaca ttcatcatcc cttcctcgag
+     7741 taagcacttg gagaagaact ggaagttcat cttcaattct ttctgcttca tcagaatcca
+     7801 gtgaaaaagc aaaaagtgag gatgaaaaac atgtgaactc tatttcagga accaaacaaa
+     7861 gtaaagaaaa ccaagtatcc gcaaaaggaa catggagaaa aataaaagaa aatgaatttt
+     7921 ctcccacaaa tagtacttct cagaccgttt cctcaggtgc tacaaatggt gctgaatcaa
+     7981 agactctaat ttatcaaatg gcacctgctg tttctaaaac agaggatgtt tgggtgagaa
+     8041 ttgaggactg tcccattaac aatcctagat ctggaagatc tcccacaggt aatactcccc
+     8101 cggtgattga cagtgtttca gaaaaggcaa atccaaacat taaagattca aaagataatc
+     8161 aggcaaaaca aaatgtgggt aatggcagtg ttcccatgcg taccgtgggt ttggaaaatc
+     8221 gcctgaactc ctttattcag gtggatgccc ctgaccaaaa aggaactgag ataaaaccag
+     8281 gacaaaataa tcctgtccct gtatcagaga ctaatgaaag ttctatagtg gaacgtaccc
+     8341 cattcagttc tagcagctca agcaaacaca gttcacctag tgggactgtt gctgccagag
+     8401 tgactccttt taattacaac ccaagcccta ggaaaagcag cgcagatagc acttcagctc
+     8461 ggccatctca gatcccaact ccagtgaata acaacacaaa gaagcgagat tccaaaactg
+     8521 acagcacaga atccagtgga acccaaagtc ctaagcgcca ttctgggtct taccttgtga
+     8581 catctgttta aaagagagga agaatgaaac taagaaaatt ctatgttaat tacaactgct
+     8641 atatagacat tttgtttcaa atgaaacttt aaaagactga aaaattttgt aaataggttt
+     8701 gattcttgtt agagggtttt tgttctggaa gccatatttg atagtatact ttgtcttcac
+     8761 tggtcttatt ttgggaggca ctcttgatgg ttaggaaaaa aatagtaaag ccaagtatgt
+     8821 ttgtacagta tgttttacat gtatttaaag tagcatccca tcccaacttc ctttaattat
+     8881 tgcttgtctt aaaataatga acactacaga tagaaaatat gatatattgc tgttatcaat
+     8941 catttctaga ttataaactg actaaactta catcagggaa aaattggtat ttatgcaaaa
+     9001 aaaaatgttt ttgtccttgt gagtccatct aacatcataa ttaatcatgt ggctgtgaaa
+     9061 ttcacagtaa tatggttccc gatgaacaag tttacccagc ctgctttgct ttactgcatg
+     9121 aatgaaactg atggttcaat ttcagaagta atgattaaca gttatgtggt cacatgatgt
+     9181 gcatagagat agctacagtg taataattta cactattttg tgctccaaac aaaacaaaaa
+     9241 tctgtgtaac tgtaaaacat tgaatgaaac tattttacct gaactagatt ttatctgaaa
+     9301 gtaggtagaa tttttgctat gctgtaattt gttgtatatt ctggtatttg aggtgagatg
+     9361 gctgctcttt tattaatgag acatgaattg tgtctcaaca gaaactaaat gaacatttca
+     9421 gaataaatta ttgctgtatg taaactgtta ctgaaattgg tatttgtttg aagggtcttg
+     9481 tttcacattt gtattaataa ttgtttaaaa tgcctctttt aaaagcttat ataaattttt
+     9541 ttcttcagct tctatgcatt aagagtaaaa ttcctcttac tgtaataaaa acaattgaag
+     9601 aagactgttg ccacttaacc attccatgcg ttggcactta tctattcctg aaatttcttt
+     9661 tatgtgatta gctcatcttg atttttaata tttttccact taaacttttt tttcttactc
+     9721 cactggagct cagtaaaagt aaattcatgt aatagcaatg caagcagcct agcacagact
+     9781 aagcattgag cataataggc ccacataatt tcctctttct taatattata gaattctgta
+     9841 cttgaaattg attcttagac attgcagtct cttcgaggct ttacagtgta aactgtcttg
+     9901 ccccttcatc ttcttgttgc aactgggtct gacatgaaca ctttttatca ccctgtatgt
+     9961 tagggcaaga tctcagcagt gaagtataat cagcactttg ccatgctcag aaaattcaaa
+    10021 tcacatggaa ctttagaggt agatttaata cgattaagat attcagaagt atattttaga
+    10081 atccctgcct gttaaggaaa ctttatttgt ggtaggtaca gttctggggt acatgttaag
+    10141 tgtcccctta tacagtggag ggaagtcttc cttcctgaag gaaaataaac tgacacttat
+    10201 taactaagat aatttactta atatatcttc cctgatttgt tttaaaagat cagagggtga
+    10261 ctgatgatac atgcatacat atttgttgaa taaatgaaaa tttattttta gtgataagat
+    10321 tcatacactc tgtatttggg gagggaaaac ctttttaagc atggtggggc actcagatag
+    10381 gagtgaatac acctacctgg tgccttgaaa atcacatcaa gtagttaatt atctacccct
+    10441 tacctgtgtt tataacttcc aggtaatgag aatgattttt tttaaagcta aaatgccagt
+    10501 aaataaaagt gctatgactt gagctaagat atttgactcc aatgcctgta ctgtgtctac
+    10561 tgcaccactt tgtaaacact tcaatttact atctttgaaa tgattgacct ttaaattttt
+    10621 gccaaatgtt atctgaaatt gtctatgaat accatctact tctgttgttt tcccaggctt
+    10681 ccataaacaa tggagataca tgca
+//
+
