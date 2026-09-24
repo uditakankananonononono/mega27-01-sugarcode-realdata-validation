@@ -1,24 +1,48 @@
-\appendix\section{Tools Table}\begin{center}\small\begin{tabular}{lll}\hline Tool & Version & Status/used in\\\hline
-pyhmmer & 0.12.3 & installed\\
-ViennaRNA & 2.7.2 & installed\\
-RDKit & 2026.3.6 & installed\\
-SpliceAI & 1.3.1 & installed\\
-TensorFlow & 2.15.1 & installed\\
-Keras & 2.15.0 & installed\\
-scikit-learn & 1.7.2 & installed\\
-SciPy & 1.15.3 & installed\\
-NumPy & 1.26.4 & installed\\
-Biopython & 1.88 & installed\\
-twobitreader & 4.0.2 & installed\\
-AutoDock Vina (python) & 1.2.7 & installed\\
-Open Babel & 3.1.1.23 & installed\\
-pytest & 9.1.1 & installed\\
-pandas & 2.3.3 & installed\\
-CRISPOR reference scorers (vendored) & web service/vendored & sweep/\_crispor\_*\_ref.py\\
-EBI Clustal Omega REST & web service/vendored & data/README.md\\
-CPIC API & web service/vendored & sweep/pgx\_cpic\_bench.py\\
-NCBI E-utilities & web service/vendored & src/sc\_validate\\
-LOVD3 API & web service/vendored & discovery/splice\_region\_vus/lovd\_top20.json\\
+\appendix\section{Tools Table}\begin{center}\small\begin{tabular}{lp{1.8cm}p{7.5cm}l}\hline Tool & Version & Status/used in & Gate\\\hline
+pyhmmer & 0.12.3 & installed & counts\\
+ViennaRNA & 2.7.2 & installed & counts\\
+RDKit & 2026.3.6 & installed & counts\\
+SpliceAI & 1.3.1 & installed & counts\\
+TensorFlow & 2.15.1 & installed & counts\\
+Keras & 2.15.0 & installed & counts\\
+scikit-learn & 1.7.2 & installed & counts\\
+SciPy & 1.15.3 & installed & counts\\
+NumPy & 1.26.4 & installed & counts\\
+Biopython & 1.88 & installed & counts\\
+twobitreader & 4.0.2 & installed & infra\\
+AutoDock Vina (python) & 1.2.7 & installed & counts\\
+Open Babel & 3.1.1.23 & installed & counts\\
+pytest & 9.1.1 & installed & infra\\
+pandas & 2.3.3 & installed & counts\\
+MHCflurry & 2.2.1 & sweep/neohunter\_mhcflurry\_cmp.py & counts\\
+CRISPOR reference scorers (vendored) & web service/vendored & sweep/\_crispor\_*\_ref.py & counts\\
+EBI Clustal Omega REST & web service/vendored & data/README.md & counts\\
+CPIC API & web service/vendored & sweep/pgx\_cpic\_bench.py & counts\\
+NCBI E-utilities & web service/vendored & src/sc\_validate & counts\\
+LOVD3 API & web service/vendored & discovery/splice\_region\_vus/lovd\_top20.json & counts\\
+MaxEntScan (maxentpy) & 0.0.4 & discovery/splice\_region\_vus/maxent\_cmp.py & counts\\
+codon-bias & 0.5.0 & sweep/codon\_tai\_enc.py & counts\\
+statsmodels & 0.15.0 & benchmarks/sweep\_codon\_cai\_multispecies.json (BH-FDR) & counts\\
+PyTorch & 2.14.0+cpu & discovery/splice\_region\_vus/cnn\_cv.py, cnn\_cv\_me.py (splice CNN) & counts\\
+Matplotlib & 3.10.9 & paper/make\_figs.py (all figures) & infra\\
+FreeSASA & 2.x (python) & sweep/sasa\_vs\_freesasa.py -> benchmarks/sweep\_sasa\_freesasa.json & counts\\
+primer3-py & 2.3.1 & sweep/primer\_vs\_primer3.py -> benchmarks/sweep\_primer\_primer3.json; sugarcode bio.primer.hairpin\_dg & counts\\
+DendroPy & 5.1.0 & sweep/phylo\_vs\_dendropy.py -> benchmarks/sweep\_phylo\_dendropy.json & counts\\
+orfipy & 0.0.4 & sweep/orf\_vs\_orfipy.py -> benchmarks/sweep\_orf\_orfipy.json & counts\\
+pysam (htslib) & 0.24.1 & sweep/vcf\_vs\_pysam.py -> benchmarks/sweep\_vcf\_pysam.json (remote tabix fetch of ClinVar VCF) & counts\\
+PyDESeq2 & 0.5.2 & sweep/de\_vs\_pydeseq2.py -> benchmarks/sweep\_de\_pydeseq2.json; sugarcode bio.de.de\_analysis\_deseq2 & counts\\
+parasail & 2.6.1 & sweep/align\_vs\_parasail.py -> benchmarks/sweep\_align\_parasail.json & counts\\
+g:Profiler g:GOSt API & e114\_eg62\_p19\_27110d83 & sweep/dex\_enrichment\_gprofiler.py -> benchmarks/sweep\_dex\_enrichment.json & counts\\
+STRING API & 12.0 & sweep/dex\_string\_ppi.py -> benchmarks/sweep\_dex\_string\_ppi.json & counts\\
+Reactome AnalysisService & live 2026-09-24 & sweep/dex\_reactome.py -> benchmarks/sweep\_dex\_reactome.json & counts\\
+networkx & local 3.4.2 & sweep/dex\_string\_network.py -> benchmarks/sweep\_dex\_string\_network.json & counts\\
+gseapy & local 1.3.1 & sweep/dex\_gsea\_hallmark.py -> benchmarks/sweep\_dex\_gsea\_hallmark.json & counts\\
+goatools & local 1.6.5 & sweep/dex\_goatools.py -> benchmarks/sweep\_dex\_goatools.json & counts\\
+gffutils & local 0.14 & sweep/gff\_vs\_gffutils.py -> benchmarks/sweep\_gff\_gffutils.json & counts\\
+gemmi & local 0.7.5 & sweep/pdb\_vs\_gemmi.py -> benchmarks/sweep\_pdb\_gemmi.json & counts\\
+UCSC Genome Browser REST API (phyloP100way) & live 2026-09-25 & discovery/splice\_region\_vus/fetch\_phylop\_sub.py -> phylop\_sub.tsv; phylop\_lift.json & counts\\
+bioframe & 0.8.0 & sweep/bed\_vs\_bioframe.py -> benchmarks/sweep\_bed\_bioframe.json & counts\\
+sourmash & 4.8.14 & sweep/kmer\_vs\_sourmash.py -> benchmarks/sweep\_kmer\_sourmash.json & counts\\
 \hline\end{tabular}\end{center}
 \section{Dataset Manifest}\begin{center}\scriptsize\begin{tabular}{rp{4.2cm}p{3.6cm}p{5cm}}\hline \# & Dataset & Accession/version & Used in\\\hline
 1 & ClinVar variant\_summary & variant\_summary.txt.gz (GRCh38) & data/clinvar\_sample\_500.tsv; discovery/splice\_region\_vus/\\
@@ -43,4 +67,9 @@ LOVD3 API & web service/vendored & discovery/splice\_region\_vus/lovd\_top20.jso
 20 & CPIC CYP2D6 diplotype table & 16836 diplotypes & sweep/pgx\_cpic\_bench.py\\
 21 & CPIC CYP2D6 allele activity table & 208 alleles & sugarcode-ai pgx\_guidelines/data\\
 22 & Edinburgh Genome Foundry codon tables & e\_coli\_316407 & sweep/codon\_cai\_bench.py (via sugarcode-ai)\\
+23 & IEDB MHC-I binding data 2013 (Kim et al. 2014) & bdata.20130222.mhci.txt & sweep/neohunter\_iedb\_bench.py\\
+24 & LP-PDBBind (Li et al. leak-proof split) & LP\_PDBBind.csv & sweep/docking\_bench.py\\
+25 & NCBI RefSeq transcripts (TP53, BRCA1, BRCA2, BRAF, EGFR) & NM\_000546.6, NM\_007294.4, NM\_000059.4, NM\_004333.6, NM\_005228.5 & sweep/primer\_vs\_primer3.py\\
+26 & ClinVar GRCh38 VCF (tabix regions TP53, BRCA1, BRCA2, BRAF, EGFR) & clinvar.vcf.gz (46,603 records) & sweep/vcf\_vs\_pysam.py\\
+27 & GEO GSE52778 airway smooth muscle RNA-seq (Himes et al. 2014), NCBI raw counts & GSE52778\_raw\_counts\_GRCh38.p13\_NCBI.tsv.gz & sweep/de\_vs\_pydeseq2.py\\
 \hline\end{tabular}\end{center}

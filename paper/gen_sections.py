@@ -25,8 +25,8 @@ for t,v in cal.items(): o.append(f"{t} & {v['tp']} & {v['fp']} & {v['sensitivity
 o.append('\\hline\\end{tabular}\\end{center}')
 n=sum(1 for _ in open(D+'vus_candidates_consensus.tsv'))-1
 o.append(f"Consensus VUS candidates (SpliceAI and CNN agreement) number {n} rows in \\texttt{{vus\\_candidates\\_consensus.tsv}}; none of the top 20 had a matching LOVD record (\\texttt{{lovd\\_top20.json}}). These are hypotheses for RNA-level testing, not reclassifications.")
-o.append('\\appendix\\section{Tools Table}\\begin{center}\\small\\begin{tabular}{lll}\\hline Tool & Version & Status/used in\\\\\\hline')
-for r in csv.DictReader(open('../manifests/tools.tsv'),delimiter='\t'): o.append(f"{esc(r['tool'])} & {esc(r['version'])} & {esc(r['status'])}\\\\")
+o.append('\\appendix\\section{Tools Table}\\begin{center}\\small\\begin{tabular}{lp{1.8cm}p{7.5cm}l}\\hline Tool & Version & Status/used in & Gate\\\\\\hline')
+for r in csv.DictReader(open('../manifests/tools.tsv'),delimiter='\t'): o.append(f"{esc(r['tool'])} & {esc(r['version'])} & {esc(r['status'])} & {esc(r['gate'].split(':')[0])}\\\\")
 o.append('\\hline\\end{tabular}\\end{center}')
 o.append('\\section{Dataset Manifest}\\begin{center}\\scriptsize\\begin{tabular}{rp{4.2cm}p{3.6cm}p{5cm}}\\hline \\# & Dataset & Accession/version & Used in\\\\\\hline')
 for r in csv.DictReader(open('../manifests/datasets.tsv'),delimiter='\t'): o.append(f"{r['id']} & {esc(r['dataset'])} & {esc(r['accession_or_version'])} & {esc(r['used_in'])}\\\\")
