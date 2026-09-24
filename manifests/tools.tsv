@@ -33,3 +33,4 @@ pysam (htslib)	0.24.1	sweep/vcf_vs_pysam.py -> benchmarks/sweep_vcf_pysam.json (
 PyDESeq2	0.5.2	sweep/de_vs_pydeseq2.py -> benchmarks/sweep_de_pydeseq2.json; sugarcode bio.de.de_analysis_deseq2
 parasail	2.6.1	sweep/align_vs_parasail.py -> benchmarks/sweep_align_parasail.json
 g:Profiler g:GOSt API	e114_eg62_p19_27110d83	sweep/dex_enrichment_gprofiler.py -> benchmarks/sweep_dex_enrichment.json
+STRING API	12.0	sweep/dex_string_ppi.py -> benchmarks/sweep_dex_string_ppi.json

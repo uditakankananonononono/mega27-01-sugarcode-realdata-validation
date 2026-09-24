@@ -1,0 +1,21 @@
+{
+ "tool": "STRING API /ppi_enrichment",
+ "string_version": [
+  {
+   "string_version": "12.0",
+   "stable_address": "https://version-12-0.string-db.org"
+  }
+ ],
+ "input": "top 300 dex-induced genes by padj (of 536 with symbols)",
+ "n_mapped_symbols": 536,
+ "result": [
+  {
+   "number_of_nodes": 284,
+   "number_of_edges": 402,
+   "average_node_degree": 2.83,
+   "local_clustering_coefficient": 0.368,
+   "expected_number_of_edges": 184,
+   "p_value": 0.0
+  }
+ ]
+}
