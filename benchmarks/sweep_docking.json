@@ -1,0 +1,158 @@
+{
+ "source": "LP-PDBBind (github.com/THGLab/LP-PDBBind) test split, refined, non-covalent; structures from RCSB PDB",
+ "n_attempted": 80,
+ "n_ok": 73,
+ "errors": [
+  {
+   "pdb": "4cws",
+   "error": "no ligand match"
+  },
+  {
+   "pdb": "4q08",
+   "error": "no ligand match"
+  },
+  {
+   "pdb": "3hkt",
+   "error": "no ligand match"
+  },
+  {
+   "pdb": "4r74",
+   "error": "no ligand match"
+  },
+  {
+   "pdb": "3p4v",
+   "error": "no ligand match"
+  },
+  {
+   "pdb": "4ou3",
+   "error": "no ligand match"
+  },
+  {
+   "pdb": "5ep7",
+   "error": "no ligand match"
+  }
+ ],
+ "engine": "AutoDock Vina 1.2.7 (exhaustiveness 8, 24 A box on crystal ligand) + Open Babel 3.1.1 prep, pH 7.4",
+ "scoring_power": {
+  "vina_crystal": {
+   "pearson": 0.2737,
+   "spearman": 0.2446,
+   "pearson_ci95": [
+    0.036,
+    0.473
+   ]
+  },
+  "vina_min": {
+   "pearson": 0.2672,
+   "spearman": 0.2216,
+   "pearson_ci95": [
+    0.03,
+    0.501
+   ]
+  },
+  "vina_top_E": {
+   "pearson": 0.2854,
+   "spearman": 0.2676,
+   "pearson_ci95": [
+    0.055,
+    0.485
+   ]
+  },
+  "sugarcode_crystal": {
+   "pearson": 0.2975,
+   "spearman": 0.1984,
+   "pearson_ci95": [
+    0.027,
+    0.484
+   ]
+  },
+  "n_heavy": {
+   "pearson": 0.2445,
+   "spearman": 0.2033,
+   "pearson_ci95": [
+    -0.039,
+    0.485
+   ]
+  }
+ },
+ "redocking": {
+  "top1_rmsd_lt2A": 0.5205,
+  "best_of_9_rmsd_lt2A": 0.8356,
+  "note": "RMSD without symmetry correction (conservative)"
+ },
+ "pdb_ids_used": [
+  "1cnw",
+  "1ejn",
+  "1f5l",
+  "1g54",
+  "1gi1",
+  "1k1j",
+  "1o3l",
+  "1p1o",
+  "1y3x",
+  "1zgi",
+  "2erz",
+  "2j4i",
+  "2p4j",
+  "2x7t",
+  "2xab",
+  "2xjg",
+  "2zdn",
+  "3b3c",
+  "3c84",
+  "3d8w",
+  "3hkq",
+  "3hll",
+  "3ibi",
+  "3m35",
+  "3po6",
+  "3r17",
+  "3r4n",
+  "4b2i",
+  "4db7",
+  "4f5y",
+  "4fl1",
+  "4j93",
+  "4jfm",
+  "4knj",
+  "4lxz",
+  "4mo8",
+  "4nh7",
+  "4o04",
+  "4oag",
+  "4r76",
+  "4rfc",
+  "4tim",
+  "4xit",
+  "4ytc",
+  "4yxi",
+  "4zme",
+  "5aml",
+  "5cap",
+  "5cau",
+  "5d3l",
+  "5ewk",
+  "5ewy",
+  "5f60",
+  "5f62",
+  "5g5v",
+  "5htz",
+  "5ix0",
+  "5l8c",
+  "5mjn",
+  "5mpn",
+  "5n24",
+  "5o87",
+  "5sz4",
+  "5sz5",
+  "5y8y",
+  "6eq5",
+  "6g38",
+  "6g6t",
+  "6hqy",
+  "6hrq",
+  "6oe0",
+  "6rfn",
+  "6u6w"
+ ]
+}

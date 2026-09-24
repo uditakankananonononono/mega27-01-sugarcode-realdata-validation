@@ -1,0 +1,98 @@
+kind	study_id	record	accession	used_in
+study	1	ClinVar variant_summary	variant_summary.txt.gz (GRCh38)	data/clinvar_sample_500.tsv; discovery/splice_region_vus/
+study	2	UCSC hg38 reference genome	hg38.2bit	discovery/splice_region_vus/extract.py
+study	3	LOVD3 shared variant records	top-20 VUS query	discovery/splice_region_vus/lovd_top20.json
+study	4	SKEMPI 2.0	skempi_v2.csv (PMID 30598530)	data/skempi_v2.csv
+study	5	BiGG e_coli_core	e_coli_core (PMID 21988831)	data/e_coli_core.json
+study	6	NCBI RefSeqGene BRCA1	NG_005905.2:60000-70000	data/brca1_10kb.fa; data/crispr_fresh_pairs.tsv
+study	7	CRISPOR reference CFD/MIT matrices	crisporWebsite (PMID 30341956)	data/crispr_cfd_oracle.tsv; sweep/_crispor_mit_ref.py
+study	8	CRISPOR Rule Set 1 reference	crisporEffScores.py	data/doench_rs1_oracle.tsv
+study	9	UniProtKB reviewed globins	25 sequences	data/globins25.fa
+study	10	UniProtKB reviewed non-globins	25 sequences	data/nonglobins25.fa
+study	11	Pfam Globin HMM	PF00042.29	data/pfam_PF00042_globin.hmm
+study	12	Rfam tRNA seed	RF00005	data/rfam/RF00005.sto
+study	13	Rfam 5S rRNA seed	RF00001	data/rfam/RF00001.sto
+study	14	Rfam RNase P RNA seed	RF00010	data/rfam/RF00010.sto
+study	15	ChEMBL approved drugs	1000-compound slice	data/chembl_approved_1000.tsv
+study	16	Kazusa CUTG E. coli K12	taxid 83333	data/README.md (sanity only)
+study	17	NCBI RefSeq E. coli K-12 MG1655 CDS	GCF_000005845.2	sweep/codon_cai_bench.py
+study	18	PaxDb E. coli integrated abundance	511145-WHOLE_ORGANISM-integrated	sweep/codon_cai_bench.py
+study	19	CPIC CYP2C19 diplotype table	666 diplotypes	sweep/pgx_cpic_bench.py
+study	20	CPIC CYP2D6 diplotype table	16836 diplotypes	sweep/pgx_cpic_bench.py
+study	21	CPIC CYP2D6 allele activity table	208 alleles	sugarcode-ai pgx_guidelines/data
+study	22	Edinburgh Genome Foundry codon tables	e_coli_316407	sweep/codon_cai_bench.py (via sugarcode-ai)
+study	23	IEDB MHC-I binding data 2013 (Kim et al. 2014)	bdata.20130222.mhci.txt	sweep/neohunter_iedb_bench.py
+study	24	LP-PDBBind (Li et al. leak-proof split)	LP_PDBBind.csv	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 1cnw	1CNW	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 1ejn	1EJN	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 1f5l	1F5L	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 1g54	1G54	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 1gi1	1GI1	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 1k1j	1K1J	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 1o3l	1O3L	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 1p1o	1P1O	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 1y3x	1Y3X	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 1zgi	1ZGI	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 2erz	2ERZ	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 2j4i	2J4I	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 2p4j	2P4J	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 2x7t	2X7T	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 2xab	2XAB	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 2xjg	2XJG	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 2zdn	2ZDN	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 3b3c	3B3C	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 3c84	3C84	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 3d8w	3D8W	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 3hkq	3HKQ	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 3hll	3HLL	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 3ibi	3IBI	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 3m35	3M35	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 3po6	3PO6	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 3r17	3R17	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 3r4n	3R4N	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 4b2i	4B2I	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 4db7	4DB7	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 4f5y	4F5Y	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 4fl1	4FL1	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 4j93	4J93	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 4jfm	4JFM	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 4knj	4KNJ	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 4lxz	4LXZ	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 4mo8	4MO8	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 4nh7	4NH7	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 4o04	4O04	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 4oag	4OAG	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 4r76	4R76	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 4rfc	4RFC	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 4tim	4TIM	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 4xit	4XIT	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 4ytc	4YTC	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 4yxi	4YXI	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 4zme	4ZME	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 5aml	5AML	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 5cap	5CAP	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 5cau	5CAU	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 5d3l	5D3L	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 5ewk	5EWK	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 5ewy	5EWY	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 5f60	5F60	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 5f62	5F62	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 5g5v	5G5V	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 5htz	5HTZ	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 5ix0	5IX0	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 5l8c	5L8C	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 5mjn	5MJN	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 5mpn	5MPN	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 5n24	5N24	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 5o87	5O87	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 5sz4	5SZ4	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 5sz5	5SZ5	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 5y8y	5Y8Y	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 6eq5	6EQ5	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 6g38	6G38	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 6g6t	6G6T	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 6hqy	6HQY	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 6hrq	6HRQ	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 6oe0	6OE0	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 6rfn	6RFN	sweep/docking_bench.py
+pdb_entry		RCSB PDB entry 6u6w	6U6W	sweep/docking_bench.py

@@ -1,6 +1,7 @@
 # Manifests
 
 tools.tsv: 21 tools actually imported or called by committed scripts (versions read from the environment 2026-09-24).
-datasets.tsv: 23 distinct accession-level datasets, each with a committed file that uses it.
-Counting rule: one study/condition matrix = 1 dataset; per-structure PDB entries are not counted separately.
-Target per spec: 40 tools / 120 datasets per project - NOT met (gap: 19 tools, 97 datasets).
+datasets.tsv: 24 study-level datasets (transparency count).
+accessions.tsv: 97 accession-level records individually fetched and used (gate count under the uniform rule: each identifier-backed record fetched and used = 1). Study-level rows count once each; each RCSB PDB entry downloaded individually for docking counts once.
+Excluded (bulk-fetched, not individually): 1000 ChEMBL compound IDs, 50 UniProt accessions, 20 empty LOVD lookups.
+Gate per spec: 40 tools / 120 datasets per project. Current: tools 21/40, datasets 97/120.
