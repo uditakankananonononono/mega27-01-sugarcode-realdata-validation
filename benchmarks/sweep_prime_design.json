@@ -1,0 +1,38 @@
+{
+ "reference": "Anzalone 2019 Nature suppl + Addgene 132778 + Chow 2021 Nat Biomed Eng (experimentally validated)",
+ "unit_cases": [
+  {
+   "name": "HEK3 +1 CTT ins",
+   "rtt_match": true,
+   "pbs_match": true,
+   "extension_match": true,
+   "got_pbs": "GTGCTCAGTCTG",
+   "got_rtt": "TCTGCCATCAAAGC",
+   "pre_fix_pbs": "TCTGCCATCAAA"
+  },
+  {
+   "name": "RNF2 +5 G>T",
+   "rtt_match": true,
+   "pbs_match": true,
+   "extension_match": true,
+   "got_pbs": "TAATGACTAAGATG",
+   "got_rtt": "AACGAACACATCAGG",
+   "pre_fix_pbs": "AACGAACACATCAG"
+  }
+ ],
+ "all_unit_match": true,
+ "end_to_end_hek3": {
+  "top_spacer": "GGCCCAGACTGAGCACGTGA",
+  "spacer_match": true,
+  "pbs": "GTGCTCAGTC",
+  "pbs_match_published": false,
+  "auto_pbs_len": 10,
+  "auto_rtt_len": 20,
+  "rtt_contains_published_at_nick": true
+ },
+ "sugarcode_commit": "947b55e",
+ "pre_fix_pbs_matched_published": [
+  false,
+  false
+ ]
+}
