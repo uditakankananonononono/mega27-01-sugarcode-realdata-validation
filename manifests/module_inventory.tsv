@@ -42,7 +42,7 @@ module	gene_explorer	140	2	not yet validated
 module	gene_tx_opt	149	2	not yet validated	
 module	genomegpt	279	3	not yet validated	
 module	infinite_diagnosis	130	4	not yet validated	
-module	liquid_biopsy	376	6	not yet validated	
+module	liquid_biopsy	411	7	validated	benchmarks/sweep_liquid_biopsy.json
 module	living_computer	857	2	not yet validated	
 module	living_tx	184	2	not yet validated	
 module	metabodesigner	190	4	validated	benchmarks/sweep_metabodesigner.json

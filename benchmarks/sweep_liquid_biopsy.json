@@ -1,0 +1,263 @@
+{
+ "module": "liquid_biopsy",
+ "sources": [
+  "cBioPortal REST API (TCGA PanCancer Atlas 2018 studies)",
+  "NCBI PubMed",
+  "scipy"
+ ],
+ "marker_panels_vs_tcga": {
+  "colorectal": {
+   "study": "coadread_tcga_pan_can_atlas_2018",
+   "n_sequenced": 534,
+   "mutation_pct": {
+    "KRAS": 40.8,
+    "APC": 72.5,
+    "TP53": 58.8,
+    "PIK3CA": 27.5,
+    "BRAF": 11.6,
+    "SMAD4": 12.7
+   },
+   "most_frequent_checked": "APC",
+   "pre_panel": [
+    "KRAS",
+    "APC",
+    "TP53"
+   ],
+   "post_panel": [
+    "KRAS",
+    "APC",
+    "TP53"
+   ],
+   "coverage_pre_pct": 85.4,
+   "coverage_post_pct": 85.4,
+   "top_gene_in_post_panel": true
+  },
+  "lung": {
+   "study": "luad_tcga_pan_can_atlas_2018",
+   "n_sequenced": 566,
+   "mutation_pct": {
+    "EGFR": 12.4,
+    "KRAS": 29.7,
+    "ALK": 6.0,
+    "TP53": 52.1,
+    "STK11": 13.3,
+    "KEAP1": 18.0,
+    "BRAF": 7.2
+   },
+   "most_frequent_checked": "TP53",
+   "pre_panel": [
+    "EGFR",
+    "KRAS",
+    "ALK"
+   ],
+   "post_panel": [
+    "EGFR",
+    "KRAS",
+    "ALK",
+    "TP53"
+   ],
+   "coverage_pre_pct": 46.3,
+   "coverage_post_pct": 76.1,
+   "top_gene_in_post_panel": true
+  },
+  "breast": {
+   "study": "brca_tcga_pan_can_atlas_2018",
+   "n_sequenced": 1066,
+   "mutation_pct": {
+    "PIK3CA": 32.6,
+    "ESR1": 0.8,
+    "TP53": 32.6,
+    "GATA3": 11.9,
+    "CDH1": 12.2,
+    "MAP3K1": 8.3
+   },
+   "most_frequent_checked": "PIK3CA",
+   "pre_panel": [
+    "PIK3CA",
+    "ESR1",
+    "TP53"
+   ],
+   "post_panel": [
+    "PIK3CA",
+    "ESR1",
+    "TP53"
+   ],
+   "coverage_pre_pct": 57.8,
+   "coverage_post_pct": 57.8,
+   "top_gene_in_post_panel": true
+  },
+  "pancreatic": {
+   "study": "paad_tcga_pan_can_atlas_2018",
+   "n_sequenced": 179,
+   "mutation_pct": {
+    "KRAS": 65.4,
+    "CDKN2A": 19.6,
+    "TP53": 59.8,
+    "SMAD4": 20.7
+   },
+   "most_frequent_checked": "KRAS",
+   "pre_panel": [
+    "KRAS",
+    "CDKN2A"
+   ],
+   "post_panel": [
+    "KRAS",
+    "CDKN2A",
+    "TP53"
+   ],
+   "coverage_pre_pct": 66.5,
+   "coverage_post_pct": 74.9,
+   "top_gene_in_post_panel": true
+  },
+  "prostate": {
+   "study": "prad_tcga_pan_can_atlas_2018",
+   "n_sequenced": 494,
+   "mutation_pct": {
+    "AR": 0.4,
+    "ERG": 0.0,
+    "SPOP": 11.1,
+    "TP53": 11.5,
+    "FOXA1": 5.7
+   },
+   "most_frequent_checked": "TP53",
+   "pre_panel": [
+    "AR",
+    "TMPRSS2-ERG"
+   ],
+   "post_panel": [
+    "AR",
+    "TMPRSS2-ERG"
+   ],
+   "coverage_pre_pct": 0.4,
+   "coverage_post_pct": 0.4,
+   "top_gene_in_post_panel": false
+  },
+  "melanoma": {
+   "study": "skcm_tcga_pan_can_atlas_2018",
+   "n_sequenced": 440,
+   "mutation_pct": {
+    "BRAF": 53.0,
+    "NRAS": 28.4,
+    "TERT": 4.3,
+    "NF1": 17.3,
+    "TP53": 16.4
+   },
+   "most_frequent_checked": "BRAF",
+   "pre_panel": [
+    "BRAF",
+    "NRAS",
+    "TERT"
+   ],
+   "post_panel": [
+    "BRAF",
+    "NRAS",
+    "TERT"
+   ],
+   "coverage_pre_pct": 79.8,
+   "coverage_post_pct": 79.8,
+   "top_gene_in_post_panel": true
+  }
+ },
+ "marker_notes": "TERT (melanoma) is driven by promoter mutations outside exome capture; AR and ESR1 are acquired under therapy (mCRPC, endocrine-treated metastatic breast) so low TCGA primary frequencies are expected; TMPRSS2-ERG is a fusion and not in mutation calls. TP53 was the single most frequent checked gene in LUAD and PAAD yet absent from the lung and pancreatic panels -> curation fix.",
+ "literature": {
+  "25079552": {
+   "title": "Comprehensive molecular profiling of lung adenocarcinoma.",
+   "source": "Nature",
+   "pubdate": "2014 Jul 31"
+  },
+  "28810144": {
+   "title": "Integrated Genomic Characterization of Pancreatic Ductal Adenocarcinoma.",
+   "source": "Cancer Cell",
+   "pubdate": "2017 Aug 14"
+  },
+  "27428049": {
+   "title": "Fragment Length of Circulating Tumor DNA.",
+   "source": "PLoS Genet",
+   "pubdate": "2016 Jul"
+  },
+  "26771485": {
+   "title": "Cell-free DNA Comprises an In Vivo Nucleosome Footprint that Informs Its Tissues-Of-Origin.",
+   "source": "Cell",
+   "pubdate": "2016 Jan 14"
+  }
+ },
+ "fragment_model": {
+  "underhill_abstract_has_134_144_and_167": true,
+  "module_anchor_healthy_bp": 166,
+  "module_anchor_ctdna": "134-144",
+  "per_tf": {
+   "0.0": {
+    "modal_length_bp": 167.5,
+    "shannon_entropy_bits": 4.4241,
+    "short_fraction_100_150bp": 0.1457,
+    "kl_divergence_to_healthy_ref": 0.00193
+   },
+   "0.1": {
+    "modal_length_bp": 167.5,
+    "shannon_entropy_bits": 4.5227,
+    "short_fraction_100_150bp": 0.1907,
+    "kl_divergence_to_healthy_ref": 0.0486
+   },
+   "0.3": {
+    "modal_length_bp": 167.5,
+    "shannon_entropy_bits": 4.6049,
+    "short_fraction_100_150bp": 0.2838,
+    "kl_divergence_to_healthy_ref": 0.22353
+   },
+   "0.6": {
+    "modal_length_bp": 152.5,
+    "shannon_entropy_bits": 4.5532,
+    "short_fraction_100_150bp": 0.4228,
+    "kl_divergence_to_healthy_ref": 0.59244
+   }
+  },
+  "entropy_monotone": false,
+  "kl_monotone": true,
+  "short_frac_monotone": true,
+  "entropy_recomputed_scipy": 4.6049,
+  "gamma_mode_check": {
+   "mode": 166.0,
+   "sd": 18.106,
+   "scipy_argmax_bp": 166
+  }
+ },
+ "haplotype_em": {
+  "truth": [
+   "111",
+   "000"
+  ],
+  "post_fix_top2": [
+   [
+    "111",
+    0.47913482
+   ],
+   [
+    "000",
+    0.47913482
+   ]
+  ],
+  "pre_fix": "top3 000 0.493, 011 0.253, 110 0.253 (111 never a candidate; sugarcode c685085, before the fix)"
+ },
+ "longitudinal": {
+  "slope_module": -0.00010357,
+  "slope_scipy": -0.00010357,
+  "trend": "response"
+ },
+ "detect_ctdna": {
+  "called_loci": [
+   10,
+   30
+  ],
+  "expected_loci": [
+   10,
+   30
+  ],
+  "markers_lung": [
+   "EGFR",
+   "KRAS",
+   "ALK",
+   "TP53"
+  ],
+  "note": "'beta-binomial' in the docstring is a label: confidence is 1-exp(-af*depth/100), not a beta-binomial test (documented, not changed)"
+ }
+}

@@ -551,3 +551,13 @@ uniprot	P04637	TP53 Swiss-Prot canonical; accession/length check (gene_analysis 
 uniprot	P38398	BRCA1 Swiss-Prot canonical; accession/length check (gene_analysis sweep)	UniProt REST	sweep/gene_analysis.py
 uniprot	P13569	CFTR Swiss-Prot canonical; accession/length check (gene_analysis sweep)	UniProt REST	sweep/gene_analysis.py
 uniprot	P68871	HBB Swiss-Prot canonical; accession/length check (gene_analysis sweep)	UniProt REST	sweep/gene_analysis.py
+cbioportal	coadread_tcga_pan_can_atlas_2018	TCGA PanCancer Atlas mutations, 534 sequenced samples; ctDNA marker-panel frequencies (liquid_biopsy sweep)	cBioPortal mutations/fetch	sweep/liquid_biopsy.py
+cbioportal	luad_tcga_pan_can_atlas_2018	TCGA PanCancer Atlas mutations, 566 sequenced samples; ctDNA marker-panel frequencies (liquid_biopsy sweep)	cBioPortal mutations/fetch	sweep/liquid_biopsy.py
+cbioportal	brca_tcga_pan_can_atlas_2018	TCGA PanCancer Atlas mutations, 1066 sequenced samples; ctDNA marker-panel frequencies (liquid_biopsy sweep)	cBioPortal mutations/fetch	sweep/liquid_biopsy.py
+cbioportal	paad_tcga_pan_can_atlas_2018	TCGA PanCancer Atlas mutations, 179 sequenced samples; ctDNA marker-panel frequencies (liquid_biopsy sweep)	cBioPortal mutations/fetch	sweep/liquid_biopsy.py
+cbioportal	prad_tcga_pan_can_atlas_2018	TCGA PanCancer Atlas mutations, 494 sequenced samples; ctDNA marker-panel frequencies (liquid_biopsy sweep)	cBioPortal mutations/fetch	sweep/liquid_biopsy.py
+cbioportal	skcm_tcga_pan_can_atlas_2018	TCGA PanCancer Atlas mutations, 440 sequenced samples; ctDNA marker-panel frequencies (liquid_biopsy sweep)	cBioPortal mutations/fetch	sweep/liquid_biopsy.py
+pubmed	25079552	TCGA LUAD Nature 2014 (liquid_biopsy sweep)	PMID 25079552	sweep/liquid_biopsy.py
+pubmed	28810144	TCGA PDAC Cancer Cell 2017 (liquid_biopsy sweep)	PMID 28810144	sweep/liquid_biopsy.py
+pubmed	27428049	Underhill 2016 ctDNA fragment length (134-144 vs 167 bp) (liquid_biopsy sweep)	PMID 27428049	sweep/liquid_biopsy.py
+pubmed	26771485	Snyder 2016 cfDNA nucleosome footprint (liquid_biopsy sweep)	PMID 26771485	sweep/liquid_biopsy.py
