@@ -1,0 +1,21 @@
+{
+ "analyze16s_mismatches": 0,
+ "cohort_alpha_mismatches": 0,
+ "bray_curtis_max_abs_diff": 0.0,
+ "pcoa_eig0_diff": 3.3306690738754696e-16,
+ "pcoa_eig1_diff": 8.326672684688674e-16,
+ "planted_effect": {
+  "log2fc": 1.968,
+  "p": 0.033932135728542916,
+  "numerator_group": "control",
+  "sign_correct": true
+ },
+ "null_median_p": 0.5069860279441119,
+ "null_min_p": 0.027944111776447105,
+ "sugarcode_commit": "2de74ce",
+ "pre_fix_pcoa": {
+  "pcoa_eig0_diff": 0.7955943255086015,
+  "pcoa_eig1_diff": 0.11840292883322817,
+  "cause": "Gower centering used means of the unsquared distances"
+ }
+}

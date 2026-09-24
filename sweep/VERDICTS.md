@@ -216,3 +216,6 @@ BUG FIXED (sugarcode 55748fa): GC feature summed positions 4-14; published model
 
 ## modules.omega_stats vs independent recomputation (2026-09-25)
 NO BUG. All dashboard/rollup/release quantities match independent numpy/statistics recomputation exactly (0 mismatches across stats series, drift slopes, pass-rate directions, effect sizes); bootstrap CI seed-deterministic and contains mean; 51 diagnostics; planted latency regression correctly gates fail. benchmarks/sweep_omega_stats.json
+
+## modules.microbiome_exp vs scipy + explicit Gower centering (2026-09-25)
+BUG FIXED (sugarcode 2de74ce): PCoA Gower centering subtracted means of the unsquared Bray-Curtis distances; must center D^2. Leading eigenvalue was off by 0.796; post-fix matches explicit -1/2 J D^2 J to 3e-16. Alpha diversity (Shannon/Gini-Simpson/richness/Pielou) matches scipy.stats.entropy + direct forms (0 mismatches, 2 entry points, 12-sample cohort); Bray-Curtis matches scipy braycurtis to 0.0; planted differential effect recovered with correct sign (log2fc 1.968, p=0.034); null median p 0.51. Caveat: disease-association table is heuristic and unvalidated (module flags it as hypotheses). benchmarks/sweep_microbiome.json

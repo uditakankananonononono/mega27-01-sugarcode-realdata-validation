@@ -48,7 +48,7 @@ module	living_tx	184	2	not yet validated
 module	metabodesigner	170	3	not yet validated	
 module	micro_tx	218	2	not yet validated	
 module	microaiverse	138	2	not yet validated	
-module	microbiome_exp	119	2	not yet validated	
+module	microbiome_exp	120	3	validated	benchmarks/sweep_microbiome.json
 module	microbiome_rx	172	2	not yet validated	
 module	mit_offtarget	154	2	validated	VERDICTS table; sweep/crispr_vs_crispor.py
 module	molecule_eval	149	2	validated	benchmarks/sweep_molecule_eval.json
