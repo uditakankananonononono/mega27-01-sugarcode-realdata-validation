@@ -174,3 +174,6 @@ species		PaxDb integrated abundance, Salmonella enterica subsp. enterica serovar
 species		NCBI RefSeq assembly CDS, Salmonella enterica subsp. enterica serovar Typhimurium str. LT2	GCF_000006945.2	sweep/codon_cai_multispecies.py
 species		PaxDb integrated abundance, Oryctolagus cuniculus	9986-PERIPHERAL_REGION_OF_RETINA-integrated.txt	sweep/codon_cai_multispecies.py
 species		NCBI RefSeq assembly CDS, Oryctolagus cuniculus	GCF_964237555.1	sweep/codon_cai_multispecies.py
+gtrnadb		GtRNAdb tRNA gene copy numbers, Esch_coli_K_12_MG1655	Esch_coli_K_12_MG1655	sweep/codon_tai_enc.py
+gtrnadb		GtRNAdb tRNA gene copy numbers, Baci_subt_subtilis_168	Baci_subt_subtilis_168	sweep/codon_tai_enc.py
+gtrnadb		GtRNAdb tRNA gene copy numbers, Scere3	Scere3	sweep/codon_tai_enc.py

@@ -48,3 +48,16 @@ Result: the ribosomal reference is better in 27/29 taxa (median Spearman gain +0
 Falsifiable prediction: for any new PaxDb organism with a strongly skewed codon usage, the ribosomal reference beats the genome table. For mammals and AT-rich parasites the difference is within 0.02.
 Novelty caveat: Sharp & Li (1987) proposed highly expressed reference sets. This is a systematic 29-taxon abundance-based test of that choice, not a new theory.
 Numbers: benchmarks/sweep_codon_cai_multispecies.json (per-taxon rows with assembly and PaxDb file IDs).
+
+## Splice: MaxEntScan baseline and fix (2026-09-24)
+Same gene-grouped folds, n=9235. MaxEntScan (Yeo & Burge 2004) delta has AUROC 0.9635, beating our CNN at 0.9355 (the CNN is worse by 0.023 to 0.033, 95% CI). NEGATIVE: the CNN lost to a 2004 method, mainly at acceptors (0.879 vs 0.965).
+Pivot: add MaxEntScan ref/alt/delta as features. The logistic model with MaxEnt features reaches 0.9674 and beats MaxEnt alone by 0.0027 to 0.0053 (95% CI). CNN with MaxEnt features reaches 0.9622, which is no better than MaxEnt (-0.0042 to +0.0017).
+Numbers: discovery/splice_region_vus/cv_results_me.json, maxent_cmp.json.
+
+## Codon: tAI and ENC comparison (2026-09-24)
+Spearman with log abundance (non-ribosomal genes):
+- E. coli: CAI-genome 0.496, CAI-ribo 0.581, tAI 0.528, -ENC 0.384.
+- B. subtilis: 0.330, 0.416, 0.415, 0.174.
+- S. cerevisiae: 0.410, 0.592, 0.660, 0.447.
+tAI beats CAI-ribo in yeast but not in E. coli. The tools used were codon-bias and GtRNAdb gene copy numbers. Numbers: benchmarks/sweep_codon_tai_enc.json.
+Cross-species BH-FDR (statsmodels): ribosomal-reference CAI is significantly correlated with abundance (q<0.05) in 27/29 taxa.

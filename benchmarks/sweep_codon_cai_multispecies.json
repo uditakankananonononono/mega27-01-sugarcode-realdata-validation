@@ -453,5 +453,41 @@
    "rho_ribo_ref": 0.1012,
    "rho_top5_cv": 0.1141
   }
- ]
+ ],
+ "bh_fdr_rho_ribo_gt0": {
+  "method": "Fisher-z test per taxon, Benjamini-Hochberg (statsmodels)",
+  "n_significant_q05": 27,
+  "n": 29,
+  "per_taxon_q": {
+   "Mus musculus": 0.0,
+   "Rattus norvegicus": 3.1e-05,
+   "Staphylococcus schleiferi": 0.0,
+   "Streptococcus pyogenes": 0.0,
+   "Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819": 0.0,
+   "Corynebacterium glutamicum ATCC 13032": 0.0,
+   "Shigella flexneri 2a str. 301": 0.0,
+   "Pseudomonas aeruginosa PAO1": 0.0,
+   "Bacillus subtilis subsp. subtilis str. 168": 0.0,
+   "Bradyrhizobium diazoefficiens USDA 110": 0.0,
+   "Acidithiobacillus ferrooxidans ATCC 23270": 0.0,
+   "Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539": 0.0,
+   "Ruegeria pomeroyi DSS-3": 0.0,
+   "Sodalis glossinidius str. 'morsitans'": 0.0,
+   "Plasmodium falciparum 3D7": 0.077904,
+   "Saccharomyces cerevisiae S288C": 0.0,
+   "Escherichia coli str. K-12 substr. MG1655": 0.0,
+   "Klebsiella ornithinolytica": 0.0,
+   "Drosophila melanogaster": 0.000125,
+   "Mycobacterium tuberculosis H37Rv": 0.0,
+   "Gallus gallus": 0.0,
+   "Staphylococcus aureus subsp. aureus NCTC 8325": 0.0,
+   "Macaca mulatta": 1e-06,
+   "Homo sapiens": 0.238976,
+   "Canis lupus familiaris": 0.002463,
+   "Sus scrofa": 0.000112,
+   "Bos taurus": 0.0,
+   "Salmonella enterica subsp. enterica serovar Typhimurium str. LT2": 0.0,
+   "Oryctolagus cuniculus": 7e-06
+  }
+ }
 }

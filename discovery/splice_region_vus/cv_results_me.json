@@ -1,0 +1,56 @@
+{
+ "n": 9235,
+ "n_pos": 2330,
+ "overall": {
+  "maxent": 0.9635,
+  "logit_me": 0.9674,
+  "cnn_me": 0.9622
+ },
+ "donor": {
+  "maxent": 0.9598,
+  "logit_me": 0.9609,
+  "cnn_me": 0.9644
+ },
+ "acceptor": {
+  "maxent": 0.965,
+  "logit_me": 0.9697,
+  "cnn_me": 0.9511
+ },
+ "within_position_weighted": {
+  "maxent": 0.949,
+  "logit_me": 0.9492,
+  "cnn_me": 0.9472
+ },
+ "logit_me_minus_maxent_ci95": [
+  0.0027,
+  0.0053
+ ],
+ "cnn_me_minus_maxent_ci95": [
+  -0.0042,
+  0.0017
+ ],
+ "maxent_standalone": {
+  "n": 9235,
+  "maxentscan_delta": 0.9635,
+  "pwm": 0.8893,
+  "logit": 0.9121,
+  "cnn": 0.9355,
+  "donor": {
+   "n": 5390,
+   "maxentscan": 0.9598,
+   "cnn": 0.9538,
+   "pwm": 0.9069
+  },
+  "acceptor": {
+   "n": 3845,
+   "maxentscan": 0.965,
+   "cnn": 0.8794,
+   "pwm": 0.8129
+  },
+  "cnn_minus_maxent_ci95": [
+   -0.0329,
+   -0.0233
+  ],
+  "tool": "MaxEntScan (Yeo & Burge 2004) via maxentpy (github.com/kepbod/maxentpy)"
+ }
+}

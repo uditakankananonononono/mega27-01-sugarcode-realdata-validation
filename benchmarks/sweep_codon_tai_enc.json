@@ -1,0 +1,35 @@
+{
+ "tools": "codon-bias (TrnaAdaptationIndex dos Reis s-values, EffectiveNumberOfCodons), GtRNAdb tRNA gene copy numbers",
+ "results": [
+  {
+   "taxid": "511145",
+   "organism": "Escherichia coli str. K-12 substr. MG1655",
+   "gtrnadb_genome": "Esch_coli_K_12_MG1655",
+   "n_genes": 3450,
+   "rho_cai_genome": 0.4961,
+   "rho_cai_ribo": 0.5809,
+   "rho_tai": 0.5277,
+   "rho_neg_enc": 0.3836
+  },
+  {
+   "taxid": "224308",
+   "organism": "Bacillus subtilis subsp. subtilis str. 168",
+   "gtrnadb_genome": "Baci_subt_subtilis_168",
+   "n_genes": 3115,
+   "rho_cai_genome": 0.3295,
+   "rho_cai_ribo": 0.4156,
+   "rho_tai": 0.4146,
+   "rho_neg_enc": 0.1735
+  },
+  {
+   "taxid": "4932",
+   "organism": "Saccharomyces cerevisiae S288C",
+   "gtrnadb_genome": "Scere3",
+   "n_genes": 5474,
+   "rho_cai_genome": 0.4099,
+   "rho_cai_ribo": 0.5924,
+   "rho_tai": 0.6604,
+   "rho_neg_enc": 0.4471
+  }
+ ]
+}
