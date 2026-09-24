@@ -74,3 +74,7 @@ Cross-species BH-FDR (statsmodels): ribosomal-reference CAI is significantly cor
 - Same distance matrices (K80; p-distance for RF00005 where K80 saturates to infinity), 30 random sequences from each of 3 Rfam seed alignments.
 - NJ: identical topology (RF 0) and patristic distances (max diff 1e-6) in 3/3 families. UPGMA: identical in RF00001 and RF00010; RF00005 has RF 2 (patristic Pearson 0.998), traced to 2 merge steps with tied minimum distance (sweep/phylo_upgma_ties.py), a tie-breaking difference, not a bug. VERIFIED (benchmarks/sweep_phylo_dendropy.json).
 - p-distance differs from Biopython identity by design (pairwise gap deletion vs gaps counted): Pearson 0.79-0.98.
+
+## bio.orf vs orfipy and NCBI CDS annotation (2026-09-24)
+- 5 RefSeq mRNAs (TP53, BRCA1, BRCA2, BRAF, EGFR; GenBank records in data/refseq/). The longest + strand ATG ORF equals the annotated CDS in 5/5, and its translation equals the NCBI /translation in 5/5. VERIFIED.
+- Six-frame ORF sets (min 30 aa) are identical to orfipy in 5/5 when orfipy minlen is 89-90; at 91-93 orfipy drops the 30-aa ORFs. Length-threshold convention, not a bug (benchmarks/sweep_orf_orfipy.json).

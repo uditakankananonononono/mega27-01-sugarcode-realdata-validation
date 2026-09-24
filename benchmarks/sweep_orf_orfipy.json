@@ -1,0 +1,138 @@
+{
+ "tool": "orfipy (orfipy_core.orfs, ATG starts, both strands, min 93 nt incl stop)",
+ "data": "NCBI RefSeq GenBank records (E-utilities)",
+ "results": [
+  {
+   "accession": "NM_000546.6",
+   "annotated_cds": [
+    142,
+    1324
+   ],
+   "our_longest_plus": [
+    142,
+    1324
+   ],
+   "longest_equals_cds": true,
+   "translation_equals_annotation": true,
+   "n_ours": 12,
+   "n_orfipy": 12,
+   "n_shared": 12,
+   "only_ours_example": [],
+   "only_orfipy_example": []
+  },
+  {
+   "accession": "NM_007294.4",
+   "annotated_cds": [
+    113,
+    5705
+   ],
+   "our_longest_plus": [
+    113,
+    5705
+   ],
+   "longest_equals_cds": true,
+   "translation_equals_annotation": true,
+   "n_ours": 34,
+   "n_orfipy": 32,
+   "n_shared": 32,
+   "only_ours_example": [
+    [
+     1140,
+     1233,
+     "+"
+    ],
+    [
+     4798,
+     4891,
+     "-"
+    ]
+   ],
+   "only_orfipy_example": []
+  },
+  {
+   "accession": "NM_000059.4",
+   "annotated_cds": [
+    199,
+    10456
+   ],
+   "our_longest_plus": [
+    199,
+    10456
+   ],
+   "longest_equals_cds": true,
+   "translation_equals_annotation": true,
+   "n_ours": 35,
+   "n_orfipy": 34,
+   "n_shared": 34,
+   "only_ours_example": [
+    [
+     6608,
+     6701,
+     "+"
+    ]
+   ],
+   "only_orfipy_example": []
+  },
+  {
+   "accession": "NM_004333.6",
+   "annotated_cds": [
+    226,
+    2527
+   ],
+   "our_longest_plus": [
+    226,
+    2527
+   ],
+   "longest_equals_cds": true,
+   "translation_equals_annotation": true,
+   "n_ours": 26,
+   "n_orfipy": 26,
+   "n_shared": 26,
+   "only_ours_example": [],
+   "only_orfipy_example": []
+  },
+  {
+   "accession": "NM_005228.5",
+   "annotated_cds": [
+    261,
+    3894
+   ],
+   "our_longest_plus": [
+    261,
+    3894
+   ],
+   "longest_equals_cds": true,
+   "translation_equals_annotation": true,
+   "n_ours": 54,
+   "n_orfipy": 48,
+   "n_shared": 48,
+   "only_ours_example": [
+    [
+     3004,
+     3097,
+     "+"
+    ],
+    [
+     4528,
+     4621,
+     "+"
+    ],
+    [
+     4704,
+     4797,
+     "+"
+    ]
+   ],
+   "only_orfipy_example": []
+  }
+ ],
+ "boundary_note": "sugarcode min_aa=30 keeps 30-aa ORFs (93 nt incl. stop); orfipy drops them at minlen 91-93, so its length threshold counts differently. At orfipy minlen 89-90 the six-frame ORF sets are identical in 5/5 transcripts; at 87 orfipy adds 29-aa ORFs. Convention difference, not a bug.",
+ "orfipy_minlen_scan_identical_sets_of_5": {
+  "93": 2,
+  "92": 2,
+  "91": 2,
+  "90": 5,
+  "89": 5,
+  "87": 1
+ }
+}
