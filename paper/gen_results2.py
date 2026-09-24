@@ -25,7 +25,7 @@ fig,ax=plt.subplots(figsize=(6,3)); ms_=['maxent','logit_me','cnn_me']; lab=['Ma
 for i,s in enumerate(['overall','donor','acceptor']): ax.bar(x+i*0.25-0.25,[cv[s][m] for m in ms_],0.25,label=s)
 ax.set_xticks(x); ax.set_xticklabels(lab); ax.set_ylim(0.9,0.98); ax.set_ylabel('AUROC'); ax.legend(fontsize=7); fig.tight_layout(); fig.savefig('figs/splice_models.png',dpi=200)
 # ---- cross-species CAI
-bh=ms['bh_fdr_rho_ribo_gt0']
+bh=ms['bh_fdr_rho_ribo_gt0']; bq={r['organism']:r['q'] for r in json.load(open(B+'sweep_codon_bh_fdr.json'))['per_taxon']}
 o.append('\\section{Codon Track II: Cross-Species Test of the Ribosomal Reference Set}')
 o.append(f"Question: {esc(ms['question'])} Data: {esc(ms['data'])}. Of {ms['n_taxa_scanned']} PaxDb taxa scanned, {ms['n_usable']} had a matched RefSeq assembly and enough genes, and {ms['n_with_ribo_ref']} had a usable ribosomal-protein reference set. "
  f"The ribosomal reference gave the higher Spearman correlation with measured abundance in {ms['ribo_better']}/{ms['n_with_ribo_ref']} taxa (median gain {ms['median_rho_gain']}; Wilcoxon signed-rank $p={ms['wilcoxon_p']:.2g}$, sign test $p={ms['sign_test_p']:.2g}$). "
@@ -38,11 +38,11 @@ ax.scatter(g,r,s=14); lo=min(g+r)-0.05; hi=max(g+r)+0.05; ax.plot([lo,hi],[lo,hi
 ax.set_xlabel('$\\rho$, genome-wide reference'); ax.set_ylabel('$\\rho$, ribosomal reference'); fig.tight_layout(); fig.savefig('figs/cai_species.png',dpi=200)
 o.append('{\\scriptsize\\begin{longtable}{lp{4.3cm}lrrrrr}\\caption{Per-taxon results (all taxa with a matched assembly).}\\\\\\hline Taxid & Organism & Assembly & $n$ & $n_{ribo}$ & $\\rho_{gen}$ & $\\rho_{ribo}$ & $q$\\\\\\hline\\endhead')
 for t in ms['per_taxon']:
-    q=bh['per_taxon_q'].get(t['organism'], bh['per_taxon_q'].get(t['taxid'],''))
-    q=("$<$1e-6" if q==0 else f"{q:.2g}") if isinstance(q,(int,float)) else '--'
+    q=bq.get(t['organism'],'')
+    q=f"{q:.2g}" if isinstance(q,(int,float)) else '--'
     o.append(f"{t['taxid']} & {esc(t['organism'])} & {esc(t['assembly'])} & {t['n_matched']} & {t['n_ribo'] if t['n_ribo'] is not None else '--'} & {t['rho_genome_table']} & {t['rho_ribo_ref'] if t['rho_ribo_ref'] is not None else '--'} & {q}\\\\")
 o.append('\\hline\\end{longtable}}')
-o.append('$q$ values are stored rounded to 6 decimals; $<$1e-6 marks values that round to zero.')
+o.append('$q$: Fisher-$z$ two-sided test of $\\rho_{ribo}$, Benjamini-Hochberg adjusted at full precision (benchmarks/sweep\\_codon\\_bh\\_fdr.json).')
 o.append('\\subsection{tRNA adaptation index and effective number of codons}')
 o.append(f"Tools: {esc(te['tools'])}. Table~\\ref{{tab:tai}} gives Spearman $\\rho$ with abundance. No single index wins everywhere: tAI leads in yeast, the ribosomal-reference CAI leads in \\textit{{E. coli}}, and $-$ENC is weakest in all three organisms.")
 o.append('\\begin{table}[h]\\centering\\small\\caption{Codon indices vs abundance (Spearman $\\rho$).}\\label{tab:tai}\\begin{tabular}{p{5cm}rrrrr}\\hline Organism & $n$ & CAI$_{gen}$ & CAI$_{ribo}$ & tAI & $-$ENC\\\\\\hline')

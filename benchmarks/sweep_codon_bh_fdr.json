@@ -1,0 +1,239 @@
+{
+ "method": "Fisher z two-sided, BH-FDR (statsmodels multipletests fdr_bh), full precision",
+ "n": 29,
+ "n_significant_q05": 27,
+ "per_taxon": [
+  {
+   "taxid": "10090",
+   "organism": "Mus musculus",
+   "rho_ribo_ref": 0.0775,
+   "n": 8089,
+   "p": 2.88998852652919e-12,
+   "q": 4.41103511943929e-12
+  },
+  {
+   "taxid": "10116",
+   "organism": "Rattus norvegicus",
+   "rho_ribo_ref": 0.1405,
+   "n": 890,
+   "p": 2.5276961920332094e-05,
+   "q": 3.0542995653734616e-05
+  },
+  {
+   "taxid": "1295",
+   "organism": "Staphylococcus schleiferi",
+   "rho_ribo_ref": 0.5403,
+   "n": 442,
+   "p": 8.97040684457075e-37,
+   "q": 2.0010907576350134e-36
+  },
+  {
+   "taxid": "1314",
+   "organism": "Streptococcus pyogenes",
+   "rho_ribo_ref": 0.6701,
+   "n": 306,
+   "p": 3.040705458487749e-45,
+   "q": 9.797828699571636e-45
+  },
+  {
+   "taxid": "192222",
+   "organism": "Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819",
+   "rho_ribo_ref": 0.2291,
+   "n": 725,
+   "p": 3.6770112186396404e-10,
+   "q": 5.331666267027479e-10
+  },
+  {
+   "taxid": "196627",
+   "organism": "Corynebacterium glutamicum ATCC 13032",
+   "rho_ribo_ref": 0.6307,
+   "n": 323,
+   "p": 2.8807099202195955e-40,
+   "q": 6.961715640530689e-40
+  },
+  {
+   "taxid": "198214",
+   "organism": "Shigella flexneri 2a str. 301",
+   "rho_ribo_ref": 0.6514,
+   "n": 1887,
+   "p": 8.358552770188399e-250,
+   "q": 8.079934344515452e-249
+  },
+  {
+   "taxid": "208964",
+   "organism": "Pseudomonas aeruginosa PAO1",
+   "rho_ribo_ref": 0.4149,
+   "n": 4796,
+   "p": 3.3831735759557955e-205,
+   "q": 2.452800842567952e-204
+  },
+  {
+   "taxid": "224308",
+   "organism": "Bacillus subtilis subsp. subtilis str. 168",
+   "rho_ribo_ref": 0.4156,
+   "n": 3147,
+   "p": 8.152672246688743e-136,
+   "q": 3.377535645056765e-135
+  },
+  {
+   "taxid": "224911",
+   "organism": "Bradyrhizobium diazoefficiens USDA 110",
+   "rho_ribo_ref": 0.4806,
+   "n": 494,
+   "p": 3.8489258916140186e-31,
+   "q": 7.972775061200467e-31
+  },
+  {
+   "taxid": "243159",
+   "organism": "Acidithiobacillus ferrooxidans ATCC 23270",
+   "rho_ribo_ref": 0.4055,
+   "n": 419,
+   "p": 1.7139813951609776e-18,
+   "q": 2.761414469981575e-18
+  },
+  {
+   "taxid": "243230",
+   "organism": "Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539",
+   "rho_ribo_ref": 0.5698,
+   "n": 319,
+   "p": 1.239818113418834e-30,
+   "q": 2.396981685943079e-30
+  },
+  {
+   "taxid": "246200",
+   "organism": "Ruegeria pomeroyi DSS-3",
+   "rho_ribo_ref": 0.46,
+   "n": 395,
+   "p": 7.114132831984681e-23,
+   "q": 1.2135873654562106e-22
+  },
+  {
+   "taxid": "343509",
+   "organism": "Sodalis glossinidius str. 'morsitans'",
+   "rho_ribo_ref": 0.4703,
+   "n": 748,
+   "p": 4.007806993250787e-44,
+   "q": 1.1622640280427281e-43
+  },
+  {
+   "taxid": "36329",
+   "organism": "Plasmodium falciparum 3D7",
+   "rho_ribo_ref": 0.0253,
+   "n": 4946,
+   "p": 0.07521789281966386,
+   "q": 0.07790424613465186
+  },
+  {
+   "taxid": "4932",
+   "organism": "Saccharomyces cerevisiae S288C",
+   "rho_ribo_ref": 0.5924,
+   "n": 5587,
+   "p": 0.0,
+   "q": 0.0
+  },
+  {
+   "taxid": "511145",
+   "organism": "Escherichia coli str. K-12 substr. MG1655",
+   "rho_ribo_ref": 0.5809,
+   "n": 3486,
+   "p": 0.0,
+   "q": 0.0
+  },
+  {
+   "taxid": "54291",
+   "organism": "Klebsiella ornithinolytica",
+   "rho_ribo_ref": 0.5268,
+   "n": 1038,
+   "p": 3.355426445699498e-79,
+   "q": 1.216342086566068e-78
+  },
+  {
+   "taxid": "7227",
+   "organism": "Drosophila melanogaster",
+   "rho_ribo_ref": 0.0813,
+   "n": 2251,
+   "p": 0.00011190678753870113,
+   "q": 0.00012481910917778202
+  },
+  {
+   "taxid": "83332",
+   "organism": "Mycobacterium tuberculosis H37Rv",
+   "rho_ribo_ref": 0.2373,
+   "n": 3258,
+   "p": 2.4906456732474076e-43,
+   "q": 6.566247684015893e-43
+  },
+  {
+   "taxid": "9031",
+   "organism": "Gallus gallus",
+   "rho_ribo_ref": 0.2274,
+   "n": 1891,
+   "p": 8.59256098727438e-24,
+   "q": 1.5574016789434816e-23
+  },
+  {
+   "taxid": "93061",
+   "organism": "Staphylococcus aureus subsp. aureus NCTC 8325",
+   "rho_ribo_ref": 0.6046,
+   "n": 1699,
+   "p": 6.231814159457092e-183,
+   "q": 3.614452212485113e-182
+  },
+  {
+   "taxid": "9544",
+   "organism": "Macaca mulatta",
+   "rho_ribo_ref": 0.0808,
+   "n": 3732,
+   "p": 7.619257458938729e-07,
+   "q": 1.0043566650419234e-06
+  },
+  {
+   "taxid": "9606",
+   "organism": "Homo sapiens",
+   "rho_ribo_ref": 0.0106,
+   "n": 12343,
+   "p": 0.23897566929171443,
+   "q": 0.23897566929171443
+  },
+  {
+   "taxid": "9615",
+   "organism": "Canis lupus familiaris",
+   "rho_ribo_ref": 0.1673,
+   "n": 329,
+   "p": 0.0022934069243565995,
+   "q": 0.0024632889187533847
+  },
+  {
+   "taxid": "9823",
+   "organism": "Sus scrofa",
+   "rho_ribo_ref": 0.071,
+   "n": 3010,
+   "p": 9.622189761182283e-05,
+   "q": 0.00011161740122971449
+  },
+  {
+   "taxid": "9913",
+   "organism": "Bos taurus",
+   "rho_ribo_ref": 0.1177,
+   "n": 2694,
+   "p": 8.564209396255314e-10,
+   "q": 1.1826765356733528e-09
+  },
+  {
+   "taxid": "99287",
+   "organism": "Salmonella enterica subsp. enterica serovar Typhimurium str. LT2",
+   "rho_ribo_ref": 0.4743,
+   "n": 2472,
+   "p": 9.166201373420558e-145,
+   "q": 4.4303306638199367e-144
+  },
+  {
+   "taxid": "9986",
+   "organism": "Oryctolagus cuniculus",
+   "rho_ribo_ref": 0.1012,
+   "n": 1993,
+   "p": 5.8989306031193865e-06,
+   "q": 7.437782064802705e-06
+  }
+ ]
+}
