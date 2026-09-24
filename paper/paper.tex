@@ -34,7 +34,7 @@ We answer it module family by module family, with frozen fixtures, pinned
 random seeds, and metrics reported with 95\% bootstrap confidence intervals.
 All code, fixtures, and results are released in this repository.
 \section{Related Work and Benchmarks}
-\emph{Pending validation runs; filled on completion.}
+Reference implementations used here are CRISPOR for guide scoring \cite{crispor} and its Doench Rule Set 1/CFD models \cite{doench2016}, SKEMPI 2.0 for binding free-energy changes \cite{skempi}, BiGG for metabolic models \cite{bigg}, Clustal Omega for alignment \cite{clustalo}, and the Tavtigian Bayesian ACMG framework \cite{tavtigian}. Pharmacogenomic tables come from the CPIC API; RNA structure references from Rfam seed alignments; splice predictions are compared with SpliceAI.
 \section{Methods}
 For each module family we constructed a held-out test disjoint from every
 fixture used during platform development. Negative results are preserved and
@@ -204,7 +204,8 @@ AUC 0.952 on forward log-odds (0.962 length-normalised). The Pfam/HMMER3
 reference model reached 1.000 on the same fixtures.
 
 \section{Benchmark Comparison}
-\emph{Pending validation runs; filled on completion.}
+Each row compares a sugarcode module with an independent published reference; every number is generated from the named committed file.
+\input{bench_table}
 \section{Failure Modes and Negative Results}
 \textbf{openclinvar, first run: 500/500 abstentions.} ClinVar names such as
 \texttt{NM\_000038.6(APC):c.1668T>C (p.Asp556=)} carry a transcript/gene prefix
@@ -236,10 +237,12 @@ dominated by loss-of-function variants and the B class by synonymous ones, so
 consequence type alone separates the called variants. Missense variants, the
 hard case, are still abstained.
 
+\input{sections_auto}
 \section{Discussion}
-\emph{Pending validation runs; filled on completion.}
+Validating each module against an independent reference exposed three kinds of result: implementations that match their reference exactly (CAI vs Biopython, CYP2D6 translation vs CPIC after the fix), implementations whose defaults were stale or weak (CPIC activity values, genome-wide CAI reference, Nussinov folding), and places where a strong published tool beats our model (SpliceAI on splice-region variants). Each fix is committed with the result file that motivated it. The CNN is useful as a calibrated, cheap second opinion at high thresholds, not as a replacement for SpliceAI.
 \section{Conclusion}
-\emph{Pending validation runs; filled on completion.}
+The sweep so far corrected two clinically relevant defaults (CPIC activity values, clopidogrel handling of ``Likely'' phenotypes), improved CAI correlation with measured abundance, and replaced base-pair maximisation with thermodynamic folding. The dataset and tool targets set for this project are not yet met; the manifests in the appendix list exactly what was used.
+\input{sections_appendix}
 \bibliographystyle{plain}
 \begin{thebibliography}{99}
 \bibitem{doench2016} Doench JG et al. Optimized sgRNA design to maximize

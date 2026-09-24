@@ -1,0 +1,7 @@
+\begin{center}\small\begin{tabular}{p{3.2cm}p{3.6cm}p{3.2cm}p{4.2cm}}\hline Module & Reference & Metric & Result (file)\\\hline
+pgx\_guidelines & CPIC diplotype tables & agreement & 16836/16836 CYP2D6 (sweep\_pgx\_cpic.json)\\
+bio.codon CAI & Biopython; PaxDb & Pearson; Spearman & 0.99969; 0.5797 (sweep\_codon\_cai.json)\\
+rna\_nussinov & ViennaRNA 2.7 & bp F1 (tRNA) & 0.328 vs 0.714 (sweep\_rna.json)\\
+profile\_hmm & Pfam PF00042 & auc\_log\_odds\_bits & 0.952 global, 0.9792 local (profile\_hmm\_cv*.json)\\
+splice CNN & SpliceAI 1.3.1 & AUROC n=757 & 0.929 vs 0.9775 (headtohead\_interim.json)\\
+\hline\end{tabular}\end{center}
