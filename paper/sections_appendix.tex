@@ -53,6 +53,7 @@ Azimuth Rule Set 2 model + Doench 2016 FC+RES data (MicrosoftResearch/Azimuth) &
 ProDy & 2.4.1 & sweep/evofold\_anm\_prody.py -> benchmarks/sweep\_evofold\_anm.json & counts\\
 ClinicalTrials.gov API v2 & live 2026-09-25 & sweep/evidence\_mining\_live.py -> benchmarks/sweep\_evidence\_mining.json & counts\\
 ChEMBL REST API & live 2026-09-25 & sweep/dti\_bench\_chembl.py -> benchmarks/sweep\_dti\_bench.json & counts\\
+RCSB PDB archive (files.rcsb.org + chemcomp REST, PDBe fallback) & live 2026-09-25 & sweep/mutdock\_platinum.py -> benchmarks/sweep\_mutdock.json & counts\\
 \hline\end{tabular}\end{center}
 \section{Dataset Manifest}\begin{center}\scriptsize\begin{tabular}{rp{4.2cm}p{3.6cm}p{5cm}}\hline \# & Dataset & Accession/version & Used in\\\hline
 1 & ClinVar variant\_summary & variant\_summary.txt.gz (GRCh38) & data/clinvar\_sample\_500.tsv; discovery/splice\_region\_vus/\\
@@ -82,4 +83,5 @@ ChEMBL REST API & live 2026-09-25 & sweep/dti\_bench\_chembl.py -> benchmarks/sw
 25 & NCBI RefSeq transcripts (TP53, BRCA1, BRCA2, BRAF, EGFR) & NM\_000546.6, NM\_007294.4, NM\_000059.4, NM\_004333.6, NM\_005228.5 & sweep/primer\_vs\_primer3.py\\
 26 & ClinVar GRCh38 VCF (tabix regions TP53, BRCA1, BRCA2, BRAF, EGFR) & clinvar.vcf.gz (46,603 records) & sweep/vcf\_vs\_pysam.py\\
 27 & GEO GSE52778 airway smooth muscle RNA-seq (Himes et al. 2014), NCBI raw counts & GSE52778\_raw\_counts\_GRCh38.p13\_NCBI.tsv.gz & sweep/de\_vs\_pydeseq2.py\\
+ & Platinum flat file (experimental ligand-binding ddG) & 1008 mutation records & data/platinum/platinum\_flat\_file.csv\\
 \hline\end{tabular}\end{center}

@@ -414,3 +414,38 @@ uniprot	P00519	UniProt canonical sequence fetched live, ABL1 (dti_bench sweep)	P
 uniprot	O60674	UniProt canonical sequence fetched live, JAK2 (dti_bench sweep)	O60674	sweep/dti_bench_chembl.py
 uniprot	P31749	UniProt canonical sequence fetched live, AKT1 (dti_bench sweep)	P31749	sweep/dti_bench_chembl.py
 uniprot	P42345	UniProt canonical sequence fetched live, mTOR (dti_bench sweep)	P42345	sweep/dti_bench_chembl.py
+pdb	1BWB	RCSB/PDBe structure fetched for pocket extraction (mutdock Platinum sweep, 2026-09-25)	1BWB	sweep/mutdock_platinum.py
+pdb	1JPZ	RCSB/PDBe structure fetched for pocket extraction (mutdock Platinum sweep, 2026-09-25)	1JPZ	sweep/mutdock_platinum.py
+pdb	1MUI	RCSB/PDBe structure fetched for pocket extraction (mutdock Platinum sweep, 2026-09-25)	1MUI	sweep/mutdock_platinum.py
+pdb	1TSL	RCSB/PDBe structure fetched for pocket extraction (mutdock Platinum sweep, 2026-09-25)	1TSL	sweep/mutdock_platinum.py
+pdb	1VKJ	RCSB/PDBe structure fetched for pocket extraction (mutdock Platinum sweep, 2026-09-25)	1VKJ	sweep/mutdock_platinum.py
+pdb	2AOD	RCSB/PDBe structure fetched for pocket extraction (mutdock Platinum sweep, 2026-09-25)	2AOD	sweep/mutdock_platinum.py
+pdb	2IEN	RCSB/PDBe structure fetched for pocket extraction (mutdock Platinum sweep, 2026-09-25)	2IEN	sweep/mutdock_platinum.py
+pdb	2IKI	RCSB/PDBe structure fetched for pocket extraction (mutdock Platinum sweep, 2026-09-25)	2IKI	sweep/mutdock_platinum.py
+pdb	2Q88	RCSB/PDBe structure fetched for pocket extraction (mutdock Platinum sweep, 2026-09-25)	2Q88	sweep/mutdock_platinum.py
+pdb	2R5Q	RCSB/PDBe structure fetched for pocket extraction (mutdock Platinum sweep, 2026-09-25)	2R5Q	sweep/mutdock_platinum.py
+pdb	2Z4O	RCSB/PDBe structure fetched for pocket extraction (mutdock Platinum sweep, 2026-09-25)	2Z4O	sweep/mutdock_platinum.py
+pdb	3FQL	RCSB/PDBe structure fetched for pocket extraction (mutdock Platinum sweep, 2026-09-25)	3FQL	sweep/mutdock_platinum.py
+pdb	3IJW	RCSB/PDBe structure fetched for pocket extraction (mutdock Platinum sweep, 2026-09-25)	3IJW	sweep/mutdock_platinum.py
+pdb	3KYF	RCSB/PDBe structure fetched for pocket extraction (mutdock Platinum sweep, 2026-09-25)	3KYF	sweep/mutdock_platinum.py
+pdb	3NTY	RCSB/PDBe structure fetched for pocket extraction (mutdock Platinum sweep, 2026-09-25)	3NTY	sweep/mutdock_platinum.py
+pdb	3NU3	RCSB/PDBe structure fetched for pocket extraction (mutdock Platinum sweep, 2026-09-25)	3NU3	sweep/mutdock_platinum.py
+pdb	3TKW	RCSB/PDBe structure fetched for pocket extraction (mutdock Platinum sweep, 2026-09-25)	3TKW	sweep/mutdock_platinum.py
+pdb	3UM8	RCSB/PDBe structure fetched for pocket extraction (mutdock Platinum sweep, 2026-09-25)	3UM8	sweep/mutdock_platinum.py
+pdb_ligand	017	RCSB chemcomp descriptor fetched for SMILES (mutdock Platinum sweep)	017	sweep/mutdock_platinum.py
+pdb_ligand	065	RCSB chemcomp descriptor fetched for SMILES (mutdock Platinum sweep)	065	sweep/mutdock_platinum.py
+pdb_ligand	140	RCSB chemcomp descriptor fetched for SMILES (mutdock Platinum sweep)	140	sweep/mutdock_platinum.py
+pdb_ligand	146	RCSB chemcomp descriptor fetched for SMILES (mutdock Platinum sweep)	146	sweep/mutdock_platinum.py
+pdb_ligand	1CY	RCSB chemcomp descriptor fetched for SMILES (mutdock Platinum sweep)	1CY	sweep/mutdock_platinum.py
+pdb_ligand	1UN	RCSB chemcomp descriptor fetched for SMILES (mutdock Platinum sweep)	1UN	sweep/mutdock_platinum.py
+pdb_ligand	2NC	RCSB chemcomp descriptor fetched for SMILES (mutdock Platinum sweep)	2NC	sweep/mutdock_platinum.py
+pdb_ligand	388	RCSB chemcomp descriptor fetched for SMILES (mutdock Platinum sweep)	388	sweep/mutdock_platinum.py
+pdb_ligand	478	RCSB chemcomp descriptor fetched for SMILES (mutdock Platinum sweep)	478	sweep/mutdock_platinum.py
+pdb_ligand	4CS	RCSB chemcomp descriptor fetched for SMILES (mutdock Platinum sweep)	4CS	sweep/mutdock_platinum.py
+pdb_ligand	5GP	RCSB chemcomp descriptor fetched for SMILES (mutdock Platinum sweep)	5GP	sweep/mutdock_platinum.py
+pdb_ligand	5P3	RCSB chemcomp descriptor fetched for SMILES (mutdock Platinum sweep)	5P3	sweep/mutdock_platinum.py
+pdb_ligand	79Z	RCSB chemcomp descriptor fetched for SMILES (mutdock Platinum sweep)	79Z	sweep/mutdock_platinum.py
+pdb_ligand	A15	RCSB chemcomp descriptor fetched for SMILES (mutdock Platinum sweep)	A15	sweep/mutdock_platinum.py
+pdb_ligand	A3P	RCSB chemcomp descriptor fetched for SMILES (mutdock Platinum sweep)	A3P	sweep/mutdock_platinum.py
+pdb_ligand	AB1	RCSB chemcomp descriptor fetched for SMILES (mutdock Platinum sweep)	AB1	sweep/mutdock_platinum.py
+pdb_ligand	ACO	RCSB chemcomp descriptor fetched for SMILES (mutdock Platinum sweep)	ACO	sweep/mutdock_platinum.py

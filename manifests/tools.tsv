@@ -53,3 +53,4 @@ Azimuth Rule Set 2 model + Doench 2016 FC+RES data (MicrosoftResearch/Azimuth)	2
 ProDy	2.4.1	sweep/evofold_anm_prody.py -> benchmarks/sweep_evofold_anm.json	counts
 ClinicalTrials.gov API v2	live 2026-09-25	sweep/evidence_mining_live.py -> benchmarks/sweep_evidence_mining.json	counts
 ChEMBL REST API	live 2026-09-25	sweep/dti_bench_chembl.py -> benchmarks/sweep_dti_bench.json	counts
+RCSB PDB archive (files.rcsb.org + chemcomp REST, PDBe fallback)	live 2026-09-25	sweep/mutdock_platinum.py -> benchmarks/sweep_mutdock.json	counts
