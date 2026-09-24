@@ -104,7 +104,7 @@ bio	fasta	55	3	not yet validated
 bio	fastq	183	1	validated	benchmarks/sweep_fastq_biopython.json
 bio	genbank	103	2	validated	benchmarks/sweep_genbank_biopython.json
 bio	gff	237	1	validated	benchmarks/sweep_gff_gffutils.json
-bio	gnomad	106	0	validated	benchmarks/sweep_gnomad_constraint.json
+bio	gnomad	122	0	validated	benchmarks/sweep_gnomad_constraint.json
 bio	gstats	194	1	validated	benchmarks/sweep_gstats_scipy.json
 bio	kmer	261	1	validated	benchmarks/sweep_kmer_sourmash.json
 bio	motif	198	1	validated	benchmarks/sweep_motif_biopython.json
