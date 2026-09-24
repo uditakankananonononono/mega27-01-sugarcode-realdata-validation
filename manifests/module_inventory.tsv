@@ -35,7 +35,7 @@ module	ecosystem	175	2	not yet validated
 module	enterprise_bio	260	4	not yet validated	
 module	epi_edit	178	2	not yet validated	
 module	evidence_mining	418	1	not yet validated	
-module	evofold_4d	236	4	not yet validated	
+module	evofold_4d	239	5	validated	benchmarks/sweep_evofold_anm.json
 module	fate_predictor	131	2	not yet validated	
 module	gene_analysis	268	9	not yet validated	
 module	gene_explorer	140	2	not yet validated	
@@ -74,7 +74,7 @@ module	prime_design	248	2	not yet validated
 module	profile_hmm	747	3	validated	benchmarks/profile_hmm_cv.json, profile_hmm_cv_local.json
 module	promoter_lib	143	2	not yet validated	
 module	protein_painter	161	2	not yet validated	
-module	qsar_bench	373	3	validated	benchmarks/sweep_qsar_descriptors.json
+module	qsar_bench	389	3	validated	benchmarks/sweep_qsar_descriptors.json
 module	rarenet_ai	365	20	not yet validated	
 module	report_studio	213	1	not yet validated	
 module	riboswitch	142	3	not yet validated	

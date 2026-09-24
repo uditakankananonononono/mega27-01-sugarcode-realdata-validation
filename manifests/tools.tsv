@@ -50,3 +50,4 @@ pytrf	1.5.0	sweep/str_pytrf.py -> benchmarks/sweep_str_pytrf.json	counts
 GeneReviews (NCBI Bookshelf NBK1305, NBK1384)	fetched 2026-09-25	sweep/str_pytrf.py allele_bands -> benchmarks/sweep_str_pytrf.json	counts
 ClinGen Evidence Repository (VCEP classifications)	fetched 2026-09-25	sweep/acmg_erepo.py -> benchmarks/sweep_acmg_erepo.json	counts
 Azimuth Rule Set 2 model + Doench 2016 FC+RES data (MicrosoftResearch/Azimuth)	2.0	sweep/crispr_ontarget_fcres.py -> benchmarks/sweep_crispr_ontarget_fcres.json	counts
+ProDy	2.4.1	sweep/evofold_anm_prody.py -> benchmarks/sweep_evofold_anm.json	counts
