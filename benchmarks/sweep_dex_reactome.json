@@ -1,0 +1,214 @@
+{
+ "tool": "Reactome AnalysisService /identifiers/projection",
+ "summary": {
+  "token": "MjAyNjA5MjQxODE2MjJfMjM0MDM%3D",
+  "type": "OVERREPRESENTATION",
+  "sampleName": ""
+ },
+ "identifiers_not_found": 240,
+ "n_query": 536,
+ "pathways_found": 1098,
+ "top25": [
+  {
+   "stId": "R-HSA-2214320",
+   "name": "Anchoring fibril formation",
+   "fdr": 0.10742842878065573,
+   "p": 0.00036849789132142874,
+   "found": 5,
+   "total": 15
+  },
+  {
+   "stId": "R-HSA-9614085",
+   "name": "FOXO-mediated transcription",
+   "fdr": 0.10742842878065573,
+   "p": 0.0005566239833194597,
+   "found": 13,
+   "total": 110
+  },
+  {
+   "stId": "R-HSA-3000157",
+   "name": "Laminin interactions",
+   "fdr": 0.10742842878065573,
+   "p": 0.0002772458391078203,
+   "found": 7,
+   "total": 31
+  },
+  {
+   "stId": "R-HSA-5661231",
+   "name": "Metallothioneins bind metals",
+   "fdr": 0.10742842878065573,
+   "p": 0.0004927167292861911,
+   "found": 5,
+   "total": 16
+  },
+  {
+   "stId": "R-HSA-3000171",
+   "name": "Non-integrin membrane-ECM interactions",
+   "fdr": 0.10742842878065573,
+   "p": 0.0001526292550572128,
+   "found": 12,
+   "total": 83
+  },
+  {
+   "stId": "R-HSA-8948216",
+   "name": "Collagen chain trimerization",
+   "fdr": 0.10742842878065573,
+   "p": 0.00043626526465057047,
+   "found": 8,
+   "total": 44
+  },
+  {
+   "stId": "R-HSA-9615017",
+   "name": "FOXO-mediated transcription of oxidative stress, metabolic and neuronal genes",
+   "fdr": 0.13133750961307555,
+   "p": 0.0008708549266432941,
+   "found": 8,
+   "total": 49
+  },
+  {
+   "stId": "R-HSA-9843745",
+   "name": "Adipogenesis",
+   "fdr": 0.13133750961307555,
+   "p": 0.0009602818343295016,
+   "found": 15,
+   "total": 147
+  },
+  {
+   "stId": "R-HSA-1474228",
+   "name": "Degradation of the extracellular matrix",
+   "fdr": 0.13133750961307555,
+   "p": 0.0010260742938521528,
+   "found": 15,
+   "total": 148
+  },
+  {
+   "stId": "R-HSA-5660526",
+   "name": "Response to metal ions",
+   "fdr": 0.17162815974483936,
+   "p": 0.0016345539023318034,
+   "found": 5,
+   "total": 21
+  },
+  {
+   "stId": "R-HSA-1566977",
+   "name": "Fibronectin matrix formation",
+   "fdr": 0.17162815974483936,
+   "p": 0.0016345539023318034,
+   "found": 5,
+   "total": 21
+  },
+  {
+   "stId": "R-HSA-1442490",
+   "name": "Collagen degradation",
+   "fdr": 0.19041005167872171,
+   "p": 0.001983438038320018,
+   "found": 9,
+   "total": 69
+  },
+  {
+   "stId": "R-HSA-9614657",
+   "name": "FOXO-mediated transcription of cell death genes",
+   "fdr": 0.2142408108514655,
+   "p": 0.0024163780384872657,
+   "found": 5,
+   "total": 23
+  },
+  {
+   "stId": "R-HSA-216083",
+   "name": "Integrin cell surface interactions",
+   "fdr": 0.2142408108514655,
+   "p": 0.0026126928152617745,
+   "found": 10,
+   "total": 86
+  },
+  {
+   "stId": "R-HSA-1234158",
+   "name": "Regulation of gene expression by Hypoxia-inducible Factor",
+   "fdr": 0.24580943142425404,
+   "p": 0.0031923302782370655,
+   "found": 4,
+   "total": 15
+  },
+  {
+   "stId": "R-HSA-381340",
+   "name": "Transcriptional regulation of white adipocyte differentiation",
+   "fdr": 0.2970111889094582,
+   "p": 0.004125155401520253,
+   "found": 11,
+   "total": 107
+  },
+  {
+   "stId": "R-HSA-2022090",
+   "name": "Assembly of collagen fibrils and other multimeric structures",
+   "fdr": 0.39414238738818685,
+   "p": 0.005796211579238042,
+   "found": 8,
+   "total": 67
+  },
+  {
+   "stId": "R-HSA-1474244",
+   "name": "Extracellular matrix organization",
+   "fdr": 0.49435272111239925,
+   "p": 0.007724261267381238,
+   "found": 24,
+   "total": 351
+  },
+  {
+   "stId": "R-HSA-2473224",
+   "name": "Antagonism of Activin by Follistatin",
+   "fdr": 0.5232398548171542,
+   "p": 0.011230806198426091,
+   "found": 2,
+   "total": 4
+  },
+  {
+   "stId": "R-HSA-9851695",
+   "name": "Epigenetic regulation of adipogenesis genes by MLL3 and MLL4 complexes",
+   "fdr": 0.5232398548171542,
+   "p": 0.01053193797560048,
+   "found": 12,
+   "total": 139
+  },
+  {
+   "stId": "R-HSA-9841922",
+   "name": "MLL4 and MLL3 complexes regulate expression of PPARG target genes in adipogenesis and hepatic steatosis",
+   "fdr": 0.5232398548171542,
+   "p": 0.01053193797560048,
+   "found": 12,
+   "total": 139
+  },
+  {
+   "stId": "R-HSA-9818564",
+   "name": "Epigenetic regulation of gene expression by MLL3 and MLL4 complexes",
+   "fdr": 0.5232398548171542,
+   "p": 0.01053193797560048,
+   "found": 12,
+   "total": 139
+  },
+  {
+   "stId": "R-HSA-6804754",
+   "name": "Regulation of TP53 Expression",
+   "fdr": 0.5232398548171542,
+   "p": 0.011230806198426091,
+   "found": 2,
+   "total": 4
+  },
+  {
+   "stId": "R-HSA-198693",
+   "name": "AKT phosphorylates targets in the nucleus",
+   "fdr": 0.5232398548171542,
+   "p": 0.012458091781360814,
+   "found": 3,
+   "total": 12
+  },
+  {
+   "stId": "R-HSA-1650814",
+   "name": "Collagen biosynthesis and modifying enzymes",
+   "fdr": 0.5232398548171542,
+   "p": 0.011754195964604475,
+   "found": 8,
+   "total": 76
+  }
+ ],
+ "note": "Reactome uses its whole human gene universe as background, not the expressed genes."
+}
