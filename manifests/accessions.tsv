@@ -184,3 +184,17 @@ refseq_transcript	25	NCBI RefSeq mRNA NM_004333.6 (E-utilities efetch)	NM_004333
 refseq_transcript	25	NCBI RefSeq mRNA NM_005228.5 (E-utilities efetch)	NM_005228.5	sweep/primer_vs_primer3.py
 study	26	ClinVar GRCh38 VCF, 5 gene regions (one tabix extract)	clinvar.vcf.gz	sweep/vcf_vs_pysam.py
 study	27	GEO GSE52778 NCBI raw count matrix (8 samples used)	GSE52778	sweep/de_vs_pydeseq2.py
+rfam_family	RF00004	Rfam seed alignment U2 (rfam.org, 2026-09-25)	RF00004	sweep/stockholm_vs_biopython.py
+rfam_family	RF00015	Rfam seed alignment U4 (rfam.org, 2026-09-25)	RF00015	sweep/stockholm_vs_biopython.py
+rfam_family	RF00017	Rfam seed alignment Metazoa_SRP (rfam.org, 2026-09-25)	RF00017	sweep/stockholm_vs_biopython.py
+rfam_family	RF00023	Rfam seed alignment tmRNA (rfam.org, 2026-09-25)	RF00023	sweep/stockholm_vs_biopython.py
+rfam_family	RF00050	Rfam seed alignment FMN (rfam.org, 2026-09-25)	RF00050	sweep/stockholm_vs_biopython.py
+rfam_family	RF00059	Rfam seed alignment TPP (rfam.org, 2026-09-25)	RF00059	sweep/stockholm_vs_biopython.py
+rfam_family	RF00162	Rfam seed alignment SAM (rfam.org, 2026-09-25)	RF00162	sweep/stockholm_vs_biopython.py
+rfam_family	RF00167	Rfam seed alignment Purine (rfam.org, 2026-09-25)	RF00167	sweep/stockholm_vs_biopython.py
+rfam_family	RF00168	Rfam seed alignment Lysine (rfam.org, 2026-09-25)	RF00168	sweep/stockholm_vs_biopython.py
+rfam_family	RF00174	Rfam seed alignment Cobalamin (rfam.org, 2026-09-25)	RF00174	sweep/stockholm_vs_biopython.py
+rfam_family	RF00234	Rfam seed alignment glmS (rfam.org, 2026-09-25)	RF00234	sweep/stockholm_vs_biopython.py
+rfam_family	RF00504	Rfam seed alignment Glycine (rfam.org, 2026-09-25)	RF00504	sweep/stockholm_vs_biopython.py
+refseq_genome	J01749.1	pBR322 complete sequence (NCBI efetch)	J01749.1	sweep/proteinprops_restriction_vs_biopython.py
+refseq_genome	NC_001416.1	Enterobacteria phage lambda genome (NCBI efetch)	NC_001416.1	sweep/proteinprops_restriction_vs_biopython.py

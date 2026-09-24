@@ -122,7 +122,7 @@ bio	rnaseq	201	1	validated	benchmarks/sweep_de_pydeseq2.json
 bio	sam	219	2	not yet validated	
 bio	sequence	168	2	not yet validated	
 bio	splice	676	11	not yet validated	
-bio	stockholm	260	1	not yet validated	
+bio	stockholm	260	1	validated	benchmarks/sweep_stockholm_biopython.json
 bio	structures	266	13	validated	benchmarks/sweep_sasa_freesasa.json
 bio	uniprot	98	2	not yet validated	
 bio	vcf	263	2	validated	benchmarks/sweep_vcf_pysam.json

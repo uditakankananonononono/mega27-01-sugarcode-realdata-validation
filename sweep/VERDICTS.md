@@ -106,3 +106,6 @@ Cross-species BH-FDR (statsmodels): ribosomal-reference CAI is significantly cor
 - proteinprops on 500 UniProt reviewed human proteins: MW, GRAVY, aromaticity, instability index and both extinction coefficients match ProtParam exactly (max rel diff 2e-16); pI within 6e-5. VERIFIED.
 - restriction on pBR322 (J01749.1, circular) and lambda (NC_001416.1, linear), 610 enzymes: BUG FOUND. The reverse-strand pattern for degenerate sites used a plain DNA revcomp, so IUPAC codes were not complemented (AccI GTMKAC searched as GTKMAC on the other strand), giving extra false sites (AccI on pBR322: 5 vs the known 2). Also linear DNA reported Type IIS cuts outside the molecule. Before: 533/610 and 529/610 enzymes agree; after sugarcode-ai fe2185d: 608/610 and 608/610. The 2 left (LpnPI, MspJI) are modification-dependent enzymes that do not cut unmethylated DNA; open.
 Numbers: benchmarks/sweep_proteinprops_restriction.json.
+
+## bio.stockholm vs Biopython AlignIO (2026-09-25)
+15 Rfam seed alignments (12 fetched individually today + RF00001/5/10), 4,471 sequences: ids and order, aligned sequences and SS_cons identical to Biopython in 15/15; write->parse round trip lossless in 15/15; pairwise identity equals an independent count. VERIFIED. Numbers: benchmarks/sweep_stockholm_biopython.json.

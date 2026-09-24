@@ -13,7 +13,7 @@ EVIDENCE={('module','chem_descriptors'):'benchmarks/results.json (VERDICTS table
 ('module','deepsplice'):'discovery/splice_region_vus/cv_results_me.json, maxent_cmp.json',
 ('bio','codon'):'benchmarks/sweep_codon_cai.json',('bio','structures'):'benchmarks/sweep_sasa_freesasa.json',('bio','primer'):'benchmarks/sweep_primer_primer3.json',
 ('bio','phylo'):'benchmarks/sweep_phylo_dendropy.json',('bio','orf'):'benchmarks/sweep_orf_orfipy.json',('bio','vcf'):'benchmarks/sweep_vcf_pysam.json',
-('bio','de'):'benchmarks/sweep_de_pydeseq2.json',('bio','rnaseq'):'benchmarks/sweep_de_pydeseq2.json',('bio','proteinprops'):'benchmarks/sweep_proteinprops_restriction.json',('bio','restriction'):'benchmarks/sweep_proteinprops_restriction.json',('bio','align'):'benchmarks/sweep_align_parasail.json'}
+('bio','de'):'benchmarks/sweep_de_pydeseq2.json',('bio','rnaseq'):'benchmarks/sweep_de_pydeseq2.json',('bio','proteinprops'):'benchmarks/sweep_proteinprops_restriction.json',('bio','restriction'):'benchmarks/sweep_proteinprops_restriction.json',('bio','stockholm'):'benchmarks/sweep_stockholm_biopython.json',('bio','align'):'benchmarks/sweep_align_parasail.json'}
 def loc(p):
     n=0
     for dp,_,fs in os.walk(p) if os.path.isdir(p) else [(os.path.dirname(p),[],[os.path.basename(p)])]:
