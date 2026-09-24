@@ -530,3 +530,12 @@ hgnc_alias	OCT4->POU5F1	HGNC alias lookup OCT4 (cellfatenet sweep)	POU5F1	sweep/
 pubmed	16904174	Takahashi-Yamanaka OSKM reprogramming (cellfatenet sweep)	PMID 16904174	sweep/cellfatenet.py
 pubmed	20691899	Ieda 2010 GMT cardiac reprogramming (cellfatenet sweep)	PMID 20691899	sweep/cellfatenet.py
 pubmed	24243019	Wapinski 2013 BAM neuronal reprogramming (cellfatenet sweep)	PMID 24243019	sweep/cellfatenet.py
+pubmed	42775788	SIRT1 resveratrol activation abstract (biogpt_lit sweep)	PMID 42775788	sweep/biogpt_lit.py
+pubmed	42759458	SIRT1 resveratrol activation abstract (biogpt_lit sweep)	PMID 42759458	sweep/biogpt_lit.py
+pubmed	42746974	SIRT1 resveratrol activation abstract; yielded the stopword-subject garbage triple (biogpt_lit sweep)	PMID 42746974	sweep/biogpt_lit.py
+pubmed	42731586	SIRT1 resveratrol activation abstract; 3 valid triples (biogpt_lit sweep)	PMID 42731586	sweep/biogpt_lit.py
+pubmed	42727368	SIRT1 resveratrol activation abstract (biogpt_lit sweep)	PMID 42727368	sweep/biogpt_lit.py
+pubmed	42701997	SIRT1 resveratrol activation abstract (biogpt_lit sweep)	PMID 42701997	sweep/biogpt_lit.py
+pubmed	42693013	SIRT1 resveratrol activation abstract (biogpt_lit sweep)	PMID 42693013	sweep/biogpt_lit.py
+pubmed	42641908	SIRT1 resveratrol activation abstract; only PMID with an iCite record (biogpt_lit sweep)	PMID 42641908	sweep/biogpt_lit.py
+icite	pmids_42775788_42759458_42746974_42731586_42727368_42701997_42693013_42641908	iCite citation-count response for the 8 ingested PMIDs (biogpt_lit sweep)	citation_count map	sweep/biogpt_lit.py

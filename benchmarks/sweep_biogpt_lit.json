@@ -1,0 +1,206 @@
+{
+ "module": "biogpt_lit",
+ "sources": [
+  "https://eutils.ncbi.nlm.nih.gov (via bio.entrez)",
+  "https://icite.od.nih.gov/api/pubs?pmids=...",
+  "statsmodels 0.15.0"
+ ],
+ "live_ingest": {
+  "papers": [
+   {
+    "pmid": "42775788",
+    "year": "2026",
+    "citations": 0,
+    "n_claims": 0
+   },
+   {
+    "pmid": "42759458",
+    "year": "2026",
+    "citations": 0,
+    "n_claims": 0
+   },
+   {
+    "pmid": "42746974",
+    "year": "2026",
+    "citations": 0,
+    "n_claims": 0
+   },
+   {
+    "pmid": "42731586",
+    "year": "2026",
+    "citations": 0,
+    "n_claims": 3
+   },
+   {
+    "pmid": "42727368",
+    "year": "2026",
+    "citations": 0,
+    "n_claims": 0
+   },
+   {
+    "pmid": "42701997",
+    "year": "2026",
+    "citations": 0,
+    "n_claims": 0
+   },
+   {
+    "pmid": "42693013",
+    "year": "2026",
+    "citations": 0,
+    "n_claims": 0
+   },
+   {
+    "pmid": "42641908",
+    "year": "2026",
+    "citations": 0,
+    "n_claims": 0
+   }
+  ],
+  "claims_no_citations": 3,
+  "claims_with_icite": 3,
+  "icite_citation_counts": {
+   "42641908": 0
+  }
+ },
+ "extracted_claims_audit": [
+  {
+   "paper": "PMID:42731586",
+   "triple": [
+    "formulations",
+    "activates",
+    "SIRT1"
+   ]
+  },
+  {
+   "paper": "PMID:42731586",
+   "triple": [
+    "SIRT1",
+    "activates",
+    "AMPK"
+   ]
+  },
+  {
+   "paper": "PMID:42731586",
+   "triple": [
+    "AMPK",
+    "inhibits",
+    "mTORC1"
+   ]
+  }
+ ],
+ "extractor_unit": {
+  "expected": {
+   "SIRT1 activates PGC1A.": 1,
+   "Neither drug inhibits mTOR.": 0,
+   "Loss of PTEN activates AKT.": 0,
+   "PTEN knockdown activates AKT.": 0,
+   "Drug X does not inhibit SIRT1.": 0,
+   "VEGF stimulates angiogenesis.": 1,
+   "The kinase phosphorylates BAD.": 0
+  },
+  "got": {
+   "SIRT1 activates PGC1A.": 1,
+   "Neither drug inhibits mTOR.": 0,
+   "Loss of PTEN activates AKT.": 0,
+   "PTEN knockdown activates AKT.": 0,
+   "Drug X does not inhibit SIRT1.": 0,
+   "VEGF stimulates angiogenesis.": 1,
+   "The kinase phosphorylates BAD.": 0
+  },
+  "all_match": true
+ },
+ "query_check": {
+  "w1_module": 0.925,
+  "w1_recompute": 0.925,
+  "w2_module": 0.412,
+  "w2_recompute": 0.412,
+  "consensus": "activates",
+  "expected_consensus": "activates",
+  "confidence": 0.925,
+  "expected_confidence": 0.925
+ },
+ "contradictions_check": {
+  "found": 1,
+  "pair": [
+   "activates",
+   "inhibits"
+  ]
+ },
+ "temporal_consensus": {
+  "years": [
+   2003,
+   2005
+  ],
+  "status": "emerging",
+  "agreement_last": 0.6918474195961107,
+  "expected_agreement_last": 0.692
+ },
+ "contradiction_context_count": 1,
+ "meta_analysis": {
+  "module_fixed": 0.2975588491717524,
+  "sm_fixed": 0.2975588491717524,
+  "module_random": 0.3229910349976647,
+  "sm_random": 0.3229910349976648,
+  "module_tau2": 0.08469814251589239,
+  "sm_tau2": 0.08469814251589233,
+  "module_ci": [
+   0.030134939655650006,
+   0.6158471303396793
+  ],
+  "fixed_match": "True",
+  "random_match": "True",
+  "tau2_match": "True"
+ },
+ "multi_hop": {
+  "paths": [
+   [
+    "ascr",
+    "bdnf",
+    "ltp"
+   ],
+   [
+    "ascr",
+    "trkb",
+    "ltp"
+   ]
+  ],
+  "expected": [
+   [
+    "ascr",
+    "bdnf",
+    "ltp"
+   ],
+   [
+    "ascr",
+    "trkb",
+    "ltp"
+   ]
+  ],
+  "match": true
+ },
+ "evidence_paths_strength": {
+  "top_strength": 0.515,
+  "expected_min_edge": 0.515
+ },
+ "prioritize_gaps": {
+  "top_edge": [
+   "trkb",
+   "activates",
+   "ltp"
+  ],
+  "leverage": 1.2154681841779937,
+  "expected_top": [
+   "trkb",
+   "activates",
+   "ltp"
+  ]
+ },
+ "update_validation": {
+  "before_consensus": "increases",
+  "after_relations": [
+   "increases",
+   "decreases"
+  ],
+  "flips_to_decreases": true
+ }
+}

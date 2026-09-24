@@ -60,3 +60,4 @@ NCBI E-utilities (PubMed efetch/esearch)	live 2026-09-25	sweep/bio_switch.py -> 
 JASPAR REST API	live 2026-09-25	sweep/dark_genome.py -> benchmarks/sweep_dark_genome.json	counts
 UCSC Genome Browser API	live 2026-09-25	sweep/dark_genome.py -> benchmarks/sweep_dark_genome.json	counts
 HGNC REST API (rest.genenames.org)	live 2026-09-25	sweep/cellfatenet.py -> benchmarks/sweep_cellfatenet.json	counts
+NIH iCite API (icite.od.nih.gov)	live 2026-09-25	sweep/biogpt_lit.py -> benchmarks/sweep_biogpt_lit.json	counts
