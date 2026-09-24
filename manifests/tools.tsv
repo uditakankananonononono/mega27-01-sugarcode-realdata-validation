@@ -57,3 +57,5 @@ RCSB PDB archive (files.rcsb.org + chemcomp REST, PDBe fallback)	live 2026-09-25
 KEGG REST API (ENZYME + COMPOUND)	live 2026-09-25	sweep/metabodesigner.py -> benchmarks/sweep_metabodesigner.json	counts
 PubChem PUG-REST	live 2026-09-25	sweep/bio_switch.py -> benchmarks/sweep_bio_switch.json	counts
 NCBI E-utilities (PubMed efetch/esearch)	live 2026-09-25	sweep/bio_switch.py -> benchmarks/sweep_bio_switch.json	counts
+JASPAR REST API	live 2026-09-25	sweep/dark_genome.py -> benchmarks/sweep_dark_genome.json	counts
+UCSC Genome Browser API	live 2026-09-25	sweep/dark_genome.py -> benchmarks/sweep_dark_genome.json	counts

@@ -26,7 +26,7 @@ module	crispr_muse	278	2	not yet validated
 module	crispr_opt	648	8	validated	benchmarks/sweep_crispr_ontarget_fcres.json
 module	crisprater	97	4	validated	benchmarks/sweep_crisprater.json
 module	crisprscan_score	178	2	validated	VERDICTS table + CRISPRscan finding
-module	dark_genome	202	2	not yet validated	
+module	dark_genome	202	2	validated	sweep/dark_genome.py -> benchmarks/sweep_dark_genome.json
 module	deepsplice	751	29	validated	discovery/splice_region_vus/cv_results_me.json, maxent_cmp.json
 module	dna_to_code	132	2	validated	benchmarks/sweep_dna_to_code.json
 module	docking_studio	535	17	validated	benchmarks/sweep_docking.json

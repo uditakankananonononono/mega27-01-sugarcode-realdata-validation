@@ -1,0 +1,2 @@
+
+{ "downloadTime": "2026:09:24T23:03:52Z", "downloadTimeStamp": 1790291032, "genome": "hg38", "dataTime": "2022-10-18T23:39:38", "dataTimeStamp": 1666161578, "trackType": "bed 4 +", "track": "cpgIslandExt", "start": 37020000, "end": 37060000, "chrom": "chr3", "cpgIslandExt": [ ] } 

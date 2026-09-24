@@ -492,3 +492,17 @@ pubchem_cid	2153	PubChem descriptor record fetched (bio_switch sweep)	CID 2153	s
 pubchem_cid	241	PubChem descriptor record fetched (bio_switch sweep)	CID 241	sweep/bio_switch.py
 pubmed	7510417	Jenison 1994 theophylline aptamer Kd abstract (bio_switch sweep)	PMID 7510417	sweep/bio_switch.py
 pubmed	1812784	Takahashi 1991 TetR-tetracycline Ka abstract (bio_switch sweep)	PMID 1812784	sweep/bio_switch.py
+jaspar	MA0099.3	JASPAR matrix FOS::JUN (dark_genome sweep)	MA0099.3	sweep/dark_genome.py
+jaspar	MA0107.1	JASPAR matrix RELA (dark_genome sweep)	MA0107.1	sweep/dark_genome.py
+jaspar	MA0106.3	JASPAR matrix TP53 (dark_genome sweep)	MA0106.3	sweep/dark_genome.py
+jaspar	MA0108.2	JASPAR matrix TBP (dark_genome sweep)	MA0108.2	sweep/dark_genome.py
+jaspar	MA0093.3	JASPAR matrix USF1 (dark_genome sweep)	MA0093.3	sweep/dark_genome.py
+jaspar	MA0079.4	JASPAR matrix SP1 (dark_genome sweep)	MA0079.4	sweep/dark_genome.py
+jaspar	MA0060.2	JASPAR matrix NFYA (dark_genome sweep)	MA0060.2	sweep/dark_genome.py
+jaspar	MA0114.4	JASPAR matrix HNF4A (dark_genome sweep)	MA0114.4	sweep/dark_genome.py
+ucsc_hg38	chr3:36990000-37000000	UCSC hg38 sequence MLH1 promoter region (dark_genome sweep)	hg38 chr3:36,990,000-37,000,000	sweep/dark_genome.py
+ucsc_hg38	chr9:21990000-22000000	UCSC hg38 sequence CDKN2A promoter region (dark_genome sweep)	hg38 chr9:21,990,000-22,000,000	sweep/dark_genome.py
+ucsc_hg38	chr9:21976000-21989000	UCSC hg38 sequence island-free desert (dark_genome sweep)	hg38 chr9:21,976,000-21,989,000	sweep/dark_genome.py
+ucsc_cpg	cpgIslandExt chr3:36900000-37100000	UCSC cpgIslandExt track query MLH1 (dark_genome sweep)	hg38 cpgIslandExt chr3:36,900,000-37,100,000	sweep/dark_genome.py
+ucsc_cpg	cpgIslandExt chr9:21940000-22000000	UCSC cpgIslandExt track query CDKN2A (dark_genome sweep)	hg38 cpgIslandExt chr9:21,940,000-22,000,000	sweep/dark_genome.py
+pubmed	8242752	El-Deiry 1993 WAF1/p21 p53 consensus (dark_genome sweep)	PMID 8242752	sweep/dark_genome.py

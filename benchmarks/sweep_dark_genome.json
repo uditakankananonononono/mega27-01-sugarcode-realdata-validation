@@ -1,0 +1,282 @@
+{
+ "module": "dark_genome",
+ "sources": [
+  "https://jaspar.elixir.no/api/v1/matrix/<id>/",
+  "https://api.genome.ucsc.edu/getData/track?track=cpgIslandExt",
+  "https://api.genome.ucsc.edu/getData/sequence?genome=hg38"
+ ],
+ "jaspar_check": [
+  {
+   "tf": "AP-1",
+   "jaspar_id": "MA0099.3",
+   "jaspar_name": "FOS::JUN",
+   "jaspar_consensus": "ATGAGTCATM",
+   "jaspar_top_sequence": "ATGAGTCATC",
+   "module_motif": "TGACTCA",
+   "module_motif_matches_jaspar_top_sequence": true,
+   "match_offset": 2
+  },
+  {
+   "tf": "NF-kB",
+   "jaspar_id": "MA0107.1",
+   "jaspar_name": "RELA",
+   "jaspar_consensus": "GGGAATTTCC",
+   "jaspar_top_sequence": "GGGAATTTCC",
+   "module_motif": "GGGRNTTTCC",
+   "module_motif_matches_jaspar_top_sequence": true,
+   "match_offset": 0
+  },
+  {
+   "tf": "p53",
+   "jaspar_id": "MA0106.3",
+   "jaspar_name": "TP53",
+   "jaspar_consensus": "RACATGCCCGGGCATGTY",
+   "jaspar_top_sequence": "AACATGCCCGGGCATGTC",
+   "module_motif": "RRRCWWGYYY",
+   "module_motif_matches_jaspar_top_sequence": false,
+   "match_offset": null
+  },
+  {
+   "tf": "TATA-box",
+   "jaspar_id": "MA0108.2",
+   "jaspar_name": "TBP",
+   "jaspar_consensus": "STATAAAARSSSSSS",
+   "jaspar_top_sequence": "GTATAAAAGGCGGGG",
+   "module_motif": "TATAWAW",
+   "module_motif_matches_jaspar_top_sequence": true,
+   "match_offset": 1
+  },
+  {
+   "tf": "E-box",
+   "jaspar_id": "MA0093.3",
+   "jaspar_name": "USF1",
+   "jaspar_consensus": "DRGTCATGTGACYH",
+   "jaspar_top_sequence": "TGGTCATGTGACCT",
+   "module_motif": "CANNTG",
+   "module_motif_matches_jaspar_top_sequence": true,
+   "match_offset": 4
+  },
+  {
+   "tf": "GC-box",
+   "jaspar_id": "MA0079.4",
+   "jaspar_name": "SP1",
+   "jaspar_consensus": "YAAGCCACGCCCMCH",
+   "jaspar_top_sequence": "TAAGCCACGCCCACT",
+   "module_motif": "GGGCGG",
+   "module_motif_matches_jaspar_top_sequence": false,
+   "match_offset": null
+  },
+  {
+   "tf": "CCAAT",
+   "jaspar_id": "MA0060.2",
+   "jaspar_name": "NFYA",
+   "jaspar_consensus": "AGMSYGCTGATTGGTYSR",
+   "jaspar_top_sequence": "AGAGTGCTGATTGGTCCA",
+   "module_motif": "CCAAT",
+   "module_motif_matches_jaspar_top_sequence": true,
+   "match_offset": 4
+  },
+  {
+   "tf": "HNF4",
+   "jaspar_id": "MA0114.4",
+   "jaspar_name": "HNF4A",
+   "jaspar_consensus": "KYCAAAGTCCARR",
+   "jaspar_top_sequence": "TCCAAAGTCCAAA",
+   "module_motif": "RGGTCAAAGGTCA",
+   "module_motif_matches_jaspar_top_sequence": false,
+   "match_offset": null
+  }
+ ],
+ "cpg_islands": {
+  "mlh1_region": [
+   {
+    "track_island": {
+     "start": 2737,
+     "end": 3865,
+     "name": "CpG: 93"
+    },
+    "detected_overlaps": 1,
+    "detected_span": [
+     2700,
+     3900
+    ]
+   }
+  ],
+  "cdkn2a_region": [
+   {
+    "track_island": {
+     "start": 4102,
+     "end": 5911,
+     "name": "CpG: 156"
+    },
+    "detected_overlaps": 1,
+    "detected_span": [
+     3900,
+     6000
+    ]
+   }
+  ],
+  "desert_track_islands": [],
+  "false_positives_mlh1": 0,
+  "false_positives_cdkn2a": 2,
+  "false_positives_desert": 3,
+  "note": "module criteria are Gardiner-Garden (GC>0.5, CpG O/E>0.6) on 200 bp windows without UCSC length/merge filtering; boundaries differ by algorithm"
+ },
+ "binding_energy_bug_demo": {
+  "sequence": "C x20",
+  "motif": "RRR",
+  "module_match": 0.0,
+  "correct_iupac_match": 0.0,
+  "note": "module credits ANY base at degenerate motif positions (b in NRWYKMSVHD), so R matches C/T; match is inflated"
+ },
+ "binding_energy_real": [
+  {
+   "tf": "AP-1",
+   "module_energy": -7.771428571428571,
+   "correct_energy": -7.771,
+   "module_match": 1.0,
+   "correct_match": 1.0,
+   "inflated": false
+  },
+  {
+   "tf": "NF-kB",
+   "module_energy": -6.16,
+   "correct_energy": -6.16,
+   "module_match": 0.8,
+   "correct_match": 0.8,
+   "inflated": false
+  },
+  {
+   "tf": "p53",
+   "module_energy": -7.08,
+   "correct_energy": -7.08,
+   "module_match": 0.9,
+   "correct_match": 0.9,
+   "inflated": false
+  },
+  {
+   "tf": "TATA-box",
+   "module_energy": -7.6,
+   "correct_energy": -7.6,
+   "module_match": 1.0,
+   "correct_match": 1.0,
+   "inflated": false
+  },
+  {
+   "tf": "E-box",
+   "module_energy": -7.8,
+   "correct_energy": -7.8,
+   "module_match": 1.0,
+   "correct_match": 1.0,
+   "inflated": false
+  },
+  {
+   "tf": "GC-box",
+   "module_energy": -6.6000000000000005,
+   "correct_energy": -6.6,
+   "module_match": 0.8333333333333334,
+   "correct_match": 0.833,
+   "inflated": false
+  },
+  {
+   "tf": "CCAAT",
+   "module_energy": -7.76,
+   "correct_energy": -7.76,
+   "module_match": 1.0,
+   "correct_match": 1.0,
+   "inflated": false
+  },
+  {
+   "tf": "HNF4",
+   "module_energy": -5.3538461538461535,
+   "correct_energy": -5.354,
+   "module_match": 0.6923076923076923,
+   "correct_match": 0.692,
+   "inflated": false
+  }
+ ],
+ "decode_real": {
+  "n_hits": 64,
+  "hits_failing_independent_regex": 0,
+  "n_clusters": 4,
+  "n_cpg": 1,
+  "n_lnc": 83
+ },
+ "coordinate_field": {
+  "module": 0.5740000000000001,
+  "recompute": 0.5740000000000001,
+  "match": true
+ },
+ "graph_propagate": {
+  "match": true,
+  "edges": 6,
+  "contact_decay": "(1+d)^-0.8, threshold 0.15"
+ },
+ "nucleosome_formula_match": true,
+ "causality": {
+  "module_r": 0.9838699100999074,
+  "numpy_r": 0.9838699100999074,
+  "module_effect": 5.0,
+  "expected_effect": 5.0
+ },
+ "logic": {
+  "and": 0.25,
+  "or": 0.75,
+  "not": 0.7
+ },
+ "temporal_trajectory": {
+  "match": true
+ },
+ "perturbation_feedback": {
+  "module": 1.3448275862068966,
+  "expected": 1.3448275862068966,
+  "std_match": true
+ },
+ "variant_counterfactual": {
+  "seed_reproducible": true,
+  "ref": "A",
+  "alt": "T",
+  "delta_rp": 0.0
+ },
+ "p53_literature_sites": {
+  "p21_site1_GAACATGTCC": true,
+  "p21_site2_CAACATGTTG": false
+ },
+ "p53_literature_ref": "El-Deiry 1993 WAF1/p21 (PMID 8242752); canonical p53 consensus RRRCWWGYYY",
+ "jaspar_interpretation": "5/8 module motifs match the JASPAR argmax top sequence exactly (AP-1 MA0099.3, NF-kB/RELA MA0107.1, TATA-box/TBP MA0108.2, E-box/USF1 MA0093.3, CCAAT/NFYA MA0060.2). p53, GC-box and HNF4 use canonical literature consensuses (El-Deiry RRRCWWGYYY; GC-box GGGCGG; HNF4 DR1 RGGTCAAAGGTCA) that differ from the assay-specific JASPAR versions fetched (MA0106.3, MA0079.4, MA0114.4 - Jolma-style motifs with alternative consensus families, e.g. HNF4A CAAAGTCCA). Module motifs retained; difference documented.",
+ "bug": {
+  "id": 40,
+  "fixed_in": "sugarcode-ai (see commit)",
+  "description": "motif_binding_energy credited ANY base at degenerate motif positions (motif char in NRWYKMSVHD counted as a match regardless of the sequence base), so R matched C/T and energies were inflated negative. Fixed to set-based IUPAC matching.",
+  "before": {
+   "demo_Cx20_RRR_match": 1.0,
+   "inflated_tfs": [
+    [
+     "p53",
+     -7.88,
+     -7.08
+    ],
+    [
+     "TATA-box",
+     -7.6571428571428575,
+     -7.6
+    ],
+    [
+     "HNF4",
+     -5.969230769230769,
+     -5.354
+    ]
+   ]
+  },
+  "after": {
+   "demo_Cx20_RRR_match": 0.0,
+   "inflated_tfs": []
+  }
+ },
+ "caveats": [
+  "CpG detector uses Gardiner-Garden criteria on 200 bp windows without UCSC post-merge length filtering: both real track islands (MLH1 CpG:93, CDKN2A CpG:156) detected, but 3 islands in a 13 kb island-free desert window and 2 extra calls near CDKN2A are false positives relative to the UCSC cpgIslandExt track",
+  "nucleosome occupancy and motif binding energy are heuristic scores, not measured energies",
+  "chromatin_graph default contacts are a power-law prior (1+d)^-0.8, not Hi-C data",
+  "p53/GC-box/HNF4 motif consensuses follow the canonical literature rather than the fetched JASPAR versions (see jaspar_interpretation)"
+ ]
+}
