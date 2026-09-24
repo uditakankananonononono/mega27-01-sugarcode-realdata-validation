@@ -1,0 +1,61 @@
+{
+ "source": "https://erepo.clinicalgenome.org/evrepo/api/classifications/all?format=tabbed",
+ "note": "download stopped by the server connection after ~18 MB; only complete, non-retracted rows used",
+ "n": 7929,
+ "n_expert_panels": 33,
+ "n_genes": 117,
+ "bayesian_agree": 7515,
+ "acmg2015_rules_agree": 7267,
+ "rows_with_rejected_codes_after_fix": 0,
+ "bayesian_confusion": {
+  "Pathogenic -> Pathogenic": 2124,
+  "Uncertain significance -> Uncertain significance": 2027,
+  "Likely pathogenic -> Likely pathogenic": 1551,
+  "Likely benign -> Likely benign": 913,
+  "Benign -> Benign": 900,
+  "Uncertain significance -> Likely benign": 229,
+  "Pathogenic -> Likely pathogenic": 55,
+  "Likely pathogenic -> Pathogenic": 51,
+  "Likely pathogenic -> Uncertain significance": 22,
+  "Likely benign -> Benign": 16,
+  "Benign -> Likely benign": 13,
+  "Likely benign -> Uncertain significance": 12,
+  "Uncertain significance -> Likely pathogenic": 7,
+  "Pathogenic -> Benign": 3,
+  "Uncertain significance -> Benign": 3,
+  "Pathogenic -> Uncertain significance": 2,
+  "Likely pathogenic -> Likely benign": 1
+ },
+ "rules_confusion": {
+  "Uncertain significance -> Uncertain significance": 2175,
+  "Pathogenic -> Pathogenic": 2129,
+  "Likely pathogenic -> Likely pathogenic": 1340,
+  "Benign -> Benign": 898,
+  "Likely benign -> Likely benign": 725,
+  "Likely pathogenic -> Uncertain significance": 276,
+  "Likely benign -> Uncertain significance": 202,
+  "Uncertain significance -> Likely benign": 65,
+  "Pathogenic -> Likely pathogenic": 48,
+  "Uncertain significance -> Likely pathogenic": 20,
+  "Benign -> Likely benign": 15,
+  "Likely benign -> Benign": 14,
+  "Likely pathogenic -> Pathogenic": 9,
+  "Pathogenic -> Uncertain significance": 7,
+  "Uncertain significance -> Benign": 5,
+  "Uncertain significance -> Pathogenic": 1
+ },
+ "single_supporting_benign_vus_to_lb": 177,
+ "ba1_with_pathogenic_evidence": {
+  "Benign": 21,
+  "Pathogenic": 3,
+  "Uncertain significance": 3,
+  "Likely benign": 4
+ },
+ "pre_fix": {
+  "sugarcode_commit": "727344a",
+  "rows_with_rejected_codes": 5699,
+  "bayesian_agree": 4583,
+  "cause": "ClinGen strength-suffix notation (PM2_Supporting, PVS1_Very Strong, BS1_Stand Alone) was not parsed; those codes went to rejected_evidence and did not count"
+ },
+ "post_fix_sugarcode_commit": "cdf160b"
+}

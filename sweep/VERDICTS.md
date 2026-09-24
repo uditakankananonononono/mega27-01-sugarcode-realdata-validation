@@ -170,3 +170,6 @@ BUG: v2 LOEUF cutoff 0.35 on r4 data; gnomAD v4 guidance 0.45. pLI agreement 51-
 ## modules.cfd_offtarget vs Doench 2016 pickles (2026-09-25)
 600 BRCA1 pairs x 16 PAMs = 9,600 scores, max diff 2.2e-16. No bug. benchmarks/sweep_cfd_doench.json
 - str_scope (2026-09-25): BUG FIXED (sugarcode 727344a). find_strs vs pytrf 1.5.0 on 25 GenBank records: 208/211 before, 211/211 after, 0 extra calls; 209 identical coordinates, 2 same span in disease-motif phase (by design). Cause: greedy scan skipped past compound repeats that started inside a flank homopolymer. Also expansion_call: legacy delta rule mislabels HTT 27, 28, 36 and 154 FMR1 counts (all premutations 55-200 called pathogenic) vs GeneReviews NBK1305/NBK1384; optional locus bands added, 0 HTT disagreements. Evidence: benchmarks/sweep_str_pytrf.json.
+
+## modules.acmg_bayesian vs ClinGen VCEP classifications (2026-09-25)
+BUG FIXED (sugarcode cdf160b): ClinGen suffix notation (PM2_Supporting, PVS1_Very Strong, BS1_Stand Alone) was rejected; 5,699/7,929 rows lost a code, 4,583/7,929 panel calls reproduced. After: 0 rejected, 7,515/7,929 (94.8%) reproduced; ACMG-2015 rules baseline 7,267/7,929. Known difference kept: lone benign supporting (-1 pt) -> LB vs panels' VUS. benchmarks/sweep_acmg_erepo.json
