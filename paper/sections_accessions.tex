@@ -1,0 +1,182 @@
+\section{Accession-Level Dataset Manifest}
+Each row is one identifier-backed record fetched individually and used in a committed analysis (counting rule in manifests/README.md).
+{\scriptsize\begin{longtable}{rllp{3.2cm}p{4.2cm}}\hline \# & Kind & Study & Accession & Used in\\\hline\endhead
+1 & study & 1 & variant\_summary.txt.gz (GRCh38) & data/clinvar\_sample\_500.tsv; discovery/splice\_region\_vus/\\
+2 & study & 2 & hg38.2bit & discovery/splice\_region\_vus/extract.py\\
+3 & study & 3 & top-20 VUS query & discovery/splice\_region\_vus/lovd\_top20.json\\
+4 & study & 4 & skempi\_v2.csv (PMID 30598530) & data/skempi\_v2.csv\\
+5 & study & 5 & e\_coli\_core (PMID 21988831) & data/e\_coli\_core.json\\
+6 & study & 6 & NG\_005905.2:60000-70000 & data/brca1\_10kb.fa; data/crispr\_fresh\_pairs.tsv\\
+7 & study & 7 & crisporWebsite (PMID 30341956) & data/crispr\_cfd\_oracle.tsv; sweep/\_crispor\_mit\_ref.py\\
+8 & study & 8 & crisporEffScores.py & data/doench\_rs1\_oracle.tsv\\
+9 & study & 9 & 25 sequences & data/globins25.fa\\
+10 & study & 10 & 25 sequences & data/nonglobins25.fa\\
+11 & study & 11 & PF00042.29 & data/pfam\_PF00042\_globin.hmm\\
+12 & study & 12 & RF00005 & data/rfam/RF00005.sto\\
+13 & study & 13 & RF00001 & data/rfam/RF00001.sto\\
+14 & study & 14 & RF00010 & data/rfam/RF00010.sto\\
+15 & study & 15 & 1000-compound slice & data/chembl\_approved\_1000.tsv\\
+16 & study & 16 & taxid 83333 & data/README.md (sanity only)\\
+17 & study & 17 & GCF\_000005845.2 & sweep/codon\_cai\_bench.py\\
+18 & study & 18 & 511145-WHOLE\_ORGANISM-integrated & sweep/codon\_cai\_bench.py\\
+19 & study & 19 & 666 diplotypes & sweep/pgx\_cpic\_bench.py\\
+20 & study & 20 & 16836 diplotypes & sweep/pgx\_cpic\_bench.py\\
+21 & study & 21 & 208 alleles & sugarcode-ai pgx\_guidelines/data\\
+22 & study & 22 & e\_coli\_316407 & sweep/codon\_cai\_bench.py (via sugarcode-ai)\\
+23 & study & 23 & bdata.20130222.mhci.txt & sweep/neohunter\_iedb\_bench.py\\
+24 & study & 24 & LP\_PDBBind.csv & sweep/docking\_bench.py\\
+25 & pdb\_entry &  & 1CNW & sweep/docking\_bench.py\\
+26 & pdb\_entry &  & 1EJN & sweep/docking\_bench.py\\
+27 & pdb\_entry &  & 1F5L & sweep/docking\_bench.py\\
+28 & pdb\_entry &  & 1G54 & sweep/docking\_bench.py\\
+29 & pdb\_entry &  & 1GI1 & sweep/docking\_bench.py\\
+30 & pdb\_entry &  & 1K1J & sweep/docking\_bench.py\\
+31 & pdb\_entry &  & 1O3L & sweep/docking\_bench.py\\
+32 & pdb\_entry &  & 1P1O & sweep/docking\_bench.py\\
+33 & pdb\_entry &  & 1Y3X & sweep/docking\_bench.py\\
+34 & pdb\_entry &  & 1ZGI & sweep/docking\_bench.py\\
+35 & pdb\_entry &  & 2ERZ & sweep/docking\_bench.py\\
+36 & pdb\_entry &  & 2J4I & sweep/docking\_bench.py\\
+37 & pdb\_entry &  & 2P4J & sweep/docking\_bench.py\\
+38 & pdb\_entry &  & 2X7T & sweep/docking\_bench.py\\
+39 & pdb\_entry &  & 2XAB & sweep/docking\_bench.py\\
+40 & pdb\_entry &  & 2XJG & sweep/docking\_bench.py\\
+41 & pdb\_entry &  & 2ZDN & sweep/docking\_bench.py\\
+42 & pdb\_entry &  & 3B3C & sweep/docking\_bench.py\\
+43 & pdb\_entry &  & 3C84 & sweep/docking\_bench.py\\
+44 & pdb\_entry &  & 3D8W & sweep/docking\_bench.py\\
+45 & pdb\_entry &  & 3HKQ & sweep/docking\_bench.py\\
+46 & pdb\_entry &  & 3HLL & sweep/docking\_bench.py\\
+47 & pdb\_entry &  & 3IBI & sweep/docking\_bench.py\\
+48 & pdb\_entry &  & 3M35 & sweep/docking\_bench.py\\
+49 & pdb\_entry &  & 3PO6 & sweep/docking\_bench.py\\
+50 & pdb\_entry &  & 3R17 & sweep/docking\_bench.py\\
+51 & pdb\_entry &  & 3R4N & sweep/docking\_bench.py\\
+52 & pdb\_entry &  & 4B2I & sweep/docking\_bench.py\\
+53 & pdb\_entry &  & 4DB7 & sweep/docking\_bench.py\\
+54 & pdb\_entry &  & 4F5Y & sweep/docking\_bench.py\\
+55 & pdb\_entry &  & 4FL1 & sweep/docking\_bench.py\\
+56 & pdb\_entry &  & 4J93 & sweep/docking\_bench.py\\
+57 & pdb\_entry &  & 4JFM & sweep/docking\_bench.py\\
+58 & pdb\_entry &  & 4KNJ & sweep/docking\_bench.py\\
+59 & pdb\_entry &  & 4LXZ & sweep/docking\_bench.py\\
+60 & pdb\_entry &  & 4MO8 & sweep/docking\_bench.py\\
+61 & pdb\_entry &  & 4NH7 & sweep/docking\_bench.py\\
+62 & pdb\_entry &  & 4O04 & sweep/docking\_bench.py\\
+63 & pdb\_entry &  & 4OAG & sweep/docking\_bench.py\\
+64 & pdb\_entry &  & 4R76 & sweep/docking\_bench.py\\
+65 & pdb\_entry &  & 4RFC & sweep/docking\_bench.py\\
+66 & pdb\_entry &  & 4TIM & sweep/docking\_bench.py\\
+67 & pdb\_entry &  & 4XIT & sweep/docking\_bench.py\\
+68 & pdb\_entry &  & 4YTC & sweep/docking\_bench.py\\
+69 & pdb\_entry &  & 4YXI & sweep/docking\_bench.py\\
+70 & pdb\_entry &  & 4ZME & sweep/docking\_bench.py\\
+71 & pdb\_entry &  & 5AML & sweep/docking\_bench.py\\
+72 & pdb\_entry &  & 5CAP & sweep/docking\_bench.py\\
+73 & pdb\_entry &  & 5CAU & sweep/docking\_bench.py\\
+74 & pdb\_entry &  & 5D3L & sweep/docking\_bench.py\\
+75 & pdb\_entry &  & 5EWK & sweep/docking\_bench.py\\
+76 & pdb\_entry &  & 5EWY & sweep/docking\_bench.py\\
+77 & pdb\_entry &  & 5F60 & sweep/docking\_bench.py\\
+78 & pdb\_entry &  & 5F62 & sweep/docking\_bench.py\\
+79 & pdb\_entry &  & 5G5V & sweep/docking\_bench.py\\
+80 & pdb\_entry &  & 5HTZ & sweep/docking\_bench.py\\
+81 & pdb\_entry &  & 5IX0 & sweep/docking\_bench.py\\
+82 & pdb\_entry &  & 5L8C & sweep/docking\_bench.py\\
+83 & pdb\_entry &  & 5MJN & sweep/docking\_bench.py\\
+84 & pdb\_entry &  & 5MPN & sweep/docking\_bench.py\\
+85 & pdb\_entry &  & 5N24 & sweep/docking\_bench.py\\
+86 & pdb\_entry &  & 5O87 & sweep/docking\_bench.py\\
+87 & pdb\_entry &  & 5SZ4 & sweep/docking\_bench.py\\
+88 & pdb\_entry &  & 5SZ5 & sweep/docking\_bench.py\\
+89 & pdb\_entry &  & 5Y8Y & sweep/docking\_bench.py\\
+90 & pdb\_entry &  & 6EQ5 & sweep/docking\_bench.py\\
+91 & pdb\_entry &  & 6G38 & sweep/docking\_bench.py\\
+92 & pdb\_entry &  & 6G6T & sweep/docking\_bench.py\\
+93 & pdb\_entry &  & 6HQY & sweep/docking\_bench.py\\
+94 & pdb\_entry &  & 6HRQ & sweep/docking\_bench.py\\
+95 & pdb\_entry &  & 6OE0 & sweep/docking\_bench.py\\
+96 & pdb\_entry &  & 6RFN & sweep/docking\_bench.py\\
+97 & pdb\_entry &  & 6U6W & sweep/docking\_bench.py\\
+98 & species &  & 10090-ASTROCYTE-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+99 & species &  & GCF\_000001635.27 & sweep/codon\_cai\_multispecies.py\\
+100 & species &  & 10116-CARDIAC\_VENTRICLE-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+101 & species &  & GCF\_036323735.1 & sweep/codon\_cai\_multispecies.py\\
+102 & species &  & 121845-WHOLE\_ORGANISM-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+103 & species &  & GCF\_000475195.1 & sweep/codon\_cai\_multispecies.py\\
+104 & species &  & 1295-WHOLE\_ORGANISM-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+105 & species &  & GCF\_025558325.1 & sweep/codon\_cai\_multispecies.py\\
+106 & species &  & 1314-WHOLE\_ORGANISM-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+107 & species &  & GCF\_900475035.1 & sweep/codon\_cai\_multispecies.py\\
+108 & species &  & 185431-WHOLE\_ORGANISM-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+109 & species &  & GCF\_000002445.2 & sweep/codon\_cai\_multispecies.py\\
+110 & species &  & 192222-WHOLE\_ORGANISM-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+111 & species &  & GCF\_000009085.1 & sweep/codon\_cai\_multispecies.py\\
+112 & species &  & 196627-WHOLE\_ORGANISM-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+113 & species &  & GCF\_000011325.1 & sweep/codon\_cai\_multispecies.py\\
+114 & species &  & 198214-WHOLE\_ORGANISM-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+115 & species &  & GCF\_000006925.2 & sweep/codon\_cai\_multispecies.py\\
+116 & species &  & 208964-WHOLE\_ORGANISM-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+117 & species &  & GCF\_000006765.1 & sweep/codon\_cai\_multispecies.py\\
+118 & species &  & 224308-WHOLE\_ORGANISM-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+119 & species &  & GCF\_000009045.1 & sweep/codon\_cai\_multispecies.py\\
+120 & species &  & 224911-WHOLE\_ORGANISM-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+121 & species &  & GCF\_001642675.1 & sweep/codon\_cai\_multispecies.py\\
+122 & species &  & 243159-WHOLE\_ORGANISM-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+123 & species &  & GCF\_000021485.1 & sweep/codon\_cai\_multispecies.py\\
+124 & species &  & 243230-WHOLE\_ORGANISM-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+125 & species &  & GCF\_020546685.1 & sweep/codon\_cai\_multispecies.py\\
+126 & species &  & 246200-WHOLE\_ORGANISM-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+127 & species &  & GCF\_000011965.2 & sweep/codon\_cai\_multispecies.py\\
+128 & species &  & 2903-WHOLE\_ORGANISM-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+129 & species &  & GCF\_000372725.1 & sweep/codon\_cai\_multispecies.py\\
+130 & species &  & 343509-WHOLE\_ORGANISM-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+131 & species &  & GCF\_000010085.1 & sweep/codon\_cai\_multispecies.py\\
+132 & species &  & 36329-WHOLE\_ORGANISM-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+133 & species &  & GCF\_000002765.6 & sweep/codon\_cai\_multispecies.py\\
+134 & species &  & 403677-WHOLE\_ORGANISM-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+135 & species &  & GCF\_000142945.1 & sweep/codon\_cai\_multispecies.py\\
+136 & species &  & 4081-PERICARP-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+137 & species &  & GCF\_036512215.1 & sweep/codon\_cai\_multispecies.py\\
+138 & species &  & 4097-LEAF-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+139 & species &  & GCF\_000715075.1 & sweep/codon\_cai\_multispecies.py\\
+140 & species &  & 418985-WHOLE\_ORGANISM-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+141 & species &  & GCA\_002081605.1 & sweep/codon\_cai\_multispecies.py\\
+142 & species &  & 44689-WHOLE\_ORGANISM-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+143 & species &  & GCF\_000004695.1 & sweep/codon\_cai\_multispecies.py\\
+144 & species &  & 4932-WHOLE\_ORGANISM-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+145 & species &  & GCF\_000146045.2 & sweep/codon\_cai\_multispecies.py\\
+146 & species &  & 54291-WHOLE\_ORGANISM-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+147 & species &  & GCF\_030505655.1 & sweep/codon\_cai\_multispecies.py\\
+148 & species &  & 6239-WHOLE\_ORGANISM-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+149 & species &  & GCF\_000002985.6 & sweep/codon\_cai\_multispecies.py\\
+150 & species &  & 7227-SPERM-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+151 & species &  & GCF\_000001215.4 & sweep/codon\_cai\_multispecies.py\\
+152 & species &  & 7460-ABDOMEN-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+153 & species &  & GCF\_003254395.2 & sweep/codon\_cai\_multispecies.py\\
+154 & species &  & 8030-LIVER-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+155 & species &  & GCF\_965601325.2 & sweep/codon\_cai\_multispecies.py\\
+156 & species &  & 83332-WHOLE\_ORGANISM-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+157 & species &  & GCF\_000195955.2 & sweep/codon\_cai\_multispecies.py\\
+158 & species &  & 9031-HEART-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+159 & species &  & GCF\_016699485.2 & sweep/codon\_cai\_multispecies.py\\
+160 & species &  & 93061-WHOLE\_ORGANISM-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+161 & species &  & GCF\_000013425.1 & sweep/codon\_cai\_multispecies.py\\
+162 & species &  & 9544-BILE\_DUCT-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+163 & species &  & GCF\_049350105.2 & sweep/codon\_cai\_multispecies.py\\
+164 & species &  & 9606-ADRENAL\_GLAND-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+165 & species &  & GCF\_000001405.40 & sweep/codon\_cai\_multispecies.py\\
+166 & species &  & 9615-PLASMA-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+167 & species &  & GCF\_011100685.1 & sweep/codon\_cai\_multispecies.py\\
+168 & species &  & 9823-LIVER-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+169 & species &  & GCF\_054392235.1 & sweep/codon\_cai\_multispecies.py\\
+170 & species &  & 9913-LENS\_OF\_CAMERA\_TYPE\_EYE-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+171 & species &  & GCF\_002263795.3 & sweep/codon\_cai\_multispecies.py\\
+172 & species &  & 99287-WHOLE\_ORGANISM-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+173 & species &  & GCF\_000006945.2 & sweep/codon\_cai\_multispecies.py\\
+174 & species &  & 9986-PERIPHERAL\_REGION\_OF\_RETINA-integrated.txt & sweep/codon\_cai\_multispecies.py\\
+175 & species &  & GCF\_964237555.1 & sweep/codon\_cai\_multispecies.py\\
+176 & gtrnadb &  & Esch\_coli\_K\_12\_MG1655 & sweep/codon\_tai\_enc.py\\
+177 & gtrnadb &  & Baci\_subt\_subtilis\_168 & sweep/codon\_tai\_enc.py\\
+178 & gtrnadb &  & Scere3 & sweep/codon\_tai\_enc.py\\
+\hline\end{longtable}}

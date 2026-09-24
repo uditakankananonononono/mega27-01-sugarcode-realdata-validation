@@ -1,7 +1,7 @@
 \documentclass[11pt]{article}
 \usepackage{mathptmx}        % Times New Roman body + math
 \usepackage[margin=1in]{geometry}
-\usepackage{graphicx,amsmath,amssymb}
+\usepackage{graphicx,amsmath,amssymb,longtable}
 
 \setlength{\parskip}{4pt}
 \title{Independent external validation of the SugarCode AI computational-biology platform against held-out public benchmarks}
@@ -238,11 +238,13 @@ consequence type alone separates the called variants. Missense variants, the
 hard case, are still abstained.
 
 \input{sections_auto}
+\input{sections_results2}
 \section{Discussion}
 Validating each module against an independent reference exposed three kinds of result: implementations that match their reference exactly (CAI vs Biopython, CYP2D6 translation vs CPIC after the fix), implementations whose defaults were stale or weak (CPIC activity values, genome-wide CAI reference, Nussinov folding), and places where a strong published tool beats our model (SpliceAI on splice-region variants). Each fix is committed with the result file that motivated it. The CNN is useful as a calibrated, cheap second opinion at high thresholds, not as a replacement for SpliceAI.
 \section{Conclusion}
 The sweep so far corrected two clinically relevant defaults (CPIC activity values, clopidogrel handling of ``Likely'' phenotypes), improved CAI correlation with measured abundance, and replaced base-pair maximisation with thermodynamic folding. The dataset and tool targets set for this project are not yet met; the manifests in the appendix list exactly what was used.
 \input{sections_appendix}
+\input{sections_accessions}
 \bibliographystyle{plain}
 \begin{thebibliography}{99}
 \bibitem{doench2016} Doench JG et al. Optimized sgRNA design to maximize
@@ -263,5 +265,10 @@ protein multiple sequence alignments using Clustal Omega. Mol Syst Biol 7:539,
 \bibitem{tavtigian} Tavtigian SV et al. Modeling the ACMG/AMP variant
 classification guidelines as a Bayesian classification framework. Genet Med
 20:1054-1060, 2018.
+\bibitem{yeo2004} Yeo G, Burge CB. Maximum entropy modeling of short sequence motifs with applications to RNA splicing signals. J Comput Biol 11:377-394 (2004).
+\bibitem{sharpli1987} Sharp PM, Li WH. The codon adaptation index: a measure of directional synonymous codon usage bias. Nucleic Acids Res 15:1281-1295 (1987).
+\bibitem{dosreis2004} dos Reis M, Savva R, Wernisch L. Solving the riddle of codon usage preferences: a test for translational selection. Nucleic Acids Res 32:5036-5044 (2004).
+\bibitem{vina} Eberhardt J, Santos-Martins D, Tillack AF, Forli S. AutoDock Vina 1.2.0. J Chem Inf Model 61:3891-3898 (2021).
+\bibitem{paxdb} Wang M et al. PaxDb, a database of protein abundance averages across all three domains of life. Mol Cell Proteomics 11:492-500 (2012).
 \end{thebibliography}
 \end{document}
