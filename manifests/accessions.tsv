@@ -326,3 +326,46 @@ hgnc_record	HGNC:TTN	HGNC REST fetch/symbol record (curated UniProt mapping)	HGN
 hgnc_record	HGNC:VHL	HGNC REST fetch/symbol record (curated UniProt mapping)	HGNC:12687	sweep/uniprot_vs_hgnc.py
 study	31	Reactome UniProt2Reactome.txt lowest-level mapping (download 2026-09-25; 60-gene human subset committed)	UniProt2Reactome.txt (current release)	sweep/reactome_vs_download.py
 study	32	gnomAD r4 gene constraint (GraphQL API, 60 genes)	gnomad_r4 gnomad_constraint	sweep/gnomad_constraint_threshold.py
+
+study	33	SRAMP mammalian m6A mature-mRNA benchmark test labels (Zhou 2016 Genome Biol 17:138; mirrored in deepSRAMP repo)	sramp_mature_test.csv (133,826 labels)	sweep/rna_decoder_m6a.py
+study	34	miCLIP single-nucleotide m6A sites HEK293 abcam CIMS hg38 (Linder 2015 Cell 163:1667)	GSE63753	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENSMUST00000056677	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENSMUST00000056677	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENSMUST00000106089	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENSMUST00000106089	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENSMUST00000125127	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENSMUST00000125127	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENST00000234590	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENST00000234590	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENST00000481115	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENST00000481115	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENST00000525069	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENST00000525069	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENST00000602390	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENST00000602390	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENSMUST00000145952	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENSMUST00000145952	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENST00000227520	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENST00000227520	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENST00000255641	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENST00000255641	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENSMUST00000015889	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENSMUST00000015889	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENSMUST00000038791	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENSMUST00000038791	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENSMUST00000022709	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENSMUST00000022709	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENST00000223368	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENST00000223368	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENST00000284551	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENST00000284551	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENST00000305885	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENST00000305885	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENST00000357186	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENST00000357186	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENST00000418388	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENST00000418388	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENST00000622639	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENST00000622639	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENSMUST00000179669	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENSMUST00000179669	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENST00000356872	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENST00000356872	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENST00000359867	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENST00000359867	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENST00000361952	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENST00000361952	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENST00000404824	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENST00000404824	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENST00000428417	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENST00000428417	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENSMUST00000035295	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENSMUST00000035295	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENSMUST00000058667	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENSMUST00000058667	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENST00000200453	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENST00000200453	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENST00000316836	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENST00000316836	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENST00000575785	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENST00000575785	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENSMUST00000018716	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENSMUST00000018716	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENSMUST00000061425	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENSMUST00000061425	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENSMUST00000081747	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENSMUST00000081747	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENSMUST00000084743	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENSMUST00000084743	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENST00000618250	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENST00000618250	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENSMUST00000022272	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENSMUST00000022272	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENSMUST00000037235	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENSMUST00000037235	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENSMUST00000040967	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENSMUST00000040967	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENSMUST00000042203	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENSMUST00000042203	sweep/rna_decoder_m6a.py
+ensembl_transcript	ENSMUST00000042227	Ensembl cDNA+CDS sequence fetch (rest.ensembl.org sequence/id, 2026-09-25)	ENSMUST00000042227	sweep/rna_decoder_m6a.py

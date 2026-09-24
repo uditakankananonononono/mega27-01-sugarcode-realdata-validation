@@ -1,0 +1,103 @@
+{
+  "n_transcripts": 40,
+  "n_pos": 258,
+  "n_neg": 952,
+  "pos_base_is_A_1based": 135,
+  "pos_base_is_A_0based": 36,
+  "n_pos_checked": 258,
+  "excluded_annotation_drift": 708,
+  "evaluated": 502,
+  "evaluated_pos": 99,
+  "evaluated_neg": 403,
+  "auc_module_score": 0.5886,
+  "auc_module_score_old_wholetx_default": 0.5496,
+  "auc_exposure_baseline": 0.562,
+  "drach_recall_all_labels": 0.4149,
+  "mean_score_pos": 0.6368,
+  "mean_score_neg": 0.6018,
+  "cds_aligned_transcripts": 38,
+  "evaluated_cds": 449,
+  "evaluated_cds_pos": 88,
+  "auc_module_score_with_cds": 0.6702,
+  "region_counts_pos": {
+    "CDS": 38,
+    "near-stop CDS": 17,
+    "3'UTR": 32,
+    "5'UTR": 1
+  },
+  "region_counts_neg": {
+    "near-stop CDS": 19,
+    "3'UTR": 111,
+    "CDS": 169,
+    "5'UTR": 62
+  },
+  "miclip_sites_parsed": 9536,
+  "miclip_drach_fraction": 0.7729,
+  "miclip_top5": [
+    [
+      "GGACT",
+      1213
+    ],
+    [
+      "GGACA",
+      1032
+    ],
+    [
+      "AGACT",
+      895
+    ],
+    [
+      "GAACT",
+      854
+    ],
+    [
+      "TGACT",
+      637
+    ]
+  ],
+  "datasets": [
+    "SRAMP_mature_test(Zhou2016)",
+    "GSE63753",
+    "ensembl:ENSMUST00000056677",
+    "ensembl:ENSMUST00000106089",
+    "ensembl:ENSMUST00000125127",
+    "ensembl:ENST00000234590",
+    "ensembl:ENST00000481115",
+    "ensembl:ENST00000525069",
+    "ensembl:ENST00000602390",
+    "ensembl:ENSMUST00000145952",
+    "ensembl:ENST00000227520",
+    "ensembl:ENST00000255641",
+    "ensembl:ENSMUST00000015889",
+    "ensembl:ENSMUST00000038791",
+    "ensembl:ENSMUST00000022709",
+    "ensembl:ENST00000223368",
+    "ensembl:ENST00000284551",
+    "ensembl:ENST00000305885",
+    "ensembl:ENST00000357186",
+    "ensembl:ENST00000418388",
+    "ensembl:ENST00000622639",
+    "ensembl:ENSMUST00000179669",
+    "ensembl:ENST00000356872",
+    "ensembl:ENST00000359867",
+    "ensembl:ENST00000361952",
+    "ensembl:ENST00000404824",
+    "ensembl:ENST00000428417",
+    "ensembl:ENSMUST00000035295",
+    "ensembl:ENSMUST00000058667",
+    "ensembl:ENST00000200453",
+    "ensembl:ENST00000316836",
+    "ensembl:ENST00000575785",
+    "ensembl:ENSMUST00000018716",
+    "ensembl:ENSMUST00000061425",
+    "ensembl:ENSMUST00000081747",
+    "ensembl:ENSMUST00000084743",
+    "ensembl:ENST00000618250",
+    "ensembl:ENSMUST00000022272",
+    "ensembl:ENSMUST00000037235",
+    "ensembl:ENSMUST00000040967",
+    "ensembl:ENSMUST00000042203",
+    "ensembl:ENSMUST00000042227"
+  ],
+  "n_datasets": 42
+}
