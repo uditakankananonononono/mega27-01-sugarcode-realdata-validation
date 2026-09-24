@@ -183,3 +183,4 @@ refseq_transcript	25	NCBI RefSeq mRNA NM_000059.4 (E-utilities efetch)	NM_000059
 refseq_transcript	25	NCBI RefSeq mRNA NM_004333.6 (E-utilities efetch)	NM_004333.6	sweep/primer_vs_primer3.py
 refseq_transcript	25	NCBI RefSeq mRNA NM_005228.5 (E-utilities efetch)	NM_005228.5	sweep/primer_vs_primer3.py
 study	26	ClinVar GRCh38 VCF, 5 gene regions (one tabix extract)	clinvar.vcf.gz	sweep/vcf_vs_pysam.py
+study	27	GEO GSE52778 NCBI raw count matrix (8 samples used)	GSE52778	sweep/de_vs_pydeseq2.py

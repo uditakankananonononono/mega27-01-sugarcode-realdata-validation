@@ -83,3 +83,9 @@ Cross-species BH-FDR (statsmodels): ribosomal-reference CAI is significantly cor
 - 46,603 ClinVar records across 5 gene regions, fetched by remote tabix. CHROM/POS/ID/REF/ALT: 0 mismatches. INFO: 0 mismatches after two normalisations (pysam returns percent-escapes raw where sugarcode decodes them; pysam stores floats as float32), except 2 CLNVI values where ClinVar uses %2B, which is not a VCF 4.3 escape and sugarcode correctly leaves as-is (benchmarks/sweep_vcf_pysam.json). VERIFIED.
 - Small spec gap fixed: %3A (':') was not decoded; sugarcode-ai now decodes it.
 - variant_type vs ClinVar CLNVC: agrees on 45,685 records. The other 302 are equal-length multi-base changes that ClinVar labels Indel and sugarcode labels mnp (VCF convention). Naming difference.
+
+## bio.de / bio.rnaseq vs PyDESeq2 on GEO GSE52778 (2026-09-24)
+- Airway smooth muscle, dexamethasone vs untreated, 4 cell lines; 16,802 genes after filtering.
+- Median-of-ratios size factors equal PyDESeq2's (max relative diff 1.8e-9). VERIFIED.
+- DE calls: PyDESeq2 ~cell + dex finds 4,451 genes at padj<0.05 (3,203 unpaired). sugarcode Welch finds 351 (331 shared with PyDESeq2) and Wilcoxon finds 0 (with 4 vs 4 the smallest possible p cannot survive BH). All 7 canonical dex-response genes (FKBP5, TSC22D3, PER1, DUSP1, KLF15, ZBTB16, CRISPLD2; PyDESeq2 padj 1e-19 to 1e-140) are missed by both simple tests. Log2FC agrees (Pearson 0.993). NEGATIVE (benchmarks/sweep_de_pydeseq2.json); the module's own scope note already warned about this.
+- Fix: sugarcode-ai bio.de.de_analysis_deseq2 (PyDESeq2 NB GLM with an optional blocking factor for paired designs).

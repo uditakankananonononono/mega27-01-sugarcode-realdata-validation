@@ -30,3 +30,4 @@ primer3-py	2.3.1	sweep/primer_vs_primer3.py -> benchmarks/sweep_primer_primer3.j
 DendroPy	5.1.0	sweep/phylo_vs_dendropy.py -> benchmarks/sweep_phylo_dendropy.json
 orfipy	0.0.4	sweep/orf_vs_orfipy.py -> benchmarks/sweep_orf_orfipy.json
 pysam (htslib)	0.24.1	sweep/vcf_vs_pysam.py -> benchmarks/sweep_vcf_pysam.json (remote tabix fetch of ClinVar VCF)
+PyDESeq2	0.5.2	sweep/de_vs_pydeseq2.py -> benchmarks/sweep_de_pydeseq2.json; sugarcode bio.de.de_analysis_deseq2

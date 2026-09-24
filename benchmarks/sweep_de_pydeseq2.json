@@ -1,0 +1,65 @@
+{
+ "dataset": "GEO GSE52778 NCBI raw counts GRCh38.p13; untreated GSM1275862/66/70/74 vs Dex GSM1275863/67/71/75; genes with >=10 counts in >=4 samples",
+ "tool": "PyDESeq2 (NB GLM, Wald test, n_cpus=1)",
+ "n_genes_tested": 16802,
+ "size_factor_max_rel_diff": 1.758408139677639e-09,
+ "pydeseq2_paired_n_sig": 4451,
+ "pydeseq2_unpaired_n_sig": 3203,
+ "welch": {
+  "n_sig_padj05": 351,
+  "overlap_with_pydeseq2_paired": 331,
+  "overlap_with_pydeseq2_unpaired": 348,
+  "lfc_pearson_vs_pydeseq2": 0.9932
+ },
+ "wilcoxon": {
+  "n_sig_padj05": 0,
+  "overlap_with_pydeseq2_paired": 0,
+  "overlap_with_pydeseq2_unpaired": 0,
+  "lfc_pearson_vs_pydeseq2": 0.9932
+ },
+ "canonical_dex_genes_note": "Gene symbols verified via NCBI E-utilities esummary (db=gene)",
+ "canonical_dex_genes": {
+  "FKBP5": {
+   "pydeseq2_paired_padj": 2.1085281341082708e-26,
+   "pydeseq2_lfc": 4.03,
+   "welch_padj": 0.05843124325571788,
+   "wilcoxon_padj": 0.1508100959676381
+  },
+  "TSC22D3": {
+   "pydeseq2_paired_padj": 2.0750024615215885e-19,
+   "pydeseq2_lfc": 3.206,
+   "welch_padj": 0.16401202808057475,
+   "wilcoxon_padj": 0.1508100959676381
+  },
+  "PER1": {
+   "pydeseq2_paired_padj": 2.3094294038697335e-99,
+   "pydeseq2_lfc": 3.221,
+   "welch_padj": 0.05289826450933664,
+   "wilcoxon_padj": 0.1508100959676381
+  },
+  "DUSP1": {
+   "pydeseq2_paired_padj": 1.3321225419289486e-140,
+   "pydeseq2_lfc": 2.955,
+   "welch_padj": 0.07379675369430905,
+   "wilcoxon_padj": 0.1508100959676381
+  },
+  "KLF15": {
+   "pydeseq2_paired_padj": 5.016651481461088e-114,
+   "pydeseq2_lfc": 4.411,
+   "welch_padj": 0.16614784346562236,
+   "wilcoxon_padj": 0.1508100959676381
+  },
+  "ZBTB16": {
+   "pydeseq2_paired_padj": 1.1193943734895989e-58,
+   "pydeseq2_lfc": 7.432,
+   "welch_padj": 0.12119620838649046,
+   "wilcoxon_padj": 0.1508100959676381
+  },
+  "CRISPLD2": {
+   "pydeseq2_paired_padj": 1.67503661468222e-61,
+   "pydeseq2_lfc": 2.628,
+   "welch_padj": 0.1283397876341662,
+   "wilcoxon_padj": 0.1508100959676381
+  }
+ }
+}
