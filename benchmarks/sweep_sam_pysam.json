@@ -1,0 +1,27 @@
+{
+ "reference": "pysam 0.24.1",
+ "source": "1000 Genomes phase 3 NA12878 chrom20 low-coverage BAM, 20:1000000-1200000",
+ "n_sugarcode": 10943,
+ "n_pysam": 10943,
+ "fields_equal": {
+  "qname": 10943,
+  "flag": 10943,
+  "rname": 10943,
+  "pos": 10943,
+  "mapq": 10943,
+  "cigar_ops": 10943,
+  "rnext_pnext_tlen": 10943,
+  "seq": 10943,
+  "qual": 10943,
+  "alignment_end": 10943,
+  "tags": 10943,
+  "flag_bits": 10943
+ },
+ "examples": [],
+ "before_fix": {
+  "alignment_end": 10905,
+  "sugarcode_commit": "fe2185d",
+  "cause": "flag 0x4 mates placed at mate position with CIGAR"
+ },
+ "after_fix_commit": "87cf78e"
+}

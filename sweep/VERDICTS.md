@@ -115,3 +115,6 @@ NCBI RefSeq E. coli K-12 MG1655 annotation (GCF_000005845.2_ASM584v2_genomic.gff
 
 ## bio.newick vs Bio.Phylo and DendroPy (2026-09-25)
 6 Open Tree of Life synthetic subtrees (Insecta, Laurasiatheria, Carnivora, Metazoa, Aves, Primates; 3,655 leaves incl. quoted labels and empty leaves from height truncation): leaf sets equal Biopython and DendroPy, internal-node counts and internal labels equal Biopython, write->parse lossless, 6/6. VERIFIED (topology/labels only; these trees carry no branch lengths). Numbers: benchmarks/sweep_newick_biophylo.json.
+
+## bio.sam vs pysam/htslib (2026-09-25)
+10,943 real reads (1000 Genomes NA12878 chr20:1.0-1.2 Mb, low-coverage bwa BAM): qname, flag, rname, pos, mapq, CIGAR ops, mate fields, seq, qual and typed tags equal pysam for 10,943/10,943. BUG FOUND in alignment_end: 38 unmapped mates (flag 0x4) that bwa places at the mate's position with a CIGAR got an end coordinate; htslib gives none. Fixed in sugarcode-ai 87cf78e: 10,905 -> 10,943/10,943. Numbers: benchmarks/sweep_sam_pysam.json.
