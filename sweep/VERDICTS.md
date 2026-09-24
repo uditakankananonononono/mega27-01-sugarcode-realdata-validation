@@ -33,3 +33,4 @@ Data: IEDB MHC-I binding 2013 (Kim et al. 2014), human 9-mers, binder = IC50<500
 - One-hot logistic PSSM, 5-fold CV: 0.954, 0.942, 0.897, 0.962, 0.916.
 - Fix shipped: sugarcode-ai neohunter.hla_binding_iedb (trained on all IEDB 2013 rows for the 5 alleles). Not yet compared with NetMHCpan/MHCflurry (next).
 Numbers: benchmarks/sweep_neohunter_iedb.json. Verdict: heuristic THIN; PSSM VERIFIED (CV).
+- MHCflurry 2.x pan-allele (in-sample reference, trained on data including IEDB 2013): 0.960, 0.948, 0.905, 0.953, 0.938. Our CV PSSM is within 0.02 on all five alleles and above MHCflurry's in-sample AUROC on B*07:02 (0.962 vs 0.953). This is not a SOTA claim: the training regimes differ.

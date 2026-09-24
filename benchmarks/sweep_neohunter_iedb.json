@@ -7,31 +7,38 @@
    "n": 9051,
    "n_binders": 3273,
    "auc_module_heuristic": 0.8301,
-   "auc_pssm_logit_cv5": 0.9537
+   "auc_pssm_logit_cv5": 0.9537,
+   "auc_mhcflurry_insample": 0.9601
   },
   "A*03:01": {
    "n": 5488,
    "n_binders": 1378,
    "auc_module_heuristic": 0.8009,
-   "auc_pssm_logit_cv5": 0.9424
+   "auc_pssm_logit_cv5": 0.9424,
+   "auc_mhcflurry_insample": 0.9478
   },
   "A*24:02": {
    "n": 2395,
    "n_binders": 496,
    "auc_module_heuristic": 0.8147,
-   "auc_pssm_logit_cv5": 0.8965
+   "auc_pssm_logit_cv5": 0.8965,
+   "auc_mhcflurry_insample": 0.9054
   },
   "B*07:02": {
    "n": 3868,
    "n_binders": 1060,
    "auc_module_heuristic": 0.8484,
-   "auc_pssm_logit_cv5": 0.9622
+   "auc_pssm_logit_cv5": 0.9622,
+   "auc_mhcflurry_insample": 0.9531
   },
   "B*44:03": {
    "n": 733,
    "n_binders": 207,
    "auc_module_heuristic": 0.8265,
-   "auc_pssm_logit_cv5": 0.9158
+   "auc_pssm_logit_cv5": 0.9158,
+   "auc_mhcflurry_insample": 0.9375
   }
- }
+ },
+ "mhcflurry_note": "MHCflurry pan-allele models were trained on data that includes IEDB 2013; its AUROC here is in-sample (upper reference), not a fair held-out comparison.",
+ "mhcflurry_version": "2.2.1"
 }
