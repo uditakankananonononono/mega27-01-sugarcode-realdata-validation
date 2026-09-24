@@ -120,7 +120,7 @@ bio	reactome	63	0	not yet validated
 bio	restriction	150	1	validated	benchmarks/sweep_proteinprops_restriction.json
 bio	rnaseq	201	1	validated	benchmarks/sweep_de_pydeseq2.json
 bio	sam	221	2	validated	benchmarks/sweep_sam_pysam.json
-bio	sequence	168	2	not yet validated	
+bio	sequence	174	3	validated	benchmarks/sweep_sequence_biopython.json
 bio	splice	682	11	not yet validated	
 bio	stockholm	260	1	validated	benchmarks/sweep_stockholm_biopython.json
 bio	structures	266	13	validated	benchmarks/sweep_sasa_freesasa.json

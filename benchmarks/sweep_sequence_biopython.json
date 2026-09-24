@@ -1,0 +1,203 @@
+{
+ "reference": "Biopython 1.88",
+ "translate": {
+  "cds": 285,
+  "skipped_other_table_or_frame": 17,
+  "eq_qualifier": 285,
+  "eq_bio": 285,
+  "iupac_in_cds": 0,
+  "eq_qualifier_iupac": 0,
+  "mismatch_examples": []
+ },
+ "revcomp_equal": 25,
+ "gc": [
+  {
+   "acc": "NC_000913.3",
+   "ours": 0.5203166666666666,
+   "bio": 0.5203166666666666,
+   "nonACGT": 0
+  },
+  {
+   "acc": "NC_001416.1",
+   "ours": 0.4985773782524432,
+   "bio": 0.4985773782524432,
+   "nonACGT": 0
+  },
+  {
+   "acc": "NC_001422.1",
+   "ours": 0.44764203490531007,
+   "bio": 0.44764203490531007,
+   "nonACGT": 0
+  },
+  {
+   "acc": "NC_001477.1",
+   "ours": 0.4666977177456917,
+   "bio": 0.4666977177456917,
+   "nonACGT": 0
+  },
+  {
+   "acc": "NC_001498.1",
+   "ours": 0.47426701900088086,
+   "bio": 0.47426701900088086,
+   "nonACGT": 0
+  },
+  {
+   "acc": "NC_001802.1",
+   "ours": 0.4211959481537959,
+   "bio": 0.4211959481537959,
+   "nonACGT": 0
+  },
+  {
+   "acc": "NC_001806.2",
+   "ours": 0.6830090262905494,
+   "bio": 0.6830090262905494,
+   "nonACGT": 0
+  },
+  {
+   "acc": "NC_002549.1",
+   "ours": 0.4107284139458832,
+   "bio": 0.4107284139458832,
+   "nonACGT": 0
+  },
+  {
+   "acc": "NC_003977.2",
+   "ours": 0.4849151477058454,
+   "bio": 0.4849151477058454,
+   "nonACGT": 0
+  },
+  {
+   "acc": "NC_012920.1",
+   "ours": 0.44362626750362144,
+   "bio": 0.4435994930291508,
+   "nonACGT": 1
+  },
+  {
+   "acc": "NC_045512.2",
+   "ours": 0.3797277865097147,
+   "bio": 0.3797277865097147,
+   "nonACGT": 0
+  },
+  {
+   "acc": "NG_005905.2",
+   "ours": 0.4505211963508511,
+   "bio": 0.4505211963508511,
+   "nonACGT": 0
+  },
+  {
+   "acc": "NM_000038.6",
+   "ours": 0.3960201793721973,
+   "bio": 0.3960201793721973,
+   "nonACGT": 0
+  },
+  {
+   "acc": "NM_000059.4",
+   "ours": 0.36180358039150073,
+   "bio": 0.36180358039150073,
+   "nonACGT": 0
+  },
+  {
+   "acc": "NM_000249.4",
+   "ours": 0.4542902967121091,
+   "bio": 0.4542902967121091,
+   "nonACGT": 0
+  },
+  {
+   "acc": "NM_000251.3",
+   "ours": 0.4025682182985554,
+   "bio": 0.4025682182985554,
+   "nonACGT": 0
+  },
+  {
+   "acc": "NM_000314.8",
+   "ours": 0.3672342924251321,
+   "bio": 0.3672342924251321,
+   "nonACGT": 0
+  },
+  {
+   "acc": "NM_000546.6",
+   "ours": 0.5338375796178344,
+   "bio": 0.5338375796178344,
+   "nonACGT": 0
+  },
+  {
+   "acc": "NM_001126112.3",
+   "ours": 0.533678756476684,
+   "bio": 0.533678756476684,
+   "nonACGT": 0
+  },
+  {
+   "acc": "NM_001904.4",
+   "ours": 0.4465992898115269,
+   "bio": 0.4465992898115269,
+   "nonACGT": 0
+  },
+  {
+   "acc": "NM_002524.5",
+   "ours": 0.3742487286176607,
+   "bio": 0.3742487286176607,
+   "nonACGT": 0
+  },
+  {
+   "acc": "NM_004333.6",
+   "ours": 0.4107446973215668,
+   "bio": 0.4107446973215668,
+   "nonACGT": 0
+  },
+  {
+   "acc": "NM_004985.5",
+   "ours": 0.3627968337730871,
+   "bio": 0.3627968337730871,
+   "nonACGT": 0
+  },
+  {
+   "acc": "NM_005228.5",
+   "ours": 0.47783947501261986,
+   "bio": 0.47783947501261986,
+   "nonACGT": 0
+  },
+  {
+   "acc": "NM_007294.4",
+   "ours": 0.4177483069977427,
+   "bio": 0.4177483069977427,
+   "nonACGT": 0
+  }
+ ],
+ "gc_equal_1e12": 24,
+ "n_records": 25,
+ "find_motif": {
+  "queries": 192,
+  "equal": 192
+ },
+ "molecular_weight": {
+  "n": 500,
+  "n_nonstandard_skipped": 0,
+  "max_abs_da": 8.599999996396946,
+  "max_rel": 4.952079909414352e-05,
+  "median_abs_da": 1.8891000001167413
+ },
+ "tm_wallace_short": {
+  "n": 500,
+  "equal": 500
+ },
+ "orfs_min100": {
+  "records": 22,
+  "equal": 22,
+  "n_orfs_bio": 239,
+  "n_orfs_ours": 239
+ },
+ "latent_bug": {
+  "fixed_in_sugarcode_commit": "143d1c4",
+  "before": {
+   "clean_dna(\"atg rct\\ntaa\")": "ATGCTTAA",
+   "translate(\"ATGRCTTAA\")": "ML"
+  },
+  "after": {
+   "clean_dna": "ATGNCTTAA",
+   "translate": "MX*"
+  },
+  "real_cases_in_this_set": 0,
+  "note": "No CDS in these 25 records carries an ambiguity code, so the real-data numbers are identical before and after; the fix is a regression-tested latent bug."
+ },
+ "gc_note": "NC_012920.1 has one N (position 3107). sugarcode excludes N from the GC denominator; Biopython gc_fraction(ambiguous=\"ignore\") keeps it. Difference 2.7e-5, a convention not an error.",
+ "mw_note": "sugarcode uses 2-decimal average residue masses; Biopython uses IUPAC average masses. Max relative difference 5e-5."
+}
