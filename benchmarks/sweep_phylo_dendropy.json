@@ -1,0 +1,57 @@
+{
+ "tools": "DendroPy 5.1.0 (PhylogeneticDistanceMatrix.nj_tree/upgma_tree, treecompare.symmetric_difference); Biopython DistanceCalculator",
+ "data": "Rfam seed alignments RF00001/RF00005/RF00010, 30 random sequences each, K80 distances (p-distance where K80 saturates)",
+ "results": {
+  "RF00001": {
+   "distance_model": "k80",
+   "n_seqs": 30,
+   "aln_len": 230,
+   "nj": {
+    "rf_symmetric_difference": 0,
+    "patristic_max_abs_diff": 1e-06,
+    "patristic_pearson": 1.0
+   },
+   "upgma": {
+    "rf_symmetric_difference": 0,
+    "patristic_max_abs_diff": 1e-06,
+    "patristic_pearson": 1.0
+   },
+   "pdistance_note": "sugarcode uses pairwise deletion of gap columns; Biopython identity counts gaps",
+   "pdistance_vs_biopython_identity_pearson": 0.9847
+  },
+  "RF00005": {
+   "distance_model": "pdistance (K80 saturated: some pairs have infinite distance)",
+   "n_seqs": 30,
+   "aln_len": 118,
+   "nj": {
+    "rf_symmetric_difference": 0,
+    "patristic_max_abs_diff": 1e-06,
+    "patristic_pearson": 1.0
+   },
+   "upgma": {
+    "rf_symmetric_difference": 2,
+    "patristic_max_abs_diff": 0.070423,
+    "patristic_pearson": 0.998035
+   },
+   "pdistance_note": "sugarcode uses pairwise deletion of gap columns; Biopython identity counts gaps",
+   "pdistance_vs_biopython_identity_pearson": 0.8818
+  },
+  "RF00010": {
+   "distance_model": "k80",
+   "n_seqs": 30,
+   "aln_len": 996,
+   "nj": {
+    "rf_symmetric_difference": 0,
+    "patristic_max_abs_diff": 1e-06,
+    "patristic_pearson": 1.0
+   },
+   "upgma": {
+    "rf_symmetric_difference": 0,
+    "patristic_max_abs_diff": 1e-06,
+    "patristic_pearson": 1.0
+   },
+   "pdistance_note": "sugarcode uses pairwise deletion of gap columns; Biopython identity counts gaps",
+   "pdistance_vs_biopython_identity_pearson": 0.7868
+  }
+ }
+}

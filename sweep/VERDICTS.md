@@ -69,3 +69,8 @@ Cross-species BH-FDR (statsmodels): ribosomal-reference CAI is significantly cor
 ## bio.primer vs primer3-py (2026-09-24)
 - 5,404 20-mers tiled from 5 RefSeq mRNAs. tm_nn equals Biopython Tm_NN with DNA_NN4 exactly (max diff 0.0). Versus primer3 (SantaLucia 1998 table) mean -0.17 C, max 0.98 C, Pearson 0.99995: table choice, not a bug (benchmarks/sweep_primer_primer3.json).
 - hairpin_max_stem (stem-length heuristic) vs primer3 hairpin dG: Spearman 0.04. NEGATIVE. Fix: sugarcode-ai bio.primer.hairpin_dg calls primer3 when installed.
+
+## bio.phylo NJ/UPGMA vs DendroPy (2026-09-24)
+- Same distance matrices (K80; p-distance for RF00005 where K80 saturates to infinity), 30 random sequences from each of 3 Rfam seed alignments.
+- NJ: identical topology (RF 0) and patristic distances (max diff 1e-6) in 3/3 families. UPGMA: identical in RF00001 and RF00010; RF00005 has RF 2 (patristic Pearson 0.998), traced to 2 merge steps with tied minimum distance (sweep/phylo_upgma_ties.py), a tie-breaking difference, not a bug. VERIFIED (benchmarks/sweep_phylo_dendropy.json).
+- p-distance differs from Biopython identity by design (pairwise gap deletion vs gaps counted): Pearson 0.79-0.98.
