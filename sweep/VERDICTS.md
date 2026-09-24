@@ -169,3 +169,4 @@ BUG: v2 LOEUF cutoff 0.35 on r4 data; gnomAD v4 guidance 0.45. pLI agreement 51-
 
 ## modules.cfd_offtarget vs Doench 2016 pickles (2026-09-25)
 600 BRCA1 pairs x 16 PAMs = 9,600 scores, max diff 2.2e-16. No bug. benchmarks/sweep_cfd_doench.json
+- str_scope (2026-09-25): BUG FIXED (sugarcode 727344a). find_strs vs pytrf 1.5.0 on 25 GenBank records: 208/211 before, 211/211 after, 0 extra calls; 209 identical coordinates, 2 same span in disease-motif phase (by design). Cause: greedy scan skipped past compound repeats that started inside a flank homopolymer. Also expansion_call: legacy delta rule mislabels HTT 27, 28, 36 and 154 FMR1 counts (all premutations 55-200 called pathogenic) vs GeneReviews NBK1305/NBK1384; optional locus bands added, 0 HTT disagreements. Evidence: benchmarks/sweep_str_pytrf.json.
