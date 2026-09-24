@@ -114,10 +114,10 @@ bio	pdb	313	1	not yet validated
 bio	phylo	232	1	validated	benchmarks/sweep_phylo_dendropy.json
 bio	pileup	148	1	not yet validated	
 bio	primer	278	3	validated	benchmarks/sweep_primer_primer3.json
-bio	proteinprops	261	1	not yet validated	
+bio	proteinprops	261	1	validated	benchmarks/sweep_proteinprops_restriction.json
 bio	pwm	63	2	not yet validated	
 bio	reactome	63	0	not yet validated	
-bio	restriction	141	1	not yet validated	
+bio	restriction	150	1	validated	benchmarks/sweep_proteinprops_restriction.json
 bio	rnaseq	201	1	validated	benchmarks/sweep_de_pydeseq2.json
 bio	sam	219	2	not yet validated	
 bio	sequence	168	2	not yet validated	

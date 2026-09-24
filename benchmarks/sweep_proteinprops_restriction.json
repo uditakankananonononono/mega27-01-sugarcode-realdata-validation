@@ -1,0 +1,195 @@
+{
+ "reference": "Biopython 1.88 ProtParam + Restriction",
+ "proteins": "UniProtKB reviewed human, length 50-2000, first 500 of search (rest.uniprot.org, 2026-09-25)",
+ "n_proteins": 500,
+ "proteinprops": {
+  "mw": {
+   "n": 500,
+   "max_abs_diff": 0.0,
+   "max_rel_diff": 0.0,
+   "n_within_tol": 500,
+   "tol": "rel 1e-06",
+   "pearson": 1.0
+  },
+  "gravy": {
+   "n": 500,
+   "max_abs_diff": 0.0,
+   "max_rel_diff": 0.0,
+   "n_within_tol": 500,
+   "tol": "rel 1e-06",
+   "pearson": 0.9999999999999999
+  },
+  "aromaticity": {
+   "n": 500,
+   "max_abs_diff": 2.7755575615628914e-17,
+   "max_rel_diff": 2.2025392262724877e-16,
+   "n_within_tol": 500,
+   "tol": "rel 1e-06",
+   "pearson": 0.9999999999999998
+  },
+  "instability": {
+   "n": 500,
+   "max_abs_diff": 0.0,
+   "max_rel_diff": 0.0,
+   "n_within_tol": 500,
+   "tol": "rel 1e-06",
+   "pearson": 0.9999999999999999
+  },
+  "pI": {
+   "n": 500,
+   "max_abs_diff": 5.8746337892046085e-05,
+   "max_rel_diff": 1.1312451496900784e-05,
+   "n_within_tol": 500,
+   "tol": "abs 0.01",
+   "pearson": 0.9999999999128916
+  },
+  "ext_reduced": {
+   "n": 500,
+   "max_abs_diff": 0.0,
+   "max_rel_diff": 0.0,
+   "n_within_tol": 500,
+   "tol": "rel 1e-06",
+   "pearson": 0.9999999999999999
+  },
+  "ext_oxidized": {
+   "n": 500,
+   "max_abs_diff": 0.0,
+   "max_rel_diff": 0.0,
+   "n_within_tol": 500,
+   "tol": "rel 1e-06",
+   "pearson": 1.0
+  }
+ },
+ "restriction": {
+  "J01749.1": {
+   "length": 4361,
+   "circular": true,
+   "n_enzymes": 610,
+   "agree": 608,
+   "disagree": [
+    {
+     "enzyme": "LpnPI",
+     "sugarcode": [
+      60,
+      117,
+      144,
+      147,
+      156,
+      175,
+      184,
+      224
+     ],
+     "biopython": [
+      60,
+      117,
+      144,
+      175,
+      184,
+      224,
+      319,
+      324
+     ],
+     "n_sc": 145,
+     "n_bio": 120
+    },
+    {
+     "enzyme": "MspJI",
+     "sugarcode": [
+      8,
+      15,
+      16,
+      18,
+      25,
+      30,
+      60,
+      61
+     ],
+     "biopython": [
+      8,
+      15,
+      16,
+      18,
+      25,
+      30,
+      60,
+      64
+     ],
+     "n_sc": 1021,
+     "n_bio": 755
+    }
+   ],
+   "n_disagree": 2
+  },
+  "NC_001416.1": {
+   "length": 48502,
+   "circular": false,
+   "n_enzymes": 610,
+   "agree": 608,
+   "disagree": [
+    {
+     "enzyme": "LpnPI",
+     "sugarcode": [
+      28,
+      56,
+      108,
+      198,
+      239,
+      243,
+      249,
+      365
+     ],
+     "biopython": [
+      56,
+      108,
+      198,
+      239,
+      243,
+      249,
+      387,
+      393
+     ],
+     "n_sc": 1685,
+     "n_bio": 1364
+    },
+    {
+     "enzyme": "MspJI",
+     "sugarcode": [
+      2,
+      8,
+      17,
+      24,
+      26,
+      28,
+      29,
+      35
+     ],
+     "biopython": [
+      8,
+      17,
+      24,
+      26,
+      28,
+      35,
+      44,
+      54
+     ],
+     "n_sc": 10471,
+     "n_bio": 7962
+    }
+   ],
+   "n_disagree": 2
+  }
+ },
+ "enzymes_not_in_biopython": [],
+ "restriction_before_fix": {
+  "J01749.1": {
+   "agree": 533,
+   "n_disagree": 77
+  },
+  "NC_001416.1": {
+   "agree": 529,
+   "n_disagree": 81
+  },
+  "sugarcode_commit": "699ffee"
+ }
+}
