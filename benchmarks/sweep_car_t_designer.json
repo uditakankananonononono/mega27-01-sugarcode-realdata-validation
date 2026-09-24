@@ -1,0 +1,90 @@
+{
+ "module": "car_t_designer",
+ "cd19_vs_kymriah": {
+  "module": {
+   "scfv": "FMC63",
+   "hinge": "CD8a",
+   "costim": "4-1BB",
+   "activation": "CD3zeta"
+  },
+  "reference": "Kymriah (tisagenlecleucel): FMC63 scFv, CD8a hinge/TM, 4-1BB, CD3z (DailyMed label; canonical FMC63-CD8H-41BB-CD3z architecture, e.g. Addgene 200671)",
+  "match": true,
+  "note": "Yescarta (CD28) is a second valid CD19 architecture; module rationale favors persistence"
+ },
+ "bcma_vs_abecma": {
+  "module": {
+   "scfv": "C11D5.3",
+   "hinge": "CD8a",
+   "costim": "4-1BB"
+  },
+  "reference": "Abecma (idecabtagene vicleucel, FDA label fda.gov/media/147055): murine anti-BCMA scFv, CD8a hinge/TM, CD137 (4-1BB), CD3z",
+  "match": true,
+  "note": "C11D5.3 is the parent hybridoma of bb2121/ide-cel"
+ },
+ "scfv_map": {
+  "FMC63-CD19": true,
+  "C11D5.3-BCMA": true,
+  "4D5-HER2": "trastuzumab parent mAb (standard)",
+  "14G2a-GD2": true,
+  "GC33-GPC3": "standard anti-GPC3 mAb",
+  "verified_sources": [
+   "14G2a: PMC6082365 + S0304383509001347"
+  ]
+ },
+ "antigen_indications": {
+  "CD19": "B-ALL/lymphoma",
+  "BCMA": "multiple myeloma",
+  "HER2": "breast/gastric",
+  "GD2": "neuroblastoma",
+  "GPC3": "hepatocellular",
+  "CLDN18.2": "gastric/pancreatic"
+ },
+ "costim_logic": {
+  "CD19": "4-1BB",
+  "BCMA": "4-1BB",
+  "HER2": "4-1BB",
+  "GD2": "4-1BB",
+  "GPC3": "CD28",
+  "CLDN18.2": "4-1BB"
+ },
+ "costim_logic_correct": true,
+ "safety_switch_logic": true,
+ "toxicity": {
+  "module_crs": 0.42,
+  "expected_crs": 0.42,
+  "match": true,
+  "ot_match": true,
+  "neuro_match": true
+ },
+ "selectivity": {
+  "ratio": 100.0,
+  "selective": true,
+  "match": true,
+  "floor": true
+ },
+ "logic_gates": {
+  "results": [
+   true,
+   false,
+   true,
+   false,
+   true
+  ],
+  "match": true,
+  "bad_gate_raises": true
+ },
+ "exhaustion": {
+  "match": true,
+  "monotone": true,
+  "cd28_faster": true
+ },
+ "killing": {
+  "match": true,
+  "saturates_at_antigen_frac": false
+ },
+ "trial": {
+  "persistence_match": true,
+  "response_value": 0.6,
+  "response_plausible_range": true
+ }
+}
