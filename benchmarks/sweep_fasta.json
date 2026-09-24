@@ -1,0 +1,44 @@
+{
+ "reference": "Biopython 1.88 SeqIO on Rfam CURRENT fasta_files (RF00059, RF00050, RF00504)",
+ "rows": [
+  {
+   "file": "RF00059",
+   "match": true,
+   "n": 16245,
+   "stream_matches_parse": true
+  },
+  {
+   "file": "RF00050",
+   "match": true,
+   "n": 6377,
+   "stream_matches_parse": true
+  },
+  {
+   "file": "RF00504",
+   "match": true,
+   "n": 9474,
+   "stream_matches_parse": true
+  }
+ ],
+ "mismatches": 0,
+ "roundtrip_200_ok": true,
+ "edge_blank_crlf": {
+  "biopython": [],
+  "biopython_error": "This FASTA file contains comments at the beginning of the file, which are not",
+  "own": [
+   [
+    "id1",
+    "id1 desc words",
+    "ACGTT"
+   ],
+   [
+    "id2",
+    "id2",
+    "GG"
+   ]
+  ],
+  "match": false,
+  "note": "Biopython rejects leading blank lines; bio.fasta skips them (leniency, not a mismatch on valid files)"
+ },
+ "sugarcode_commit": "947b55e"
+}

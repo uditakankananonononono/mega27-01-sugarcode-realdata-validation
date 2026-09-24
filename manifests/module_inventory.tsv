@@ -100,7 +100,7 @@ bio	chembl	184	0	validated	benchmarks/sweep_chembl_order.json
 bio	codon	170	2	validated	benchmarks/sweep_codon_cai.json
 bio	de	218	2	validated	benchmarks/sweep_de_pydeseq2.json
 bio	entrez	196	2	validated	benchmarks/sweep_entrez_hgnc.json
-bio	fasta	55	3	not yet validated	
+bio	fasta	55	3	validated	benchmarks/sweep_fasta.json
 bio	fastq	183	1	validated	benchmarks/sweep_fastq_biopython.json
 bio	genbank	103	2	validated	benchmarks/sweep_genbank_biopython.json
 bio	gff	237	1	validated	benchmarks/sweep_gff_gffutils.json

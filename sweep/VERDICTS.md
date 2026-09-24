@@ -207,3 +207,6 @@ BUGS FIXED (sugarcode d03c109 + 616807d + 947b55e): (1) PBS reverse-complemented
 
 ## modules.promoter_lib + modules.stability_ai vs theory (2026-09-25)
 NO BUG. Hill occupancy matches 1/(1+(Kd/c)^h) to 2.2e-16 (grid over h, Kd, c; half at c=Kd; expit cross-check at h=1). Burst noise matches Poisson-burst theory (Var=mu(1+B), Fano=1+B) on all 4 settings. Wright-Fisher drift tracks an independent deterministic recursion within 0.002 at N=2e6 across 3 constructs; seed-reproducible; correct extinction extremes. Caveat documented: model parameters are defaults, not fitted to experimental stability data. benchmarks/sweep_stability_promoter.json
+
+## bio.fasta vs Biopython SeqIO (2026-09-25)
+NO BUG. Exact agreement (ids, descriptions, sequences) on 32,096 real Rfam seed records (RF00059/RF00050/RF00504); stream_fasta == parse_fasta on all; write->parse round trip lossless (200 records, w=50). Noted difference: Biopython rejects leading blank lines, bio.fasta skips them (documented leniency). benchmarks/sweep_fasta.json
