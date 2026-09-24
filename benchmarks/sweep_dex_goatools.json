@@ -1,0 +1,281 @@
+{
+ "tool": "goatools 1.6.5 GOEnrichmentStudy (Fisher exact, BH FDR, propagated counts)",
+ "go_release": "go-basic.obo: fmt(1.2) rel(2026-07-26) 41,378 Terms",
+ "annotations": "GOA human GAF (current.geneontology.org, 2026-09-25), BP, NOT excluded",
+ "n_population": 16525,
+ "n_study": 527,
+ "n_annotated_pop": 12239,
+ "n_sig_bp_fdr05": 38,
+ "top25": [
+  {
+   "go": "GO:0032870",
+   "name": "cellular response to hormone stimulus",
+   "study": 28,
+   "pop": 249,
+   "p": 7.413779877780342e-09,
+   "fdr": 3.389398644717691e-05
+  },
+  {
+   "go": "GO:0009725",
+   "name": "response to hormone",
+   "study": 38,
+   "pop": 421,
+   "p": 8.129353960787554e-09,
+   "fdr": 3.389398644717691e-05
+  },
+  {
+   "go": "GO:0007155",
+   "name": "cell adhesion",
+   "study": 39,
+   "pop": 513,
+   "p": 5.458564354634747e-07,
+   "fdr": 0.0009753674706824488
+  },
+  {
+   "go": "GO:0032502",
+   "name": "developmental process",
+   "study": 132,
+   "pop": 2766,
+   "p": 7.610584584576255e-07,
+   "fdr": 0.0010772909316203116
+  },
+  {
+   "go": "GO:0007165",
+   "name": "signal transduction",
+   "study": 130,
+   "pop": 2703,
+   "p": 7.855802099633014e-07,
+   "fdr": 0.0010772909316203116
+  },
+  {
+   "go": "GO:0030334",
+   "name": "regulation of cell migration",
+   "study": 47,
+   "pop": 689,
+   "p": 1.0841110241336392e-06,
+   "fdr": 0.00113000505748863
+  },
+  {
+   "go": "GO:2000145",
+   "name": "regulation of cell motility",
+   "study": 48,
+   "pop": 719,
+   "p": 1.2156631547553357e-06,
+   "fdr": 0.0011696549799753645
+  },
+  {
+   "go": "GO:0044057",
+   "name": "regulation of system process",
+   "study": 28,
+   "pop": 322,
+   "p": 1.637717286216963e-06,
+   "fdr": 0.0014631834154286982
+  },
+  {
+   "go": "GO:0071495",
+   "name": "cellular response to endogenous stimulus",
+   "study": 33,
+   "pop": 419,
+   "p": 2.8484133089608794e-06,
+   "fdr": 0.002179489373787808
+  },
+  {
+   "go": "GO:0040012",
+   "name": "regulation of locomotion",
+   "study": 48,
+   "pop": 740,
+   "p": 2.884404378051198e-06,
+   "fdr": 0.002179489373787808
+  },
+  {
+   "go": "GO:2000146",
+   "name": "negative regulation of cell motility",
+   "study": 22,
+   "pop": 224,
+   "p": 3.035844143028375e-06,
+   "fdr": 0.002179489373787808
+  },
+  {
+   "go": "GO:0009719",
+   "name": "response to endogenous stimulus",
+   "study": 42,
+   "pop": 613,
+   "p": 3.1364573655404974e-06,
+   "fdr": 0.002179489373787808
+  },
+  {
+   "go": "GO:0090257",
+   "name": "regulation of muscle system process",
+   "study": 17,
+   "pop": 146,
+   "p": 4.1809809150561445e-06,
+   "fdr": 0.0027524057518695925
+  },
+  {
+   "go": "GO:0040013",
+   "name": "negative regulation of locomotion",
+   "study": 22,
+   "pop": 230,
+   "p": 4.679446626736504e-06,
+   "fdr": 0.0029265259203610093
+  },
+  {
+   "go": "GO:0030336",
+   "name": "negative regulation of cell migration",
+   "study": 21,
+   "pop": 215,
+   "p": 5.538723310773234e-06,
+   "fdr": 0.0032989691033881714
+  },
+  {
+   "go": "GO:1901700",
+   "name": "response to oxygen-containing compound",
+   "study": 53,
+   "pop": 879,
+   "p": 7.27370968648346e-06,
+   "fdr": 0.004135434579933415
+  },
+  {
+   "go": "GO:0051239",
+   "name": "regulation of multicellular organismal process",
+   "study": 93,
+   "pop": 1852,
+   "p": 8.480460113349734e-06,
+   "fdr": 0.004611895439033847
+  },
+  {
+   "go": "GO:0050793",
+   "name": "regulation of developmental process",
+   "study": 80,
+   "pop": 1543,
+   "p": 1.2474991234922928e-05,
+   "fdr": 0.006501549598600666
+  },
+  {
+   "go": "GO:0071375",
+   "name": "cellular response to peptide hormone stimulus",
+   "study": 16,
+   "pop": 147,
+   "p": 1.8871469586331174e-05,
+   "fdr": 0.009441773663433213
+  },
+  {
+   "go": "GO:0033993",
+   "name": "response to lipid",
+   "study": 33,
+   "pop": 477,
+   "p": 2.965055118371031e-05,
+   "fdr": 0.014099747056933027
+  },
+  {
+   "go": "GO:0043434",
+   "name": "response to peptide hormone",
+   "study": 20,
+   "pop": 223,
+   "p": 3.2196392389992584e-05,
+   "fdr": 0.014099747056933027
+  },
+  {
+   "go": "GO:0051136",
+   "name": "regulation of NK T cell differentiation",
+   "study": 3,
+   "pop": 3,
+   "p": 3.225596992124673e-05,
+   "fdr": 0.014099747056933027
+  },
+  {
+   "go": "GO:0044320",
+   "name": "cellular response to leptin stimulus",
+   "study": 4,
+   "pop": 7,
+   "p": 3.315590328113131e-05,
+   "fdr": 0.014099747056933027
+  },
+  {
+   "go": "GO:0044281",
+   "name": "small molecule metabolic process",
+   "study": 60,
+   "pop": 1089,
+   "p": 3.381774957691004e-05,
+   "fdr": 0.014099747056933027
+  },
+  {
+   "go": "GO:0070887",
+   "name": "cellular response to chemical stimulus",
+   "study": 53,
+   "pop": 927,
+   "p": 4.30301520640137e-05,
+   "fdr": 0.017361972323118816
+  }
+ ],
+ "glucocorticoid_terms": [
+  {
+   "go": "GO:0071385",
+   "name": "cellular response to glucocorticoid stimulus",
+   "study": 7,
+   "pop": 34,
+   "p": 8.201124011796673e-05,
+   "fdr": 0.026302476702449434
+  },
+  {
+   "go": "GO:0051384",
+   "name": "response to glucocorticoid",
+   "study": 10,
+   "pop": 80,
+   "p": 0.0002218227834293529,
+   "fdr": 0.05138121938887757
+  },
+  {
+   "go": "GO:2000322",
+   "name": "regulation of nuclear receptor-mediated glucocorticoid signaling pathway",
+   "study": 2,
+   "pop": 8,
+   "p": 0.025019871252931838,
+   "fdr": 0.6107190717855967
+  },
+  {
+   "go": "GO:0006713",
+   "name": "glucocorticoid catabolic process",
+   "study": 1,
+   "pop": 2,
+   "p": 0.06276697608686178,
+   "fdr": 0.7986937484327662
+  },
+  {
+   "go": "GO:2000324",
+   "name": "positive regulation of nuclear receptor-mediated glucocorticoid signaling pathway",
+   "study": 1,
+   "pop": 2,
+   "p": 0.06276697608686178,
+   "fdr": 0.7986937484327662
+  },
+  {
+   "go": "GO:2000323",
+   "name": "negative regulation of nuclear receptor-mediated glucocorticoid signaling pathway",
+   "study": 1,
+   "pop": 6,
+   "p": 0.1767488297546314,
+   "fdr": 1.0
+  },
+  {
+   "go": "GO:0008211",
+   "name": "glucocorticoid metabolic process",
+   "study": 1,
+   "pop": 8,
+   "p": 0.22844028115037532,
+   "fdr": 1.0
+  }
+ ],
+ "gprofiler_top_bp_in_goatools_sig": [
+  "GO:0007155",
+  "GO:0007165",
+  "GO:0009719",
+  "GO:0009725",
+  "GO:0032502",
+  "GO:0044057",
+  "GO:0048856",
+  "GO:0048869",
+  "GO:0071495"
+ ],
+ "gprofiler_top_bp_total": 22
+}
