@@ -74,3 +74,18 @@ We parsed 30 RCSB entries in both PDB and mmCIF format (94,121 atom sites, all a
 \subsection{Pileup}
 Using the same reads, bio.pileup and pysam 0.24.1 pileup (stepper nofilter, flag\_filter=4, no quality filters, overlaps kept) agree on base counts at 197,437/197,437 positions and on deletion counts at 197,437/197,437. sugarcode also writes deletions as `*' in the base counts, following samtools mpileup; the comparison maps these to the deletion count.
 \paragraph{(F49) Column depth.} $D(p)=\sum_{r}\mathbb 1[p\in[\mathrm{POS}_r,\mathrm{end}_r]\ \wedge\ \mathrm{op}_r(p)\in\{M,=,X,D\}]$, split into base-covering reads ($M,=,X$) and deletions ($D$); reference skips ($N$) and clipped bases do not count.
+\subsection{Transcription-factor motifs}
+We read 10 JASPAR 2024 profiles and scanned BRCA1 (10 kb) and phage lambda (48.5 kb) on both strands, comparing with Biopython 1.88 Bio.motifs (jaspar reader, pseudocount 0.5, uniform background, log2). Log-odds matrices agree to $2\times10^{-15}$, per-window scores to $4\times10^{-6}$ (Biopython stores scores in single precision), and the hit sets at 80\% of the score range are identical for every motif and sequence.
+\begin{table}[h]\centering\small\begin{tabular}{lrrr}\hline motif & length & hits BRCA1 & hits lambda\\\hline
+MA0003.4 TFAP2A & 14 & 27 & 61\\
+MA0079.3 SP1 & 11 & 235 & 599\\
+MA0080.4 SPI1 & 14 & 16 & 61\\
+MA0099.3 FOS::JUN & 10 & 77 & 286\\
+MA0105.4 NFKB1 & 13 & 29 & 52\\
+MA0106.3 TP53 & 18 & 8 & 21\\
+MA0108.2 TBP & 15 & 154 & 530\\
+MA0112.3 ESR1 & 17 & 11 & 18\\
+MA0113.3 NR3C1 & 17 & 2 & 36\\
+MA0139.1 CTCF & 19 & 13 & 40\\
+\hline\end{tabular}\caption{Motif hits at 80\% of range, identical to Biopython (benchmarks/sweep\_motif\_biopython.json).}\end{table}
+\paragraph{(F50) Log-odds score and relative threshold.} $S(w)=\sum_{i=1}^{L}\log_2\frac{(c_{i,w_i}+\alpha)/(N_i+4\alpha)}{q_{w_i}}$ with pseudocount $\alpha=0.5$ and background $q=1/4$; a window is a hit when $S(w)\ge S_{\min}+f\,(S_{\max}-S_{\min})$, $f=0.8$, where $S_{\max}=\sum_i\max_b$ and $S_{\min}=\sum_i\min_b$ of the log-odds matrix.

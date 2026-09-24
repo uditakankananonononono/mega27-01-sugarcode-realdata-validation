@@ -130,3 +130,6 @@ Stratified subsample of 1,501 of the 9,235 modelled splice-region SNVs (379 path
 
 ## bio.pileup vs pysam pileup (2026-09-25)
 Same 10,943 NA12878 chr20 reads, matched filters (unmapped excluded only): 197,437 positions; A/C/G/T/N counts and deletion counts equal pysam at 197,437/197,437. sugarcode also lists deletions as '*' in the counts (samtools mpileup convention), which the comparison maps to del_depth. VERIFIED. Numbers: benchmarks/sweep_pileup_pysam.json.
+
+## bio.motif + bio.pwm vs Biopython Bio.motifs (2026-09-25)
+10 JASPAR 2024 profiles (SP1, CTCF, TP53, TBP, NR3C1, ESR1, SPI1, FOS::JUN, NFKB1, TFAP2A) scanned over BRCA1 10 kb and lambda (both strands): log-odds matrices equal to 1.8e-15, min/max scores equal, per-window scores equal to 3.8e-6 (Biopython stores float32), and the 80%-of-range hit sets identical in 20/20 motif x sequence pairs. VERIFIED (bio.motif uses bio.pwm's log_odds/score/min/max, so both are covered). Numbers: benchmarks/sweep_motif_biopython.json.

@@ -206,3 +206,13 @@ opentree_node	ott81461	Open Tree of Life synthetic subtree rooted at ott81461 (h
 opentree_node	ott913935	Open Tree of Life synthetic subtree rooted at ott913935 (height_limit 7)	ott913935	sweep/newick_vs_biophylo.py
 study	NA12878_chr20_lowcov	1000 Genomes phase 3 NA12878 chrom20 low-coverage BAM, region 20:1000000-1200000 (10,943 reads)	NA12878.chrom20.ILLUMINA.bwa.CEU.low_coverage.20121211.bam	sweep/sam_vs_pysam.py
 study	SRR622461	ENA run SRR622461 read 1 FASTQ, first 20,000 reads	SRR622461	sweep/fastq_vs_biopython.py
+jaspar_matrix	MA0003.4	JASPAR 2024 profile TFAP2A (jaspar.elixir.no REST)	MA0003.4	sweep/motif_vs_biopython.py
+jaspar_matrix	MA0079.3	JASPAR 2024 profile SP1 (jaspar.elixir.no REST)	MA0079.3	sweep/motif_vs_biopython.py
+jaspar_matrix	MA0080.4	JASPAR 2024 profile SPI1 (jaspar.elixir.no REST)	MA0080.4	sweep/motif_vs_biopython.py
+jaspar_matrix	MA0099.3	JASPAR 2024 profile FOS::JUN (jaspar.elixir.no REST)	MA0099.3	sweep/motif_vs_biopython.py
+jaspar_matrix	MA0105.4	JASPAR 2024 profile NFKB1 (jaspar.elixir.no REST)	MA0105.4	sweep/motif_vs_biopython.py
+jaspar_matrix	MA0106.3	JASPAR 2024 profile TP53 (jaspar.elixir.no REST)	MA0106.3	sweep/motif_vs_biopython.py
+jaspar_matrix	MA0108.2	JASPAR 2024 profile TBP (jaspar.elixir.no REST)	MA0108.2	sweep/motif_vs_biopython.py
+jaspar_matrix	MA0112.3	JASPAR 2024 profile ESR1 (jaspar.elixir.no REST)	MA0112.3	sweep/motif_vs_biopython.py
+jaspar_matrix	MA0113.3	JASPAR 2024 profile NR3C1 (jaspar.elixir.no REST)	MA0113.3	sweep/motif_vs_biopython.py
+jaspar_matrix	MA0139.1	JASPAR 2024 profile CTCF (jaspar.elixir.no REST)	MA0139.1	sweep/motif_vs_biopython.py
