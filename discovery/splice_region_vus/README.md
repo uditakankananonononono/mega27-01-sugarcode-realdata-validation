@@ -21,3 +21,6 @@ AUC: SpliceAI 0.978 (95% bootstrap CI 0.964-0.988) vs our CNN 0.929 (0.907-0.948
 - These are predictions, not discoveries. Each is falsifiable by minigene/RT-PCR or by future ClinVar reclassification.
 - CV calibration at CNN >= 0.98: PPV 0.975 at the CV class mix, 0.78 at a 3% pathogenic prior.
 - The top 300 are 95% donor +5 variants (a position prior), so SpliceAI agreement is what makes each candidate credible.
+
+## Prior-report check (top 20 candidates)
+LOVD shared installation (REST API, 2026-09-24): 0/20 candidates matched an exact c. string in the gene's LOVD variant list (`lovd_top20.json`). Caveat: LOVD entries may use older transcript numbering, so a miss doesn't prove the variant is absent. Literature search is still pending.
