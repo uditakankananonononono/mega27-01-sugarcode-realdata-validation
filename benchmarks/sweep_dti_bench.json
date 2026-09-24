@@ -1,0 +1,93 @@
+{
+ "module": "dti_bench",
+ "targets": {
+  "CHEMBL203": 210,
+  "CHEMBL279": 271,
+  "CHEMBL1862": 195,
+  "CHEMBL2971": 248,
+  "CHEMBL4282": 267,
+  "CHEMBL2842": 275
+ },
+ "target_sequences_vs_uniprot": {
+  "CHEMBL203": {
+   "accession": "P00533",
+   "module_len": 1210,
+   "uniprot_len": 1210,
+   "exact": true
+  },
+  "CHEMBL279": {
+   "accession": "P35968",
+   "module_len": 1356,
+   "uniprot_len": 1356,
+   "exact": true
+  },
+  "CHEMBL1862": {
+   "accession": "P00519",
+   "module_len": 1130,
+   "uniprot_len": 1130,
+   "exact": true
+  },
+  "CHEMBL2971": {
+   "accession": "O60674",
+   "module_len": 1132,
+   "uniprot_len": 1132,
+   "exact": true
+  },
+  "CHEMBL4282": {
+   "accession": "P31749",
+   "module_len": 480,
+   "uniprot_len": 480,
+   "exact": true
+  },
+  "CHEMBL2842": {
+   "accession": "P42345",
+   "module_len": 2549,
+   "uniprot_len": 2549,
+   "exact": true
+  }
+ },
+ "median_aggregation": {
+  "checked_molecules": 481,
+  "agree": 481,
+  "mismatch": 0
+ },
+ "warm_random": {
+  "n_train": 1173,
+  "n_test": 293,
+  "model_rmse": 0.9529132753040862,
+  "model_r2": 0.5389581676659385,
+  "naive_mean_rmse": 1.4034111990161424,
+  "deterministic_split": true,
+  "inside_ad": 293,
+  "outside_ad": 0
+ },
+ "cold_target": {
+  "n_train": 1061,
+  "n_test": 405,
+  "rmse": 1.792885639898168,
+  "r2": -0.8834360273946331,
+  "inside_ad": 0,
+  "outside_ad": 405,
+  "test_targets": [
+   "CHEMBL1862",
+   "CHEMBL203"
+  ]
+ },
+ "time_split": {
+  "n_train": 1173,
+  "n_test": 293,
+  "rmse": 1.2528671120511619,
+  "r2": 0.1338171826866038,
+  "train_max_year": 2009,
+  "test_min_year": 2009
+ },
+ "tanimoto_vs_rdkit": {
+  "n_molecules": 60,
+  "n_pairs": 1770,
+  "spearman": 0.8639,
+  "criterion": "rank agreement (sugarcode hash is not bit-identical to RDKit by design)"
+ },
+ "protein_features_composition": {
+  "match_20aa": true
+ }
+}

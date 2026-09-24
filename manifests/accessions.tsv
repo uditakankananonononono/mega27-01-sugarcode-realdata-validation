@@ -402,3 +402,15 @@ ensembl_gene	ENSG00000089685	HPA pathology rows for BIRC5 (20 cancers)	ENSG00000
 ensembl_gene	ENSG00000081051	HPA pathology rows for AFP (20 cancers)	ENSG00000081051	sweep/oncocircuit_hpa.py
 ensembl_gene	ENSG00000142515	HPA pathology rows for KLK3 (20 cancers)	ENSG00000142515	sweep/oncocircuit_hpa.py
 ensembl_gene	ENSG00000141736	HPA pathology rows for ERBB2 (20 cancers)	ENSG00000141736	sweep/oncocircuit_hpa.py
+chembl_target	CHEMBL203	ChEMBL live target + activities fetch (dti_bench sweep, 2026-09-25)	CHEMBL203	sweep/dti_bench_chembl.py
+chembl_target	CHEMBL279	ChEMBL live target + activities fetch (dti_bench sweep, 2026-09-25)	CHEMBL279	sweep/dti_bench_chembl.py
+chembl_target	CHEMBL1862	ChEMBL live target + activities fetch (dti_bench sweep, 2026-09-25)	CHEMBL1862	sweep/dti_bench_chembl.py
+chembl_target	CHEMBL2971	ChEMBL live target + activities fetch (dti_bench sweep, 2026-09-25)	CHEMBL2971	sweep/dti_bench_chembl.py
+chembl_target	CHEMBL4282	ChEMBL live target + activities fetch (dti_bench sweep, 2026-09-25)	CHEMBL4282	sweep/dti_bench_chembl.py
+chembl_target	CHEMBL2842	ChEMBL live target + activities fetch (dti_bench sweep, 2026-09-25)	CHEMBL2842	sweep/dti_bench_chembl.py
+uniprot	P00533	UniProt canonical sequence fetched live, EGFR (dti_bench sweep)	P00533	sweep/dti_bench_chembl.py
+uniprot	P35968	UniProt canonical sequence fetched live, KDR (dti_bench sweep)	P35968	sweep/dti_bench_chembl.py
+uniprot	P00519	UniProt canonical sequence fetched live, ABL1 (dti_bench sweep)	P00519	sweep/dti_bench_chembl.py
+uniprot	O60674	UniProt canonical sequence fetched live, JAK2 (dti_bench sweep)	O60674	sweep/dti_bench_chembl.py
+uniprot	P31749	UniProt canonical sequence fetched live, AKT1 (dti_bench sweep)	P31749	sweep/dti_bench_chembl.py
+uniprot	P42345	UniProt canonical sequence fetched live, mTOR (dti_bench sweep)	P42345	sweep/dti_bench_chembl.py
