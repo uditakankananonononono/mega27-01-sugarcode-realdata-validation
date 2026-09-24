@@ -45,3 +45,4 @@ bioframe	0.8.0	sweep/bed_vs_bioframe.py -> benchmarks/sweep_bed_bioframe.json	co
 sourmash	4.8.14	sweep/kmer_vs_sourmash.py -> benchmarks/sweep_kmer_sourmash.json	counts
 Ensembl REST API (GRCh37 mirror, 1000 Genomes phase 3 genotypes)	live 2026-09-25	sweep/gstats_vs_scipy.py -> benchmarks/sweep_gstats_scipy.json	counts
 HGNC REST API (genenames.org)	live 2026-09-25	sweep/uniprot_vs_hgnc.py -> benchmarks/sweep_uniprot_hgnc.json	counts
+gnomAD GraphQL API (r4)	live 2026-09-25	sweep/gnomad_constraint_threshold.py -> benchmarks/sweep_gnomad_constraint.json	counts

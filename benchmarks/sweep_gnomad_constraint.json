@@ -1,0 +1,503 @@
+{
+ "source": "gnomAD r4 GraphQL gene.gnomad_constraint",
+ "guidance": "https://gnomad.broadinstitute.org/help/constraint: LOEUF < 0.45 suggested for Mendelian interpretation (15th percentile of 17,063 MANE Select); v2 thresholds do not transfer to v4",
+ "n_genes": 60,
+ "n_scored": 60,
+ "constrained_old_035": 13,
+ "constrained_new_045": 19,
+ "pli_gt_0.9": 22,
+ "agree_pli_old": 51,
+ "agree_pli_new": 57,
+ "flipped_to_constrained": [
+  "APC",
+  "FMR1",
+  "LMNA",
+  "NF1",
+  "SCN5A",
+  "TP53"
+ ],
+ "rows": [
+  {
+   "gene": "ABCC11",
+   "loeuf": 1.04276267325848,
+   "pli": 2.0313272374807087e-41,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "ABL1",
+   "loeuf": 0.19230207246613693,
+   "pli": 0.9999999999999958,
+   "old_035": true,
+   "new_045": true,
+   "pli_gt_0.9": true
+  },
+  {
+   "gene": "ACTN3",
+   "loeuf": 0.9055388134244643,
+   "pli": 1.4082948675339547e-23,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "ADH1B",
+   "loeuf": 1.143450115782384,
+   "pli": 4.575364511266927e-09,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "ALDH2",
+   "loeuf": 0.9493762631259881,
+   "pli": 1.4868985775133324e-11,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "APC",
+   "loeuf": 0.35469248943755244,
+   "pli": 0.9999999999999986,
+   "old_035": false,
+   "new_045": true,
+   "pli_gt_0.9": true
+  },
+  {
+   "gene": "APOE",
+   "loeuf": 1.2948667658800423,
+   "pli": 0.0014179720427969953,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "ASXL1",
+   "loeuf": 0.8963597774411388,
+   "pli": 2.497951398334237e-16,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "ATM",
+   "loeuf": 0.8746422185158996,
+   "pli": 2.9305800462390533e-81,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "BRAF",
+   "loeuf": 0.23234095358685583,
+   "pli": 0.999999999999986,
+   "old_035": true,
+   "new_045": true,
+   "pli_gt_0.9": true
+  },
+  {
+   "gene": "BRCA1",
+   "loeuf": 0.927589724465447,
+   "pli": 5.517117679826164e-38,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "BRCA2",
+   "loeuf": 0.8240908463710617,
+   "pli": 3.317895639965313e-49,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "CDKN2A",
+   "loeuf": 0.695770629152563,
+   "pli": 0.7681145353032415,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "CFTR",
+   "loeuf": 1.193105532032236,
+   "pli": 3.766213879420496e-65,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "CHEK2",
+   "loeuf": 1.2518573345005415,
+   "pli": 3.1399680166091557e-25,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "COMT",
+   "loeuf": 1.0937332046013144,
+   "pli": 0.0006985519161479307,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "DMD",
+   "loeuf": 0.23540360849712702,
+   "pli": 1,
+   "old_035": true,
+   "new_045": true,
+   "pli_gt_0.9": true
+  },
+  {
+   "gene": "DNMT3A",
+   "loeuf": 2.512598856977629,
+   "pli": 1.4132864125860655e-142,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "EDAR",
+   "loeuf": 0.9715775937130693,
+   "pli": 3.631095355980688e-10,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "EGFR",
+   "loeuf": 0.504692914125459,
+   "pli": 0.38906934457929465,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "ERBB2",
+   "loeuf": 0.5065434293783412,
+   "pli": 0.24524237761987883,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "F5",
+   "loeuf": 0.7346297124509565,
+   "pli": 1.182482461656154e-27,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "FLT3",
+   "loeuf": 0.4647227431358266,
+   "pli": 0.9976776258728615,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": true
+  },
+  {
+   "gene": "FMR1",
+   "loeuf": 0.4087247254002069,
+   "pli": 0.9998213796385867,
+   "old_035": false,
+   "new_045": true,
+   "pli_gt_0.9": true
+  },
+  {
+   "gene": "GBA1",
+   "loeuf": 0.6814290792538128,
+   "pli": 0.0003187307141668739,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "HBB",
+   "loeuf": 2.7568015530888315,
+   "pli": 1.8079594771996454e-09,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "HERC2",
+   "loeuf": 0.2236160202276441,
+   "pli": 1,
+   "old_035": true,
+   "new_045": true,
+   "pli_gt_0.9": true
+  },
+  {
+   "gene": "HFE",
+   "loeuf": 1.161310736713692,
+   "pli": 1.762312588391079e-11,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "HTT",
+   "loeuf": 0.3378767881435865,
+   "pli": 1,
+   "old_035": true,
+   "new_045": true,
+   "pli_gt_0.9": true
+  },
+  {
+   "gene": "IDH1",
+   "loeuf": 0.9574387739020989,
+   "pli": 1.2745623643822268e-08,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "IDH2",
+   "loeuf": 0.5280636249702878,
+   "pli": 0.9230553699709066,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": true
+  },
+  {
+   "gene": "JAK2",
+   "loeuf": 0.738709681829725,
+   "pli": 1.192797862619491e-16,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "KCNQ1",
+   "loeuf": 0.8592906496161417,
+   "pli": 1.927176888160678e-11,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "KRAS",
+   "loeuf": 0.22640258841339422,
+   "pli": 0.9998110879093616,
+   "old_035": true,
+   "new_045": true,
+   "pli_gt_0.9": true
+  },
+  {
+   "gene": "LCT",
+   "loeuf": 0.6198737711106648,
+   "pli": 1.7880613621921946e-11,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "LMNA",
+   "loeuf": 0.4129139916756422,
+   "pli": 0.9999512688027111,
+   "old_035": false,
+   "new_045": true,
+   "pli_gt_0.9": true
+  },
+  {
+   "gene": "MLH1",
+   "loeuf": 0.5282648515367104,
+   "pli": 0.48247524046619844,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "MSH2",
+   "loeuf": 0.5925149370845822,
+   "pli": 0.0002953553093786725,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "MTHFR",
+   "loeuf": 0.9172636726566925,
+   "pli": 1.0470471211884424e-12,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "MYC",
+   "loeuf": 0.15552466793581368,
+   "pli": 0.9999983908457727,
+   "old_035": true,
+   "new_045": true,
+   "pli_gt_0.9": true
+  },
+  {
+   "gene": "MYH7",
+   "loeuf": 0.662470606603184,
+   "pli": 6.6431963814459954e-21,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "NF1",
+   "loeuf": 0.43530675368531674,
+   "pli": 0.9999949920108552,
+   "old_035": false,
+   "new_045": true,
+   "pli_gt_0.9": true
+  },
+  {
+   "gene": "NF2",
+   "loeuf": 0.1723807417022588,
+   "pli": 0.9999999999999748,
+   "old_035": true,
+   "new_045": true,
+   "pli_gt_0.9": true
+  },
+  {
+   "gene": "NPM1",
+   "loeuf": 0.10750772567645428,
+   "pli": 0.9999999982044616,
+   "old_035": true,
+   "new_045": true,
+   "pli_gt_0.9": true
+  },
+  {
+   "gene": "NRAS",
+   "loeuf": 0.5558272934013133,
+   "pli": 0.9316429369559026,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": true
+  },
+  {
+   "gene": "OCA2",
+   "loeuf": 0.9286986426766111,
+   "pli": 2.5020113607738185e-20,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "PALB2",
+   "loeuf": 0.9175851801546092,
+   "pli": 1.9451458764442297e-21,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "PIK3CA",
+   "loeuf": 0.2694577141767922,
+   "pli": 0.9999999999999996,
+   "old_035": true,
+   "new_045": true,
+   "pli_gt_0.9": true
+  },
+  {
+   "gene": "PTEN",
+   "loeuf": 0.5972332460642497,
+   "pli": 0.3381560734403222,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "RB1",
+   "loeuf": 0.19715263273754519,
+   "pli": 1,
+   "old_035": true,
+   "new_045": true,
+   "pli_gt_0.9": true
+  },
+  {
+   "gene": "RUNX1",
+   "loeuf": 0.6508861099600733,
+   "pli": 0.06964910806507629,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "SCN5A",
+   "loeuf": 0.37758109433327197,
+   "pli": 0.9999999998494871,
+   "old_035": false,
+   "new_045": true,
+   "pli_gt_0.9": true
+  },
+  {
+   "gene": "SLC24A5",
+   "loeuf": 1.140600959574941,
+   "pli": 1.4700881473527853e-14,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "SMAD4",
+   "loeuf": 0.20798991549600815,
+   "pli": 0.9999999997937987,
+   "old_035": true,
+   "new_045": true,
+   "pli_gt_0.9": true
+  },
+  {
+   "gene": "SOD1",
+   "loeuf": 0.9077218137956596,
+   "pli": 0.07083661136602198,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "STK11",
+   "loeuf": 0.3051347683242151,
+   "pli": 0.9999980280997672,
+   "old_035": true,
+   "new_045": true,
+   "pli_gt_0.9": true
+  },
+  {
+   "gene": "TET2",
+   "loeuf": 2.3022877470645158,
+   "pli": 9.586172858112634e-156,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "TP53",
+   "loeuf": 0.4183620979251529,
+   "pli": 0.999595868281925,
+   "old_035": false,
+   "new_045": true,
+   "pli_gt_0.9": true
+  },
+  {
+   "gene": "TTN",
+   "loeuf": 0.493589473220769,
+   "pli": 3.984085930696679e-115,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  },
+  {
+   "gene": "VHL",
+   "loeuf": 0.8852097453987475,
+   "pli": 0.03254583188606357,
+   "old_035": false,
+   "new_045": false,
+   "pli_gt_0.9": false
+  }
+ ],
+ "fixed_in_sugarcode_commit": "0a265e7",
+ "rate_limit_note": "gnomAD API answered HTTP 400 \"Query rate limit exceeded. Please try again in a few minutes.\" during this sweep; bio.gnomad retries 3 times within ~1.5 s and then raises. Not fixed yet (follow-up: detect the message and back off for minutes)."
+}

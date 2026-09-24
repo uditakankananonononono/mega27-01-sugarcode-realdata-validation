@@ -325,3 +325,4 @@ hgnc_record	HGNC:TP53	HGNC REST fetch/symbol record (curated UniProt mapping)	HG
 hgnc_record	HGNC:TTN	HGNC REST fetch/symbol record (curated UniProt mapping)	HGNC:12403	sweep/uniprot_vs_hgnc.py
 hgnc_record	HGNC:VHL	HGNC REST fetch/symbol record (curated UniProt mapping)	HGNC:12687	sweep/uniprot_vs_hgnc.py
 study	31	Reactome UniProt2Reactome.txt lowest-level mapping (download 2026-09-25; 60-gene human subset committed)	UniProt2Reactome.txt (current release)	sweep/reactome_vs_download.py
+study	32	gnomAD r4 gene constraint (GraphQL API, 60 genes)	gnomad_r4 gnomad_constraint	sweep/gnomad_constraint_threshold.py
