@@ -1,0 +1,42 @@
+{
+ "reference": "RDKit 2026.03.6 canonical SMILES (stereo removed) and Morgan r2/2048",
+ "n_input": 993,
+ "sugarcode_parse_fail": 0,
+ "parse_fail_rdkit_ok": 0,
+ "parse_fail_examples": [],
+ "n_compared": 993,
+ "random_smiles_tested": 3,
+ "invariance_failures": 0,
+ "invariance_examples": [],
+ "key_collisions_distinct_rdkit": 0,
+ "collision_examples": [],
+ "rdkit_same_key_split": 0,
+ "split_examples": [],
+ "unique_rdkit": 980,
+ "unique_keys": 980,
+ "diversity_n": 300,
+ "internal_diversity_sugarcode": 0.9055,
+ "internal_diversity_rdkit": 0.8994,
+ "sugarcode_commit": "15a8ba7",
+ "pre_fix": {
+  "sugarcode_commit": "28b8590",
+  "invariance_failures": 3,
+  "invariance_examples": [
+   {
+    "id": "CHEMBL19",
+    "random": "CC(N=c1n(nc(s1)S(=O)(=O)N)C)=O",
+    "orig": "CC(=O)/N=c1/sc(S(N)(=O)=O)nn1C"
+   },
+   {
+    "id": "CHEMBL24828",
+    "random": "C1(CCN(CC1)C)COc1c(cc2c(nc[nH]c2c1)=Nc1ccc(Br)cc1F)OC",
+    "orig": "COc1cc2/c(=N/c3ccc(Br)cc3F)nc[nH]c2cc1OCC1CCN(C)CC1"
+   },
+   {
+    "id": "CHEMBL1292",
+    "random": "c1ccc2c(c1)n(c1cc(c(cc-1n2)Nc1ccc(cc1)Cl)=NC(C)C)-c1ccc(Cl)cc1",
+    "orig": "CC(C)/N=c1\\cc2n(-c3ccc(Cl)cc3)c3ccccc3nc-2cc1Nc1ccc(Cl)cc1"
+   }
+  ]
+ }
+}

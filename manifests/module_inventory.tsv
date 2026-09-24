@@ -51,7 +51,7 @@ module	microaiverse	138	2	not yet validated
 module	microbiome_exp	119	2	not yet validated	
 module	microbiome_rx	172	2	not yet validated	
 module	mit_offtarget	154	2	validated	VERDICTS table; sweep/crispr_vs_crispor.py
-module	molecule_eval	149	1	not yet validated	
+module	molecule_eval	149	2	validated	benchmarks/sweep_molecule_eval.json
 module	mutdock	337	15	not yet validated	
 module	neodti_engine	257	3	not yet validated	
 module	neohunter	358	11	validated	VERDICTS neohunter section
@@ -74,7 +74,7 @@ module	prime_design	248	2	not yet validated
 module	profile_hmm	747	3	validated	benchmarks/profile_hmm_cv.json, profile_hmm_cv_local.json
 module	promoter_lib	143	2	not yet validated	
 module	protein_painter	161	2	not yet validated	
-module	qsar_bench	389	3	validated	benchmarks/sweep_qsar_descriptors.json
+module	qsar_bench	389	4	validated	benchmarks/sweep_qsar_descriptors.json
 module	rarenet_ai	365	20	not yet validated	
 module	report_studio	213	1	not yet validated	
 module	riboswitch	142	3	not yet validated	

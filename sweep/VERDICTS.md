@@ -195,3 +195,6 @@ No bug. 14 PDB structures, same atoms/radii: total SASA within 0.17%, per-residu
 
 ## modules.structural_biophysics.vina_score vs AutoDock Vina 1.2.7 (2026-09-25)
 BUG FIXED (sugarcode 28b8590): Bondi radii instead of Vina XS radii, sulfur hydrophobic, rotor term added instead of dividing. Carbon ring stacks: before -1.56/-0.86/-0.37 vs Vina -2.31/-1.65/-0.63 kcal/mol; after max diff 0.0046 over 8 separations. Rotor division verified from Vina source only. benchmarks/sweep_vina_score.json
+
+## modules.molecule_eval vs RDKit 2026.03.6 (2026-09-25)
+BUG FIXED (sugarcode 15a8ba7, in shared qsar_bench.parse_smiles): directional bond markers between aromatic atoms were read as single bonds, so 3/993 ChEMBL drugs changed graph key under SMILES re-spelling. After: 0 invariance failures (3 random SMILES each), 0 collisions, 0 splits vs RDKit canonical (980 unique both). Internal diversity 0.9055 vs RDKit 0.8994. QSAR descriptor/Morgan benchmarks unchanged on re-run. benchmarks/sweep_molecule_eval.json
