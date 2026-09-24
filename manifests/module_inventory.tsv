@@ -1,0 +1,128 @@
+kind	name	python_lines	test_references	status	evidence
+module	acmg_bayesian	457	2	not yet validated	
+module	alpha_fold_ui	404	7	not yet validated	
+module	bio_copilot	245	5	not yet validated	
+module	bio_material	114	2	not yet validated	
+module	bio_switch	511	3	not yet validated	
+module	biofactory_1_a	102	2	not yet validated	
+module	biogpt_lit	249	3	not yet validated	
+module	bioimage_ai	146	2	not yet validated	
+module	bioplayground	98	2	not yet validated	
+module	bioprint_pro	143	2	not yet validated	
+module	biosimvr	200	2	not yet validated	
+module	car_t_designer	104	2	not yet validated	
+module	cell_free_opt	107	2	not yet validated	
+module	cell_twin	169	2	not yet validated	
+module	cellfatenet	199	2	not yet validated	
+module	cellpainter	289	3	not yet validated	
+module	cellpainter_4d	164	2	not yet validated	
+module	cfd_offtarget	157	2	not yet validated	
+module	chem_descriptors	923	2	validated	benchmarks/results.json (VERDICTS table)
+module	chem_similarity	234	1	validated	benchmarks/results.json (VERDICTS table)
+module	chemgpt_engine	305	6	not yet validated	
+module	codon_opt	289	7	validated	benchmarks/sweep_codon_cai.json
+module	crispr_cargo	156	2	not yet validated	
+module	crispr_muse	278	2	not yet validated	
+module	crispr_opt	648	8	not yet validated	
+module	crisprater	97	3	not yet validated	
+module	crisprscan_score	178	2	validated	VERDICTS table + CRISPRscan finding
+module	dark_genome	202	2	not yet validated	
+module	deepsplice	751	29	validated	discovery/splice_region_vus/cv_results_me.json, maxent_cmp.json
+module	dna_to_code	111	2	not yet validated	
+module	docking_studio	535	17	validated	benchmarks/sweep_docking.json
+module	dti_bench	196	1	not yet validated	
+module	ecosystem	175	2	not yet validated	
+module	enterprise_bio	260	4	not yet validated	
+module	epi_edit	178	2	not yet validated	
+module	evidence_mining	418	1	not yet validated	
+module	evofold_4d	236	4	not yet validated	
+module	fate_predictor	131	2	not yet validated	
+module	gene_analysis	262	8	not yet validated	
+module	gene_explorer	140	2	not yet validated	
+module	gene_tx_opt	149	2	not yet validated	
+module	genomegpt	279	3	not yet validated	
+module	infinite_diagnosis	130	4	not yet validated	
+module	liquid_biopsy	376	6	not yet validated	
+module	living_computer	857	2	not yet validated	
+module	living_tx	184	2	not yet validated	
+module	metabodesigner	170	3	not yet validated	
+module	micro_tx	218	2	not yet validated	
+module	microaiverse	138	2	not yet validated	
+module	microbiome_exp	119	2	not yet validated	
+module	microbiome_rx	172	2	not yet validated	
+module	mit_offtarget	154	2	validated	VERDICTS table; sweep/crispr_vs_crispor.py
+module	molecule_eval	149	1	not yet validated	
+module	mutdock	337	15	not yet validated	
+module	neodti_engine	257	3	not yet validated	
+module	neohunter	358	11	validated	VERDICTS neohunter section
+module	neuro_hub	44	1	not yet validated	
+module	neuro_hub_dashboard	25	2	not yet validated	
+module	neuro_pipeline	326	3	not yet validated	
+module	neuroplan_ai	449	6	not yet validated	
+module	nexus_support	299	2	not yet validated	
+module	omega_stats	161	4	not yet validated	
+module	oncocircuit	124	2	not yet validated	
+module	openclinvar	481	20	not yet validated	
+module	organoid_ai	216	2	not yet validated	
+module	organoid_screen	275	7	not yet validated	
+module	pdx_insight	138	2	not yet validated	
+module	pgx_guidelines	287	0	validated	benchmarks/sweep_pgx_cpic.json
+module	phage_designer	75	2	not yet validated	
+module	phage_tx	161	2	not yet validated	
+module	phageforge	87	2	not yet validated	
+module	prime_design	248	2	not yet validated	
+module	profile_hmm	747	3	validated	benchmarks/profile_hmm_cv.json, profile_hmm_cv_local.json
+module	promoter_lib	143	2	not yet validated	
+module	protein_painter	161	2	not yet validated	
+module	qsar_bench	353	2	not yet validated	
+module	rarenet_ai	365	20	not yet validated	
+module	report_studio	213	1	not yet validated	
+module	riboswitch	142	3	not yet validated	
+module	rna_decoder	120	3	not yet validated	
+module	rna_nussinov	387	2	validated	VERDICTS table; sweep/rna_vs_vienna.py
+module	robotic_flow	128	2	not yet validated	
+module	stability_ai	199	6	not yet validated	
+module	str_scope	278	2	not yet validated	
+module	structural_biophysics	512	6	not yet validated	
+module	syn_bio_studio	43	1	not yet validated	
+module	syn_stab_ai	69	2	not yet validated	
+module	synbio_studio	113	3	not yet validated	
+module	synbio_wizard	224	2	not yet validated	
+module	syndroid	231	2	not yet validated	
+module	synlife_evo	278	4	not yet validated	
+module	synthetic_life	197	2	not yet validated	
+module	tissue_eng	193	2	not yet validated	
+module	vector_opt	95	2	not yet validated	
+module	virtual_cell	504	3	not yet validated	
+bio	align	164	1	validated	benchmarks/sweep_align_parasail.json
+bio	bed	175	1	not yet validated	
+bio	chembl	175	0	not yet validated	
+bio	codon	170	2	validated	benchmarks/sweep_codon_cai.json
+bio	de	218	2	validated	benchmarks/sweep_de_pydeseq2.json
+bio	entrez	186	2	not yet validated	
+bio	fasta	55	3	not yet validated	
+bio	fastq	183	1	not yet validated	
+bio	genbank	60	0	not yet validated	
+bio	gff	237	1	not yet validated	
+bio	gnomad	95	0	not yet validated	
+bio	gstats	194	1	not yet validated	
+bio	kmer	261	1	not yet validated	
+bio	motif	198	1	not yet validated	
+bio	newick	248	4	not yet validated	
+bio	orf	189	1	validated	benchmarks/sweep_orf_orfipy.json
+bio	pdb	313	1	not yet validated	
+bio	phylo	232	1	validated	benchmarks/sweep_phylo_dendropy.json
+bio	pileup	148	1	not yet validated	
+bio	primer	278	3	validated	benchmarks/sweep_primer_primer3.json
+bio	proteinprops	261	1	not yet validated	
+bio	pwm	63	2	not yet validated	
+bio	reactome	63	0	not yet validated	
+bio	restriction	141	1	not yet validated	
+bio	rnaseq	201	1	validated	benchmarks/sweep_de_pydeseq2.json
+bio	sam	219	2	not yet validated	
+bio	sequence	168	2	not yet validated	
+bio	splice	676	11	not yet validated	
+bio	stockholm	260	1	not yet validated	
+bio	structures	266	13	validated	benchmarks/sweep_sasa_freesasa.json
+bio	uniprot	98	2	not yet validated	
+bio	vcf	263	2	validated	benchmarks/sweep_vcf_pysam.json

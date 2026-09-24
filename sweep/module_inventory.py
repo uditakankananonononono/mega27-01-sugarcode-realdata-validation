@@ -1,0 +1,35 @@
+"""Inventory of sugarcode-ai modules and bio/ libraries with validation status, derived from sweep/VERDICTS.md and benchmarks/.
+Status is 'validated' only for names in the curated EVIDENCE map below, each tied to a VERDICTS.md section and a committed result file; everything else is 'not yet validated'."""
+import os, re, sys, subprocess, csv
+SC=sys.argv[1] if len(sys.argv)>1 else '../sugarcode-ai'
+V=open('sweep/VERDICTS.md').read().lower(); BN=' '.join(os.listdir('benchmarks')).lower()
+head=subprocess.run(['git','-C',SC,'rev-parse','--short','HEAD'],capture_output=True,text=True).stdout.strip()
+rows=[]
+EVIDENCE={('module','chem_descriptors'):'benchmarks/results.json (VERDICTS table)',('module','chem_similarity'):'benchmarks/results.json (VERDICTS table)',
+('module','mit_offtarget'):'VERDICTS table; sweep/crispr_vs_crispor.py',('module','crisprscan_score'):'VERDICTS table + CRISPRscan finding',
+('module','rna_nussinov'):'VERDICTS table; sweep/rna_vs_vienna.py',('module','profile_hmm'):'benchmarks/profile_hmm_cv.json, profile_hmm_cv_local.json',
+('module','codon_opt'):'benchmarks/sweep_codon_cai.json',('module','pgx_guidelines'):'benchmarks/sweep_pgx_cpic.json',
+('module','neohunter'):'VERDICTS neohunter section',('module','docking_studio'):'benchmarks/sweep_docking.json',
+('module','deepsplice'):'discovery/splice_region_vus/cv_results_me.json, maxent_cmp.json',
+('bio','codon'):'benchmarks/sweep_codon_cai.json',('bio','structures'):'benchmarks/sweep_sasa_freesasa.json',('bio','primer'):'benchmarks/sweep_primer_primer3.json',
+('bio','phylo'):'benchmarks/sweep_phylo_dendropy.json',('bio','orf'):'benchmarks/sweep_orf_orfipy.json',('bio','vcf'):'benchmarks/sweep_vcf_pysam.json',
+('bio','de'):'benchmarks/sweep_de_pydeseq2.json',('bio','rnaseq'):'benchmarks/sweep_de_pydeseq2.json',('bio','align'):'benchmarks/sweep_align_parasail.json'}
+def loc(p):
+    n=0
+    for dp,_,fs in os.walk(p) if os.path.isdir(p) else [(os.path.dirname(p),[],[os.path.basename(p)])]:
+        for f in fs:
+            if f.endswith('.py'): n+=sum(1 for _ in open(os.path.join(dp,f),errors='ignore'))
+    return n
+tests=' '.join(open(os.path.join(dp,f),errors='ignore').read() for dp,_,fs in os.walk(SC+'/tests') for f in fs if f.endswith('.py'))
+for kind,base in (('module',SC+'/src/sugarcode/modules'),('bio',SC+'/src/sugarcode/bio')):
+    for n in sorted(os.listdir(base)):
+        if n.startswith('_') or n=='data': continue
+        name=n[:-3] if n.endswith('.py') else n
+        if not (n.endswith('.py') or os.path.isdir(os.path.join(base,n))): continue
+        pat=name.lower(); keys=[pat]+([ 'bio.'+pat, pat+'.py'] if kind=='bio' else [])
+        ev=EVIDENCE.get((kind,name),'')
+        nt=len(re.findall(r'(?:modules|bio)[./]'+re.escape(name)+r'\b',tests))
+        rows.append((kind,name,loc(os.path.join(base,n)),nt,'validated' if ev else 'not yet validated',ev))
+with open('manifests/module_inventory.tsv','w') as f:
+    w=csv.writer(f,delimiter='\t',lineterminator='\n'); w.writerow(['kind','name','python_lines','test_references','status','evidence']); w.writerows(rows)
+print('sugarcode-ai',head,len(rows),sum(r[4]=='validated' for r in rows))
