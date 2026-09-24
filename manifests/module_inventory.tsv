@@ -72,7 +72,7 @@ module	phage_tx	161	2	not yet validated
 module	phageforge	87	2	not yet validated	
 module	prime_design	263	4	validated	benchmarks/sweep_prime_design.json
 module	profile_hmm	747	3	validated	benchmarks/profile_hmm_cv.json, profile_hmm_cv_local.json
-module	promoter_lib	143	2	not yet validated	
+module	promoter_lib	143	2	validated	benchmarks/sweep_stability_promoter.json
 module	protein_painter	161	2	not yet validated	
 module	qsar_bench	389	4	validated	benchmarks/sweep_qsar_descriptors.json
 module	rarenet_ai	365	20	not yet validated	
@@ -81,7 +81,7 @@ module	riboswitch	142	3	validated	benchmarks/sweep_nussinov.json
 module	rna_decoder	120	3	not yet validated	
 module	rna_nussinov	387	2	validated	VERDICTS table; sweep/rna_vs_vienna.py
 module	robotic_flow	128	2	not yet validated	
-module	stability_ai	199	6	not yet validated	
+module	stability_ai	199	6	validated	benchmarks/sweep_stability_promoter.json
 module	str_scope	340	3	validated	benchmarks/sweep_str_pytrf.json
 module	structural_biophysics	528	7	validated	benchmarks/sweep_vina_score.json; benchmarks/sweep_sasa_freesasa_recheck14.json
 module	syn_bio_studio	43	1	not yet validated	

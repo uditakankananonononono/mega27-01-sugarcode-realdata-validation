@@ -1,0 +1,77 @@
+{
+ "reference": "Hill occupancy 1/(1+(Kd/c)^h) + expit cross-check; Poisson-burst noise theory; independent deterministic Wright-Fisher recursion",
+ "hill_max_abs_diff": 2.220446049250313e-16,
+ "hill_at_kd_is_half": true,
+ "hill_expit_max_diff": 1.1102230246251565e-16,
+ "noise_all_ok": true,
+ "noise_rows": [
+  {
+   "mean": 0.5,
+   "burst": 1,
+   "fano_ok": true,
+   "var_ok": true,
+   "cv_ok": true
+  },
+  {
+   "mean": 2,
+   "burst": 5,
+   "fano_ok": true,
+   "var_ok": true,
+   "cv_ok": true
+  },
+  {
+   "mean": 10,
+   "burst": 3,
+   "fano_ok": true,
+   "var_ok": true,
+   "cv_ok": true
+  },
+  {
+   "mean": 40,
+   "burst": 8,
+   "fano_ok": true,
+   "var_ok": true,
+   "cv_ok": true
+  }
+ ],
+ "wf_rows": [
+  {
+   "construct": {
+    "mode": "plasmid",
+    "burden": 0.1,
+    "size_kb": 5.0,
+    "toxic": false
+   },
+   "max_abs_diff_vs_deterministic": 0.00198,
+   "terminal_mean": 0.28131,
+   "deterministic_terminal": 0.283,
+   "extinction_probability": 0.0
+  },
+  {
+   "construct": {
+    "mode": "plasmid",
+    "burden": 0.8,
+    "size_kb": 8.0,
+    "toxic": true
+   },
+   "max_abs_diff_vs_deterministic": 0.00034,
+   "terminal_mean": 0.0,
+   "deterministic_terminal": 0.0,
+   "extinction_probability": 1.0
+  },
+  {
+   "construct": {
+    "mode": "genomic",
+    "burden": 0.3,
+    "size_kb": 3.0,
+    "toxic": false
+   },
+   "max_abs_diff_vs_deterministic": 0.00204,
+   "terminal_mean": 0.29845,
+   "deterministic_terminal": 0.30002,
+   "extinction_probability": 0.0
+  }
+ ],
+ "wf_seed_reproducible": true,
+ "sugarcode_commit": "947b55e"
+}
