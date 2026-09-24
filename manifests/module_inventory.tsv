@@ -95,7 +95,7 @@ module	tissue_eng	193	2	not yet validated
 module	vector_opt	95	2	not yet validated	
 module	virtual_cell	504	3	not yet validated	
 bio	align	164	1	validated	benchmarks/sweep_align_parasail.json
-bio	bed	175	1	not yet validated	
+bio	bed	180	1	validated	benchmarks/sweep_bed_bioframe.json
 bio	chembl	175	0	not yet validated	
 bio	codon	170	2	validated	benchmarks/sweep_codon_cai.json
 bio	de	218	2	validated	benchmarks/sweep_de_pydeseq2.json
