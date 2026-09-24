@@ -40,3 +40,4 @@ gseapy	local 1.3.1	sweep/dex_gsea_hallmark.py -> benchmarks/sweep_dex_gsea_hallm
 goatools	local 1.6.5	sweep/dex_goatools.py -> benchmarks/sweep_dex_goatools.json
 gffutils	local 0.14	sweep/gff_vs_gffutils.py -> benchmarks/sweep_gff_gffutils.json
 gemmi	local 0.7.5	sweep/pdb_vs_gemmi.py -> benchmarks/sweep_pdb_gemmi.json
+UCSC Genome Browser REST API (phyloP100way)	live 2026-09-25	discovery/splice_region_vus/fetch_phylop_sub.py -> phylop_sub.tsv; phylop_lift.json

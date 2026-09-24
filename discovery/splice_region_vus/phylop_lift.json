@@ -1,0 +1,30 @@
+{
+ "n": 1501,
+ "n_pathogenic": 379,
+ "n_genes": 1054,
+ "phylop_missing": 0,
+ "tool": "UCSC Genome Browser REST API getData/track phyloP100way (hg38)",
+ "auc_phylop_alone": 0.8377,
+ "auc_logit_maxent_mean20": 0.963,
+ "auc_logit_maxent_phylop_mean20": 0.9678,
+ "auc_diff_ci95_paired_bootstrap": [
+  0.0008,
+  0.0091
+ ],
+ "per_site": {
+  "donor": {
+   "n": 876,
+   "phylop_alone": 0.9108,
+   "base": 0.9557,
+   "with_phylop": 0.9634
+  },
+  "acceptor": {
+   "n": 625,
+   "phylop_alone": 0.6966,
+   "base": 0.9702,
+   "with_phylop": 0.9723
+  }
+ },
+ "phylop_median_P": 3.214,
+ "phylop_median_B": 0.191
+}
