@@ -210,3 +210,6 @@ NO BUG. Hill occupancy matches 1/(1+(Kd/c)^h) to 2.2e-16 (grid over h, Kd, c; ha
 
 ## bio.fasta vs Biopython SeqIO (2026-09-25)
 NO BUG. Exact agreement (ids, descriptions, sequences) on 32,096 real Rfam seed records (RF00059/RF00050/RF00504); stream_fasta == parse_fasta on all; write->parse round trip lossless (200 records, w=50). Noted difference: Biopython rejects leading blank lines, bio.fasta skips them (documented leniency). benchmarks/sweep_fasta.json
+
+## modules.crisprater vs Labuhn 2018 Supplementary Table 3 (2026-09-25)
+BUG FIXED (sugarcode 55748fa): GC feature summed positions 4-14; published model is GC4-13 (Fig 4C). Verified against author-computed scores for 3,141 sgRNAs (PMC5814880 Suppl. Table 3): pre-fix 3,139/3,141 mismatched, post-fix 3,138/3,141 match within 5e-4 (99.905%). 3 residual outliers each off by ~one feature weight from the published model - supplement-table anomalies (2 duplicate sequences present), documented not fitted. Thresholds 0.56/0.74 confirmed from paper text. benchmarks/sweep_crisprater.json

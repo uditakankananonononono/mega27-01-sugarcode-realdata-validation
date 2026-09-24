@@ -1,0 +1,42 @@
+{
+ "reference": "Labuhn 2018 NAR 46(3):1375 (PMC5814880) Supplementary Table 3 author-computed CRISPRater scores",
+ "n_sgrnas": 3141,
+ "sheets": [
+  "external screen"
+ ],
+ "post_fix": {
+  "mismatches_gt_5e-4": 3,
+  "max_abs_diff_overall": 0.144971,
+  "worst": [
+   {
+    "sheet": "external screen",
+    "seq": "CAGTCATACCTATAACAGCG",
+    "published": 0.693035855,
+    "got": 0.548064855
+   },
+   {
+    "sheet": "external screen",
+    "seq": "AGGTATGTAAGTAATCATAG",
+    "published": 0.56157502,
+    "got": 0.63124016
+   },
+   {
+    "sheet": "external screen",
+    "seq": "AAGGCGCCGGCGTCTGCGCT",
+    "published": 0.7648695750000001,
+    "got": 0.7160895650000001
+   }
+  ],
+  "min_abs_diff": 0.0,
+  "match_fraction": 0.999045
+ },
+ "pre_fix_gc_window_4_14": {
+  "mismatches_gt_5e-4": 3139
+ },
+ "class_thresholds_published": {
+  "low_max_exclusive": 0.56,
+  "high_min_exclusive": 0.74
+ },
+ "sugarcode_commit": "55748fa",
+ "outlier_note": "2 of 3 outliers differ from the published model by exactly one feature weight (-G20, -GA18); the third by ~one GC-term. Table-side anomalies in the supplement (2 duplicate sequences present); module matches the published formula on 3138/3141 (99.905%)."
+}
