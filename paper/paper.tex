@@ -1,0 +1,100 @@
+\documentclass[11pt]{article}
+\usepackage{mathptmx}        % Times New Roman body + math
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx,amsmath,amssymb}
+
+\setlength{\parskip}{4pt}
+\title{Independent external validation of the SugarCode AI computational-biology platform against held-out public benchmarks}
+\author{Udita Phookan}
+\date{\today\\Independent research; computational work assisted by Instinct}
+\begin{document}
+\maketitle
+\begin{abstract}
+We subject SugarCode AI, a 95-module computational-biology platform, to an
+independent external validation: every module family whose internal goldens
+report verification against live data is re-tested here on held-out public
+benchmarks its own tests never touched - fresh CRISPR guides mined from a
+BRCA1 RefSeqGene segment disjoint from the module's training accessions and
+scored against the CRISPOR reference implementation of the CFD off-target
+model; a 500-variant stratified sample of the current ClinVar release; 4{,}956
+single-point mutations from SKEMPI 2.0; the BiGG \emph{E. coli} core
+metabolic model; and a globin-family alignment produced by EBI Clustal Omega.
+We report per-module agreement metrics with bootstrap confidence intervals,
+publish all fixtures with provenance, and document failure modes without
+suppressing negative results.
+\end{abstract}
+\section{Introduction}
+Computational-biology toolkits are typically validated against the same data
+that informed their development, inflating confidence. Independent, held-out
+validation against public reference implementations and current database
+releases is the standard this platform must meet to be usable in laboratory
+settings. This study asks a single question: does each verified claim in the
+platform's own status ledger survive contact with data it has never seen?
+We answer it module family by module family, with frozen fixtures, pinned
+random seeds, and metrics reported with 95\% bootstrap confidence intervals.
+All code, fixtures, and results are released in this repository.
+\section{Related Work and Benchmarks}
+\emph{Pending validation runs; filled on completion.}
+\section{Methods}
+For each module family we constructed a held-out test disjoint from every
+fixture used during platform development. Negative results are preserved and
+reported alongside positives; no test was re-designed after seeing its outcome.
+\subsection{Data and Provenance}
+All datasets are public and carry recorded provenance (see
+\texttt{data/README.md}): NCBI ClinVar \texttt{variant\_summary.txt.gz}
+(retrieved 2026-09-24; 500-variant stratified reservoir sample from
+1{,}517{,}551 eligible GRCh38 SNVs with criteria-provided review status);
+SKEMPI 2.0 \cite{skempi} (150-mutation frozen subset, seed 7); BiGG
+\texttt{e\_coli\_core} \cite{bigg}; BRCA1 RefSeqGene NG\_005905.2:60000-70000
+(NCBI efetch); CRISPOR reference distribution \cite{crispor}; 25 reviewed
+globin-family UniProtKB sequences aligned with EBI Clustal Omega
+\cite{clustalo}.
+\subsection{Mathematical Formulation}
+CFD off-target scoring follows Doench et al. 2016 \cite{doench2016}:
+$\mathrm{CFD} = \prod_i m_i \cdot p(\mathrm{PAM})$, with per-position
+mismatch penalties $m_i$ from the reference distribution. Binding free-energy
+changes are $\Delta\Delta G = RT\ln(K_d^{mut}/K_d^{wt})$ at $T=300$ K
+($RT = 0.596$ kcal/mol). Flux balance analysis solves
+$\max_v c^\top v$ subject to $Sv = 0$, $l \le v \le u$, using the HiGHS
+simplex solver; the published aerobic-glucose optimum for
+\texttt{e\_coli\_core} is $0.8739\ \mathrm{h^{-1}}$ \cite{bigg}. Agreement is
+quantified with Pearson $r$, Mann-Whitney AUC, and binary-classification
+metrics; confidence intervals are percentile bootstrap with 1{,}000 resamples
+at fixed seed.
+\subsection{Implementation and Testing}
+The validation suite is a pytest package (\texttt{sc\_validate}) with a
+repo-wide no-stub audit: no fixture may contain placeholder data. Live-data
+re-runs are separate scripts under \texttt{scripts/}; committed tests run
+hermetically against frozen fixtures. CI runs the suite on every push.
+\section{Results}
+\emph{Pending validation runs; filled on completion.}
+\section{Benchmark Comparison}
+\emph{Pending validation runs; filled on completion.}
+\section{Failure Modes and Negative Results}
+\emph{Pending validation runs; filled on completion.}
+\section{Discussion}
+\emph{Pending validation runs; filled on completion.}
+\section{Conclusion}
+\emph{Pending validation runs; filled on completion.}
+\bibliographystyle{plain}
+\begin{thebibliography}{99}
+\bibitem{doench2016} Doench JG et al. Optimized sgRNA design to maximize
+activity and minimize off-target effects of CRISPR-Cas9. Nat Biotechnol
+34:184-191, 2016.
+\bibitem{crispor} Concordet JP, Haeussler M. CRISPOR: intuitive guide
+selection for CRISPR/Cas9 genome editing experiments and screens. Nucleic
+Acids Res 46:W242-W245, 2018.
+\bibitem{skempi} Jankauskait\.e J et al. SKEMPI 2.0: an updated benchmark of
+changes in protein-protein binding energy, kinetics and thermodynamics upon
+mutation. Bioinformatics 35:462-469, 2019.
+\bibitem{bigg} King ZA et al. BiGG Models: a platform for integrating,
+standardizing and sharing genome-scale models. Nucleic Acids Res 44:D515-522,
+2016.
+\bibitem{clustalo} Sievers F et al. Fast, scalable generation of high-quality
+protein multiple sequence alignments using Clustal Omega. Mol Syst Biol 7:539,
+2011.
+\bibitem{tavtigian} Tavtigian SV et al. Modeling the ACMG/AMP variant
+classification guidelines as a Bayesian classification framework. Genet Med
+20:1054-1060, 2018.
+\end{thebibliography}
+\end{document}

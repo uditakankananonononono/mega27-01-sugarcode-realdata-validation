@@ -1,0 +1,19 @@
+{
+  "skempi_subset_150": {
+    "n": 150,
+    "mean_ddg": 0.7827,
+    "rmse_mean_predictor": 1.6293,
+    "pearson_abs_volume_change": 0.0526,
+    "spearman_abs_volume_change": 0.0645,
+    "pearson_hydropathy_loss": -0.1289
+  },
+  "pfam_globin_reference": {
+    "model": "Pfam PF00042.29 (HMMER3)",
+    "n_pos": 25,
+    "n_neg": 25,
+    "auc": 1.0,
+    "min_pos_bits": 18.67,
+    "neg_with_any_hit": 0,
+    "max_neg_bits": null
+  }
+}

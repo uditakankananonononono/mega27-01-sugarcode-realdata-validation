@@ -1,0 +1,105 @@
+{
+  "generated": "2026-09-24 14:41 UTC",
+  "checks": {
+    "cfd600": {
+      "status": "pass",
+      "metrics": {
+        "pairs": 600,
+        "exact_agree": 600,
+        "errors": 0,
+        "max_abs_diff": 4.999999999866223e-07
+      },
+      "note": "600/600 exact (tol 5e-7), max |diff| 5.00e-07"
+    },
+    "rs1_150": {
+      "status": "pass",
+      "metrics": {
+        "contexts": 150,
+        "spearman": 0.9995,
+        "module_range": [
+          0.01,
+          0.9
+        ]
+      },
+      "note": "Spearman(module raw RS1, frozen CRISPOR percentile) = 1.000"
+    },
+    "clinvar500": {
+      "status": "fail",
+      "metrics": {
+        "n": 0,
+        "abstained": 500,
+        "accuracy": null
+      },
+      "note": "accuracy undefined: abstained 500/500 offline. Diagnosis: the consequence parser misses protein-style HGVS ('p.Arg518Ser' -> consequence 'unknown', neutral weight 0.35) and an 8-variant live pilot (4 pathogenic, 4 benign) shows the ClinVar query format fails to resolve the sample's HGVS strings, so enrichment never engages; the module abstains on everything. Safety-conservative but degenerate as a classifier. rarenet is symptom-driven and emits no variant label: not scored."
+    },
+    "deepsplice_junction_auc": {
+      "status": "fail",
+      "metrics": {
+        "accessions": [
+          "NG_008021.1",
+          "NG_007489.1",
+          "NG_008245.1"
+        ],
+        "donor_junctions": 48,
+        "acceptor_junctions": 48,
+        "donor_auc": 0.9965,
+        "acceptor_auc": 0.5473
+      },
+      "note": "held-out RefSeqGene ['NG_008021.1', 'NG_007489.1', 'NG_008245.1'] (disjoint from module PROVENANCE list); donor AUC 0.997, acceptor AUC 0.547 vs shuffled-window negatives (seed 7); plus-strand CDS only"
+    },
+    "mutdock_skempi_ddg": {
+      "status": "not_applicable",
+      "metrics": {
+        "skempi_baselines": {
+          "n": 150,
+          "mean_ddg": 0.7827,
+          "rmse_mean_predictor": 1.6293,
+          "pearson_abs_volume_change": 0.0526,
+          "spearman_abs_volume_change": 0.0645,
+          "pearson_hydropathy_loss": -0.1289
+        }
+      },
+      "note": "mutdock's ddG is a ligand-pocket class heuristic: mutation_effect(pocket_residues, smiles, position, mutant) mixes a pocket-ligand binding delta with a residue-class penalty. SKEMPI rows are protein-protein mutations with neither a ligand SMILES nor a pocket string, so no honest adapter exists; scoring would be theatre. Documented gap, contextualized by the naive baselines (mean-predictor RMSE, volume-change and hydropathy correlations) in metrics."
+    },
+    "virtual_cell_fba_parity": {
+      "status": "pass",
+      "metrics": {
+        "module_objective": 0.873922,
+        "independent_objective": 0.873922,
+        "headline": 0.873922,
+        "status": "optimal"
+      },
+      "note": "module 0.873922 vs independent HiGHS 0.873922 vs published headline 0.873922"
+    },
+    "profile_hmm_globin_auc": {
+      "status": "reference_only",
+      "metrics": {
+        "model": "Pfam PF00042.29 (HMMER3)",
+        "n_pos": 25,
+        "n_neg": 25,
+        "auc": 1.0,
+        "min_pos_bits": 18.67,
+        "neg_with_any_hit": 0,
+        "max_neg_bits": null
+      },
+      "note": "Pfam PF00042.29 (HMMER3) separates the fixtures perfectly (AUC 1.0), so the task is solvable and the fixture labels are sound. The module's profile_hmm still cannot be scored: it trains from an MSA and no globin alignment ships; AUC(module) deferred until the Clustal Omega alignment lands. Reference established, module verdict pending."
+    },
+    "codon_cai_kazusa": {
+      "status": "pass",
+      "metrics": {
+        "sequences": 40,
+        "max_abs_diff": 0.0
+      },
+      "note": "module codon.cai vs independent Kazusa geometric-mean recompute, 40 random sequences, max |diff| 0.00e+00"
+    },
+    "acmg_tavtigian": {
+      "status": "pass",
+      "metrics": {
+        "max_posterior_diff": 0.0,
+        "bands_match_readme": true,
+        "six_point_posterior": 0.8999
+      },
+      "note": "posterior matches OP=350^(pts/8) to 0.0e+00 over -16..16; band labels match; 6 pts at prior 0.10 -> 0.900 (Tavtigian 2018 prints this identity as 0.900)"
+    }
+  }
+}
