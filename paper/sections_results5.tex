@@ -1,0 +1,12 @@
+\section{Adding evolutionary conservation to the splice-region model}
+The best splice-region model so far is a logistic regression on PWM and MaxEntScan features. Neither feature sees conservation. We fetched phyloP100way at each variant position from the UCSC Genome Browser REST API for a stratified subsample of 1,501 of the 9,235 modelled variants (379 pathogenic, 1,054 genes, 0 missing). The subsample keeps the class-by-site proportions of the full set; the API rate limit (one request per second) is why we did not fetch all 9,235.
+Median phyloP is 3.214 at pathogenic and 0.191 at benign positions. On its own, phyloP reaches AUROC 0.8377 (0.9108 at donors, 0.6966 at acceptors). Added to logit+MaxEnt under gene-grouped 5-fold cross-validation repeated over 20 seeds, AUROC rises from 0.963 to 0.9678. A paired bootstrap on the averaged out-of-fold predictions gives a 95\% interval for the gain of [+0.0008, +0.0091], which excludes zero.
+\begin{table}[h]\centering\small\begin{tabular}{lrrrr}\hline site & $n$ & phyloP alone & logit+MaxEnt & + phyloP\\\hline
+donor & 876 & 0.9108 & 0.9557 & 0.9634\\
+acceptor & 625 & 0.6966 & 0.9702 & 0.9723\\
+all & 1501 & 0.8377 & 0.9630 & 0.9678\\
+\hline\end{tabular}\caption{AUROC with and without phyloP (discovery/splice\_region\_vus/phylop\_lift.json). Per-site values use the seed-averaged predictions.}\end{table}
+The gain is concentrated at donor-region positions ($+3$ to $+6$), where the intronic consensus is short and conservation carries information the PWM misses. At acceptors (the polypyrimidine tract, $-3$ to $-14$), MaxEntScan already scores well and conservation adds little.
+\paragraph{Caveat.} ClinVar submitters may cite conservation as supporting evidence (ACMG criteria PP3/BP4). Some of the gain may therefore be label circularity rather than new biology. We report the gain as modest and conditional on that caveat.
+\paragraph{(F47) Model with conservation.} $\mathrm{logit}\,P(\mathrm{path}\mid x)=\beta_0+\boldsymbol\beta^\top\mathbf z(x)+\gamma\,\phi(x)+\delta\,\phi(x)\,\mathbb 1[\mathrm{donor}]$, with $\mathbf z$ the standardised PWM/MaxEnt/position features and $\phi$ the phyloP score; the interaction lets conservation matter differently at donors.
+\paragraph{(F48) Paired bootstrap.} For resamples $b=1..B$ of variant indices $I_b$, $\Delta_b=\mathrm{AUC}(y_{I_b},\hat p^{+}_{I_b})-\mathrm{AUC}(y_{I_b},\hat p^{0}_{I_b})$; the interval is the 2.5th and 97.5th percentile of $\{\Delta_b\}$. Pairing on the same resample removes the shared sampling noise of the two models.
