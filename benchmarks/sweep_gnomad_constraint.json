@@ -499,5 +499,5 @@
   }
  ],
  "fixed_in_sugarcode_commit": "0a265e7",
- "rate_limit_note": "gnomAD API answered HTTP 400 \"Query rate limit exceeded. Please try again in a few minutes.\" during this sweep; bio.gnomad retries 3 times within ~1.5 s and then raises. Not fixed yet (follow-up: detect the message and back off for minutes)."
+ "rate_limit_note": "gnomAD API answered HTTP 400 \"Query rate limit exceeded. Please try again in a few minutes.\" during this sweep. Before sc-ai ce87ccb, bio.gnomad retried 3 times within ~1.5 s then raised a generic error; it now detects the message and raises GnomADRateLimited on the first response (mocked regression test). The sweep itself was completed by pacing calls and reusing the on-disk cache."
 }
