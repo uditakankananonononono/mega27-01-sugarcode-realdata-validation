@@ -43,3 +43,4 @@ gemmi	local 0.7.5	sweep/pdb_vs_gemmi.py -> benchmarks/sweep_pdb_gemmi.json	count
 UCSC Genome Browser REST API (phyloP100way)	live 2026-09-25	discovery/splice_region_vus/fetch_phylop_sub.py -> phylop_sub.tsv; phylop_lift.json	counts
 bioframe	0.8.0	sweep/bed_vs_bioframe.py -> benchmarks/sweep_bed_bioframe.json	counts
 sourmash	4.8.14	sweep/kmer_vs_sourmash.py -> benchmarks/sweep_kmer_sourmash.json	counts
+Ensembl REST API (GRCh37 mirror, 1000 Genomes phase 3 genotypes)	live 2026-09-25	sweep/gstats_vs_scipy.py -> benchmarks/sweep_gstats_scipy.json	counts

@@ -242,3 +242,25 @@ nuccore_record	MN996532.2	NCBI nuccore FASTA (Bat coronavirus RaTG13, complete g
 nuccore_record	MT040333.1	NCBI nuccore FASTA (Pangolin coronavirus isolate PCoV_GX-P4L, complete genome)	MT040333.1	sweep/kmer_vs_sourmash.py
 nuccore_record	NC_004718.3	NCBI nuccore FASTA (SARS coronavirus Tor2, complete genome)	NC_004718.3	sweep/kmer_vs_sourmash.py
 nuccore_record	NC_019843.3	NCBI nuccore FASTA (Middle East respiratory syndrome-related coronavirus isolate)	NC_019843.3	sweep/kmer_vs_sourmash.py
+dbsnp_variant	rs1042713	Ensembl GRCh37 REST variation record with 1000 Genomes phase 3 population genotypes	rs1042713	sweep/gstats_vs_scipy.py
+dbsnp_variant	rs10427255	Ensembl GRCh37 REST variation record with 1000 Genomes phase 3 population genotypes	rs10427255	sweep/gstats_vs_scipy.py
+dbsnp_variant	rs1229984	Ensembl GRCh37 REST variation record with 1000 Genomes phase 3 population genotypes	rs1229984	sweep/gstats_vs_scipy.py
+dbsnp_variant	rs12913832	Ensembl GRCh37 REST variation record with 1000 Genomes phase 3 population genotypes	rs12913832	sweep/gstats_vs_scipy.py
+dbsnp_variant	rs1426654	Ensembl GRCh37 REST variation record with 1000 Genomes phase 3 population genotypes	rs1426654	sweep/gstats_vs_scipy.py
+dbsnp_variant	rs16891982	Ensembl GRCh37 REST variation record with 1000 Genomes phase 3 population genotypes	rs16891982	sweep/gstats_vs_scipy.py
+dbsnp_variant	rs17822931	Ensembl GRCh37 REST variation record with 1000 Genomes phase 3 population genotypes	rs17822931	sweep/gstats_vs_scipy.py
+dbsnp_variant	rs1799945	Ensembl GRCh37 REST variation record with 1000 Genomes phase 3 population genotypes	rs1799945	sweep/gstats_vs_scipy.py
+dbsnp_variant	rs1800562	Ensembl GRCh37 REST variation record with 1000 Genomes phase 3 population genotypes	rs1800562	sweep/gstats_vs_scipy.py
+dbsnp_variant	rs1801133	Ensembl GRCh37 REST variation record with 1000 Genomes phase 3 population genotypes	rs1801133	sweep/gstats_vs_scipy.py
+dbsnp_variant	rs1815739	Ensembl GRCh37 REST variation record with 1000 Genomes phase 3 population genotypes	rs1815739	sweep/gstats_vs_scipy.py
+dbsnp_variant	rs2231142	Ensembl GRCh37 REST variation record with 1000 Genomes phase 3 population genotypes	rs2231142	sweep/gstats_vs_scipy.py
+dbsnp_variant	rs334	Ensembl GRCh37 REST variation record with 1000 Genomes phase 3 population genotypes	rs334	sweep/gstats_vs_scipy.py
+dbsnp_variant	rs3827760	Ensembl GRCh37 REST variation record with 1000 Genomes phase 3 population genotypes	rs3827760	sweep/gstats_vs_scipy.py
+dbsnp_variant	rs429358	Ensembl GRCh37 REST variation record with 1000 Genomes phase 3 population genotypes	rs429358	sweep/gstats_vs_scipy.py
+dbsnp_variant	rs4680	Ensembl GRCh37 REST variation record with 1000 Genomes phase 3 population genotypes	rs4680	sweep/gstats_vs_scipy.py
+dbsnp_variant	rs4988235	Ensembl GRCh37 REST variation record with 1000 Genomes phase 3 population genotypes	rs4988235	sweep/gstats_vs_scipy.py
+dbsnp_variant	rs53576	Ensembl GRCh37 REST variation record with 1000 Genomes phase 3 population genotypes	rs53576	sweep/gstats_vs_scipy.py
+dbsnp_variant	rs6025	Ensembl GRCh37 REST variation record with 1000 Genomes phase 3 population genotypes	rs6025	sweep/gstats_vs_scipy.py
+dbsnp_variant	rs671	Ensembl GRCh37 REST variation record with 1000 Genomes phase 3 population genotypes	rs671	sweep/gstats_vs_scipy.py
+dbsnp_variant	rs7412	Ensembl GRCh37 REST variation record with 1000 Genomes phase 3 population genotypes	rs7412	sweep/gstats_vs_scipy.py
+dbsnp_variant	rs762551	Ensembl GRCh37 REST variation record with 1000 Genomes phase 3 population genotypes	rs762551	sweep/gstats_vs_scipy.py
