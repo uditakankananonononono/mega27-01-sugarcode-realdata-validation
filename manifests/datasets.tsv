@@ -1,0 +1,23 @@
+id	dataset	accession_or_version	source_url	retrieved	used_in
+1	ClinVar variant_summary	variant_summary.txt.gz (GRCh38)	https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/variant_summary.txt.gz	2026-09-24	data/clinvar_sample_500.tsv; discovery/splice_region_vus/
+2	UCSC hg38 reference genome	hg38.2bit	https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.2bit	2026-09-24	discovery/splice_region_vus/extract.py
+3	LOVD3 shared variant records	top-20 VUS query	https://databases.lovd.nl/shared/	2026-09-24	discovery/splice_region_vus/lovd_top20.json
+4	SKEMPI 2.0	skempi_v2.csv (PMID 30598530)	https://life.bsc.es/pid/skempi2	2026-09-24	data/skempi_v2.csv
+5	BiGG e_coli_core	e_coli_core (PMID 21988831)	http://bigg.ucsd.edu/models/e_coli_core	2026-09-24	data/e_coli_core.json
+6	NCBI RefSeqGene BRCA1	NG_005905.2:60000-70000	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi	2026-09-24	data/brca1_10kb.fa; data/crispr_fresh_pairs.tsv
+7	CRISPOR reference CFD/MIT matrices	crisporWebsite (PMID 30341956)	https://github.com/maximilianh/crisporWebsite	2026-09-24	data/crispr_cfd_oracle.tsv; sweep/_crispor_mit_ref.py
+8	CRISPOR Rule Set 1 reference	crisporEffScores.py	https://github.com/maximilianh/crisporWebsite	2026-09-24	data/doench_rs1_oracle.tsv
+9	UniProtKB reviewed globins	25 sequences	https://rest.uniprot.org	2026-09-24	data/globins25.fa
+10	UniProtKB reviewed non-globins	25 sequences	https://rest.uniprot.org	2026-09-24	data/nonglobins25.fa
+11	Pfam Globin HMM	PF00042.29	https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00042?annotation=hmm	2026-09-24	data/pfam_PF00042_globin.hmm
+12	Rfam tRNA seed	RF00005	https://rfam.org/family/RF00005	2026-09-24	data/rfam/RF00005.sto
+13	Rfam 5S rRNA seed	RF00001	https://rfam.org/family/RF00001	2026-09-24	data/rfam/RF00001.sto
+14	Rfam RNase P RNA seed	RF00010	https://rfam.org/family/RF00010	2026-09-24	data/rfam/RF00010.sto
+15	ChEMBL approved drugs	1000-compound slice	https://www.ebi.ac.uk/chembl/	2026-09-24	data/chembl_approved_1000.tsv
+16	Kazusa CUTG E. coli K12	taxid 83333	https://www.kazusa.or.jp/codon/	2026-09-24	data/README.md (sanity only)
+17	NCBI RefSeq E. coli K-12 MG1655 CDS	GCF_000005845.2	https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/	2026-09-24	sweep/codon_cai_bench.py
+18	PaxDb E. coli integrated abundance	511145-WHOLE_ORGANISM-integrated	https://pax-db.org/downloads/latest/datasets/511145/	2026-09-24	sweep/codon_cai_bench.py
+19	CPIC CYP2C19 diplotype table	666 diplotypes	https://api.cpicpgx.org/v1/diplotype?genesymbol=eq.CYP2C19	2026-09-24	sweep/pgx_cpic_bench.py
+20	CPIC CYP2D6 diplotype table	16836 diplotypes	https://api.cpicpgx.org/v1/diplotype?genesymbol=eq.CYP2D6	2026-09-24	sweep/pgx_cpic_bench.py
+21	CPIC CYP2D6 allele activity table	208 alleles	https://api.cpicpgx.org/v1/allele?genesymbol=eq.CYP2D6	2026-09-24	sugarcode-ai pgx_guidelines/data
+22	Edinburgh Genome Foundry codon tables	e_coli_316407	https://github.com/Edinburgh-Genome-Foundry/codon-usage-tables	2026-09-21	sweep/codon_cai_bench.py (via sugarcode-ai)
