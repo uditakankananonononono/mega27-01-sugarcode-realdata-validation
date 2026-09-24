@@ -26,3 +26,10 @@ Reference: CPIC API diplotype tables (CYP2C19 666 diplotypes, CYP2D6 16,836).
 - After (sugarcode-ai fix): 666/666 and 16,836/16,836 agree. C19 is a verbatim lookup (agreement by construction). D6 is computed from allele activity sums and thresholds, so it is a real check.
 - Also fixed: "Likely poor/intermediate metabolizer" now triggers the clopidogrel alternative (was falling through to "no recommendation").
 Numbers: benchmarks/sweep_pgx_cpic.json. Verdict: VERIFIED for phenotype translation; recommendation text covers only 2 gene-drug pairs (THIN scope).
+
+## neohunter hla_binding vs IEDB (2026-09-24)
+Data: IEDB MHC-I binding 2013 (Kim et al. 2014), human 9-mers, binder = IC50<500 nM.
+- Anchor heuristic AUROC: A*02:01 0.830, A*03:01 0.801, A*24:02 0.815, B*07:02 0.848, B*44:03 0.827.
+- One-hot logistic PSSM, 5-fold CV: 0.954, 0.942, 0.897, 0.962, 0.916.
+- Fix shipped: sugarcode-ai neohunter.hla_binding_iedb (trained on all IEDB 2013 rows for the 5 alleles). Not yet compared with NetMHCpan/MHCflurry (next).
+Numbers: benchmarks/sweep_neohunter_iedb.json. Verdict: heuristic THIN; PSSM VERIFIED (CV).

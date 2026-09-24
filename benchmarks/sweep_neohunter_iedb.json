@@ -1,0 +1,37 @@
+{
+ "source": "IEDB MHC-I binding data 2013 (Kim et al. 2014, bdata.20130222.mhci.txt)",
+ "binder_def": "IC50<500nM with = or < inequality; non-binder IC50>=500 with = or >",
+ "length": 9,
+ "alleles": {
+  "A*02:01": {
+   "n": 9051,
+   "n_binders": 3273,
+   "auc_module_heuristic": 0.8301,
+   "auc_pssm_logit_cv5": 0.9537
+  },
+  "A*03:01": {
+   "n": 5488,
+   "n_binders": 1378,
+   "auc_module_heuristic": 0.8009,
+   "auc_pssm_logit_cv5": 0.9424
+  },
+  "A*24:02": {
+   "n": 2395,
+   "n_binders": 496,
+   "auc_module_heuristic": 0.8147,
+   "auc_pssm_logit_cv5": 0.8965
+  },
+  "B*07:02": {
+   "n": 3868,
+   "n_binders": 1060,
+   "auc_module_heuristic": 0.8484,
+   "auc_pssm_logit_cv5": 0.9622
+  },
+  "B*44:03": {
+   "n": 733,
+   "n_binders": 207,
+   "auc_module_heuristic": 0.8265,
+   "auc_pssm_logit_cv5": 0.9158
+  }
+ }
+}

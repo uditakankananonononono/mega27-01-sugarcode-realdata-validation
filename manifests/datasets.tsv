@@ -21,3 +21,4 @@ id	dataset	accession_or_version	source_url	retrieved	used_in
 20	CPIC CYP2D6 diplotype table	16836 diplotypes	https://api.cpicpgx.org/v1/diplotype?genesymbol=eq.CYP2D6	2026-09-24	sweep/pgx_cpic_bench.py
 21	CPIC CYP2D6 allele activity table	208 alleles	https://api.cpicpgx.org/v1/allele?genesymbol=eq.CYP2D6	2026-09-24	sugarcode-ai pgx_guidelines/data
 22	Edinburgh Genome Foundry codon tables	e_coli_316407	https://github.com/Edinburgh-Genome-Foundry/codon-usage-tables	2026-09-21	sweep/codon_cai_bench.py (via sugarcode-ai)
+23	IEDB MHC-I binding data 2013 (Kim et al. 2014)	bdata.20130222.mhci.txt	http://tools.iedb.org/static/main/binding_data_2013.zip	2026-09-24	sweep/neohunter_iedb_bench.py
