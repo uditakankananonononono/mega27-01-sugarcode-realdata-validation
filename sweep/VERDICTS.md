@@ -109,3 +109,6 @@ Numbers: benchmarks/sweep_proteinprops_restriction.json.
 
 ## bio.stockholm vs Biopython AlignIO (2026-09-25)
 15 Rfam seed alignments (12 fetched individually today + RF00001/5/10), 4,471 sequences: ids and order, aligned sequences and SS_cons identical to Biopython in 15/15; write->parse round trip lossless in 15/15; pairwise identity equals an independent count. VERIFIED. Numbers: benchmarks/sweep_stockholm_biopython.json.
+
+## bio.gff vs gffutils (2026-09-25)
+NCBI RefSeq E. coli K-12 MG1655 annotation (GCF_000005845.2_ASM584v2_genomic.gff.gz), 9,523 records: seqid/type/coords/strand/phase/attributes identical to gffutils in 9,523/9,523; children of 300 genes identical in 300/300; write->parse lossless. The first comparison showed 2/300 child mismatches; both were split CDS features (b0240, b4587) with a repeated ID that gffutils renames X_1, a comparison artifact, not a sugarcode error. VERIFIED. Numbers: benchmarks/sweep_gff_gffutils.json.

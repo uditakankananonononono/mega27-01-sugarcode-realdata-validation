@@ -1,0 +1,45 @@
+{
+ "reference": "gffutils 0.14 (sqlite, in-memory)",
+ "file": "data/refseq/GCF_000005845.2_genomic.gff.gz",
+ "n_records_sugarcode": 9523,
+ "n_features_gffutils": 9523,
+ "records_identical": 9523,
+ "examples_differ": [],
+ "genes_checked_children": 300,
+ "children_identical_multiset": 300,
+ "roundtrip_lossless": true,
+ "types": [
+  [
+   "gene",
+   4506
+  ],
+  [
+   "CDS",
+   4340
+  ],
+  [
+   "exon",
+   216
+  ],
+  [
+   "pseudogene",
+   145
+  ],
+  [
+   "ncRNA",
+   108
+  ],
+  [
+   "tRNA",
+   86
+  ],
+  [
+   "mobile_genetic_element",
+   50
+  ],
+  [
+   "sequence_feature",
+   48
+  ]
+ ]
+}
