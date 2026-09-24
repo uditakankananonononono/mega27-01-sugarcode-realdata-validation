@@ -1,0 +1,63 @@
+{
+ "module": "biofactory_1_a",
+ "schedules": {
+  "golden_gate": {
+   "ordered": true,
+   "makespan": 274.0,
+   "sequential_sum": 274
+  },
+  "gibson": {
+   "ordered": true,
+   "makespan": 126.0,
+   "sequential_sum": 126
+  },
+  "pcr_screen": {
+   "ordered": true,
+   "makespan": 173.0,
+   "sequential_sum": 173
+  }
+ },
+ "bug36_prefix": {
+  "golden_gate_makespan": 120.0,
+  "sequential": 274,
+  "symptom": "thermocycle scheduled at t=0 in parallel with its input dispense steps"
+ },
+ "bayesian": {
+  "module_mean": 0.757142857142857,
+  "expected_mean": 0.757142857142857,
+  "match": true,
+  "shrinks_toward_data": true
+ },
+ "pid": {
+  "match": true,
+  "final_error": -1,
+  "integral": 2
+ },
+ "reagent_activity": {
+  "match": true
+ },
+ "z_prime": {
+  "module": 0.684586780275136,
+  "expected": 0.684586780275136,
+  "match": true,
+  "robust_flag": true
+ },
+ "dag": {
+  "linear_edges": true,
+  "reroute_removes_failed_outgoing": true,
+  "fallback_added": true
+ },
+ "protocol_audit": {
+  "golden_gate_thermocycle": "30x(37C 5min, 16C 5min), 50C 10min, 80C 10min",
+  "reference": "NEB Golden Gate: 30x(37C/16C), final digest + heat kill; module 50C 10min + 80C 10min - plausible variant",
+  "gibson_incubation": {
+   "op": "incubate",
+   "temp_c": 50,
+   "min": 60
+  },
+  "gibson_reference": "NEB Gibson: 50C, 15-60 min - module 60 min at upper bound",
+  "transformation": "42C 45s heat shock DH5-alpha - standard",
+  "plates_math": true,
+  "screening_candidates": true
+ }
+}
