@@ -133,3 +133,39 @@ Same 10,943 NA12878 chr20 reads, matched filters (unmapped excluded only): 197,4
 
 ## bio.motif + bio.pwm vs Biopython Bio.motifs (2026-09-25)
 10 JASPAR 2024 profiles (SP1, CTCF, TP53, TBP, NR3C1, ESR1, SPI1, FOS::JUN, NFKB1, TFAP2A) scanned over BRCA1 10 kb and lambda (both strands): log-odds matrices equal to 1.8e-15, min/max scores equal, per-window scores equal to 3.8e-6 (Biopython stores float32), and the 80%-of-range hit sets identical in 20/20 motif x sequence pairs. VERIFIED (bio.motif uses bio.pwm's log_odds/score/min/max, so both are covered). Numbers: benchmarks/sweep_motif_biopython.json.
+
+## bio.bed vs bioframe (2026-09-25)
+UCSC hg38 cpgIslandExt chr20 + rmsk chr20:0-5Mb. Parse and 600 overlap queries identical. BUG: merge_intervals did not join book-ended intervals (rmsk 11,364 vs 8,251). Fixed sc-ai 1fc4a9b. benchmarks/sweep_bed_bioframe.json
+
+## bio.genbank vs Biopython (2026-09-25)
+25 NCBI nuccore records, 1,867 features. BUG: multi-line qualifiers leaked into locations (/translation 5/302; spans 1,829/1,867); partial/single-base locations unparsed. Fixed sc-ai 2e21f86: 1,867/1,867 spans, 302/302 translations. benchmarks/sweep_genbank_biopython.json
+
+## bio.sequence vs Biopython (2026-09-25)
+All real-data checks agree (translate 285/285, ORFs 22/22, motifs 192/192). Latent IUPAC frame-shift bug (code review) fixed sc-ai 143d1c4. benchmarks/sweep_sequence_biopython.json
+
+## bio.kmer vs sourmash (2026-09-25)
+6 coronavirus genomes: exact k-mer sets/Jaccard identical on 15 pairs. NEGATIVE: minimizer-sketch Jaccard biased (MAE 0.0121 vs FracMinHash 0.0044). benchmarks/sweep_kmer_sourmash.json
+
+## bio.gstats vs scipy/statsmodels (2026-09-25)
+1000 Genomes phase 3, 22 rsIDs, 110 tables: HWE exact 110/110 vs enumeration; association/OR/BH match. No bug. benchmarks/sweep_gstats_scipy.json
+
+## bio.uniprot vs HGNC (2026-09-25)
+BUG: CDKN2A -> CDKN2A-AS1 (Q9UH64); 59->60/60 after gene_exact fix. BUG: salted-hash cache keys in 4 connectors. Fixed sc-ai 6c11d68. benchmarks/sweep_uniprot_hgnc.json
+
+## bio.entrez vs HGNC (2026-09-25)
+BUG: HTT -> SLC6A4, TTN -> TTR (alias hits). 58->60/60. Fixed sc-ai 93d5b12. benchmarks/sweep_entrez_hgnc.json
+
+## bio.reactome vs UniProt2Reactome.txt (2026-09-25)
+61/61 identical (isoform rows pooled). No bug; isoform pooling caveat. benchmarks/sweep_reactome_download.json
+
+## bio.chembl activities ordering (2026-09-25)
+BUG: "best first" was best of an arbitrary 50-row page (ABL1 1,200 nM vs 0.015 nM). Fixed sc-ai c6db085 (server-side pChEMBL order). benchmarks/sweep_chembl_order.json
+
+## bio.gnomad constraint (2026-09-25)
+BUG: v2 LOEUF cutoff 0.35 on r4 data; gnomAD v4 guidance 0.45. pLI agreement 51->57/60. Fixed sc-ai 0a265e7; rate-limit fail-fast ce87ccb. benchmarks/sweep_gnomad_constraint.json
+
+## bio.splice junction_map vs ClinVar (2026-09-25)
+159/159 MANE-named canonical-site SNVs (11 genes). No bug; CDH1 not in vendored list. benchmarks/sweep_splice_clinvar.json
+
+## modules.cfd_offtarget vs Doench 2016 pickles (2026-09-25)
+600 BRCA1 pairs x 16 PAMs = 9,600 scores, max diff 2.2e-16. No bug. benchmarks/sweep_cfd_doench.json

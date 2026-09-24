@@ -16,7 +16,7 @@ module	cell_twin	170	2	not yet validated
 module	cellfatenet	199	2	not yet validated	
 module	cellpainter	289	3	not yet validated	
 module	cellpainter_4d	164	2	not yet validated	
-module	cfd_offtarget	157	2	not yet validated	
+module	cfd_offtarget	157	2	validated	benchmarks/sweep_cfd_doench.json
 module	chem_descriptors	923	2	validated	benchmarks/results.json (VERDICTS table)
 module	chem_similarity	234	1	validated	benchmarks/results.json (VERDICTS table)
 module	chemgpt_engine	305	6	not yet validated	

@@ -1,5 +1,5 @@
 \section{Module inventory and validation coverage}
-sugarcode-ai contains 95 application modules and 32 bio/ libraries. 42 of these 127 have been checked against an independent reference on real data in this work (11 modules, 31 libraries). The rest are not yet validated. That does not mean they are wrong, only that no claim about them is made here. Validation status is a curated list tied to committed result files (manifests/module\_inventory.tsv, built by sweep/module\_inventory.py), not a keyword match.
+sugarcode-ai contains 95 application modules and 32 bio/ libraries. 43 of these 127 have been checked against an independent reference on real data in this work (12 modules, 31 libraries). The rest are not yet validated. That does not mean they are wrong, only that no claim about them is made here. Validation status is a curated list tied to committed result files (manifests/module\_inventory.tsv, built by sweep/module\_inventory.py), not a keyword match.
 \begin{center}\scriptsize\begin{longtable}{llrl}\hline kind & name & py lines & status\\\hline\endhead
 bio & align & 164 & \textbf{validated}\\
 bio & bed & 180 & \textbf{validated}\\
@@ -32,6 +32,7 @@ bio & stockholm & 260 & \textbf{validated}\\
 bio & structures & 267 & \textbf{validated}\\
 bio & uniprot & 106 & \textbf{validated}\\
 bio & vcf & 263 & \textbf{validated}\\
+module & cfd\_offtarget & 157 & \textbf{validated}\\
 module & chem\_descriptors & 923 & \textbf{validated}\\
 module & chem\_similarity & 234 & \textbf{validated}\\
 module & codon\_opt & 289 & \textbf{validated}\\
@@ -61,7 +62,6 @@ module & cell\_twin & 170 & not yet\\
 module & cellfatenet & 199 & not yet\\
 module & cellpainter & 289 & not yet\\
 module & cellpainter\_4d & 164 & not yet\\
-module & cfd\_offtarget & 157 & not yet\\
 module & chemgpt\_engine & 305 & not yet\\
 module & crispr\_cargo & 156 & not yet\\
 module & crispr\_muse & 278 & not yet\\
