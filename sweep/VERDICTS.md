@@ -92,3 +92,7 @@ Cross-species BH-FDR (statsmodels): ribosomal-reference CAI is significantly cor
 
 ## bio.align NW/SW vs parasail (2026-09-24)
 - All 300 pairs of 25 Pfam PF00042 globins, BLOSUM62, gap open 11 / extend 1: global and local scores equal parasail nw_scan/sw_scan in 300/300 each (max diff 0.0). Same gap convention as parasail (first gap residue costs the open penalty). VERIFIED (benchmarks/sweep_align_parasail.json).
+
+## Dex-response enrichment with the new DESeq2 path (2026-09-24)
+- sugarcode de_analysis_deseq2 (~block + group) reproduces the direct PyDESeq2 run exactly: 4,451 genes at padj<0.05 (536 up with log2FC>1, 529 down with log2FC<-1). Table in benchmarks/deseq2_dex_paired.tsv.gz.
+- g:Profiler (custom background of 16,802 tested genes, g:SCS): top terms are generic (multicellular organismal process, signalling, cell adhesion; KEGG cytoskeleton in muscle cells). "Cellular response to glucocorticoid stimulus" is over-represented about 7-fold (9 of 43 genes; approximate raw hypergeometric p 3.4e-6) but does NOT pass g:SCS correction. Reported as is (benchmarks/sweep_dex_enrichment.json).

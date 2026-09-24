@@ -1,0 +1,253 @@
+{
+ "query": "dex-induced genes, PyDESeq2 ~cell+dex padj<0.05 and log2FC>1 (GSE52778)",
+ "n_query": 536,
+ "n_background": 16802,
+ "tool": "g:Profiler g:GOSt API (g:SCS correction, custom background)",
+ "gprofiler_meta_version": "e114_eg62_p19_27110d83",
+ "n_significant_terms": 31,
+ "top_terms": [
+  {
+   "source": "GO:BP",
+   "native": "GO:0032501",
+   "name": "multicellular organismal process",
+   "p": 2.7701168689521434e-07,
+   "intersection": 228,
+   "term_size": 4764
+  },
+  {
+   "source": "GO:BP",
+   "native": "GO:0023052",
+   "name": "signaling",
+   "p": 4.0423178614976544e-06,
+   "intersection": 209,
+   "term_size": 4354
+  },
+  {
+   "source": "GO:BP",
+   "native": "GO:0007154",
+   "name": "cell communication",
+   "p": 5.1777574900044185e-06,
+   "intersection": 209,
+   "term_size": 4365
+  },
+  {
+   "source": "GO:BP",
+   "native": "GO:0007155",
+   "name": "cell adhesion",
+   "p": 1.49607455105981e-05,
+   "intersection": 73,
+   "term_size": 1031
+  },
+  {
+   "source": "GO:BP",
+   "native": "GO:0003008",
+   "name": "system process",
+   "p": 2.1374944920020182e-05,
+   "intersection": 80,
+   "term_size": 1189
+  },
+  {
+   "source": "GO:BP",
+   "native": "GO:0050896",
+   "name": "response to stimulus",
+   "p": 8.596686081712735e-05,
+   "intersection": 261,
+   "term_size": 5987
+  },
+  {
+   "source": "GO:BP",
+   "native": "GO:0007165",
+   "name": "signal transduction",
+   "p": 8.851179368210262e-05,
+   "intersection": 192,
+   "term_size": 4028
+  },
+  {
+   "source": "GO:BP",
+   "native": "GO:0048856",
+   "name": "anatomical structure development",
+   "p": 0.0002709239215002068,
+   "intersection": 196,
+   "term_size": 4191
+  },
+  {
+   "source": "GO:BP",
+   "native": "GO:0016477",
+   "name": "cell migration",
+   "p": 0.00040601634289657657,
+   "intersection": 74,
+   "term_size": 1134
+  },
+  {
+   "source": "KEGG",
+   "native": "KEGG:04820",
+   "name": "Cytoskeleton in muscle cells",
+   "p": 0.00042288574803111043,
+   "intersection": 19,
+   "term_size": 172
+  },
+  {
+   "source": "GO:BP",
+   "native": "GO:0032502",
+   "name": "developmental process",
+   "p": 0.00047034194352878124,
+   "intersection": 209,
+   "term_size": 4580
+  },
+  {
+   "source": "GO:BP",
+   "native": "GO:0030154",
+   "name": "cell differentiation",
+   "p": 0.0005427875777571567,
+   "intersection": 152,
+   "term_size": 3041
+  },
+  {
+   "source": "GO:BP",
+   "native": "GO:0048869",
+   "name": "cellular developmental process",
+   "p": 0.0005553486044334221,
+   "intersection": 152,
+   "term_size": 3042
+  },
+  {
+   "source": "GO:BP",
+   "native": "GO:0009888",
+   "name": "tissue development",
+   "p": 0.000582663790311989,
+   "intersection": 85,
+   "term_size": 1391
+  },
+  {
+   "source": "GO:BP",
+   "native": "GO:0048513",
+   "name": "animal organ development",
+   "p": 0.0023726323196041426,
+   "intersection": 113,
+   "term_size": 2108
+  },
+  {
+   "source": "REAC",
+   "native": "REAC:R-HSA-5661231",
+   "name": "Metallothioneins bind metals",
+   "p": 0.0029507910886339386,
+   "intersection": 4,
+   "term_size": 5
+  },
+  {
+   "source": "GO:BP",
+   "native": "GO:0007275",
+   "name": "multicellular organism development",
+   "p": 0.003127443904945054,
+   "intersection": 163,
+   "term_size": 3413
+  },
+  {
+   "source": "GO:BP",
+   "native": "GO:0009725",
+   "name": "response to hormone",
+   "p": 0.0032752168221774542,
+   "intersection": 49,
+   "term_size": 656
+  },
+  {
+   "source": "GO:BP",
+   "native": "GO:0048870",
+   "name": "cell motility",
+   "p": 0.0038325477237689566,
+   "intersection": 78,
+   "term_size": 1288
+  },
+  {
+   "source": "GO:BP",
+   "native": "GO:0009719",
+   "name": "response to endogenous stimulus",
+   "p": 0.00607567695620581,
+   "intersection": 69,
+   "term_size": 1098
+  },
+  {
+   "source": "KEGG",
+   "native": "KEGG:00350",
+   "name": "Tyrosine metabolism",
+   "p": 0.0063704678434662885,
+   "intersection": 6,
+   "term_size": 22
+  },
+  {
+   "source": "GO:BP",
+   "native": "GO:0044057",
+   "name": "regulation of system process",
+   "p": 0.00883498445535842,
+   "intersection": 32,
+   "term_size": 350
+  },
+  {
+   "source": "GO:BP",
+   "native": "GO:0031589",
+   "name": "cell-substrate adhesion",
+   "p": 0.01050503071899227,
+   "intersection": 28,
+   "term_size": 283
+  },
+  {
+   "source": "GO:BP",
+   "native": "GO:0040011",
+   "name": "locomotion",
+   "p": 0.010545047400150729,
+   "intersection": 59,
+   "term_size": 893
+  },
+  {
+   "source": "GO:BP",
+   "native": "GO:0071495",
+   "name": "cellular response to endogenous stimulus",
+   "p": 0.01606865858063615,
+   "intersection": 61,
+   "term_size": 948
+  }
+ ],
+ "glucocorticoid_terms": [
+  {
+   "native": "GO:0071385",
+   "name": "cellular response to glucocorticoid stimulus",
+   "p_gSCS": 0.4316575295488607,
+   "intersection": 9,
+   "term_size": 43,
+   "significant": false,
+   "fold_enrichment_approx": 7.16,
+   "raw_hypergeom_p_approx": 3.362148892601065e-06
+  },
+  {
+   "native": "GO:0031960",
+   "name": "response to corticosteroid",
+   "p_gSCS": 1.0,
+   "intersection": 10,
+   "term_size": 91,
+   "significant": false,
+   "fold_enrichment_approx": 3.76,
+   "raw_hypergeom_p_approx": 0.0003201944454010745
+  },
+  {
+   "native": "GO:0051384",
+   "name": "response to glucocorticoid",
+   "p_gSCS": 1.0,
+   "intersection": 10,
+   "term_size": 81,
+   "significant": false,
+   "fold_enrichment_approx": 4.22,
+   "raw_hypergeom_p_approx": 0.00012133582408382134
+  },
+  {
+   "native": "GO:0071384",
+   "name": "cellular response to corticosteroid stimulus",
+   "p_gSCS": 1.0,
+   "intersection": 9,
+   "term_size": 48,
+   "significant": false,
+   "fold_enrichment_approx": 6.42,
+   "raw_hypergeom_p_approx": 8.78241327891187e-06
+  }
+ ],
+ "glucocorticoid_note": "Raw over-representation computed with background M=16,802 tested genes and query size 491 (g:Profiler annotated query size); approximate because g:Profiler uses the annotated background. None pass g:SCS multiple-testing correction."
+}
