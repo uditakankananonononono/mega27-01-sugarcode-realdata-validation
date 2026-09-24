@@ -1,0 +1,646 @@
+{
+ "reference": "gemmi 0.7.5",
+ "n_entries": 30,
+ "pdb_identical": 30,
+ "cif_identical": 30,
+ "atoms_total_pdb": 94121,
+ "per_entry": [
+  {
+   "id": "1CNW",
+   "pdb": {
+    "n_sugarcode": 2145,
+    "n_gemmi": 2145,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   },
+   "cif": {
+    "n_sugarcode": 2145,
+    "n_gemmi": 2145,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   }
+  },
+  {
+   "id": "1EJN",
+   "pdb": {
+    "n_sugarcode": 2143,
+    "n_gemmi": 2143,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   },
+   "cif": {
+    "n_sugarcode": 2143,
+    "n_gemmi": 2143,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   }
+  },
+  {
+   "id": "1F5L",
+   "pdb": {
+    "n_sugarcode": 2006,
+    "n_gemmi": 2006,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   },
+   "cif": {
+    "n_sugarcode": 2006,
+    "n_gemmi": 2006,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   }
+  },
+  {
+   "id": "1G54",
+   "pdb": {
+    "n_sugarcode": 2156,
+    "n_gemmi": 2156,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   },
+   "cif": {
+    "n_sugarcode": 2156,
+    "n_gemmi": 2156,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   }
+  },
+  {
+   "id": "1GI1",
+   "pdb": {
+    "n_sugarcode": 4198,
+    "n_gemmi": 4198,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   },
+   "cif": {
+    "n_sugarcode": 4198,
+    "n_gemmi": 4198,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   }
+  },
+  {
+   "id": "1K1J",
+   "pdb": {
+    "n_sugarcode": 1787,
+    "n_gemmi": 1787,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   },
+   "cif": {
+    "n_sugarcode": 1787,
+    "n_gemmi": 1787,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   }
+  },
+  {
+   "id": "1O3L",
+   "pdb": {
+    "n_sugarcode": 3810,
+    "n_gemmi": 3810,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   },
+   "cif": {
+    "n_sugarcode": 3810,
+    "n_gemmi": 3810,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   }
+  },
+  {
+   "id": "1P1O",
+   "pdb": {
+    "n_sugarcode": 2204,
+    "n_gemmi": 2204,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   },
+   "cif": {
+    "n_sugarcode": 2204,
+    "n_gemmi": 2204,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   }
+  },
+  {
+   "id": "1Y3X",
+   "pdb": {
+    "n_sugarcode": 1857,
+    "n_gemmi": 1857,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   },
+   "cif": {
+    "n_sugarcode": 1857,
+    "n_gemmi": 1857,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   }
+  },
+  {
+   "id": "1ZGI",
+   "pdb": {
+    "n_sugarcode": 2425,
+    "n_gemmi": 2425,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   },
+   "cif": {
+    "n_sugarcode": 2425,
+    "n_gemmi": 2425,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   }
+  },
+  {
+   "id": "2ERZ",
+   "pdb": {
+    "n_sugarcode": 3016,
+    "n_gemmi": 3016,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   },
+   "cif": {
+    "n_sugarcode": 3016,
+    "n_gemmi": 3016,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   }
+  },
+  {
+   "id": "2J4I",
+   "pdb": {
+    "n_sugarcode": 2457,
+    "n_gemmi": 2457,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   },
+   "cif": {
+    "n_sugarcode": 2457,
+    "n_gemmi": 2457,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   }
+  },
+  {
+   "id": "2P4J",
+   "pdb": {
+    "n_sugarcode": 12846,
+    "n_gemmi": 12846,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   },
+   "cif": {
+    "n_sugarcode": 12846,
+    "n_gemmi": 12846,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   }
+  },
+  {
+   "id": "2X7T",
+   "pdb": {
+    "n_sugarcode": 2194,
+    "n_gemmi": 2194,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   },
+   "cif": {
+    "n_sugarcode": 2194,
+    "n_gemmi": 2194,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   }
+  },
+  {
+   "id": "2XAB",
+   "pdb": {
+    "n_sugarcode": 3895,
+    "n_gemmi": 3895,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   },
+   "cif": {
+    "n_sugarcode": 3895,
+    "n_gemmi": 3895,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   }
+  },
+  {
+   "id": "2XJG",
+   "pdb": {
+    "n_sugarcode": 1812,
+    "n_gemmi": 1812,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   },
+   "cif": {
+    "n_sugarcode": 1812,
+    "n_gemmi": 1812,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   }
+  },
+  {
+   "id": "2ZDN",
+   "pdb": {
+    "n_sugarcode": 1847,
+    "n_gemmi": 1847,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   },
+   "cif": {
+    "n_sugarcode": 1847,
+    "n_gemmi": 1847,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   }
+  },
+  {
+   "id": "3B3C",
+   "pdb": {
+    "n_sugarcode": 2508,
+    "n_gemmi": 2508,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   },
+   "cif": {
+    "n_sugarcode": 2508,
+    "n_gemmi": 2508,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   }
+  },
+  {
+   "id": "3C84",
+   "pdb": {
+    "n_sugarcode": 8961,
+    "n_gemmi": 8961,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   },
+   "cif": {
+    "n_sugarcode": 8961,
+    "n_gemmi": 8961,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   }
+  },
+  {
+   "id": "3D8W",
+   "pdb": {
+    "n_sugarcode": 2256,
+    "n_gemmi": 2256,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   },
+   "cif": {
+    "n_sugarcode": 2256,
+    "n_gemmi": 2256,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   }
+  },
+  {
+   "id": "3HKQ",
+   "pdb": {
+    "n_sugarcode": 2158,
+    "n_gemmi": 2158,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   },
+   "cif": {
+    "n_sugarcode": 2158,
+    "n_gemmi": 2158,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   }
+  },
+  {
+   "id": "3HLL",
+   "pdb": {
+    "n_sugarcode": 2973,
+    "n_gemmi": 2973,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   },
+   "cif": {
+    "n_sugarcode": 2973,
+    "n_gemmi": 2973,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   }
+  },
+  {
+   "id": "3IBI",
+   "pdb": {
+    "n_sugarcode": 2396,
+    "n_gemmi": 2396,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   },
+   "cif": {
+    "n_sugarcode": 2396,
+    "n_gemmi": 2396,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   }
+  },
+  {
+   "id": "3M35",
+   "pdb": {
+    "n_sugarcode": 1785,
+    "n_gemmi": 1785,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   },
+   "cif": {
+    "n_sugarcode": 1785,
+    "n_gemmi": 1785,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   }
+  },
+  {
+   "id": "3PO6",
+   "pdb": {
+    "n_sugarcode": 2510,
+    "n_gemmi": 2510,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   },
+   "cif": {
+    "n_sugarcode": 2510,
+    "n_gemmi": 2510,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   }
+  },
+  {
+   "id": "3R17",
+   "pdb": {
+    "n_sugarcode": 2433,
+    "n_gemmi": 2433,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   },
+   "cif": {
+    "n_sugarcode": 2433,
+    "n_gemmi": 2433,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   }
+  },
+  {
+   "id": "3R4N",
+   "pdb": {
+    "n_sugarcode": 3846,
+    "n_gemmi": 3846,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   },
+   "cif": {
+    "n_sugarcode": 3846,
+    "n_gemmi": 3846,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   }
+  },
+  {
+   "id": "4B2I",
+   "pdb": {
+    "n_sugarcode": 2088,
+    "n_gemmi": 2088,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   },
+   "cif": {
+    "n_sugarcode": 2088,
+    "n_gemmi": 2088,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   }
+  },
+  {
+   "id": "4DB7",
+   "pdb": {
+    "n_sugarcode": 4117,
+    "n_gemmi": 4117,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   },
+   "cif": {
+    "n_sugarcode": 4117,
+    "n_gemmi": 4117,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   }
+  },
+  {
+   "id": "4F5Y",
+   "pdb": {
+    "n_sugarcode": 3292,
+    "n_gemmi": 3292,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   },
+   "cif": {
+    "n_sugarcode": 3292,
+    "n_gemmi": 3292,
+    "identical": true,
+    "only_sugarcode": 0,
+    "only_gemmi": 0,
+    "ex_sc": [],
+    "ex_gemmi": []
+   }
+  }
+ ],
+ "before_fix": {
+  "sugarcode_commit": "87cf78e",
+  "cif_parsed": 0,
+  "cif_error": "loop_ row count 3 is not a multiple of 4 columns (all 30 files)",
+  "pdb_identical": 30
+ },
+ "after_fix_commit": "fc1fd1e"
+}

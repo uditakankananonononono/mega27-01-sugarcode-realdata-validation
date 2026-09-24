@@ -121,3 +121,6 @@ NCBI RefSeq E. coli K-12 MG1655 annotation (GCF_000005845.2_ASM584v2_genomic.gff
 
 ## bio.fastq vs Biopython SeqIO (2026-09-25)
 First 20,000 reads of ENA SRR622461_1 (NA12878): ids, sequences and per-base Phred equal Biopython for 20,000/20,000; mean Phred identical; offset detected as 33; round trip lossless. GC 0.4252 equals Biopython gc_fraction(ambiguous='remove'), i.e. N excluded from the denominator (0.4220 with 'ignore'); convention documented, not a bug. VERIFIED. Numbers: benchmarks/sweep_fastq_biopython.json.
+
+## bio.pdb (PDB + mmCIF) vs gemmi (2026-09-25)
+30 RCSB entries (first 30 docking IDs), both formats, 94,121 atom sites incl. all altlocs/models. PDB format: 30/30 identical to gemmi on every field. BUG FOUND in mmCIF: 0/30 real RCSB files parsed (POSIX shlex mis-split primes such as O5'; loops ended early on unquoted item-name values like _database_2.pdbx_DOI). Fixed in sugarcode-ai fc1fd1e with a CIF 1.1 tokenizer and row-boundary loop ends: 30/30 identical to gemmi. Numbers: benchmarks/sweep_pdb_gemmi.json.
