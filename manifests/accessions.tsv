@@ -539,3 +539,15 @@ pubmed	42701997	SIRT1 resveratrol activation abstract (biogpt_lit sweep)	PMID 42
 pubmed	42693013	SIRT1 resveratrol activation abstract (biogpt_lit sweep)	PMID 42693013	sweep/biogpt_lit.py
 pubmed	42641908	SIRT1 resveratrol activation abstract; only PMID with an iCite record (biogpt_lit sweep)	PMID 42641908	sweep/biogpt_lit.py
 icite	pmids_42775788_42759458_42746974_42731586_42727368_42701997_42693013_42641908	iCite citation-count response for the 8 ingested PMIDs (biogpt_lit sweep)	citation_count map	sweep/biogpt_lit.py
+refseq	NM_000518.5	HBB mRNA; longest-ORF/CDS, MW and HGVS c. hotspot mapping (gene_analysis sweep)	RefSeq FASTA	sweep/gene_analysis.py
+refseq	NM_000546.6	TP53 mRNA; longest-ORF/CDS, MW and HGVS c. hotspot mapping (gene_analysis sweep)	RefSeq FASTA	sweep/gene_analysis.py
+refseq	NM_000492.4	CFTR mRNA; longest-ORF/CDS, MW and HGVS c. hotspot mapping (gene_analysis sweep)	RefSeq FASTA	sweep/gene_analysis.py
+ncbi_gene	7157	TP53 NCBI Gene record; uid/chromosome check (gene_analysis sweep)	esummary	sweep/gene_analysis.py
+ncbi_gene	672	BRCA1 NCBI Gene record; uid/chromosome check (gene_analysis sweep)	esummary	sweep/gene_analysis.py
+ncbi_gene	1080	CFTR NCBI Gene record; uid/chromosome check (gene_analysis sweep)	esummary	sweep/gene_analysis.py
+ncbi_gene	3043	HBB NCBI Gene record; uid/chromosome check (gene_analysis sweep)	esummary	sweep/gene_analysis.py
+ncbi_gene	1956	EGFR NCBI Gene record; uid/chromosome check (gene_analysis sweep)	esummary	sweep/gene_analysis.py
+uniprot	P04637	TP53 Swiss-Prot canonical; accession/length check (gene_analysis sweep)	UniProt REST	sweep/gene_analysis.py
+uniprot	P38398	BRCA1 Swiss-Prot canonical; accession/length check (gene_analysis sweep)	UniProt REST	sweep/gene_analysis.py
+uniprot	P13569	CFTR Swiss-Prot canonical; accession/length check (gene_analysis sweep)	UniProt REST	sweep/gene_analysis.py
+uniprot	P68871	HBB Swiss-Prot canonical; accession/length check (gene_analysis sweep)	UniProt REST	sweep/gene_analysis.py

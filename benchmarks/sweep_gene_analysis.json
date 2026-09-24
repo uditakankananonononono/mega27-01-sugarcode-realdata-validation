@@ -1,0 +1,262 @@
+{
+ "module": "gene_analysis",
+ "sources": [
+  "NCBI Gene/nuccore/PubMed E-utilities",
+  "UniProt REST",
+  "Reactome",
+  "Biopython ProtParam",
+  "statsmodels NormalIndPower"
+ ],
+ "live_gene_profile": [
+  {
+   "symbol": "TP53",
+   "uid": "7157",
+   "uid_ok": true,
+   "chrom": "17",
+   "chrom_ok": true,
+   "accession": "P04637",
+   "acc_ok": true,
+   "protein_length": 393,
+   "len_ok": true,
+   "hydrophobic_fraction_recomputed_ok": true,
+   "clinvar_n": 50,
+   "reactome_n": 46,
+   "errors": {}
+  },
+  {
+   "symbol": "BRCA1",
+   "uid": "672",
+   "uid_ok": true,
+   "chrom": "17",
+   "chrom_ok": true,
+   "accession": "P38398",
+   "acc_ok": true,
+   "protein_length": 1863,
+   "len_ok": true,
+   "hydrophobic_fraction_recomputed_ok": true,
+   "clinvar_n": 50,
+   "reactome_n": 28,
+   "errors": {}
+  },
+  {
+   "symbol": "CFTR",
+   "uid": "1080",
+   "uid_ok": true,
+   "chrom": "7",
+   "chrom_ok": true,
+   "accession": "P13569",
+   "acc_ok": true,
+   "protein_length": 1480,
+   "len_ok": true,
+   "hydrophobic_fraction_recomputed_ok": true,
+   "clinvar_n": 50,
+   "reactome_n": 11,
+   "errors": {}
+  },
+  {
+   "symbol": "HBB",
+   "uid": "3043",
+   "uid_ok": true,
+   "chrom": "11",
+   "chrom_ok": true,
+   "accession": "P68871",
+   "acc_ok": true,
+   "protein_length": 147,
+   "len_ok": true,
+   "hydrophobic_fraction_recomputed_ok": true,
+   "clinvar_n": 50,
+   "reactome_n": 10,
+   "errors": {}
+  },
+  {
+   "symbol": "EGFR",
+   "uid": "1956",
+   "uid_ok": true,
+   "chrom": "7",
+   "chrom_ok": true,
+   "accession": "P00533",
+   "acc_ok": true,
+   "protein_length": 1210,
+   "len_ok": true,
+   "hydrophobic_fraction_recomputed_ok": true,
+   "clinvar_n": 50,
+   "reactome_n": 37,
+   "errors": {}
+  }
+ ],
+ "refseq_profiles": [
+  {
+   "symbol": "HBB",
+   "refseq": "NM_000518.5",
+   "mrna_len": 628,
+   "orf_aa": 147,
+   "orf_ok": true,
+   "mw_module": 15997.6,
+   "mw_biopython": 15998.2,
+   "mw_rel_err": 3.790424906544679e-05,
+   "strand": "+",
+   "n_crispr": 5,
+   "gc": 0.5127
+  },
+  {
+   "symbol": "TP53",
+   "refseq": "NM_000546.6",
+   "mrna_len": 2512,
+   "orf_aa": 393,
+   "orf_ok": true,
+   "mw_module": 43650.9,
+   "mw_biopython": 43652.7,
+   "mw_rel_err": 4.154151847162715e-05,
+   "strand": "+",
+   "n_crispr": 5,
+   "gc": 0.5338
+  },
+  {
+   "symbol": "CFTR",
+   "refseq": "NM_000492.4",
+   "mrna_len": 6070,
+   "orf_aa": 1480,
+   "orf_ok": true,
+   "mw_module": 168132.7,
+   "mw_biopython": 168139.5,
+   "mw_rel_err": 4.0624593014348004e-05,
+   "strand": "+",
+   "n_crispr": 5,
+   "gc": 0.4091
+  }
+ ],
+ "pub_trend": {
+  "module": {
+   "2023": 191,
+   "2024": 193,
+   "2025": 225
+  },
+  "independent": {
+   "2023": 191,
+   "2024": 193,
+   "2025": 225
+  },
+  "match": {
+   "2023": true,
+   "2024": true,
+   "2025": true
+  },
+  "trend": "steady",
+  "partial": {
+   "year": 2026,
+   "count_so_far": 185
+  }
+ },
+ "power": [
+  {
+   "delta": 0.5,
+   "var": 0.25,
+   "power": 0.8,
+   "alpha": 0.05,
+   "module": 16,
+   "statsmodels_ceil": 16,
+   "ok": true
+  },
+  {
+   "delta": 0.3,
+   "var": 1,
+   "power": 0.9,
+   "alpha": 0.05,
+   "module": 234,
+   "statsmodels_ceil": 234,
+   "ok": true
+  },
+  {
+   "delta": 1.0,
+   "var": 1,
+   "power": 0.5,
+   "alpha": 0.01,
+   "module": 14,
+   "statsmodels_ceil": 14,
+   "ok": true
+  },
+  {
+   "delta": 0.2,
+   "var": 0.25,
+   "power": 0.95,
+   "alpha": 0.05,
+   "module": 163,
+   "statsmodels_ceil": 163,
+   "ok": true
+  }
+ ],
+ "feedback": {
+  "mean_ok": "True",
+  "std_ok": "True"
+ },
+ "ensemble": {
+  "RT_module": 0.593,
+  "RT_298K": 0.59248,
+  "pop_sum": 1.0
+ },
+ "hgvs_hotspots": [
+  {
+   "refseq": "NM_000518.5",
+   "variant": "NM_000518.5(HBB):c.20A>T",
+   "locus_pos": 70,
+   "ref_base": "A",
+   "ref_ok": true,
+   "codon": "GAG",
+   "aa": "E",
+   "aa_ok": true
+  },
+  {
+   "refseq": "NM_000518.5",
+   "variant": "c.118C>T",
+   "locus_pos": 168,
+   "ref_base": "C",
+   "ref_ok": true,
+   "codon": "CAG",
+   "aa": "Q",
+   "aa_ok": true
+  },
+  {
+   "refseq": "NM_000546.6",
+   "variant": "NM_000546.6(TP53):c.524G>A",
+   "locus_pos": 666,
+   "ref_base": "G",
+   "ref_ok": true,
+   "codon": "CGC",
+   "aa": "R",
+   "aa_ok": true
+  },
+  {
+   "refseq": "NM_000546.6",
+   "variant": "c.743G>A",
+   "locus_pos": 885,
+   "ref_base": "G",
+   "ref_ok": true,
+   "codon": "CGG",
+   "aa": "R",
+   "aa_ok": true
+  },
+  {
+   "refseq": "NM_000546.6",
+   "variant": "c.817C>T",
+   "locus_pos": 959,
+   "ref_base": "C",
+   "ref_ok": true,
+   "codon": "CGT",
+   "aa": "R",
+   "aa_ok": true
+  },
+  {
+   "refseq": "NM_000492.4",
+   "variant": "c.1652G>A",
+   "locus_pos": 1722,
+   "ref_base": "G",
+   "ref_ok": true,
+   "codon": "GGT",
+   "aa": "G",
+   "aa_ok": true
+  }
+ ],
+ "hgvs_pre_fix": {
+  "note": "before BUG 44 fix (sugarcode 1ad2a4e): NM_000518.5(HBB):c.20A>T -> position 518, codon TTC; c.20A>T -> position 20, codon ACT (5prime UTR ignored); expected codon GAG (Glu7, sickle)."
+ }
+}

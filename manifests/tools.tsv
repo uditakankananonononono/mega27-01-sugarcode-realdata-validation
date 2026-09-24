@@ -61,3 +61,4 @@ JASPAR REST API	live 2026-09-25	sweep/dark_genome.py -> benchmarks/sweep_dark_ge
 UCSC Genome Browser API	live 2026-09-25	sweep/dark_genome.py -> benchmarks/sweep_dark_genome.json	counts
 HGNC REST API (rest.genenames.org)	live 2026-09-25	sweep/cellfatenet.py -> benchmarks/sweep_cellfatenet.json	counts
 NIH iCite API (icite.od.nih.gov)	live 2026-09-25	sweep/biogpt_lit.py -> benchmarks/sweep_biogpt_lit.json	counts
+UniProt REST API (rest.uniprot.org)	live 2026-09-25	sweep/gene_analysis.py -> benchmarks/sweep_gene_analysis.json	accessions, sequences
