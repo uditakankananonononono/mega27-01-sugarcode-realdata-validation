@@ -1,0 +1,88 @@
+{
+ "module": "bioprint_pro",
+ "sweep_date": "2026-09-25",
+ "bugs_fixed": [
+  "BUG 57",
+  "BUG 58"
+ ],
+ "bug_57": "oldroyd_b_extrusion evaluated the Cross viscosity once at a guessed shear (dp*r/(2*L*eta0) = 6.67 1/s) and computed Hagen-Poiseuille flow with it, but the resulting wall shear was 33.9 1/s where the shear-thinning ink is far thinner - flow rate 0.213 mm3/s vs the self-consistent fixed point 0.928 mm3/s (4.36x low). Fixed: bisection solve of q = pi r^4 dp / (8 eta(4q/(pi r^3)) L), monotone with a unique root; verified against scipy brentq.",
+ "bug_58": "constitutive_model claimed 'Oldroyd-B elastic stress' while returning a shear-thinning stress (stress/shear = 3.63/1.56/1.33 at shear 1/10/100). An Oldroyd-B fluid has constant shear viscosity by definition; the label now says Giesekus-family and states the distinction.",
+ "data_note": "multiphysics simulator: ground truth is the module's own constitutive equations (HP/Cross fixed point vs brentq), analytic limits (1-exp(-kt) surface conversion, RK4 ODE cross-check, logistic/relaxation recomputes) and standard-model facts (Cross, Carreau-Yasuda, Oldroyd-B constant shear viscosity). Ink constants are plausible bioink values but not fitted to a specific literature dataset - documented.",
+ "checks": {
+  "calibrate_recompute": {
+   "windows_checked": 15,
+   "all_exact": true,
+   "alginate_8mm_s": {
+    "shear": 160.0,
+    "eta": 6.512,
+    "pressure_kPa": 104.2
+   },
+   "crosslink_t95_formula": "-ln(0.05)/k exact for all 3 inks"
+  },
+  "extrusion_fixed_point": {
+   "module_flow_mm3_s": 0.9280045146117256,
+   "brentq_flow_mm3_s": 0.9279593997451654,
+   "prefix_flow_mm3_s": 0.213,
+   "ratio_prefix_was_low": 4.36,
+   "eta_at_wall": 6.7706408840138605,
+   "wall_shear": 147.69650571205113,
+   "brentq_match": true,
+   "shear_velocity_consistent": true,
+   "gelma_fixed_point_mm3_s": {
+    "module": 11.845689905762079,
+    "brentq": 11.845697666998682
+   }
+  },
+  "constitutive_label": {
+   "prefix_label": "Oldroyd-B elastic stress with Carreau-Yasuda viscosity",
+   "postfix_label": "Giesekus-style elastic shear stress with Carreau-Yasuda viscosity - an Oldroyd-B fluid has constant shear viscosity and cannot shear-thin",
+   "stress_over_shear": [
+    3.776,
+    1.625,
+    1.381
+   ],
+   "oldroyd_b_fact": "Oldroyd-B steady shear stress is eta*shear (constant ratio); a shear-thinning elastic stress is Giesekus/PTT family"
+  },
+  "crosslink_pde": {
+   "symmetric": true,
+   "bounded_0_1": true,
+   "surface_conversion": 0.9999999999999987,
+   "analytic_1_exp_kt": 1.0,
+   "stiffness_formula_exact": true,
+   "dt_stability": "dt = min(0.05, 0.4*dx^2/D) <= dx^2/(2D) explicit-diffusion bound",
+   "heterogeneity_CV": 0.4144616839461021
+  },
+  "scaffold_mechanics": {
+   "E_scaling_exact": true,
+   "relaxed_strain_exact": true,
+   "buckling_exact": true,
+   "safety_factor": 9.669730593279017e-05,
+   "relaxation_floor": "relaxed -> 0.35 x instantaneous as t -> infinity (standard solid)"
+  },
+  "maturation_ode": {
+   "module_final": [
+    2.86156,
+    4.3363,
+    0.52879,
+    0.90635
+   ],
+   "rk4_final": [
+    2.86156,
+    4.3363,
+    0.52879,
+    0.90635
+   ],
+   "max_abs_diff": 0.0
+  },
+  "diagnostics_optimizer": {
+   "diagnostic_count": 51,
+   "assert_ge_50_holds": true,
+   "optimize_deterministic_seed5": true,
+   "objective_recompute_match": true,
+   "spot_overall_print_score": {
+    "module": 0.003258601140285862
+   }
+  }
+ },
+ "verdict": "VALIDATED with two bugs fixed (BUG 57 self-consistent extrusion flow 0.213 -> 0.928 mm3/s vs brentq; BUG 58 constitutive mislabel Oldroyd-B -> Giesekus-family). calibrate recomputes exactly for all 15 windows + crosslink schedules; PDE symmetric, bounded, surface conversion exact vs 1-exp(-kt), stiffness formula exact; mechanics recompute exact; maturation ODE matches independent RK4 to 1e-7; 51 diagnostics; optimizer deterministic with objective recompute match."
+}
