@@ -1,0 +1,39 @@
+{
+ "module": "organoid_screen",
+ "date": "2026-09-25",
+ "sc_ai_base": "98d8b85",
+ "bug95_synergy": {
+  "before": "combination_index = a/(a+b)+b/(a+b)-1 = 0 identically; all 10 pairs of the 5 curated drugs synergy_score 1.0 (1 distinct value)",
+  "after": "Bliss expected viability V_a*V_b at 1 uM from single-agent curves; synergy_score None without measured combination data; top pair olaparib+venetoclax expected 0.346 (0.571*0.606)"
+ },
+ "bug96_hit": {
+  "before": "screen(\"tumor\",[\"madeup\"]) hit = madeup (uncurated default curve) with a clinical_efficacy_prediction",
+  "after": "hit None; with olaparib present hit = olaparib; uncurated compounds listed"
+ },
+ "bug97_dose_response": {
+  "before_rule": "nearest tested dose",
+  "before_cisplatin_ic50": 1.0,
+  "true_curve_ic50": {
+   "cisplatin": 1.268,
+   "trametinib": 1.406,
+   "olaparib": 1.211,
+   "venetoclax": 1.333,
+   "gefitinib": 1.406
+  },
+  "after_log_interpolated": {
+   "cisplatin": 1.2968,
+   "trametinib": 1.4326,
+   "olaparib": 1.2368,
+   "venetoclax": 1.3608,
+   "gefitinib": 1.4326
+  },
+  "max_relative_error_after": 0.023,
+  "relative_error_before_cisplatin": 0.211,
+  "added": "unsorted input sorted; non-bracketed curve returns None with status; percent input rejected"
+ },
+ "negatives": [
+  "no external organoid combination dataset used - identities checked against the module own curves",
+  "clinical_efficacy_prediction remains an unvalidated heuristic (model_status says so)",
+  "interpolation residual ~2% from the coarse 6-dose grid"
+ ]
+}
