@@ -1,0 +1,381 @@
+{
+ "module": "bio_copilot",
+ "sweep_date": "2026-09-25",
+ "bug_fixed": "BUG 53",
+ "bug_53": "nonsense variants capped at risk 0.65 -> 'uncertain significance' even in loss-of-function genes (TP53 R213*, BRCA1 Q563* both ClinVar Pathogenic). Fix: per-gene lof_pathogenic flag + PVS1-style risk floor 0.75; oncogene nonsense deliberately NOT floored (KRAS L168* ClinVar Likely benign).",
+ "checks": {
+  "clinvar_panel": {
+   "source": "NCBI ClinVar via E-utilities (live, 2026-09-25)",
+   "n": 8,
+   "exact_band_pre_fix": 4,
+   "exact_band_post_fix": 6,
+   "misses_documented": [
+    "KRAS L168*: module 'uncertain' vs ClinVar 'Likely benign' - deliberate: oncogene nonsense is not floored; ClinVar pattern for KRAS LoF is VUS/Conflicting (uids 3065766, 3718849, 2914356), module stays conservative",
+    "KRAS A146T: module 'likely tolerated' vs ClinVar 'Conflicting' - hotspot-coverage caveat: curated hotspot list is [12,13,61]; not refit to validation data (policy)"
+   ],
+   "rows": [
+    {
+     "variant": "TP53 R213*",
+     "clinvar_uid": "43590",
+     "clinvar_term": "TP53[gene] AND Arg213Ter",
+     "clinvar_title": "NM_000546.6(TP53):c.637C>T (p.Arg213Ter)",
+     "clinvar_classification": "Pathogenic",
+     "clinvar_review": "criteria provided, multiple submitters, no conflicts",
+     "clinvar_band": "likely pathogenic",
+     "module_pre_fix": "uncertain significance",
+     "module_post_fix": "likely pathogenic",
+     "module_risk_post": 0.75,
+     "exact_band_match": true
+    },
+    {
+     "variant": "BRCA1 Q563*",
+     "clinvar_uid": "37426",
+     "clinvar_term": "BRCA1[gene] AND Gln563Ter",
+     "clinvar_title": "NM_007294.4(BRCA1):c.1687C>T (p.Gln563Ter)",
+     "clinvar_classification": "Pathogenic",
+     "clinvar_review": "reviewed by expert panel",
+     "clinvar_band": "likely pathogenic",
+     "module_pre_fix": "uncertain significance",
+     "module_post_fix": "likely pathogenic",
+     "module_risk_post": 0.75,
+     "exact_band_match": true
+    },
+    {
+     "variant": "KRAS L168*",
+     "clinvar_uid": "4915976",
+     "clinvar_term": "KRAS[gene] AND \"nonsense\"[Variant type]",
+     "clinvar_title": "NM_033360.4(KRAS):c.503T>A (p.Leu168Ter)",
+     "clinvar_classification": "Likely benign",
+     "clinvar_review": "criteria provided, single submitter",
+     "clinvar_band": "likely tolerated",
+     "module_pre_fix": "uncertain significance",
+     "module_post_fix": "uncertain significance",
+     "module_risk_post": 0.65,
+     "exact_band_match": false
+    },
+    {
+     "variant": "TP53 P72R",
+     "clinvar_uid": "12351",
+     "clinvar_term": "rs1042522",
+     "clinvar_title": "NM_000546.6(TP53):c.215C>G (p.Pro72Arg)",
+     "clinvar_classification": "Benign",
+     "clinvar_review": "reviewed by expert panel",
+     "clinvar_band": "likely tolerated",
+     "module_pre_fix": "likely tolerated",
+     "module_post_fix": "likely tolerated",
+     "module_risk_post": 0.19,
+     "exact_band_match": true
+    },
+    {
+     "variant": "KRAS G12D",
+     "clinvar_uid": "12582",
+     "clinvar_term": "KRAS[gene] AND Gly12Asp",
+     "clinvar_title": "NM_004985.5(KRAS):c.35G>A (p.Gly12Asp)",
+     "clinvar_classification": "Pathogenic/Likely pathogenic",
+     "clinvar_review": "criteria provided, multiple submitters, no conflicts",
+     "clinvar_band": "likely pathogenic",
+     "module_pre_fix": "likely pathogenic",
+     "module_post_fix": "likely pathogenic",
+     "module_risk_post": 0.82,
+     "exact_band_match": true
+    },
+    {
+     "variant": "TP53 R175H",
+     "clinvar_uid": "12374",
+     "clinvar_term": "TP53[gene] AND Arg175His",
+     "clinvar_title": "NM_000546.6(TP53):c.524G>A (p.Arg175His)",
+     "clinvar_classification": "Pathogenic",
+     "clinvar_review": "reviewed by expert panel",
+     "clinvar_band": "likely pathogenic",
+     "module_pre_fix": "likely pathogenic",
+     "module_post_fix": "likely pathogenic",
+     "module_risk_post": 0.82,
+     "exact_band_match": true
+    },
+    {
+     "variant": "BRCA1 C61G",
+     "clinvar_uid": "17661",
+     "clinvar_term": "BRCA1[gene] AND Cys61Gly",
+     "clinvar_title": "NM_007294.4(BRCA1):c.181T>G (p.Cys61Gly)",
+     "clinvar_classification": "Pathogenic",
+     "clinvar_review": "reviewed by expert panel",
+     "clinvar_band": "likely pathogenic",
+     "module_pre_fix": "likely pathogenic",
+     "module_post_fix": "likely pathogenic",
+     "module_risk_post": 0.82,
+     "exact_band_match": true
+    },
+    {
+     "variant": "KRAS A146T",
+     "clinvar_uid": "197243",
+     "clinvar_term": "KRAS[gene] AND Ala146Thr",
+     "clinvar_title": "NM_004985.5(KRAS):c.436G>A (p.Ala146Thr)",
+     "clinvar_classification": "Conflicting classifications of pathogenicity",
+     "clinvar_review": "criteria provided, conflicting classifications",
+     "clinvar_band": "uncertain significance",
+     "module_pre_fix": "likely tolerated",
+     "module_post_fix": "likely tolerated",
+     "module_risk_post": 0.36,
+     "exact_band_match": false
+    }
+   ]
+  },
+  "kras_nonsense_context": [
+   {
+    "uid": "4915976",
+    "title": "NM_033360.4(KRAS):c.503T>A (p.Leu168Ter)",
+    "class": "Likely benign"
+   },
+   {
+    "uid": "3718849",
+    "title": "NM_004985.5(KRAS):c.502_505del (p.Glu168fs)",
+    "class": "Uncertain significance"
+   },
+   {
+    "uid": "3065766",
+    "title": "NM_033360.4(KRAS):c.490C>T (p.Arg164Ter)",
+    "class": "Conflicting classifications of pathogenicity"
+   },
+   {
+    "uid": "2914356",
+    "title": "NM_004985.5(KRAS):c.550_551del (p.Lys184fs)",
+    "class": "Uncertain significance"
+   }
+  ],
+  "uniprot_grounding": {
+   "TP53": {
+    "accession": "P04637",
+    "uniprot_len": 393,
+    "local_len": 393,
+    "length_match": true,
+    "uniprot_features_sample": [
+     {
+      "type": "DNA binding",
+      "begin": 102,
+      "end": 292,
+      "desc": ""
+     },
+     {
+      "type": "Region",
+      "begin": 1,
+      "end": 320,
+      "desc": "Interaction with CCAR2"
+     },
+     {
+      "type": "Region",
+      "begin": 1,
+      "end": 83,
+      "desc": "Interaction with HRMT1L2"
+     },
+     {
+      "type": "Region",
+      "begin": 1,
+      "end": 44,
+      "desc": "Transcription activation (acidic)"
+     },
+     {
+      "type": "Region",
+      "begin": 50,
+      "end": 96,
+      "desc": "Disordered"
+     },
+     {
+      "type": "Region",
+      "begin": 66,
+      "end": 110,
+      "desc": "Interaction with WWOX"
+     }
+    ],
+    "local_domains": {
+     "DBD": [
+      102,
+      292
+     ],
+     "TAD": [
+      1,
+      61
+     ]
+    }
+   },
+   "BRCA1": {
+    "accession": "P38398",
+    "uniprot_len": 1863,
+    "local_len": 1863,
+    "length_match": true,
+    "uniprot_features_sample": [
+     {
+      "type": "Domain",
+      "begin": 1642,
+      "end": 1736,
+      "desc": "BRCT 1"
+     },
+     {
+      "type": "Domain",
+      "begin": 1756,
+      "end": 1855,
+      "desc": "BRCT 2"
+     },
+     {
+      "type": "Zinc finger",
+      "begin": 24,
+      "end": 65,
+      "desc": "RING-type"
+     },
+     {
+      "type": "Region",
+      "begin": 230,
+      "end": 270,
+      "desc": "Disordered"
+     },
+     {
+      "type": "Region",
+      "begin": 306,
+      "end": 338,
+      "desc": "Disordered"
+     },
+     {
+      "type": "Region",
+      "begin": 534,
+      "end": 570,
+      "desc": "Disordered"
+     }
+    ],
+    "local_domains": {
+     "RING": [
+      1,
+      109
+     ],
+     "BRCT": [
+      1646,
+      1863
+     ]
+    }
+   },
+   "KRAS": {
+    "accession": "P01116",
+    "uniprot_len": 189,
+    "local_len": 189,
+    "length_match": true,
+    "uniprot_features_sample": [
+     {
+      "type": "Region",
+      "begin": 166,
+      "end": 185,
+      "desc": "Hypervariable region"
+     },
+     {
+      "type": "Motif",
+      "begin": 32,
+      "end": 40,
+      "desc": "Effector region"
+     }
+    ],
+    "local_domains": {
+     "G-domain": [
+      1,
+      166
+     ]
+    }
+   },
+   "notes": "TP53 DBD 102-292 exact match to UniProt DNA-binding feature; TP53 TAD local (1,61) vs UniProt transcription-activation region 1-44 (window approx); BRCA1 local RING (1,109) vs UniProt RING-type zinc finger 24-65 (wider local window), local BRCT (1646,1863) vs UniProt BRCT1 1642-1736 + BRCT2 1756-1855 (merged approx); KRAS G-domain (1,166) is a knowledge-slice convention - UniProt annotates only Effector motif 32-40 + hypervariable region 166-185. All three protein lengths match exactly."
+  },
+  "crispr_crosscheck": {
+   "target": "blaNDM-1 CDS, FN396876.1 complement(2407..3219), 813 bp, ATG..TGA verified",
+   "bio_copilot_count": 137,
+   "crispr_opt_count": 137,
+   "identical_guide_strand_start_sets": true,
+   "only_in_bio_copilot": [],
+   "only_in_crispr_opt": [],
+   "note": "same forward-coordinate start convention for both strands; scoring models differ by design"
+  },
+  "to_pdb_biopython": {
+   "input": "real KRAS sequence (P01116, 189 aa)",
+   "biopython_parsed_atoms": 189,
+   "residues": 189,
+   "residue_names_match_sequence": true,
+   "ca_ca_consecutive_mean": 3.8297,
+   "ca_ca_doc_claim": 3.8,
+   "ca_ca_geometry_exact": 3.8298,
+   "min_ca_ca_i_iplus3": 5.0536,
+   "note": "docstring 3.8 A vs measured/exact 3.830 A = rounding, geometry as documented"
+  },
+  "to_fasta_roundtrip": {
+   "wrap": 60,
+   "roundtrip_equal": true,
+   "lines": 5
+  },
+  "uncertainty_propagation": {
+   "analytic_mean_prod_indep_gaussians": 0.5599999999999999,
+   "mc_mean_20000": 0.559494,
+   "abs_err": 0.00051,
+   "ci95": [
+    0.406261,
+    0.723032
+   ],
+   "mean_inside_ci95": true
+  },
+  "beta_binomial_update": {
+   "module": 0.7,
+   "scipy_beta_mean": 0.7,
+   "alpha": 14.0,
+   "beta": 6.0,
+   "match": true
+  },
+  "artifact_roundtrip": {
+   "json_payload_equal": true,
+   "schema": "1.0"
+  },
+  "answer_grounding": {
+   "TP53": {
+    "route": "gene_knowledge",
+    "grounding": "UniProt (live)"
+   },
+   "BRCA1": {
+    "route": "gene_knowledge",
+    "grounding": "UniProt (live)"
+   },
+   "KRAS": {
+    "route": "gene_knowledge",
+    "grounding": "UniProt (live)"
+   }
+  },
+  "answer_routing": {
+   "mutation": "variant_pipeline",
+   "fasta": "structured_output",
+   "unknown": "literature_synthesis"
+  },
+  "editing_strategy": {
+   "base": "base editing",
+   "prime": "prime editing",
+   "hdr": "HDR",
+   "prime_pbs": 13
+  },
+  "acmg_citation": {
+   "pmid": "25741868",
+   "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology.",
+   "journal": "Genetics in medicine : official journal of the American College of Medical Genetics",
+   "used_for": "PVS1-style LoF prior rationale in BUG 53 fix"
+  }
+ },
+ "accession_level_ids_new": [
+  "12351",
+  "12374",
+  "12582",
+  "17661",
+  "197243",
+  "2914356",
+  "3065766",
+  "3718849",
+  "37426",
+  "43590",
+  "4915976",
+  "P01116",
+  "PMID:25741868"
+ ],
+ "accession_level_ids_reused_counted_previously": [
+  "P04637",
+  "P38398",
+  "FN396876.1"
+ ],
+ "verdict": "VALIDATED with one real bug fixed (BUG 53). ClinVar panel 8 variants: exact-band 4/8 pre-fix -> 6/8 post-fix; both remaining misses adjacent-band with documented rationale (oncogene-nonsense conservatism; KRAS hotspot-coverage caveat, not refit per policy). CRISPR enumeration identical to crispr_opt on real blaNDM-1 CDS. to_pdb verified by Bio.PDB on real KRAS. UniProt lengths exact for TP53/BRCA1/KRAS; domain-window approximations documented."
+}
