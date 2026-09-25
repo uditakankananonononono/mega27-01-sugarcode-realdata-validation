@@ -1,0 +1,87 @@
+{
+ "module": "infinite_diagnosis",
+ "checks": [
+  {
+   "check": "catalog_function_word_leak",
+   "input": "tall stature and lens dislocation",
+   "before_fix_modules_from_raw_search": "UnifiedSearch('and') alone returns SynDroid 13.033, Liquid Biopsy 12.427, NeoHunter 11.215, Micro-Tx 10.457, CellFateNet 8.487; content-word query 'tall stature lens dislocation' returns 0 modules",
+   "after_fix_modules": [
+    "RareNet AI"
+   ],
+   "curated_match": "marfan via symptom:lens_dislocation, symptom:tall_stature",
+   "passed": true
+  },
+  {
+   "check": "curated_disease_bridge",
+   "before_fix": "'cystic fibrosis' and 'CFTR' matched 0 of 95 catalog docs (no spec text contains 'cystic' or 'cftr')",
+   "after_fix": {
+    "cystic fibrosis sweat chloride": "RareNet AI (disease:cystic_fibrosis)",
+    "CFTR": "RareNet AI (gene:CFTR)",
+    "child with seizures and musty odor": "RareNet AI (phenylketonuria via symptom:musty_odor, symptom:seizures)",
+    "duchenne md": "RareNet AI among 9 hits (disease:duchenne_md)"
+   },
+   "passed": true
+  },
+  {
+   "check": "no_false_bridge",
+   "inputs": {
+    "patient with microbiome dysbiosis and phage therapy": "Micro-Tx, Phage-Tx, Phage Designer...; no curated match",
+    "dmdx mouse": "no match (whole-word gene)",
+    "and with the": "0 modules, catalog_status explicit"
+   },
+   "passed": true
+  },
+  {
+   "check": "pubmed_leads_live",
+   "query": "cystic fibrosis sweat chloride AND (biomarker[tiab] OR diagnosis[tiab])",
+   "records": 5,
+   "spot_check": {
+    "pmid": "42729750",
+    "title_from_module": "Outcomes of Sweat Conductivity Testing and Referral Patterns for Cystic Fibrosis: A 10-Year Retrospective Single-Center Study in Albania.",
+    "title_from_independent_esummary": "identical"
+   },
+   "passed": true
+  },
+  {
+   "check": "joint_case_view_live_clinvar",
+   "symptoms": [
+    "chronic cough",
+    "salty skin",
+    "recurrent lung infection"
+   ],
+   "variants": [
+    {
+     "gene": "CFTR",
+     "hgvs": "NM_000492.4:c.1521_1523del",
+     "clinvar_uid": "7105",
+     "accession": "VCV000007105",
+     "independent_esummary": "Pathogenic, practice guideline",
+     "module_component": "ClinVar pathogenic, 4-star review (+2.5)",
+     "support_score": 2.5,
+     "lead_hypothesis": true
+    },
+    {
+     "gene": "HBB",
+     "hgvs": "NM_000518.5:c.20A>T",
+     "clinvar_uid": "15333",
+     "accession": "VCV000015333",
+     "independent_esummary": "Pathogenic, criteria provided, multiple submitters, no conflicts",
+     "module_component": "ClinVar pathogenic, 2-star review (+1.5)",
+     "support_score": 1.5,
+     "lead_hypothesis": false,
+     "why_not_lead": "HBB not in CF symptom differential - correct"
+    }
+   ],
+   "symptom_top": "cystic_fibrosis confidence 0.99",
+   "passed": true
+  }
+ ],
+ "verdict": "DEFECTS FIXED (2): function-word leak into catalog ranking; no route from disease/symptom/gene case terms to RareNet curated records. joint_case_view validated on live ClinVar.",
+ "defects_found": 2,
+ "negatives": [
+  "gnomAD component skipped for both variants: 'no GRCh38 variant_id - skipped' (HGVS-only input) - documented, not scored",
+  "content word 'disease' still ranks generic modules (NeoHunter, Liquid Biopsy) for 'huntington disease chorea' - left as-is, not a function word",
+  "curated bridge covers only rarenet's 6 diseases; 'asthma' still returns no angles (catalog_status says so)"
+ ],
+ "notes": "sugarcode-ai spec test key set updated for two additive keys: curated_disease_matches, catalog_status"
+}

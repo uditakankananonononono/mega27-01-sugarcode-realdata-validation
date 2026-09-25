@@ -41,7 +41,7 @@ module	gene_analysis	278	10	validated	benchmarks/sweep_gene_analysis.json
 module	gene_explorer	153	3	validated	benchmarks/sweep_gene_explorer.json
 module	gene_tx_opt	149	3	validated	benchmarks/sweep_gene_tx_opt.json
 module	genomegpt	279	4	validated	benchmarks/sweep_genomegpt.json
-module	infinite_diagnosis	130	4	not yet validated	
+module	infinite_diagnosis	185	6	validated	benchmarks/sweep_infinite_diagnosis.json
 module	liquid_biopsy	411	7	validated	benchmarks/sweep_liquid_biopsy.json
 module	living_computer	857	2	not yet validated	
 module	living_tx	184	2	not yet validated	

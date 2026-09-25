@@ -608,3 +608,7 @@ pubmed	PMID:15163413	Xie 2004 Cell, B cell-to-macrophage C/EBPa reprogramming (e
 pubmed	PMID:25540418	Morita 2015 PNAS, ETV2 fibroblast-to-endothelial conversion (esearch+esummary live)	25540418	sweep_fate_predictor.json
 refseq	NM_000518	HBB mRNA NM_000518.5 efetch via Entrez (628 nt), ORF translation matched UniProt	NM_000518	sweep_gene_explorer.json
 uniprot_record	P68871	UniProt REST sequence fetch, canonical HBB 147 aa	P68871	sweep_gene_explorer.json
+refseqgene	NG_000007.3	HBB RefSeqGene locus, FASTA + GenBank feature table efetch (81706 bp), CDS translates to P68871	NG_000007.3	sweep_genomegpt.json
+clinvar	7105	CFTR c.1521_1523del p.Phe508del Pathogenic practice guideline - joint_case_view lead	VCV000007105	sweep_infinite_diagnosis.json
+clinvar	15333	HBB c.20A>T p.Glu7Val Pathogenic 2-star - joint_case_view non-lead	VCV000015333	sweep_infinite_diagnosis.json
+pubmed	42729750	CF sweat conductivity study, title verified by independent esummary	PMID 42729750	sweep_infinite_diagnosis.json
