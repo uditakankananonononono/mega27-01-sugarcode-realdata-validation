@@ -1,0 +1,58 @@
+{
+ "module": "virtual_cell",
+ "module_number": 127,
+ "validation": {
+  "infeasible_before": {
+   "bounds": {
+    "GLC_UP": [
+     5,
+     2
+    ]
+   },
+   "phenotype_reported": "no growth",
+   "growth": 0.0,
+   "note": "solver infeasibility sold as biology; fba infeasible also dropped objective_reaction and reported a feasible-looking 0.0"
+  },
+  "infeasible_after": {
+   "status": "infeasible",
+   "phenotype": "infeasible - contradictory bounds, no steady-state solution"
+  },
+  "glucose0_before": "simulate_growth(glucose0=0) crashed IndexError on the empty trajectory",
+  "pfba_before": "optimum_fraction=2.0 demanded 2x the optimum, the pFBA stage went infeasible and the caller silently got plain FBA with no 'method' key; fraction=-1 silently accepted",
+  "boolean_initial_before": {
+   "initial": {
+    "a": 5.0
+   },
+   "trajectory0": {
+    "a": 5.0,
+    "b": 0.0
+   },
+   "note": "non-Boolean state reported in a Boolean simulation; unknown initial genes silently ignored"
+  }
+ },
+ "anchors": {
+  "pubmed": {
+   "26115539": "The principles of whole-cell modeling.",
+   "29275251": "Emerging whole-cell modeling principles and methods."
+  }
+ },
+ "bugs": [
+  {
+   "id": "BUG 140",
+   "desc": "environment_response sold solver infeasibility as biological 'no growth' - contradictory bounds GLC_UP=(5,2) reported phenotype 'no growth' with growth 0.0; fba's infeasible return also dropped objective_reaction and reported a feasible-looking 0.0. Now per-condition status plus an explicit infeasible phenotype; feasible zero-growth (starvation) still reports 'no growth'."
+  },
+  {
+   "id": "BUG 141",
+   "desc": "simulate_growth(glucose0=0) crashed IndexError on the empty trajectory (glucose0 never validated). Now ValueError."
+  },
+  {
+   "id": "BUG 142",
+   "desc": "pfba silently returned plain FBA when the parsimonious stage failed and never validated optimum_fraction - fraction=2.0 demanded twice the optimum, went infeasible, and the caller got plain FBA with no 'method' key; fraction=-1 was silently accepted. Now (0,1] validation plus an honestly labeled fallback (method 'fba', pfba_stage message) if the second stage ever fails."
+  },
+  {
+   "id": "BUG 143",
+   "desc": "regulatory_state accepted non-Boolean initial states (initial a=5.0 appeared in the trajectory of a Boolean simulation) and silently ignored unknown initial genes. Both now ValueError."
+  }
+ ],
+ "formula": "F155"
+}

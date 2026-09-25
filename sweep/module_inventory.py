@@ -40,6 +40,7 @@ EVIDENCE={('module','chem_descriptors'):'benchmarks/results.json (VERDICTS table
 ('module','synlife_evo'):'benchmarks/sweep_synlife_evo.json',
 ('module','synthetic_life'):'benchmarks/sweep_synthetic_life.json',
 ('module','tissue_eng'):'benchmarks/sweep_tissue_eng.json',
+('module','virtual_cell'):'benchmarks/sweep_virtual_cell.json',
 }
 def loc(p):
     n=0
