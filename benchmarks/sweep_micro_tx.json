@@ -54,7 +54,7 @@
    "passed": true
   }
  ],
- "verdict": "TWO BUGS FIXED (75, 76): butyrate mis-curation for three non-producer strains (literature-anchored constants fix); periodic migration boundary replaced by a chain Laplacian.",
+ "verdict": "TWO BUGS FIXED (74, 75): butyrate mis-curation for three non-producer strains (literature-anchored constants fix); periodic migration boundary replaced by a chain Laplacian.",
  "defects_found": 2,
  "negatives": [
   "enzymatic_fiber_fermentation km = .4+.08*j is fiber-INDEX dependent (list order, not chemistry) - arbitrary but consistent; documented, not redesigned",
