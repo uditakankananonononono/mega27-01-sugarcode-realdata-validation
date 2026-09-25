@@ -64,3 +64,6 @@ NIH iCite API (icite.od.nih.gov)	live 2026-09-25	sweep/biogpt_lit.py -> benchmar
 UniProt REST API (rest.uniprot.org)	live 2026-09-25	sweep/gene_analysis.py -> benchmarks/sweep_gene_analysis.json	accessions, sequences
 cBioPortal REST API (www.cbioportal.org/api)	live 2026-09-25	sweep/liquid_biopsy.py -> benchmarks/sweep_liquid_biopsy.json	mutation frequencies
 AlphaFold DB REST API (alphafold.ebi.ac.uk)	live 2026-09-25	sweep/alpha_fold_ui.py -> benchmarks/sweep_alpha_fold_ui.json	models, pLDDT
+Pillow (PIL)	12.3.0	installed	counts
+NCBI ClinVar via E-utilities (db=clinvar)	live 2026-09-25	sweep/bio_copilot.py -> benchmarks/sweep_bio_copilot.json	counts
+Broad Bioimage Benchmark Collection (data.broadinstitute.org)	live 2026-09-25	sweep/bioimage_ai.py -> benchmarks/sweep_bioimage_ai.json	counts

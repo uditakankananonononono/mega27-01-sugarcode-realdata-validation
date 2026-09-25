@@ -574,3 +574,30 @@ pubchem	10008	fluorobenzene: PubChem CID for assembled SMILES; MW + canonical fo
 pubchem	10009	2-aminopyridine: PubChem CID for assembled SMILES; MW + canonical form check (chemgpt_engine sweep)	PubChem PUG-REST	sweep/chemgpt_engine.py
 pubchem	13195	4-methylimidazole: PubChem CID for assembled SMILES; MW + canonical form check (chemgpt_engine sweep)	PubChem PUG-REST	sweep/chemgpt_engine.py
 chembl	CHEMBL2107497	PHENOLATE SODIUM: closest ChEMBL neighbor to phenol at 100 similarity (chemgpt_engine sweep)	ChEMBL similarity API	sweep/chemgpt_engine.py
+nuccore	FN396876.1	plasmid pKpANDM-1 (4318 bp); blaNDM-1 CDS complement(2407..3219) verified 813 bp ATG..TGA	NCBI E-utilities	sweep/phageforge.py
+nuccore	NC_009648.1	K. pneumoniae MGH 78578 chromosome window 1000001-1040000 (40 kb off-target background screen)	NCBI E-utilities	sweep/phageforge.py
+nuccore	NC_001604	T7 phage genome size verified 39,937 bp (backbone capacity check)	NCBI E-utilities	sweep/phageforge.py
+nuccore	NC_001416	lambda phage genome size verified 48,502 bp (backbone capacity check)	NCBI E-utilities	sweep/phageforge.py
+nuccore	NC_000866	T4 phage genome size verified 168,903 bp (backbone capacity check)	NCBI E-utilities	sweep/phageforge.py
+nuccore	NC_005856	P1 phage genome size verified 94,800 bp (backbone capacity check)	NCBI E-utilities	sweep/phageforge.py
+nuccore	NC_003287	M13 phage genome size verified 6,407 bp (backbone capacity check)	NCBI E-utilities	sweep/phageforge.py
+clinvar	43590	TP53 R213* (c.637C>T) Pathogenic - BUG 53 ground truth	NCBI E-utilities db=clinvar	sweep/bio_copilot.py
+clinvar	37426	BRCA1 Q563* (c.1687C>T) Pathogenic expert panel - BUG 53 ground truth	NCBI E-utilities db=clinvar	sweep/bio_copilot.py
+clinvar	4915976	KRAS L168* Likely benign - oncogene-nonsense scope ground truth	NCBI E-utilities db=clinvar	sweep/bio_copilot.py
+clinvar	12351	TP53 P72R (rs1042522) Benign expert panel - benign control	NCBI E-utilities db=clinvar	sweep/bio_copilot.py
+clinvar	12582	KRAS G12D Pathogenic/Likely pathogenic - pathogenic control	NCBI E-utilities db=clinvar	sweep/bio_copilot.py
+clinvar	12374	TP53 R175H Pathogenic expert panel - pathogenic control	NCBI E-utilities db=clinvar	sweep/bio_copilot.py
+clinvar	17661	BRCA1 C61G Pathogenic expert panel - pathogenic control	NCBI E-utilities db=clinvar	sweep/bio_copilot.py
+clinvar	197243	KRAS A146T Conflicting - hotspot-coverage caveat ground truth	NCBI E-utilities db=clinvar	sweep/bio_copilot.py
+clinvar	3065766	KRAS R164* Conflicting - oncogene-nonsense context	NCBI E-utilities db=clinvar	sweep/bio_copilot.py
+clinvar	3718849	KRAS E168fs VUS - oncogene-nonsense context	NCBI E-utilities db=clinvar	sweep/bio_copilot.py
+clinvar	2914356	KRAS K184fs VUS - oncogene-nonsense context	NCBI E-utilities db=clinvar	sweep/bio_copilot.py
+uniprot	P01116	GTPase KRas 189 aa - GENES slice length verification (bio_copilot)	UniProt REST API	sweep/bio_copilot.py
+benchmark	BBBC001	Broad Bioimage Benchmark Collection v1 human HT29 colon-cancer cell image set	data.broadinstitute.org	sweep/bioimage_ai.py
+benchmark	BBBC001_v1_counts.txt	two manual cell counts per BBBC001 image (inter-observer ground truth)	data.broadinstitute.org	sweep/bioimage_ai.py
+benchmark	AS_09125_050118150001_A03f00d0.tif	BBBC001 image 1: module 380 vs manual 350/362	data.broadinstitute.org	sweep/bioimage_ai.py
+benchmark	AS_09125_050118150001_A03f01d0.tif	BBBC001 image 2: module 362 vs manual 336/342	data.broadinstitute.org	sweep/bioimage_ai.py
+benchmark	AS_09125_050118150001_A03f02d0.tif	BBBC001 image 3: module 442 vs manual 396/447	data.broadinstitute.org	sweep/bioimage_ai.py
+benchmark	AS_09125_050118150001_A03f03d0.tif	BBBC001 image 4: module 350 vs manual 320/341	data.broadinstitute.org	sweep/bioimage_ai.py
+benchmark	AS_09125_050118150001_A03f04d0.tif	BBBC001 image 5: module 505 vs manual 398/533	data.broadinstitute.org	sweep/bioimage_ai.py
+benchmark	AS_09125_050118150001_A03f05d0.tif	BBBC001 image 6: module 259 vs manual 241/257	data.broadinstitute.org	sweep/bioimage_ai.py
