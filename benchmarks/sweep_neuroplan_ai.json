@@ -1,0 +1,63 @@
+{
+ "module": "neuroplan_ai",
+ "sources": [
+  "module-internal oracle (admissible A*, same cost function)",
+  "numpy/scipy recomputation"
+ ],
+ "astar_optimality": {
+  "oracle_cost": 340.1342,
+  "module_path_cost": 640.6352,
+  "optimality_gap_pct": 88.35,
+  "path_continuous_26conn": true,
+  "docstring_claim": "euclidean heuristic (admissible since risk term is >= 1)",
+  "code_reality": "frontier priority is g + 50*h: inflated 50x, greedy weighted A*, not admissible"
+ },
+ "corridor_recompute": {
+  "all_match": true,
+  "n": 6
+ },
+ "neurotwin_recompute": {
+  "probabilities_match": true,
+  "aggregate_ok": true,
+  "residual_ok": true
+ },
+ "segment_mri": {
+  "threshold": 18.457270135344686,
+  "threshold_recomputed": 18.457270135344686,
+  "voxels": 901,
+  "sphere_voxels": 925,
+  "voxel_ratio": 0.974,
+  "volume_ok": true,
+  "centroid_mm": [
+   32.0,
+   32.0,
+   32.0
+  ]
+ },
+ "tractography": {
+  "rows_post_fix": [
+   [
+    20.0,
+    -3.0,
+    true,
+    true
+   ],
+   [
+    20.0,
+    6.0,
+    false,
+    false
+   ]
+  ],
+  "expected_clearances": [
+   -3.0,
+   6.0
+  ],
+  "pre_fix": "vertex-only distance: streamline 2 clearance 7.29563 (BUG 47); segment-based fix gives 6.0"
+ },
+ "atlas_ordering": {
+  "brainstem_lowest_z": true,
+  "motor_most_superior_z": true,
+  "visual_most_posterior_y": true
+ }
+}

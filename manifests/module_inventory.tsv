@@ -58,7 +58,7 @@ module	neohunter	358	11	validated	VERDICTS neohunter section
 module	neuro_hub	44	1	not yet validated	
 module	neuro_hub_dashboard	25	2	not yet validated	
 module	neuro_pipeline	326	3	not yet validated	
-module	neuroplan_ai	449	6	not yet validated	
+module	neuroplan_ai	387	7	validated	benchmarks/sweep_neuroplan_ai.json
 module	nexus_support	299	2	not yet validated	
 module	omega_stats	161	4	validated	benchmarks/sweep_omega_stats.json
 module	oncocircuit	124	2	validated	benchmarks/sweep_oncocircuit.json
