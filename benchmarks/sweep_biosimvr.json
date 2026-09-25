@@ -1,0 +1,70 @@
+{
+  "module": "biosimvr",
+  "checks": [
+    {
+      "check": "crispr_session_reads_plate_signal",
+      "passed": true
+    },
+    {
+      "check": "docking_session_runs",
+      "passed": true
+    },
+    {
+      "check": "crispr_plus_strand_matches_crispr_opt",
+      "guides": 65,
+      "passed": true
+    },
+    {
+      "check": "guide_score_recompute",
+      "module": 1.0,
+      "recomputed": 1.0,
+      "passed": true
+    },
+    {
+      "check": "dock_score_self_consistent",
+      "score": -3.90488802,
+      "recomputed": -3.90488802,
+      "passed": true
+    },
+    {
+      "check": "dock_lands_at_lj_well",
+      "min_dist": 2.999847,
+      "passed": true
+    },
+    {
+      "check": "dock_rigid_bond_preserved",
+      "bond": 1.3999999999999997,
+      "passed": true
+    },
+    {
+      "check": "dock_deterministic",
+      "passed": true
+    },
+    {
+      "check": "signal_gain_exact",
+      "module": 0.550868,
+      "recomputed": 0.550869,
+      "passed": true
+    },
+    {
+      "check": "diagnostics_51",
+      "n": 51,
+      "passed": true
+    },
+    {
+      "check": "sim_deterministic",
+      "passed": true
+    },
+    {
+      "check": "cost_and_elapsed",
+      "cost": 0.5,
+      "elapsed": 180.0,
+      "passed": true
+    }
+  ],
+  "elapsed_s": 1.06,
+  "accessions_used": [
+    "FN396876 (blaNDM-1 CDS cached /tmp/fn396876.fa)"
+  ],
+  "verdict": "VALIDATED with BUG 59/60 fixed"
+}
