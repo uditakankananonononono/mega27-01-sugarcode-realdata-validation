@@ -1,0 +1,37 @@
+{
+ "module": "phage_tx",
+ "date": "2026-09-25",
+ "sc_ai_base": "7b167d2",
+ "external_anchors": {
+  "T7_latent_17min": "Wikipedia T7 phage: life cycle 17 min at 37C - matches PHAGE_LIBRARY T7 latent_min 17",
+  "T4_receptor_LPS_OmpC": "J Bacteriol 151(2):718-722 (1982): LPS and OmpC roles in T4 receptor function - matches library",
+  "urls": [
+   "https://en.wikipedia.org/wiki/T7_phage",
+   "https://doi.org/10.1128/jb.151.2.718-722.1982"
+  ]
+ },
+ "optimizer_verified_exact": {
+  "probe": "E. coli susceptibility T4 .9, T7 .8, lambda_vir .7, max 3",
+  "module_selected": [
+   "T4",
+   "lambda_vir"
+  ],
+  "module_score": 1.148,
+  "independent_brute_force": [
+   "T4",
+   "lambda_vir",
+   1.148
+  ]
+ },
+ "bug101": "evolve_cocktail(rounds=0) crashed IndexError on empty history; now ValueError rounds>=1",
+ "bug102": "RECEPTOR_REDUNDANCY carried a dead key \"OmpC\" and pointed LamB at \"OmpC\"; no library phage uses OmpC standalone (T4 is LPS/OmpC), so complementary suggestions for LPS/LamB phages named receptors no phage in the library binds. Dead key removed; LamB -> [LPS, LPS/OmpC]",
+ "bug103": {
+  "before": "design_phage_therapy overrode burst_size from the selected cocktail but always simulated latent_h=0.5 (library-blind default)",
+  "after": "latent_h = mean selected latent_min/60 unless user supplied; T4+lambda_vir cocktail now simulates 0.5417h (was 0.5); user latent_h respected"
+ },
+ "negatives": [
+  "phiKZ/LUZ19/phiAB6/vB_EfaS/K burst and latent values are curated, not re-verified per-phage",
+  "coevolution ODE shows resistant takeover (final resistant fraction ~1.0 at default mutation rate) - mechanistic behavior, not a defect",
+  "susceptibility 0 default for untested library phages is a documented choice"
+ ]
+}
