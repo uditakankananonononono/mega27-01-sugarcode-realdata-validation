@@ -1,0 +1,41 @@
+{
+ "module": "syndroid",
+ "module_number": 123,
+ "validation": {
+  "genome_rich_count": 12,
+  "genome_minimal_count": 13,
+  "glya_in_minimal_only": true,
+  "ssa_total_events": 49761,
+  "ssa_stored_events": 1000,
+  "starved_viable": false,
+  "starved_behaviors": [
+   "self-propagation emerged: 1 division events",
+   "substrate exhaustion: stationary phase reached"
+  ]
+ },
+ "anchors": {
+  "pubmed": {
+   "27013737": "Design and synthesis of a minimal bacterial genome."
+  }
+ },
+ "bugs": [
+  {
+   "id": "BUG 120",
+   "desc": "simulate_minimal_cell silently ignored unknown gene module names (gene_set=['photosynthesis'] ran a viable cell with no complaint). Now ValueError listing valid modules."
+  },
+  {
+   "id": "BUG 121",
+   "desc": "optimize_minimal_genome accepted an environment parameter that was never consulted - rich and minimal medium returned identical genomes despite the documented 'rich medium can rescue glyA'. Implemented: minimal medium forces glyA (13 genes vs 12 rich)."
+  },
+  {
+   "id": "BUG 122",
+   "desc": "stochastic_gene_expression reported total_event_count = len(events) where events is capped at 1000 stored - true count 49761 misreported as 1000; the 200k loop cap also truncated silently. Now: true total_event_count, stored_event_count, simulated_minutes, truncated flag."
+  },
+  {
+   "id": "BUG 123",
+   "desc": "simulate_minimal_cell returned viable as numpy.bool_, so json.dumps(result) raised TypeError (Object of type bool_ is not JSON serializable). Now Python bool."
+  }
+ ],
+ "formula": "F151 MILP minimal genome: min sum c_g x_g s.t. process coverage sum_{g in p} x_g >= 1, essential genes x_e = 1, ATP synthase coupling x_atpA = x_atpD, glyA forced on minimal medium; Wright-Fisher freq update with mutation flow functional->escape/loss",
+ "tests_added": "tests/test_syndroid_realdata.py (5 tests)"
+}

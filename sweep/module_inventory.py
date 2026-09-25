@@ -36,6 +36,7 @@ EVIDENCE={('module','chem_descriptors'):'benchmarks/results.json (VERDICTS table
 ('module','syn_bio_studio'):'benchmarks/sweep_syn_bio_studio.json',
 ('module','synbio_studio'):'benchmarks/sweep_synbio_studio.json',
 ('module','synbio_wizard'):'benchmarks/sweep_synbio_wizard.json',
+('module','syndroid'):'benchmarks/sweep_syndroid.json',
 }
 def loc(p):
     n=0

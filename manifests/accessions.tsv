@@ -636,3 +636,4 @@ pubmed	40493021	DASH: a versatile and high-capacity gene stacking system for pla
 pubmed	37841098	Unigems: plasmids and parts for teaching assembly, gene expression control and logic in E. coli; live AND-gate logic anchor (synbio_studio sweep)	esearch+esummary	benchmarks/sweep_synbio_studio.json
 pubmed	42781469	Transposon-derived genome editors in plants: compact nucleases to large-fragment integration; top live hit for CRISPR guide RNA efficiency query (synbio_wizard sweep)	esearch+esummary	benchmarks/sweep_synbio_wizard.json
 pubmed	42780917	Cas12a chRDNA-mediated in vivo genome editing for high-specificity gene disruption; live guide-RNA anchor (synbio_wizard sweep)	esearch+esummary	benchmarks/sweep_synbio_wizard.json
+pubmed	27013737	Hutchison et al. 2016 Science - Design and synthesis of a minimal bacterial genome (JCVI-syn3.0); stated flavor of syndroid gene modules (syndroid sweep)	esearch+esummary	benchmarks/sweep_syndroid.json
