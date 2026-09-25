@@ -1,0 +1,48 @@
+{
+ "module": "tissue_eng",
+ "module_number": 126,
+ "validation": {
+  "spacing_recommendation_before": {
+   "recommended_max_spacing_um": 400,
+   "midpoint_oxygen_at_400": 0,
+   "hypoxic_at_400": true
+  },
+  "spacing_recommendation_after": {
+   "recommended_max_spacing_um": 389.8,
+   "midpoint_oxygen_at_rec": 5.03,
+   "hypoxic_at_rec": false
+  },
+  "zero_spacing_before": "channel_spacing_um=0 silently replaced by 500 um fallback (falsy-or); positivity validation unreachable",
+  "fidelity_before": {
+   "nozzle_5000": -0.12,
+   "nozzle_10000": -1.12,
+   "nozzle_100000": -19.12
+  },
+  "size_mm_before": "2-tuple crashed IndexError; negative thickness silently printed n_layers=1"
+ },
+ "anchors": {
+  "pubmed": {
+   "40600176": "3D bioprinting of a perfusable skin-on-chip model suitable for drug testing and wound healing studies.",
+   "38282554": "Printable oxygen-generating biodegradable scaffold for thicker tissue-engineered medical products."
+  }
+ },
+ "bugs": [
+  {
+   "id": "BUG 136",
+   "desc": "oxygen_profile recommended a maximum channel spacing of 400 um at which its own diffusion model computes exactly 0% midpoint oxygen (hypoxic=True). The recommendation is now derived from the model: largest spacing with midpoint >= 5% oxygen (floor(400*sqrt(0.95)*10)/10 = 389.8 um, verified 5.03% and not hypoxic)."
+  },
+  {
+   "id": "BUG 137",
+   "desc": "oxygen_profile(channel_spacing_um=0) was silently replaced by the 500 um fallback (falsy-or), making the 'must be positive' validation unreachable for 0. Now explicit None check; 0 raises ValueError."
+  },
+  {
+   "id": "BUG 138",
+   "desc": "calibrate_printing predicted negative structural fidelity for large nozzles (5000 um -> -0.12, 10000 um -> -1.12, 100000 um -> -19.12); now clamped to [0, 0.99]."
+  },
+  {
+   "id": "BUG 139",
+   "desc": "design_tissue/oxygen_profile accepted invalid size_mm: a 2-tuple crashed IndexError, negative/zero thickness silently yielded n_layers=1. Now shared validation: three positive dimensions."
+  }
+ ],
+ "formula": "F154"
+}

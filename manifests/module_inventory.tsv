@@ -91,7 +91,7 @@ module	synbio_wizard	227	3	validated	benchmarks/sweep_synbio_wizard.json
 module	syndroid	242	3	validated	benchmarks/sweep_syndroid.json
 module	synlife_evo	311	5	validated	benchmarks/sweep_synlife_evo.json
 module	synthetic_life	213	3	validated	benchmarks/sweep_synthetic_life.json
-module	tissue_eng	193	2	not yet validated	
+module	tissue_eng	204	3	validated	benchmarks/sweep_tissue_eng.json
 module	vector_opt	100	3	validated	benchmarks/sweep_vector_opt.json
 module	virtual_cell	504	4	not yet validated	
 bio	align	164	1	validated	benchmarks/sweep_align_parasail.json
@@ -99,7 +99,7 @@ bio	bed	180	1	validated	benchmarks/sweep_bed_bioframe.json
 bio	chembl	184	0	validated	benchmarks/sweep_chembl_order.json
 bio	codon	170	2	validated	benchmarks/sweep_codon_cai.json
 bio	de	218	2	validated	benchmarks/sweep_de_pydeseq2.json
-bio	entrez	196	4	validated	benchmarks/sweep_entrez_hgnc.json
+bio	entrez	196	5	validated	benchmarks/sweep_entrez_hgnc.json
 bio	fasta	55	3	validated	benchmarks/sweep_fasta.json
 bio	fastq	183	1	validated	benchmarks/sweep_fastq_biopython.json
 bio	genbank	103	2	validated	benchmarks/sweep_genbank_biopython.json

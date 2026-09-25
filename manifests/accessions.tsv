@@ -641,3 +641,5 @@ pubmed	37260076	Prolonging genetic circuit stability through adaptive evolution 
 pubmed	36357387	Integrase-mediated differentiation circuits improve evolutionary stability of burdensome and toxic functions; live circuit-stability anchor (synlife_evo sweep)	esearch+esummary	benchmarks/sweep_synlife_evo.json
 pubmed	20212490	Orth, Thiele, Palsson 2010 Nat Biotechnol - What is flux balance analysis?; FBA method anchor (synthetic_life sweep)	esearch+esummary	benchmarks/sweep_synthetic_life.json
 pubmed	28893188	Developing genome-reduced Pseudomonas chlororaphis strains for the production of secondary metabolites; genome-reduced chassis anchor (synthetic_life sweep)	esearch+esummary	benchmarks/sweep_synthetic_life.json
+pubmed	40600176	3D bioprinting of a perfusable skin-on-chip model suitable for drug testing and wound healing studies; perfusion+drug-testing anchor (tissue_eng sweep)	esearch+esummary	benchmarks/sweep_tissue_eng.json
+pubmed	38282554	Printable oxygen-generating biodegradable scaffold for thicker tissue-engineered medical products; oxygen-diffusion-limit anchor (tissue_eng sweep)	esearch+esummary	benchmarks/sweep_tissue_eng.json
