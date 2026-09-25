@@ -1,0 +1,50 @@
+{
+ "module": "enterprise_bio",
+ "checks": [
+  {
+   "check": "hash_chained_audit",
+   "clean": true,
+   "after_tamper": false,
+   "passed": true
+  },
+  {
+   "check": "vault_tenant_isolation",
+   "roundtrip": true,
+   "cross_tenant_blocked": true,
+   "passed": true
+  },
+  {
+   "check": "tier_gates",
+   "index40": true,
+   "index41": false,
+   "vault": false,
+   "robot": false,
+   "guarded_call_blocked": true,
+   "passed": true
+  },
+  {
+   "check": "robot_lifecycle",
+   "illegal_transition_rejected": true,
+   "passed": true
+  },
+  {
+   "check": "budget_enforcement",
+   "first": true,
+   "second": false,
+   "spend": 60.0,
+   "passed": true
+  },
+  {
+   "check": "usage_forecast",
+   "projected": 150.0,
+   "analytic": 150.0,
+   "passed": true
+  }
+ ],
+ "negatives": [
+  "No defect found; security semantics (audit chain, tenant isolation, lifecycle, budget, tier gates) all held under direct attack-style probes."
+ ],
+ "data_note": "Hermetic entitlement tooling; ground truth is the stated tier contract and cryptographic isolation (Fernet per-tenant HMAC keys).",
+ "accessions_used": [],
+ "verdict": "VALIDATED (no defect found; 8 new adversarial tests)"
+}
