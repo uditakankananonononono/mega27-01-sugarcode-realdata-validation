@@ -1,0 +1,61 @@
+{
+ "module": "syn_stab_ai",
+ "sources": [
+  "recomputation",
+  "real inverted-repeat restriction sites (EcoRI/HindIII/SnaBI)"
+ ],
+ "evaluate": {
+  "burden_module": 0.6,
+  "burden_recomputed": 0.6,
+  "failure_risk_module": 0.77,
+  "failure_recomputed": 0.77,
+  "trajectory_last": {
+   "generation": 200,
+   "functional_fraction": 0.2296
+  }
+ },
+ "population": {
+  "final_module": 0.8460820873165869,
+  "final_recomputed": 0.84608217,
+  "match": true,
+  "half_life": null,
+  "half_life_recomputed": null,
+  "half_life_match": true
+ },
+ "palindromes": {
+  "EcoRI_GAATTC": 1,
+  "HindIII_AAGCTT": 1,
+  "SnaBI_TACGTA": 1,
+  "SfiI_GGCCNNNNNGGCC_core": 1,
+  "pre_fix": "all 0 before BUG 49 fix (plain-reverse comparison); textual GATTAG still 0 after fix",
+  "textual_GATTAG_post_fix": 0
+ },
+ "chemical": {
+  "module": 0.31,
+  "recomputed": 0.31
+ },
+ "fitness_landscape": {
+  "fitness_values": [
+   [
+    "loss",
+    0.5
+   ],
+   [
+    "cheap_loss",
+    1.4
+   ]
+  ],
+  "favored_first": "cheap_loss",
+  "expected": "cheap_loss"
+ },
+ "compare_stabilization": [
+  {
+   "name": "integrate",
+   "risk_reduction": 0.639
+  },
+  {
+   "name": "weaker promoter",
+   "risk_reduction": 0.142
+  }
+ ]
+}
