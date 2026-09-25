@@ -1,0 +1,11 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 1001,
+        "MolecularWeight": "121.18",
+        "ConnectivitySMILES": "C1=CC=C(C=C1)CCN"
+      }
+    ]
+  }
+}

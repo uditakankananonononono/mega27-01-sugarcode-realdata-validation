@@ -1,0 +1,169 @@
+{
+ "module": "chemgpt_engine",
+ "sources": [
+  "PubChem PUG-REST",
+  "ChEMBL similarity API (live)",
+  "recomputation"
+ ],
+ "pubchem_mw": [
+  {
+   "name": "phenol",
+   "fragments": [
+    "benzene",
+    "hydroxyl"
+   ],
+   "smiles": "c1ccccc1O",
+   "mw_module": 94.1,
+   "mw_pubchem": "94.11",
+   "mw_diff": 0.01,
+   "pubchem_canonical": "C1=CC=C(C=C1)O",
+   "logP_module": 0.7,
+   "lipinski_violations": 0
+  },
+  {
+   "name": "aniline",
+   "fragments": [
+    "benzene",
+    "amine"
+   ],
+   "smiles": "c1ccccc1N",
+   "mw_module": 93.1,
+   "mw_pubchem": "93.13",
+   "mw_diff": 0.03,
+   "pubchem_canonical": "C1=CC=C(C=C1)N",
+   "logP_module": 1.1,
+   "lipinski_violations": 0
+  },
+  {
+   "name": "benzoic acid",
+   "fragments": [
+    "benzene",
+    "carboxyl"
+   ],
+   "smiles": "c1ccccc1C(=O)O",
+   "mw_module": 122.1,
+   "mw_pubchem": "122.12",
+   "mw_diff": 0.02,
+   "pubchem_canonical": "C1=CC=C(C=C1)C(=O)O",
+   "logP_module": 1.4,
+   "lipinski_violations": 0
+  },
+  {
+   "name": "fluorobenzene",
+   "fragments": [
+    "benzene",
+    "fluorine"
+   ],
+   "smiles": "c1c(F)cccc1",
+   "mw_module": 96.1,
+   "mw_pubchem": "96.10",
+   "mw_diff": 0.0,
+   "pubchem_canonical": "C1=CC=C(C=C1)F",
+   "logP_module": 2.0,
+   "lipinski_violations": 0
+  },
+  {
+   "name": "aminopyridine",
+   "fragments": [
+    "pyridine",
+    "amine"
+   ],
+   "smiles": "c1ccncc1N",
+   "mw_module": 94.1,
+   "mw_pubchem": "94.11",
+   "mw_diff": 0.01,
+   "pubchem_canonical": "C1=CC(=CN=C1)N",
+   "logP_module": 0.3,
+   "lipinski_violations": 0
+  },
+  {
+   "name": "methylimidazole",
+   "fragments": [
+    "imidazole",
+    "methyl"
+   ],
+   "smiles": "c1nc[nH]c1C",
+   "mw_module": 82.1,
+   "mw_pubchem": "82.10",
+   "mw_diff": 0.0,
+   "pubchem_canonical": "CC1=CN=CN1",
+   "logP_module": 0.6,
+   "lipinski_violations": 0
+  },
+  {
+   "name": "phenethylamine",
+   "fragments": [
+    "benzene",
+    "ethyl_link",
+    "amine"
+   ],
+   "smiles": "c1ccccc1CCN",
+   "mw_module": 121.2,
+   "mw_pubchem": "121.18",
+   "mw_diff": 0.02,
+   "pubchem_canonical": "C1=CC=C(C=C1)CCN",
+   "logP_module": 2.1,
+   "lipinski_violations": 0
+  }
+ ],
+ "score_recompute": {
+  "module": {
+   "logP": 1.4,
+   "logS": -0.88,
+   "hbd": 1,
+   "hba": 2,
+   "rotatable": 1
+  },
+  "expected": {
+   "atoms": 9,
+   "logp": 1.4,
+   "hbd": 1,
+   "hba": 2,
+   "rot": 1,
+   "logS": -0.88
+  },
+  "ok": true
+ },
+ "pareto": {
+  "front_size": 20,
+  "brute_force_size": 20,
+  "matches_brute_force": true,
+  "deterministic": true,
+  "front_sorted_by_composite": true
+ },
+ "chembl_phenol": {
+  "status": "ok",
+  "closest": {
+   "chembl_id": "CHEMBL2107497",
+   "pref_name": "PHENOLATE SODIUM",
+   "similarity": 100.0,
+   "max_phase": -1
+  },
+  "novelty": "close analog of known compounds"
+ },
+ "chembl_designed": {
+  "smiles": "c1c(F)cncc1S(=O)(=O)NS(=O)(=O)N",
+  "status": "ok",
+  "closest": null,
+  "novelty": "no known molecule >= 80% similar in ChEMBL (novel scaffold space)"
+ },
+ "graph": {
+  "smiles": "c1nc(F)[nH]c1",
+  "n_nodes": 6,
+  "n_edges": 6,
+  "imidazole_ring_atoms": 5,
+  "note": "imidazole core has 5 ring atoms; ring closure must add ring edges"
+ },
+ "conformer": {
+  "type": "list",
+  "n": 10,
+  "keys": [
+   "boltzmann_weight",
+   "coordinates",
+   "energy_kcal_mol",
+   "id",
+   "radius_gyration"
+  ],
+  "weights_sum": 1.0
+ }
+}

@@ -566,3 +566,11 @@ uniprot	Q6JC40	AAV9 capsid protein VP1 (736 aa); region identity (vector_opt swe
 pubmed	9445046	Summerford & Samulski 1998 J Virol: HSPG is the AAV2 receptor (vector_opt sweep)	PMID 9445046	sweep/vector_opt.py
 pubmed	16378984	Lochrie 2006 J Virol: AAV2 capsid surface mutations affect transduction/neutralization (vector_opt sweep)	PMID 16378984	sweep/vector_opt.py
 rcsb	1UBQ	Human ubiquitin, X-ray 1.8 A, 76 residues; real-structure analysis + Chou-Fasman benchmark (alpha_fold_ui sweep)	RCSB PDB	sweep/alpha_fold_ui.py
+pubchem	243	benzoic acid: PubChem CID for assembled SMILES; MW + canonical form check (chemgpt_engine sweep)	PubChem PUG-REST	sweep/chemgpt_engine.py
+pubchem	996	phenol: PubChem CID for assembled SMILES; MW + canonical form check (chemgpt_engine sweep)	PubChem PUG-REST	sweep/chemgpt_engine.py
+pubchem	1001	phenethylamine: PubChem CID for assembled SMILES; MW + canonical form check (chemgpt_engine sweep)	PubChem PUG-REST	sweep/chemgpt_engine.py
+pubchem	6115	aniline: PubChem CID for assembled SMILES; MW + canonical form check (chemgpt_engine sweep)	PubChem PUG-REST	sweep/chemgpt_engine.py
+pubchem	10008	fluorobenzene: PubChem CID for assembled SMILES; MW + canonical form check (chemgpt_engine sweep)	PubChem PUG-REST	sweep/chemgpt_engine.py
+pubchem	10009	2-aminopyridine: PubChem CID for assembled SMILES; MW + canonical form check (chemgpt_engine sweep)	PubChem PUG-REST	sweep/chemgpt_engine.py
+pubchem	13195	4-methylimidazole: PubChem CID for assembled SMILES; MW + canonical form check (chemgpt_engine sweep)	PubChem PUG-REST	sweep/chemgpt_engine.py
+chembl	CHEMBL2107497	PHENOLATE SODIUM: closest ChEMBL neighbor to phenol at 100 similarity (chemgpt_engine sweep)	ChEMBL similarity API	sweep/chemgpt_engine.py
