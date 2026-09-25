@@ -1,0 +1,97 @@
+{
+  "module": "cell_twin",
+  "checks": [
+    {
+      "check": "legacy_proliferation_recompute",
+      "module": 0.36,
+      "recomputed": 0.36,
+      "passed": true
+    },
+    {
+      "check": "legacy_twin_id_deterministic",
+      "passed": true
+    },
+    {
+      "check": "max_apoptosis_order_independent",
+      "asc": 0.318,
+      "desc": 0.318,
+      "recomputed": 0.318,
+      "passed": true
+    },
+    {
+      "check": "resistance_flag_kras",
+      "passed": true
+    },
+    {
+      "check": "pathway_proliferation_exact",
+      "module": 0.6666666666666666,
+      "recomputed": 0.6666666666666666,
+      "passed": true
+    },
+    {
+      "check": "pathway_apoptosis_expr_plus_prot",
+      "module": 0.42857142857142855,
+      "recomputed": 0.42857142857142855,
+      "passed": true
+    },
+    {
+      "check": "mechanistic_twin_id_order_stable",
+      "passed": true
+    },
+    {
+      "check": "single_ode_matches_rk4",
+      "module": 0.6439939763620343,
+      "rk4": 0.643994,
+      "passed": true
+    },
+    {
+      "check": "effect_scalar_exact",
+      "module": 0.0,
+      "passed": true
+    },
+    {
+      "check": "combination_rerun_not_constant_bonus",
+      "excesses": [
+        0.111463138,
+        0.274385959,
+        0.301968417
+      ],
+      "passed": true
+    },
+    {
+      "check": "screen_matches_combined_rerun",
+      "screen_kill": 0.7299075869890101,
+      "rerun_kill": 0.729908,
+      "passed": true
+    },
+    {
+      "check": "bliss_expected_exact",
+      "module": 0.6184444492773901,
+      "recomputed": 0.6184444492773901,
+      "passed": true
+    },
+    {
+      "check": "diagnostics_50",
+      "n": 50,
+      "passed": true
+    },
+    {
+      "check": "viability_range_recompute",
+      "module": 0.5931142336063348,
+      "passed": true
+    },
+    {
+      "check": "resistant_count_recompute",
+      "module": 1,
+      "passed": true
+    },
+    {
+      "check": "deterministic",
+      "passed": true
+    }
+  ],
+  "elapsed_s": 0.28,
+  "accessions_used": [],
+  "data_note": "Mechanistic cell-twin: ground truth is the module's own stated ODEs/formulas, cross-checked against independent RK4 integration; resistance-gene lists (MCL1->venetoclax, KRAS->trametinib, etc.) match established resistance biology; toy weights documented. No new accessions fetched.",
+  "verdict": "VALIDATED with BUG 61/62 fixed"
+}
