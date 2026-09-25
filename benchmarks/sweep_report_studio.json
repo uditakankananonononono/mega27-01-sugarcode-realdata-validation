@@ -1,0 +1,35 @@
+{
+ "module": "report_studio",
+ "date": "2026-09-25",
+ "sc_ai_base": "1ae48f0",
+ "live_validation": {
+  "source": "deepsplice live_splice_assessment(\"RB1\",\"c.2490-28T>G\",transcript=\"NM_000321.2\") with live NCBI efetch",
+  "scalar_leaves": 17,
+  "missing_after_html_unescape": 0,
+  "tables": [
+   "findings",
+   "strong_findings",
+   "weak_findings"
+  ],
+  "findings_rows": 2,
+  "disclaimer_present": true,
+  "note": "two apparent misses (notation, validation) were HTML-escaping false positives; both render escaped"
+ },
+ "bug107_truncation": {
+  "before": "a 120-row table headed \"Detail: effects (50 rows)\" and a 60-guide report headed \"Guides (50)\" - silent row loss",
+  "after": "\"Detail: effects (120 rows, first 50 shown)\", \"Guides (60, first 50 shown)\""
+ },
+ "bug108_nested_drop": {
+  "before": "nested dicts (e.g. branchpoint {zone, drop_bits}) silently dropped from reports, contradicting the \"never drops scalar data\" contract",
+  "after": "nested dicts flattened with dotted keys; branchpoint.zone and drop_bits render"
+ },
+ "escaping": {
+  "html": "<script> in a value renders escaped",
+  "csv": "RFC quoting round-trips x,\"y\"\\nz"
+ },
+ "negatives": [
+  "tables still cap at 50 rows / 8 columns (now stated)",
+  "TSV quotes special fields (consistent, nonstandard)",
+  "no PDF renderer"
+ ]
+}

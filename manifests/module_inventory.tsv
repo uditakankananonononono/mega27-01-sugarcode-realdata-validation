@@ -76,7 +76,7 @@ module	promoter_lib	143	2	validated	benchmarks/sweep_stability_promoter.json
 module	protein_painter	173	4	validated	benchmarks/sweep_protein_painter.json
 module	qsar_bench	389	4	validated	benchmarks/sweep_qsar_descriptors.json
 module	rarenet_ai	366	20	validated	benchmarks/sweep_rarenet.json
-module	report_studio	213	1	not yet validated	
+module	report_studio	222	2	validated	benchmarks/sweep_report_studio.json
 module	riboswitch	142	3	validated	benchmarks/sweep_nussinov.json
 module	rna_decoder	144	3	validated	benchmarks/sweep_rna_decoder.json
 module	rna_nussinov	387	2	validated	VERDICTS table; sweep/rna_vs_vienna.py
