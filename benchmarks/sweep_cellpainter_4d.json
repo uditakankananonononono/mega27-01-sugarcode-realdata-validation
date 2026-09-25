@@ -1,0 +1,97 @@
+{
+ "module": "cellpainter_4d",
+ "checks": [
+  {
+   "check": "bug64_window_independence_area_at_12h",
+   "pre_fix_um2": {
+    "24": 71.49,
+    "72": 120.84,
+    "144": 152.29
+   },
+   "post_fix_um2": {
+    "24": 120.8437,
+    "72": 120.8437,
+    "144": 120.8437
+   },
+   "passed": true
+  },
+  {
+   "check": "closed_form_relaxation",
+   "module": 120.84374911279285,
+   "analytic": 120.84374919099096,
+   "count_module": 186,
+   "count_analytic": 185.63501754184225,
+   "passed": true
+  },
+  {
+   "check": "watershed_no_leak_synthetic_disks",
+   "areas_px": [
+    121,
+    121,
+    121
+   ],
+   "expected_px": 121,
+   "passed": true
+  },
+  {
+   "check": "bbbc001_count_vs_human_ground_truth",
+   "per_image": [
+    {
+     "image": "AS_09125_050118150001_A03f00d0.tif",
+     "module_count": 391,
+     "human1": 350,
+     "human2": 362,
+     "deviation_pct": 9.83
+    },
+    {
+     "image": "AS_09125_050118150001_A03f01d0.tif",
+     "module_count": 375,
+     "human1": 336,
+     "human2": 342,
+     "deviation_pct": 10.62
+    },
+    {
+     "image": "AS_09125_050118150001_A03f02d0.tif",
+     "module_count": 450,
+     "human1": 396,
+     "human2": 447,
+     "deviation_pct": 6.76
+    },
+    {
+     "image": "AS_09125_050118150001_A03f03d0.tif",
+     "module_count": 349,
+     "human1": 320,
+     "human2": 341,
+     "deviation_pct": 5.6
+    },
+    {
+     "image": "AS_09125_050118150001_A03f04d0.tif",
+     "module_count": 517,
+     "human1": 398,
+     "human2": 533,
+     "deviation_pct": 11.06
+    },
+    {
+     "image": "AS_09125_050118150001_A03f05d0.tif",
+     "module_count": 262,
+     "human1": 241,
+     "human2": 257,
+     "deviation_pct": 5.22
+    }
+   ],
+   "mean_deviation_pct": 8.18,
+   "inter_human_pct": 11,
+   "cellprofiler_published_pct": 6.2,
+   "passed": true
+  }
+ ],
+ "negatives": [
+  "An earlier segment_nuclei draft with a leaky watershed (no background basin) scored 7.0% and a second draft 5.8% on BBBC001; both were geometrically wrong (synthetic 121-px disks came out 145/109/109 then 81 px). The shipped version is the one that passes the synthetic geometry checks, scoring 8.2%; no parameter was tuned to the 6 ground-truth images.",
+  "Circularity estimator 4piA/P^2 with P=edges*pi/4 reads 0.91 on a digital r=6 disk (estimator bias, documented)."
+ ],
+ "data_note": "BBBC001 v1: 6 Hoechst-only 512x512 HT29 fields + two-human counts (https://bbbc.broadinstitute.org/BBBC001). Pixel size is not published on the page, so state_from_nuclei_image requires it from acquisition metadata.",
+ "accessions_used": [
+  "BBBC001"
+ ],
+ "verdict": "VALIDATED with BUG 64 fixed; new real-image entry point segment_nuclei/state_from_nuclei_image"
+}
