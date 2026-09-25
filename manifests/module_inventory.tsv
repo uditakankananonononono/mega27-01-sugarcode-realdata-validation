@@ -86,7 +86,7 @@ module	str_scope	340	3	validated	benchmarks/sweep_str_pytrf.json
 module	structural_biophysics	528	7	validated	benchmarks/sweep_vina_score.json; benchmarks/sweep_sasa_freesasa_recheck14.json
 module	syn_bio_studio	58	2	validated	benchmarks/sweep_syn_bio_studio.json
 module	syn_stab_ai	77	3	validated	benchmarks/sweep_syn_stab_ai.json
-module	synbio_studio	113	4	not yet validated	
+module	synbio_studio	132	5	validated	benchmarks/sweep_synbio_studio.json
 module	synbio_wizard	224	2	not yet validated	
 module	syndroid	231	2	not yet validated	
 module	synlife_evo	278	4	not yet validated	

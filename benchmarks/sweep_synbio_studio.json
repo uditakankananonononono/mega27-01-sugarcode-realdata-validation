@@ -1,0 +1,290 @@
+{
+ "module": "synbio_studio",
+ "module_number": 121,
+ "validation": {
+  "repressilator_amp_last_quarter_n2.1": 0.0015,
+  "repressilator_amp_last_quarter_n3.0": 2.7717,
+  "and_gate_high_level_measured": 4.783,
+  "and_gate_high_level_theory": 4.783,
+  "toggle_from_1_0": {
+   "A": 7.515,
+   "B": 0.0586
+  }
+ },
+ "anchors": {
+  "pubmed_and_gate_search": {
+   "40493021": {
+    "uid": "40493021",
+    "pubdate": "2025 Sep",
+    "epubdate": "2025 Jun 10",
+    "source": "Plant Biotechnol J",
+    "authors": [
+     {
+      "name": "Zhao C",
+      "authtype": "Author",
+      "clusterid": ""
+     },
+     {
+      "name": "Stepanova AN",
+      "authtype": "Author",
+      "clusterid": ""
+     },
+     {
+      "name": "Alonso JM",
+      "authtype": "Author",
+      "clusterid": ""
+     }
+    ],
+    "lastauthor": "Alonso JM",
+    "title": "DASH: a versatile and high-capacity gene stacking system for plant synthetic biology.",
+    "sorttitle": "dash a versatile and high capacity gene stacking system for plant synthetic biology",
+    "volume": "23",
+    "issue": "9",
+    "pages": "3697-3712",
+    "lang": [
+     "eng"
+    ],
+    "nlmuniqueid": "101201889",
+    "issn": "1467-7644",
+    "essn": "1467-7652",
+    "pubtype": [
+     "Journal Article",
+     "Review"
+    ],
+    "recordstatus": "PubMed - indexed for MEDLINE",
+    "pubstatus": "256",
+    "articleids": [
+     {
+      "idtype": "pubmed",
+      "idtypen": 1,
+      "value": "40493021"
+     },
+     {
+      "idtype": "pmc",
+      "idtypen": 8,
+      "value": "PMC12392928"
+     },
+     {
+      "idtype": "pmcid",
+      "idtypen": 5,
+      "value": "pmc-id: PMC12392928;"
+     },
+     {
+      "idtype": "doi",
+      "idtypen": 3,
+      "value": "10.1111/pbi.70179"
+     }
+    ],
+    "history": [
+     {
+      "pubstatus": "revised",
+      "date": "2025/05/07 00:00"
+     },
+     {
+      "pubstatus": "received",
+      "date": "2025/03/04 00:00"
+     },
+     {
+      "pubstatus": "accepted",
+      "date": "2025/05/22 00:00"
+     },
+     {
+      "pubstatus": "medline",
+      "date": "2025/08/31 20:01"
+     },
+     {
+      "pubstatus": "pubmed",
+      "date": "2025/06/10 13:27"
+     },
+     {
+      "pubstatus": "entrez",
+      "date": "2025/06/10 10:52"
+     },
+     {
+      "pubstatus": "pmc-release",
+      "date": "2025/06/10 00:00"
+     }
+    ],
+    "references": [],
+    "attributes": [
+     "Has Abstract"
+    ],
+    "pmcrefcount": 64,
+    "fulljournalname": "Plant biotechnology journal",
+    "elocationid": "doi: 10.1111/pbi.70179",
+    "doctype": "citation",
+    "srccontriblist": [],
+    "booktitle": "",
+    "medium": "",
+    "edition": "",
+    "publisherlocation": "",
+    "publishername": "",
+    "srcdate": "",
+    "reportnumber": "",
+    "availablefromurl": "",
+    "locationlabel": "",
+    "doccontriblist": [],
+    "docdate": "",
+    "bookname": "",
+    "chapter": "",
+    "sortpubdate": "2025/09/01 00:00",
+    "sortfirstauthor": "Zhao C",
+    "vernaculartitle": ""
+   },
+   "37841098": {
+    "uid": "37841098",
+    "pubdate": "2023",
+    "epubdate": "2023 Sep 6",
+    "source": "Access Microbiol",
+    "authors": [
+     {
+      "name": "Siddall A",
+      "authtype": "Author",
+      "clusterid": ""
+     },
+     {
+      "name": "Williams AA",
+      "authtype": "Author",
+      "clusterid": ""
+     },
+     {
+      "name": "Sanders J",
+      "authtype": "Author",
+      "clusterid": ""
+     },
+     {
+      "name": "Denton JA",
+      "authtype": "Author",
+      "clusterid": ""
+     },
+     {
+      "name": "Madden D",
+      "authtype": "Author",
+      "clusterid": ""
+     },
+     {
+      "name": "Schollar J",
+      "authtype": "Author",
+      "clusterid": ""
+     },
+     {
+      "name": "Bryk J",
+      "authtype": "Author",
+      "clusterid": ""
+     }
+    ],
+    "lastauthor": "Bryk J",
+    "title": "Unigems: plasmids and parts to facilitate teaching on assembly, gene expression control and logic in E. coli.",
+    "sorttitle": "unigems plasmids and parts to facilitate teaching on assembly gene expression control and logic in e coli",
+    "volume": "5",
+    "issue": "9",
+    "pages": "",
+    "lang": [
+     "eng"
+    ],
+    "nlmuniqueid": "101746927",
+    "issn": "",
+    "essn": "2516-8290",
+    "pubtype": [
+     "Journal Article"
+    ],
+    "recordstatus": "PubMed",
+    "pubstatus": "258",
+    "articleids": [
+     {
+      "idtype": "pubmed",
+      "idtypen": 1,
+      "value": "37841098"
+     },
+     {
+      "idtype": "pmc",
+      "idtypen": 8,
+      "value": "PMC10569648"
+     },
+     {
+      "idtype": "pmcid",
+      "idtypen": 5,
+      "value": "pmc-id: PMC10569648;"
+     },
+     {
+      "idtype": "doi",
+      "idtypen": 3,
+      "value": "10.1099/acmi.0.000596.v3"
+     },
+     {
+      "idtype": "pii",
+      "idtypen": 4,
+      "value": "000596.v3"
+     }
+    ],
+    "history": [
+     {
+      "pubstatus": "received",
+      "date": "2023/03/16 00:00"
+     },
+     {
+      "pubstatus": "accepted",
+      "date": "2023/08/04 00:00"
+     },
+     {
+      "pubstatus": "medline",
+      "date": "2023/10/16 06:49"
+     },
+     {
+      "pubstatus": "pubmed",
+      "date": "2023/10/16 06:48"
+     },
+     {
+      "pubstatus": "entrez",
+      "date": "2023/10/16 04:28"
+     },
+     {
+      "pubstatus": "pmc-release",
+      "date": "2023/09/06 00:00"
+     }
+    ],
+    "references": [],
+    "attributes": [
+     "Has Abstract"
+    ],
+    "pmcrefcount": 32,
+    "fulljournalname": "Access microbiology",
+    "elocationid": "pii: 000596.v3. doi: 10.1099/acmi.0.000596.v3",
+    "doctype": "citation",
+    "srccontriblist": [],
+    "booktitle": "",
+    "medium": "",
+    "edition": "",
+    "publisherlocation": "",
+    "publishername": "",
+    "srcdate": "",
+    "reportnumber": "",
+    "availablefromurl": "",
+    "locationlabel": "",
+    "doccontriblist": [],
+    "docdate": "",
+    "bookname": "",
+    "chapter": "",
+    "sortpubdate": "2023/09/06 00:00",
+    "sortfirstauthor": "Siddall A",
+    "vernaculartitle": ""
+   }
+  }
+ },
+ "bugs": [
+  {
+   "id": "BUG 115",
+   "desc": "_rates silent fallbacks: unknown regulation mode treated as activate; unknown logic treated as OR; regulator not in gates/external silently 0.0 (ghost repressor -> full expression, steady 5.05). Now ValueError/KeyError naming the gate."
+  },
+  {
+   "id": "BUG 116",
+   "desc": "repressilator() shipped n=2.1 and converged to the symmetric fixed point (last-quarter amplitude 0.002 even from broken-symmetry start), contradicting its 'ring oscillator' docstring. Recalibrated n=3.0: sustained oscillation, last-quarter amplitude 2.77. simulate() now reports per-gate amplitude_last_quarter and an oscillating flag so steady_state is not read as settled on a limit cycle."
+  },
+  {
+   "id": "BUG 117",
+   "desc": "__init__.py did not export repressilator/toggle_switch/and_gate; the demo circuit constructors were unreachable from the package namespace."
+  }
+ ],
+ "formula": "F149 Hill regulation: repress 1/(1+(x/K)^n), activate (x/K)^n/(1+(x/K)^n); AND=product, OR=1-prod(1-t_i); steady state y*=(basal+vmax*g)/decay; symmetric repressilator oscillates only for loop cooperativity n>2 with sufficient gain (n=3.0: amplitude 2.77; n=2.1: 0.002)",
+ "tests_added": "tests/test_synbio_studio_realdata.py (5 tests)"
+}

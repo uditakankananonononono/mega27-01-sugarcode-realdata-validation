@@ -632,3 +632,5 @@ ncbi_gene	64919	BCL11B NCBI Gene record (human); official symbol for CTIP2 (orga
 ncbi_gene	324	APC NCBI Gene record (human); returned first for symbol query GS, showing GS alias ambiguity (organoid_ai sweep)	esearch+esummary	benchmarks/sweep_organoid_ai.json
 pubmed	10659857	Gardner et al. 2000 Nature - Construction of a genetic toggle switch in Escherichia coli; toggle motif anchor (syn_bio_studio sweep)	esearch+esummary	benchmarks/sweep_syn_bio_studio.json
 pubmed	10659856	Elowitz & Leibler 2000 Nature - A synthetic oscillatory network of transcriptional regulators; repressilator motif anchor (syn_bio_studio sweep)	esearch+esummary	benchmarks/sweep_syn_bio_studio.json
+pubmed	40493021	DASH: a versatile and high-capacity gene stacking system for plant synthetic biology; top live hit for synthetic genetic AND gate query (synbio_studio sweep)	esearch+esummary	benchmarks/sweep_synbio_studio.json
+pubmed	37841098	Unigems: plasmids and parts for teaching assembly, gene expression control and logic in E. coli; live AND-gate logic anchor (synbio_studio sweep)	esearch+esummary	benchmarks/sweep_synbio_studio.json
