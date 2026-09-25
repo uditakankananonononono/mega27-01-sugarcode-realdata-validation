@@ -1,6 +1,6 @@
 kind	name	python_lines	test_references	status	evidence
 module	acmg_bayesian	469	3	validated	benchmarks/sweep_acmg_erepo.json
-module	alpha_fold_ui	404	7	not yet validated	
+module	alpha_fold_ui	442	8	validated	benchmarks/sweep_alpha_fold_ui.json
 module	bio_copilot	245	5	not yet validated	
 module	bio_material	116	3	validated	benchmarks/sweep_bio_material.json
 module	bio_switch	511	5	validated	benchmarks/sweep_bio_switch.json

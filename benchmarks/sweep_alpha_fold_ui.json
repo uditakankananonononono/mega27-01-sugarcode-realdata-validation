@@ -1,0 +1,71 @@
+{
+ "module": "alpha_fold_ui",
+ "sources": [
+  "RCSB PDB (files.rcsb.org)",
+  "AlphaFold DB (alphafold.ebi.ac.uk)",
+  "Bio.PDB roundtrip",
+  "numpy recomputation"
+ ],
+ "real_1ubq": {
+  "n_residues": 76,
+  "expected": 76,
+  "chains": [
+   "A"
+  ],
+  "b_mean_module": 10.58,
+  "b_mean_recomputed": 10.58,
+  "b_minmax_ok": true,
+  "method": "X-RAY DIFFRACTION",
+  "resolution_A": 1.8,
+  "n_pockets": 3,
+  "top_pocket_density_recomputed_ok": true
+ },
+ "real_af_hbb": {
+  "n_residues": 147,
+  "expected": 147,
+  "mean_plddt": 97.18,
+  "fraction_low_confidence": 0.0,
+  "confidence_kind": "AlphaFold pLDDT"
+ },
+ "chou_fasman": {
+  "table_matches_canonical_1978": true,
+  "ubq_ss_post_fix": "EEEEEEEEEEEEHEHHHHCCHHEHHHHHHHHHHHHHHHHHEEEEHHHHHHHCCCEEEEEEHHHHHHHEEEECCCCC",
+  "ubq_helix_23_34_pred": "EHHHHHHHHHHH",
+  "ubq_helix23_34_H_fraction": 0.92,
+  "q3_vs_1ubq_literature_assignment": 0.513,
+  "pre_fix": "BUG 48: runaway extension predicted HHHHHHHHHEHHH...H (70/76 helix, 92%) on ubiquitin",
+  "note": "ubiquitin has one alpha helix (residues 23-34) and a 5-strand beta sheet (experimental, 1UBQ); CF is a ~50-60% accuracy method"
+ },
+ "geometry": {
+  "pdb_ca_count": 76,
+  "expected": 76,
+  "consec_CA_mean": 3.8,
+  "consec_CA_minmax": [
+   3.799,
+   3.801
+  ],
+  "target": 3.8,
+  "min_nonbonded_CA": 4.001,
+  "MIN_NONBONDED_CA": 4.0,
+  "mean_plddt": 80.1,
+  "composition": {
+   "helix": 38,
+   "strand": 28,
+   "coil": 10
+  }
+ },
+ "msa_couplings": {
+  "entropy_match": true,
+  "mi01_module": 0.0,
+  "mi01_recomputed": 0.0,
+  "effective_depth": 4.999999999999999
+ },
+ "refine": {
+  "energy_before": 117.517,
+  "energy_after": -5.4831,
+  "decreased": "True",
+  "trajectory_monotone": false,
+  "max_bond_deviation_A": 3.9968028886505635e-15,
+  "bond_mean_after": 3.8
+ }
+}
