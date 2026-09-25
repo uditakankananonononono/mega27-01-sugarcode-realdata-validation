@@ -1,0 +1,73 @@
+{
+ "module": "microbiome_rx",
+ "checks": [
+  {
+   "check": "optimizer_regularizer_domination",
+   "before": {
+    "butyrate_0.005_reachable": {
+     "diet": {
+      "fiber": 0.0,
+      "sugar": 0.0
+     },
+     "achieved": 0.00201,
+     "abs_error": 0.00299
+    },
+    "butyrate_0.5_unreachable": {
+     "diet": {
+      "fiber": 0.0,
+      "sugar": 0.0
+     },
+     "achieved": 0.00201,
+     "abs_error": 0.498,
+     "reported_gap": "none - converged True, silent"
+    }
+   },
+   "cause": ".02/g input penalty ~1000x larger than squared metabolite errors (~1e-5 at the model's ~1e-2 output scale); penalty always wins, so EVERY target gets zero diet",
+   "after": {
+    "butyrate_0.005": {
+     "diet": {
+      "fiber": 1.011,
+      "sugar": 0.0
+     },
+     "achieved": 0.00474,
+     "abs_error": 0.00026
+    },
+    "butyrate_0.5": {
+     "diet": {
+      "fiber": 3.0,
+      "sugar": 0.0
+     },
+     "achieved": 0.00731,
+     "abs_error": 0.49269,
+     "reported_gap": "target_vs_achieved per metabolite"
+    }
+   },
+   "fix": "penalty .02 -> 1e-6 tie-breaker; additive target_vs_achieved report",
+   "passed": true
+  },
+  {
+   "check": "metabolic_sim_diet_response",
+   "detail": "butyrate 0.00212 -> 0.01133 and acetate 0.00231 -> 0.02845 for fiber 0.2 -> 2.5 (5-day run); no negative displayed values",
+   "passed": true
+  },
+  {
+   "check": "legacy_sim_shapes",
+   "detail": "antibiotic dict applies differential death; dysbiosis_shift shares sum to ~0; metabolite_flux keys cover produced metabolites",
+   "passed": true
+  },
+  {
+   "check": "diagnostics_panel",
+   "detail": "exactly 50 unique diagnostics for 4, 5 and 6 species communities; protected optimizer fields survive trimming",
+   "passed": true
+  }
+ ],
+ "verdict": "BUG 78 FIXED: optimize_intervention's input penalty dominated the metabolite-error objective by ~3 orders of magnitude, so every target silently got fiber=sugar=0 - even reachable ones. Penalty rescaled to a tie-breaker; target_vs_achieved now reports unreachable gaps.",
+ "defects_found": 1,
+ "negatives": [
+  "legacy simulate_community's _metabolites scales ALL products by dietary fiber only (lactate/propionate included) - coarse proxy since the legacy path has no metabolite dynamics; the newer simulate_metabolic_community handles this properly; documented, not redesigned",
+  "legacy rhs has a no-op c.rstrip('e')+'e' key mangle that always falls back to diet.get(c, 0.5) - harmless cruft, documented",
+  "legacy community can blow up total biomass (carrying term weak; butyrate flux 93.1 in probe units) - hermetic scale, documented",
+  "optimizer metabolite outputs saturate near ~0.012 at max fiber; targets above that are unreachable and now reported as such"
+ ],
+ "notes": "validated against the module's own coupled ODE as oracle; no new external accessions"
+}

@@ -49,7 +49,7 @@ module	metabodesigner	190	4	validated	benchmarks/sweep_metabodesigner.json
 module	micro_tx	238	3	validated	benchmarks/sweep_micro_tx.json
 module	microaiverse	147	3	validated	benchmarks/sweep_microaiverse.json
 module	microbiome_exp	120	3	validated	benchmarks/sweep_microbiome.json
-module	microbiome_rx	172	2	not yet validated	
+module	microbiome_rx	180	3	validated	benchmarks/sweep_microbiome_rx.json
 module	mit_offtarget	154	2	validated	VERDICTS table; sweep/crispr_vs_crispor.py
 module	molecule_eval	149	2	validated	benchmarks/sweep_molecule_eval.json
 module	mutdock	337	15	validated	benchmarks/sweep_mutdock.json
