@@ -119,27 +119,36 @@ $h_t = \mathrm{ReLU}\big(\sum_{c}\sum_{u} K_{c,u} X_{c,t+u-\lceil w/2\rceil} + b
 Global max pooling $\max_t h_t$ makes the feature invariant to where the motif
 sits in the window.
 
-\paragraph{(F9) Binding free energy.} $\Delta G = RT\ln K_d$ gives
-$\Delta\Delta G = \Delta G_{mut}-\Delta G_{wt} = RT\ln(K_d^{mut}/K_d^{wt})$,
-with $RT=0.596$ kcal/mol at 300 K.
+\paragraph{(F9) Binding free energy.} The SKEMPI equilibrium-constant check uses a ratio, so a change in the concentration unit cancels:
+\begin{equation}\label{eq:binding-ddg}
+\Delta\Delta G = \Delta G_{mut}-\Delta G_{wt}
+ = RT\ln\!\left(\frac{K_d^{mut}}{K_d^{wt}}\right),
+ \qquad RT=0.596\ \mathrm{kcal/mol}\ \text{at }300\ \mathrm K.
+\end{equation}
+This converts a mutant/wild-type dissociation-constant pair into the binding-energy difference used in the committed SKEMPI parity test; it is not itself a new binding measurement.
 
-\paragraph{(F10) FBA duality.} The primal $\max c^\top v$ s.t.\ $Sv=0$,
-$l\le v\le u$ has the dual
-$\min u^\top\alpha - l^\top\beta$ s.t.\ $S^\top\pi + \alpha - \beta = c$,
-$\alpha,\beta\ge0$. HiGHS returns primal and dual solutions. Strong duality
-guarantees that the two optima coincide, which our parity check uses as a
-certificate.
+\paragraph{(F10) FBA duality.} For the committed BiGG \texttt{e\_coli\_core} flux check, HiGHS solves the stoichiometric primal and its bound-price dual:
+\begin{equation}\label{eq:fba-primal-dual}
+\begin{aligned}
+P&=\max_v\{c^\top v:Sv=0,\ l\le v\le u\},\\
+D&=\min_{\pi,\alpha,\beta}\{u^\top\alpha-l^\top\beta:
+S^\top\pi+\alpha-\beta=c,\ \alpha,\beta\ge0\}.
+\end{aligned}
+\end{equation}
+Weak duality gives $P\le D$; when both solutions are feasible, strong duality yields $P=D$. The reported aerobic-glucose optimum $0.8739\ \mathrm{h}^{-1}$ is checked against solver feasibility and the primal-dual gap, not inferred from this formula alone.
 
 \paragraph{(F11) Codon Adaptation Index.} With relative adaptiveness
 $w_c = f_c/\max_{c'\in\mathrm{syn}(c)} f_{c'}$,
 $\mathrm{CAI} = \exp\big(\frac1L\sum_{\ell}\ln w_{c_\ell}\big)$, the geometric
 mean of $w$ over the $L$ scorable codons.
 
-\paragraph{(F12) ACMG Bayesian posterior.} Following Tavtigian et al.,
-$O_{P} = 350^{\,\mathrm{pts}/8}$ and
-$\mathrm{Post} = O_P\,\pi/\big((O_P-1)\pi+1\big)$. With $\pi=0.1$ and
-$\mathrm{pts}=6$: $O_P = 350^{0.75}\approx 80.92$, so Post $=8.092/8.992\approx0.8999$,
-matching the module's 0.8999 and the published 0.900.
+\paragraph{(F12) ACMG Bayesian posterior.} Following Tavtigian et al., evidence points scale pathogenic odds and Bayes' rule converts them to a posterior:
+\begin{equation}\label{eq:acmg-posterior}
+O_P=350^{\mathrm{pts}/8},\qquad
+P(\mathrm{pathogenic}\mid\mathrm{pts})
+=\frac{O_P\,\pi}{(O_P-1)\pi+1}.
+\end{equation}
+For the committed six-point check with prior $\pi=0.1$, $O_P=350^{0.75}\approx80.92$ and the posterior is $8.092/8.992\approx0.8999$, matching the module output and the published $0.900$. This is a framework arithmetic check, not independent variant pathogenicity evidence.
 
 \paragraph{(F13) Profile-HMM forward recursion.} For match, insert and delete
 states,
