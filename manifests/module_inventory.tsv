@@ -84,7 +84,7 @@ module	robotic_flow	143	3	validated	benchmarks/sweep_robotic_flow.json
 module	stability_ai	199	6	validated	benchmarks/sweep_stability_promoter.json
 module	str_scope	340	3	validated	benchmarks/sweep_str_pytrf.json
 module	structural_biophysics	528	7	validated	benchmarks/sweep_vina_score.json; benchmarks/sweep_sasa_freesasa_recheck14.json
-module	syn_bio_studio	43	1	not yet validated	
+module	syn_bio_studio	58	2	validated	benchmarks/sweep_syn_bio_studio.json
 module	syn_stab_ai	77	3	validated	benchmarks/sweep_syn_stab_ai.json
 module	synbio_studio	113	4	not yet validated	
 module	synbio_wizard	224	2	not yet validated	

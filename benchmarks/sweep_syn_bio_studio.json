@@ -1,0 +1,214 @@
+{
+ "module": "syn_bio_studio",
+ "module_number": 120,
+ "validation": {
+  "gillespie_mean_mrna_measured": 7.08,
+  "gillespie_mean_mrna_theory": 6.67,
+  "gillespie_mean_protein_measured": 330.7,
+  "gillespie_mean_protein_theory": 333.33,
+  "oscillator_amp_first_quarter": 1.36,
+  "oscillator_amp_last_quarter": 0.396,
+  "oscillator_sustained": false
+ },
+ "anchors": {
+  "pubmed": {
+   "10659857": {
+    "uid": "10659857",
+    "pubdate": "2000 Jan 20",
+    "epubdate": "",
+    "source": "Nature",
+    "authors": [
+     {
+      "name": "Gardner TS",
+      "authtype": "Author",
+      "clusterid": ""
+     },
+     {
+      "name": "Cantor CR",
+      "authtype": "Author",
+      "clusterid": ""
+     },
+     {
+      "name": "Collins JJ",
+      "authtype": "Author",
+      "clusterid": ""
+     }
+    ],
+    "lastauthor": "Collins JJ",
+    "title": "Construction of a genetic toggle switch in Escherichia coli.",
+    "sorttitle": "construction of a genetic toggle switch in escherichia coli",
+    "volume": "403",
+    "issue": "6767",
+    "pages": "339-42",
+    "lang": [
+     "eng"
+    ],
+    "nlmuniqueid": "0410462",
+    "issn": "0028-0836",
+    "essn": "",
+    "pubtype": [
+     "Journal Article",
+     "Research Support, Non-U.S. Gov't",
+     "Research Support, U.S. Gov't, Non-P.H.S."
+    ],
+    "recordstatus": "PubMed - indexed for MEDLINE",
+    "pubstatus": "4",
+    "articleids": [
+     {
+      "idtype": "pubmed",
+      "idtypen": 1,
+      "value": "10659857"
+     },
+     {
+      "idtype": "doi",
+      "idtypen": 3,
+      "value": "10.1038/35002131"
+     }
+    ],
+    "history": [
+     {
+      "pubstatus": "pubmed",
+      "date": "2000/02/05 09:00"
+     },
+     {
+      "pubstatus": "medline",
+      "date": "2000/02/19 09:00"
+     },
+     {
+      "pubstatus": "entrez",
+      "date": "2000/02/05 09:00"
+     }
+    ],
+    "references": [],
+    "attributes": [
+     "Has Abstract"
+    ],
+    "pmcrefcount": "",
+    "fulljournalname": "Nature",
+    "elocationid": "",
+    "doctype": "citation",
+    "srccontriblist": [],
+    "booktitle": "",
+    "medium": "",
+    "edition": "",
+    "publisherlocation": "",
+    "publishername": "",
+    "srcdate": "",
+    "reportnumber": "",
+    "availablefromurl": "",
+    "locationlabel": "",
+    "doccontriblist": [],
+    "docdate": "",
+    "bookname": "",
+    "chapter": "",
+    "sortpubdate": "2000/01/20 00:00",
+    "sortfirstauthor": "Gardner TS",
+    "vernaculartitle": ""
+   },
+   "10659856": {
+    "uid": "10659856",
+    "pubdate": "2000 Jan 20",
+    "epubdate": "",
+    "source": "Nature",
+    "authors": [
+     {
+      "name": "Elowitz MB",
+      "authtype": "Author",
+      "clusterid": ""
+     },
+     {
+      "name": "Leibler S",
+      "authtype": "Author",
+      "clusterid": ""
+     }
+    ],
+    "lastauthor": "Leibler S",
+    "title": "A synthetic oscillatory network of transcriptional regulators.",
+    "sorttitle": "synthetic oscillatory network of transcriptional regulators",
+    "volume": "403",
+    "issue": "6767",
+    "pages": "335-8",
+    "lang": [
+     "eng"
+    ],
+    "nlmuniqueid": "0410462",
+    "issn": "0028-0836",
+    "essn": "",
+    "pubtype": [
+     "Journal Article",
+     "Research Support, Non-U.S. Gov't",
+     "Research Support, U.S. Gov't, P.H.S."
+    ],
+    "recordstatus": "PubMed - indexed for MEDLINE",
+    "pubstatus": "4",
+    "articleids": [
+     {
+      "idtype": "pubmed",
+      "idtypen": 1,
+      "value": "10659856"
+     },
+     {
+      "idtype": "doi",
+      "idtypen": 3,
+      "value": "10.1038/35002125"
+     }
+    ],
+    "history": [
+     {
+      "pubstatus": "pubmed",
+      "date": "2000/02/05 09:00"
+     },
+     {
+      "pubstatus": "medline",
+      "date": "2000/02/19 09:00"
+     },
+     {
+      "pubstatus": "entrez",
+      "date": "2000/02/05 09:00"
+     }
+    ],
+    "references": [],
+    "attributes": [
+     "Has Abstract"
+    ],
+    "pmcrefcount": "",
+    "fulljournalname": "Nature",
+    "elocationid": "",
+    "doctype": "citation",
+    "srccontriblist": [],
+    "booktitle": "",
+    "medium": "",
+    "edition": "",
+    "publisherlocation": "",
+    "publishername": "",
+    "srcdate": "",
+    "reportnumber": "",
+    "availablefromurl": "",
+    "locationlabel": "",
+    "doccontriblist": [],
+    "docdate": "",
+    "bookname": "",
+    "chapter": "",
+    "sortpubdate": "2000/01/20 00:00",
+    "sortfirstauthor": "Elowitz MB",
+    "vernaculartitle": ""
+   }
+  }
+ },
+ "bugs": [
+  {
+   "id": "BUG 112",
+   "desc": "compile_circuit: unknown behavior silently compiled as 'sensor' architecture while reporting the caller's behavior label; circuit_report('AND') paired an AND architecture with the repressilator simulation. Fix: ValueError on unknown behavior."
+  },
+  {
+   "id": "BUG 113",
+   "desc": "gillespie_expression: ZeroDivisionError when no reactions possible at initial state (transcription=0, no molecules); duration<=0 produced nan noise_cv with RuntimeWarnings on an empty trace. Fix: input validation."
+  },
+  {
+   "id": "BUG 114",
+   "desc": "simulate_oscillator reported transient-dominated amplitude/peak_count as if sustained: at defaults the repressilator is damped (first-quarter amplitude 1.36 vs last-quarter 0.40). Fix: report per-quarter amplitudes, sustained_oscillation flag and dynamics_note."
+  }
+ ],
+ "formula": "F148 two-stage gene expression means: <mRNA>=k_tx/d_m, <protein>=<mRNA>*k_tl/d_p; Gillespie simulation converges to these means (330.7 vs 333.3, 0.8% off)",
+ "tests_added": "tests/test_syn_bio_studio_realdata.py (5 tests)"
+}

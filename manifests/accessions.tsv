@@ -630,3 +630,5 @@ dataset	UCI-67	UCI ML Repository Molecular Biology (Promoter Gene Sequences), E.
 ncbi_gene	2752	GLUL NCBI Gene record (human); official symbol for glutamine synthetase, replaces ambiguous GS (organoid_ai sweep)	esearch+esummary	benchmarks/sweep_organoid_ai.json
 ncbi_gene	64919	BCL11B NCBI Gene record (human); official symbol for CTIP2 (organoid_ai sweep)	esearch+esummary	benchmarks/sweep_organoid_ai.json
 ncbi_gene	324	APC NCBI Gene record (human); returned first for symbol query GS, showing GS alias ambiguity (organoid_ai sweep)	esearch+esummary	benchmarks/sweep_organoid_ai.json
+pubmed	10659857	Gardner et al. 2000 Nature - Construction of a genetic toggle switch in Escherichia coli; toggle motif anchor (syn_bio_studio sweep)	esearch+esummary	benchmarks/sweep_syn_bio_studio.json
+pubmed	10659856	Elowitz & Leibler 2000 Nature - A synthetic oscillatory network of transcriptional regulators; repressilator motif anchor (syn_bio_studio sweep)	esearch+esummary	benchmarks/sweep_syn_bio_studio.json

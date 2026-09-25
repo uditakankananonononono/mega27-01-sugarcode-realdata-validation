@@ -33,6 +33,7 @@ EVIDENCE={('module','chem_descriptors'):'benchmarks/results.json (VERDICTS table
 ('module','protein_painter'):'benchmarks/sweep_protein_painter.json',
 ('module','report_studio'):'benchmarks/sweep_report_studio.json',
 ('module','robotic_flow'):'benchmarks/sweep_robotic_flow.json',
+('module','syn_bio_studio'):'benchmarks/sweep_syn_bio_studio.json',
 }
 def loc(p):
     n=0
