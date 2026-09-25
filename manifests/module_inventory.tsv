@@ -44,7 +44,7 @@ module	genomegpt	279	4	validated	benchmarks/sweep_genomegpt.json
 module	infinite_diagnosis	185	6	validated	benchmarks/sweep_infinite_diagnosis.json
 module	liquid_biopsy	411	7	validated	benchmarks/sweep_liquid_biopsy.json
 module	living_computer	863	3	validated	benchmarks/sweep_living_computer.json
-module	living_tx	184	2	not yet validated	
+module	living_tx	200	3	validated	benchmarks/sweep_living_tx.json
 module	metabodesigner	190	4	validated	benchmarks/sweep_metabodesigner.json
 module	micro_tx	218	2	not yet validated	
 module	microaiverse	138	2	not yet validated	

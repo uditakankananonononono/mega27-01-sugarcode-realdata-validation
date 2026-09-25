@@ -1,0 +1,79 @@
+{
+ "module": "living_tx",
+ "checks": [
+  {
+   "check": "structural_extinction_single_inoculum",
+   "detail": "engineered growth vanishes at the shared carrying capacity (total -> 10) while washout loss 0.08*(1-engraftment) persists; E=0 is the only stable equilibrium",
+   "equilibrium_per_capita_rates_per_hour": {
+    "E_coli_Nissle": -0.048,
+    "Lactobacillus": -0.024,
+    "Bacteroides": -0.008,
+    "S_boulardii": -0.056
+   },
+   "substrate_at_resident_equilibrium": 0.0385,
+   "numeric": "all 4 chassis washed_out by day 56 at doses 1e5..1e12; terminal fraction 0.0",
+   "consistent_with": "clinical reality that Nissle-class chassis need repeated dosing (SYNB1618 dosed repeatedly, PMID 30102294)",
+   "passed": true
+  },
+  {
+   "check": "verdict_window_blindness",
+   "before": "days=1 -> persists (ready_for_lab); days=14 -> washed_out, same design; a 24-h window cannot assess persistence",
+   "fix": "simulation_verdict now carries assessment_window_days, washout_timescale_days (=1/(0.08*(1-engraftment))/24), and a caution when window < 3 timescales; additive keys, statuses unchanged",
+   "after": {
+    "days_1": "persists + caution",
+    "days_2": "persists + caution",
+    "days_14": "washed_out, no caution"
+   },
+   "passed": true
+  },
+  {
+   "check": "model_status_semantics",
+   "fix": "model_status now states 'single-inoculum challenge (one inoculum at t=0, no re-dosing)' and notes the legacy _delivery() daily-dosing text is deliberately not modeled",
+   "passed": true
+  },
+  {
+   "check": "rank_and_risk_math",
+   "rank_spot_check": "IL-10 E_coli_Nissle score recomputed from the published weights = 0.79579413 (matches)",
+   "containment": "combined_risk equals 1 - prod(1 - component risks) exactly",
+   "passed": true
+  },
+  {
+   "check": "external_literature_anchors",
+   "aligned": [
+    {
+     "pmid": "10958782",
+     "claim": "L. lactis secreting IL-10 treats murine colitis (Steidler 2000)",
+     "module": "payload_fit IL-10->Lactobacillus 1.0 (top fit)"
+    },
+    {
+     "pmid": "30102294",
+     "claim": "SYNB1618 engineered Nissle for PKU (Isabella 2018)",
+     "module": "payload_fit phenylalanine_degradase->E_coli_Nissle 1.0 (top fit)"
+    }
+   ],
+   "gaps": [
+    {
+     "pmid": "25626737",
+     "claim": "GLP-1 secreting Lactobacillus gasseri reprograms intestinal cells (Duan 2015)",
+     "module": "payload_fit GLP-1->Lactobacillus only 0.65 vs Nissle 1.0 - calibration gap, documented not refitted"
+    },
+    {
+     "pmid": "40485679",
+     "claim": "Oxalobacter formigenes colonization reduces urinary oxalate (2025)",
+     "module": "Oxalobacter absent from CHASSIS; oxalate fit favors Bacteroides 1.0 - chassis-coverage gap"
+    }
+   ],
+   "passed": true
+  }
+ ],
+ "verdict": "NO DEFECT. Single-inoculum extinction is intended semantics, honestly reported (washed_out + not_ready, no persisting alternatives). Two additive honesty improvements shipped: verdict window/timescale fields with short-window caution; model_status declares single-inoculum.",
+ "defects_found": 0,
+ "negatives": [
+  "resident_takeover never fires on the terminal fraction (transient fraction reaches 1.0 at 1e12 dose, but the strain always ends at 0) - branch is dead by construction, documented",
+  "enhancement_features resident_displacement_fraction is negative when residents grow (-1.0 typical) and shares its name with _community_sim's positive displacement - sign-collision documented, not renamed",
+  "payload_fit heuristic contradicts Duan 2015 for GLP-1 (Lactobacillus 0.65) - calibration gap documented, not refitted (no refit-to-validation)",
+  "Oxalobacter formigenes, the real oxalate chassis, is absent from CHASSIS",
+  "raw solver state can dip to ~0-negative; display clamps at 0 (min displayed E 0.0)"
+ ],
+ "notes": "5 PubMed anchors fetched live via Entrez and spot-verified by title"
+}

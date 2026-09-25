@@ -612,3 +612,8 @@ refseqgene	NG_000007.3	HBB RefSeqGene locus, FASTA + GenBank feature table efetc
 clinvar	7105	CFTR c.1521_1523del p.Phe508del Pathogenic practice guideline - joint_case_view lead	VCV000007105	sweep_infinite_diagnosis.json
 clinvar	15333	HBB c.20A>T p.Glu7Val Pathogenic 2-star - joint_case_view non-lead	VCV000015333	sweep_infinite_diagnosis.json
 pubmed	42729750	CF sweat conductivity study, title verified by independent esummary	PMID 42729750	sweep_infinite_diagnosis.json
+pubmed	10958782	Steidler 2000: L. lactis secreting IL-10 treats murine colitis - anchors payload_fit IL-10->Lactobacillus 1.0	PMID 10958782	sweep_living_tx.json
+pubmed	30102294	Isabella 2018: SYNB1618 engineered Nissle for PKU - anchors payload_fit PAL->E_coli_Nissle 1.0	PMID 30102294	sweep_living_tx.json
+pubmed	25626737	Duan 2015: GLP-1 Lactobacillus gasseri - contradicts payload_fit GLP-1->Lactobacillus 0.65 (calibration gap)	PMID 25626737	sweep_living_tx.json
+pubmed	40485679	2025: Oxalobacter formigenes colonization reduces urinary oxalate - chassis absent from CHASSIS	PMID 40485679	sweep_living_tx.json
+pubmed	42354930	2026 review: Nissle synthetic-biology translation context	PMID 42354930	sweep_living_tx.json
