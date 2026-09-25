@@ -353,3 +353,8 @@ ONE BUG FIXED. BUG 64: simulate_population_4d set the morphology rate constant f
 NEW: real-image entry point segment_nuclei / state_from_nuclei_image (Otsu + background-basin seeded watershed, seed spacing from the image's own median object area). BBBC001 (6 HT29 Hoechst fields, two human counters): mean count deviation 8.18% (inter-human 11%, CellProfiler published 6.2%). Negative: two earlier drafts scored 7.0% and 5.8% but were geometrically wrong (watershed leaked; synthetic 121-px disks came out 145/109/109 then 81 px); shipped version is the geometry-correct one, nothing tuned to the ground truth. Pixel size must come from acquisition metadata (not published for BBBC001), never guessed.
 VALIDATED: closed-form relaxation a(t)=a0*ta+a0*(1-ta)*exp(-t/tau) and death n0*exp(-0.04t) match the solver.
 Result: benchmarks/sweep_cellpainter_4d.json
+
+## modules.crispr_cargo (2026-09-25)
+ONE BUG FIXED. BUG 65: pk_model's trapezoid loop added a zero-width-time interval (c0+c0)/2*dt at t=0, overstating AUC by exactly c0*dt at every step size: +5.8% for LNP over 96 h at dt=1 (608.317 vs analytic 574.824), +1.1% AAV8, +1.9% PNP; times also accumulated by repeated float addition. Fixed to index-based times and a proper first interval: AUC now matches the closed form C0/ke*(1-exp(-ke*t)) to 2.8e-4 relative at dt=1 and exactly at dt=0.01.
+VALIDATED: compartment_pk mass balance < 1e-6 (AAV9/cns); payload sizes cover UniProt CDS lengths (Q99ZW2 SpCas9 1368 aa = 4107 bp, J7RUA5 SaCas9 1053 aa = 3162 bp, fetched live via UniProt REST); AAV 4.7 kb cargo limit leaves <0.6 kb for SpCas9 CDS alone.
+Result: benchmarks/sweep_crispr_cargo.json

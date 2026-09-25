@@ -21,7 +21,7 @@ module	chem_descriptors	923	2	validated	benchmarks/results.json (VERDICTS table)
 module	chem_similarity	234	1	validated	benchmarks/results.json (VERDICTS table)
 module	chemgpt_engine	305	6	validated	benchmarks/sweep_chemgpt_engine.json
 module	codon_opt	289	7	validated	benchmarks/sweep_codon_cai.json
-module	crispr_cargo	156	2	not yet validated	
+module	crispr_cargo	162	3	validated	benchmarks/sweep_crispr_cargo.json
 module	crispr_muse	278	2	not yet validated	
 module	crispr_opt	672	9	validated	benchmarks/sweep_crispr_ontarget_fcres.json
 module	crisprater	97	4	validated	benchmarks/sweep_crisprater.json

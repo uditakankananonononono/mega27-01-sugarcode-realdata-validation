@@ -601,3 +601,5 @@ benchmark	AS_09125_050118150001_A03f02d0.tif	BBBC001 image 3: module 442 vs manu
 benchmark	AS_09125_050118150001_A03f03d0.tif	BBBC001 image 4: module 350 vs manual 320/341	data.broadinstitute.org	sweep/bioimage_ai.py
 benchmark	AS_09125_050118150001_A03f04d0.tif	BBBC001 image 5: module 505 vs manual 398/533	data.broadinstitute.org	sweep/bioimage_ai.py
 benchmark	AS_09125_050118150001_A03f05d0.tif	BBBC001 image 6: module 259 vs manual 241/257	data.broadinstitute.org	sweep/bioimage_ai.py
+uniprot_record	Q99ZW2	UniProt REST fields fetch (SpCas9 length 1368 aa)	Q99ZW2	sweep_crispr_cargo.json
+uniprot_record	J7RUA5	UniProt REST fields fetch (SaCas9 length 1053 aa)	J7RUA5	sweep_crispr_cargo.json

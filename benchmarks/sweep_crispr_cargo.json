@@ -1,0 +1,68 @@
+{
+ "module": "crispr_cargo",
+ "checks": [
+  {
+   "check": "bug65_pk_auc_vs_closed_form",
+   "rows": [
+    {
+     "vehicle": "LNP",
+     "analytic": 574.824,
+     "pre_fix": 608.317,
+     "post_fix": 574.984,
+     "pre_rel_err": 0.0583,
+     "post_rel_err": 0.00028
+    },
+    {
+     "vehicle": "AAV8",
+     "analytic": 3056.581,
+     "pre_fix": 3089.914,
+     "post_fix": 3056.581,
+     "pre_rel_err": 0.0109,
+     "post_rel_err": 0.0
+    },
+    {
+     "vehicle": "PNP",
+     "analytic": 1731.234,
+     "pre_fix": 1764.597,
+     "post_fix": 1731.264,
+     "pre_rel_err": 0.0193,
+     "post_rel_err": 2e-05
+    }
+   ],
+   "passed": true
+  },
+  {
+   "check": "auc_converges_dt_0.01",
+   "module": 574.824,
+   "analytic": 574.824,
+   "passed": true
+  },
+  {
+   "check": "compartment_mass_balance",
+   "max_err": 3.552713678800501e-14,
+   "passed": true
+  },
+  {
+   "check": "payload_sizes_cover_uniprot_cds",
+   "SpCas9_Q99ZW2_cds_bp": 4107,
+   "SaCas9_J7RUA5_cds_bp": 3162,
+   "module_SpCas9_kb": 5.5,
+   "module_SaCas9_kb": 4.3,
+   "passed": true
+  },
+  {
+   "check": "time_grid_exact",
+   "n": 961,
+   "passed": true
+  }
+ ],
+ "negatives": [
+  "pk_model AUC pre-fix was inflated by exactly c0*dt at every dt (zero-width trapezoid at t=0); +5.8% for LNP at dt=1."
+ ],
+ "data_note": "UniProt lengths fetched live: Q99ZW2 SpCas9 1368 aa, J7RUA5 SaCas9 1053 aa. PK validated against closed form C0/ke*(1-exp(-ke*t)).",
+ "accessions_used": [
+  "Q99ZW2",
+  "J7RUA5"
+ ],
+ "verdict": "VALIDATED with BUG 65 fixed"
+}
