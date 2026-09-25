@@ -36,7 +36,7 @@ module	enterprise_bio	260	5	validated	benchmarks/sweep_enterprise_bio.json
 module	epi_edit	194	3	validated	benchmarks/sweep_epi_edit.json
 module	evidence_mining	418	1	validated	benchmarks/sweep_evidence_mining.json
 module	evofold_4d	239	5	validated	benchmarks/sweep_evofold_anm.json
-module	fate_predictor	131	2	not yet validated	
+module	fate_predictor	131	3	validated	benchmarks/sweep_fate_predictor.json
 module	gene_analysis	278	10	validated	benchmarks/sweep_gene_analysis.json
 module	gene_explorer	140	2	not yet validated	
 module	gene_tx_opt	149	2	not yet validated	

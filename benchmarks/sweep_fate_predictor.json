@@ -1,0 +1,53 @@
+{
+ "module": "fate_predictor",
+ "checks": [
+  {
+   "check": "curated_map_vs_pubmed",
+   "pairs_verified": {
+    "fibroblast->neuron": "Vierbuchen 2010 Nature PMID 20107439",
+    "fibroblast->cardiomyocyte": "Ieda 2010 PMID 20691899",
+    "b_cell->macrophage": "Xie 2004 Cell PMID 15163413",
+    "fibroblast->endothelial": "Morita 2015 PNAS PMID 25540418"
+   },
+   "not_reverified": [
+    "Huang 2011 hepatocyte"
+   ],
+   "passed": true
+  },
+  {
+   "check": "optimizer_rediscovers_vierbuchen",
+   "selected": [
+    "ASCL1",
+    "BRN2",
+    "MYT1L"
+   ],
+   "passed": true
+  },
+  {
+   "check": "simulated_yield_vs_curated_rate",
+   "curated_success_rate": 0.35,
+   "simulated_peak_target_fraction": 0.0565,
+   "terminal": 0.0072,
+   "note": "calibration gap documented, not refitted: the hermetic stress-throttled ODE yields ~6x less than the curated literature rate",
+   "passed": true
+  },
+  {
+   "check": "delivery_scaling",
+   "lentivirus": 0.35,
+   "small_molecule": 0.175,
+   "passed": true
+  }
+ ],
+ "negatives": [
+  "Simulated peak target fraction (0.0565) sits ~6x below the module's own curated literature success rate (0.35) for the same protocol; documented as a calibration gap per policy, not refitted to the literature table.",
+  "Huang 2011 hepatocyte reference could not be re-verified via PubMed search in this sweep."
+ ],
+ "data_note": "PubMed verification via NCBI Entrez (live): Vierbuchen 2010 Nature PMID 20107439, Ieda 2010 PMID 20691899, Xie 2004 Cell PMID 15163413, Morita 2015 PNAS PMID 25540418.",
+ "accessions_used": [
+  "20107439",
+  "20691899",
+  "15163413",
+  "25540418"
+ ],
+ "verdict": "VALIDATED (calibration gap documented; no code change)"
+}
