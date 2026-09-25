@@ -1,0 +1,208 @@
+{
+ "module": "phageforge",
+ "sources": [
+  "NCBI nuccore FN396876.1 (pKpANDM-1, blaNDM-1 plasmid)",
+  "NCBI nuccore NC_009648.1 (K. pneumoniae MGH 78578 chromosome, host background)",
+  "NCBI nuccore NC_001604/NC_001416/NC_000866/NC_005856/NC_003287 (T7/lambda/T4/P1/M13 genomes)",
+  "recomputation"
+ ],
+ "target": {
+  "plasmid": "FN396876.1",
+  "plasmid_bp": 4318,
+  "cds_location": "complement(2407..3219)",
+  "cds_bp": 813,
+  "starts_atg": true,
+  "stop": "TGA",
+  "internal_stops": 0
+ },
+ "design_default": {
+  "backbone": "P1",
+  "fits": true,
+  "payload_kb": 4.5,
+  "microbiome_sparing": 0.79,
+  "background_screened": "target gene only",
+  "guides": [
+   {
+    "guide": "AGCGCAGCTTGTCGGCCATG",
+    "strand": "-",
+    "start": 791,
+    "in_cds": true,
+    "len20": true,
+    "on_model": "heuristic_edge_fallback",
+    "off_risk": 0
+   },
+   {
+    "guide": "GATCCAGTTGAGGATCTGGG",
+    "strand": "-",
+    "start": 295,
+    "in_cds": true,
+    "len20": true,
+    "on_model": "doench2014_rs1",
+    "off_risk": 0
+   },
+   {
+    "guide": "GGTCTGGTCATCGGTCCAGG",
+    "strand": "-",
+    "start": 274,
+    "in_cds": true,
+    "len20": true,
+    "on_model": "doench2014_rs1",
+    "off_risk": 0
+   }
+  ]
+ },
+ "backbone_logic": {
+  "eligible": [
+   "P1",
+   "T4"
+  ],
+  "expected_pick": "P1",
+  "module_pick": "P1",
+  "ok": true
+ },
+ "bug51_perfect_match": {
+  "pre_fix_observed": "score_off_targets_cfd skipped every mm==0 site: the same planted perfect-match background returned [] pre-fix (verified 2026-09-25, sugarcode 102d187)",
+  "post_fix_hits": [
+   {
+    "position": 50,
+    "mismatches": 0,
+    "cfd": 1.0,
+    "risk": "high"
+   }
+  ],
+  "post_fix_reports_perfect": true
+ },
+ "host_screen": {
+  "background": "NC_009648.1:1000001-1040000 (40 kb K. pneumoniae MGH 78578 chromosome)",
+  "bg_bp": 40000,
+  "screen_seconds": 5.6,
+  "background_screened": "supplied background genome",
+  "guides": [
+   {
+    "guide": "AGCGCAGCTTGTCGGCCATG",
+    "off_risk": 0,
+    "n_top_off": 0
+   },
+   {
+    "guide": "GATCCAGTTGAGGATCTGGG",
+    "off_risk": 0,
+    "n_top_off": 0
+   },
+   {
+    "guide": "GGTCTGGTCATCGGTCCAGG",
+    "off_risk": 0,
+    "n_top_off": 0
+   }
+  ]
+ },
+ "kill_curve": {
+  "module": {
+   "moi": 3,
+   "infected_fraction": 0.877543571747018,
+   "surviving_fraction": 0.16633360684033288,
+   "effective_burst": 70.20348573976145
+  },
+  "infected_recomputed": 0.877543571747018,
+  "surviving_recomputed": 0.16633360684033288,
+  "burst_recomputed": 70.20348573976145
+ },
+ "escape_risk": {
+  "module": {
+   "expected_escapees": 1.0000000000000002e-14,
+   "escape_probability": 9.992007221626409e-15,
+   "assumptions": {
+    "independent_targets": true,
+    "mutation_rate": 1e-08,
+    "population_size": 10000000000.0
+   }
+  },
+  "expected_recomputed": 1.0000000000000002e-14,
+  "prob_recomputed": 9.992007221626409e-15
+ },
+ "payload_budget": {
+  "module": {
+   "total_kb": 4.499999999999999,
+   "capacity_kb": 15.0,
+   "headroom_kb": 10.5,
+   "fits": true,
+   "components_kb": {
+    "cas9": 4.1,
+    "guide_array": 0.3,
+    "selection": 0.1
+   }
+  },
+  "total_recomputed": 4.5,
+  "headroom_recomputed": 10.5
+ },
+ "cocktail": {
+  "module": {
+   "hosts": [
+    "Ec_O157",
+    "Kp_ST11",
+    "Kp_ST258"
+   ],
+   "coverage_by_host": {
+    "Ec_O157": [
+     "phageB"
+    ],
+    "Kp_ST11": [
+     "phageA",
+     "phageB"
+    ],
+    "Kp_ST258": [
+     "phageA"
+    ]
+   },
+   "redundant_hosts": [
+    "Kp_ST11"
+   ],
+   "target_hosts": [
+    "Ec_O157",
+    "Kp_ST11",
+    "Kp_ST258",
+    "Sa_MRSA"
+   ],
+   "uncovered_targets": [
+    "Sa_MRSA"
+   ],
+   "coverage_fraction": 0.75
+  },
+  "coverage_recomputed": 0.75,
+  "uncovered_recomputed": [
+   "Sa_MRSA"
+  ],
+  "legacy_fraction_without_targets": 1.0
+ },
+ "backbone_genomes": {
+  "T7": {
+   "capacity_kb_module": 4.0,
+   "genome_bp_ncbi": 39937,
+   "genome_kb": 39.937
+  },
+  "lambda": {
+   "capacity_kb_module": 8.0,
+   "genome_bp_ncbi": 48502,
+   "genome_kb": 48.502
+  },
+  "T4": {
+   "capacity_kb_module": 10.0,
+   "genome_bp_ncbi": 168903,
+   "genome_kb": 168.903
+  },
+  "P1": {
+   "capacity_kb_module": 15.0,
+   "genome_bp_ncbi": 94800,
+   "genome_kb": 94.8
+  },
+  "M13": {
+   "capacity_kb_module": 6.4,
+   "genome_bp_ncbi": 6407,
+   "genome_kb": 6.407
+  }
+ },
+ "backbone_note": "capacity_kb is payload headroom, not genome size: M13 capacity equals its 6407 bp genome (filamentous phages package extended genomes); lytic-phage headrooms (T7 4.0, lambda 8.0, T4 10.0, P1 15.0 kb) are plausible packaging headroom values but are not individually literature-sourced - documented caveat",
+ "microbiome_sparing": {
+  "module": 0.79,
+  "recomputed": 0.79
+ }
+}

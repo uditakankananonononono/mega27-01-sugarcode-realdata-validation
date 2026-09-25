@@ -23,7 +23,7 @@ module	chemgpt_engine	305	6	validated	benchmarks/sweep_chemgpt_engine.json
 module	codon_opt	289	7	validated	benchmarks/sweep_codon_cai.json
 module	crispr_cargo	156	2	not yet validated	
 module	crispr_muse	278	2	not yet validated	
-module	crispr_opt	648	8	validated	benchmarks/sweep_crispr_ontarget_fcres.json
+module	crispr_opt	672	9	validated	benchmarks/sweep_crispr_ontarget_fcres.json
 module	crisprater	97	4	validated	benchmarks/sweep_crisprater.json
 module	crisprscan_score	178	2	validated	VERDICTS table + CRISPRscan finding
 module	dark_genome	207	3	validated	benchmarks/sweep_dark_genome.json
@@ -69,7 +69,7 @@ module	pdx_insight	138	2	not yet validated
 module	pgx_guidelines	287	0	validated	benchmarks/sweep_pgx_cpic.json
 module	phage_designer	82	3	validated	benchmarks/sweep_phage_designer.json
 module	phage_tx	161	2	not yet validated	
-module	phageforge	87	2	not yet validated	
+module	phageforge	118	3	validated	benchmarks/sweep_phageforge.json
 module	prime_design	263	4	validated	benchmarks/sweep_prime_design.json
 module	profile_hmm	747	3	validated	benchmarks/profile_hmm_cv.json, profile_hmm_cv_local.json
 module	promoter_lib	143	2	validated	benchmarks/sweep_stability_promoter.json
