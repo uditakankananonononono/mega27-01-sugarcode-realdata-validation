@@ -1,0 +1,90 @@
+{
+ "module": "synlife_evo",
+ "module_number": 124,
+ "validation": {
+  "endpoint_flip": {
+   "seed": 1,
+   "mutation_rate": 5e-05,
+   "burden_cost": 0.25,
+   "gen100_knockout_fraction": 0.084,
+   "gen150_knockout_fraction": 0.864,
+   "reported_silenced_before_fix": false,
+   "true_silenced": true,
+   "advice_before_fix": "no knockout fixation observed - construct genetically stable"
+  },
+  "short_run_generations_50_sample_100": {
+   "before": "IndexError: list index out of range",
+   "after": [
+    50
+   ]
+  },
+  "selection_clamp_forced_draw": "r=1-2^-53 for every draw; run completes, picks clamped last individual",
+  "validation_errors": [
+   "pop_size=0",
+   "mutation_rate=-1.0",
+   "mutation_rate=5.0",
+   "generations=0"
+  ],
+  "environment_gap_before": "generations 50-200 silently labeled 'growth' though the schedule's only environment ends at 50; gap [50,100) inherited last-listed 'production'",
+  "mutation_capacity": {
+   "genes": 30,
+   "mutation_rate": 0.01,
+   "intended_flux": 0.3,
+   "silently_applied": 0.2
+  },
+  "censored_diagnostics_before": {
+   "failure_onset_generation": 100,
+   "intact_half_life_generation": 100,
+   "final_intact_fraction": 0.994,
+   "top_level_failure_onset": null
+  },
+  "observed_failure_after": {
+   "burden": 0.3,
+   "yield_selection": 0.0,
+   "mutation_rate": 0.005,
+   "onset_generation": 20
+  },
+  "seeded_equivalence_after_selection_rewrite": {
+   "seeds": [
+    1,
+    7,
+    42
+   ],
+   "histories_byte_identical": true
+  },
+  "escape_threshold_formula": "knockout sweeps when burden b > s/n (s yield selection, n genes); b=0.25 > 0.5/3 silences, b=0.08 < 0.167 stable"
+ },
+ "anchors": {
+  "pubmed": {
+   "37260076": "Prolonging genetic circuit stability through adaptive evolution of overlapping genes.",
+   "36357387": "Integrase-mediated differentiation circuits improve evolutionary stability of burdensome and toxic functions in E. coli."
+  }
+ },
+ "bugs": [
+  {
+   "id": "BUG 124",
+   "desc": "evolve() judged the last sampled generation as the final state: with generations=150, sample_every=100 the silencing verdict and design advice were computed at gen 100 (knockout 0.084, 'genetically stable') while the true gen-150 endpoint was silenced (knockout 0.864); generations < sample_every crashed IndexError on the empty history. Now the true endpoint is always snapshotted and judged."
+  },
+  {
+   "id": "BUG 125",
+   "desc": "evolve() fitness-proportional selection left `child` unassigned when a draw exceeded the cumulative fitness sum (floating-point undershoot of 1.0): UnboundLocalError on the first offspring, silent reuse of the previously selected parent afterwards. Now bisect with a clamp to the last individual; seeded histories byte-identical for 3 seeds."
+  },
+  {
+   "id": "BUG 126",
+   "desc": "evolve() had no parameter validation: pop_size=0 crashed ZeroDivisionError, mutation_rate=-1.0 silently disabled mutation, mutation_rate x genes > 1 silently saturated the single-mutation-per-offspring model, generations=0 crashed IndexError. All now informative ValueErrors."
+  },
+  {
+   "id": "BUG 127",
+   "desc": "simulate_evolution_experiment and simulate_competition silently resolved uncovered generations to the last-listed environment (order-dependent): a schedule covering only [0,50) labeled generations 50-200 'growth', and a [50,100) gap inherited the last-listed 'production'. Now full-coverage validation raises ValueError naming the first uncovered generation; default schedules extend past the endpoint."
+  },
+  {
+   "id": "BUG 128",
+   "desc": "_evo_diagnostics reported censored events as measurements: failure_onset_generation, intact_half_life_generation and the three detection generations returned the final sampled generation when the event never occurred (intact fraction 0.994, no failure), contradicting the top-level failure_onset_generation=None in the same result. Now None, consistent with the failure_observed flag."
+  },
+  {
+   "id": "BUG 129",
+   "desc": "simulate_evolution_experiment silently capped the per-class mutation flux at mu=min(0.2, mutation_rate x genes): 30 genes at 0.01 intended flux 0.30 but applied 0.20 with no flag. Now an explicit ValueError at the model-capacity bound."
+  }
+ ],
+ "formula": "F152"
+}
