@@ -1,0 +1,88 @@
+{
+ "module": "synthetic_life",
+ "module_number": 125,
+ "validation": {
+  "empty_catalog_before": {
+   "design_minimal_genome_empty_list_input_genes": 450,
+   "compile_empty_list_gene_count": 450.0
+  },
+  "unknown_category_before": "category 'quantum_magic' scored silently with bare .3 default (not the named 'unknown' class); missing 'category' key crashed KeyError",
+  "fba_infeasible_before": {
+   "product_reaction": "GLC_UP",
+   "growth_floor": 1000000000.0,
+   "reported_objective": 0,
+   "missing_keys": [
+    "product_reaction",
+    "growth_floor"
+   ]
+  },
+  "silent_limits_before": "toy model without GLC_UP/RESP, glucose_limit=0 and oxygen_limit=0 requested -> A_IN flux 10.0 returned, limits silently ignored",
+  "dfba_empty_before": {
+   "hours_requested": 24,
+   "glucose0": 1e-10,
+   "trajectory_points": 0,
+   "flag_present": false
+  },
+  "dfba_after": {
+   "empty_case_points": 1,
+   "terminated_early": true,
+   "full_run_points": 97,
+   "full_run_terminated_early": false
+  },
+  "fermentation_before": "mu_max=inf passed validation; failed integration surfaced as AttributeError: 'list' object has no attribute 'tolist'",
+  "essentiality_posteriors_measured": {
+   "rep": 0.88,
+   "tx": 0.825,
+   "tl": 0.9125,
+   "stress": 0.17,
+   "stress_backup": 0.155,
+   "mot": 0.05,
+   "mot_backup": 0.038
+  },
+  "kept": [
+   "mot",
+   "rep",
+   "stress",
+   "tl",
+   "tx"
+  ],
+  "dropped": [
+   "mot_backup",
+   "stress_backup"
+  ],
+  "fba_optimal_objective": 15.0
+ },
+ "anchors": {
+  "pubmed": {
+   "20212490": "What is flux balance analysis?",
+   "28893188": "Developing genome-reduced Pseudomonas chlororaphis strains for the production of secondary metabolites."
+  }
+ },
+ "bugs": [
+  {
+   "id": "BUG 130",
+   "desc": "design_minimal_genome([]) and compile_synthetic_life([]) silently substituted the default 450-gene catalog for an explicitly empty gene list (falsy `or`). Now ValueError on empty; None still selects the default."
+  },
+  {
+   "id": "BUG 131",
+   "desc": "design_minimal_genome scored unrecognized categories with a bare .3 default (bypassing the named 'unknown' essentiality class) while a missing 'category' key crashed KeyError. Now missing -> explicit 'unknown'; unrecognized -> ValueError listing valid categories."
+  },
+  {
+   "id": "BUG 132",
+   "desc": "flux_optimize infeasible return dropped the product_reaction and growth_floor keys and reported objective 0 - a feasible-looking number for an infeasible LP (product GLC_UP with growth floor 1e9). Now the same key shape with objective None."
+  },
+  {
+   "id": "BUG 133",
+   "desc": "flux_optimize silently ignored glucose_limit/oxygen_limit when the model lacked GLC_UP/RESP - a toy model asked for glucose_limit=0 returned uptake flux 10.0. Now KeyError naming the missing reaction."
+  },
+  {
+   "id": "BUG 134",
+   "desc": "dynamic_fba returned a zero-point trajectory with no flag when initial glucose <= 1e-9 (24 h requested, simulation never ran) and never reported glucose-exhaustion early termination. Now the t=0 state is always recorded, with simulated_hours and a terminated_early flag."
+  },
+  {
+   "id": "BUG 135",
+   "desc": "fermentation_simulate accepted non-finite parameters (mu_max=inf) and never checked solver success - the failed integration surfaced as AttributeError 'list' object has no attribute 'tolist'. Now finite-input validation plus RuntimeError carrying the solver message."
+  }
+ ],
+ "formula": "F153"
+}

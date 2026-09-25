@@ -639,3 +639,5 @@ pubmed	42780917	Cas12a chRDNA-mediated in vivo genome editing for high-specifici
 pubmed	27013737	Hutchison et al. 2016 Science - Design and synthesis of a minimal bacterial genome (JCVI-syn3.0); stated flavor of syndroid gene modules (syndroid sweep)	esearch+esummary	benchmarks/sweep_syndroid.json
 pubmed	37260076	Prolonging genetic circuit stability through adaptive evolution of overlapping genes; live circuit-stability anchor (synlife_evo sweep)	esearch+esummary	benchmarks/sweep_synlife_evo.json
 pubmed	36357387	Integrase-mediated differentiation circuits improve evolutionary stability of burdensome and toxic functions; live circuit-stability anchor (synlife_evo sweep)	esearch+esummary	benchmarks/sweep_synlife_evo.json
+pubmed	20212490	Orth, Thiele, Palsson 2010 Nat Biotechnol - What is flux balance analysis?; FBA method anchor (synthetic_life sweep)	esearch+esummary	benchmarks/sweep_synthetic_life.json
+pubmed	28893188	Developing genome-reduced Pseudomonas chlororaphis strains for the production of secondary metabolites; genome-reduced chassis anchor (synthetic_life sweep)	esearch+esummary	benchmarks/sweep_synthetic_life.json
