@@ -1,0 +1,51 @@
+{
+ "module": "ecosystem",
+ "checks": [
+  {
+   "check": "bug67_duplicate_names_collapse",
+   "pre_fix_result": {
+    "plugin_count": 1,
+    "install_order": [
+     "alpha"
+    ]
+   },
+   "post_fix": "ValueError: duplicate plugin names: ['alpha']",
+   "passed": true
+  },
+  {
+   "check": "topological_order",
+   "install_order": [
+    "alpha",
+    "beta"
+   ],
+   "edges": 1,
+   "passed": true
+  },
+  {
+   "check": "cycle_detection",
+   "self_cycle": true,
+   "two_cycle": true,
+   "passed": true
+  },
+  {
+   "check": "standards_plan",
+   "compliant": 1,
+   "conversions": 1,
+   "target": "VCF",
+   "passed": true
+  },
+  {
+   "check": "fifty_diagnostics",
+   "count": 50,
+   "registry_modules": 95,
+   "subnetworks": 9,
+   "passed": true
+  }
+ ],
+ "negatives": [
+  "Pre-fix duplicate-name manifests returned plugin_count=1 and silently dropped the second plugin's capabilities."
+ ],
+ "data_note": "Hermetic integration tooling; ground truth is graph semantics (topological order, cycle/duplicate rejection) plus the omega registry (95 modules, 9 subnetworks).",
+ "accessions_used": [],
+ "verdict": "VALIDATED with BUG 67 fixed"
+}

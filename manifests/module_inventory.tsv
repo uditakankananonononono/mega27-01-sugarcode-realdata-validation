@@ -31,7 +31,7 @@ module	deepsplice	751	29	validated	discovery/splice_region_vus/cv_results_me.jso
 module	dna_to_code	132	2	validated	benchmarks/sweep_dna_to_code.json
 module	docking_studio	535	17	validated	benchmarks/sweep_docking.json
 module	dti_bench	201	3	validated	benchmarks/sweep_dti_bench.json
-module	ecosystem	175	2	not yet validated	
+module	ecosystem	182	3	validated	benchmarks/sweep_ecosystem.json
 module	enterprise_bio	260	4	not yet validated	
 module	epi_edit	178	2	not yet validated	
 module	evidence_mining	418	1	validated	benchmarks/sweep_evidence_mining.json
