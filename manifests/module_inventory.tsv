@@ -33,7 +33,7 @@ module	docking_studio	535	17	validated	benchmarks/sweep_docking.json
 module	dti_bench	201	3	validated	benchmarks/sweep_dti_bench.json
 module	ecosystem	182	3	validated	benchmarks/sweep_ecosystem.json
 module	enterprise_bio	260	5	validated	benchmarks/sweep_enterprise_bio.json
-module	epi_edit	178	2	not yet validated	
+module	epi_edit	194	3	validated	benchmarks/sweep_epi_edit.json
 module	evidence_mining	418	1	validated	benchmarks/sweep_evidence_mining.json
 module	evofold_4d	239	5	validated	benchmarks/sweep_evofold_anm.json
 module	fate_predictor	131	2	not yet validated	

@@ -372,3 +372,8 @@ Result: benchmarks/sweep_ecosystem.json
 ## modules.enterprise_bio (2026-09-25)
 NO DEFECT FOUND. Probed the security semantics directly: hash-chained audit verifies clean and detects a single-field tamper; per-tenant Fernet keys (HMAC-SHA256 of master with tenant id) block cross-tenant decryption (InvalidToken) while roundtrip works; academic tier blocks module index 41, vault, robot, and guarded module calls (index 40 allowed); robot lifecycle rejects queued->done; budget blocks overspend without accumulating; usage_forecast matches used/days*30 exactly. 8 new adversarial tests.
 Result: benchmarks/sweep_enterprise_bio.json
+
+## modules.epi_edit (2026-09-25)
+TWO BUGS FIXED. BUG 68: expression_trajectory reported steady_state = target/decay, ignoring its own feedback term - reported 1.577 while the ODE actually converged to 1.385 (feedback=0.1). steady_state now solves the fixed point decay*feedback*y^2 + decay*y - target = 0 and matches the 72 h trajectory endpoint. BUG 69: CRISPRa with the TSS too close to the sequence start for an upstream window fell back to designing guides from -300..+100 (inside the gene, in the CRISPRi window) while reporting guide_window [0,0]. CRISPRa is now strictly upstream-only: no upstream room means zero guides, honestly reported.
+VALIDATED on real sequence FN396876 (NDM-1 region, 4318 bp): CRISPRi found 5 guides in the [-50,+300] window (fold 0.395 repression), CRISPRa found 5 guides in the [-400,-50] upstream window (fold 4.461 activation); Hill recruitment at occupancy 0.5 = 0.5.
+Result: benchmarks/sweep_epi_edit.json

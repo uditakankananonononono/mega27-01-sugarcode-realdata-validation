@@ -1,0 +1,48 @@
+{
+ "module": "epi_edit",
+ "checks": [
+  {
+   "check": "bug68_steady_state_matches_trajectory",
+   "pre_fix_steady_state": 1.5768,
+   "post_fix_steady_state": 1.385,
+   "trajectory_at_72h": 1.385,
+   "passed": true
+  },
+  {
+   "check": "bug69_crispra_stays_upstream",
+   "tss_at_30_guides": 0,
+   "effect": "no guides available",
+   "passed": true
+  },
+  {
+   "check": "real_sequence_fn396876",
+   "seq_len": 4318,
+   "crispri_guides": 5,
+   "crispri_window": [
+    2109,
+    2459
+   ],
+   "crispri_fold": 0.395,
+   "crispra_guides": 5,
+   "crispra_window": [
+    1759,
+    2109
+   ],
+   "crispra_fold": 4.461,
+   "passed": true
+  },
+  {
+   "check": "hill_at_half_occupancy",
+   "recruited": 0.5,
+   "passed": true
+  }
+ ],
+ "negatives": [
+  "CRISPRa with the TSS at position 30 now honestly returns zero guides (no upstream room) instead of silently designing inside the gene."
+ ],
+ "data_note": "Real sequence: FN396876 (NDM-1 region, 4318 bp, cached). CRISPRi window [-50,+300] and CRISPRa window [-400,-50] verified against TSS. steady_state fixed point solves decay*fb*y^2+decay*y-target=0.",
+ "accessions_used": [
+  "FN396876"
+ ],
+ "verdict": "VALIDATED with BUGs 68 and 69 fixed"
+}
