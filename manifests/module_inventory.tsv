@@ -80,7 +80,7 @@ module	report_studio	222	2	validated	benchmarks/sweep_report_studio.json
 module	riboswitch	142	3	validated	benchmarks/sweep_nussinov.json
 module	rna_decoder	144	3	validated	benchmarks/sweep_rna_decoder.json
 module	rna_nussinov	387	2	validated	VERDICTS table; sweep/rna_vs_vienna.py
-module	robotic_flow	128	2	not yet validated	
+module	robotic_flow	143	3	validated	benchmarks/sweep_robotic_flow.json
 module	stability_ai	199	6	validated	benchmarks/sweep_stability_promoter.json
 module	str_scope	340	3	validated	benchmarks/sweep_str_pytrf.json
 module	structural_biophysics	528	7	validated	benchmarks/sweep_vina_score.json; benchmarks/sweep_sasa_freesasa_recheck14.json

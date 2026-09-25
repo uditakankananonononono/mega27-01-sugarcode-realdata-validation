@@ -1,0 +1,27 @@
+{
+ "module": "robotic_flow",
+ "date": "2026-09-25",
+ "sc_ai_base": "2a57d3a",
+ "bug109_liquid_class": {
+  "before": "a transfer with liquid \"mercury\" was labelled liquid_class \"mercury\" but calibrated with water speeds (200 ul/s) - silent miscalibration with a false label",
+  "after": "KeyError naming the valid classes; water identity verified: 10 ul at 200 ul/s -> estimated 3.1 s"
+ },
+ "bug110_lineage": {
+  "before": "sample_lineage returned traceable True for a sample whose only parent was a ghost sample not in the lineage; the check (all parents key exists) was trivially true by construction",
+  "after": "traceable requires every parent to be a known sample; unknown_parents listed; ghost case now False"
+ },
+ "bug111_scheduler_inputs": {
+  "missing_dependency": "was misreported as \"dependency cycle in task graph\"; now ValueError \"unknown dependencies: [missing]\"",
+  "duplicate_ids": "were silently scheduled twice, making downstream after-references ambiguous; now ValueError",
+  "real_cycle": "still detected"
+ },
+ "identities": {
+  "utilization": "busy/makespan: two 5-min pipette tasks + dependent 10-min read -> makespan 15, pip 0.667",
+  "reagent": "2^(-age/half_life): age==half_life -> 0.5 activity"
+ },
+ "negatives": [
+  "droplet_error coefficients are heuristic, not calibrated to a real liquid handler",
+  "environmental_control has no integral anti-windup",
+  "liquid-class speeds are curated values (water 200 ul/s etc.), not instrument-verified"
+ ]
+}

@@ -32,6 +32,7 @@ EVIDENCE={('module','chem_descriptors'):'benchmarks/results.json (VERDICTS table
 ('module','phage_tx'):'benchmarks/sweep_phage_tx.json',
 ('module','protein_painter'):'benchmarks/sweep_protein_painter.json',
 ('module','report_studio'):'benchmarks/sweep_report_studio.json',
+('module','robotic_flow'):'benchmarks/sweep_robotic_flow.json',
 }
 def loc(p):
     n=0
