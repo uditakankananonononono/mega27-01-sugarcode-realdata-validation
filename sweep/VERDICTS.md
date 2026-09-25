@@ -386,3 +386,7 @@ Result: benchmarks/sweep_fate_predictor.json
 ONE BUG FIXED. BUG 70: explore() translated from frame 0 of the raw input, so on a real RefSeq mRNA with a 5' UTR (NM_000518.5 HBB, 628 nt) it reported a 20-aa UTR peptide (2260 Da) as "the protein" while its own longest_orf knew the true 147-aa hemoglobin. The protein block now annotates the longest-ORF protein (translation_mode "longest_orf") and falls back to frame translation only when no ORF exists; reading_frame is validated.
 VALIDATED on live data: ORF translation of NM_000518.5 matches UniProt P68871 (canonical HBB, 147 aa) exactly; sickle-cell E6V (GAG->GTG) yields exactly 1 protein change (MVHLTPEE->MVHLTPVE); a silent CCT->CTT mutation yields 0.
 Result: benchmarks/sweep_gene_explorer.json
+
+## modules.gene_tx_opt (2026-09-25)
+NO DEFECT FOUND. Canonical tissue programs verified: liver->AAV8+TBG, cns->AAV9+Syn1, retina->AAV2, muscle->AAV9; oversized transgene (4.8 kb > 4.7 kb AAV cargo) correctly selects nothing in both entry points; score/expression closed forms recompute exactly; immune combined risk 1-(1-p)(1-r) exact; delivery ODE mass (plasma+tissue+intracellular) declines monotonically over 720 h; 53 diagnostics. Negatives documented: 168 h default window ends before the expression peak (true peak 198 h at 720 h) - field semantics documented; a latent ranking flaw is unreachable because all AAV capsids share one 4.7 kb cargo limit.
+Result: benchmarks/sweep_gene_tx_opt.json

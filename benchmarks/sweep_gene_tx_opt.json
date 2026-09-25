@@ -1,0 +1,46 @@
+{
+ "module": "gene_tx_opt",
+ "checks": [
+  {
+   "check": "canonical_selections",
+   "liver": "AAV8",
+   "cns": "AAV9",
+   "retina": "AAV2",
+   "muscle": "AAV9",
+   "liver_promoter": "TBG",
+   "passed": true
+  },
+  {
+   "check": "oversized_transgene_no_selection",
+   "optimize_4.8kb": null,
+   "rank_4.8kb": null,
+   "passed": true
+  },
+  {
+   "check": "score_closed_form",
+   "module_score": 0.62566563,
+   "recomputed": 0.62566563,
+   "passed": true
+  },
+  {
+   "check": "delivery_mass_balance",
+   "declines": true,
+   "terminal_fraction": 0.01,
+   "peak_expression_hour_720h": 198.0,
+   "passed": true
+  },
+  {
+   "check": "immune_combined_risk",
+   "module": 0.475,
+   "analytic": 0.4750000000000001,
+   "passed": true
+  }
+ ],
+ "negatives": [
+  "168 h default delivery window ends before expression peaks (AAV expression takes weeks); peak_expression over the default window is the window-end value. Checked at 720 h: true peak at 198 h. Field semantics documented, not a defect.",
+  "A latent ranking flaw (non-fitting high-tropism vector outranking fitting ones) is unreachable: all AAV capsids share the same 4.7 kb cargo limit, so fits_transgene cannot split the ranking. Documented, no change."
+ ],
+ "data_note": "Tropism/promoter tables checked against canonical AAV biology (AAV8 liver/TBG, AAV9 CNS/Syn1, AAV2 retina). Score and immune formulas recomputed exactly.",
+ "accessions_used": [],
+ "verdict": "VALIDATED (no defect found; 8 new tests)"
+}
