@@ -617,3 +617,6 @@ pubmed	30102294	Isabella 2018: SYNB1618 engineered Nissle for PKU - anchors payl
 pubmed	25626737	Duan 2015: GLP-1 Lactobacillus gasseri - contradicts payload_fit GLP-1->Lactobacillus 0.65 (calibration gap)	PMID 25626737	sweep_living_tx.json
 pubmed	40485679	2025: Oxalobacter formigenes colonization reduces urinary oxalate - chassis absent from CHASSIS	PMID 40485679	sweep_living_tx.json
 pubmed	42354930	2026 review: Nissle synthetic-biology translation context	PMID 42354930	sweep_living_tx.json
+pubmed	38126785	2024: Bifidobacterium lactate cross-feeds Megasphaera to butyrate - Bifido itself makes none	PMID 38126785	sweep_micro_tx.json
+pubmed	26925050	Rios-Covian 2016 SCFA review: butyrate producers are clostridial clusters; Bifido acetate+lactate, Akkermansia acetate+propionate	PMID 26925050	sweep_micro_tx.json
+pubmed	19807780	Louis et al: diversity of colonic butyrate-producing bacteria (butyryl-CoA)	PMID 19807780	sweep_micro_tx.json

@@ -1,0 +1,66 @@
+{
+ "module": "micro_tx",
+ "checks": [
+  {
+   "check": "scfa_butyrate_miscuration",
+   "before": "SCFA_YIELD butyrate: Bifidobacterium .10, Akkermansia .15, L. reuteri .10 - none produce butyrate",
+   "evidence": [
+    {
+     "pmid": "38126785",
+     "supports": "Bifidobacterium makes lactate; butyrate comes from cross-feeding partners (Megasphaera)"
+    },
+    {
+     "pmid": "26925050",
+     "supports": "Rios-Covian 2016 SCFA review: butyrate producers are F. prausnitzii/Roseburia/Eubacterium clostridial clusters; Bifidobacterium -> acetate+lactate, Akkermansia -> acetate+propionate"
+    },
+    {
+     "pmid": "19807780",
+     "supports": "Louis et al: colonic butyrate producers are specific clostridial clusters"
+    }
+   ],
+   "after": "butyrate zeroed for the three non-producers; F. prausnitzii .75 and Roseburia .70 intact",
+   "numeric_delta": {
+    "resistant_starch_ecology_butyrate": {
+     "old": 0.542502,
+     "new": 0.514093
+    },
+    "bifido_flux_butyrate": {
+     "old": 0.29,
+     "new": 0.0
+    }
+   },
+   "passed": true
+  },
+  {
+   "check": "migration_periodic_boundary",
+   "before": "np.roll Laplacian = periodic boundary: proximal compartment exchanged directly with distal as if the gut were a ring",
+   "after": "zero-padded chain Laplacian (_migration, module-level and testable); endpoints have one neighbour; column sums 0 so mass conservation identical",
+   "numeric_delta": "final relative abundances shift by <= 2.0e-5 on the standard 28-day inulin run (compartments start identical, so the wrap term is near-zero in practice - structural fix, tiny numeric effect)",
+   "passed": true
+  },
+  {
+   "check": "lp_flux_analytic_optimum",
+   "detail": "constraint_based_fiber_flux matches the analytic optimum biomass = yield_i * sum_j(dose_j * access_ij) with uptake at bounds, all 5 strains (e.g. Bifido 4.611, Akkermansia 1.2455)",
+   "passed": true
+  },
+  {
+   "check": "fermentation_mass_conservation",
+   "detail": "Michaelis-Menten fermentation conserves mass to 3.6e-15 over 48 h (products split .55/.25/.20 sum to 1)",
+   "passed": true
+  },
+  {
+   "check": "host_outcomes_arithmetic",
+   "detail": "barrier/insulin/inflammation/efficacy reproduce their formulas exactly (IBD: efficacy .55*(1-inflammation)+.45*barrier = 0.690663)",
+   "passed": true
+  }
+ ],
+ "verdict": "TWO BUGS FIXED (75, 76): butyrate mis-curation for three non-producer strains (literature-anchored constants fix); periodic migration boundary replaced by a chain Laplacian.",
+ "defects_found": 2,
+ "negatives": [
+  "enzymatic_fiber_fermentation km = .4+.08*j is fiber-INDEX dependent (list order, not chemistry) - arbitrary but consistent; documented, not redesigned",
+  "ENZYME_ACCESS is a curated hermetic fixture (module says so); spot-checked entries align with biology (Akkermansia mucin 1.0, Bifido GOS .95) but a full curation audit was not done",
+  "migration fix has near-zero numeric effect because compartments always start identical (z0 = tile) - users cannot set per-compartment initials",
+  "time_to_half_shift_days compares an L1 distance against a Bray-Curtis-normalized threshold (mixed scales) - documented"
+ ],
+ "notes": "3 PubMed anchors fetched live via Entrez, titles verified"
+}
