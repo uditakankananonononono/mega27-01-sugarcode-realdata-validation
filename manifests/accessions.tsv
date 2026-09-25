@@ -622,3 +622,7 @@ pubmed	26925050	Rios-Covian 2016 SCFA review: butyrate producers are clostridial
 pubmed	19807780	Louis et al: diversity of colonic butyrate-producing bacteria (butyryl-CoA)	PMID 19807780	sweep_micro_tx.json
 pubmed	12004133	Kaeberlein 2002 Science: diffusion-chamber isolation of uncultivable microbes - anchors syntroph diffusion-chamber trick	PMID 12004133	sweep_microaiverse.json
 pubmed	35536023	2022: Bacteroides-Methanobrevibacter metabolic synergy - Bacteroides donor-role context	PMID 35536023	sweep_microaiverse.json
+chembl	CHEMBL25	aspirin molecule, live anchor for neodti_engine arthritis repurposing scan (max_phase 4.0, 400 activities screened)	CHEMBL25	sweep_neodti_engine.json
+chembl	CHEMBL468	thalidomide molecule, live anchor for neodti_engine arthritis/cancer scans (max_phase 4.0, 200 activities)	CHEMBL468	sweep_neodti_engine.json
+chembl	CHEMBL1431	metformin molecule, live anchor for neodti_engine neurodegeneration scan (max_phase 4.0, 118 activities)	CHEMBL1431	sweep_neodti_engine.json
+chembl	CHEMBL413	sirolimus (rapamycin) molecule, live anchor for neodti_engine neurodegeneration scan via _DRUG_ALIASES (max_phase 4.0, 200 activities on CHEMBL2842/MTOR)	CHEMBL413	sweep_neodti_engine.json

@@ -53,7 +53,7 @@ module	microbiome_rx	180	3	validated	benchmarks/sweep_microbiome_rx.json
 module	mit_offtarget	154	2	validated	VERDICTS table; sweep/crispr_vs_crispor.py
 module	molecule_eval	149	2	validated	benchmarks/sweep_molecule_eval.json
 module	mutdock	337	15	validated	benchmarks/sweep_mutdock.json
-module	neodti_engine	257	3	not yet validated	
+module	neodti_engine	283	4	validated	benchmarks/sweep_neodti_engine.json
 module	neohunter	358	11	validated	VERDICTS neohunter section
 module	neuro_hub	44	1	not yet validated	
 module	neuro_hub_dashboard	25	2	not yet validated	

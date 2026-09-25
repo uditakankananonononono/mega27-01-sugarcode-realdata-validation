@@ -21,6 +21,7 @@ EVIDENCE={('module','chem_descriptors'):'benchmarks/results.json (VERDICTS table
 ('module','micro_tx'):'benchmarks/sweep_micro_tx.json',
 ('module','microaiverse'):'benchmarks/sweep_microaiverse.json',
 ('module','microbiome_rx'):'benchmarks/sweep_microbiome_rx.json',
+('module','neodti_engine'):'benchmarks/sweep_neodti_engine.json',
 }
 def loc(p):
     n=0

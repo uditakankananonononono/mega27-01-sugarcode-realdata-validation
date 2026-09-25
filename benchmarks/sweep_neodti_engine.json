@@ -1,0 +1,143 @@
+{
+ "disease_scan": {
+  "cancer_metabolic": {
+   "mechanistic_candidates": [
+    "metformin"
+   ],
+   "excluded_zero_path": 8,
+   "status": "ok"
+  },
+  "arthritis": {
+   "mechanistic_candidates": [
+    "aspirin",
+    "thalidomide"
+   ],
+   "excluded_zero_path": 7,
+   "status": "ok"
+  },
+  "cancer_inflammatory": {
+   "mechanistic_candidates": [
+    "cimetidine",
+    "aspirin",
+    "disulfiram",
+    "thalidomide"
+   ],
+   "excluded_zero_path": 5,
+   "status": "ok"
+  },
+  "ED": {
+   "mechanistic_candidates": [],
+   "excluded_zero_path": 8,
+   "status": "no drug in the graph has a target-pathway-disease path to ED (approved indications excluded); extend the graph rather than rank noise"
+  },
+  "alcoholism": {
+   "mechanistic_candidates": [],
+   "excluded_zero_path": 8,
+   "status": "no drug in the graph has a target-pathway-disease path to alcoholism (approved indications excluded); extend the graph rather than rank noise"
+  },
+  "GERD": {
+   "mechanistic_candidates": [],
+   "excluded_zero_path": 8,
+   "status": "no drug in the graph has a target-pathway-disease path to GERD (approved indications excluded); extend the graph rather than rank noise"
+  },
+  "medulloblastoma": {
+   "mechanistic_candidates": [
+    "itraconazole"
+   ],
+   "excluded_zero_path": 8,
+   "status": "ok"
+  },
+  "T2D": {
+   "mechanistic_candidates": [],
+   "excluded_zero_path": 8,
+   "status": "no drug in the graph has a target-pathway-disease path to T2D (approved indications excluded); extend the graph rather than rank noise"
+  },
+  "cardiovascular": {
+   "mechanistic_candidates": [
+    "thalidomide"
+   ],
+   "excluded_zero_path": 6,
+   "status": "ok"
+  },
+  "cancer_solid": {
+   "mechanistic_candidates": [
+    "rapamycin",
+    "statins",
+    "aspirin"
+   ],
+   "excluded_zero_path": 6,
+   "status": "ok"
+  },
+  "fungal_infection": {
+   "mechanistic_candidates": [],
+   "excluded_zero_path": 8,
+   "status": "no drug in the graph has a target-pathway-disease path to fungal_infection (approved indications excluded); extend the graph rather than rank noise"
+  },
+  "basal_cell_carcinoma": {
+   "mechanistic_candidates": [
+    "itraconazole"
+   ],
+   "excluded_zero_path": 8,
+   "status": "ok"
+  },
+  "neurodegeneration": {
+   "mechanistic_candidates": [
+    "rapamycin",
+    "metformin"
+   ],
+   "excluded_zero_path": 7,
+   "status": "ok"
+  },
+  "myeloma": {
+   "mechanistic_candidates": [],
+   "excluded_zero_path": 8,
+   "status": "no drug in the graph has a target-pathway-disease path to myeloma (approved indications excluded); extend the graph rather than rank noise"
+  },
+  "aging": {
+   "mechanistic_candidates": [
+    "rapamycin",
+    "metformin"
+   ],
+   "excluded_zero_path": 7,
+   "status": "ok"
+  },
+  "pulmonary_hypertension": {
+   "mechanistic_candidates": [],
+   "excluded_zero_path": 8,
+   "status": "no drug in the graph has a target-pathway-disease path to pulmonary_hypertension (approved indications excluded); extend the graph rather than rank noise"
+  }
+ },
+ "arthritis_scan": [
+  {
+   "drug": "aspirin",
+   "paths": [
+    {
+     "target": "COX1",
+     "pathway": "inflammation"
+    },
+    {
+     "target": "COX2",
+     "pathway": "inflammation"
+    }
+   ],
+   "n_paths": 2,
+   "therapeutic_resilience_index": 0.827
+  },
+  {
+   "drug": "thalidomide",
+   "paths": [
+    {
+     "target": "TNFa",
+     "pathway": "inflammation"
+    }
+   ],
+   "n_paths": 1,
+   "therapeutic_resilience_index": 0.563
+  }
+ ],
+ "bug79": {
+  "before": "predict_interactions ranked zero-path drugs on untrained random-embedding cosine; 7 diseases (T2D, myeloma, pulmonary_hypertension, ED, alcoholism, fungal_infection, GERD) returned entire candidate lists of noise; T2D top: thalidomide tri 0.338 with 0 paths",
+  "after": "candidates restricted to drugs with >=1 mechanistic path (repurposing_scan contract); empty lists carry explicit status; diagnostics panel pads rank slots (<5 candidates) and guards top margin at 1 candidate; analyze_repurposing returns diagnostic_count 0 on empty",
+  "evidence": "probes + tests/test_neodti_engine_realdata.py; spec test updated to 3 mechanistic candidates for solid tumor"
+ }
+}
