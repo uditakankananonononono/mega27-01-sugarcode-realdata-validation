@@ -59,7 +59,7 @@ module	neuro_hub	57	3	validated	benchmarks/sweep_neuro_hub.json
 module	neuro_hub_dashboard	31	3	validated	benchmarks/sweep_neuro_hub_dashboard.json
 module	neuro_pipeline	381	4	validated	benchmarks/sweep_neuro_pipeline.json
 module	neuroplan_ai	387	7	validated	benchmarks/sweep_neuroplan_ai.json
-module	nexus_support	299	2	not yet validated	
+module	nexus_support	321	3	validated	benchmarks/sweep_nexus_support.json
 module	omega_stats	161	4	validated	benchmarks/sweep_omega_stats.json
 module	oncocircuit	124	2	validated	benchmarks/sweep_oncocircuit.json
 module	openclinvar	514	22	validated	benchmarks/sweep_openclinvar.json

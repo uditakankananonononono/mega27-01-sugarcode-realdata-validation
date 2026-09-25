@@ -1,0 +1,72 @@
+{
+ "module": "nexus_support",
+ "date": "2026-09-25",
+ "sc_ai_base": "6cecd96",
+ "bug89_schedule_queue": {
+  "case_no_ids": {
+   "priorities": [
+    1,
+    2,
+    9
+   ],
+   "capacity_h": 1,
+   "before_selected_priority": 1,
+   "before_objective_reported": 9.0,
+   "after_selected_priority": 9
+  },
+  "case_duplicate_ids": {
+   "ids": [
+    "A",
+    "A"
+   ],
+   "capacity_h": 1,
+   "before_selected_count": 2,
+   "before_used_hours_actual": 2,
+   "after_selected_count": 1,
+   "after_used_hours": 1.0
+  }
+ },
+ "bug90_classify_substring": {
+  "Please update my billing address": {
+   "before": "feature (add)",
+   "after": "question"
+  },
+  "Can I get rapid results?": {
+   "before": "integration (api)",
+   "after": "question"
+  },
+  "How do I rebuild the index?": {
+   "before": "custom_build (build)",
+   "after": "question"
+  },
+  "We want to integrate via webhooks": {
+   "after": "integration"
+  },
+  "Pipeline failed in production": {
+   "after": "bug, urgency 3"
+  }
+ },
+ "bug91_detect_modules_prefix": {
+  "probe": "I have a question about <display name> for all 95 registry modules",
+  "missed_before": 0,
+  "multi_before": 4,
+  "multi_before_list": [
+   "synbio_studio",
+   "cellpainter_4d",
+   "syn_bio_studio",
+   "neuro_hub_dashboard"
+  ],
+  "missed_after": 0,
+  "multi_after": 2,
+  "multi_after_list": [
+   "synbio_studio",
+   "syn_bio_studio"
+  ],
+  "note": "remaining pair share the key synbiostudio - a true name collision, reported together"
+ },
+ "negatives": [
+  "\"support\" is a feature keyword, so \"thanks for the support\" still classifies as feature",
+  "keyword lists are curated heuristics, not trained on real support tickets",
+  "no external support-ticket corpus used"
+ ]
+}
