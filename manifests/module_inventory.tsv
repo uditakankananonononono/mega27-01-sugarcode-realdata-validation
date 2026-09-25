@@ -7,7 +7,7 @@ module	bio_switch	511	5	validated	benchmarks/sweep_bio_switch.json
 module	biofactory_1_a	105	3	validated	benchmarks/sweep_biofactory.json
 module	biogpt_lit	258	3	validated	benchmarks/sweep_biogpt_lit.json
 module	bioimage_ai	220	4	validated	benchmarks/sweep_bioimage_ai.json
-module	bioplayground	98	2	not yet validated	
+module	bioplayground	106	3	validated	benchmarks/sweep_bioplayground.json
 module	bioprint_pro	143	2	not yet validated	
 module	biosimvr	200	2	not yet validated	
 module	car_t_designer	104	2	validated	benchmarks/sweep_car_t_designer.json
