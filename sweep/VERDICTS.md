@@ -358,3 +358,8 @@ Result: benchmarks/sweep_cellpainter_4d.json
 ONE BUG FIXED. BUG 65: pk_model's trapezoid loop added a zero-width-time interval (c0+c0)/2*dt at t=0, overstating AUC by exactly c0*dt at every step size: +5.8% for LNP over 96 h at dt=1 (608.317 vs analytic 574.824), +1.1% AAV8, +1.9% PNP; times also accumulated by repeated float addition. Fixed to index-based times and a proper first interval: AUC now matches the closed form C0/ke*(1-exp(-ke*t)) to 2.8e-4 relative at dt=1 and exactly at dt=0.01.
 VALIDATED: compartment_pk mass balance < 1e-6 (AAV9/cns); payload sizes cover UniProt CDS lengths (Q99ZW2 SpCas9 1368 aa = 4107 bp, J7RUA5 SaCas9 1053 aa = 3162 bp, fetched live via UniProt REST); AAV 4.7 kb cargo limit leaves <0.6 kb for SpCas9 CDS alone.
 Result: benchmarks/sweep_crispr_cargo.json
+
+## modules.crispr_muse (2026-09-25)
+ONE BUG FIXED. BUG 66: enumerate_configurations searched only for 3' PAMs (guide then PAM), but Cas12a (TTTV) and CasX (TTCN) PAMs are 5' of the spacer, so every valid Cas12a/CasX site was missed (0 configurations on a 5'-TTTA + 23-nt guide construct). Fixed with a pam_side field; SpCas9/SaCas9/xCas9 3' enumeration is unchanged. Cas12a cut_site = PAM start + 18 (14 nt into the guide).
+VALIDATED: Beta posterior mean/std match closed form (Beta(9,3): 0.75, 0.1201); clonal_expansion matches geometric selection (b: 102.4/103.3); repair outcomes sum to 1; policy entropy of uniform logits = ln4; guide_diagnostics has 32 keys without and 35 with a background scan, as documented.
+Result: benchmarks/sweep_crispr_muse.json

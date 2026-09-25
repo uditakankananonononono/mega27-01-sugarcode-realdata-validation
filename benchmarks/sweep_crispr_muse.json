@@ -1,0 +1,60 @@
+{
+ "module": "crispr_muse",
+ "checks": [
+  {
+   "check": "bug66_cas12a_5p_pam",
+   "pre_fix_configs": 0,
+   "post_fix": [
+    {
+     "nuclease": "Cas12a",
+     "guide": "CGGGGGGGGGGGGGGGGGGGGGG",
+     "pam": "TTTA",
+     "start": 7,
+     "end": 30,
+     "cut_site": 21
+    }
+   ],
+   "passed": true
+  },
+  {
+   "check": "spcas9_3p_unchanged",
+   "configs": [
+    {
+     "nuclease": "SpCas9",
+     "guide": "CCCCCCCCCCCCCCCCCCCC",
+     "pam": "AGG",
+     "start": 0,
+     "end": 20,
+     "cut_site": 17
+    }
+   ],
+   "passed": true
+  },
+  {
+   "check": "beta_posterior_closed_form",
+   "mean": 0.75,
+   "analytic": 0.75,
+   "std": 0.12009611535381536,
+   "analytic_std": 0.12009611535381536,
+   "passed": true
+  },
+  {
+   "check": "clonal_expansion_geometric",
+   "module": 0.9912875121006777,
+   "analytic": 0.9912875121006777,
+   "passed": true
+  },
+  {
+   "check": "diagnostics_key_counts",
+   "no_background": 32,
+   "with_background": 35,
+   "passed": true
+  }
+ ],
+ "negatives": [
+  "background argument is a single sequence string, not a list of sequences (API constraint, documented)."
+ ],
+ "data_note": "PAM orientation ground truth: Cas12a TTTV and CasX TTCN are 5' PAMs (Zetsche et al. Cell 2015; Liu et al. Nature 2019); Cas9 PAMs are 3'.",
+ "accessions_used": [],
+ "verdict": "VALIDATED with BUG 66 fixed"
+}
