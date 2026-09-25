@@ -43,7 +43,7 @@ module	gene_tx_opt	149	3	validated	benchmarks/sweep_gene_tx_opt.json
 module	genomegpt	279	4	validated	benchmarks/sweep_genomegpt.json
 module	infinite_diagnosis	185	6	validated	benchmarks/sweep_infinite_diagnosis.json
 module	liquid_biopsy	411	7	validated	benchmarks/sweep_liquid_biopsy.json
-module	living_computer	857	2	not yet validated	
+module	living_computer	863	3	validated	benchmarks/sweep_living_computer.json
 module	living_tx	184	2	not yet validated	
 module	metabodesigner	190	4	validated	benchmarks/sweep_metabodesigner.json
 module	micro_tx	218	2	not yet validated	
@@ -86,7 +86,7 @@ module	str_scope	340	3	validated	benchmarks/sweep_str_pytrf.json
 module	structural_biophysics	528	7	validated	benchmarks/sweep_vina_score.json; benchmarks/sweep_sasa_freesasa_recheck14.json
 module	syn_bio_studio	43	1	not yet validated	
 module	syn_stab_ai	77	3	validated	benchmarks/sweep_syn_stab_ai.json
-module	synbio_studio	113	3	not yet validated	
+module	synbio_studio	113	4	not yet validated	
 module	synbio_wizard	224	2	not yet validated	
 module	syndroid	231	2	not yet validated	
 module	synlife_evo	278	4	not yet validated	

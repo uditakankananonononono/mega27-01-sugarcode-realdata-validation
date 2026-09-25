@@ -1,0 +1,116 @@
+{
+ "module": "living_computer",
+ "checks": [
+  {
+   "check": "truth_table_at_documented_levels_prefix",
+   "input_levels": "fully induced = 1.0 REU, off = 0.0 (module docstring normalization)",
+   "threshold": 0.5,
+   "engines": [
+    "two_stage_simulate",
+    "synbio_studio simulate"
+   ],
+   "wrong_rows_before_fix": {
+    "A XOR B": [
+     [
+      [
+       1,
+       1
+      ],
+      7.452,
+      "OFF read as ON"
+     ]
+    ],
+    "A XNOR B": [
+     [
+      [
+       1,
+       1
+      ],
+      0.148,
+      "ON read as OFF"
+     ]
+    ],
+    "A AND NOT B": [
+     [
+      [
+       1,
+       1
+      ],
+      1.208,
+      "OFF above 0.5 threshold"
+     ]
+    ],
+    "A XOR B XOR C": [
+     [
+      [
+       0,
+       1,
+       1
+      ],
+      7.048,
+      "OFF read as ON"
+     ],
+     [
+      [
+       1,
+       0,
+       1
+      ],
+      7.048,
+      "OFF read as ON"
+     ],
+     [
+      [
+       1,
+       1,
+       0
+      ],
+      7.549,
+      "OFF read as ON"
+     ]
+    ]
+   },
+   "identical_on_both_engines": true,
+   "masked_by": "compile_logic/logic_verify tests only at HIGH=3.0, LOW=0.05, where the leak is 0.08%",
+   "passed": true
+  },
+  {
+   "check": "root_cause",
+   "detail": "n=4 Hill repression leaks 1/(1+2^4)=5.9% of vmax at a fully induced 1.0 REU input; internal protein steady state is 5x transcription (decay 0.2), so one leaked edge leaves ~0.33 REU - near K=0.5 - which re-activates downstream gates and compounds through cascades",
+   "passed": true
+  },
+  {
+   "check": "fix",
+   "change": "INTERNAL_GATE_PARAMS n 4.0 -> 8.0 (single constant; decay/timing untouched)",
+   "leak_after": "1/(1+2^8)=0.39%",
+   "passed": true
+  },
+  {
+   "check": "truth_table_after_fix",
+   "scope": "14 expressions incl. all previously broken ones, all input combinations, both engines, at 1.0/0.0 and at 3.0/0.05",
+   "wrong_rows_after_fix": 0,
+   "margins_at_documented_levels": {
+    "NOT A": {
+     "minON": 7.55,
+     "maxOFF": 0.0792
+    },
+    "A AND NOT B": {
+     "minON": 7.55,
+     "maxOFF": 0.05
+    },
+    "A XNOR B": {
+     "minON": 7.55,
+     "maxOFF": 0.05
+    }
+   },
+   "passed": true
+  }
+ ],
+ "verdict": "BUG 73 FIXED: compiled circuits were not digital at the module's documented 1.0 REU input normalization (6 wrong truth rows across XOR/XNOR/AND-NOT/3-XOR, both engines). n 4->8 restores the truth table at documented levels; verify path at 3.0 unchanged.",
+ "defects_found": 1,
+ "negatives": [
+  "internal gate ON protein is still 5x transcription (~5 REU), not the docstring's 1.0 REU normalization; harmless after n=8 since downstream gates saturate, documented not redesigned",
+  "noise_analysis/monte_carlo perturb vmax and K only; n is never perturbed, so the digital margin under those ensembles is untested at 1.0 inputs"
+ ],
+ "notes": "no external accessions; validated against the module's own symbolic evaluator (boolean_truth_table/_eval_bool) as independent oracle on both simulation engines"
+}
