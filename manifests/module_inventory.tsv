@@ -12,7 +12,7 @@ module	bioprint_pro	167	4	validated	benchmarks/sweep_bioprint_pro.json
 module	biosimvr	201	3	validated	benchmarks/sweep_biosimvr.json
 module	car_t_designer	104	2	validated	benchmarks/sweep_car_t_designer.json
 module	cell_free_opt	109	3	validated	benchmarks/sweep_cell_free_opt.json
-module	cell_twin	194	3	validated	benchmarks/sweep_cell_twin.json
+module	cell_twin	194	4	validated	benchmarks/sweep_cell_twin.json
 module	cellfatenet	207	3	validated	benchmarks/sweep_cellfatenet.json
 module	cellpainter	291	3	validated	benchmarks/sweep_cellpainter.json
 module	cellpainter_4d	242	3	validated	benchmarks/sweep_cellpainter_4d.json
@@ -63,7 +63,7 @@ module	nexus_support	321	3	validated	benchmarks/sweep_nexus_support.json
 module	omega_stats	161	4	validated	benchmarks/sweep_omega_stats.json
 module	oncocircuit	124	2	validated	benchmarks/sweep_oncocircuit.json
 module	openclinvar	514	22	validated	benchmarks/sweep_openclinvar.json
-module	organoid_ai	216	2	not yet validated	
+module	organoid_ai	226	3	validated	benchmarks/sweep_organoid_ai.json
 module	organoid_screen	275	7	not yet validated	
 module	pdx_insight	138	2	not yet validated	
 module	pgx_guidelines	287	0	validated	benchmarks/sweep_pgx_cpic.json

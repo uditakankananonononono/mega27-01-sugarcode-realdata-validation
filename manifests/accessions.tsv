@@ -627,3 +627,6 @@ chembl	CHEMBL468	thalidomide molecule, live anchor for neodti_engine arthritis/c
 chembl	CHEMBL1431	metformin molecule, live anchor for neodti_engine neurodegeneration scan (max_phase 4.0, 118 activities)	CHEMBL1431	sweep_neodti_engine.json
 chembl	CHEMBL413	sirolimus (rapamycin) molecule, live anchor for neodti_engine neurodegeneration scan via _DRUG_ALIASES (max_phase 4.0, 200 activities on CHEMBL2842/MTOR)	CHEMBL413	sweep_neodti_engine.json
 dataset	UCI-67	UCI ML Repository Molecular Biology (Promoter Gene Sequences), E. coli, 106 x 57 nt (Harley-Reynolds/Towell)	UCI dataset 67 promoters.data sha256 edd5f6f2	sweep_neuro_pipeline.json; sc-ai tests/data/uci_ecoli_promoters.data
+ncbi_gene	2752	GLUL NCBI Gene record (human); official symbol for glutamine synthetase, replaces ambiguous GS (organoid_ai sweep)	esearch+esummary	benchmarks/sweep_organoid_ai.json
+ncbi_gene	64919	BCL11B NCBI Gene record (human); official symbol for CTIP2 (organoid_ai sweep)	esearch+esummary	benchmarks/sweep_organoid_ai.json
+ncbi_gene	324	APC NCBI Gene record (human); returned first for symbol query GS, showing GS alias ambiguity (organoid_ai sweep)	esearch+esummary	benchmarks/sweep_organoid_ai.json

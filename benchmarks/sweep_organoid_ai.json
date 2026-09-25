@@ -1,0 +1,65 @@
+{
+ "module": "organoid_ai",
+ "date": "2026-09-25",
+ "sc_ai_base": "35c6d87",
+ "bug92_ic50": {
+  "curve": "V(d)=100/(1+k(d/b)^1.5)",
+  "before": {
+   "reported_ic50_all_compounds_uM": 1.0,
+   "viability_at_1uM": {
+    "cisplatin": 58.8,
+    "trametinib": 62.5,
+    "olaparib": 57.1,
+    "venetoclax": 60.6,
+    "gefitinib": 62.5,
+    "unknown(default k .4)": 71.4
+   },
+   "most_effective": "cisplatin (first of a 6-way tie incl. an uncurated compound)"
+  },
+  "after": {
+   "ic50_uM": {
+    "cisplatin": 1.268,
+    "trametinib": 1.406,
+    "olaparib": 1.211,
+    "venetoclax": 1.333,
+    "gefitinib": 1.406,
+    "unknownX": 1.842
+   },
+   "viability_at_reported_ic50_pct_range": [
+    49.991,
+    50.013
+   ],
+   "most_effective": "olaparib",
+   "uncurated_compounds": [
+    "unknownX"
+   ],
+   "TP53_mutant": {
+    "olaparib": 1.211,
+    "cisplatin": 2.791
+   }
+  }
+ },
+ "bug93": "simulate_growth modeled any unknown tissue (e.g. kidney) silently as intestinal; now KeyError like design_organoid",
+ "bug94_markers": {
+  "GS": {
+   "replaced_by": "GLUL",
+   "ncbi_gene": 2752,
+   "note": "NCBI Gene symbol query GS[sym] AND 9606[taxid] returned APC (Gene 324) first, GLUL second - ambiguous alias"
+  },
+  "CTIP2": {
+   "replaced_by": "BCL11B",
+   "ncbi_gene": 64919
+  },
+  "verified_unchanged": {
+   "LGR5": 8549,
+   "CYP2E1": 1571,
+   "AMY2A": 279,
+   "KRT14": 3861
+  }
+ },
+ "negatives": [
+  "spatial_gene_expression diffusion uses np.roll (periodic boundary) - edges of the cross-section wrap; not changed this module",
+  "kill/resist tables come from cell_twin DRUG_ACTIONS curated fixtures, not fitted to organoid screens",
+  "doubling_days per tissue not re-verified against literature"
+ ]
+}

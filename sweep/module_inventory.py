@@ -26,6 +26,7 @@ EVIDENCE={('module','chem_descriptors'):'benchmarks/results.json (VERDICTS table
 ('module','neuro_hub_dashboard'):'benchmarks/sweep_neuro_hub_dashboard.json',
 ('module','neuro_pipeline'):'benchmarks/sweep_neuro_pipeline.json',
 ('module','nexus_support'):'benchmarks/sweep_nexus_support.json',
+('module','organoid_ai'):'benchmarks/sweep_organoid_ai.json',
 }
 def loc(p):
     n=0
