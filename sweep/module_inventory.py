@@ -28,6 +28,7 @@ EVIDENCE={('module','chem_descriptors'):'benchmarks/results.json (VERDICTS table
 ('module','nexus_support'):'benchmarks/sweep_nexus_support.json',
 ('module','organoid_ai'):'benchmarks/sweep_organoid_ai.json',
 ('module','organoid_screen'):'benchmarks/sweep_organoid_screen.json',
+('module','pdx_insight'):'benchmarks/sweep_pdx_insight.json',
 }
 def loc(p):
     n=0

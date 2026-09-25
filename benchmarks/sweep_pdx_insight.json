@@ -1,0 +1,71 @@
+{
+ "module": "pdx_insight",
+ "date": "2026-09-25",
+ "sc_ai_base": "0305f50",
+ "probe_profile": {
+  "mutations": [
+   "KRAS_G12D",
+   "TP53_R175H",
+   "SMAD4_del"
+  ],
+  "expression_genes": [
+   "EGFR",
+   "MYC",
+   "CDKN2A",
+   "VIM"
+  ],
+  "note": "PDX profile identical to patient"
+ },
+ "bug98_multiomic_unmeasured_layers": {
+  "before": {
+   "mfi": 0.65,
+   "flags": [
+    "copy-number drift",
+    "methylation drift"
+   ]
+  },
+  "after": {
+   "mfi": 1.0,
+   "flags": [],
+   "layers_not_measured": [
+    "copy_number",
+    "methylation"
+   ]
+  },
+  "all_four_layers_identical_mfi": 1.0
+ },
+ "bug99_legacy_double_decay": {
+  "passage": 10,
+  "before": {
+   "mfi": 0.556,
+   "mutation_retention": 0.817,
+   "expression_correlation": 0.599,
+   "verdict": "low fidelity - re-derive model from patient sample"
+  },
+  "after": {
+   "mfi": 0.77,
+   "mutation_retention": 1.0,
+   "expression_correlation": 1.0,
+   "verdict": "moderate - interpret with caution",
+   "note": "remaining penalty is the labelled stroma/subclone passage prior"
+  }
+ },
+ "bug100_fabricated_correlation": {
+  "mutations_only": {
+   "before": {
+    "expression_correlation": 0.5,
+    "mfi": 0.825
+   },
+   "after": {
+    "expression_correlation": null,
+    "mfi": 1.0
+   }
+  },
+  "negative_corr_now_clipped_at_0_in_score": true
+ },
+ "negatives": [
+  "no public patient/PDX paired omics dataset used (identity checks only)",
+  "stroma and subclone terms remain passage priors, not measurements",
+  "multiomic passage_penalty exp(-.018p) still discounts measured similarity - documented, not removed (it is reported separately as passage_penalty)"
+ ]
+}
