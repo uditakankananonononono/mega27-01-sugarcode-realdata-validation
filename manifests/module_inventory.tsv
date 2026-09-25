@@ -73,7 +73,7 @@ module	phageforge	118	3	validated	benchmarks/sweep_phageforge.json
 module	prime_design	263	4	validated	benchmarks/sweep_prime_design.json
 module	profile_hmm	747	3	validated	benchmarks/profile_hmm_cv.json, profile_hmm_cv_local.json
 module	promoter_lib	143	2	validated	benchmarks/sweep_stability_promoter.json
-module	protein_painter	161	2	not yet validated	
+module	protein_painter	173	4	validated	benchmarks/sweep_protein_painter.json
 module	qsar_bench	389	4	validated	benchmarks/sweep_qsar_descriptors.json
 module	rarenet_ai	366	20	validated	benchmarks/sweep_rarenet.json
 module	report_studio	213	1	not yet validated	

@@ -1,0 +1,26 @@
+{
+ "module": "protein_painter",
+ "date": "2026-09-25",
+ "sc_ai_base": "43dd726",
+ "bug104_active_site": {
+  "before": "_design_sequence placed the active residues only at coils AFTER the middle-nearest coil; a left-heavy coil run (\"CCCCCC\"+26H) placed just \"H\" of the HDE catalytic triad and active_site_residues silently reported [\"H6\"]; a right-heavy run pushed the whole triad to the C-terminus",
+  "after": "the n nearest coils to the middle are used, sorted; placement_complete is reported; left-heavy case places HDE at [3,4,5]; default enzyme template H13/D14/E20 complete"
+ },
+ "bug105_edge_inputs": {
+  "length=0": "was silently ignored (falsy), returning the default-length design; now ValueError",
+  "candidates=0": "was IndexError; now ValueError"
+ },
+ "bug106_codon_host": {
+  "before": "codon_optimize(\"AAAA\",\"mystery_host\") silently returned the E. coli table (GCGGCGGCGGCG)",
+  "after": "KeyError naming the valid hosts; ecoli ACDE->GCGTGCGATGAA and yeast ACDE->GCTTGTGACGAG verified"
+ },
+ "identities": {
+  "molecular_weight": "GGG 189.171 = 3x57.0519+18.0153; A 89.0932 - ExPASy average-mass convention",
+  "codon_tables": "ecoli A->GCG, L->CTG, R->CGT (high-usage codons)"
+ },
+ "negatives": [
+  "yeast codon choices are curated (R->AGA, L->TTG), not re-verified against a usage table",
+  "degron motif list (PEST, KEN, DGN) is curated; DGN is not a canonical degron",
+  "Chou-Fasman fold_match is a pattern-agreement proxy, not structure prediction (module says so)"
+ ]
+}
