@@ -4,4 +4,40 @@
     {
       "check": "distinct_mechanisms_separable_after_fix",
       "sims": {
-        
+        "dna_damage vs mitochondrial_toxin": 0.0,
+        "dna_damage vs microtubule_poison": 0.0,
+        "microtubule_poison vs mitochondrial_toxin": 0.0
+      },
+      "passed": true
+    },
+    {
+      "check": "novel_hint_reachable",
+      "hint": "['mitochondrial_toxin', 'microtubule_poison']",
+      "passed": true
+    },
+    {
+      "check": "same_mechanism_still_similar",
+      "sim": 1.0,
+      "passed": true
+    },
+    {
+      "check": "signature_value_recompute",
+      "module": 1.12,
+      "recomputed": 1.12,
+      "passed": true
+    },
+    {
+      "check": "vehicle_baseline_flat",
+      "passed": true
+    },
+    {
+      "check": "qc_recompute",
+      "cv": 0.08164965809277261,
+      "recomputed": 0.08164965809277261,
+      "passed": true
+    }
+  ],
+  "data_note": "Signature-path validation: ground truth is the module's own formulas plus the separability requirement. Image path (profile_wells on real BBBC001 stacks) deferred to cellpainter_4d.",
+  "accessions_used": [],
+  "verdict": "VALIDATED with BUG 63 fixed"
+}
