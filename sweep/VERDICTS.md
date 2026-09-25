@@ -381,3 +381,8 @@ Result: benchmarks/sweep_epi_edit.json
 ## modules.fate_predictor (2026-09-25)
 VALIDATED, no code change. Curated reprogramming map cross-checked against live PubMed (NCBI Entrez): fibroblast->neuron ASCL1/BRN2/MYT1L = Vierbuchen 2010 Nature PMID 20107439; fibroblast->cardiomyocyte GMT = Ieda 2010 PMID 20691899; b_cell->macrophage CEBPA = Xie 2004 Cell PMID 15163413; fibroblast->endothelial ETV2 = Morita 2015 PNAS PMID 25540418. The exact-subset optimizer rediscovers the published sets (fibroblast->neuron selects exactly ASCL1+BRN2+MYT1L; b_cell->macrophage selects CEBPA alone). Delivery scaling correct (0.35 lentivirus -> 0.175 small molecule). Calibration gap documented, not refitted: the hermetic stress-throttled ODE peaks at 5.65% target fraction vs the curated 35% literature rate for the same protocol. Huang 2011 hepatocyte reference not re-verified via PubMed in this sweep.
 Result: benchmarks/sweep_fate_predictor.json
+
+## modules.gene_explorer (2026-09-25)
+ONE BUG FIXED. BUG 70: explore() translated from frame 0 of the raw input, so on a real RefSeq mRNA with a 5' UTR (NM_000518.5 HBB, 628 nt) it reported a 20-aa UTR peptide (2260 Da) as "the protein" while its own longest_orf knew the true 147-aa hemoglobin. The protein block now annotates the longest-ORF protein (translation_mode "longest_orf") and falls back to frame translation only when no ORF exists; reading_frame is validated.
+VALIDATED on live data: ORF translation of NM_000518.5 matches UniProt P68871 (canonical HBB, 147 aa) exactly; sickle-cell E6V (GAG->GTG) yields exactly 1 protein change (MVHLTPEE->MVHLTPVE); a silent CCT->CTT mutation yields 0.
+Result: benchmarks/sweep_gene_explorer.json

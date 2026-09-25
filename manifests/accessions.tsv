@@ -606,3 +606,5 @@ uniprot_record	J7RUA5	UniProt REST fields fetch (SaCas9 length 1053 aa)	J7RUA5	s
 pubmed	PMID:20107439	Vierbuchen 2010 Nature, fibroblast-to-neuron direct conversion (esearch+esummary live)	20107439	sweep_fate_predictor.json
 pubmed	PMID:15163413	Xie 2004 Cell, B cell-to-macrophage C/EBPa reprogramming (esearch+esummary live)	15163413	sweep_fate_predictor.json
 pubmed	PMID:25540418	Morita 2015 PNAS, ETV2 fibroblast-to-endothelial conversion (esearch+esummary live)	25540418	sweep_fate_predictor.json
+refseq	NM_000518	HBB mRNA NM_000518.5 efetch via Entrez (628 nt), ORF translation matched UniProt	NM_000518	sweep_gene_explorer.json
+uniprot_record	P68871	UniProt REST sequence fetch, canonical HBB 147 aa	P68871	sweep_gene_explorer.json

@@ -1,0 +1,54 @@
+{
+ "module": "gene_explorer",
+ "checks": [
+  {
+   "check": "bug70_utr_peptide_vs_real_protein",
+   "pre_fix": {
+    "protein_length": 20,
+    "mw": 2260.44
+   },
+   "post_fix": {
+    "protein_length": 147,
+    "mw": 15997.63,
+    "mode": "longest_orf"
+   },
+   "passed": true
+  },
+  {
+   "check": "orf_translation_matches_uniprot_P68871",
+   "refseq": "NM_000518.5 (628 nt)",
+   "orf": {
+    "strand": "+",
+    "frame": 2,
+    "start": 50,
+    "end": 494,
+    "aa_length": 147
+   },
+   "exact_match": true,
+   "uniprot_len": 147,
+   "passed": true
+  },
+  {
+   "check": "sickle_e6v",
+   "codon": "GAG->GTG",
+   "wt": "MVHLTPEE",
+   "mut": "MVHLTPVE",
+   "protein_changes": 1,
+   "passed": true
+  },
+  {
+   "check": "silent_mutation_zero_changes",
+   "changes": 0,
+   "passed": true
+  }
+ ],
+ "negatives": [
+  "Pre-fix explore() reported a 20-aa 5'-UTR peptide (2260 Da) as the HBB protein on real RefSeq mRNA."
+ ],
+ "data_note": "Live fetches: NCBI Entrez NM_000518.5 (HBB mRNA, 628 nt) and UniProt P68871 (canonical HBB, 147 aa). ORF translation matches UniProt exactly.",
+ "accessions_used": [
+  "NM_000518",
+  "P68871"
+ ],
+ "verdict": "VALIDATED with BUG 70 fixed"
+}
