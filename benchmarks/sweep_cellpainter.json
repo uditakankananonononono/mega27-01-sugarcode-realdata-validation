@@ -1,0 +1,7 @@
+{
+  "module": "cellpainter",
+  "checks": [
+    {
+      "check": "distinct_mechanisms_separable_after_fix",
+      "sims": {
+        

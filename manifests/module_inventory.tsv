@@ -14,7 +14,7 @@ module	car_t_designer	104	2	validated	benchmarks/sweep_car_t_designer.json
 module	cell_free_opt	109	3	validated	benchmarks/sweep_cell_free_opt.json
 module	cell_twin	194	3	validated	benchmarks/sweep_cell_twin.json
 module	cellfatenet	207	3	validated	benchmarks/sweep_cellfatenet.json
-module	cellpainter	289	3	not yet validated	
+module	cellpainter	291	3	validated	benchmarks/sweep_cellpainter.json
 module	cellpainter_4d	164	2	not yet validated	
 module	cfd_offtarget	157	2	validated	benchmarks/sweep_cfd_doench.json
 module	chem_descriptors	923	2	validated	benchmarks/results.json (VERDICTS table)
