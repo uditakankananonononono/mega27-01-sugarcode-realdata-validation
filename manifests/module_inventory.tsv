@@ -40,7 +40,7 @@ module	fate_predictor	131	3	validated	benchmarks/sweep_fate_predictor.json
 module	gene_analysis	278	10	validated	benchmarks/sweep_gene_analysis.json
 module	gene_explorer	153	3	validated	benchmarks/sweep_gene_explorer.json
 module	gene_tx_opt	149	3	validated	benchmarks/sweep_gene_tx_opt.json
-module	genomegpt	279	3	not yet validated	
+module	genomegpt	279	4	validated	benchmarks/sweep_genomegpt.json
 module	infinite_diagnosis	130	4	not yet validated	
 module	liquid_biopsy	411	7	validated	benchmarks/sweep_liquid_biopsy.json
 module	living_computer	857	2	not yet validated	
@@ -120,7 +120,7 @@ bio	reactome	63	0	validated	benchmarks/sweep_reactome_download.json
 bio	restriction	150	1	validated	benchmarks/sweep_proteinprops_restriction.json
 bio	rnaseq	201	1	validated	benchmarks/sweep_de_pydeseq2.json
 bio	sam	221	2	validated	benchmarks/sweep_sam_pysam.json
-bio	sequence	174	5	validated	benchmarks/sweep_sequence_biopython.json
+bio	sequence	174	6	validated	benchmarks/sweep_sequence_biopython.json
 bio	splice	682	11	validated	benchmarks/sweep_splice_clinvar.json
 bio	stockholm	260	1	validated	benchmarks/sweep_stockholm_biopython.json
 bio	structures	267	13	validated	benchmarks/sweep_sasa_freesasa.json

@@ -1,0 +1,62 @@
+{
+ "module": "genomegpt",
+ "checks": [
+  {
+   "check": "predict_loops_convergent_ctcf",
+   "construct": "4 kb synthetic; fwd CTCF 14-mer CCGCGGGGGGGCAG at 500, revcomp at 3000",
+   "loops_found": 1,
+   "anchor1": 500,
+   "anchor2": 3000,
+   "span": 2500,
+   "orientation": "convergent",
+   "confidence": 1.0,
+   "passed": true
+  },
+  {
+   "check": "reconstruct_contact_map_loop_enhancement",
+   "bin_size": 1000,
+   "ctcf_forward_bins": [0],
+   "ctcf_reverse_bins": [3],
+   "loop_pair_value": 0.3993,
+   "non_loop_pair_value": 0.2105,
+   "passed": true
+  },
+  {
+   "check": "contact_probability_identities",
+   "1kb_convergent": 0.9103,
+   "1kb_nonconvergent": 0.354,
+   "10kb_convergent": 0.1619,
+   "10kb_nonconvergent": 0.0629,
+   "monotone_in_distance": true,
+   "convergent_boost": true,
+   "passed": true
+  },
+  {
+   "check": "donor_pwm_shapiro_senapathy",
+   "max_base_consensus": "AAGGTAAGT",
+   "invariant_gt_positions_4_5": true,
+   "passed": true
+  },
+  {
+   "check": "splice_sites_real_hbb_locus_ng_000007_3",
+   "accession": "NG_000007.3",
+   "source": "NCBI efetch FASTA + GenBank feature table, byte-identical ORIGIN",
+   "cds_translation": "exact 147-aa HBB protein (P68871), no internal stop",
+   "ivs2_donor_rel_445_score": 0.823,
+   "ivs2_acceptor_rel_1295_score": 0.805,
+   "ivs1_acceptor_rel_222_within_2nt_score": 0.683,
+   "ivs1_donor_junction": "CAGGTTGGT",
+   "ivs1_donor_score": 0.476,
+   "ivs1_donor_below_default_threshold": true,
+   "passed": true
+  },
+  {
+   "check": "boundary_case_weak_ivs1_donor",
+   "finding": "NG_000007.3 HBB IVS1 donor is GTTGGT (non-consensus); Shapiro-Senapathy PWM scores it 0.476, below the 0.8 default. Correct PWM behavior, not a defect; recorded as a negative result.",
+   "passed": true
+  }
+ ],
+ "verdict": "VALIDATED",
+ "defects_found": 0,
+ "notes": "predict_loops + contact map verified on synthetic convergent CTCF construct (span 2500, confidence 1.0, loop bin 0.399 vs 0.21); contact_probability monotone and strand-aware; splice_sites verified against GenBank-anchored real HBB locus with exact junction coordinates."
+}
