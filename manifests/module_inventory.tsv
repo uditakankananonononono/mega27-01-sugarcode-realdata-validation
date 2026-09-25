@@ -55,7 +55,7 @@ module	molecule_eval	149	2	validated	benchmarks/sweep_molecule_eval.json
 module	mutdock	337	15	validated	benchmarks/sweep_mutdock.json
 module	neodti_engine	283	4	validated	benchmarks/sweep_neodti_engine.json
 module	neohunter	358	11	validated	VERDICTS neohunter section
-module	neuro_hub	44	1	not yet validated	
+module	neuro_hub	57	3	validated	benchmarks/sweep_neuro_hub.json
 module	neuro_hub_dashboard	25	2	not yet validated	
 module	neuro_pipeline	326	3	not yet validated	
 module	neuroplan_ai	387	7	validated	benchmarks/sweep_neuroplan_ai.json

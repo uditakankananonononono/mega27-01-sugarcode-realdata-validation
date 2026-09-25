@@ -1,0 +1,356 @@
+{
+ "module": "neuro_hub",
+ "date": "2026-09-25",
+ "sc_ai_base": "b2d7e7f",
+ "self_retrieval": {
+  "summary": {
+   "before_raw_tfidf": {
+    "r_at_1": 67,
+    "n": 95,
+    "mrr": 0.8224,
+    "misses": [
+     {
+      "slug": "neuro_hub",
+      "rank": 4,
+      "top": "neuro_hub_dashboard"
+     },
+     {
+      "slug": "gene_explorer",
+      "rank": 2,
+      "top": "protein_painter"
+     },
+     {
+      "slug": "dark_genome",
+      "rank": 2,
+      "top": "rna_decoder"
+     },
+     {
+      "slug": "synbio_studio",
+      "rank": 7,
+      "top": "micro_tx"
+     },
+     {
+      "slug": "biofactory_1_a",
+      "rank": 2,
+      "top": "robotic_flow"
+     },
+     {
+      "slug": "syn_stab_ai",
+      "rank": 2,
+      "top": "synthetic_life"
+     },
+     {
+      "slug": "bio_switch",
+      "rank": 4,
+      "top": "cellfatenet"
+     },
+     {
+      "slug": "phageforge",
+      "rank": 5,
+      "top": "crispr_muse"
+     },
+     {
+      "slug": "cell_twin",
+      "rank": 3,
+      "top": "cellfatenet"
+     },
+     {
+      "slug": "fate_predictor",
+      "rank": 2,
+      "top": "cellfatenet"
+     },
+     {
+      "slug": "virtual_cell",
+      "rank": 4,
+      "top": "cellfatenet"
+     },
+     {
+      "slug": "bioimage_ai",
+      "rank": 2,
+      "top": "living_computer"
+     },
+     {
+      "slug": "cellpainter",
+      "rank": 2,
+      "top": "syndroid"
+     },
+     {
+      "slug": "tissue_eng",
+      "rank": 2,
+      "top": "cellfatenet"
+     },
+     {
+      "slug": "car_t_designer",
+      "rank": 2,
+      "top": "neohunter"
+     },
+     {
+      "slug": "living_tx",
+      "rank": 2,
+      "top": "micro_tx"
+     },
+     {
+      "slug": "gene_tx_opt",
+      "rank": 2,
+      "top": "liquid_biopsy"
+     },
+     {
+      "slug": "vector_opt",
+      "rank": 2,
+      "top": "liquid_biopsy"
+     },
+     {
+      "slug": "neodti_engine",
+      "rank": 4,
+      "top": "liquid_biopsy"
+     },
+     {
+      "slug": "rarenet_ai",
+      "rank": 2,
+      "top": "micro_tx"
+     },
+     {
+      "slug": "oncocircuit",
+      "rank": 5,
+      "top": "micro_tx"
+     },
+     {
+      "slug": "microaiverse",
+      "rank": 2,
+      "top": "micro_tx"
+     },
+     {
+      "slug": "microbiome_exp",
+      "rank": 2,
+      "top": "micro_tx"
+     },
+     {
+      "slug": "microbiome_rx",
+      "rank": 6,
+      "top": "micro_tx"
+     },
+     {
+      "slug": "riboswitch",
+      "rank": 4,
+      "top": "rna_decoder"
+     },
+     {
+      "slug": "phage_designer",
+      "rank": 3,
+      "top": "bioprint_pro"
+     },
+     {
+      "slug": "dti_bench",
+      "rank": 2,
+      "top": "liquid_biopsy"
+     },
+     {
+      "slug": "molecule_eval",
+      "rank": 2,
+      "top": "liquid_biopsy"
+     }
+    ]
+   },
+   "after_bm25": {
+    "r_at_1": 93,
+    "n": 95,
+    "mrr": 0.9895,
+    "misses": [
+     {
+      "slug": "syndroid",
+      "rank": 2,
+      "top": "synthetic_life"
+     },
+     {
+      "slug": "synlife_evo",
+      "rank": 2,
+      "top": "syn_stab_ai"
+     }
+    ]
+   }
+  },
+  "name": {
+   "before_raw_tfidf": {
+    "r_at_1": 74,
+    "n": 95,
+    "mrr": 0.8661,
+    "misses": [
+     {
+      "slug": "neuro_hub",
+      "rank": 3,
+      "top": "neuro_hub_dashboard"
+     },
+     {
+      "slug": "crispr_opt",
+      "rank": 2,
+      "top": "codon_opt"
+     },
+     {
+      "slug": "synbio_studio",
+      "rank": 9,
+      "top": "syn_bio_studio"
+     },
+     {
+      "slug": "cell_free_opt",
+      "rank": 3,
+      "top": "codon_opt"
+     },
+     {
+      "slug": "stability_ai",
+      "rank": 2,
+      "top": "syn_stab_ai"
+     },
+     {
+      "slug": "phageforge",
+      "rank": 2,
+      "top": "cellfatenet"
+     },
+     {
+      "slug": "cell_twin",
+      "rank": 2,
+      "top": "cellfatenet"
+     },
+     {
+      "slug": "virtual_cell",
+      "rank": 3,
+      "top": "syndroid"
+     },
+     {
+      "slug": "cellpainter",
+      "rank": 3,
+      "top": "syndroid"
+     },
+     {
+      "slug": "cellpainter_4d",
+      "rank": 3,
+      "top": "evofold_4d"
+     },
+     {
+      "slug": "car_t_designer",
+      "rank": 3,
+      "top": "bioprint_pro"
+     },
+     {
+      "slug": "living_tx",
+      "rank": 2,
+      "top": "living_computer"
+     },
+     {
+      "slug": "gene_tx_opt",
+      "rank": 3,
+      "top": "codon_opt"
+     },
+     {
+      "slug": "vector_opt",
+      "rank": 3,
+      "top": "codon_opt"
+     },
+     {
+      "slug": "rarenet_ai",
+      "rank": 2,
+      "top": "micro_tx"
+     },
+     {
+      "slug": "microbiome_exp",
+      "rank": 2,
+      "top": "micro_tx"
+     },
+     {
+      "slug": "phage_designer",
+      "rank": 3,
+      "top": "synlife_evo"
+     },
+     {
+      "slug": "cfd_offtarget",
+      "rank": 3,
+      "top": "crispr_opt"
+     },
+     {
+      "slug": "mit_offtarget",
+      "rank": 2,
+      "top": "crispr_opt"
+     },
+     {
+      "slug": "rna_nussinov",
+      "rank": 2,
+      "top": "rna_decoder"
+     },
+     {
+      "slug": "report_studio",
+      "rank": 3,
+      "top": "docking_studio"
+     }
+    ]
+   },
+   "after_bm25": {
+    "r_at_1": 93,
+    "n": 95,
+    "mrr": 0.9895,
+    "misses": [
+     {
+      "slug": "neuro_hub",
+      "rank": 2,
+      "top": "neuro_hub_dashboard"
+     },
+     {
+      "slug": "synbio_studio",
+      "rank": 2,
+      "top": "syn_bio_studio"
+     }
+    ]
+   }
+  }
+ },
+ "bm25": {
+  "k1": 1.2,
+  "b": 0.75,
+  "doc_len_tokens_min": 11,
+  "doc_len_tokens_max": 2132
+ },
+ "name_boost_substring_examples": {
+  "a": [
+   "Neuro-Hub (Dashboard)",
+   "SynBio Wizard",
+   "Gene Analysis"
+  ],
+  "in": [
+   "Neuro-Pipeline",
+   "ChemGPT Engine",
+   "OpenClinVar"
+  ],
+  "of": [
+   "EvoFold 4D",
+   "BioFactory 1-A",
+   "CFD Off-Target"
+  ]
+ },
+ "bug80": {
+  "recent_projects_limit0_before": "returned all projects (slice [-0:])",
+  "after": "[]",
+  "negative_limit": "ValueError",
+  "search_limit_minus1_before": "returned all-but-last results",
+  "after_search": "ValueError"
+ },
+ "bug81": "register_project accepted any module string and empty names; now validated against the 95-slug REGISTRY and exported",
+ "dashboard": {
+  "modules_total": 95,
+  "subnetworks": 9
+ },
+ "negative": {
+  "amyloid beta Alzheimer top3": [
+   [
+    "synlife_evo",
+    1.371
+   ],
+   [
+    "bioprint_pro",
+    1.34
+   ],
+   [
+    "micro_tx",
+    1.205
+   ]
+  ],
+  "note": "no module spec covers neurodegeneration; top hits are weak token overlaps (score ~1.3). Residual self-retrieval misses are near-duplicate module pairs."
+ }
+}
