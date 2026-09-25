@@ -1,0 +1,66 @@
+{
+ "module": "phage_designer",
+ "sources": [
+  "recomputation",
+  "first-order adsorption literature (Schlesinger 1932)"
+ ],
+ "fibers": {
+  "LamB": {
+   "scaffold": "gp37/gp38",
+   "adsorption": 0.99,
+   "adsorption_recomputed": 0.99,
+   "ok": true,
+   "off_target": "low"
+  },
+  "OmpC": {
+   "scaffold": "gp37/gp38",
+   "adsorption": 0.99,
+   "adsorption_recomputed": 0.99,
+   "ok": true,
+   "off_target": "low"
+  },
+  "FhuA": {
+   "scaffold": "gp17",
+   "adsorption": 0.99,
+   "adsorption_recomputed": 0.99,
+   "ok": true,
+   "off_target": "low"
+  }
+ },
+ "lysin": {
+  "potency": 0.675,
+  "potency_recomputed": 0.675,
+  "mic_module": 3.4,
+  "mic_recomputed": 3.4,
+  "om_note": "gram- outer membrane blocks lysins - add membrane-penetratin"
+ },
+ "adsorption_time": {
+  "pre_fix_bound_t1": 999999.9800000004,
+  "pre_fix_bound_t60": 999999.9800000004,
+  "pre_fix": "bound identical at t=1 and t=60 (time_min ignored); sugarcode 5b4e870 parent",
+  "post_fix_small_k": {
+   "bound_t10": 632120.5588285576,
+   "bound_t60": 997521.2478233336,
+   "grows": true
+  },
+  "post_fix_first_order_ok": true,
+  "literature": "phage adsorption is first-order: bound = P0*(1-exp(-k*B*t)) (Schlesinger 1932)"
+ },
+ "escape": {
+  "module": {
+   "escape_probability": 0.9999999979388464,
+   "expected_escape_variants": 20.0
+  },
+  "expected_prob": 0.9999999979388464,
+  "expected_variants": 20.0
+ },
+ "host_range": {
+  "strain_scores": {
+   "E coli K12": 0.99,
+   "E coli B": 0.198
+  },
+  "predicted_hosts": [
+   "E coli K12"
+  ]
+ }
+}
