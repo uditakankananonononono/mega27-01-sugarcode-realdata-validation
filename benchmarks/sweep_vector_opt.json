@@ -1,0 +1,89 @@
+{
+ "module": "vector_opt",
+ "sources": [
+  "UniProtKB P03135 (AAV2 VP1)",
+  "UniProtKB Q6JC40 (AAV9 VP1)",
+  "Biopython PairwiseAligner",
+  "NCBI PubMed"
+ ],
+ "alignment": {
+  "aav2_len": 735,
+  "aav9_len": 736,
+  "aligned_len": 734,
+  "identical": 604,
+  "global_identity": 0.8229
+ },
+ "region_identity_aav2_vs_aav9": {
+  "VR-I": 0.75,
+  "VR-II": 0.571,
+  "VR-III": 0.889,
+  "VR-IV": 0.429,
+  "VR-V": 0.533,
+  "VR-VI": 0.625,
+  "VR-VII": 0.538,
+  "VR-VIII": 0.333,
+  "VR-IX": 0.769,
+  "HI_loop": 0.615,
+  "GH_loop": 0.806
+ },
+ "module_conservation": {
+  "VR-IV": 0.3,
+  "VR-VIII": 0.4,
+  "GH_loop": 0.35,
+  "HI_loop": 0.7,
+  "threefold_spike": 0.5
+ },
+ "conservation_notes": "module CONSERVATION vs measured AAV2/AAV9 window identity: VR-IV module 0.3, VR-VIII 0.4, GH_loop 0.35, HI_loop 0.7, threefold_spike 0.5 (spike proxied by VR-IV window)",
+ "heparin_motif": {
+  "AAV2_585": "R",
+  "AAV2_588": "R",
+  "AAV9_at_585_588": "HQSAQA",
+  "aav2_has_R585_R588": true,
+  "module_vrviii_receptor_contact": false,
+  "note": "R585/R588 are the AAV2 heparan-sulfate receptor contact (Summerford 1998)"
+ },
+ "scoring_recomputation": [
+  {
+   "seed": 1,
+   "variants_match": true,
+   "lead_ok": true,
+   "docking_gain_ok": true,
+   "sera_ok": true
+  },
+  {
+   "seed": 2,
+   "variants_match": true,
+   "lead_ok": true,
+   "docking_gain_ok": true,
+   "sera_ok": true
+  },
+  {
+   "seed": 3,
+   "variants_match": true,
+   "lead_ok": true,
+   "docking_gain_ok": true,
+   "sera_ok": true
+  }
+ ],
+ "deterministic": true,
+ "directed_evolution": {
+  "lineage": [
+   "AAV9",
+   "AAV9-V3",
+   "AAV9-V3-V6",
+   "AAV9-V3-V6-V1"
+  ],
+  "round_seeds_ok": true,
+  "dead_rng_line": "directed_evolution creates rng=random.Random(seed) but never uses it (documented, cosmetic)"
+ },
+ "citations": {
+  "summerford1998_candidates": [
+   "10229239",
+   "9883843",
+   "9445046"
+  ],
+  "govindasamy_candidates": [
+   "23926356"
+  ]
+ }
+}

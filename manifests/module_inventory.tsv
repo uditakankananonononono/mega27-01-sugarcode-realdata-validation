@@ -92,7 +92,7 @@ module	syndroid	231	2	not yet validated
 module	synlife_evo	278	4	not yet validated	
 module	synthetic_life	197	2	not yet validated	
 module	tissue_eng	193	2	not yet validated	
-module	vector_opt	95	2	not yet validated	
+module	vector_opt	100	3	validated	benchmarks/sweep_vector_opt.json
 module	virtual_cell	504	3	not yet validated	
 bio	align	164	1	validated	benchmarks/sweep_align_parasail.json
 bio	bed	180	1	validated	benchmarks/sweep_bed_bioframe.json

@@ -561,3 +561,7 @@ pubmed	25079552	TCGA LUAD Nature 2014 (liquid_biopsy sweep)	PMID 25079552	sweep/
 pubmed	28810144	TCGA PDAC Cancer Cell 2017 (liquid_biopsy sweep)	PMID 28810144	sweep/liquid_biopsy.py
 pubmed	27428049	Underhill 2016 ctDNA fragment length (134-144 vs 167 bp) (liquid_biopsy sweep)	PMID 27428049	sweep/liquid_biopsy.py
 pubmed	26771485	Snyder 2016 cfDNA nucleosome footprint (liquid_biopsy sweep)	PMID 26771485	sweep/liquid_biopsy.py
+uniprot	P03135	AAV2 capsid protein VP1 (735 aa); region identity + R585/R588 heparin motif (vector_opt sweep)	UniProt REST	sweep/vector_opt.py
+uniprot	Q6JC40	AAV9 capsid protein VP1 (736 aa); region identity (vector_opt sweep)	UniProt REST	sweep/vector_opt.py
+pubmed	9445046	Summerford & Samulski 1998 J Virol: HSPG is the AAV2 receptor (vector_opt sweep)	PMID 9445046	sweep/vector_opt.py
+pubmed	16378984	Lochrie 2006 J Virol: AAV2 capsid surface mutations affect transduction/neutralization (vector_opt sweep)	PMID 16378984	sweep/vector_opt.py
