@@ -1,0 +1,29 @@
+{
+ "module": "synbio_wizard",
+ "module_number": 122,
+ "validation": {
+  "gillespie_truncation_last_t": 10.6853,
+  "gillespie_requested_hours": 24,
+  "gillespie_event_count": 200000,
+  "flux_balance_product_flux": 2.4000000000000004,
+  "flux_balance_atp_use": 9.600000000000001
+ },
+ "anchors": {
+  "pubmed_crispr_gc": {
+   "42781469": "Transposon-derived genome editors in plants: from compact nucleases to large-fragment integration and regeneration strategies.",
+   "42780917": "Cas12a chRDNA-mediated in vivo genome editing for high specificity functional gene disruption."
+  }
+ },
+ "bugs": [
+  {
+   "id": "BUG 118",
+   "desc": "variant_effect mapped codons outside its translation table to 'X' silently: variant_effect('ZZZ','QQQ') classified 'synonymous' with deleterious_probability 0.5. Now ValueError listing valid codons."
+  },
+  {
+   "id": "BUG 119",
+   "desc": "gillespie_expression's 200k event cap truncated the trajectory silently: with transcription=10, translation=1000 the simulation stopped at t=10.69 h while reporting hours=24. Now reports truncated flag and simulated_hours."
+  }
+ ],
+ "formula": "F150 SSA truncation bound and competitive Michaelis-Menten: v=vmax*S/(Km(1+I/Ki)+S); serial-pathway LP max x_n s.t. x_{i+1}<=x_i, sum(x)<=ATP, 0.5*sum((i+1)x_i)<=redox",
+ "tests_added": "tests/test_synbio_wizard_realdata.py (5 tests)"
+}
