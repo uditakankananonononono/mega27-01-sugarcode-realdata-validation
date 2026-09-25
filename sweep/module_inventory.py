@@ -19,6 +19,7 @@ EVIDENCE={('module','chem_descriptors'):'benchmarks/results.json (VERDICTS table
 ('module','living_computer'):'benchmarks/sweep_living_computer.json',
 ('module','living_tx'):'benchmarks/sweep_living_tx.json',
 ('module','micro_tx'):'benchmarks/sweep_micro_tx.json',
+('module','microaiverse'):'benchmarks/sweep_microaiverse.json',
 }
 def loc(p):
     n=0

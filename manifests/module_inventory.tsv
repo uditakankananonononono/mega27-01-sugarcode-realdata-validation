@@ -47,7 +47,7 @@ module	living_computer	863	3	validated	benchmarks/sweep_living_computer.json
 module	living_tx	200	3	validated	benchmarks/sweep_living_tx.json
 module	metabodesigner	190	4	validated	benchmarks/sweep_metabodesigner.json
 module	micro_tx	238	3	validated	benchmarks/sweep_micro_tx.json
-module	microaiverse	138	2	not yet validated	
+module	microaiverse	147	3	validated	benchmarks/sweep_microaiverse.json
 module	microbiome_exp	120	3	validated	benchmarks/sweep_microbiome.json
 module	microbiome_rx	172	2	not yet validated	
 module	mit_offtarget	154	2	validated	VERDICTS table; sweep/crispr_vs_crispor.py

@@ -1,0 +1,71 @@
+{
+ "module": "microaiverse",
+ "checks": [
+  {
+   "check": "predicted_success_unbounded",
+   "before": {
+    "five_gaps": 1.5,
+    "five_duplicate_gaps": {
+     "score": 1.5,
+     "supplements": [
+      "cobalamin 1 ug/L x5"
+     ]
+    }
+   },
+   "after": {
+    "five_gaps": 0.95,
+    "five_duplicate_gaps": {
+     "score": 0.7,
+     "supplements": [
+      "cobalamin 1 ug/L"
+     ]
+    },
+    "one_gap": 0.7,
+    "two_gaps": 0.9
+   },
+   "fix": "gaps deduped (order-preserving); score capped at 0.95 - no cultivation is a certainty",
+   "passed": true
+  },
+  {
+   "check": "optimize_medium_empty_requirements",
+   "before": "raw linprog crash: ValueError 'Invalid input for linprog: c must be a 1-D array...'",
+   "after": {
+    "supplements": {},
+    "total_cost": 0.0,
+    "within_budget": true,
+    "optimal": true
+   },
+   "passed": true
+  },
+  {
+   "check": "lp_matches_analytic_optimum",
+   "detail": "min-cost medium equals x_i = req_i exactly; cobalamin 1.0@3.0 + heme 2.0@1.5 = 6.0",
+   "passed": true
+  },
+  {
+   "check": "partner_ranking_arithmetic",
+   "detail": "coverage = sum(min(secretion, req))/sum(req) = 2.8/3.0; competition = min-uptake overlap 0.5; net = coverage - 0.4*competition - recomputed exactly",
+   "passed": true
+  },
+  {
+   "check": "external_anchors",
+   "kaeberlein": {
+    "pmid": "12004133",
+    "claim": "diffusion-chamber isolation of 'uncultivable' microbes (Kaeberlein 2002, Science) - the module's 'diffusion chamber with partner' trick for syntrophs"
+   },
+   "b12_note": {
+    "pmid": "35536023",
+    "claim": "Bacteroides metabolic-synergy context; module's Bacteroides B12/amino-acid donor role is plausible for some species (B. fragilis cob pathway) - not independently verified per species"
+   },
+   "passed": true
+  }
+ ],
+ "verdict": "TWO BUGS FIXED (76, 77): predicted_success exceeded 1.0 and duplicate gaps inflated it (now deduped, capped 0.95); optimize_medium crashed on empty requirements (now returns the zero-cost empty medium).",
+ "defects_found": 2,
+ "negatives": [
+  "predicted_success still RISES with more gaps (more known requirements -> better-defined medium); the alternative reading (more auxotrophies -> harder organism) is documented, model choice kept",
+  "simulate_coculture mixes the supplement pool and partner-secreted metabolites in one crossfed_pool and its initial concentration is the sum of supplement flux amounts - unit mixing in a hermetic model, documented",
+  "cap 0.95 is a convention, not a measured ceiling"
+ ],
+ "notes": "2 PubMed anchors fetched live via Entrez, titles verified"
+}
