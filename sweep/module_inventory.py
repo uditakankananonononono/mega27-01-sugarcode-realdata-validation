@@ -23,6 +23,7 @@ EVIDENCE={('module','chem_descriptors'):'benchmarks/results.json (VERDICTS table
 ('module','microbiome_rx'):'benchmarks/sweep_microbiome_rx.json',
 ('module','neodti_engine'):'benchmarks/sweep_neodti_engine.json',
 ('module','neuro_hub'):'benchmarks/sweep_neuro_hub.json',
+('module','neuro_hub_dashboard'):'benchmarks/sweep_neuro_hub_dashboard.json',
 }
 def loc(p):
     n=0

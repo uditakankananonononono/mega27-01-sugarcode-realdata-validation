@@ -1,0 +1,137 @@
+{
+ "module": "neuro_hub_dashboard",
+ "date": "2026-09-25",
+ "sc_ai_base": "f42ba5a",
+ "input": "omega.health.compute_flux() records for all 95 modules, first 3 forced not-importable; registry summaries as search corpus",
+ "bug83": {
+  "degraded_before": [
+   null,
+   null,
+   null
+  ],
+  "degraded_after": [
+   "neuro_hub",
+   "bio_copilot",
+   "synbio_wizard"
+  ]
+ },
+ "bug84": {
+  "samples_input_order": [
+   2,
+   1
+  ],
+  "trend_before": 0.052631578947368474,
+  "trend_after": -0.052631578947368474
+ },
+ "bug85": {
+  "a": {
+   "before": {
+    "n_matches": 95,
+    "top3": [
+     [
+      "chem_descriptors",
+      21
+     ],
+     [
+      "acmg_bayesian",
+      19
+     ],
+     [
+      "neuro_pipeline",
+      15
+     ]
+    ]
+   },
+   "after": {
+    "n_matches": 2,
+    "top3": [
+     [
+      "biogpt_lit",
+      1
+     ],
+     [
+      "biofactory_1_a",
+      1
+     ]
+    ]
+   }
+  },
+  "RNA": {
+   "before": {
+    "n_matches": 13,
+    "top3": [
+     [
+      "rna_decoder",
+      2
+     ],
+     [
+      "rna_nussinov",
+      2
+     ],
+     [
+      "gene_explorer",
+      1
+     ]
+    ]
+   },
+   "after": {
+    "n_matches": 4,
+    "top3": [
+     [
+      "rna_nussinov",
+      2
+     ],
+     [
+      "dark_genome",
+      1
+     ],
+     [
+      "rna_decoder",
+      1
+     ]
+    ]
+   }
+  },
+  "CRISPR guide RNA design off-target": {
+   "before": {
+    "n_matches": 32,
+    "top3": [
+     [
+      "crispr_opt",
+      4
+     ],
+     [
+      "prime_design",
+      4
+     ],
+     [
+      "crisprater",
+      3
+     ]
+    ]
+   },
+   "after": {
+    "n_matches": 24,
+    "top3": [
+     [
+      "crispr_opt",
+      5
+     ],
+     [
+      "prime_design",
+      4
+     ],
+     [
+      "mit_offtarget",
+      3
+     ]
+    ]
+   }
+  }
+ },
+ "negatives": [
+  "legacy_dashboard/neuro_hub re-exports are passed through unchanged",
+  "search still has no idf weighting (term counts only); omega.search BM25 is the ranked path",
+  "project store in memory only"
+ ]
+}
