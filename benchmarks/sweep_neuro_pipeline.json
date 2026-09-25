@@ -1,0 +1,53 @@
+{
+ "module": "neuro_pipeline",
+ "date": "2026-09-25",
+ "sc_ai_base": "df371f0",
+ "dataset": {
+  "source": "UCI ML Repository dataset 67, Molecular Biology (Promoter Gene Sequences), E. coli",
+  "url": "https://archive.ics.uci.edu/ml/machine-learning-databases/molecular-biology/promoter-gene-sequences/promoters.data",
+  "n": 106,
+  "positives": 53,
+  "length_nt": 57,
+  "sha256": "edd5f6f266ee04a78d4a8d88594e335fb8b5e8f204e63244eec3c2a9e5befd9d"
+ },
+ "bug86_before": {
+  "reported": "train_accuracy only",
+  "default_synthetic_train_accuracy": 0.965,
+  "fresh_seed99_accuracy": 0.64,
+  "uci_onehot_train_full": 0.991,
+  "uci_kmer_train_full": 0.906
+ },
+ "real_after": {
+  "onehot": {
+   "train_accuracy": 1.0,
+   "holdout_accuracy": 0.727,
+   "generalization_gap": 0.273,
+   "n_train": 84,
+   "n_holdout": 22,
+   "cv10_accuracy": 0.765
+  },
+  "kmer": {
+   "train_accuracy": 0.94,
+   "holdout_accuracy": 0.773,
+   "generalization_gap": 0.168,
+   "n_train": 84,
+   "n_holdout": 22,
+   "cv10_accuracy": 0.842
+  }
+ },
+ "synthetic_default_after": {
+  "train_accuracy": 0.975,
+  "holdout_accuracy": 0.562,
+  "generalization_gap": 0.412,
+  "n_train": 320,
+  "n_holdout": 80,
+  "fresh_seed99_accuracy": 0.615
+ },
+ "bug87": "sequence_pipeline_demo lesioned the training sequences re-encoded one-hot regardless of encoding; docstring said kmer was default while code used onehot. Now lesions held-out sequences with the training encoding; docstring matches code.",
+ "bug88": "rsa and lesion_study defaulted to n_in=6 and crashed (matmul dim mismatch 200 vs 6) on every sequence-trained model; defaults now use the model input width; rsa accepts real stimuli X.",
+ "negatives": [
+  "one-hot position-specific encoding memorises 57-nt promoters (holdout 0.727, CV10 above) - kmer generalises better but default kept as documented onehot; no refit of defaults",
+  "continual_update is an L2 anchor to previous weights (no Fisher information) despite ewc naming",
+  "classic literature accuracies on this dataset were not re-verified here"
+ ]
+}
