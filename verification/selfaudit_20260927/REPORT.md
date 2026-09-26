@@ -133,3 +133,16 @@ Open gaps: Tier-1 rows beyond regenerated headlines are suite-locked, not
 individually live-reverified; 73 Tier-3 modules have no zero-arg probe
 (behavioral coverage via the suite only); Ensembl-dependent routes remain
 Missing per the repo's own ledger (not re-tested).
+
+## Leg 6: live network spot-check of Tier-1 claims (2026-09-27 01:14)
+- openclinvar BRCA1 c.5266dup: live ClinVar match "Pathogenic, reviewed by
+  expert panel, 3-star" - STATUS claim VERIFIED live.
+- gnomAD r4 SCN1A: LOEUF 0.1067 (claim 0.107), strongly LOF-constrained -
+  VERIFIED live.
+- gnomAD r4 TP53: LOEUF 0.4184 (claim 0.418) - value verified, but the
+  STATUS row "TP53 0.418 honestly no [constrained]" is STALE: the module
+  moved to the documented gnomAD v4 guidance threshold LOEUF < 0.45
+  (code comment cites the gnomAD help page, read 2026-09-25), under which
+  TP53 is now flagged constrained. DOCUMENTATION FINDING #6 (stale ledger
+  row after a deliberate threshold change; the v4-guidance citation is as
+  documented in code, not independently re-verified by the auditor).

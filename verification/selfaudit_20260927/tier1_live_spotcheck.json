@@ -1,0 +1,80 @@
+{
+ "openclinvar_brca1": {
+  "ok": true,
+  "result": {
+   "gene": "BRCA1",
+   "variant": "c.5266dup",
+   "consequence": "frameshift",
+   "classification": "pathogenic",
+   "confidence": 0.923,
+   "evidence": [
+    {
+     "rule": "consequence_type",
+     "weight": 0.95,
+     "detail": "frameshift baseline weight 0.95"
+    },
+    {
+     "rule": "CLINVAR_LIVE",
+     "weight": 0.8,
+     "detail": "live ClinVar: Pathogenic (reviewed by expert panel; 3-star review)"
+    }
+   ],
+   "curated_note": null,
+   "plain_language": "In gene BRCA1, variant c.5266dup shifts the reading frame, scrambling the protein from this point. Current evidence says it is expected to cause disease.",
+   "gnomad_constraint": {
+    "gene": "BRCA1",
+    "dataset": "gnomad_r4",
+    "pli": 5.517117679826164e-38,
+    "lof_z": 2.166730583628391,
+    "oe_lof": 0.8061824760986327,
+    "loeuf": 0.927589724465447,
+    "mis_z": 1.73357180717296,
+    "oe_mis": 0.9127915412080277,
+    "lof_constrained": false,
+    "loeuf_threshold": 0.45,
+    "interpretation": "not strongly LOF-constrained (LOEUF >= 0.45 or unknown)"
+   },
+   "clinvar_live": {
+    "status": "matched",
+    "title": "NM_007294.4(BRCA1):c.5266dup (p.Gln1756fs)",
+    "significance": "Pathogenic",
+    "review_status": "reviewed by expert panel",
+    "stars": 3,
+    "evidence_strength_assigned": "strong",
+    "note": "classification shown alongside model evidence - clinician adjudicates"
+   }
+  }
+ },
+ "gnomad_scn1a": {
+  "ok": true,
+  "result": {
+   "gene": "SCN1A",
+   "dataset": "gnomad_r4",
+   "pli": 1,
+   "lof_z": 11.01555909824863,
+   "oe_lof": 0.06710094439714273,
+   "loeuf": 0.10668311571676678,
+   "mis_z": 8.779151266270532,
+   "oe_mis": 0.5842214348461244,
+   "lof_constrained": true,
+   "loeuf_threshold": 0.45,
+   "interpretation": "strongly LOF-constrained (LOEUF < 0.45, gnomAD v4 guidance): heterozygous LOF variants are strongly selected against"
+  }
+ },
+ "gnomad_tp53": {
+  "ok": true,
+  "result": {
+   "gene": "TP53",
+   "dataset": "gnomad_r4",
+   "pli": 0.999595868281925,
+   "lof_z": 4.289866512930939,
+   "oe_lof": 0.2582140811696815,
+   "loeuf": 0.4183620979251529,
+   "mis_z": 1.121638987172852,
+   "oe_mis": 0.8851341366742863,
+   "lof_constrained": true,
+   "loeuf_threshold": 0.45,
+   "interpretation": "strongly LOF-constrained (LOEUF < 0.45, gnomAD v4 guidance): heterozygous LOF variants are strongly selected against"
+  }
+ }
+}
