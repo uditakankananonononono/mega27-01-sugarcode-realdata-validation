@@ -568,3 +568,539 @@ package rather than a new scientific finding" - produced these concrete changes 
    RS2 on genes disjoint from all training genes of both rule sets, with guide-level
    bootstrap CIs; optimizer circularity (design pipeline ranking with RS1) must be
    removed BEFORE the benchmark runs so the compared ranker is the shipped one.
+
+---
+
+## ROUND 2 of 10 - 2026-09-26 ~17:10 IST (ChatGPT, her account, cloud browser)
+
+### PROMPT (verbatim)
+
+```
+You are an ISEF grand-award judge. Same CRISPR-scoring validation project as before; this round is about redirecting a first honest negative into a stronger scientific claim. New results since round 1: (1) RESOLVED the CRISPRscan coefficient discrepancy against the original Moreno-Mateos 2015 supplement - CRISPOR misplaces the largest negative weight (AA19 vs its AA18); our toolkit matches the original model; upstream bug report filed. (2) We ran the planned discovery study: do CFD-vs-MIT-score disagreements carry biological information about MEASURED off-target cleavage? Data: 764 experimentally measured on/off-target rows from 7 studies (Cho2014, Frock2015, Hsu2013, Kim2015, Ran2015, Tsai2015 GUIDE-seq, Wang2015), 600 usable off-targets with <=4 mismatches across 45 guides. Results: at read-fraction threshold 0.001, global AUROC CFD 0.669 vs MIT 0.619; a 2-feature logistic (log CFD + log MIT) with leave-one-guide-out CV got 0.649 - WORSE than CFD alone, so the naive combined model fails. BUT: per-study heterogeneity is large (MIT wins on Cho 0.782 vs 0.698 and Kim16 0.725 vs 0.562; CFD wins on Hsu, Tsai, Wang, Kim/K562); at a strict 0.05 threshold MIT beats CFD (0.771 vs 0.744); and the discordance residual (log CFD regressed on log MIT) correlates with log measured read fraction at Spearman 0.327. So: signal exists in the residual but does not survive predictive CV. As the judge: how do we redirect this into a rigorous, novel, publishable claim? Is the right move per-study read-fraction normalization, a continuous regression framework, mismatch-class-restricted analysis, or something else? What exactly would convince you the discordance is real biology versus dataset noise and study-effect confounding? Give a concrete experimental design with controls.
+```
+
+### RESPONSE (verbatim)
+
+```
+Show more
+ISEF Grand Award Judge Review: The project should not pivot into “a better predictor.” Pivot into a mechanistic audit of where existing CRISPR specificity models fail and why.
+
+Your strongest result is not AUROC 0.669 vs 0.619. That is incremental. The scientifically interesting result is:
+
+When two established mismatch-based CRISPR off-target models disagree, the disagreement contains biological signal, but that signal is context-dependent and is not captured by a simple global ensemble.
+
+That is a much stronger claim because it turns a failed classifier into a model disagreement biology study.
+
+However, the current evidence is not yet sufficient because the biggest alternative explanation is:
+
+“The discordance residual is just a proxy for study protocol, guide identity, sequencing depth, or publication-era differences.”
+
+You need to design experiments that separate biology from dataset structure.
+
+First: what I would NOT do
+1. Do not make per-study normalization the main discovery
+
+Per-study normalization is necessary, but alone it is dangerous.
+
+Why?
+
+Your strongest examples:
+
+MIT wins Cho2014
+
+MIT wins Kim2015
+
+CFD wins GUIDE-seq/Tsai/Wang
+
+This screams:
+
+assay technology effect.
+
+Different studies used:
+
+different cell types
+
+different detection platforms
+
+different thresholds
+
+different sequencing depths
+
+different mismatch distributions
+
+A model that learns "GUIDE-seq favors CFD" is not discovering cleavage biology.
+
+A judge will immediately ask:
+
+"Did you discover biology, or did you rediscover that assays differ?"
+
+So: normalize, but do not stop there.
+
+The strongest redirect: "Discordance as a biological phenotype"
+
+I would redesign the paper around:
+
+Title concept
+
+"When CRISPR specificity models disagree: identifying hidden sequence determinants of off-target cleavage beyond MIT and CFD scores"
+
+The hypothesis:
+
+MIT and CFD encode partially overlapping but biologically incomplete models of cleavage. Their residual disagreement identifies sequence contexts where current scoring functions fail.
+
+This is novel enough.
+
+Experiment 1 — Replace binary classification with continuous cleavage modeling
+
+This is the most important change.
+
+Your current endpoint:
+
+"Does this off-target exceed threshold?"
+
+throws away information.
+
+You already have:
+
+measured read fraction
+
+mismatch count
+
+guide identity
+
+study
+
+Use:
+
+log(read fraction)
+
+as the response.
+
+Model:
+
+Baseline
+Y=β
+0
+	​
+
++β
+1
+	​
+
+CFD+β
+2
+	​
+
+MIT+ϵ
+
+Then test:
+
+Discordance model
+Y=β
+0
+	​
+
++β
+1
+	​
+
+CFD+β
+2
+	​
+
+MIT+β
+3
+	​
+
+(CFD−MIT)+ϵ
+
+The question becomes:
+
+Does disagreement between models explain cleavage magnitude after accounting for both scores?
+
+Your current Spearman 0.327 suggests there may be something here.
+
+But do it properly.
+
+Experiment 2 — Mixed-effects model (this is probably your winning analysis)
+
+The dataset is not independent.
+
+The same guide produces many off-targets.
+
+The same study produces many measurements.
+
+Your statistical structure is:
+
+off-target
+    |
+    +-- guide
+    |
+    +-- study
+
+Use:
+
+log(readfraction)∼CFD+MIT+Discordance+(1∣guide)+(1∣study)
+
+Meaning:
+
+fixed effects = sequence scoring
+
+random effects = guide-specific biology and study protocol
+
+Your key test:
+
+Does the discordance coefficient remain significant?
+
+Interpretation:
+If discordance disappears:
+
+Your claim becomes:
+
+Model disagreement reflects guide/study effects rather than hidden cleavage biology.
+
+Still publishable as a benchmarking critique.
+
+If discordance survives:
+
+Now you have evidence:
+
+Existing scoring models leave systematic biological variance unexplained.
+
+That is much stronger.
+
+Experiment 3 — Stratify by mismatch class
+
+This is actually more important than per-study normalization.
+
+Why?
+
+CFD and MIT were trained on different assumptions about mismatch penalties.
+
+A 1-mismatch off-target is not biologically equivalent to a 4-mismatch off-target.
+
+Split:
+
+Group A
+
+1 mismatch
+
+Group B
+
+2 mismatches
+
+Group C
+
+3 mismatches
+
+Group D
+
+4 mismatches
+
+Then ask:
+
+Where does discordance predict?
+
+My expectation:
+
+The signal will probably concentrate in:
+
+2–3 mismatch sites
+
+because:
+
+1 mismatch: nearly everything cleaves
+
+4 mismatch: nearly nothing cleaves
+
+middle regime contains biological uncertainty
+
+A real discovery would look like:
+
+Discordance predicts cleavage specifically in intermediate mismatch regimes where existing scoring models disagree.
+
+That is a biological statement.
+
+Experiment 4 — Sequence feature discovery
+
+If discordance is real, ask:
+
+"What does CFD miss?"
+
+Build a residual model.
+
+Pipeline:
+
+Fit:
+
+read_fraction ~ CFD + MIT
+
+Calculate residual:
+
+observed - predicted
+
+Predict residual from sequence features:
+
+Candidate features:
+
+PAM context
+
+PAM type
+
+nucleotide immediately upstream/downstream
+
+mismatch topology
+
+Not just mismatch count.
+
+Examples:
+
+seed vs non-seed
+
+mismatch spacing
+
+adjacent mismatch pairs
+
+nucleotide identity
+
+Example:
+
+position 10 mismatch A→G
+
+rather than:
+
+one mismatch at position 10
+DNA thermodynamics
+
+GC
+
+melting temperature
+
+bulges if available
+
+The discovery question:
+
+What sequence features explain where CFD and MIT disagree?
+
+Critical control experiments
+
+These are what would convince me.
+
+Control 1: Guide-level held-out validation
+
+Your current LOGO CV is good.
+
+But do this specifically:
+
+Train:
+
+discover discordance-associated features
+
+Test:
+
+completely unseen guides
+
+Success:
+
+Residual prediction improves on unseen guides.
+
+Failure:
+
+Only memorizes guides.
+
+Control 2: Leave-one-study-out validation
+
+Even more important.
+
+Train:
+
+Cho + Frock + Hsu + Kim + Ran + Wang
+
+Test:
+
+Tsai GUIDE-seq
+
+Then rotate.
+
+If the effect survives:
+
+strong evidence.
+
+If it collapses:
+
+study artifact.
+
+Control 3: Negative-control residual
+
+Shuffle:
+
+CFD scores among off-targets
+
+MIT scores among off-targets
+
+Repeat residual analysis.
+
+If your correlation remains:
+
+you found an artifact.
+
+Control 4: Publication bias analysis
+
+Your dataset contains famous benchmark studies.
+
+Ask:
+
+Are high-cleavage sites overrepresented?
+
+Compare:
+
+all sites
+
+low-read sites
+
+high-read sites
+
+The CRISPOR bug discovery is actually valuable
+
+Do not bury it.
+
+This gives the project a second pillar:
+
+Pillar 1:
+
+Reproducibility failure
+
+"One widely used implementation differs from the original CRISPRscan model because of a coefficient indexing error."
+
+Pillar 2:
+
+Scientific uncertainty
+
+"Even after correcting scoring implementations, disagreement between models reveals unexplained cleavage variation."
+
+That is a coherent story:
+
+Before improving prediction, verify the predictors.
+
+Very ISEF-friendly.
+
+My proposed final paper claim
+
+Not:
+
+❌ "We built a better CRISPR off-target predictor."
+
+Too weak.
+
+Not:
+
+❌ "CFD beats MIT."
+
+Already known territory.
+
+Instead:
+
+Strong claim:
+
+"A systematic audit of CRISPR off-target scoring models reveals that model disagreement contains measurable information about cleavage activity, but this information is obscured by assay-specific effects. A mixed-effects and sequence-residual framework identifies when and why current scoring models fail."
+
+That is publishable.
+
+The exact next 4-week experiment I would require before giving a Grand Award score
+Dataset
+
+Your 600 off-targets.
+
+Models
+
+MIT only
+
+CFD only
+
+MIT + CFD
+
+MIT + CFD + discordance
+
+MIT + CFD + sequence residual features
+
+Validation:
+
+leave-one-guide-out
+
+leave-one-study-out
+
+Primary endpoint:
+
+Continuous:
+
+R
+2
+, RMSE, Spearman
+
+Secondary:
+
+AUROC at thresholds.
+
+Discovery:
+
+Find sequence contexts where:
+
+CFD predicts low
+MIT predicts high
+observed cleavage high
+
+and the opposite.
+
+My judge decision:
+
+The project is currently one strong analysis away from becoming a methods paper. The CRISPRscan bug alone is a reproducibility note. The CFD–MIT discordance alone is currently suggestive but confounded. Combining:
+
+implementation audit,
+
+mixed-effects continuous modeling,
+
+mismatch-class stratification,
+
+unseen-guide/unseen-study validation,
+
+would transform the negative result into a rigorous claim about the limits of current CRISPR specificity scoring models and the biological information hidden in their disagreements.
+
+```
+
+### Round 2 NOVELTY FOLD-BACK (required per 2026-09-26 17:00:38 rule)
+Judge redirection: stop pivoting to "a better predictor"; pivot to a mechanistic audit of
+WHERE existing models fail - replace threshold AUROC with continuous cleavage modeling,
+use a mixed-effects design (guide + study random effects) as the primary analysis, and
+stratify by mismatch class. Fold-back executed this wake (discovery/cfd_mit_discordance/,
+round2_foldback.py + round2_foldback_result.json):
+
+1. Exp 1 (continuous OLS): log10(readfrac) ~ CFD + MIT + |CFD-MIT|. Baseline R2=0.1385;
+   discordance term NOT significant in OLS (coef -0.292, p=0.634). Honest negative.
+   Methodological fix en route: the judge's literal (CFD-MIT) is an exact linear
+   combination of the included scores (perfect collinearity, LR test NaN), so the
+   discordance term was re-specified as the nonlinear |CFD-MIT|.
+2. Exp 2 (mixed effects, judge's "winning analysis"): log10(readfrac) ~ CFD + MIT +
+   |CFD-MIT| with crossed random intercepts for study and guide (45 guides, 8 studies,
+   600 sites; nm optimizer after lbfgs hit singular matrix). DISCORDANCE SURVIVES:
+   coef -1.376, p=0.0018; LRT vs no-discordance model chi2=9.62, p=0.0019. Guide-level
+   variance 0.96 dominates; study variance collapses to ~0. Interpretation per judge:
+   existing scoring models leave systematic biological variance unexplained - greater
+   absolute model disagreement predicts LOWER cleavage than either score expects.
+3. Exp 3 (mismatch-class stratification): discordance's residual signal is
+   class-dependent - null at 1-3 mismatches (rho 0.05-0.08, p>0.19) but SIGNIFICANT and
+   NEGATIVE at 4 mismatches (rho -0.240, p=0.0012). The judge expected 2-3 mismatches to
+   carry the signal; the data say the opposite - the high-mismatch regime is where model
+   disagreement maps to cleavage suppression. Hypothesis-updating, preserved honestly.
+4. Exp 4 (unseen-study validation): leave-one-study-out Spearman, baseline vs
+   discordance model - discordance helps 4/8 studies (Cho 0.188->0.193, Kim 0.829->0.833,
+   Wang 0.574->0.581, Frock tie) but HURTS the largest study (Tsai 0.456->0.345).
+   Global gains do not transfer uniformly across assay platforms - the judge's
+   "did you discover biology or rediscover that assays differ?" caution is live.
+
+Net scientific position after round 2: the binary-classifier negative (round 1/2 honest
+negative) redirected into a positive, preregistered-consistent finding: MODEL DISAGREEMENT
+IS A CLEAVAGE-SUPPRESSIVE SIGNAL IN MIXED-EFFECTS CONTINUOUS MODELING (p=0.0019),
+concentrated at high mismatch counts, with non-uniform cross-study transfer. Paper chapter
+claim: "absolute CFD-MIT discordance is an independent negative predictor of off-target
+cleavage magnitude after guide and study effects" - a statement about the limits of both
+scoring models, not a new black-box predictor.

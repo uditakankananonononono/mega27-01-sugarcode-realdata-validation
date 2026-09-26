@@ -1,0 +1,87 @@
+{
+ "n_rows": 600,
+ "n_guides": 45,
+ "n_studies": 8,
+ "exp1_ols": {
+  "baseline_r2": 0.13849935271271607,
+  "disc_r2": 0.13882659718682466,
+  "disc_coef": -0.2917429178979528,
+  "disc_p": 0.6343213522159096,
+  "lr_test_p": 0.6343213522158511
+ },
+ "exp2_mixed": {
+  "disc_coef": -1.3762283915708278,
+  "disc_p": 0.0018244385026644156,
+  "lrt_disc_chi2": 9.61656246844268,
+  "lrt_disc_p": 0.0019283033256350945,
+  "study_var": null,
+  "guide_var": 0.961030433291815,
+  "resid_var": 0.6938452285994013,
+  "converged": true
+ },
+ "exp3_by_mismatch_class": {
+  "1": {
+   "n": 12,
+   "spearman_disc_resid": 0.04982995306193512,
+   "p": 0.8777766794108113
+  },
+  "2": {
+   "n": 95,
+   "spearman_disc_resid": 0.0802494858939773,
+   "p": 0.43948179252927166
+  },
+  "3": {
+   "n": 314,
+   "spearman_disc_resid": 0.07366728100241571,
+   "p": 0.19293312031592844
+  },
+  "4": {
+   "n": 179,
+   "spearman_disc_resid": -0.24016320553702233,
+   "p": 0.001202947792111468
+  }
+ },
+ "exp4_leave_one_study_out": {
+  "Cho": {
+   "n_test": 106,
+   "spearman_baseline": 0.18816285237281055,
+   "spearman_disc": 0.19338662828899705
+  },
+  "Frock": {
+   "n_test": 65,
+   "spearman_baseline": 0.4716397688193351,
+   "spearman_disc": 0.47233907715972145
+  },
+  "Hsu": {
+   "n_test": 46,
+   "spearman_baseline": 0.22624730477872348,
+   "spearman_disc": 0.22587590017443557
+  },
+  "Kim": {
+   "n_test": 22,
+   "spearman_baseline": 0.8288003167440062,
+   "spearman_disc": 0.833335475795957
+  },
+  "Kim16": {
+   "n_test": 18,
+   "spearman_baseline": 0.1438183807667483,
+   "spearman_disc": 0.1438183807667483
+  },
+  "Ran": {
+   "n_test": 19,
+   "spearman_baseline": 0.31486477235603705,
+   "spearman_disc": 0.31486477235603705
+  },
+  "Tsai": {
+   "n_test": 312,
+   "spearman_baseline": 0.4557356033828441,
+   "spearman_disc": 0.34489670854630033
+  },
+  "Wang": {
+   "n_test": 12,
+   "spearman_baseline": 0.574431704037444,
+   "spearman_disc": 0.5814369687208274
+  }
+ },
+ "exp4_disc_wins_studies": "4/8"
+}

@@ -1,0 +1,5 @@
+usable off-targets: 600 across 45 guides; skipped {'>4mm': 117, 'bad_seq': 1}
+positives (readfrac>0.001): 315/600
+global AUROC  CFD: 0.6692  MIT: 0.6193
+LOGO 2-feat logistic AUROC: 0.6493
+discordance residual |r|: pos mean 0.4007 neg mean 0.4948
