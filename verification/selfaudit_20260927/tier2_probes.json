@@ -1,0 +1,67 @@
+{
+ "virtual_cell_fba": {
+  "claim": "FBA via HiGHS LP",
+  "module_obj": 15.0,
+  "independent_linprog_obj": 15.0,
+  "match": true,
+  "knockout_of_objective_rxn": null,
+  "pass": true
+ },
+ "codon_opt_cai": {
+  "claim": "CAI Sharp & Li 1987",
+  "module_cai": 0.8532194221288482,
+  "independent_cai": 0.8532194221288482,
+  "pass": true
+ },
+ "codon_opt_tasep": {
+  "claim": "TASEP Gillespie KMC",
+  "deterministic": true,
+  "density_in_0_1": true,
+  "mean_density": 0.2133888888888889,
+  "pass": true
+ },
+ "evofold_4d_anm": {
+  "claim": "ANM normal modes",
+  "n_atoms": 24,
+  "independent_zero_modes": 6,
+  "expected_zero_modes": 6,
+  "independent_first_nonzero_freq": 0.1329,
+  "module_first_freq": 0.1329,
+  "freq_match": true,
+  "pass": true
+ },
+ "living_computer_gillespie": {
+  "claim": "STATUS: stochastic kinetics (Gillespie)",
+  "actual_method": "chemical-Langevin Euler-Maruyama (real published method; STATUS Gillespie wording imprecise for this module)",
+  "deterministic_seed": true,
+  "nonnegative": true,
+  "pass": true
+ },
+ "synbio_wizard": {
+  "claim": "stochastic kinetics (Gillespie SSA) + Hill promoter",
+  "promoter_kinetics_sample": "{'occupancy': 0.5, 'transcription_rate_reu_h': 0.51}",
+  "hill_at_kd": 0.51,
+  "hill_expected": 0.51,
+  "hill_match": true,
+  "gillespie_deterministic": true,
+  "true_ssa": true,
+  "steady_state_tail_mean_mrna": 2.44,
+  "analytic_mrna": 2.0,
+  "steady_state_tail_mean_protein": 43.12,
+  "analytic_protein": 40.0,
+  "pass": true
+ },
+ "alpha_fold_ui_choufasman": {
+  "claim": "Chou-Fasman published propensities",
+  "polyAla": "HHHHHHHHHCCC",
+  "polyAla_helix_fraction": 0.75,
+  "polyProGly": "CCCCCCCCCCCC",
+  "pass": true
+ },
+ "tier2_attribution_gene_analysis": {
+  "claim": "STATUS says gene_analysis: Hill-kinetics ODE",
+  "hill_found_in_gene_analysis": false,
+  "note": "Hill kinetics actually in synbio_wizard.promoter_kinetics / virtual_cell._transcription_rates",
+  "pass": false
+ }
+}

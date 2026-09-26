@@ -36,3 +36,44 @@ judges. This is the internal self-audit: full test suite + module/spec inventory
 - 18 unspecced modules need spec definitions or docstring-based verification.
 
 Artifacts: pytest_full.log (verbatim), inventory.json, scripts/selfaudit_inventory.py.
+
+## Leg 2: registry, Tier-1 headlines, Tier-2 algorithm probes (2026-09-27 00:15)
+- Registry reconciliation (STATUS claim: 95 registered slugs == package dirs):
+  PASS live - omega.registry 95 slugs, 95 package dirs, exact match both ways.
+- Tier-1 headline regeneration (scripts/evidence_report.py, hermetic, re-run by
+  auditor): PASS - all headlines regenerate exactly as STATUS.md claims
+  (2,720 unique pathogenic + 86 benign; canonical 2,414/2,414 U2 + 16/16 AT-AC;
+  benign specificity 85/86; GC-donor 30 cases zero benign; VUS 2,196/179;
+  conflicting 977/106; exonic 1,117+216; cryptic-recall null; ESRseq null).
+- Tier-2 behavioral probes (independent of the suite, scripts/selfaudit_tier2_probes.py):
+  7/7 algorithm claims PASS:
+  * virtual_cell FBA: module objective 15.0 == independent scipy.linprog/HiGHS 15.0.
+  * codon_opt CAI: exact match to independent Sharp & Li 1987 recomputation
+    (0.8532194221288482) under the published Met/Trp/stop exclusion convention
+    (auditor's first probe used the wrong convention - probe corrected, module correct).
+  * codon_opt TASEP: deterministic under fixed input, density within [0,1].
+  * evofold_4d ANM: independent Hessian rebuild gives exactly 6 zero modes
+    (24-atom helix) and first nonzero frequency 0.1329 == module's 0.1329.
+  * living_computer: deterministic under seed, nonnegative counts. NOTE: the
+    stochastic engine is chemical-Langevin Euler-Maruyama, a real published
+    method - STATUS.md's "Gillespie" wording is imprecise for this module.
+  * synbio_wizard: true Gillespie SSA (exponential waiting times); Hill
+    promoter at regulator==Kd gives exactly the analytic 0.51; SSA steady-state
+    tail means consistent with analytic values (mRNA 2.44 vs 2.0, protein 43.1
+    vs 40.0 at 500h, small-system noise).
+  * alpha_fold_ui Chou-Fasman: poly-Ala scores 75% helix, poly-Pro/Gly zero.
+- DOCUMENTATION FINDINGS (module code correct; ledger stale/imprecise):
+  1. STATUS.md test-count line is stale: "1831 passed, 0 failed, 8 skipped
+     (2026-09-24)" vs live 2,279 passed, 1 failed (drop54), 8 skipped.
+  2. STATUS.md Tier-2 credits gene_analysis with "Hill-kinetics ODE models" -
+     no Hill code exists in gene_analysis; Hill kinetics live in
+     synbio_wizard.promoter_kinetics and virtual_cell._transcription_rates.
+  3. living_computer stochastic method wording ("Gillespie") should read
+     chemical-Langevin Euler-Maruyama.
+
+## Open gaps after leg 2
+- Tier-3 (~55 heuristic modules): smoke-level probe (import, docstring, probe
+  call) not yet run.
+- Tier-1 rows beyond the regenerated headlines are suite-locked hermetic
+  claims (2,279 passing) - not individually re-verified live (network).
+- 18 unspecced modules: docstring-level verification pending.
