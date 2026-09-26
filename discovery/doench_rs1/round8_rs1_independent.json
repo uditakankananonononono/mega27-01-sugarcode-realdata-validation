@@ -1,0 +1,113 @@
+{
+ "experiment": "round8_rs1_independent_reimplementation_v2",
+ "n": 1837,
+ "genes": [
+  "CD13",
+  "CD15",
+  "CD28",
+  "CD33",
+  "CD43",
+  "CD45",
+  "CD5",
+  "H2-K",
+  "THY1"
+ ],
+ "direction_fix": "Percent Peptide = retained signal; LOW = active (paper: negative population isolated by FACS)",
+ "feature_selection_cv_auc": {
+  "0.001": 0.4723788426235884,
+  "0.0025": 0.43019103238003503,
+  "0.005": 0.4816578483245151,
+  "0.01": 0.4657266232541424,
+  "0.025": 0.544484384451552,
+  "0.05": 0.5296189389362054,
+  "0.1": 0.5137678504441333,
+  "0.25": 0.493113495616153
+ },
+ "chosen_C": 0.025,
+ "n_features_selected": 30,
+ "heldout_spearman_vs_activity_overall": 0.0898,
+ "ref_rs1_spearman_vs_activity_overall": 0.0182,
+ "heldout_spearman_vs_ref_rs1": -0.0156,
+ "per_gene_topquintile_overlap": {
+  "mine": {
+   "CD13": 0.33,
+   "CD15": 0.5,
+   "CD28": 0.357,
+   "CD33": 0.233,
+   "CD43": 0.276,
+   "CD45": 0.34,
+   "CD5": 0.149,
+   "H2-K": 0.333,
+   "THY1": 0.333
+  },
+  "ref_rs1": {
+   "CD13": 0.132,
+   "CD15": 0.13,
+   "CD28": 0.214,
+   "CD33": 0.233,
+   "CD43": 0.138,
+   "CD45": 0.245,
+   "CD5": 0.17,
+   "H2-K": 0.212,
+   "THY1": 0.083
+  },
+  "pub_col": {
+   "CD13": 0.154,
+   "CD15": 0.204,
+   "CD28": 0.357,
+   "CD33": 0.3,
+   "CD43": 0.138,
+   "CD45": 0.245,
+   "CD5": 0.234,
+   "H2-K": 0.212,
+   "THY1": 0.167
+  }
+ },
+ "per_gene_spearman_vs_activity": {
+  "mine": {
+   "CD13": 0.072,
+   "CD15": 0.442,
+   "CD28": 0.147,
+   "CD33": 0.132,
+   "CD43": 0.125,
+   "CD45": 0.168,
+   "CD5": 0.129,
+   "H2-K": 0.076,
+   "THY1": 0.078
+  },
+  "ref_rs1": {
+   "CD13": -0.079,
+   "CD15": -0.068,
+   "CD28": 0.108,
+   "CD33": 0.13,
+   "CD43": -0.094,
+   "CD45": 0.032,
+   "CD5": 0.062,
+   "H2-K": 0.112,
+   "THY1": -0.144
+  },
+  "pub_col": {
+   "CD13": -0.003,
+   "CD15": -0.003,
+   "CD28": 0.417,
+   "CD33": 0.139,
+   "CD43": -0.06,
+   "CD45": 0.151,
+   "CD5": 0.161,
+   "H2-K": 0.242,
+   "THY1": -0.23
+  }
+ },
+ "mean_overlap": {
+  "mine": 0.317,
+  "ref_rs1": 0.173,
+  "pub_col": 0.223,
+  "chance": 0.2,
+  "paper_claim": 0.8
+ },
+ "mean_pergene_spearman": {
+  "mine": 0.152,
+  "ref_rs1": 0.007,
+  "pub_col": 0.09
+ }
+}
