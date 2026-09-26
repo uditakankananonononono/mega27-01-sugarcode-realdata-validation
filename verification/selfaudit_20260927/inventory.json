@@ -1,0 +1,1103 @@
+{
+ "modules_total": 95,
+ "modules_with_spec": 77,
+ "specs_total": 77,
+ "modules_with_import_linked_tests": 94,
+ "modules_without_import_linked_tests": [
+  "pgx_guidelines"
+ ],
+ "meta_or_nonmodule_test_files": 91,
+ "suite_totals": {
+  "passed": 2279,
+  "failed": 1,
+  "skipped": 0
+ },
+ "per_module": {
+  "acmg_bayesian": {
+   "spec": false,
+   "test_files": [
+    "test_acmg_bayesian.py",
+    "test_realdata_sweeps.py"
+   ],
+   "passed": 43,
+   "failed": 0,
+   "skipped": 0
+  },
+  "alpha_fold_ui": {
+   "spec": true,
+   "test_files": [
+    "test_alpha_fold_ui_spec.py",
+    "test_chou_fasman_cf1978.py",
+    "test_drop16.py",
+    "test_drop18.py",
+    "test_drop20.py",
+    "test_e2e_connectors.py",
+    "test_protein_eng.py",
+    "test_structure_connector.py"
+   ],
+   "passed": 55,
+   "failed": 0,
+   "skipped": 0
+  },
+  "bio_copilot": {
+   "spec": true,
+   "test_files": [
+    "test_bio_copilot_lof.py",
+    "test_bio_copilot_spec.py",
+    "test_final_batch.py",
+    "test_live_connectors.py"
+   ],
+   "passed": 50,
+   "failed": 0,
+   "skipped": 0
+  },
+  "bio_material": {
+   "spec": true,
+   "test_files": [
+    "test_bio_material_spec.py",
+    "test_synbio_batch3.py"
+   ],
+   "passed": 25,
+   "failed": 0,
+   "skipped": 0
+  },
+  "bio_switch": {
+   "spec": true,
+   "test_files": [
+    "test_bio_switch_spec.py",
+    "test_synbio_batch3.py"
+   ],
+   "passed": 21,
+   "failed": 0,
+   "skipped": 0
+  },
+  "biofactory_1_a": {
+   "spec": true,
+   "test_files": [
+    "test_biofactory_1_a_spec.py",
+    "test_synbio_batch3.py"
+   ],
+   "passed": 25,
+   "failed": 0,
+   "skipped": 0
+  },
+  "biogpt_lit": {
+   "spec": true,
+   "test_files": [
+    "test_biogpt_lit_spec.py",
+    "test_final_batch.py",
+    "test_live_connectors.py"
+   ],
+   "passed": 52,
+   "failed": 0,
+   "skipped": 0
+  },
+  "bioimage_ai": {
+   "spec": true,
+   "test_files": [
+    "test_bioimage_ai_geometry.py",
+    "test_bioimage_ai_spec.py",
+    "test_cellular_systems.py"
+   ],
+   "passed": 22,
+   "failed": 0,
+   "skipped": 0
+  },
+  "bioplayground": {
+   "spec": true,
+   "test_files": [
+    "test_bioplayground_spec.py",
+    "test_bioplayground_wf.py",
+    "test_final_batch.py"
+   ],
+   "passed": 39,
+   "failed": 0,
+   "skipped": 0
+  },
+  "bioprint_pro": {
+   "spec": true,
+   "test_files": [
+    "test_bioprint_pro_flow.py",
+    "test_bioprint_pro_spec.py",
+    "test_final_batch.py"
+   ],
+   "passed": 38,
+   "failed": 0,
+   "skipped": 0
+  },
+  "biosimvr": {
+   "spec": true,
+   "test_files": [
+    "test_biosimvr_sessions.py",
+    "test_biosimvr_spec.py",
+    "test_final_batch.py"
+   ],
+   "passed": 38,
+   "failed": 0,
+   "skipped": 0
+  },
+  "car_t_designer": {
+   "spec": true,
+   "test_files": [
+    "test_car_t_designer_spec.py",
+    "test_therapeutics.py"
+   ],
+   "passed": 32,
+   "failed": 0,
+   "skipped": 0
+  },
+  "cell_free_opt": {
+   "spec": true,
+   "test_files": [
+    "test_cell_free_opt_spec.py",
+    "test_synbio_batch3.py"
+   ],
+   "passed": 19,
+   "failed": 0,
+   "skipped": 0
+  },
+  "cell_twin": {
+   "spec": true,
+   "test_files": [
+    "test_cell_twin_combo.py",
+    "test_cell_twin_spec.py",
+    "test_cellular_systems.py",
+    "test_organoid_ai_realdata.py",
+    "test_organoid_screen_realdata.py"
+   ],
+   "passed": 29,
+   "failed": 0,
+   "skipped": 0
+  },
+  "cellfatenet": {
+   "spec": true,
+   "test_files": [
+    "test_cellfatenet_spec.py",
+    "test_cellular_systems.py"
+   ],
+   "passed": 17,
+   "failed": 0,
+   "skipped": 0
+  },
+  "cellpainter": {
+   "spec": true,
+   "test_files": [
+    "test_cellpainter_images.py",
+    "test_cellpainter_spec.py",
+    "test_cellular_systems.py"
+   ],
+   "passed": 25,
+   "failed": 0,
+   "skipped": 0
+  },
+  "cellpainter_4d": {
+   "spec": true,
+   "test_files": [
+    "test_cellpainter_4d_realdata.py",
+    "test_cellpainter_4d_spec.py",
+    "test_cellular_systems.py"
+   ],
+   "passed": 23,
+   "failed": 0,
+   "skipped": 0
+  },
+  "cfd_offtarget": {
+   "spec": false,
+   "test_files": [
+    "test_cfd_offtarget_module.py"
+   ],
+   "passed": 11,
+   "failed": 0,
+   "skipped": 0
+  },
+  "chem_descriptors": {
+   "spec": false,
+   "test_files": [
+    "test_chem_descriptors.py",
+    "test_chem_similarity.py"
+   ],
+   "passed": 16,
+   "failed": 0,
+   "skipped": 0
+  },
+  "chem_similarity": {
+   "spec": false,
+   "test_files": [
+    "test_chem_similarity.py"
+   ],
+   "passed": 8,
+   "failed": 0,
+   "skipped": 0
+  },
+  "chemgpt_engine": {
+   "spec": true,
+   "test_files": [
+    "test_chemgpt_engine_spec.py",
+    "test_final_batch.py",
+    "test_live_deepening.py"
+   ],
+   "passed": 56,
+   "failed": 0,
+   "skipped": 0
+  },
+  "codon_opt": {
+   "spec": true,
+   "test_files": [
+    "test_codon_opt.py",
+    "test_codon_opt_spec.py",
+    "test_codon_published.py",
+    "test_drop13.py",
+    "test_drop54.py"
+   ],
+   "passed": 31,
+   "failed": 1,
+   "skipped": 0
+  },
+  "crispr_cargo": {
+   "spec": true,
+   "test_files": [
+    "test_cargo_muse.py",
+    "test_crispr_cargo_realdata.py",
+    "test_crispr_cargo_spec.py"
+   ],
+   "passed": 24,
+   "failed": 0,
+   "skipped": 0
+  },
+  "crispr_muse": {
+   "spec": true,
+   "test_files": [
+    "test_cargo_muse.py",
+    "test_crispr_muse_realdata.py",
+    "test_crispr_muse_spec.py"
+   ],
+   "passed": 41,
+   "failed": 0,
+   "skipped": 0
+  },
+  "crispr_opt": {
+   "spec": true,
+   "test_files": [
+    "test_cfd_scoring.py",
+    "test_crispr_opt.py",
+    "test_crispr_opt_spec.py",
+    "test_doench_ontarget.py",
+    "test_phageforge_background.py",
+    "test_rule_set_2.py"
+   ],
+   "passed": 44,
+   "failed": 0,
+   "skipped": 0
+  },
+  "crisprater": {
+   "spec": false,
+   "test_files": [
+    "test_crisprater.py",
+    "test_crisprater_published.py"
+   ],
+   "passed": 13,
+   "failed": 0,
+   "skipped": 0
+  },
+  "crisprscan_score": {
+   "spec": false,
+   "test_files": [
+    "test_crisprscan_score.py"
+   ],
+   "passed": 10,
+   "failed": 0,
+   "skipped": 0
+  },
+  "dark_genome": {
+   "spec": true,
+   "test_files": [
+    "test_dark_genome_spec.py",
+    "test_promoter_dark.py"
+   ],
+   "passed": 24,
+   "failed": 0,
+   "skipped": 0
+  },
+  "deepsplice": {
+   "spec": true,
+   "test_files": [
+    "test_deepsplice_golden.py",
+    "test_deepsplice_spec.py",
+    "test_deepsplice_str.py",
+    "test_drop23.py",
+    "test_drop25.py",
+    "test_drop26.py",
+    "test_drop27.py",
+    "test_drop28.py",
+    "test_drop29.py",
+    "test_drop30.py",
+    "test_drop33.py",
+    "test_drop34.py",
+    "test_drop36.py",
+    "test_drop38.py",
+    "test_drop40.py",
+    "test_drop44.py",
+    "test_drop53.py",
+    "test_drop56.py",
+    "test_extended_splice.py",
+    "test_multigene_splice.py"
+   ],
+   "passed": 132,
+   "failed": 0,
+   "skipped": 0
+  },
+  "dna_to_code": {
+   "spec": true,
+   "test_files": [
+    "test_dna_to_code_spec.py",
+    "test_platform_modules.py"
+   ],
+   "passed": 13,
+   "failed": 0,
+   "skipped": 0
+  },
+  "docking_studio": {
+   "spec": true,
+   "test_files": [
+    "test_dock_structure.py",
+    "test_docking_studio_spec.py",
+    "test_docking_studio_upgrade.py",
+    "test_drop14.py",
+    "test_drop16.py",
+    "test_drop18.py",
+    "test_drop20.py",
+    "test_e2e_connectors.py",
+    "test_protein_eng.py"
+   ],
+   "passed": 78,
+   "failed": 0,
+   "skipped": 0
+  },
+  "dti_bench": {
+   "spec": false,
+   "test_files": [
+    "test_dti_bench.py"
+   ],
+   "passed": 8,
+   "failed": 0,
+   "skipped": 0
+  },
+  "ecosystem": {
+   "spec": true,
+   "test_files": [
+    "test_ecosystem_realdata.py",
+    "test_ecosystem_spec.py",
+    "test_platform_modules.py"
+   ],
+   "passed": 20,
+   "failed": 0,
+   "skipped": 0
+  },
+  "enterprise_bio": {
+   "spec": true,
+   "test_files": [
+    "test_enterprise_bio_governed_ops.py",
+    "test_enterprise_bio_realdata.py",
+    "test_enterprise_bio_spec.py",
+    "test_final_batch.py"
+   ],
+   "passed": 50,
+   "failed": 0,
+   "skipped": 0
+  },
+  "epi_edit": {
+   "spec": true,
+   "test_files": [
+    "test_epi_clinvar.py",
+    "test_epi_edit_realdata.py",
+    "test_epi_edit_spec.py"
+   ],
+   "passed": 28,
+   "failed": 0,
+   "skipped": 0
+  },
+  "evidence_mining": {
+   "spec": false,
+   "test_files": [
+    "test_evidence_mining.py"
+   ],
+   "passed": 6,
+   "failed": 0,
+   "skipped": 0
+  },
+  "evofold_4d": {
+   "spec": true,
+   "test_files": [
+    "test_evofold_4d_spec.py",
+    "test_live_deepening.py",
+    "test_protein_eng.py",
+    "test_realdata_sweeps.py"
+   ],
+   "passed": 35,
+   "failed": 0,
+   "skipped": 0
+  },
+  "fate_predictor": {
+   "spec": true,
+   "test_files": [
+    "test_cellular_systems.py",
+    "test_fate_predictor_realdata.py",
+    "test_fate_predictor_spec.py"
+   ],
+   "passed": 24,
+   "failed": 0,
+   "skipped": 0
+  },
+  "gene_analysis": {
+   "spec": true,
+   "test_files": [
+    "test_e2e_connectors.py",
+    "test_gene_analysis_hgvs.py",
+    "test_gene_analysis_spec.py",
+    "test_gene_analysis_upgrade.py",
+    "test_genomegpt_geneanalysis.py",
+    "test_live_connectors.py",
+    "test_pubmed_trend.py",
+    "test_realdata_sweeps.py"
+   ],
+   "passed": 55,
+   "failed": 0,
+   "skipped": 0
+  },
+  "gene_explorer": {
+   "spec": true,
+   "test_files": [
+    "test_gene_explorer.py",
+    "test_gene_explorer_realdata.py",
+    "test_gene_explorer_spec.py"
+   ],
+   "passed": 19,
+   "failed": 0,
+   "skipped": 0
+  },
+  "gene_tx_opt": {
+   "spec": true,
+   "test_files": [
+    "test_gene_tx_opt_realdata.py",
+    "test_gene_tx_opt_spec.py",
+    "test_therapeutics.py"
+   ],
+   "passed": 37,
+   "failed": 0,
+   "skipped": 0
+  },
+  "genomegpt": {
+   "spec": true,
+   "test_files": [
+    "test_genomegpt_geneanalysis.py",
+    "test_genomegpt_realdata.py",
+    "test_genomegpt_spec.py",
+    "test_genomegpt_upgrade.py"
+   ],
+   "passed": 41,
+   "failed": 0,
+   "skipped": 0
+  },
+  "infinite_diagnosis": {
+   "spec": true,
+   "test_files": [
+    "test_infinite_diagnosis_realdata.py",
+    "test_infinite_diagnosis_spec.py",
+    "test_therapeutics.py"
+   ],
+   "passed": 40,
+   "failed": 0,
+   "skipped": 0
+  },
+  "liquid_biopsy": {
+   "spec": true,
+   "test_files": [
+    "test_drop13.py",
+    "test_liquid_biopsy_haplotype_candidates.py",
+    "test_liquid_biopsy_spec.py",
+    "test_therapeutics.py"
+   ],
+   "passed": 41,
+   "failed": 0,
+   "skipped": 0
+  },
+  "living_computer": {
+   "spec": true,
+   "test_files": [
+    "test_circuits.py",
+    "test_living_computer_realdata.py",
+    "test_living_computer_spec.py"
+   ],
+   "passed": 64,
+   "failed": 0,
+   "skipped": 0
+  },
+  "living_tx": {
+   "spec": true,
+   "test_files": [
+    "test_living_tx_realdata.py",
+    "test_living_tx_spec.py",
+    "test_therapeutics.py"
+   ],
+   "passed": 40,
+   "failed": 0,
+   "skipped": 0
+  },
+  "metabodesigner": {
+   "spec": true,
+   "test_files": [
+    "test_metabodesigner_spec.py",
+    "test_synbio_batch3.py"
+   ],
+   "passed": 24,
+   "failed": 0,
+   "skipped": 0
+  },
+  "micro_tx": {
+   "spec": true,
+   "test_files": [
+    "test_micro_tx_realdata.py",
+    "test_micro_tx_spec.py",
+    "test_microbiome_phage.py"
+   ],
+   "passed": 33,
+   "failed": 0,
+   "skipped": 0
+  },
+  "microaiverse": {
+   "spec": true,
+   "test_files": [
+    "test_microaiverse_realdata.py",
+    "test_microaiverse_spec.py",
+    "test_microbiome_phage.py"
+   ],
+   "passed": 32,
+   "failed": 0,
+   "skipped": 0
+  },
+  "microbiome_exp": {
+   "spec": true,
+   "test_files": [
+    "test_microbiome_exp_spec.py",
+    "test_microbiome_pcoa.py",
+    "test_microbiome_phage.py"
+   ],
+   "passed": 26,
+   "failed": 0,
+   "skipped": 0
+  },
+  "microbiome_rx": {
+   "spec": true,
+   "test_files": [
+    "test_microbiome_phage.py",
+    "test_microbiome_rx_realdata.py",
+    "test_microbiome_rx_spec.py"
+   ],
+   "passed": 31,
+   "failed": 0,
+   "skipped": 0
+  },
+  "mit_offtarget": {
+   "spec": false,
+   "test_files": [
+    "test_mit_offtarget.py"
+   ],
+   "passed": 11,
+   "failed": 0,
+   "skipped": 0
+  },
+  "molecule_eval": {
+   "spec": false,
+   "test_files": [
+    "test_molecule_eval.py",
+    "test_qsar_bench_directional.py"
+   ],
+   "passed": 7,
+   "failed": 0,
+   "skipped": 0
+  },
+  "mutdock": {
+   "spec": true,
+   "test_files": [
+    "test_dock_structure.py",
+    "test_drop16.py",
+    "test_drop18.py",
+    "test_drop20.py",
+    "test_drop21.py",
+    "test_drop22.py",
+    "test_mutdock_live.py",
+    "test_mutdock_spec.py",
+    "test_protein_eng.py"
+   ],
+   "passed": 70,
+   "failed": 0,
+   "skipped": 0
+  },
+  "neodti_engine": {
+   "spec": true,
+   "test_files": [
+    "test_chembl_live.py",
+    "test_neodti_engine_realdata.py",
+    "test_neodti_engine_spec.py",
+    "test_therapeutics.py"
+   ],
+   "passed": 38,
+   "failed": 0,
+   "skipped": 0
+  },
+  "neohunter": {
+   "spec": true,
+   "test_files": [
+    "test_drop14.py",
+    "test_drop16.py",
+    "test_drop18.py",
+    "test_neohunter_iedb.py",
+    "test_neohunter_spec.py",
+    "test_therapeutics.py"
+   ],
+   "passed": 62,
+   "failed": 0,
+   "skipped": 0
+  },
+  "neuro_hub": {
+   "spec": false,
+   "test_files": [
+    "test_neuro_hub_realdata.py",
+    "test_platform_modules.py"
+   ],
+   "passed": 11,
+   "failed": 0,
+   "skipped": 0
+  },
+  "neuro_hub_dashboard": {
+   "spec": true,
+   "test_files": [
+    "test_neuro_hub_dashboard_realdata.py",
+    "test_neuro_hub_dashboard_spec.py"
+   ],
+   "passed": 11,
+   "failed": 0,
+   "skipped": 0
+  },
+  "neuro_pipeline": {
+   "spec": true,
+   "test_files": [
+    "test_final_batch.py",
+    "test_neuro_pipeline_realdata.py",
+    "test_neuro_pipeline_sequences.py",
+    "test_neuro_pipeline_spec.py"
+   ],
+   "passed": 50,
+   "failed": 0,
+   "skipped": 0
+  },
+  "neuroplan_ai": {
+   "spec": true,
+   "test_files": [
+    "test_drop13.py",
+    "test_neuroplan_ai_segment_clearance.py",
+    "test_neuroplan_ai_spec.py",
+    "test_therapeutics.py"
+   ],
+   "passed": 42,
+   "failed": 0,
+   "skipped": 0
+  },
+  "nexus_support": {
+   "spec": true,
+   "test_files": [
+    "test_final_batch.py",
+    "test_nexus_support_realdata.py",
+    "test_nexus_support_spec.py"
+   ],
+   "passed": 39,
+   "failed": 0,
+   "skipped": 0
+  },
+  "omega_stats": {
+   "spec": true,
+   "test_files": [
+    "test_omega_stats_spec.py",
+    "test_platform_modules.py"
+   ],
+   "passed": 13,
+   "failed": 0,
+   "skipped": 0
+  },
+  "oncocircuit": {
+   "spec": true,
+   "test_files": [
+    "test_oncocircuit_spec.py",
+    "test_therapeutics.py"
+   ],
+   "passed": 27,
+   "failed": 0,
+   "skipped": 0
+  },
+  "openclinvar": {
+   "spec": true,
+   "test_files": [
+    "test_drop18.py",
+    "test_drop21.py",
+    "test_drop22.py",
+    "test_drop27.py",
+    "test_drop33.py",
+    "test_drop36.py",
+    "test_epi_clinvar.py",
+    "test_live_connectors.py",
+    "test_live_deepening.py",
+    "test_openclinvar_clinvar_names.py",
+    "test_openclinvar_spec.py",
+    "test_realdata_sweeps.py"
+   ],
+   "passed": 107,
+   "failed": 0,
+   "skipped": 0
+  },
+  "organoid_ai": {
+   "spec": true,
+   "test_files": [
+    "test_cellular_systems.py",
+    "test_organoid_ai_realdata.py",
+    "test_organoid_ai_spec.py",
+    "test_organoid_screen_realdata.py"
+   ],
+   "passed": 25,
+   "failed": 0,
+   "skipped": 0
+  },
+  "organoid_screen": {
+   "spec": true,
+   "test_files": [
+    "test_drop22.py",
+    "test_drop23.py",
+    "test_drop26.py",
+    "test_organoid_screen_realdata.py",
+    "test_organoid_screen_spec.py",
+    "test_therapeutics.py"
+   ],
+   "passed": 57,
+   "failed": 0,
+   "skipped": 0
+  },
+  "pdx_insight": {
+   "spec": true,
+   "test_files": [
+    "test_pdx_insight_realdata.py",
+    "test_pdx_insight_spec.py",
+    "test_therapeutics.py"
+   ],
+   "passed": 34,
+   "failed": 0,
+   "skipped": 0
+  },
+  "pgx_guidelines": {
+   "spec": false,
+   "test_files": [],
+   "passed": 0,
+   "failed": 0,
+   "skipped": 0
+  },
+  "phage_designer": {
+   "spec": true,
+   "test_files": [
+    "test_microbiome_phage.py",
+    "test_phage_adsorption_time.py",
+    "test_phage_designer_spec.py"
+   ],
+   "passed": 27,
+   "failed": 0,
+   "skipped": 0
+  },
+  "phage_tx": {
+   "spec": true,
+   "test_files": [
+    "test_microbiome_phage.py",
+    "test_phage_tx_realdata.py",
+    "test_phage_tx_spec.py"
+   ],
+   "passed": 30,
+   "failed": 0,
+   "skipped": 0
+  },
+  "phageforge": {
+   "spec": true,
+   "test_files": [
+    "test_cellular_systems.py",
+    "test_phageforge_background.py",
+    "test_phageforge_spec.py"
+   ],
+   "passed": 22,
+   "failed": 0,
+   "skipped": 0
+  },
+  "prime_design": {
+   "spec": true,
+   "test_files": [
+    "test_prime_design.py",
+    "test_prime_design_published.py",
+    "test_prime_design_spec.py"
+   ],
+   "passed": 26,
+   "failed": 0,
+   "skipped": 0
+  },
+  "profile_hmm": {
+   "spec": false,
+   "test_files": [
+    "test_profile_hmm.py",
+    "test_profile_hmm_local.py",
+    "test_profile_hmm_training.py"
+   ],
+   "passed": 26,
+   "failed": 0,
+   "skipped": 0
+  },
+  "promoter_lib": {
+   "spec": true,
+   "test_files": [
+    "test_promoter_dark.py",
+    "test_promoter_lib_spec.py"
+   ],
+   "passed": 14,
+   "failed": 0,
+   "skipped": 0
+  },
+  "protein_painter": {
+   "spec": true,
+   "test_files": [
+    "test_protein_eng.py",
+    "test_protein_painter_realdata.py",
+    "test_protein_painter_spec.py"
+   ],
+   "passed": 21,
+   "failed": 0,
+   "skipped": 0
+  },
+  "qsar_bench": {
+   "spec": false,
+   "test_files": [
+    "test_qsar_bench.py",
+    "test_qsar_bench_directional.py",
+    "test_realdata_sweeps.py"
+   ],
+   "passed": 19,
+   "failed": 0,
+   "skipped": 0
+  },
+  "rarenet_ai": {
+   "spec": true,
+   "test_files": [
+    "test_drop16.py",
+    "test_drop19.py",
+    "test_drop20.py",
+    "test_drop25.py",
+    "test_drop30.py",
+    "test_drop33.py",
+    "test_drop36.py",
+    "test_infinite_diagnosis_spec.py",
+    "test_rarenet_ai_spec.py",
+    "test_rarenet_live.py",
+    "test_therapeutics.py"
+   ],
+   "passed": 81,
+   "failed": 0,
+   "skipped": 0
+  },
+  "report_studio": {
+   "spec": false,
+   "test_files": [
+    "test_report_studio_realdata.py",
+    "test_report_studio_spec.py"
+   ],
+   "passed": 13,
+   "failed": 0,
+   "skipped": 0
+  },
+  "riboswitch": {
+   "spec": true,
+   "test_files": [
+    "test_microbiome_phage.py",
+    "test_riboswitch_spec.py",
+    "test_rna_nussinov.py"
+   ],
+   "passed": 47,
+   "failed": 0,
+   "skipped": 0
+  },
+  "rna_decoder": {
+   "spec": true,
+   "test_files": [
+    "test_rna_decoder.py",
+    "test_rna_decoder_spec.py"
+   ],
+   "passed": 12,
+   "failed": 0,
+   "skipped": 0
+  },
+  "rna_nussinov": {
+   "spec": false,
+   "test_files": [
+    "test_rna_nussinov.py"
+   ],
+   "passed": 22,
+   "failed": 0,
+   "skipped": 0
+  },
+  "robotic_flow": {
+   "spec": true,
+   "test_files": [
+    "test_robotic_flow_realdata.py",
+    "test_robotic_flow_spec.py",
+    "test_synbio_batch3.py"
+   ],
+   "passed": 27,
+   "failed": 0,
+   "skipped": 0
+  },
+  "stability_ai": {
+   "spec": true,
+   "test_files": [
+    "test_stability_ai_spec.py",
+    "test_synbio_batch3.py"
+   ],
+   "passed": 24,
+   "failed": 0,
+   "skipped": 0
+  },
+  "str_scope": {
+   "spec": true,
+   "test_files": [
+    "test_deepsplice_str.py",
+    "test_realdata_sweeps.py",
+    "test_str_scope_spec.py"
+   ],
+   "passed": 32,
+   "failed": 0,
+   "skipped": 0
+  },
+  "structural_biophysics": {
+   "spec": false,
+   "test_files": [
+    "test_realdata_sweeps.py",
+    "test_structural_biophysics.py"
+   ],
+   "passed": 23,
+   "failed": 0,
+   "skipped": 0
+  },
+  "syn_bio_studio": {
+   "spec": true,
+   "test_files": [
+    "test_syn_bio_studio_realdata.py",
+    "test_syn_bio_studio_spec.py"
+   ],
+   "passed": 16,
+   "failed": 0,
+   "skipped": 0
+  },
+  "syn_stab_ai": {
+   "spec": true,
+   "test_files": [
+    "test_syn_stab_ai_spec.py",
+    "test_syn_stab_palindrome.py",
+    "test_synbio_batch3.py"
+   ],
+   "passed": 25,
+   "failed": 0,
+   "skipped": 0
+  },
+  "synbio_studio": {
+   "spec": false,
+   "test_files": [
+    "test_circuits.py",
+    "test_living_computer_realdata.py",
+    "test_living_computer_spec.py",
+    "test_synbio_studio_realdata.py"
+   ],
+   "passed": 69,
+   "failed": 0,
+   "skipped": 0
+  },
+  "synbio_wizard": {
+   "spec": true,
+   "test_files": [
+    "test_final_batch.py",
+    "test_synbio_wizard_realdata.py",
+    "test_synbio_wizard_spec.py"
+   ],
+   "passed": 63,
+   "failed": 0,
+   "skipped": 0
+  },
+  "syndroid": {
+   "spec": true,
+   "test_files": [
+    "test_cellular_systems.py",
+    "test_syndroid_realdata.py",
+    "test_syndroid_spec.py"
+   ],
+   "passed": 21,
+   "failed": 0,
+   "skipped": 0
+  },
+  "synlife_evo": {
+   "spec": true,
+   "test_files": [
+    "test_final_batch.py",
+    "test_synlife_evo_competition.py",
+    "test_synlife_evo_realdata.py",
+    "test_synlife_evo_spec.py"
+   ],
+   "passed": 50,
+   "failed": 0,
+   "skipped": 0
+  },
+  "synthetic_life": {
+   "spec": true,
+   "test_files": [
+    "test_synbio_batch3.py",
+    "test_synthetic_life_realdata.py",
+    "test_synthetic_life_spec.py"
+   ],
+   "passed": 48,
+   "failed": 0,
+   "skipped": 0
+  },
+  "tissue_eng": {
+   "spec": true,
+   "test_files": [
+    "test_cellular_systems.py",
+    "test_tissue_eng_realdata.py",
+    "test_tissue_eng_spec.py"
+   ],
+   "passed": 23,
+   "failed": 0,
+   "skipped": 0
+  },
+  "vector_opt": {
+   "spec": true,
+   "test_files": [
+    "test_therapeutics.py",
+    "test_vector_opt_regions.py",
+    "test_vector_opt_spec.py"
+   ],
+   "passed": 31,
+   "failed": 0,
+   "skipped": 0
+  },
+  "virtual_cell": {
+   "spec": true,
+   "test_files": [
+    "test_synthetic_life_realdata.py",
+    "test_virtual_cell.py",
+    "test_virtual_cell_expression.py",
+    "test_virtual_cell_realdata.py",
+    "test_virtual_cell_spec.py"
+   ],
+   "passed": 34,
+   "failed": 0,
+   "skipped": 0
+  }
+ }
+}
