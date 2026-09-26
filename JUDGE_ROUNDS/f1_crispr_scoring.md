@@ -1468,3 +1468,256 @@ complexity, predicted accessibility/self-folding, PAM-distal seed composition) e
 variance that |CFD-MIT| proxies for within guides? Claim language per judge: "score
 disagreement exposes guide-level biology absent from mismatch-based models" - testing,
 not declaring.
+
+---
+
+## ROUND 4 of 10 - 2026-09-26 ~19:14 IST (ChatGPT, her account, cloud browser)
+
+### PROMPT (verbatim)
+
+```
+You are an ISEF grand-award judge. Same CRISPR-scoring project; your round 3 falsification demands are all executed. Results: (A) UNSEEN-GUIDE 5-fold CV: |CFD-MIT| does NOT transfer (pooled held-out Spearman 0.3597 baseline vs 0.3593; RMSE slightly worse) - the transferable-feature claim is dead, by your criterion. (B) WITHIN-GUIDE PERMUTATION (1000x): observed t=-3.28 vs null 0.03+/-0.99, p<0.001 - the within-guide association is REAL, not df inflation. (C) ASSAY INTERACTION disc x study: NOT significant (LRT p=0.374, Tsai term p=0.345) - your assay-aware rescue fails. NEW round 4 experiment (guide-level decomposition): adding per-guide sequence features (GC, seed GC, dinucleotide entropy, homopolymer run, self-complementarity) explains only 12.3% of guide random-intercept variance (LRT p=0.318, no individual feature significant), and the disc coefficient is UNCHANGED (-1.372, p=0.0019). So the guide-level biology that mismatch models omit is NOT basic sequence composition. Reframed claim now on the table: "CFD-MIT disagreement exposes guide-level cleavage determinants absent from position-specific mismatch models - and those determinants are not simple sequence features." Questions: (a) The residual guide variance (~88%) points at chromatin/accessibility/repair context - with only public data and no new wet lab, what is the single most convincing guide-level covariate I can obtain computationally for these 45 guides (e.g., DNase/ATAC from ENCODE matched to cell type, CpG, genomic context)? (b) Is the reframed within-guide claim publishable-strong as a negative-methods paper if the covariate hunt fails? (c) Am I over-fitt
+```
+
+### RESPONSE (verbatim)
+
+```
+Show more
+Round 4 ISEF judge assessment
+
+First: the fact that you killed your own strongest hypothesis is actually a major scientific positive. The project has moved from:
+
+“CFD-MIT disagreement is a transferable missing feature”
+
+to the narrower and more defensible:
+
+“CFD-MIT disagreement identifies a reproducible within-guide component of cleavage outcome variation that is not explained by mismatch-only scoring, assay identity, or basic guide sequence composition.”
+
+That is a substantially different claim. It is weaker biologically, but stronger methodologically because the falsification path is clean.
+
+(a) Single most convincing guide-level covariate to test
+
+Given your constraints (45 guides, public datasets only), I would not chase a long list of chromatin features. With n=45 guides, you are at high risk of a feature fishing expedition.
+
+The single covariate I would prioritize:
+
+Cell-type matched chromatin accessibility at the target locus (ATAC-seq/DNase-seq signal)
+
+Specifically:
+
+Map each guide target locus.
+
+Identify the actual assay cell type(s).
+
+Obtain ENCODE/Roadmap ATAC-seq or DNase-seq peaks from the closest matched cell type.
+
+Extract:
+
+accessibility peak overlap (binary)
+
+normalized accessibility signal (continuous)
+
+distance to nearest peak summit
+
+Why this one?
+
+Because it is the strongest mechanistic bridge between your residual and biology:
+
+sequence model disagreement
+          ↓
+guide-specific residual
+          ↓
+chromatin accessibility
+          ↓
+Cas9 binding/cleavage efficiency
+          ↓
+observed off-target editing fraction
+
+A negative result is also interpretable.
+
+If accessibility explains little:
+
+"The unexplained guide-level component is not attributable to commonly available chromatin accessibility proxies."
+
+That is a meaningful negative.
+
+What I would NOT prioritize
+
+Avoid:
+
+CpG content
+
+GC content variants
+
+genomic annotation categories
+
+repeat overlap
+
+gene/intergenic status
+
+dozens of epigenomic marks
+
+Why?
+
+You already tested the easiest sequence explanation. Adding ten correlated weak genomic features will look like post hoc rescue.
+
+Statistical design I would accept
+
+Do not just correlate accessibility with residual.
+
+Use your existing mixed model:
+
+Original:
+
+Outcome∼CFD+MIT+∣CFD−MIT∣+(1∣guide)+(1∣study)
+
+Add:
+
++accessibility
+
+Then report:
+
+Does accessibility reduce guide random-effect variance?
+
+Does likelihood improve?
+
+Does |CFD-MIT| coefficient change?
+
+The important number is not p(accessibility). It is:
+
+How much of the unexplained guide variance disappears?
+
+(b) If covariate hunt fails, is this publishable as a negative-methods paper?
+
+For a top journal? No.
+
+For a computational methods venue, student journal, or conference abstract? Potentially yes.
+
+The key is do not frame it as "we found a missing biological factor."
+
+Your strongest paper becomes:
+
+"Mismatch-score disagreement identifies reproducible guide-level residual variation in CRISPR off-target prediction, but this variation is not explained by currently available sequence composition or common assay/context variables."
+
+That is a legitimate benchmarking result.
+
+The contribution:
+
+Existing assumption:
+
+Most CRISPR scoring disagreement is treated as random noise.
+
+Your finding:
+
+Some disagreement is structured at the guide level.
+
+Your negative result:
+
+The structure is not explained by:
+
+mismatch distance
+
+CFD-MIT difference transferability
+
+assay identity
+
+simple sequence composition
+
+That creates a research question:
+
+What biological variables explain persistent guide-specific prediction residuals?
+
+That is a reasonable methods paper ending.
+
+However, for ISEF Grand Award level, I would say:
+
+Current state: strong finalist-level methodology project, but not yet a discovery project.
+
+The grand-award upgrade requires one of two things:
+
+Identify the missing determinant, or
+
+Establish a surprising general principle about prediction failure.
+
+Right now you have evidence for (2) only partially.
+
+(c) Are you over-fitting?
+
+Short answer:
+
+You are approaching the danger zone, but the latest experiment actually reduced the concern.
+
+Why?
+
+Your sequence-feature test was appropriately modest:
+
+biologically motivated features
+
+no individual significance
+
+no rescue
+
+coefficient stability
+
+That is good.
+
+The danger would be:
+
+"Accessibility failed, so let's test methylation, histone marks, nucleosome occupancy, replication timing, GC islands, expression, conservation..."
+
+That becomes a hunt.
+
+The rule I would impose as a judge:
+
+Precommit the final biological rescue attempt.
+
+For example:
+
+"We will test one orthogonal biological axis: matched-cell chromatin accessibility. If it fails, we conclude the residual guide-level variance is unexplained by available public covariates."
+
+Then stop.
+
+That actually makes the negative result stronger.
+
+My round-4 verdict
+Criterion	Assessment
+Statistical rigor	Strong
+Self-falsification	Excellent
+Novelty	Moderate
+Biological mechanism	Not yet demonstrated
+Overfitting risk	Controlled if you stop after one covariate
+ISEF strength	Competitive methodology project
+
+The most important sentence for the final manuscript would be:
+
+"The reproducible guide-level residual captured by CFD–MIT disagreement represents a real but currently unresolved component of CRISPR cleavage variability, resistant to explanation by mismatch features, assay effects, and basic guide sequence composition."
+
+That is a scientifically honest claim. The remaining question is whether chromatin accessibility collapses that residual—or whether you have discovered that current public annotations are insufficient to explain guide-specific Cas9 behavior.
+
+```
+
+### Round 4 NOVELTY FOLD-BACK (required per 2026-09-26 17:00:38 rule)
+Judge's verdict: killing the transferable-feature hypothesis is "a major scientific
+positive"; the defensible claim is now "CFD-MIT disagreement identifies a reproducible
+within-guide component of cleavage outcome variation not explained by mismatch-only
+scoring, assay identity, or basic guide sequence composition." Judge imposed a binding
+anti-overfitting rule: PRECOMMIT ONE final biological rescue (matched-cell-type chromatin
+accessibility, ATAC/DNase at the 45 guide loci from ENCODE/Roadmap), and if it fails,
+STOP and conclude the residual is unexplained by available public covariates.
+Concrete changes this round produced:
+1. PRECOMMITMENT AMENDMENT to PREREGISTRATION_all95.md (this commit): the F1 discordance
+   arm now has exactly one remaining rescue experiment - matched-cell-type chromatin
+   accessibility in the round-2 mixed model, success metric = fraction of guide
+   random-intercept variance explained (not p-value). No further covariates after it.
+2. The round-4 bench experiment executed BEFORE the round (guide-level sequence
+   decomposition, discovery/cfd_mit_discordance/round4_guide_features.py + result JSON):
+   5 sequence features explain 12.3% of guide variance (LRT p=0.318, none individually
+   significant); disc coefficient unchanged (-1.372, p=0.0019). Honest negative that
+   produced the judge-endorsed reframing.
+3. Manuscript claim language fixed verbatim from the judge: "The reproducible
+   guide-level residual captured by CFD-MIT disagreement represents a real but currently
+   unresolved component of CRISPR cleavage variability, resistant to explanation by
+   mismatch features, assay effects, and basic guide sequence composition."
+NEXT (round 5 bench): the accessibility arm - map 45 guide loci to hg19/hg38, match
+assay cell types (K562/Hap1/HEK293T/U2OS), pull ENCODE/Roadmap DNase/ATAC signal, rerun
+the mixed model with accessibility and report guide-variance collapse percentage.

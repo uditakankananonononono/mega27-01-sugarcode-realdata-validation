@@ -89,3 +89,18 @@ Wave 1 (harness exists, extend): F1, F3, F4, F5 (mutdock adapter), F6, F7, F8.
 Wave 2 (new fixtures): F2, F9, F10, F12, F13, F14.
 Wave 3: F11, F15, F16 + paper assembly + judge-round closeout.
 Each family: preregister -> freeze fixtures -> run module vs benchmark -> 10 judge rounds -> improve/pivot -> discovery verification -> chapter.
+
+## AMENDMENT 2026-09-26 (post round-4 judge review): F1 discordance arm - final rescue precommitment
+The F1 CFD-MIT discordance thread has exactly ONE remaining rescue experiment, precommitted
+per judge instruction to prevent post-hoc covariate fishing:
+- Experiment: matched-cell-type chromatin accessibility (ATAC-seq/DNase-seq, ENCODE/Roadmap,
+  closest cell type to each study's assay) at the 45 guide loci, added to the round-2
+  mixed-effects model log10(readfrac) ~ CFD + MIT + |CFD-MIT| + (1|guide) + (1|study).
+- Success metric: fraction of guide random-intercept variance explained (primary),
+  likelihood improvement and |CFD-MIT| coefficient change (secondary). NOT p-value fishing.
+- If accessibility fails to collapse a material share of guide variance: STOP. Conclusion
+  language is fixed in advance: the residual guide-level variance is unexplained by
+  available public covariates; no further covariates will be tested on this dataset.
+- Prior results frozen: within-guide signal real (permutation p<0.001), cross-guide
+  transfer dead (unseen-guide CV null), assay interaction null (p=0.374), basic sequence
+  composition explains 12.3% (p=0.318).
