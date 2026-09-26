@@ -77,3 +77,30 @@ Artifacts: pytest_full.log (verbatim), inventory.json, scripts/selfaudit_invento
 - Tier-1 rows beyond the regenerated headlines are suite-locked hermetic
   claims (2,279 passing) - not individually re-verified live (network).
 - 18 unspecced modules: docstring-level verification pending.
+
+## Leg 3: Tier-3 smoke (78 modules, 2026-09-27 00:33)
+- Import: 78/78 PASS.
+- Module-level docstring (>=20 chars, states method): 61/78 PASS.
+- The 17 without module docstrings document method via top-of-file comments
+  (verified on samples: sigma70 consensus in promoter_lib, DRACH in
+  rna_decoder) plus partial function-level docstrings: coverage ranges from
+  100% (liquid_biopsy 9/9) down to 8% (syn_bio_studio 1/12, bioplayground
+  1/6, dna_to_code 1/6, car_t_designer 1/6). STATUS.md's "each module's
+  docstring states its method" is inaccurate for these 17 - DOCUMENTATION
+  FINDING #4 (severity low: method comments exist, Python docstrings thin).
+- Entry-point probes: only 5 of 78 expose zero-arg demo/diagnostics entries;
+  all 5 PASS. The other 73 require arguments - smoke level does not probe
+  them (suite-level tests cover behavior; counted at suite level).
+
+## Documentation findings so far (for Atlas lane; code correct)
+1. STATUS.md stale test count (1,831/0-fail vs live 2,279/1-fail).
+2. STATUS.md Tier-2 gene_analysis Hill misattribution.
+3. STATUS.md living_computer "Gillespie" wording (actually CLE/Euler-Maruyama).
+4. STATUS.md "each module's docstring states its method" - 17/78 Tier-3
+   modules have no module docstring; function-level docs 8-100%.
+
+## Open gaps after leg 3
+- 73 Tier-3 modules untested beyond suite+import (no zero-arg probe) - deeper
+  behavioral verification would need per-module fixtures; out of smoke scope.
+- Leg 4: docstring-level verification of the 18 unspecced modules.
+- Leg 5: final per-module pass/fail table (95 rows).

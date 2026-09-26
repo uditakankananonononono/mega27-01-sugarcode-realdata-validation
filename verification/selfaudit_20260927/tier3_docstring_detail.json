@@ -1,0 +1,87 @@
+{
+ "bio_material": {
+  "public_fns": 13,
+  "fns_with_docstring": 3,
+  "frac": 0.23
+ },
+ "biofactory_1_a": {
+  "public_fns": 12,
+  "fns_with_docstring": 2,
+  "frac": 0.17
+ },
+ "bioplayground": {
+  "public_fns": 6,
+  "fns_with_docstring": 1,
+  "frac": 0.17
+ },
+ "car_t_designer": {
+  "public_fns": 6,
+  "fns_with_docstring": 1,
+  "frac": 0.17
+ },
+ "cell_free_opt": {
+  "public_fns": 8,
+  "fns_with_docstring": 3,
+  "frac": 0.38
+ },
+ "cellpainter": {
+  "public_fns": 14,
+  "fns_with_docstring": 9,
+  "frac": 0.64
+ },
+ "dna_to_code": {
+  "public_fns": 6,
+  "fns_with_docstring": 1,
+  "frac": 0.17
+ },
+ "enterprise_bio": {
+  "public_fns": 5,
+  "fns_with_docstring": 4,
+  "frac": 0.8
+ },
+ "liquid_biopsy": {
+  "public_fns": 9,
+  "fns_with_docstring": 9,
+  "frac": 1.0
+ },
+ "metabodesigner": {
+  "public_fns": 15,
+  "fns_with_docstring": 6,
+  "frac": 0.4
+ },
+ "neuro_hub_dashboard": {
+  "public_fns": 10,
+  "fns_with_docstring": 6,
+  "frac": 0.6
+ },
+ "phage_designer": {
+  "public_fns": 7,
+  "fns_with_docstring": 2,
+  "frac": 0.29
+ },
+ "promoter_lib": {
+  "public_fns": 14,
+  "fns_with_docstring": 4,
+  "frac": 0.29
+ },
+ "rna_decoder": {
+  "public_fns": 13,
+  "fns_with_docstring": 4,
+  "frac": 0.31
+ },
+ "robotic_flow": {
+  "public_fns": 13,
+  "fns_with_docstring": 4,
+  "frac": 0.31
+ },
+ "syn_bio_studio": {
+  "public_fns": 12,
+  "fns_with_docstring": 1,
+  "frac": 0.08
+ },
+ "syn_stab_ai": {
+  "public_fns": 12,
+  "fns_with_docstring": 4,
+  "frac": 0.33
+ }
+}
