@@ -1,0 +1,26 @@
+{
+ "n_rows": 402,
+ "n_guides": 20,
+ "dropped": {
+  "no_coords": 198,
+  "no_cfd": 0
+ },
+ "dnase_descriptives": {
+  "mean": 0.019791140440658092,
+  "sd": 0.029463296007217445,
+  "frac_zero": 0.0024875621890547263
+ },
+ "result": {
+  "guide_var_baseline": 1.0081878356726346,
+  "guide_var_with_dnase": 1.0064172306721535,
+  "guide_var_explained_pct": 0.17562253161880204,
+  "dnase_coef": 0.5036550270208942,
+  "dnase_p": 0.7209130821967291,
+  "disc_coef_baseline": -1.3979513779604535,
+  "disc_p_baseline": 0.0012206097504640092,
+  "disc_coef_with_dnase": -1.3940010035524766,
+  "disc_p_with_dnase": 0.0012631822817504475,
+  "lrt_dnase_chi2": 0.1276021142875834,
+  "lrt_dnase_p": 0.7209313203946472
+ }
+}

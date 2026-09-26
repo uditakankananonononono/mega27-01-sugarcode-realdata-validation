@@ -104,3 +104,27 @@ per judge instruction to prevent post-hoc covariate fishing:
 - Prior results frozen: within-guide signal real (permutation p<0.001), cross-guide
   transfer dead (unseen-guide CV null), assay interaction null (p=0.374), basic sequence
   composition explains 12.3% (p=0.318).
+
+## AMENDMENT 2026-09-26 #2 (post round-5 judge review): F1 discordance thread CLOSED; new F1 arm preregistered
+TERMINAL RESULT, F1 discordance arm: the final precommitted rescue (matched-cell-type
+chromatin accessibility, ENCODE DNase hg19 via UCSC API; 402 sites / 20 guides covered;
+U2OS+Hap1 have no hg19 track; Kim2016 cell-free by design; HEK293T proxy for Tsai/Ran)
+explains 0.18% of guide random-intercept variance (p=0.721, LRT p=0.721); |CFD-MIT|
+unchanged (-1.394, p=0.0013). Per the round-4 precommitment the covariate hunt STOPS.
+Fixed conclusion: "The reproducible guide-level residual captured by CFD-MIT disagreement
+represents a real but currently unresolved component of CRISPR cleavage variability,
+resistant to explanation by mismatch features, assay effects, basic guide sequence
+composition, and chromatin accessibility." Coverage caveats preserved in
+discovery/cfd_mit_discordance/round5_accessibility_result.json.
+
+NEW F1 ARM (preregistered): systematic CRISPR reference-tool reproducibility audit.
+Experiment 1: "Do CRISPR design tools agree on the same biological reality?"
+- Panel: gold-standard guide set across hg19/hg38 and research-relevant loci.
+- Tools: CRISPOR (current vs archived), CRISPRscan, CHOPCHOP, CRISPick where reproducibly
+  accessible. Free-first.
+- Measures: guide existence agreement, PAM/targetability agreement, off-target ranking
+  agreement, score reproducibility, version drift.
+- Start: expand the AA19 case (crisporWebsite#76) - how many reported efficiency-score
+  changes disappear under independent sequence extraction/scoring; negative control =
+  1000 guides with no reported discrepancy run through the same pipeline.
+- Output: a reproducibility map (infrastructure-level claim), NOT a "tool X is wrong" claim.
