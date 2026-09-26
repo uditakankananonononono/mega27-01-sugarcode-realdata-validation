@@ -2476,3 +2476,14 @@ RESULTS (n=474):
 - Fake-bug negative control: real delta exceeds only 80.8% of randomized-position fakes (below the 95% bar).
 
 POWERED VERDICT: at library scale on the paper's own activity data, fixing the AA19 defect yields no measurable predictive improvement (effect ~0.003 Spearman, CI crosses 0; indistinguishable from fake bugs). The biological-consequence bridge is now answered at the bulk-prediction layer: NO detectable degradation. The defect's real consequence stays at the candidate-selection layer: 6-8.5% of guides mis-scored, 1 in 10-25 top shortlist candidates displaced - which is where individual research projects actually feel it. CAVEATS: d1 is the same paper's in-vitro library assay (possibly training-adjacent, correlations inflated vs truly independent data); danRer7 assumed period-correct; activity is a rank-transformed measure. Paper framing: the honest result is "bulk prediction robust, individual guide selection not" - a sharper and more defensible claim than either 'bug changes biology' or 'bug is harmless'.
+
+### CONSEQUENCE TEST ON TRULY INDEPENDENT DATA - 2026-09-26 ~21:26 IST (Doench 2016; answers the same-study caveat)
+
+Dataset: Doench 2016 FC_plus_RES, 5,310 guides (4,379 unique 30mers), human genes, Percent Peptide FACS activity - different lab, species, assay from all Giraldez data. 30mers padded to 35mers (2bp 5' + 3bp 3'); padding touches only edge features shared by both implementations, defect delta is internal and exact; two pads (AA/AAA, CC/CCC) agree. Script wave1/scripts/round7_bioimpact_doench.py, results logs/round7_bioimpact_doench.json.
+
+RESULTS:
+- CRISPRscan barely transfers to human FACS data at all: Spearman ~0.032 (near floor, expected for a zebrafish-trained model).
+- Correcting the defect (production buggy incl. int truncation): delta +0.0045, bootstrap 95% CI [0.0001, +0.0089] - FIRST consequence test whose CI excludes zero.
+- Defect-only (identity-verified float delta): 405/5,310 (7.6%) guides affected; delta +0.0045, CI [0.0001, +0.0087]. Pad-robust.
+
+REFINED BOUNDARY (now the sharpest honest claim): the AA19 defect's consequence is context-dependent. In-domain (zebrafish library, n=474): negligible (delta +0.003, CI crosses 0). Out-of-domain transfer (human Doench, n=5,310): small but statistically detectable degradation (delta +0.0045, CI excludes 0; ~14% relative to the near-floor baseline). Combined with the candidate-selection impact (1 in 10-25 shortlist displacements), the defect is consequential exactly where models are weakest - the setting where users most need scores to be right. CAVEATS: near-floor baseline inflates relative interpretation; Percent Peptide is a proxy; duplicate 30mers across target genes induce row non-independence; padding imputes edge features (delta pad-robust, levels approximate).
