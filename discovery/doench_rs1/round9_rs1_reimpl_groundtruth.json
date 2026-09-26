@@ -1,0 +1,65 @@
+{
+ "experiment": "round9_rs1_reimpl_groundtruth",
+ "source": "Doench 2014 Suppl Table 7 (MOESM8, nature.com media.springernature.com)",
+ "n": 1841,
+ "shipped_vs_published_model": {
+  "overall_spearman": 0.9936,
+  "overall_pearson": 0.9912
+ },
+ "published_vs_activity_overall": 0.5047,
+ "shipped_vs_activity_overall": 0.5417,
+ "reimpl_heldout_vs_activity_overall": 0.4772,
+ "reimpl_heldout_vs_published_overall": 0.8823,
+ "feature_selection_cv_auc": {
+  "0.001": 0.5839,
+  "0.0025": 0.5839,
+  "0.005": 0.6221,
+  "0.01": 0.6961,
+  "0.025": 0.741,
+  "0.05": 0.7396,
+  "0.1": 0.7159,
+  "0.25": 0.6968
+ },
+ "chosen_C": 0.025,
+ "n_features_selected": 46,
+ "per_gene_spearman_vs_true_activity": {
+  "reimpl_heldout": {
+   "CD13": 0.445,
+   "CD15": 0.466,
+   "CD33": 0.422,
+   "Cd28": 0.39,
+   "Cd43": 0.557,
+   "Cd45": 0.487,
+   "Cd5": 0.56,
+   "H2-K": 0.513,
+   "Thy1": 0.411
+  },
+  "published_model": {
+   "CD13": 0.481,
+   "CD15": 0.46,
+   "CD33": 0.438,
+   "Cd28": 0.512,
+   "Cd43": 0.57,
+   "Cd45": 0.537,
+   "Cd5": 0.558,
+   "H2-K": 0.529,
+   "Thy1": 0.483
+  },
+  "shipped_rs1": {
+   "CD13": 0.524,
+   "CD15": 0.496,
+   "CD33": 0.468,
+   "Cd28": 0.549,
+   "Cd43": 0.617,
+   "Cd45": 0.568,
+   "Cd5": 0.597,
+   "H2-K": 0.567,
+   "Thy1": 0.516
+  }
+ },
+ "mean_per_gene": {
+  "reimpl_heldout": 0.472,
+  "published_model": 0.508,
+  "shipped_rs1": 0.545
+ }
+}
