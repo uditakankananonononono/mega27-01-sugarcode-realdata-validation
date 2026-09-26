@@ -104,3 +104,32 @@ Artifacts: pytest_full.log (verbatim), inventory.json, scripts/selfaudit_invento
   behavioral verification would need per-module fixtures; out of smoke scope.
 - Leg 4: docstring-level verification of the 18 unspecced modules.
 - Leg 5: final per-module pass/fail table (95 rows).
+
+## Leg 4: unspecced-module docstring verification (18 modules, 00:33)
+18/18 PASS: every unspecced module carries a module docstring naming its
+method (Tavtigian 2018, Doench 2016 CFD, Labuhn 2018 CRISPRater, Moreno-Mateos
+CRISPRscan, Hsu/MIT, Durbin ch.5 profile HMM, Nussinov-Jacobson 1980, CPIC);
+function-level doc coverage 67-100%. Detail: leg4_unspecced_docstrings.json.
+
+## Leg 5: FINAL per-module table (95 rows, FINAL_TABLE.json)
+- Module level: 95/95 PASS at their verification level
+  (Tier-1 9: headline regen + suite | Tier-2 8: independent behavioral probes |
+  Tier-3 78: import + docstring + suite attribution).
+- Claim level: 1 FAIL - gene_analysis's STATUS.md Tier-2 claim ("Hill-kinetics
+  ODE") is unattributable; the module itself passes at smoke+docstring level.
+- Module docstrings: 76/95 have module-level docstrings; the 19 without
+  document method via header comments (finding #4, low severity).
+- Suite: 2,279 passed / 1 failed (drop54 style gate) / 8 env skips.
+- pgx_guidelines: 6 passing tests live outside configured testpaths (wiring gap).
+
+## Audit verdict (honest, per standing rules)
+The repo's own suite is green except one style-gate failure (intentional
+protocol stubs); every tier claim we could verify independently checks out
+behaviorally; the defects found are documentation-level: a stale STATUS.md
+test count, one Tier-2 misattribution, one method-wording imprecision, one
+docstring-coverage gap, one test-wiring gap. No functional module defect was
+found in this audit beyond what the repo itself documents.
+Open gaps: Tier-1 rows beyond regenerated headlines are suite-locked, not
+individually live-reverified; 73 Tier-3 modules have no zero-arg probe
+(behavioral coverage via the suite only); Ensembl-dependent routes remain
+Missing per the repo's own ledger (not re-tested).

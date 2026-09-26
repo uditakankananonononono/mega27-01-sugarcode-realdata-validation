@@ -1,0 +1,128 @@
+{
+ "acmg_bayesian": {
+  "module_docstring_ok": true,
+  "docstring_head": "Tavtigian 2018 Bayesian ACMG/AMP variant classification, with optional live\nClinVar / PubMed lookup ",
+  "public_fns": 5,
+  "fns_with_docstring": 5,
+  "fn_doc_frac": 1.0
+ },
+ "cfd_offtarget": {
+  "module_docstring_ok": true,
+  "docstring_head": "Published Doench 2016 CFD SpCas9 off-target scoring.",
+  "public_fns": 11,
+  "fns_with_docstring": 11,
+  "fn_doc_frac": 1.0
+ },
+ "chem_descriptors": {
+  "module_docstring_ok": true,
+  "docstring_head": "Cheminformatics-lite: SMILES parsing, molecular descriptors and drug-likeness filters.",
+  "public_fns": 20,
+  "fns_with_docstring": 13,
+  "fn_doc_frac": 0.65
+ },
+ "chem_similarity": {
+  "module_docstring_ok": true,
+  "docstring_head": "Molecular similarity: RDKit-compatible Morgan/ECFP fingerprints, Tanimoto/Dice, nearest-neighbour se",
+  "public_fns": 12,
+  "fns_with_docstring": 9,
+  "fn_doc_frac": 0.75
+ },
+ "crisprater": {
+  "module_docstring_ok": true,
+  "docstring_head": "Published CRISPRater sgRNA efficacy model (Labuhn et al. 2018).",
+  "public_fns": 9,
+  "fns_with_docstring": 9,
+  "fn_doc_frac": 1.0
+ },
+ "crisprscan_score": {
+  "module_docstring_ok": true,
+  "docstring_head": "Published CRISPRscan (Moreno-Mateos) on-target scoring.",
+  "public_fns": 10,
+  "fns_with_docstring": 10,
+  "fn_doc_frac": 1.0
+ },
+ "dti_bench": {
+  "module_docstring_ok": true,
+  "docstring_head": "Target-conditioned drug-target interaction baselines and validation.",
+  "public_fns": 9,
+  "fns_with_docstring": 7,
+  "fn_doc_frac": 0.78
+ },
+ "evidence_mining": {
+  "module_docstring_ok": true,
+  "docstring_head": "Live, cached evidence mining from PubMed and ClinicalTrials.gov.",
+  "public_fns": 6,
+  "fns_with_docstring": 4,
+  "fn_doc_frac": 0.67
+ },
+ "mit_offtarget": {
+  "module_docstring_ok": true,
+  "docstring_head": "Published MIT/Hsu SpCas9 off-target scoring and aggregate specificity.",
+  "public_fns": 10,
+  "fns_with_docstring": 10,
+  "fn_doc_frac": 1.0
+ },
+ "molecule_eval": {
+  "module_docstring_ok": true,
+  "docstring_head": "Auditable evaluation for generated molecular libraries.",
+  "public_fns": 6,
+  "fns_with_docstring": 6,
+  "fn_doc_frac": 1.0
+ },
+ "neuro_hub": {
+  "module_docstring_ok": true,
+  "docstring_head": "Neuro-Hub: dashboard aggregation over Omega OS (health, search, projects).",
+  "public_fns": 6,
+  "fns_with_docstring": 6,
+  "fn_doc_frac": 1.0
+ },
+ "pgx_guidelines": {
+  "module_docstring_ok": true,
+  "docstring_head": "CPIC-aligned, provenance-preserving pharmacogenomic decision support.",
+  "public_fns": 6,
+  "fns_with_docstring": 5,
+  "fn_doc_frac": 0.83
+ },
+ "profile_hmm": {
+  "module_docstring_ok": true,
+  "docstring_head": "Profile HMMs from multiple alignments (Durbin et al. 1998, Chapter 5), with\nBaum-Welch training on u",
+  "public_fns": 11,
+  "fns_with_docstring": 9,
+  "fn_doc_frac": 0.82
+ },
+ "qsar_bench": {
+  "module_docstring_ok": true,
+  "docstring_head": "Reproducible, dependency-light QSAR benchmarking.",
+  "public_fns": 9,
+  "fns_with_docstring": 7,
+  "fn_doc_frac": 0.78
+ },
+ "report_studio": {
+  "module_docstring_ok": true,
+  "docstring_head": "Report Studio: lab-grade reports, exports, notebooks and evidence bundles.",
+  "public_fns": 15,
+  "fns_with_docstring": 15,
+  "fn_doc_frac": 1.0
+ },
+ "rna_nussinov": {
+  "module_docstring_ok": true,
+  "docstring_head": "Nussinov-Jacobson (1980) maximum base-pair RNA secondary structure.",
+  "public_fns": 11,
+  "fns_with_docstring": 9,
+  "fn_doc_frac": 0.82
+ },
+ "structural_biophysics": {
+  "module_docstring_ok": true,
+  "docstring_head": "Coordinate-based docking and protein-interface analysis.",
+  "public_fns": 19,
+  "fns_with_docstring": 19,
+  "fn_doc_frac": 1.0
+ },
+ "synbio_studio": {
+  "module_docstring_ok": true,
+  "docstring_head": "Syn-Bio Studio: genetic circuit composition + ODE dynamics.",
+  "public_fns": 10,
+  "fns_with_docstring": 8,
+  "fn_doc_frac": 0.8
+ }
+}

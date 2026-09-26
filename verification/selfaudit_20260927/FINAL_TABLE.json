@@ -1,0 +1,901 @@
+{
+ "summary": {
+  "modules": 95,
+  "pass": 95,
+  "fail": [
+   {
+    "module": "gene_analysis",
+    "reason": "passes suite+import+docstring, but its STATUS.md Tier-2 claim (Hill-kinetics ODE) is unattributable - no Hill code in the module; claim-level FAIL, module-level pass"
+   }
+  ],
+  "module_pass_all_levels": 95,
+  "claim_level_failures": 1,
+  "modules_without_module_docstring": [
+   "bio_material",
+   "biofactory_1_a",
+   "bioplayground",
+   "car_t_designer",
+   "cell_free_opt",
+   "cellpainter",
+   "dna_to_code",
+   "enterprise_bio",
+   "liquid_biopsy",
+   "metabodesigner",
+   "neuro_hub_dashboard",
+   "organoid_screen",
+   "phage_designer",
+   "phageforge",
+   "promoter_lib",
+   "rna_decoder",
+   "robotic_flow",
+   "syn_bio_studio",
+   "syn_stab_ai"
+  ],
+  "n_without_docstring": 19,
+  "suite": {
+   "collected": 2286,
+   "passed": 2279,
+   "failed": 1,
+   "skipped": 8,
+   "failure": "test_drop54.py::test_zero_empty_function_bodies (3 ellipsis protocol stubs in self_improve; style gate)"
+  },
+  "pgx_guidelines_note": "6 passing in-module tests outside configured testpaths (suite-wiring gap)"
+ },
+ "per_module": [
+  {
+   "module": "acmg_bayesian",
+   "suite_tests_passed": 43,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke+docstring",
+   "pass": true
+  },
+  {
+   "module": "alpha_fold_ui",
+   "suite_tests_passed": 55,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier2_behavioral_probe",
+   "pass": true
+  },
+  {
+   "module": "bio_copilot",
+   "suite_tests_passed": 50,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "bio_material",
+   "suite_tests_passed": 25,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": false,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "bio_switch",
+   "suite_tests_passed": 21,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "biofactory_1_a",
+   "suite_tests_passed": 25,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": false,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "biogpt_lit",
+   "suite_tests_passed": 52,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "bioimage_ai",
+   "suite_tests_passed": 22,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "bioplayground",
+   "suite_tests_passed": 39,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": false,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "bioprint_pro",
+   "suite_tests_passed": 38,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "biosimvr",
+   "suite_tests_passed": 38,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "car_t_designer",
+   "suite_tests_passed": 32,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": false,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "cell_free_opt",
+   "suite_tests_passed": 19,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": false,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "cell_twin",
+   "suite_tests_passed": 29,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "cellfatenet",
+   "suite_tests_passed": 17,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "cellpainter",
+   "suite_tests_passed": 25,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": false,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "cellpainter_4d",
+   "suite_tests_passed": 23,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "cfd_offtarget",
+   "suite_tests_passed": 11,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke+docstring",
+   "pass": true
+  },
+  {
+   "module": "chem_descriptors",
+   "suite_tests_passed": 16,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke+docstring",
+   "pass": true
+  },
+  {
+   "module": "chem_similarity",
+   "suite_tests_passed": 8,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke+docstring",
+   "pass": true
+  },
+  {
+   "module": "chemgpt_engine",
+   "suite_tests_passed": 56,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "codon_opt",
+   "suite_tests_passed": 31,
+   "suite_tests_failed": 1,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier2_behavioral_probe",
+   "pass": true
+  },
+  {
+   "module": "crispr_cargo",
+   "suite_tests_passed": 24,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier1_headline_regen+suite",
+   "pass": true
+  },
+  {
+   "module": "crispr_muse",
+   "suite_tests_passed": 41,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "crispr_opt",
+   "suite_tests_passed": 44,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier1_headline_regen+suite",
+   "pass": true
+  },
+  {
+   "module": "crisprater",
+   "suite_tests_passed": 13,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke+docstring",
+   "pass": true
+  },
+  {
+   "module": "crisprscan_score",
+   "suite_tests_passed": 10,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke+docstring",
+   "pass": true
+  },
+  {
+   "module": "dark_genome",
+   "suite_tests_passed": 24,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "deepsplice",
+   "suite_tests_passed": 132,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier1_headline_regen+suite",
+   "pass": true
+  },
+  {
+   "module": "dna_to_code",
+   "suite_tests_passed": 13,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": false,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "docking_studio",
+   "suite_tests_passed": 78,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "dti_bench",
+   "suite_tests_passed": 8,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke+docstring",
+   "pass": true
+  },
+  {
+   "module": "ecosystem",
+   "suite_tests_passed": 20,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "enterprise_bio",
+   "suite_tests_passed": 50,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": false,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "epi_edit",
+   "suite_tests_passed": 28,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "evidence_mining",
+   "suite_tests_passed": 6,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke+docstring",
+   "pass": true
+  },
+  {
+   "module": "evofold_4d",
+   "suite_tests_passed": 35,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier2_behavioral_probe",
+   "pass": true
+  },
+  {
+   "module": "fate_predictor",
+   "suite_tests_passed": 24,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "gene_analysis",
+   "suite_tests_passed": 55,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "gene_explorer",
+   "suite_tests_passed": 19,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "gene_tx_opt",
+   "suite_tests_passed": 37,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "genomegpt",
+   "suite_tests_passed": 41,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "infinite_diagnosis",
+   "suite_tests_passed": 40,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "liquid_biopsy",
+   "suite_tests_passed": 41,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": false,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "living_computer",
+   "suite_tests_passed": 64,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier2_behavioral_probe",
+   "pass": true
+  },
+  {
+   "module": "living_tx",
+   "suite_tests_passed": 40,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "metabodesigner",
+   "suite_tests_passed": 24,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": false,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "micro_tx",
+   "suite_tests_passed": 33,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "microaiverse",
+   "suite_tests_passed": 32,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "microbiome_exp",
+   "suite_tests_passed": 26,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "microbiome_rx",
+   "suite_tests_passed": 31,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "mit_offtarget",
+   "suite_tests_passed": 11,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke+docstring",
+   "pass": true
+  },
+  {
+   "module": "molecule_eval",
+   "suite_tests_passed": 7,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke+docstring",
+   "pass": true
+  },
+  {
+   "module": "mutdock",
+   "suite_tests_passed": 70,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier1_headline_regen+suite",
+   "pass": true
+  },
+  {
+   "module": "neodti_engine",
+   "suite_tests_passed": 38,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "neohunter",
+   "suite_tests_passed": 62,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier1_headline_regen+suite",
+   "pass": true
+  },
+  {
+   "module": "neuro_hub",
+   "suite_tests_passed": 11,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke+docstring",
+   "pass": true
+  },
+  {
+   "module": "neuro_hub_dashboard",
+   "suite_tests_passed": 11,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": false,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "neuro_pipeline",
+   "suite_tests_passed": 50,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "neuroplan_ai",
+   "suite_tests_passed": 42,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "nexus_support",
+   "suite_tests_passed": 39,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "omega_stats",
+   "suite_tests_passed": 13,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "oncocircuit",
+   "suite_tests_passed": 27,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "openclinvar",
+   "suite_tests_passed": 107,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier1_headline_regen+suite",
+   "pass": true
+  },
+  {
+   "module": "organoid_ai",
+   "suite_tests_passed": 25,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "organoid_screen",
+   "suite_tests_passed": 57,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": false,
+   "level": "tier1_headline_regen+suite",
+   "pass": true
+  },
+  {
+   "module": "pdx_insight",
+   "suite_tests_passed": 34,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "pgx_guidelines",
+   "suite_tests_passed": 0,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke+docstring",
+   "pass": true
+  },
+  {
+   "module": "phage_designer",
+   "suite_tests_passed": 27,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": false,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "phage_tx",
+   "suite_tests_passed": 30,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "phageforge",
+   "suite_tests_passed": 22,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": false,
+   "level": "tier1_headline_regen+suite",
+   "pass": true
+  },
+  {
+   "module": "prime_design",
+   "suite_tests_passed": 26,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "profile_hmm",
+   "suite_tests_passed": 26,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke+docstring",
+   "pass": true
+  },
+  {
+   "module": "promoter_lib",
+   "suite_tests_passed": 14,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": false,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "protein_painter",
+   "suite_tests_passed": 21,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier2_behavioral_probe",
+   "pass": true
+  },
+  {
+   "module": "qsar_bench",
+   "suite_tests_passed": 19,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke+docstring",
+   "pass": true
+  },
+  {
+   "module": "rarenet_ai",
+   "suite_tests_passed": 81,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier1_headline_regen+suite",
+   "pass": true
+  },
+  {
+   "module": "report_studio",
+   "suite_tests_passed": 13,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke+docstring",
+   "pass": true
+  },
+  {
+   "module": "riboswitch",
+   "suite_tests_passed": 47,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "rna_decoder",
+   "suite_tests_passed": 12,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": false,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "rna_nussinov",
+   "suite_tests_passed": 22,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke+docstring",
+   "pass": true
+  },
+  {
+   "module": "robotic_flow",
+   "suite_tests_passed": 27,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": false,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "stability_ai",
+   "suite_tests_passed": 24,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "str_scope",
+   "suite_tests_passed": 32,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "structural_biophysics",
+   "suite_tests_passed": 23,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke+docstring",
+   "pass": true
+  },
+  {
+   "module": "syn_bio_studio",
+   "suite_tests_passed": 16,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": false,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "syn_stab_ai",
+   "suite_tests_passed": 25,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": false,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "synbio_studio",
+   "suite_tests_passed": 69,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke+docstring",
+   "pass": true
+  },
+  {
+   "module": "synbio_wizard",
+   "suite_tests_passed": 63,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier2_behavioral_probe",
+   "pass": true
+  },
+  {
+   "module": "syndroid",
+   "suite_tests_passed": 21,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "synlife_evo",
+   "suite_tests_passed": 50,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "synthetic_life",
+   "suite_tests_passed": 48,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "tissue_eng",
+   "suite_tests_passed": 23,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "vector_opt",
+   "suite_tests_passed": 31,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier3_smoke",
+   "pass": true
+  },
+  {
+   "module": "virtual_cell",
+   "suite_tests_passed": 34,
+   "suite_tests_failed": 0,
+   "import_ok": true,
+   "docstring_ok": true,
+   "level": "tier2_behavioral_probe",
+   "pass": true
+  }
+ ]
+}

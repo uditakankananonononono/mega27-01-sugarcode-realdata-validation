@@ -1,0 +1,104 @@
+{
+ "alpha_fold_ui": {
+  "module_docstring_ok": true,
+  "doc_head": "Transparent structure inference and real-structure analysis.",
+  "public_fns": 14,
+  "fns_with_docstring": 7
+ },
+ "codon_opt": {
+  "module_docstring_ok": true,
+  "doc_head": "Codon Opt laboratory-grade translational systems design.",
+  "public_fns": 10,
+  "fns_with_docstring": 9
+ },
+ "crispr_cargo": {
+  "module_docstring_ok": true,
+  "doc_head": "CRISPR Cargo delivery intelligence.",
+  "public_fns": 12,
+  "fns_with_docstring": 4
+ },
+ "crispr_opt": {
+  "module_docstring_ok": true,
+  "doc_head": "Context-aware CRISPR guide design and biophysical risk analy",
+  "public_fns": 24,
+  "fns_with_docstring": 12
+ },
+ "deepsplice": {
+  "module_docstring_ok": true,
+  "doc_head": "Splice-site, regulatory and isoform intelligence.",
+  "public_fns": 24,
+  "fns_with_docstring": 13
+ },
+ "evofold_4d": {
+  "module_docstring_ok": true,
+  "doc_head": "EvoFold 4D elastic, stochastic and state-model dynamics.",
+  "public_fns": 14,
+  "fns_with_docstring": 4
+ },
+ "gene_analysis": {
+  "module_docstring_ok": true,
+  "doc_head": "Mechanistic multi-omic gene digital twin and variant inferen",
+  "public_fns": 26,
+  "fns_with_docstring": 12
+ },
+ "living_computer": {
+  "module_docstring_ok": true,
+  "doc_head": "Programmable cellular logic circuit design and simulation.",
+  "public_fns": 38,
+  "fns_with_docstring": 29
+ },
+ "mutdock": {
+  "module_docstring_ok": true,
+  "doc_head": "Mutation-aware docking, resistance and epistasis.",
+  "public_fns": 15,
+  "fns_with_docstring": 5
+ },
+ "neohunter": {
+  "module_docstring_ok": true,
+  "doc_head": "NeoHunter personalized, escape-aware neoantigen design.",
+  "public_fns": 14,
+  "fns_with_docstring": 13
+ },
+ "openclinvar": {
+  "module_docstring_ok": true,
+  "doc_head": "Explainable, evidence-weighted variant intelligence.",
+  "public_fns": 17,
+  "fns_with_docstring": 7
+ },
+ "organoid_screen": {
+  "module_docstring_ok": false,
+  "doc_head": "",
+  "public_fns": 8,
+  "fns_with_docstring": 4
+ },
+ "phageforge": {
+  "module_docstring_ok": false,
+  "doc_head": "",
+  "public_fns": 9,
+  "fns_with_docstring": 3
+ },
+ "protein_painter": {
+  "module_docstring_ok": true,
+  "doc_head": "Protein Painter engineering environment.",
+  "public_fns": 15,
+  "fns_with_docstring": 2
+ },
+ "rarenet_ai": {
+  "module_docstring_ok": true,
+  "doc_head": "RareNet AI: explainable rare-disease reasoning over phenotyp",
+  "public_fns": 7,
+  "fns_with_docstring": 7
+ },
+ "synbio_wizard": {
+  "module_docstring_ok": true,
+  "doc_head": "Constraint-aware synthetic-biology design compiler.",
+  "public_fns": 36,
+  "fns_with_docstring": 5
+ },
+ "virtual_cell": {
+  "module_docstring_ok": true,
+  "doc_head": "Virtual Cell: constraint-based metabolism + gene regulation ",
+  "public_fns": 17,
+  "fns_with_docstring": 17
+ }
+}
