@@ -1,0 +1,16 @@
+{
+ "study_only": {
+  "disc_coef": -1.2976,
+  "disc_p": 0.004771201094045324,
+  "lrt_p": 0.00491650619145878,
+  "group_var": 0.6411,
+  "converged": true
+ },
+ "guide_only": {
+  "disc_coef": -1.3762,
+  "disc_p": 0.0018244781885587938,
+  "lrt_p": 0.0019283033215725665,
+  "group_var": 0.961,
+  "converged": true
+ }
+}
