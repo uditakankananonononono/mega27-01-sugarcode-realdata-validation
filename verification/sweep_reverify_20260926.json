@@ -1,0 +1,127 @@
+{
+ "date": "2026-09-26",
+ "purpose": "live re-verification of the 127/127 validated-module claim (rule: never report status-file counts without live verification)",
+ "manifest": {
+  "total_rows": 127,
+  "status_counts": {
+   "validated": 127
+  },
+  "kinds": {
+   "module": 95,
+   "bio": 32
+  }
+ },
+ "artifact_level": {
+  "rows_with_live_evidence": 127,
+  "of": 127,
+  "note": "every manifest row has either an existing non-trivial evidence file or VERDICTS.md coverage; 8 rows use annotated (non-path) evidence strings, all covered by VERDICTS.md"
+ },
+ "execution_level_sample": {
+  "cfd_offtarget": {
+   "n_scores_compared": 9600,
+   "skipped_no_ref": 0,
+   "exact_1e-12": 9600,
+   "max_abs_diff": 2.220446049250313e-16,
+   "bad": []
+  },
+  "chem_descriptors": {
+   "n": 993,
+   "rdkit_parse_fail": 0,
+   "module_parse_fail": 0,
+   "agreement": {
+    "mol_wt": {
+     "agree": 993,
+     "n": 993,
+     "rate": 1.0
+    },
+    "exact_mol_wt": {
+     "agree": 993,
+     "n": 993,
+     "rate": 1.0
+    },
+    "hbd": {
+     "agree": 993,
+     "n": 993,
+     "rate": 1.0
+    },
+    "hba": {
+     "agree": 993,
+     "n": 993,
+     "rate": 1.0
+    },
+    "rotatable_bonds": {
+     "agree": 993,
+     "n": 993,
+     "rate": 1.0
+    },
+    "tpsa": {
+     "agree": 993,
+     "n": 993,
+     "rate": 1.0
+    }
+   }
+  },
+  "pwm_motif_lod": [
+   {
+    "motif": "MA0003.4",
+    "len": 14,
+    "max_lod_diff": 8.881784197001252e-16
+   },
+   {
+    "motif": "MA0079.3",
+    "len": 11,
+    "max_lod_diff": 8.881784197001252e-16
+   },
+   {
+    "motif": "MA0080.4",
+    "len": 14,
+    "max_lod_diff": 1.7763568394002505e-15
+   },
+   {
+    "motif": "MA0099.3",
+    "len": 10,
+    "max_lod_diff": 8.881784197001252e-16
+   },
+   {
+    "motif": "MA0105.4",
+    "len": 13,
+    "max_lod_diff": 1.7763568394002505e-15
+   },
+   {
+    "motif": "MA0106.3",
+    "len": 18,
+    "max_lod_diff": 1.7763568394002505e-15
+   },
+   {
+    "motif": "MA0108.2",
+    "len": 15,
+    "max_lod_diff": 4.440892098500626e-16
+   },
+   {
+    "motif": "MA0112.3",
+    "len": 17,
+    "max_lod_diff": 1.7763568394002505e-15
+   },
+   {
+    "motif": "MA0113.3",
+    "len": 17,
+    "max_lod_diff": 1.7763568394002505e-15
+   },
+   {
+    "motif": "MA0139.1",
+    "len": 19,
+    "max_lod_diff": 1.7763568394002505e-15
+   }
+  ]
+ },
+ "findings": [
+  "cfd_offtarget: 9600/9600 scores exact to 1e-12 vs Doench 2016 official pickles (max diff 2.2e-16) - claim REPRODUCED",
+  "chem_descriptors: 993/993 agreement on all six descriptors vs RDKit 2024.09.6 - hba improved from sweep-recorded 867/993 (0.8731) to 993/993; upstream sugarcode-ai changed since the sweep (clone now at 5981cfa, single squashed commit, change provenance not diffable)",
+  "pwm/motif: max log-odds diff <= 1.78e-15 across all 10 JASPAR motifs vs Biopython 1.88 - claim REPRODUCED"
+ ],
+ "open_gaps": [
+  "124 of 127 claims verified at artifact level only (file exists, non-trivial, consistent with VERDICTS.md); full end-to-end re-execution of every claim is a multi-hour job not yet done",
+  "hba change provenance cannot be established from the shallow upstream clone",
+  "original sweep harness scripts are not preserved in this repo (scripts/ has only 4 files) - reproducibility gap"
+ ]
+}
