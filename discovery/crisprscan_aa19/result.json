@@ -1,0 +1,16 @@
+{
+ "supplement_features": 91,
+ "crispor_features": 91,
+ "identical_position_and_weight": 90,
+ "value_mismatches_same_key": [],
+ "supplement_keys_missing_in_crispor": [
+  [
+   "AA19",
+   -0.0973770966031
+  ]
+ ],
+ "crispor_keys_not_in_supplement": {
+  "AA18": -0.097377097
+ },
+ "conclusion": "CRISPOR places the largest negative coefficient (-0.0973770966031) on AA18; the original supplement places it on AA19. Position conventions align (90/91 agree at identical keys), so this is a one-position misplacement in CRISPOR's Excel conversion, not a numbering difference."
+}

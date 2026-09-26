@@ -498,3 +498,16 @@ Result: benchmarks/sweep_tissue_eng.json
 ## modules.virtual_cell (2026-09-25)
 FOUR BUGS FIXED. BUG 140: environment_response sold solver infeasibility as biological "no growth" - contradictory bounds GLC_UP=(5,2) reported phenotype "no growth" with growth 0.0; fba's infeasible return also dropped the objective_reaction key and reported a feasible-looking 0.0. Now each condition carries its solver status and an explicit "infeasible - contradictory bounds" phenotype, while a genuinely starved but feasible condition (GLC_UP=(0,0)) still reports "no growth". BUG 141: simulate_growth(glucose0=0) crashed IndexError on the empty trajectory; now ValueError. BUG 142: pfba never validated optimum_fraction and silently returned plain FBA when the parsimonious stage failed - fraction=2.0 demanded twice the optimum, went infeasible, and the caller received plain FBA with no "method" key; fraction=-1 was silently accepted. Now (0,1] validation, and the fallback is honestly labeled (method "fba", pfba_stage message). BUG 143: regulatory_state accepted non-Boolean initial states (initial a=5.0 appeared in the trajectory of a Boolean simulation) and silently ignored unknown initial genes; both now ValueError. Identities verified: demo-model FBA optimum 15 flux units with S v = 0 residuals < 1e-5; pFBA total_flux positive with method "pFBA"; starvation phenotype unchanged; downstream synthetic_life suite re-run green after the fba shape addition (additive objective_reaction key only). Live NCBI anchors: PMID 26115539 (The principles of whole-cell modeling) and PMID 29275251 (Emerging whole-cell modeling principles and methods). Negatives kept: fba infeasible still reports objective 0.0 (shape now labeled; downstream arithmetic depends on it); Gillespie zero-propensity early-exit leaves genuinely-zero state columns, which are correct values; mu_per_flux scaling heuristic documented in simulate_growth.
 Result: benchmarks/sweep_virtual_cell.json
+
+## CRISPRscan coefficient discrepancy RESOLVED (2026-09-26)
+The original Moreno-Mateos 2015 supplementary model (nmeth.3543, MOESM640 xlsx,
+media.springernature.com, retrieved 2026-09-26; data/crisprscan/MOESM640.xlsx) places
+the largest negative coefficient (-0.0973770966031) on dinucleotide AA at position 19.
+90/91 features agree with CRISPOR paramsCRISPRscan at identical positions and weights,
+proving the position conventions align; the single deviation is CRISPOR placing that
+weight on AA18. Conclusion: one-position misplacement in CRISPOR's Excel conversion;
+crisprScore (Bioconductor) and sugarcode (which follows crisprScore) match the original
+model and are correct. The 8.3%-of-scores / up-to-10-point effect measured on held-out
+BRCA1 contexts is therefore CRISPOR's error, not a modeling ambiguity.
+Evidence: discovery/crisprscan_aa19/{compare_vs_supplement.py,result.json}.
+Upstream report to CRISPOR recommended (needs owner sign-off before any external contact).
