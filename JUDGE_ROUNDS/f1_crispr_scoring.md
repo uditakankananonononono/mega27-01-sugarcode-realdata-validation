@@ -2464,3 +2464,15 @@ HONEST NEGATIVE at current power: on the paper's own 35-guide in-vivo validation
 - results: wave1/logs/round6_foldback_bioimpact.json
 - verbatim capture: wave1/f1_round6_page.txt (9,405 chars, stable-verified, "ChatGPT can make mistakes" marker present)
 - identity check: 4,824/4,824 within +-1 int (examples_bad empty after clamp fix)
+
+### ROUND 6 ESCALATION ADDENDUM - 2026-09-26 ~21:19 IST (same wake campaign; judge's key experiment rerun at full power)
+
+The n=35 in-vivo test was structurally underpowered (1/35 guides affected), so the consequence experiment was escalated: 492-guide MOESM633-d1 activity library mapped to danRer7 (UCSC, period-correct assembly): 491/492 found, 474 uniquely mapped with valid NGG 35nt contexts, 17 multi-mapped excluded, 1 unmapped (logs/round7_d1_mapping.json). Both REAL implementations scored (CRISPOR production buggy vs corrected), Spearman vs activity_raw_prank (logs/round7_bioimpact_d1.json; script wave1/scripts/round7_bioimpact_d1.py).
+
+RESULTS (n=474):
+- Sanity: corrected implementation Spearman 0.6157 vs measured library activity (plausible for this assay family).
+- Buggy production (defect + int truncation) vs corrected: delta +0.0036, bootstrap 95% CI [-0.0064, +0.0141]. 243/474 (51.3%) scores differ >0.005, but that is dominated by int truncation.
+- DEFECT ONLY (identity-verified float delta, no truncation): 30/474 (6.3%) guides carry the AA19 defect (consistent with TP53 8.5%); delta +0.0030, 95% CI [-0.0070, +0.0134].
+- Fake-bug negative control: real delta exceeds only 80.8% of randomized-position fakes (below the 95% bar).
+
+POWERED VERDICT: at library scale on the paper's own activity data, fixing the AA19 defect yields no measurable predictive improvement (effect ~0.003 Spearman, CI crosses 0; indistinguishable from fake bugs). The biological-consequence bridge is now answered at the bulk-prediction layer: NO detectable degradation. The defect's real consequence stays at the candidate-selection layer: 6-8.5% of guides mis-scored, 1 in 10-25 top shortlist candidates displaced - which is where individual research projects actually feel it. CAVEATS: d1 is the same paper's in-vitro library assay (possibly training-adjacent, correlations inflated vs truly independent data); danRer7 assumed period-correct; activity is a rank-transformed measure. Paper framing: the honest result is "bulk prediction robust, individual guide selection not" - a sharper and more defensible claim than either 'bug changes biology' or 'bug is harmless'.
