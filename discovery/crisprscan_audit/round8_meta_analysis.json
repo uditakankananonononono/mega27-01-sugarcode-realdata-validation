@@ -1,0 +1,54 @@
+{
+ "method": "inverse-variance meta-analysis of defect-only Spearman deltas (4 independent datasets); SEs from bootstrap CIs; Doench counted once (pooled estimate)",
+ "tests": [
+  {
+   "name": "zebrafish d1 (n=474)",
+   "delta": 0.003,
+   "ci": [
+    -0.007,
+    0.0134
+   ]
+  },
+  {
+   "name": "Doench 2016 (n=5310)",
+   "delta": 0.0045,
+   "ci": [
+    0.0001,
+    0.0087
+   ]
+  },
+  {
+   "name": "HL60 (n=1088)",
+   "delta": 0.0066,
+   "ci": [
+    -0.004,
+    0.0173
+   ]
+  },
+  {
+   "name": "KBM7 (n=1088)",
+   "delta": 0.0014,
+   "ci": [
+    -0.0091,
+    0.0121
+   ]
+  }
+ ],
+ "fixed_effect": {
+  "pooled_delta": 0.00421,
+  "ci95": [
+   0.00071,
+   0.00772
+  ]
+ },
+ "Q": 0.535,
+ "I2_pct": 0.0,
+ "tau2": 0.0,
+ "random_effect_DL": {
+  "pooled_delta": 0.00421,
+  "ci95": [
+   0.00071,
+   0.00772
+  ]
+ }
+}

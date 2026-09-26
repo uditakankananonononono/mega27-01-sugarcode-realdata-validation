@@ -1,0 +1,6191 @@
+{
+ "n_multi_annotated": 712,
+ "top_families": [
+  [
+   "INTERGENIC",
+   18
+  ],
+  [
+   "RPL3",
+   13
+  ],
+  [
+   "MAP3K13;RPL4",
+   13
+  ],
+  [
+   "RPL13",
+   11
+  ],
+  [
+   "GOLGA6L10;GOLGA6L17P;GOLGA6L9;RPS17",
+   11
+  ],
+  [
+   "RPL27A",
+   9
+  ],
+  [
+   "RPS9",
+   7
+  ],
+  [
+   "RPS4X",
+   6
+  ],
+  [
+   "RPS15",
+   6
+  ],
+  [
+   "RPL8",
+   6
+  ],
+  [
+   "RPL35",
+   5
+  ],
+  [
+   "BAIAP2L1;JMY;RPS3A",
+   5
+  ],
+  [
+   "PTPRG;RPL10A",
+   5
+  ],
+  [
+   "RPL18A;TXNRD1",
+   5
+  ],
+  [
+   "ABCA3;RPS16",
+   5
+  ],
+  [
+   "RPS6",
+   5
+  ],
+  [
+   "RPS13;ZYG11B",
+   5
+  ],
+  [
+   "RPS3",
+   5
+  ],
+  [
+   "RPL10",
+   4
+  ],
+  [
+   "CBR3-AS1;RPS9",
+   4
+  ],
+  [
+   "DOP1B;RPL3",
+   4
+  ],
+  [
+   "CSF1R;PNPLA8;RPL7",
+   4
+  ],
+  [
+   "NKIRAS1;RPL15",
+   4
+  ],
+  [
+   "NSF;PCNX2;RPS7",
+   4
+  ],
+  [
+   "RPL6",
+   4
+  ]
+ ],
+ "per_guide": {
+  "GCGGCTGCCGAAGATGGCGG": {
+   "copies": 9,
+   "genes": [
+    "FCMR",
+    "RPL13A",
+    "RPL13AP20",
+    "RPL13AP5"
+   ]
+  },
+  "GGCGGCCATCGTGGCTAAAC": {
+   "copies": 4,
+   "genes": [
+    "RPL13A",
+    "RPL13AP20",
+    "RPL13AP5"
+   ]
+  },
+  "GGGCGCCTGGCTCACGAGGT": {
+   "copies": 5,
+   "genes": [
+    "ATXN7L1",
+    "MDGA2",
+    "RPL13A",
+    "RPL13AP20",
+    "RPL13AP5"
+   ]
+  },
+  "CCAGGCAGTGACAGCCACCC": {
+   "copies": 7,
+   "genes": [
+    "MAN1A1",
+    "RPL13A",
+    "RPL13AP20",
+    "RPL13AP3",
+    "RPL13AP5"
+   ]
+  },
+  "AGAAAGCCAAGATCCACTAC": {
+   "copies": 7,
+   "genes": [
+    "RPL13A",
+    "RPL13AP20",
+    "RPL13AP3",
+    "RPL13AP5"
+   ]
+  },
+  "ACAGAGGTCCTCAAGACCCA": {
+   "copies": 10,
+   "genes": [
+    "FCMR",
+    "RHEX",
+    "RPL13A",
+    "RPL13AP3",
+    "RPL13AP5",
+    "RPL13AP6",
+    "SHOC2"
+   ]
+  },
+  "ATGCTCCTTGTTCTGCAGCT": {
+   "copies": 14,
+   "genes": [
+    "ASTN2",
+    "COBLL1",
+    "RAP1B"
+   ]
+  },
+  "TCTTGTTGATGCGGATGACG": {
+   "copies": 2,
+   "genes": []
+  },
+  "GTACTTATTGGCACAAATTC": {
+   "copies": 5,
+   "genes": [
+    "RPL10"
+   ]
+  },
+  "AACCACAGCTCTGTTGGCTG": {
+   "copies": 2,
+   "genes": [
+    "PCOLCE2"
+   ]
+  },
+  "CTTGAACTTGGCCCTGCGCA": {
+   "copies": 9,
+   "genes": [
+    "ASTN2",
+    "RAP1B",
+    "RPL10",
+    "RPL10L",
+    "SNHG31"
+   ]
+  },
+  "GCATCATCATGGAGTTAGTG": {
+   "copies": 2,
+   "genes": []
+  },
+  "CCGAATCAGGGTGTTGACCT": {
+   "copies": 9,
+   "genes": [
+    "CENATAC",
+    "PPP2R5A",
+    "RPL23A",
+    "RPL23AP64"
+   ]
+  },
+  "GAAACTTGATGATAGCATAG": {
+   "copies": 26,
+   "genes": [
+    "BCAS3",
+    "LAMA3",
+    "LINC02067",
+    "PPP2R5A",
+    "RPL23AP32",
+    "RPL23AP7",
+    "RPL23AP82",
+    "RPL23AP87",
+    "SPTBN1",
+    "SUFU"
+   ]
+  },
+  "CTGGAGGGTCAAATTTACCC": {
+   "copies": 3,
+   "genes": [
+    "CBR3-AS1",
+    "RPS9"
+   ]
+  },
+  "CGCTTGATGAGAAGGACCCA": {
+   "copies": 3,
+   "genes": [
+    "CBR3-AS1",
+    "RPS9"
+   ]
+  },
+  "GGATGAGGGCAAGATGAAGC": {
+   "copies": 3,
+   "genes": [
+    "CBR3-AS1",
+    "RPS9"
+   ]
+  },
+  "CTTTCTTCTCCTCCATGGTC": {
+   "copies": 5,
+   "genes": [
+    "DOP1B",
+    "RPL3"
+   ]
+  },
+  "TTTCTTGCAGTACTTGGTAA": {
+   "copies": 5,
+   "genes": [
+    "ADAM32",
+    "DOP1B",
+    "RPL3",
+    "ZSWIM6"
+   ]
+  },
+  "TCATGCCAGCCTTGTATCCC": {
+   "copies": 6,
+   "genes": [
+    "ADAM32",
+    "DOP1B",
+    "RPL3",
+    "ZSWIM6"
+   ]
+  },
+  "GAGGGACCCATGTCTGGGAG": {
+   "copies": 4,
+   "genes": [
+    "DOP1B"
+   ]
+  },
+  "AGAAATGTCCCTGACTGCTG": {
+   "copies": 26,
+   "genes": [
+    "ANAPC1P1",
+    "ANK2",
+    "DAB1",
+    "ERCC4",
+    "FAM20B",
+    "FANCC",
+    "GET1-SH3BGR",
+    "GGACT",
+    "IMPA1P1",
+    "METTL8",
+    "NHSL2",
+    "NSMAF",
+    "PRMT8",
+    "PTPRD",
+    "RAB3B",
+    "RPS26",
+    "RPS26P11",
+    "SFI1",
+    "SH3BGR",
+    "ZNF609"
+   ]
+  },
+  "CCCAGCCTCGGCTTTCTTGT": {
+   "copies": 8,
+   "genes": [
+    "AMBRA1",
+    "FAM110A",
+    "LOC107985246",
+    "MACROD2",
+    "RPS10",
+    "RPS10-NUDT3",
+    "RPS10P7",
+    "TLK2"
+   ]
+  },
+  "GGCCGAGGCCTGCCAGTCTC": {
+   "copies": 9,
+   "genes": [
+    "AMBRA1",
+    "C12orf54",
+    "ELMO1",
+    "FAM110A",
+    "RPS10",
+    "RPS10-NUDT3",
+    "TLK2"
+   ]
+  },
+  "GAAGGTAATCACGGAGATAC": {
+   "copies": 12,
+   "genes": [
+    "AMBRA1",
+    "CA5A",
+    "FAM110A",
+    "RPS10",
+    "RPS10-NUDT3",
+    "TLK2",
+    "TUFT1"
+   ]
+  },
+  "GTACCAGTAGAAATGTCTCC": {
+   "copies": 14,
+   "genes": [
+    "AMBRA1",
+    "FAM110A",
+    "GAPVD1",
+    "GLG1",
+    "GRAMD1C",
+    "LHPP",
+    "LOC107985246",
+    "MACROD2",
+    "MED30",
+    "RPS10",
+    "RPS10-NUDT3",
+    "RPS10P7",
+    "TLK2"
+   ]
+  },
+  "GCTCCGGGTGCTTAGGCATG": {
+   "copies": 9,
+   "genes": [
+    "AMBRA1",
+    "C12orf54",
+    "FAM110A",
+    "LOC107985246",
+    "MED30",
+    "RPS10",
+    "RPS10-NUDT3",
+    "RPS10P7",
+    "TLK2"
+   ]
+  },
+  "ATGGCAATCCGGTTCTTCTT": {
+   "copies": 4,
+   "genes": [
+    "FAM110A"
+   ]
+  },
+  "ATACGGCATCATCTGCATGG": {
+   "copies": 6,
+   "genes": [
+    "RPL7"
+   ]
+  },
+  "TGGAGATGCTGGCAACAGGG": {
+   "copies": 13,
+   "genes": [
+    "CAP2",
+    "KALRN",
+    "RERE",
+    "RPL7",
+    "STPG4"
+   ]
+  },
+  "ACAAAGTGTGCTTCTCTGGG": {
+   "copies": 22,
+   "genes": [
+    "ALKBH1",
+    "ATP10D",
+    "DTL",
+    "ITGA9",
+    "LOC101927668",
+    "PALM2AKAP2",
+    "PLEKHA6",
+    "RPL21",
+    "RPL21P28",
+    "SDK1",
+    "ZNF609"
+   ]
+  },
+  "ATTCGCATATATGTGGCCAA": {
+   "copies": 13,
+   "genes": [
+    "DTL",
+    "LOC101927668",
+    "LOC101928519",
+    "P2RX5-TAX1BP3",
+    "RPL21",
+    "RPL21P28",
+    "TAX1BP3"
+   ]
+  },
+  "CTCTCTCTTCAGCAATGGTG": {
+   "copies": 6,
+   "genes": [
+    "VPS53"
+   ]
+  },
+  "GCATCATGAGTCACCAGATG": {
+   "copies": 8,
+   "genes": [
+    "ADIPOR2",
+    "RPS4X",
+    "SPIDR",
+    "VPS53"
+   ]
+  },
+  "GGAGACACTCTCTCAACTTG": {
+   "copies": 6,
+   "genes": [
+    "ADIPOR2",
+    "RPS4X",
+    "SPIDR"
+   ]
+  },
+  "CAAGTCCCGAGGCTACGTGA": {
+   "copies": 6,
+   "genes": [
+    "AMBRA1",
+    "LOC107985246",
+    "MACROD2",
+    "RPS10",
+    "RPS10-NUDT3",
+    "RPS10P7",
+    "TUFT1"
+   ]
+  },
+  "ACTGGCAGGCCTCGGCCTAA": {
+   "copies": 12,
+   "genes": [
+    "AMBRA1",
+    "C12orf54",
+    "CA5A",
+    "ELMO1",
+    "FAM110A",
+    "MACROD2",
+    "RPS10",
+    "RPS10-NUDT3",
+    "TLK2"
+   ]
+  },
+  "TGGTGCCGACAAGAAAGCCG": {
+   "copies": 6,
+   "genes": [
+    "AMBRA1",
+    "MACROD2",
+    "MED30",
+    "RPS10",
+    "RPS10-NUDT3",
+    "TLK2"
+   ]
+  },
+  "GAGTGCCCTTCTGATGAATG": {
+   "copies": 6,
+   "genes": [
+    "BFSP1",
+    "RBL1",
+    "RPS27A",
+    "UBE3C"
+   ]
+  },
+  "TTGGTGATCCACTGGGTGTC": {
+   "copies": 9,
+   "genes": [
+    "ASCC1",
+    "CLEC6A",
+    "NKIRAS1",
+    "RPL15"
+   ]
+  },
+  "TTAGCTGGTTAACACCATGA": {
+   "copies": 7,
+   "genes": [
+    "CORIN",
+    "LARP1B",
+    "NKIRAS1",
+    "PCCA",
+    "RPL15",
+    "RSRC1"
+   ]
+  },
+  "TTGCCGTAAGTTGCACCCTT": {
+   "copies": 2,
+   "genes": []
+  },
+  "TATATGCGAATCTATAAGAA": {
+   "copies": 27,
+   "genes": [
+    "CC2D2B",
+    "DTL",
+    "ENTPD1-AS1",
+    "HSPA4L",
+    "HSPG2",
+    "LOC101927668",
+    "LOC101928519",
+    "NSD1",
+    "P2RX5-TAX1BP3",
+    "PALM2AKAP2",
+    "RPL21",
+    "RPL21P28",
+    "SENP8",
+    "TAX1BP3",
+    "ZNF609"
+   ]
+  },
+  "AAGCCAAAGAGAAAGGTACC": {
+   "copies": 43,
+   "genes": [
+    "ALDH9A1",
+    "DTL",
+    "FUT8",
+    "GPD1L",
+    "HECTD1",
+    "HSPA4L",
+    "HSPG2",
+    "LARP1",
+    "LOC101927668",
+    "LRP6",
+    "MED22",
+    "P2RX5-TAX1BP3",
+    "PALM2AKAP2",
+    "PLAC1",
+    "QRSL1",
+    "RNF111",
+    "RPL21",
+    "RPL21P28",
+    "SSH2",
+    "TAX1BP3",
+    "UBE4B",
+    "ZDHHC15",
+    "ZNF32-AS3"
+   ]
+  },
+  "GCACACTTTGTGAGAACCAA": {
+   "copies": 23,
+   "genes": [
+    "BRCA1",
+    "CLIP1",
+    "HSPG2",
+    "ITGA9",
+    "LOC101927668",
+    "P2RX5-TAX1BP3",
+    "RNF111",
+    "RPL21",
+    "TAX1BP3",
+    "ZDHHC15"
+   ]
+  },
+  "AGAGTTCTCTGGCTAAGGAT": {
+   "copies": 6,
+   "genes": [
+    "KIFC1",
+    "NBEAL1",
+    "RIN2"
+   ]
+  },
+  "TTCTGTTTCTTTCTGTCTCT": {
+   "copies": 8,
+   "genes": [
+    "KIFC1",
+    "LOC101927668",
+    "RIN2",
+    "RPL12"
+   ]
+  },
+  "CCTTGAGGGCTTTGATGATC": {
+   "copies": 5,
+   "genes": [
+    "CCSER2",
+    "RIN2",
+    "RPL12"
+   ]
+  },
+  "AGTGGCACCGACTTCACCTC": {
+   "copies": 8,
+   "genes": [
+    "KIFC1",
+    "NBEAL1",
+    "RIN2",
+    "RPL12"
+   ]
+  },
+  "ATGGTCCATGATGCCAGCTG": {
+   "copies": 13,
+   "genes": [
+    "CFAP47",
+    "HK1",
+    "IARS2",
+    "KIZ",
+    "LEPROTL1",
+    "LOC101928627",
+    "RAB7A",
+    "RPS15A"
+   ]
+  },
+  "TTTGAGTTGCACGTCAAATC": {
+   "copies": 3,
+   "genes": [
+    "COIL",
+    "KIZ",
+    "RPS15A"
+   ]
+  },
+  "AGCACGGCCTAATAAGCACC": {
+   "copies": 4,
+   "genes": [
+    "IARS2",
+    "KIZ",
+    "LEPROTL1",
+    "RPS15A"
+   ]
+  },
+  "TACAATGGCCACGTCGGTCT": {
+   "copies": 15,
+   "genes": [
+    "CDC27",
+    "GAB1",
+    "PRSS57",
+    "RNF11",
+    "RPS2",
+    "TAOK3",
+    "ZNF318"
+   ]
+  },
+  "ATTCACCAAGTCTCCCTATC": {
+   "copies": 15,
+   "genes": [
+    "ADAMTS6",
+    "CDC27",
+    "EPS15L1",
+    "RPS2",
+    "RPS2P32",
+    "ZNF318",
+    "ZNF44"
+   ]
+  },
+  "CACTTTGACAGACATTATTG": {
+   "copies": 9,
+   "genes": [
+    "IFRD1",
+    "RBL1",
+    "RPS27A",
+    "UBE3C"
+   ]
+  },
+  "TTCTTCTCTTGCTTTGTCTC": {
+   "copies": 18,
+   "genes": [
+    "ANK2",
+    "CTNNA3",
+    "FAM185A",
+    "FAM185BP",
+    "HECTD4",
+    "LOC340512",
+    "MIR924HG",
+    "PKP4",
+    "RAD51B",
+    "SEMA6D",
+    "SMOC1",
+    "TMEM150C",
+    "XCL1",
+    "XCL2",
+    "ZNF462"
+   ]
+  },
+  "GTATACCTGAGGTGCACCGG": {
+   "copies": 9,
+   "genes": [
+    "CHD6",
+    "NBEAL1",
+    "RIN2",
+    "RPL12"
+   ]
+  },
+  "GATGACATTGCCAAGGCAAC": {
+   "copies": 6,
+   "genes": [
+    "CHD6",
+    "NBEAL1"
+   ]
+  },
+  "ACAGTCTCCTTCCAGAGGTC": {
+   "copies": 15,
+   "genes": [
+    "MFSD2A",
+    "POLR1C",
+    "RNF11",
+    "TAOK3",
+    "XPO5",
+    "ZNF44"
+   ]
+  },
+  "GTAGCTGTAGGTCTTAGAAA": {
+   "copies": 7,
+   "genes": [
+    "POLR1C",
+    "RNF11",
+    "RPS2",
+    "XPO5"
+   ]
+  },
+  "GGAGAGCTTGGCCAGGATGA": {
+   "copies": 20,
+   "genes": [
+    "ALS2",
+    "GAB1",
+    "INVS",
+    "MFSD2A",
+    "POLR1C",
+    "PRSS57",
+    "PTPRO",
+    "RNF11",
+    "RPS2",
+    "TAOK3",
+    "XPO5",
+    "ZNF318",
+    "ZNF44"
+   ]
+  },
+  "GATGGCGGTGGCCACCTCCT": {
+   "copies": 12,
+   "genes": [
+    "GAB1",
+    "MFSD2A",
+    "RNF11",
+    "RPS2",
+    "TAOK3"
+   ]
+  },
+  "ACTTAACACCCAGACCGACG": {
+   "copies": 16,
+   "genes": [
+    "GAB1",
+    "INVS",
+    "LRRC52-AS1",
+    "POLR1C",
+    "RNF11",
+    "RPS2",
+    "TAOK3",
+    "XPO5",
+    "ZNF318"
+   ]
+  },
+  "TGCCACTGCCGAAACCTCCG": {
+   "copies": 13,
+   "genes": [
+    "GAB1",
+    "MFSD2A",
+    "RNF11",
+    "RPS2",
+    "TAOK3"
+   ]
+  },
+  "GCTTCAGCCTGGAGGAGCTC": {
+   "copies": 2,
+   "genes": [
+    "RPL13"
+   ]
+  },
+  "GGTGGCCGGCATTCACAAGA": {
+   "copies": 2,
+   "genes": [
+    "RPL13"
+   ]
+  },
+  "CCCTGCAGGCCAACGTGCAG": {
+   "copies": 2,
+   "genes": [
+    "RPL13"
+   ]
+  },
+  "TGAATACAGTCTCCTTCCAG": {
+   "copies": 13,
+   "genes": [
+    "ACACA",
+    "ALS2",
+    "CDC27",
+    "EPS15L1",
+    "EYA2",
+    "GGNBP2",
+    "RPS2",
+    "RPS2P32"
+   ]
+  },
+  "TGAAGGTCTCCAAGGACAAA": {
+   "copies": 2,
+   "genes": [
+    "FKBP5",
+    "FOXP2",
+    "LRCH2",
+    "RIPOR3"
+   ]
+  },
+  "AGTCGGTGCCACTTCTGCCC": {
+   "copies": 8,
+   "genes": [
+    "KIFC1",
+    "NBEAL1",
+    "RIN2",
+    "RPL12"
+   ]
+  },
+  "TCAACATTGCTCGACAGATG": {
+   "copies": 5,
+   "genes": [
+    "CCSER2",
+    "KIFC1",
+    "RIN2",
+    "RPL12"
+   ]
+  },
+  "GGAACCATTAAAGAGATCCT": {
+   "copies": 14,
+   "genes": [
+    "NBEAL1",
+    "RPL12",
+    "TRABD2A"
+   ]
+  },
+  "AGCTCCAAAGCATTGGATGC": {
+   "copies": 8,
+   "genes": [
+    "ADIPOR2",
+    "RPS4X",
+    "VPS53"
+   ]
+  },
+  "TAAAGAAGATTTGCATGCAG": {
+   "copies": 5,
+   "genes": [
+    "RPS4X"
+   ]
+  },
+  "CGTCTGATCTATGACACCAA": {
+   "copies": 3,
+   "genes": [
+    "RPS4X"
+   ]
+  },
+  "TTCTGGGCAACCTCCTCTTC": {
+   "copies": 9,
+   "genes": [
+    "AMZ1",
+    "DHDDS",
+    "GNA12",
+    "LRCH3",
+    "RPL17",
+    "RPL17-C18orf32",
+    "THSD4"
+   ]
+  },
+  "TCTTAGGTGCTTTGTTCACT": {
+   "copies": 13,
+   "genes": [
+    "AMZ1",
+    "DHDDS",
+    "DSTYK",
+    "GNA12",
+    "PIGK",
+    "RPL17",
+    "RPL17-C18orf32",
+    "SVOPL",
+    "THSD4",
+    "WDR47"
+   ]
+  },
+  "ATGGCAGACTCAGTGGTCAG": {
+   "copies": 11,
+   "genes": [
+    "BCAS3",
+    "LINC02067",
+    "NEUROG2-AS1",
+    "PHF14",
+    "PPP2R5A",
+    "RCOR1",
+    "RPL23A",
+    "SUFU"
+   ]
+  },
+  "CTTGTACTGTGTCACTTTAT": {
+   "copies": 5,
+   "genes": [
+    "AQR",
+    "PLEKHA7",
+    "RPL36A",
+    "RPL36A-HNRNPH2"
+   ]
+  },
+  "TGACGAACACAAAGGGAAAG": {
+   "copies": 18,
+   "genes": [
+    "BRCA1",
+    "HSPG2",
+    "LOC101927668",
+    "MED22",
+    "P2RX5-TAX1BP3",
+    "RPL21",
+    "TAX1BP3",
+    "ZDHHC15"
+   ]
+  },
+  "CTGAACAGACTTCCCGCTGC": {
+   "copies": 2,
+   "genes": [
+    "RPL23",
+    "RPL23P8"
+   ]
+  },
+  "AAGAACTCAGCTCCTTACAT": {
+   "copies": 11,
+   "genes": [
+    "ANK2",
+    "DAB1",
+    "GGACT",
+    "METTL8",
+    "MYO10",
+    "NSMAF"
+   ]
+  },
+  "TCGAATGACGAATTTCTTAA": {
+   "copies": 10,
+   "genes": [
+    "ANK2",
+    "GGACT",
+    "METTL8",
+    "NHSL2",
+    "NSMAF",
+    "RPS26P11",
+    "ZNF609"
+   ]
+  },
+  "GCACAGTTAGTGCAGCGAAT": {
+   "copies": 9,
+   "genes": [
+    "ANK2",
+    "DAB1",
+    "GGACT",
+    "MYH10",
+    "MYO10",
+    "NSMAF",
+    "ZNF609"
+   ]
+  },
+  "ACACCAGAGTCTCCGTGCAG": {
+   "copies": 7,
+   "genes": [
+    "PRSS57",
+    "RPS2P32",
+    "TAOK3"
+   ]
+  },
+  "CAGTGGTGCAGGTCTTCCTG": {
+   "copies": 26,
+   "genes": [
+    "DOCK4",
+    "GNB1L",
+    "LINC02008",
+    "NFIB",
+    "POLQ",
+    "PRORP",
+    "PTP4A1",
+    "RAD51B",
+    "RASSF5",
+    "RPL7A",
+    "SEMA6D",
+    "TMEM150C",
+    "TOP3A",
+    "TRIM50",
+    "ZNF431"
+   ]
+  },
+  "GTTCTCCACCAAGGTGGTGA": {
+   "copies": 6,
+   "genes": [
+    "CHD1L",
+    "FMO5",
+    "GNB1L",
+    "GPBP1L1",
+    "MLLT3",
+    "NBPF19",
+    "POLQ",
+    "RPL7A",
+    "WNK3"
+   ]
+  },
+  "GCTGGGACAGCTCCACCTTC": {
+   "copies": 7,
+   "genes": [
+    "PREP",
+    "RPL35"
+   ]
+  },
+  "GGGAGTCATGGTGGCCAAGA": {
+   "copies": 18,
+   "genes": [
+    "AMBRA1",
+    "CA5A",
+    "ELMO1",
+    "FAM110A",
+    "GAPVD1",
+    "GLG1",
+    "GRAMD1C",
+    "LOC107985246",
+    "RPS10",
+    "RPS10-NUDT3",
+    "RPS10P7",
+    "TLK2",
+    "TUFT1"
+   ]
+  },
+  "TACTGGTACCTTACCAATGA": {
+   "copies": 14,
+   "genes": [
+    "AMBRA1",
+    "ELMO1",
+    "FAM110A",
+    "GAPVD1",
+    "GRAMD1C",
+    "LOC107985246",
+    "MED30",
+    "RPS10",
+    "RPS10-NUDT3",
+    "RPS10P7",
+    "TLK2"
+   ]
+  },
+  "CATGAAGGTGGAGGAGATCG": {
+   "copies": 2,
+   "genes": [
+    "HECW1",
+    "RPL18A",
+    "TXNRD1"
+   ]
+  },
+  "TGATGATCTTGTGCTCCAAG": {
+   "copies": 4,
+   "genes": [
+    "POLR2J",
+    "POLR2J2",
+    "POLR2J3",
+    "POLR2J4"
+   ]
+  },
+  "CGTAACTGGCGGAAACCCAG": {
+   "copies": 2,
+   "genes": [
+    "ADA2",
+    "NUDCD3"
+   ]
+  },
+  "CAGATCTTGATGCCCAACAT": {
+   "copies": 8,
+   "genes": [
+    "ANK2",
+    "HLA-DPA1",
+    "HLA-DPB1",
+    "NGLY1",
+    "NUDCD3",
+    "RPL32"
+   ]
+  },
+  "ACAAAGCACATGCTGCCCAG": {
+   "copies": 8,
+   "genes": [
+    "MTHFD1L",
+    "NGLY1",
+    "NUDCD3",
+    "PTPRS",
+    "RFX2"
+   ]
+  },
+  "CAAGAACCGCAAAGCCATCG": {
+   "copies": 3,
+   "genes": [
+    "MTHFD1L",
+    "NUDCD3"
+   ]
+  },
+  "AGAAAAGCCTGGTAAATCCG": {
+   "copies": 2,
+   "genes": [
+    "DDX56",
+    "LOC101928372"
+   ]
+  },
+  "ACACAGATCGCAGGTAGCCC": {
+   "copies": 2,
+   "genes": [
+    "MGA"
+   ]
+  },
+  "AGCCACTAGCCAGCTGCTTC": {
+   "copies": 9,
+   "genes": [
+    "DGKI",
+    "EPHA5",
+    "RPL6"
+   ]
+  },
+  "TCCAGTGAGGATGATCAGAA": {
+   "copies": 7,
+   "genes": [
+    "DGKI",
+    "EPHA5",
+    "PHF21B",
+    "PRPF18",
+    "RPL6"
+   ]
+  },
+  "GCTGCTGCTTCTTGGTCTTC": {
+   "copies": 5,
+   "genes": [
+    "PSD3",
+    "RPL35"
+   ]
+  },
+  "TCTCCTCGTGCTTGTTGAGC": {
+   "copies": 2,
+   "genes": [
+    "RPL35"
+   ]
+  },
+  "TCTTCTTAGGCCGCAGGTCC": {
+   "copies": 3,
+   "genes": []
+  },
+  "GGCCGCACCGCCTGTCACTT": {
+   "copies": 4,
+   "genes": [
+    "RPL35"
+   ]
+  },
+  "AGAGAAGAAGCAGAGACTGT": {
+   "copies": 4,
+   "genes": [
+    "CHD1L",
+    "FMO5",
+    "GNB1L",
+    "NBPF19",
+    "RPL7A",
+    "TRIM50",
+    "XCL2"
+   ]
+  },
+  "GTGAACTGGTTAATCGCAGG": {
+   "copies": 12,
+   "genes": [
+    "AASDH",
+    "ANK2",
+    "FAM185A",
+    "FAM185BP",
+    "MIR924HG",
+    "NFIB",
+    "POLQ",
+    "RASSF5",
+    "RPL7A",
+    "SEMA6D",
+    "SMOC1"
+   ]
+  },
+  "TTGTGCATGGCTAAAGACCG": {
+   "copies": 6,
+   "genes": [
+    "LINC02451",
+    "PPP1R12B",
+    "RPS27",
+    "SIK3",
+    "TSPAN9",
+    "WDR47"
+   ]
+  },
+  "GCATTTCACATCCATGAAGT": {
+   "copies": 7,
+   "genes": [
+    "LINC02451",
+    "PPP1R12B",
+    "SNHG14",
+    "SNRPN",
+    "TSPAN9"
+   ]
+  },
+  "TTTCTTATATTGAACATAGC": {
+   "copies": 17,
+   "genes": [
+    "CCDC30",
+    "JMY",
+    "LOC101927708",
+    "LOC729732",
+    "RPS3A",
+    "WARS2"
+   ]
+  },
+  "AACACAAAGGGAAAGAGGAG": {
+   "copies": 34,
+   "genes": [
+    "ATP10D",
+    "DTL",
+    "HSPA4L",
+    "LRP6",
+    "NSD1",
+    "PALM2AKAP2",
+    "PLPP3",
+    "POLR1E",
+    "QRSL1",
+    "RPL21",
+    "RPL21P28",
+    "SENP8",
+    "SLC25A13",
+    "SSH2",
+    "TG",
+    "ZNF32-AS3"
+   ]
+  },
+  "TCATCTTCTTCCGGATTTGG": {
+   "copies": 7,
+   "genes": [
+    "BAIAP2L1",
+    "JMY",
+    "RPS3A"
+   ]
+  },
+  "CAGACGAAGCAAGTAACCAT": {
+   "copies": 4,
+   "genes": [
+    "BAIAP2L1",
+    "JMY",
+    "RPS3A"
+   ]
+  },
+  "CACGGGTAAGATCCATGCCA": {
+   "copies": 5,
+   "genes": [
+    "BAIAP2L1",
+    "RPS3A"
+   ]
+  },
+  "CTTGTTCTTGCCAACCGCCA": {
+   "copies": 4,
+   "genes": [
+    "BAIAP2L1",
+    "JMY",
+    "RPS3A"
+   ]
+  },
+  "TGGGTCACCAGCAGCTGTAC": {
+   "copies": 7,
+   "genes": [
+    "AK4",
+    "BTNL8",
+    "DAPK1",
+    "RPS29"
+   ]
+  },
+  "TGCGATTAACCAGTTCACCC": {
+   "copies": 13,
+   "genes": [
+    "AASDH",
+    "ANK2",
+    "FAM185A",
+    "FAM185BP",
+    "MIR924HG",
+    "NFIB",
+    "POLQ",
+    "RASSF5",
+    "RPL7A",
+    "SEMA6D",
+    "SMOC1"
+   ]
+  },
+  "CTTGATGATCTCCTCCTTCT": {
+   "copies": 5,
+   "genes": [
+    "NAPEPLD",
+    "RPL19P12",
+    "TFDP2"
+   ]
+  },
+  "CACGGTCTGATCCGGAAATA": {
+   "copies": 6,
+   "genes": [
+    "DAPK1",
+    "PSMC2",
+    "RPS29"
+   ]
+  },
+  "GTCCTGGTGCTTGATGGTCG": {
+   "copies": 6,
+   "genes": [
+    "ATXN7L1",
+    "RPL13A",
+    "RPL13AP20",
+    "RPL13AP5",
+    "RPL13AP6",
+    "SHOC2"
+   ]
+  },
+  "AGGCCATCTCCTGGGCCGCC": {
+   "copies": 11,
+   "genes": [
+    "ATXN7L1",
+    "MDGA2",
+    "RPL13A",
+    "RPL13AP5",
+    "RPL13AP6",
+    "SHOC2"
+   ]
+  },
+  "ATGAACACCAACCCTTCCCG": {
+   "copies": 4,
+   "genes": [
+    "ATXN7L1",
+    "FCMR",
+    "NFASC",
+    "RPL13A",
+    "RPL13AP5"
+   ]
+  },
+  "GTACAGAACTGAAATTCGAA": {
+   "copies": 16,
+   "genes": [
+    "KALRN",
+    "PNPLA8",
+    "RERE",
+    "RPL7"
+   ]
+  },
+  "TGTAGAGCCATATATTGCAT": {
+   "copies": 6,
+   "genes": [
+    "CSF1R",
+    "PNPLA8",
+    "RPL7"
+   ]
+  },
+  "GCTTTGATTGCTCGATCTCT": {
+   "copies": 9,
+   "genes": [
+    "CSF1R",
+    "MCTP1",
+    "PNPLA8",
+    "RPL7"
+   ]
+  },
+  "AAGAGGCAAATAACTTCCTG": {
+   "copies": 7,
+   "genes": [
+    "CSF1R",
+    "PNPLA8",
+    "RPL7"
+   ]
+  },
+  "AAATTGTCTTCTCCACGAGG": {
+   "copies": 6,
+   "genes": [
+    "CSF1R",
+    "PNPLA8",
+    "RPL7"
+   ]
+  },
+  "TTTGTAGAAGGTGGAGATGC": {
+   "copies": 13,
+   "genes": [
+    "CSF1R",
+    "FAM151B",
+    "HTR1E",
+    "MCTP1",
+    "PNPLA8",
+    "TNRC6B"
+   ]
+  },
+  "CTCAGCAAAGACAGTCTTGA": {
+   "copies": 2,
+   "genes": [
+    "RPL3"
+   ]
+  },
+  "TGTATCCCAGGAAGGCTGTG": {
+   "copies": 4,
+   "genes": []
+  },
+  "TGTCTCTGGTCTGTACTTGT": {
+   "copies": 10,
+   "genes": [
+    "AASDH",
+    "DOCK4",
+    "GNB1L",
+    "NFIB",
+    "RPL7A",
+    "SOX2-OT",
+    "ZNF431"
+   ]
+  },
+  "CCTGGGCTTGCTCACGTTCT": {
+   "copies": 4,
+   "genes": [
+    "DCAF4",
+    "FOXP2",
+    "RIPOR3",
+    "RPL36"
+   ]
+  },
+  "GTGGCCCTTGTTGAGGCCCA": {
+   "copies": 6,
+   "genes": [
+    "ART3",
+    "DCAF4",
+    "FKBP5",
+    "FOXP2",
+    "HORMAD2",
+    "LRCH2",
+    "RIPOR3",
+    "RPL36"
+   ]
+  },
+  "CTGTGCCCGATGCGTGCCCA": {
+   "copies": 10,
+   "genes": [
+    "ANK2",
+    "CADPS2",
+    "DAB1",
+    "GGACT",
+    "MYO10",
+    "RPS26",
+    "ZNF609"
+   ]
+  },
+  "ATTCGTCATTCGAAACATAG": {
+   "copies": 10,
+   "genes": [
+    "CADPS2",
+    "DAB1",
+    "NHSL2",
+    "PTPRD",
+    "RPS26",
+    "RPS26P11",
+    "ZNF609"
+   ]
+  },
+  "TCTGGGTGTTAAGTGCTCCA": {
+   "copies": 8,
+   "genes": [
+    "DRC3",
+    "INVS",
+    "LRRC52-AS1",
+    "MFSD2A",
+    "PTPRO"
+   ]
+  },
+  "AGGGTGGCAGGCACAATCTC": {
+   "copies": 6,
+   "genes": []
+  },
+  "GGCCTTCATGACATGAAGGT": {
+   "copies": 15,
+   "genes": [
+    "AMBRA1",
+    "GAPVD1",
+    "GRAMD1C",
+    "MED30",
+    "RPS10",
+    "RPS10-NUDT3",
+    "TLK2"
+   ]
+  },
+  "GGAGTTCATAAATGGCAATC": {
+   "copies": 8,
+   "genes": [
+    "AMBRA1",
+    "GAPVD1",
+    "GRAMD1C",
+    "LOC107985246",
+    "RPS10",
+    "RPS10-NUDT3",
+    "RPS10P7",
+    "TLK2",
+    "TUFT1"
+   ]
+  },
+  "ATGTCATGCGCTTTCTTCTG": {
+   "copies": 3,
+   "genes": [
+    "FCHSD2",
+    "NKIRAS1",
+    "RPL15"
+   ]
+  },
+  "GTCCTGAATTCTTACTGGGT": {
+   "copies": 8,
+   "genes": [
+    "CORIN",
+    "CYRIB",
+    "NKIRAS1",
+    "PCCA",
+    "RPL15",
+    "RSRC1"
+   ]
+  },
+  "GAAGAAATCCTGACACCCAG": {
+   "copies": 9,
+   "genes": [
+    "ASCC1",
+    "CLEC6A",
+    "NEBL",
+    "NKIRAS1",
+    "RPL15"
+   ]
+  },
+  "TGTTTATGAGTCGCACCAAC": {
+   "copies": 3,
+   "genes": [
+    "C16orf90",
+    "LOC349160",
+    "RPL18"
+   ]
+  },
+  "GTACTCAGCCGCTAAATCCA": {
+   "copies": 5,
+   "genes": [
+    "DGKI",
+    "EPHA5",
+    "RPL6"
+   ]
+  },
+  "GTTGGTGGTGACAAGAACGG": {
+   "copies": 4,
+   "genes": [
+    "DGKI",
+    "EPHA5",
+    "FLJ33534"
+   ]
+  },
+  "ACTTCAAGAAGAAGAAGCTG": {
+   "copies": 5,
+   "genes": [
+    "DGKI",
+    "RPL6"
+   ]
+  },
+  "CGGAAGCCCAGACACCAGGA": {
+   "copies": 8,
+   "genes": [
+    "DGKI",
+    "EPHA5",
+    "FLJ33534",
+    "NUP160",
+    "RPL6"
+   ]
+  },
+  "CTCCTCCTCCTGCAGCTTGA": {
+   "copies": 4,
+   "genes": [
+    "GOLGA6L10",
+    "GOLGA6L17P",
+    "GOLGA6L9",
+    "RPS17"
+   ]
+  },
+  "GATTGTTCCTAAACCAGAAG": {
+   "copies": 12,
+   "genes": [
+    "AMZ1",
+    "DHDDS",
+    "DSTYK",
+    "GNA12",
+    "LRCH3",
+    "PIGK",
+    "RPL17",
+    "RPL17-C18orf32",
+    "SVOPL",
+    "THSD4",
+    "WDR47"
+   ]
+  },
+  "CCTGAACTTCATCATCCTTT": {
+   "copies": 11,
+   "genes": [
+    "DPYD",
+    "FAM110B",
+    "LINC01006",
+    "LOC102724404",
+    "RPL26"
+   ]
+  },
+  "GCAAAGTAGTCCAGGTTTAC": {
+   "copies": 7,
+   "genes": [
+    "FAM186A",
+    "RPL26"
+   ]
+  },
+  "TTCTAATAAGCCTGTTGATC": {
+   "copies": 18,
+   "genes": [
+    "CAP2",
+    "CSF1R",
+    "KALRN",
+    "MCTP1",
+    "PNPLA8",
+    "RPL7",
+    "STPG4",
+    "TNRC6B"
+   ]
+  },
+  "CATGCTTGCGTGAGCGCTAT": {
+   "copies": 4,
+   "genes": [
+    "PLEKHA7",
+    "RPL36A",
+    "RPL36A-HNRNPH2"
+   ]
+  },
+  "AAAGCCAAATCTCGCCAAGT": {
+   "copies": 5,
+   "genes": [
+    "FAM186A",
+    "LINC01006",
+    "SLC25A16",
+    "ZNF236"
+   ]
+  },
+  "AAAGGCCAAGATCCAGGATA": {
+   "copies": 8,
+   "genes": [
+    "CTNNBL1",
+    "FBXO11",
+    "RPS27A",
+    "UBE3C"
+   ]
+  },
+  "TGGTGCTTTCCCAACCTTCT": {
+   "copies": 10,
+   "genes": [
+    "DLEU1",
+    "PIK3C2A",
+    "RPL34",
+    "RRP12",
+    "ZCWPW2"
+   ]
+  },
+  "ATCTTACCAGTTGGGTCCCA": {
+   "copies": 2,
+   "genes": [
+    "CAGE1",
+    "RPS3"
+   ]
+  },
+  "CAGTCAGTTCCCGAATCCGC": {
+   "copies": 2,
+   "genes": [
+    "CAGE1",
+    "RPS3"
+   ]
+  },
+  "TGTGCTTCTCTGGGTGGAGC": {
+   "copies": 26,
+   "genes": [
+    "BRCA1",
+    "CLIP1",
+    "DACH1",
+    "LINC01091",
+    "LOC101928519",
+    "MTA3",
+    "PLAC1",
+    "POLR1E",
+    "RPL21",
+    "SENP8",
+    "ZDHHC15"
+   ]
+  },
+  "GGGTGCATACAAGTACATCC": {
+   "copies": 6,
+   "genes": [
+    "NKIRAS1",
+    "RPL15"
+   ]
+  },
+  "TATAGGATTCGTGTTCGCCG": {
+   "copies": 2,
+   "genes": [
+    "NKIRAS1",
+    "RPL15"
+   ]
+  },
+  "AAGCCTTCAGTCCGTTGCAG": {
+   "copies": 4,
+   "genes": [
+    "NKIRAS1",
+    "PCCA",
+    "RPL15"
+   ]
+  },
+  "TCTGCAGGCCGAAAGAGCCG": {
+   "copies": 4,
+   "genes": [
+    "ASCC1",
+    "CORIN",
+    "NKIRAS1",
+    "RPL15"
+   ]
+  },
+  "GTGGCTCTCGCCGGGCAGCT": {
+   "copies": 2,
+   "genes": [
+    "NKIRAS1",
+    "RPL15"
+   ]
+  },
+  "GGTAACCTGTGTATGGTGAC": {
+   "copies": 4,
+   "genes": []
+  },
+  "GTGTGATCACCAACAGAGAG": {
+   "copies": 9,
+   "genes": [
+    "RPS4X"
+   ]
+  },
+  "AGCCTTGTTGAGCTTCACAA": {
+   "copies": 14,
+   "genes": [
+    "CAP2",
+    "CSF1R",
+    "ILRUN",
+    "PNPLA8",
+    "RERE",
+    "RPL7"
+   ]
+  },
+  "CAAGATTGATCAGAAAGCTG": {
+   "copies": 12,
+   "genes": [
+    "EPHA5",
+    "FLJ33534",
+    "MGA",
+    "PRPF18",
+    "RPL6",
+    "WARS2-AS1"
+   ]
+  },
+  "TTGAAATTCATCCCAACTGT": {
+   "copies": 6,
+   "genes": [
+    "GOLGA6L10",
+    "GOLGA6L17P",
+    "GOLGA6L9",
+    "PCGEM1",
+    "RPS17",
+    "ZNF141"
+   ]
+  },
+  "TTCAGCATTTCCTTAGTGTC": {
+   "copies": 7,
+   "genes": [
+    "GOLGA6L10",
+    "GOLGA6L17P",
+    "GOLGA6L9",
+    "RPS17",
+    "ZNF141"
+   ]
+  },
+  "ATCGTATCTGTCATTGTAAT": {
+   "copies": 8,
+   "genes": [
+    "AASDH",
+    "ANK2",
+    "GNB1L",
+    "GPBP1L1",
+    "MIR924HG",
+    "RPL7A",
+    "SMOC1"
+   ]
+  },
+  "TTTCTTGTTCTCCACCAAGG": {
+   "copies": 9,
+   "genes": [
+    "ANK2",
+    "HECTD4",
+    "MIR924HG",
+    "RAD51B",
+    "SMOC1"
+   ]
+  },
+  "GAAGGTGAAGAGCTTCCCTA": {
+   "copies": 6,
+   "genes": [
+    "DOP1B",
+    "RPL3"
+   ]
+  },
+  "GCCTTCCTGGGATACAAGGC": {
+   "copies": 7,
+   "genes": [
+    "DOP1B",
+    "RPL3",
+    "ZSWIM6"
+   ]
+  },
+  "GAACAAGAAGGAGGTGGTGG": {
+   "copies": 2,
+   "genes": [
+    "RPL3"
+   ]
+  },
+  "CAAGTACTGCAAGAAATGGC": {
+   "copies": 4,
+   "genes": [
+    "DOP1B",
+    "RPL3"
+   ]
+  },
+  "TGTGAACCAAGTGTTTGGGC": {
+   "copies": 4,
+   "genes": [
+    "IQCA1",
+    "RPL3"
+   ]
+  },
+  "ATGAGATGATCGACGTCATC": {
+   "copies": 2,
+   "genes": [
+    "RPL3"
+   ]
+  },
+  "AATGACTTTGTCATGCTGAA": {
+   "copies": 7,
+   "genes": [
+    "ADAM32",
+    "RPL3",
+    "ZSWIM6"
+   ]
+  },
+  "CCATGGCCGCTTCCAGACCA": {
+   "copies": 3,
+   "genes": [
+    "RPL3"
+   ]
+  },
+  "GGAGGAGAAGAAAGCATTCA": {
+   "copies": 4,
+   "genes": [
+    "DOP1B",
+    "RPL3"
+   ]
+  },
+  "TTCTTCTGAGGGTCCGCTGC": {
+   "copies": 7,
+   "genes": [
+    "CLEC6A",
+    "CORIN",
+    "PCCA"
+   ]
+  },
+  "ACATGCTGCCCAGTGGCTTC": {
+   "copies": 4,
+   "genes": [
+    "HLA-DPA1",
+    "HLA-DPB1",
+    "PPM1H",
+    "RPL32",
+    "USP32"
+   ]
+  },
+  "GTACTCAACACCAACATCGA": {
+   "copies": 4,
+   "genes": [
+    "PCNP",
+    "RPS18"
+   ]
+  },
+  "GGGCCGAAGATATGCTCATG": {
+   "copies": 4,
+   "genes": [
+    "PCNP",
+    "RPS18",
+    "RPS18P9"
+   ]
+  },
+  "CAGACATTGACCTCACCAAG": {
+   "copies": 3,
+   "genes": [
+    "RPS18"
+   ]
+  },
+  "GGGAGAACTCACTGAGGATG": {
+   "copies": 4,
+   "genes": [
+    "RPS18",
+    "RPS18P9",
+    "TTC7B"
+   ]
+  },
+  "CTGGTTCTTGAACAGACAGA": {
+   "copies": 5,
+   "genes": [
+    "PCNP",
+    "RPS18",
+    "RPS18P9"
+   ]
+  },
+  "CAACAAGCTCCGTGAAGACC": {
+   "copies": 3,
+   "genes": [
+    "PCNP",
+    "RPS18"
+   ]
+  },
+  "TGGCACAGCACTCCGTCTGT": {
+   "copies": 2,
+   "genes": [
+    "AMBRA1",
+    "RPS10",
+    "RPS10-NUDT3"
+   ]
+  },
+  "CGGCTACGGCGTAGGGTGGC": {
+   "copies": 2,
+   "genes": [
+    "RPS10",
+    "RPS10-NUDT3",
+    "TLK2"
+   ]
+  },
+  "ACTGTTCCTTCACGTAGCCT": {
+   "copies": 4,
+   "genes": [
+    "AMBRA1",
+    "GRAMD1C",
+    "MED30",
+    "RPS10",
+    "RPS10-NUDT3",
+    "TUFT1"
+   ]
+  },
+  "CTCTCGCGACACCCTGTACG": {
+   "copies": 2,
+   "genes": [
+    "RPL10A"
+   ]
+  },
+  "GCGGTGCGGGAAGTCCTGCA": {
+   "copies": 2,
+   "genes": [
+    "PTPRG",
+    "RPL10A"
+   ]
+  },
+  "GGACCAGCAGCACTGTGACG": {
+   "copies": 3,
+   "genes": [
+    "RPL10A"
+   ]
+  },
+  "AAGCAGATTCCACGAATCCT": {
+   "copies": 3,
+   "genes": [
+    "PTPRG",
+    "RPL10A"
+   ]
+  },
+  "CATGGTGGCCAAAGTGGATG": {
+   "copies": 3,
+   "genes": [
+    "BST1",
+    "RPL10A"
+   ]
+  },
+  "TCACCTGGCTGTCAACTTCT": {
+   "copies": 4,
+   "genes": [
+    "PTPRG",
+    "RPL10A"
+   ]
+  },
+  "CTCACTGTGATGATGAAGCA": {
+   "copies": 6,
+   "genes": [
+    "HK1",
+    "LEPROTL1",
+    "RPS15A"
+   ]
+  },
+  "ATTGTACTGACAACCTCAGC": {
+   "copies": 10,
+   "genes": [
+    "C8orf34",
+    "IARS2",
+    "KIZ",
+    "LEPROTL1",
+    "RPS15A"
+   ]
+  },
+  "GGAAACATTGTGAGCGATCT": {
+   "copies": 3,
+   "genes": [
+    "MTHFD1L",
+    "NUDCD3",
+    "RPL32"
+   ]
+  },
+  "CTTCCAGCTCCTTGACGTTG": {
+   "copies": 3,
+   "genes": [
+    "RNFT1-DT",
+    "RPL32",
+    "TBC1D3P1-DHX40P1"
+   ]
+  },
+  "AAAGTGACACAGTACAAGAA": {
+   "copies": 8,
+   "genes": [
+    "AQR",
+    "CCDC158",
+    "GRB2",
+    "ITSN2",
+    "RPL36A",
+    "RPL36A-HNRNPH2"
+   ]
+  },
+  "ACCTTTATACCAAGAAGGTT": {
+   "copies": 9,
+   "genes": [
+    "CCDC73",
+    "DLEU1",
+    "EIF4G3",
+    "RPL34"
+   ]
+  },
+  "TCTGCATGTGGTGTGTGCCC": {
+   "copies": 6,
+   "genes": [
+    "PACRG",
+    "RPL34",
+    "ZCWPW2"
+   ]
+  },
+  "TGTTAAGTGCTCCAAGGAGG": {
+   "copies": 18,
+   "genes": [
+    "EYA2",
+    "GAB1",
+    "GGNBP2",
+    "MAPKAPK5",
+    "POLR1C",
+    "RNF11",
+    "RPS2",
+    "TANGO6",
+    "TAOK3",
+    "XPO5",
+    "ZNF318"
+   ]
+  },
+  "CCAGCTGTGGCTACAACATA": {
+   "copies": 21,
+   "genes": [
+    "CDC27",
+    "EPS15L1",
+    "INVS",
+    "MFSD2A",
+    "POLR1C",
+    "PTPRO",
+    "RNF11",
+    "RPS2",
+    "TAOK3",
+    "XPO5",
+    "ZNF318",
+    "ZNF44"
+   ]
+  },
+  "CTCTGGTGTGGGTCTTGACG": {
+   "copies": 15,
+   "genes": [
+    "ALS2",
+    "GGNBP2",
+    "INVS",
+    "N4BP1",
+    "POLR1C",
+    "RPS2",
+    "XPO5"
+   ]
+  },
+  "CCTTGCCTCCGCGAGCTCCG": {
+   "copies": 10,
+   "genes": [
+    "LRRC52-AS1",
+    "POLR1C",
+    "RNF11",
+    "RPS2",
+    "TAOK3",
+    "XPO5"
+   ]
+  },
+  "TTGATGGAGATACCTCTTAC": {
+   "copies": 3,
+   "genes": []
+  },
+  "CATATTCATCTGACACCATG": {
+   "copies": 5,
+   "genes": [
+    "RPL10"
+   ]
+  },
+  "AAGGATTAATTCATCTTTCT": {
+   "copies": 9,
+   "genes": [
+    "APOO",
+    "GOLGA6L10",
+    "GOLGA6L17P",
+    "GOLGA6L9",
+    "PDZD2",
+    "PRORP",
+    "RPL9",
+    "UBE2Q2P2",
+    "URI1"
+   ]
+  },
+  "CAACAAGAGACCCATTCTCC": {
+   "copies": 6,
+   "genes": [
+    "APOO",
+    "DLG2",
+    "GOLGA6L10",
+    "GOLGA6L17P",
+    "GOLGA6L9",
+    "PRORP",
+    "RPL9",
+    "UBE2Q2P2"
+   ]
+  },
+  "TGTGATTGAAGTCCCTCCGC": {
+   "copies": 7,
+   "genes": [
+    "APOO",
+    "GOLGA6L10",
+    "GOLGA6L17P",
+    "GOLGA6L9",
+    "PDZD2",
+    "RPL9",
+    "UBE2Q2P2"
+   ]
+  },
+  "CCTTCATCCCTCTCCAGAAG": {
+   "copies": 6,
+   "genes": [
+    "KLHL20",
+    "PPP1R12B",
+    "RPS27",
+    "SLC17A5",
+    "SNHG14",
+    "SNRPN",
+    "TSPAN9"
+   ]
+  },
+  "GTCCTCTGCCAGCCTACAGG": {
+   "copies": 9,
+   "genes": [
+    "KLHL20",
+    "MAP4",
+    "RPS27",
+    "SIK3",
+    "SLC17A5",
+    "TSPAN9",
+    "WDR47"
+   ]
+  },
+  "CCACCATTGTAACGTCGGAA": {
+   "copies": 6,
+   "genes": [
+    "DHDDS",
+    "PIGK",
+    "RPL17",
+    "RPL17-C18orf32",
+    "WDR47"
+   ]
+  },
+  "TTCATTTACTGACTTCAGAT": {
+   "copies": 7,
+   "genes": [
+    "CSF1R",
+    "FAM151B",
+    "ILRUN",
+    "KALRN",
+    "PNPLA8",
+    "RERE",
+    "RPL7"
+   ]
+  },
+  "CAGCTCAGGCTCCTTCCCAT": {
+   "copies": 26,
+   "genes": [
+    "ALKBH1",
+    "CC2D2B",
+    "CLIP1",
+    "ENTPD1-AS1",
+    "HSPG2",
+    "ITGA9",
+    "LOC101927668",
+    "LOC101928519",
+    "MED22",
+    "RPL21",
+    "ZDHHC15"
+   ]
+  },
+  "GGATGTGGCCCAGAGGTGCA": {
+   "copies": 4,
+   "genes": [
+    "MICOS10",
+    "MICOS10-NBL1",
+    "RASAL2",
+    "RPS14",
+    "RPS14P3"
+   ]
+  },
+  "GAAGACCAAGTCCTCAAGGA": {
+   "copies": 6,
+   "genes": [
+    "NSF",
+    "PCNX2",
+    "RPS7"
+   ]
+  },
+  "TCAGAGCAAACACAGATCGC": {
+   "copies": 3,
+   "genes": [
+    "RPL6"
+   ]
+  },
+  "ATGTTCTTGGTGAGAAGGGC": {
+   "copies": 2,
+   "genes": [
+    "TAFA2"
+   ]
+  },
+  "TGACTGCTGTAGTTCAGAAG": {
+   "copies": 2,
+   "genes": [
+    "RPS3",
+    "WWOX"
+   ]
+  },
+  "GCCATGGCCAAACTTGGAGG": {
+   "copies": 5,
+   "genes": [
+    "ZSWIM6"
+   ]
+  },
+  "GAGGGTGAGCACCCGCTTCT": {
+   "copies": 2,
+   "genes": []
+  },
+  "CTTCTTGGTGTGCCAACGAC": {
+   "copies": 4,
+   "genes": [
+    "RPL3",
+    "ZSWIM6"
+   ]
+  },
+  "GAAGCCGAGGGACCCATGTC": {
+   "copies": 4,
+   "genes": [
+    "IQCA1",
+    "RPL3",
+    "ZSWIM6"
+   ]
+  },
+  "CTGCAGATCTAAGAGAATGC": {
+   "copies": 11,
+   "genes": [
+    "AFG1L",
+    "AQR",
+    "CCDC18",
+    "FAM241A",
+    "GRB2",
+    "PKN2-AS1",
+    "PLEKHA7",
+    "RPL36A",
+    "RPL36A-HNRNPH2",
+    "TEK"
+   ]
+  },
+  "GAATAAGCACAAGAGAAAGA": {
+   "copies": 7,
+   "genes": [
+    "RPS27A"
+   ]
+  },
+  "AATGGTCTTAATGTTCCGGA": {
+   "copies": 2,
+   "genes": [
+    "DSE",
+    "RPS5"
+   ]
+  },
+  "AATGCGTGTGGAGTCCTCCC": {
+   "copies": 2,
+   "genes": [
+    "DSE",
+    "MIR10394",
+    "RPS5"
+   ]
+  },
+  "CGTTCACCAGGACCTGCAGA": {
+   "copies": 3,
+   "genes": [
+    "DSE",
+    "MIR10394",
+    "RPS5"
+   ]
+  },
+  "ATATTGTACTGGCCTGCTGC": {
+   "copies": 4,
+   "genes": [
+    "DIPK1A",
+    "PDZD2",
+    "POLB",
+    "RPL5"
+   ]
+  },
+  "GACTGGTGATGAATACAATG": {
+   "copies": 3,
+   "genes": [
+    "DIPK1A",
+    "HSPA12A",
+    "RPL5"
+   ]
+  },
+  "GAAAGCATTGATGGTCAGCC": {
+   "copies": 9,
+   "genes": [
+    "CCDC3",
+    "DIPK1A",
+    "IFT46",
+    "OCA2",
+    "POLB",
+    "RAB3C",
+    "RPL5",
+    "SCRG1",
+    "SNHG14",
+    "SNRPN"
+   ]
+  },
+  "GCTTGGCCTTGTAGCCCAGT": {
+   "copies": 5,
+   "genes": [
+    "CORIN",
+    "NKIRAS1",
+    "RPL15"
+   ]
+  },
+  "CATTGCTGCTGGAGGTGTAA": {
+   "copies": 5,
+   "genes": [
+    "ECSIT",
+    "LOC102723831",
+    "RPS12"
+   ]
+  },
+  "ATCCACGATGGCCTAGCACG": {
+   "copies": 5,
+   "genes": [
+    "ECSIT",
+    "LOC102723831",
+    "RPS12"
+   ]
+  },
+  "TATGTATGTCAAGTTGGTGG": {
+   "copies": 4,
+   "genes": [
+    "BCO2",
+    "LOC101559451",
+    "RPS12"
+   ]
+  },
+  "AAGAAACTAGGAGAATGGGT": {
+   "copies": 3,
+   "genes": [
+    "LOC101559451",
+    "RPS12"
+   ]
+  },
+  "TTGCAGTTGTGTAGTAGTTA": {
+   "copies": 8,
+   "genes": [
+    "ANKS1A",
+    "CKMT2",
+    "CKMT2-AS1",
+    "ECSIT",
+    "LOC101559451",
+    "LOC102723831",
+    "RBMS3",
+    "RPS12"
+   ]
+  },
+  "GGACTATGGCAAGGAGTCTC": {
+   "copies": 8,
+   "genes": [
+    "ADGRL3",
+    "ANKS1A",
+    "CKMT2",
+    "CKMT2-AS1",
+    "ECSIT",
+    "LOC101559451",
+    "LOC102723831",
+    "RPS12",
+    "SEMA4B"
+   ]
+  },
+  "TTTCTTCTTGGACACACCCA": {
+   "copies": 2,
+   "genes": [
+    "PCNP",
+    "RPS18",
+    "TTC7B"
+   ]
+  },
+  "ACCAGTCTGGGATCTTGTAC": {
+   "copies": 5,
+   "genes": [
+    "RPS18",
+    "SFI1",
+    "TTC7B"
+   ]
+  },
+  "CTTAATGGCAGTGATGGCAA": {
+   "copies": 7,
+   "genes": [
+    "PCNP",
+    "RPS18",
+    "SFI1"
+   ]
+  },
+  "AACCCAGAGGCATTGACAAC": {
+   "copies": 4,
+   "genes": [
+    "LOC105374313",
+    "MTHFD1L",
+    "RPL32",
+    "RPL32P3"
+   ]
+  },
+  "CAAGCACACAAAGATGGGCT": {
+   "copies": 4,
+   "genes": [
+    "ECSIT",
+    "LOC102723831",
+    "RPS12",
+    "SEMA4B"
+   ]
+  },
+  "TGCTAGGCCATCGTGGATGA": {
+   "copies": 5,
+   "genes": [
+    "ECSIT",
+    "LOC102723831",
+    "RPS12",
+    "SEMA4B"
+   ]
+  },
+  "AGCTCTTCTGCTGAAGAATT": {
+   "copies": 6,
+   "genes": [
+    "RPL27A"
+   ]
+  },
+  "GATCGCACCACATCAATGAT": {
+   "copies": 2,
+   "genes": [
+    "RPL27A"
+   ]
+  },
+  "CTTTCCCAAAGTAGCCTGGG": {
+   "copies": 3,
+   "genes": [
+    "RPL27A"
+   ]
+  },
+  "ATTTGTCGAAGTTGATCCGG": {
+   "copies": 2,
+   "genes": [
+    "RPL27A"
+   ]
+  },
+  "TGATACCATTCAGATTGATT": {
+   "copies": 4,
+   "genes": [
+    "RPS4X"
+   ]
+  },
+  "TTGTTGTGAACCTCACAGGC": {
+   "copies": 11,
+   "genes": [
+    "ARID1B",
+    "C8orf34",
+    "CFAP47",
+    "EIF4G3",
+    "ESRP1",
+    "HK1",
+    "IARS2",
+    "KIZ",
+    "LOC101928627",
+    "METTL15",
+    "RIMKLA",
+    "RPS15A"
+   ]
+  },
+  "GGAATAGGTTCCAGCAGCTC": {
+   "copies": 28,
+   "genes": [
+    "ALDH9A1",
+    "DTL",
+    "FUT8",
+    "HSPA4L",
+    "LRP6",
+    "MXI1",
+    "NSD1",
+    "P2RX5-TAX1BP3",
+    "PLEKHA6",
+    "POLR1E",
+    "RPL21",
+    "RPL21P28",
+    "RPL21P44",
+    "TAX1BP3"
+   ]
+  },
+  "TTCCGCAAGTTCACCTACCG": {
+   "copies": 4,
+   "genes": [
+    "RPS15"
+   ]
+  },
+  "ACAGTGCGCGCCAGCGGCGG": {
+   "copies": 3,
+   "genes": [
+    "RPS15"
+   ]
+  },
+  "GCGCCTGCGCAAGGCCAAGA": {
+   "copies": 7,
+   "genes": [
+    "LOC643441",
+    "RPS15",
+    "TIGAR"
+   ]
+  },
+  "GGCGCCGCCCATGGAGAAGC": {
+   "copies": 3,
+   "genes": [
+    "RPS15"
+   ]
+  },
+  "AGTGGTGAAGACGCACCTGC": {
+   "copies": 4,
+   "genes": [
+    "CACNA2D3",
+    "RPS15",
+    "TIGAR"
+   ]
+  },
+  "CATGATCATCCTACCCGAGA": {
+   "copies": 2,
+   "genes": [
+    "RPS15"
+   ]
+  },
+  "AGCATGGTGGGCGTCTACAA": {
+   "copies": 5,
+   "genes": [
+    "CACNA2D3",
+    "LOC643441",
+    "RPS15"
+   ]
+  },
+  "GACATGATTCGGGAGGTGTG": {
+   "copies": 2,
+   "genes": [
+    "RPL36"
+   ]
+  },
+  "GGAGGAGCTGAGCAACGTAC": {
+   "copies": 2,
+   "genes": [
+    "RPL36"
+   ]
+  },
+  "TTTCCGGCTGGAACCATGGA": {
+   "copies": 8,
+   "genes": [
+    "CSF1R",
+    "FAM151B",
+    "RERE",
+    "RPL7"
+   ]
+  },
+  "CTTTGTGAGAACCAATGGGA": {
+   "copies": 18,
+   "genes": [
+    "DTL",
+    "HSPA4L",
+    "LOC101928617",
+    "NSD1",
+    "PALM2AKAP2",
+    "PLEKHA6",
+    "RPL21",
+    "RPL21P28",
+    "ZNF609"
+   ]
+  },
+  "AGGGCCAAGTTCAAGTTTCC": {
+   "copies": 8,
+   "genes": [
+    "ASTN2",
+    "RPL10"
+   ]
+  },
+  "CGGCTCATCCCAGATGGCTG": {
+   "copies": 8,
+   "genes": [
+    "RAP1B",
+    "RPL10",
+    "USP34"
+   ]
+  },
+  "GTGGCCCTCTGGACAAGTGG": {
+   "copies": 6,
+   "genes": [
+    "PHLPP2",
+    "RPL10",
+    "SNHG31"
+   ]
+  },
+  "GTGCAGAAGCAGACCCGTGC": {
+   "copies": 14,
+   "genes": [
+    "CDC27",
+    "GAB1",
+    "GGNBP2",
+    "INVS",
+    "MFSD2A",
+    "POLR1C",
+    "RPS2",
+    "TAOK3",
+    "XPO5",
+    "ZNF44"
+   ]
+  },
+  "GGACAGGAAGTAGAATTTAT": {
+   "copies": 6,
+   "genes": [
+    "ASTN2",
+    "RAP1B",
+    "RPL10"
+   ]
+  },
+  "TTGTCCAGAGGGCCACGATT": {
+   "copies": 5,
+   "genes": [
+    "RPL10",
+    "SNHG31"
+   ]
+  },
+  "AAATTCATCAGCATTGAACT": {
+   "copies": 5,
+   "genes": [
+    "RPL10",
+    "SNHG31"
+   ]
+  },
+  "GTTCTGCAGCTTGGTGCGGA": {
+   "copies": 8,
+   "genes": [
+    "RPL10",
+    "SNHG31"
+   ]
+  },
+  "AACTTGGCCAATGTGAACCC": {
+   "copies": 9,
+   "genes": [
+    "ASTN2",
+    "RPL10",
+    "SNHG31",
+    "USP34"
+   ]
+  },
+  "CTCGGCAGAAGCGAGACTTT": {
+   "copies": 3,
+   "genes": [
+    "RPL10"
+   ]
+  },
+  "ACGGCTTGTTCTTACAATAC": {
+   "copies": 5,
+   "genes": [
+    "RPL10",
+    "RPL10L"
+   ]
+  },
+  "AACATCTCCTTCCCAGCCAC": {
+   "copies": 3,
+   "genes": [
+    "GCDH",
+    "RPS6"
+   ]
+  },
+  "ATGATCAGGGCAGAGGCAGA": {
+   "copies": 9,
+   "genes": [
+    "NBEAL1",
+    "ZDHHC3"
+   ]
+  },
+  "GAAGGCTTTAAAGGCCAAGA": {
+   "copies": 14,
+   "genes": [
+    "BCAS3",
+    "LINC02067",
+    "LOC100134368",
+    "RPL23AP53",
+    "RPL23AP7",
+    "RPL23AP82",
+    "RPL23AP87"
+   ]
+  },
+  "GGCCGAAGACACTGCGACTC": {
+   "copies": 3,
+   "genes": [
+    "LINC02067",
+    "RPL23A"
+   ]
+  },
+  "CAACACACTTGTGTTCATTG": {
+   "copies": 10,
+   "genes": [
+    "GLDC",
+    "HSD17B12",
+    "LINC02067",
+    "LINC02789",
+    "RPL23A",
+    "TIMM23B",
+    "TIMM23B-AGAP6",
+    "TNFRSF10A"
+   ]
+  },
+  "CATGAAGATCAAGTCCCTGG": {
+   "copies": 26,
+   "genes": [
+    "ACACA",
+    "CDC27",
+    "DRC3",
+    "EPS15L1",
+    "GAB1",
+    "GGNBP2",
+    "INVS",
+    "IQCJ-SCHIP1",
+    "MTF1",
+    "N4BP1",
+    "PHTF1",
+    "POLR1C",
+    "PTPRO",
+    "RNF11",
+    "RPS2",
+    "SCHIP1",
+    "TAOK3",
+    "XPO5"
+   ]
+  },
+  "GCTACGAGAGTACAAGGTAG": {
+   "copies": 2,
+   "genes": [
+    "RPL18A",
+    "TXNRD1"
+   ]
+  },
+  "GGAGATTGTCTACTGTGGGC": {
+   "copies": 7,
+   "genes": [
+    "ANO10",
+    "RPL18A",
+    "TXNRD1",
+    "UBR7"
+   ]
+  },
+  "GGGTGAAGAACTTCGGGATC": {
+   "copies": 2,
+   "genes": [
+    "PTPRD",
+    "RPL18A"
+   ]
+  },
+  "TACCGGGACCTGACCACCGC": {
+   "copies": 6,
+   "genes": [
+    "PTPRD",
+    "RPL18A",
+    "TXNRD1",
+    "UBR7"
+   ]
+  },
+  "GAGGCCCAACACCTTCTTCT": {
+   "copies": 6,
+   "genes": [
+    "ANO10",
+    "PTPRD",
+    "RPL18A",
+    "TXNRD1"
+   ]
+  },
+  "CACGATGCAATTCTTCACCA": {
+   "copies": 2,
+   "genes": [
+    "ZNF90"
+   ]
+  },
+  "ACGGACTGTGTGGATGCGGC": {
+   "copies": 4,
+   "genes": [
+    "RPS8",
+    "ZNF90"
+   ]
+  },
+  "ACGAACACATTTAGCACACA": {
+   "copies": 3,
+   "genes": [
+    "NUP210L"
+   ]
+  },
+  "GGTAAACAATTCTATTACCA": {
+   "copies": 7,
+   "genes": [
+    "CCDC73",
+    "DDX46",
+    "NUP210L",
+    "PIK3C2A",
+    "RPL34"
+   ]
+  },
+  "GGCCTTGCCAGAACTACCAC": {
+   "copies": 11,
+   "genes": [
+    "ACOXL",
+    "ADAMTS6",
+    "DIPK1A",
+    "MAILR",
+    "PDZD2",
+    "POLB",
+    "RPL5",
+    "SNHG14",
+    "SNRPN",
+    "STPG2",
+    "ZNF730"
+   ]
+  },
+  "GAAACACAAGAAGAAACGCC": {
+   "copies": 9,
+   "genes": [
+    "PPP1R12B",
+    "RPS27",
+    "SIK3",
+    "TSPAN9",
+    "WDR47"
+   ]
+  },
+  "TTCATGGATGTGAAATGCCC": {
+   "copies": 11,
+   "genes": [
+    "LINC02451",
+    "PPP1R12B",
+    "RPS27",
+    "SIK3",
+    "SNHG14",
+    "SNRPN",
+    "TSPAN9"
+   ]
+  },
+  "ACACAGACCTCATCTTGTAA": {
+   "copies": 7,
+   "genes": [
+    "APOO",
+    "GOLGA6L10",
+    "GOLGA6L17P",
+    "GOLGA6L9",
+    "PDZD2",
+    "RPL9",
+    "UBE2Q2P2",
+    "URI1"
+   ]
+  },
+  "ATGACTACAAATAGTCCGAA": {
+   "copies": 6,
+   "genes": [
+    "APOO",
+    "GOLGA6L10",
+    "GOLGA6L17P",
+    "GOLGA6L9",
+    "RPL9",
+    "UBE2Q2P2",
+    "URI1"
+   ]
+  },
+  "GTTCACGTGAAAGATGCCAA": {
+   "copies": 2,
+   "genes": [
+    "RPS4X",
+    "SPIDR"
+   ]
+  },
+  "CTCCTTACATGGGCTTTGGT": {
+   "copies": 21,
+   "genes": [
+    "ACYP2",
+    "ANAPC1",
+    "ANAPC1P1",
+    "CADPS2",
+    "CERT1",
+    "IMPA1P1",
+    "MYH10",
+    "NBAS",
+    "NHSL2",
+    "PRMT8",
+    "PTPRD",
+    "RAB3B",
+    "RBFOX1",
+    "RPS26",
+    "RPS26P11",
+    "UMPS",
+    "ZNF609"
+   ]
+  },
+  "ATACAGCTTGGGAAGCACAT": {
+   "copies": 18,
+   "genes": [
+    "ACYP2",
+    "ANAPC1",
+    "ANAPC1P1",
+    "CADPS2",
+    "FANCC",
+    "GPRC5D-AS1",
+    "METTL8",
+    "MYO10",
+    "NBAS",
+    "NHSL2",
+    "PTPRD",
+    "RPS26",
+    "RPS26P11",
+    "ZNF609"
+   ]
+  },
+  "GTCACGATGGGCTTATCGGT": {
+   "copies": 2,
+   "genes": [
+    "ABCA3",
+    "RPS16"
+   ]
+  },
+  "GATGTCTTTGATCTCCTTCT": {
+   "copies": 5,
+   "genes": [
+    "ABCA3",
+    "RPS16"
+   ]
+  },
+  "GTAATAGGCCACCAGGGCTT": {
+   "copies": 3,
+   "genes": [
+    "ABCA3",
+    "RPS16"
+   ]
+  },
+  "CAGCGGGCCCTTGGACGGCA": {
+   "copies": 2,
+   "genes": [
+    "RPS16"
+   ]
+  },
+  "ACGCTCGAACTTCCGGCCCT": {
+   "copies": 2,
+   "genes": [
+    "RPL18"
+   ]
+  },
+  "TGTGAAGGCATCAACATTTC": {
+   "copies": 3,
+   "genes": [
+    "RPL13A",
+    "RPL13AP20",
+    "RPL13AP5"
+   ]
+  },
+  "ACCTGGCTTTCCTCCGCAAG": {
+   "copies": 5,
+   "genes": [
+    "RPL13A",
+    "RPL13AP20",
+    "RPL13AP5"
+   ]
+  },
+  "GAAACAGGCCGAGAAGAACG": {
+   "copies": 6,
+   "genes": [
+    "MDGA2",
+    "RPL13A",
+    "RPL13AP20",
+    "RPL13AP3",
+    "RPL13AP5"
+   ]
+  },
+  "AAACAAGAAGAGGGTCCTGC": {
+   "copies": 3,
+   "genes": [
+    "GOLGA3",
+    "RPS11"
+   ]
+  },
+  "CAACGTGCTCAAGGTCACCA": {
+   "copies": 2,
+   "genes": [
+    "NUTF2",
+    "RPS11"
+   ]
+  },
+  "CAAGCCCAGCTTGAAGACCT": {
+   "copies": 2,
+   "genes": []
+  },
+  "CTAAGAAATCCTCTATCTTC": {
+   "copies": 3,
+   "genes": [
+    "RPS9"
+   ]
+  },
+  "CAAACCCAGCTCCGGGCCAC": {
+   "copies": 3,
+   "genes": [
+    "RPS9"
+   ]
+  },
+  "GACCAAGAGCTGAAGCTGAT": {
+   "copies": 2,
+   "genes": [
+    "RPS9"
+   ]
+  },
+  "CCAAGATCCGCAAGGCCGCC": {
+   "copies": 2,
+   "genes": [
+    "RPS9"
+   ]
+  },
+  "GACAGGAAGCAGAGTGGCTA": {
+   "copies": 14,
+   "genes": [
+    "AQR",
+    "CCDC158",
+    "CDKAL1",
+    "GRB2",
+    "NLRP2",
+    "PKN2-AS1",
+    "PLEKHA7",
+    "RPL36A",
+    "RPL36A-HNRNPH2"
+   ]
+  },
+  "CAGCGCACGATGGGCCGGAT": {
+   "copies": 2,
+   "genes": []
+  },
+  "GCGGCGCGCCTTGGCTTGCC": {
+   "copies": 2,
+   "genes": []
+  },
+  "GGAGACAGCAGCACCAGCGG": {
+   "copies": 2,
+   "genes": [
+    "RPS5"
+   ]
+  },
+  "ACATCAAGCTCTTTGGGAAG": {
+   "copies": 3,
+   "genes": [
+    "DSE",
+    "RPS5"
+   ]
+  },
+  "GATCAATGACATTTCCCTGC": {
+   "copies": 2,
+   "genes": [
+    "RPS5"
+   ]
+  },
+  "TCTCCAATTCGCGTACTAGC": {
+   "copies": 2,
+   "genes": [
+    "NSF"
+   ]
+  },
+  "TTCTGGAAAGATTTCAGTTG": {
+   "copies": 8,
+   "genes": [
+    "ATP8A1",
+    "NSF",
+    "PCNX2",
+    "RPS7",
+    "RPS7P5"
+   ]
+  },
+  "CAAAGGCGCTTTGGCTAAGC": {
+   "copies": 4,
+   "genes": [
+    "HECTD4",
+    "LOC340512",
+    "PTP4A1",
+    "ZNF462"
+   ]
+  },
+  "ACCAACAGGTCCGCCAAATC": {
+   "copies": 6,
+   "genes": [
+    "BAIAP2L1",
+    "HERC4",
+    "RPS3A",
+    "WASF3"
+   ]
+  },
+  "GTTGACTTAAGCATCTGCAA": {
+   "copies": 9,
+   "genes": [
+    "DAB1",
+    "LNPEP",
+    "RPS20",
+    "RSF1"
+   ]
+  },
+  "GCAACCTCCTCTTCTGGTTT": {
+   "copies": 4,
+   "genes": [
+    "PIGK",
+    "TMEM177",
+    "WDR47"
+   ]
+  },
+  "GTGACTGGAGGTGCTAACCT": {
+   "copies": 3,
+   "genes": [
+    "RPS4X"
+   ]
+  },
+  "GGCTCAGACCAGGAGTCCGT": {
+   "copies": 3,
+   "genes": [
+    "MDGA2",
+    "RPL13AP6",
+    "SHOC2"
+   ]
+  },
+  "TTTCTTCTCCACGTTCTTCT": {
+   "copies": 7,
+   "genes": [
+    "FCMR",
+    "MDGA2",
+    "RPL13A",
+    "RPL13AP20",
+    "RPL13AP5"
+   ]
+  },
+  "CTCTTTCCTCTTCTCCTCCA": {
+   "copies": 7,
+   "genes": [
+    "RPL13A",
+    "RPL13AP20",
+    "RPL13AP5",
+    "RPL13AP6",
+    "SHOC2"
+   ]
+  },
+  "CGCACGACCTTGAGGGCAGC": {
+   "copies": 6,
+   "genes": [
+    "FCMR",
+    "RPL13A",
+    "RPL13AP3",
+    "RPL13AP5"
+   ]
+  },
+  "TGGTGTTCATCCGCTTGCGG": {
+   "copies": 7,
+   "genes": [
+    "FCMR",
+    "RPL13A",
+    "RPL13AP5",
+    "RPL13AP6",
+    "SHOC2"
+   ]
+  },
+  "TTTAAGGCTATTAACCAGGG": {
+   "copies": 3,
+   "genes": [
+    "PSMA6",
+    "UTY"
+   ]
+  },
+  "GATTTCTTCTGATAGCTTTA": {
+   "copies": 7,
+   "genes": [
+    "ASCC1",
+    "CLEC6A",
+    "LARP1B",
+    "PCCA",
+    "TMCC1"
+   ]
+  },
+  "AAGTTGCACCCTTAGGAACT": {
+   "copies": 8,
+   "genes": [
+    "ASCC1",
+    "CORIN",
+    "LARP1B",
+    "NKIRAS1",
+    "PCCA",
+    "RPL15"
+   ]
+  },
+  "TGTGGAGAGCAGAGAGCTGG": {
+   "copies": 8,
+   "genes": [
+    "CLEC6A",
+    "FCHSD2",
+    "LARP1B",
+    "NKIRAS1",
+    "PCCA",
+    "RPL15",
+    "RSRC1"
+   ]
+  },
+  "TGTAGCTTCACATACAGCTT": {
+   "copies": 9,
+   "genes": [
+    "ANK2",
+    "DAB1",
+    "GGACT",
+    "NSMAF",
+    "SAMD8"
+   ]
+  },
+  "TGTCGAAGATCTCACCTTCC": {
+   "copies": 3,
+   "genes": [
+    "RPL6"
+   ]
+  },
+  "TTCTGGTGTGTTCTTCGTAG": {
+   "copies": 4,
+   "genes": [
+    "DBF4B",
+    "DGKI"
+   ]
+  },
+  "GGAACTCGATTGAGGACCAG": {
+   "copies": 7,
+   "genes": [
+    "DGKI",
+    "EPHA5",
+    "FLJ33534",
+    "PRPF18",
+    "RPL6",
+    "WARS2-AS1"
+   ]
+  },
+  "TTTCTCACGTGCTGACTGAA": {
+   "copies": 6,
+   "genes": [
+    "DGKI",
+    "EPHA5",
+    "FLJ33534",
+    "RPL6"
+   ]
+  },
+  "ACCTGCCAATTCCTCTGACA": {
+   "copies": 8,
+   "genes": [
+    "DGKI",
+    "EPHA5",
+    "PRPF18",
+    "RPL6"
+   ]
+  },
+  "GGACAGGGTTGCGGCTGCAA": {
+   "copies": 4,
+   "genes": [
+    "EPHA5",
+    "RPL6"
+   ]
+  },
+  "CACCTGTGTGAAGGCGACAG": {
+   "copies": 5,
+   "genes": [
+    "ANK2",
+    "HECTD4",
+    "MIR924HG",
+    "SMOC1"
+   ]
+  },
+  "TGTTTGGCGGTCCAGGGCCT": {
+   "copies": 11,
+   "genes": [
+    "AASDH",
+    "ANK2",
+    "MIR924HG",
+    "POLQ",
+    "RASSF5",
+    "RPL7A",
+    "SEMA6D",
+    "SMOC1",
+    "TRIM50"
+   ]
+  },
+  "TTTCAGCCGCTTATAGAGGA": {
+   "copies": 6,
+   "genes": [
+    "ANK2",
+    "GNB1L",
+    "MIR924HG",
+    "POLQ",
+    "RPL7A",
+    "SMOC1"
+   ]
+  },
+  "CCGCTGCAACCTGATATAGC": {
+   "copies": 10,
+   "genes": [
+    "GNB1L",
+    "MIR924HG",
+    "POLQ",
+    "RPL7A",
+    "SMOC1"
+   ]
+  },
+  "CCGTAAGGATCATCTCAATG": {
+   "copies": 5,
+   "genes": [
+    "PIGK",
+    "RPL17",
+    "RPL17-C18orf32",
+    "THSD4",
+    "WDR47"
+   ]
+  },
+  "AATCCGACCATGAGCTCTGT": {
+   "copies": 12,
+   "genes": [
+    "ANKRD55",
+    "CCNE2",
+    "LRCH3",
+    "PIGK",
+    "RPL17",
+    "RPL17-C18orf32",
+    "THSD4",
+    "WDR47"
+   ]
+  },
+  "TAGTGGAGGCCGCAGCAGTC": {
+   "copies": 9,
+   "genes": [
+    "ANK2",
+    "GGACT",
+    "METTL8",
+    "MYO10",
+    "NSMAF"
+   ]
+  },
+  "GTTGATGTCAAGACTACCGA": {
+   "copies": 19,
+   "genes": [
+    "ASNS",
+    "BAIAP2L1",
+    "CZ1P-ASNS",
+    "LOC101927708",
+    "LOC105374312",
+    "LOC729732",
+    "RPS3A"
+   ]
+  },
+  "ATGTACAGCAAAGCGACCCT": {
+   "copies": 5,
+   "genes": [
+    "ADIPOR2",
+    "RPS4X"
+   ]
+  },
+  "TCCAGCCAACCTCGTGAGCC": {
+   "copies": 8,
+   "genes": [
+    "MAGI2",
+    "MDGA2",
+    "RPL13A",
+    "RPL13AP17",
+    "RPL13AP20",
+    "RPL13AP5",
+    "RPL13AP6",
+    "SHOC2"
+   ]
+  },
+  "TTAGTGCTGCTTCCTCCTGA": {
+   "copies": 4,
+   "genes": [
+    "LINC02451",
+    "PPP1R12B",
+    "SIK3",
+    "TSPAN9"
+   ]
+  },
+  "TGTAGGCTGGCAGAGGACAG": {
+   "copies": 9,
+   "genes": [
+    "KLHL20",
+    "MAP4",
+    "RPS27",
+    "SIK3",
+    "SLC17A5",
+    "TSPAN9",
+    "WDR47"
+   ]
+  },
+  "AGGTGATGGAGAACTCGCCC": {
+   "copies": 4,
+   "genes": [
+    "TIGAR"
+   ]
+  },
+  "CTTGATCTCCACCTGGTTGA": {
+   "copies": 5,
+   "genes": [
+    "CACNA2D3",
+    "RPS15",
+    "TIGAR"
+   ]
+  },
+  "AGGTGCGTCTTCACCACTTC": {
+   "copies": 5,
+   "genes": [
+    "CACNA2D3",
+    "RPS15",
+    "TIGAR"
+   ]
+  },
+  "AAAGAGCCGTGGCCTTGGAA": {
+   "copies": 3,
+   "genes": [
+    "CLEC6A"
+   ]
+  },
+  "ATGTGGTCCGAATCAGTGGT": {
+   "copies": 3,
+   "genes": [
+    "TMEM150C"
+   ]
+  },
+  "AAGCAGGGTGTCTTGACCCA": {
+   "copies": 3,
+   "genes": [
+    "RPS6"
+   ]
+  },
+  "GGCATTCCTGTTACAGACCA": {
+   "copies": 4,
+   "genes": [
+    "RIMS2"
+   ]
+  },
+  "TTCTTAATGGCCTTGTCCTT": {
+   "copies": 18,
+   "genes": [
+    "ANAPC1",
+    "ANAPC1P1",
+    "CADPS2",
+    "CERT1",
+    "FAM20B",
+    "GPRC5D-AS1",
+    "IMPA1P1",
+    "MYH10",
+    "NRXN3",
+    "PTPRD",
+    "RAB3B",
+    "RPS26"
+   ]
+  },
+  "AGGCTTCGATTAACATGCTG": {
+   "copies": 6,
+   "genes": [
+    "CSF1R",
+    "RPL7"
+   ]
+  },
+  "CAGAGCGGCCTGGCCTCGCT": {
+   "copies": 5,
+   "genes": [
+    "MDGA2",
+    "RPL13A",
+    "RPL13AP5",
+    "RPL13AP6",
+    "SHOC2"
+   ]
+  },
+  "CAGCCACCCTGGAGGAGAAG": {
+   "copies": 7,
+   "genes": [
+    "DUSP18",
+    "RPL13AP6",
+    "SHOC2",
+    "SLC35E4",
+    "WDFY4"
+   ]
+  },
+  "GTAACGCAGAGACTCTGCCT": {
+   "copies": 3,
+   "genes": [
+    "RPS3",
+    "TAFA2"
+   ]
+  },
+  "GCGCTTCGTGGAGGTTGGCC": {
+   "copies": 2,
+   "genes": [
+    "RPL14",
+    "SCOC",
+    "SCOC-AS1"
+   ]
+  },
+  "TAGATGTTATTGATCAGAAC": {
+   "copies": 3,
+   "genes": [
+    "FGD6",
+    "RPL14"
+   ]
+  },
+  "ATGGACCTTGCACTCAAGTG": {
+   "copies": 3,
+   "genes": [
+    "RPL14",
+    "SCOC",
+    "SCOC-AS1"
+   ]
+  },
+  "GCACCTGCTCCAAAGGCATC": {
+   "copies": 2,
+   "genes": [
+    "RPL14"
+   ]
+  },
+  "ATCCTCTTGGATCTGCAGTT": {
+   "copies": 5,
+   "genes": [
+    "BCAS3",
+    "RPL36AL",
+    "SRGAP1"
+   ]
+  },
+  "TTGTGGTCTTAGCCTTCTTC": {
+   "copies": 3,
+   "genes": [
+    "BCAS3",
+    "RPL36AL",
+    "SRGAP1"
+   ]
+  },
+  "AGGCACCTCGCATGCCTGTT": {
+   "copies": 6,
+   "genes": [
+    "ASTN2",
+    "COBLL1",
+    "RAP1B",
+    "RPL10",
+    "SNHG31"
+   ]
+  },
+  "AGAAGCAGAGACTGTTGGCC": {
+   "copies": 5,
+   "genes": [
+    "LINC02008",
+    "RGS12",
+    "SEMA6D",
+    "SMOC1",
+    "XCL1"
+   ]
+  },
+  "CTAAGCTGGTGGAAGCTATC": {
+   "copies": 19,
+   "genes": [
+    "ANK2",
+    "FAM185BP",
+    "GPBP1L1",
+    "PRORP",
+    "RAD51B",
+    "RASSF5",
+    "RGS12",
+    "RPL7A",
+    "SEMA6D",
+    "SMOC1",
+    "XCL1"
+   ]
+  },
+  "TGTCTCAGCTCTTTGGAAAG": {
+   "copies": 9,
+   "genes": [
+    "LINC01006",
+    "OTOGL",
+    "RPL26",
+    "SLC25A16",
+    "TTC23L"
+   ]
+  },
+  "ATCTTCCTTCGAATGTGGGA": {
+   "copies": 3,
+   "genes": [
+    "OTOGL",
+    "RPL26"
+   ]
+  },
+  "TTTGCGATTCTTGCTTCGGT": {
+   "copies": 4,
+   "genes": [
+    "OTOGL",
+    "RPL26"
+   ]
+  },
+  "CCTGTCCTTGTCAGAGGAAT": {
+   "copies": 8,
+   "genes": [
+    "COL26A1",
+    "DBF4B",
+    "EPHA5",
+    "PRPF18",
+    "RPL6"
+   ]
+  },
+  "ATCTTGGGTGCTTTGGTCCT": {
+   "copies": 8,
+   "genes": [
+    "GCDH",
+    "RPS6",
+    "TMEM150C"
+   ]
+  },
+  "TCTGGCTGCGCTATGACTCC": {
+   "copies": 4,
+   "genes": [
+    "TXNRD1"
+   ]
+  },
+  "TCTTCAGTAGGATAATATCT": {
+   "copies": 8,
+   "genes": [
+    "DGKI",
+    "EPHA5",
+    "RPL6",
+    "SH3RF1",
+    "WARS2-AS1"
+   ]
+  },
+  "GGCCCTGGTGGCCCTGGGAT": {
+   "copies": 12,
+   "genes": [
+    "GAB1",
+    "INVS",
+    "MFSD2A",
+    "POLR1C",
+    "RPS2",
+    "TAOK3",
+    "XPO5"
+   ]
+  },
+  "AGGTTTCGGCAGTGGCATCC": {
+   "copies": 15,
+   "genes": [
+    "GAB1",
+    "GGNBP2",
+    "LRRC52-AS1",
+    "MFSD2A",
+    "RNF11",
+    "RPS2",
+    "TAOK3"
+   ]
+  },
+  "AGCTCGCGGAGGCAAGGCCG": {
+   "copies": 9,
+   "genes": [
+    "RNF11",
+    "RPS2",
+    "TAOK3"
+   ]
+  },
+  "TGACTGCTACACCTCAGCCC": {
+   "copies": 16,
+   "genes": [
+    "INVS",
+    "MFSD2A",
+    "POLR1C",
+    "RPS2",
+    "TAOK3",
+    "XPO5"
+   ]
+  },
+  "GATTTGGTGTTCAGCACAAA": {
+   "copies": 7,
+   "genes": [
+    "ADGRL3",
+    "CKMT2",
+    "CKMT2-AS1",
+    "LOC101559451",
+    "NFATC3",
+    "RPS12",
+    "RSRC1"
+   ]
+  },
+  "GGATGCAAGCACACAAAGAT": {
+   "copies": 3,
+   "genes": [
+    "LOC101559451"
+   ]
+  },
+  "CTTCGCGAATTCCACGTGCT": {
+   "copies": 2,
+   "genes": [
+    "LOC101559451"
+   ]
+  },
+  "GGCTTCGAGCAAACTTTAGC": {
+   "copies": 3,
+   "genes": []
+  },
+  "TGGTCTTGGTGTGCTGGCCT": {
+   "copies": 2,
+   "genes": [
+    "PCNP"
+   ]
+  },
+  "TCAGTCGCTCCAGGTCTTCA": {
+   "copies": 4,
+   "genes": [
+    "PCNP",
+    "RPS18",
+    "RPS18P9",
+    "TTC7B"
+   ]
+  },
+  "CATGTACAGAACATGATCAA": {
+   "copies": 3,
+   "genes": [
+    "CDRT4",
+    "PRORP",
+    "TVP23C-CDRT4"
+   ]
+  },
+  "CATGACCGGTCCGGTCAGCT": {
+   "copies": 2,
+   "genes": [
+    "RPL13"
+   ]
+  },
+  "GTGGACTTGTTCCGCCTCCT": {
+   "copies": 2,
+   "genes": [
+    "RPL13"
+   ]
+  },
+  "CACAGAAATGCCGATGGTCC": {
+   "copies": 2,
+   "genes": [
+    "RPL13"
+   ]
+  },
+  "GGCCACCTTCTTGTGAATGC": {
+   "copies": 3,
+   "genes": [
+    "CDC42BPB",
+    "RPL13"
+   ]
+  },
+  "CAAGACCATGCCATTCCGGC": {
+   "copies": 2,
+   "genes": [
+    "RPL13"
+   ]
+  },
+  "GTGCTAAATGTGTTCGTGAC": {
+   "copies": 3,
+   "genes": [
+    "NUP210L",
+    "RPL34"
+   ]
+  },
+  "TCAGTCCATCTCCAAAGCCC": {
+   "copies": 5,
+   "genes": [
+    "ABCA3",
+    "RPS16"
+   ]
+  },
+  "AAGCCGGACGAGTTCGAGTC": {
+   "copies": 3,
+   "genes": [
+    "NSF",
+    "PCNX2",
+    "RPS7"
+   ]
+  },
+  "GGAGATGAACTCGGACCTCA": {
+   "copies": 5,
+   "genes": [
+    "CDK11B",
+    "CEP112",
+    "RPS7",
+    "SLC35E2A",
+    "SLC35E2B"
+   ]
+  },
+  "GCTGAATATTACGGCAGCTA": {
+   "copies": 2,
+   "genes": [
+    "RPS7"
+   ]
+  },
+  "GGTCTTCCCAAGCGAAATTG": {
+   "copies": 5,
+   "genes": [
+    "NSF",
+    "RPS7"
+   ]
+  },
+  "CAAAGCACAGCAGAACAATG": {
+   "copies": 3,
+   "genes": [
+    "PLAC1",
+    "RPS7",
+    "UBE2K"
+   ]
+  },
+  "TGGTGTCTATAAGAAGCTCA": {
+   "copies": 9,
+   "genes": [
+    "NSF",
+    "PCNX2",
+    "RPS7"
+   ]
+  },
+  "GATGGCGCCGAAAGCGAAGA": {
+   "copies": 3,
+   "genes": [
+    "BCAS3",
+    "GLDC",
+    "RPL23A"
+   ]
+  },
+  "TAAAGCTGAAGCCAAAGCGA": {
+   "copies": 2,
+   "genes": [
+    "RPL23A"
+   ]
+  },
+  "TCCGCACGTCACCCACCTTC": {
+   "copies": 5,
+   "genes": [
+    "BCAS3",
+    "LINC02067",
+    "PPP2R5A",
+    "RPL23A"
+   ]
+  },
+  "TAGGCCTGATGGAGAGAAGA": {
+   "copies": 4,
+   "genes": [
+    "LAMA3",
+    "RPL23A",
+    "TNFRSF10A"
+   ]
+  },
+  "CACGAACAAGCGCGTGTGCG": {
+   "copies": 3,
+   "genes": [
+    "GOLGA6L10",
+    "GOLGA6L17P",
+    "GOLGA6L9",
+    "RPS17"
+   ]
+  },
+  "AGGTCACTCAGCCTACAGTT": {
+   "copies": 8,
+   "genes": [
+    "GOLGA6L10",
+    "GOLGA6L17P",
+    "GOLGA6L9",
+    "PCGEM1",
+    "RPS17",
+    "ZNF141"
+   ]
+  },
+  "TATTGAGCCAGGAGTTGAGG": {
+   "copies": 9,
+   "genes": [
+    "LMAN2",
+    "LNPEP",
+    "RPS20"
+   ]
+  },
+  "GCCTCTAGTGTCCTCCGCTG": {
+   "copies": 3,
+   "genes": [
+    "FAM153CP",
+    "RPL19",
+    "STK3"
+   ]
+  },
+  "AGCCTGTGACGGTCCATTCC": {
+   "copies": 4,
+   "genes": [
+    "FAM153CP",
+    "RPL19"
+   ]
+  },
+  "AAACACCTTGGCCCGCCGGA": {
+   "copies": 2,
+   "genes": [
+    "FAM153CP",
+    "RPL19"
+   ]
+  },
+  "GTATCACAGCCTGTACCTGA": {
+   "copies": 12,
+   "genes": [
+    "CATIP-AS2",
+    "FAM153CP",
+    "NAPEPLD",
+    "ROR1",
+    "RPL19",
+    "RPL19P12",
+    "STK3",
+    "TFDP2"
+   ]
+  },
+  "GGAACACATCCACAAGCTGA": {
+   "copies": 5,
+   "genes": [
+    "CATIP-AS2",
+    "FAM153CP",
+    "NAPEPLD",
+    "ROR1",
+    "RPL19",
+    "RPL19P12"
+   ]
+  },
+  "GGCCCGCAGGTCTAAGACCA": {
+   "copies": 4,
+   "genes": [
+    "CATIP-AS2",
+    "FAM153CP",
+    "IL17RD",
+    "RPL19"
+   ]
+  },
+  "TTGTTTACAATTGAAACTCT": {
+   "copies": 6,
+   "genes": [
+    "NSF",
+    "PCNX2",
+    "RPS7",
+    "STX18"
+   ]
+  },
+  "CTCGTCCGGCTTCTCGCCAT": {
+   "copies": 3,
+   "genes": [
+    "NSF",
+    "PCNX2",
+    "RPS7"
+   ]
+  },
+  "CTCTTTCCACGATGGCTTTG": {
+   "copies": 3,
+   "genes": [
+    "ANKRD42",
+    "MTHFD1L",
+    "RNFT1-DT",
+    "RPL32",
+    "TBC1D3P1-DHX40P1"
+   ]
+  },
+  "GGGAGGAGATAAGAAGAGAA": {
+   "copies": 7,
+   "genes": [
+    "AQR",
+    "C8orf37-AS1",
+    "GRB2",
+    "LINC02136",
+    "RPL36A",
+    "RPL36A-HNRNPH2"
+   ]
+  },
+  "AGTGGGACTCGTACCACTGT": {
+   "copies": 3,
+   "genes": [
+    "RPS8",
+    "UBAP1"
+   ]
+  },
+  "GCAATTCTTCACCAGGGTCT": {
+   "copies": 3,
+   "genes": [
+    "RPS8",
+    "UBAP1"
+   ]
+  },
+  "ACTCATACTTCCGCTTCTTG": {
+   "copies": 2,
+   "genes": []
+  },
+  "TCCATCCACAGCTCCCTTCA": {
+   "copies": 7,
+   "genes": [
+    "CCDC3",
+    "DIPK1A",
+    "IFT46",
+    "MAILR",
+    "RPL5",
+    "SNHG14",
+    "SNRPN",
+    "STPG2",
+    "SWT1"
+   ]
+  },
+  "CACTTGGTATCTCTTAAAGT": {
+   "copies": 10,
+   "genes": [
+    "ACOXL",
+    "DIPK1A",
+    "IFT46",
+    "MAILR",
+    "RPL5",
+    "SNHG14",
+    "SNRPN",
+    "SWT1"
+   ]
+  },
+  "GATCTCACCTTCCTGGTGTC": {
+   "copies": 7,
+   "genes": [
+    "DGKI",
+    "EPHA5",
+    "FLJ33534",
+    "MGA",
+    "NUP160"
+   ]
+  },
+  "GCATCTTGAGAGGAACAGAA": {
+   "copies": 3,
+   "genes": [
+    "RPS13",
+    "ZYG11B"
+   ]
+  },
+  "ATCATCTACAGCCTCTGCCC": {
+   "copies": 3,
+   "genes": [
+    "RPS13",
+    "ZYG11B"
+   ]
+  },
+  "AAGAACAAGCGCCTTACGAA": {
+   "copies": 4,
+   "genes": [
+    "BAIAP2L1",
+    "RPS3A"
+   ]
+  },
+  "ATGTTCAATATAAGAAATAT": {
+   "copies": 21,
+   "genes": [
+    "ASNS",
+    "CCDC30",
+    "CZ1P-ASNS",
+    "JMY",
+    "LOC101927708",
+    "LOC729732",
+    "RPS3A",
+    "TET1"
+   ]
+  },
+  "ACGCTCGTCACCAGGACCCA": {
+   "copies": 5,
+   "genes": [
+    "BAIAP2L1",
+    "RPS3A"
+   ]
+  },
+  "AACTGCCTGACTAACTTCCA": {
+   "copies": 6,
+   "genes": [
+    "RPS3A",
+    "TMEM161B-AS1"
+   ]
+  },
+  "TTGCTTCGTCTGTTCTGTGT": {
+   "copies": 5,
+   "genes": [
+    "BAIAP2L1",
+    "JMY",
+    "RPS3A"
+   ]
+  },
+  "GACAAATGACTTGAAAGAAG": {
+   "copies": 23,
+   "genes": [
+    "ASNS",
+    "BAIAP2L1",
+    "CZ1P-ASNS",
+    "HORMAD2",
+    "LINC00937",
+    "LOC105374312",
+    "LOC729732",
+    "RPS3A"
+   ]
+  },
+  "AATTTAAGAGTTTATGCAGC": {
+   "copies": 6,
+   "genes": [
+    "MAP3K13",
+    "RPL4"
+   ]
+  },
+  "TGTATTAATCATCTTGTGCA": {
+   "copies": 2,
+   "genes": [
+    "RPL4"
+   ]
+  },
+  "TCCTCATTATAGATGATGCA": {
+   "copies": 3,
+   "genes": [
+    "MAP3K13",
+    "RPL4"
+   ]
+  },
+  "CCCTGCGCTGGATACGGCGA": {
+   "copies": 3,
+   "genes": [
+    "MAP3K13",
+    "RPL4"
+   ]
+  },
+  "GCCAGCTCTCATTCGCTGAG": {
+   "copies": 4,
+   "genes": [
+    "MAP3K13",
+    "RPL4"
+   ]
+  },
+  "CCTTTAGACATGACCAGTGC": {
+   "copies": 3,
+   "genes": [
+    "MAP3K13",
+    "RPL4"
+   ]
+  },
+  "GGCAGCCAGGGCAGAACAGA": {
+   "copies": 5,
+   "genes": [
+    "MAP3K13",
+    "RPL4"
+   ]
+  },
+  "TGTTCACTCTACGATGCCAA": {
+   "copies": 3,
+   "genes": [
+    "MAP3K13",
+    "RPL4"
+   ]
+  },
+  "AGTCCCACCACCTCGAACTC": {
+   "copies": 4,
+   "genes": [
+    "MAP3K13",
+    "RPL4"
+   ]
+  },
+  "TGAACAAAGTTCACAATATC": {
+   "copies": 5,
+   "genes": [
+    "ANKRD44",
+    "MAP3K13",
+    "MRTFA",
+    "RPL4"
+   ]
+  },
+  "ATAGGAGCCTTGAATACAGC": {
+   "copies": 4,
+   "genes": [
+    "MAP3K13",
+    "RPL4"
+   ]
+  },
+  "TGCTTTCAGAATCATAACCA": {
+   "copies": 16,
+   "genes": [
+    "ACOXL",
+    "ADAMTS6",
+    "DIPK1A",
+    "MAILR",
+    "PDZD2",
+    "POLB",
+    "RPL5",
+    "STPG2",
+    "SWT1",
+    "ZMYM4",
+    "ZNF730"
+   ]
+  },
+  "TGGACAGACTGCCGAAGTCC": {
+   "copies": 2,
+   "genes": [
+    "GOLGA6L10",
+    "GOLGA6L17P",
+    "GOLGA6L9",
+    "RPS17"
+   ]
+  },
+  "TTCAATAATCTCCTGATCCA": {
+   "copies": 2,
+   "genes": [
+    "GOLGA6L10",
+    "GOLGA6L17P",
+    "GOLGA6L9",
+    "RPS17"
+   ]
+  },
+  "TCGTGTGGAAGTCGTTGCCC": {
+   "copies": 4,
+   "genes": [
+    "GOLGA6L10",
+    "GOLGA6L17P",
+    "GOLGA6L9",
+    "RPS17"
+   ]
+  },
+  "GACCCGGGCCGCCTTCTTCA": {
+   "copies": 3,
+   "genes": [
+    "GOLGA6L10",
+    "GOLGA6L17P",
+    "GOLGA6L9",
+    "RPS17"
+   ]
+  },
+  "CGATGCCATCCTTGAGGACT": {
+   "copies": 4,
+   "genes": [
+    "PCNX2",
+    "RPS7"
+   ]
+  },
+  "ATTAAATGGTAGAGATCTTC": {
+   "copies": 6,
+   "genes": [
+    "ALDH9A1",
+    "DNAJC27",
+    "KCNG3",
+    "RPS13",
+    "ZYG11B"
+   ]
+  },
+  "CGGGTGACTGGAAGGGCCTG": {
+   "copies": 7,
+   "genes": [
+    "KIFC1",
+    "NIFK-AS1",
+    "RPL12"
+   ]
+  },
+  "GAAGGTGTTGGGCCTCTTGG": {
+   "copies": 6,
+   "genes": [
+    "ANO10",
+    "PTPRD",
+    "RPL18A",
+    "TXNRD1"
+   ]
+  },
+  "GTGGCTTGTGCTGACGGCGC": {
+   "copies": 2,
+   "genes": []
+  },
+  "AGCCGGCCGGCGGCACTTGC": {
+   "copies": 4,
+   "genes": [
+    "ANO10",
+    "RPL18A",
+    "TXNRD1"
+   ]
+  },
+  "CTCCACCTTCATGATCTGAA": {
+   "copies": 3,
+   "genes": [
+    "RPL18A",
+    "TXNRD1"
+   ]
+  },
+  "TGACAGCGCCTGCGGTGGTC": {
+   "copies": 3,
+   "genes": [
+    "RPL18A",
+    "TXNRD1"
+   ]
+  },
+  "GTATTCCCGGTACATGTTGT": {
+   "copies": 4,
+   "genes": [
+    "PTPRD",
+    "RPL18A",
+    "TXNRD1"
+   ]
+  },
+  "TAGGCGCAAAGATTCGCATG": {
+   "copies": 2,
+   "genes": [
+    "HECW1",
+    "UBR7"
+   ]
+  },
+  "CAGCAGAGACTGATCTTTGC": {
+   "copies": 2,
+   "genes": [
+    "RPS27A"
+   ]
+  },
+  "GGTGGCTCCAGTACAGCTGC": {
+   "copies": 5,
+   "genes": [
+    "DAPK1",
+    "RPS29"
+   ]
+  },
+  "CAAAGGAGACATAGGCCACC": {
+   "copies": 3,
+   "genes": [
+    "RPL14"
+   ]
+  },
+  "GCGCTCTTCCGAGGATATTT": {
+   "copies": 5,
+   "genes": [
+    "FLYWCH1",
+    "LINC02067",
+    "PPP2R5A"
+   ]
+  },
+  "GTCTTAGAACCTTCACCACA": {
+   "copies": 8,
+   "genes": [
+    "ADGRL2",
+    "DAB1",
+    "RPS20",
+    "RSF1"
+   ]
+  },
+  "GCTGAAGGAGAGAATGTATT": {
+   "copies": 4,
+   "genes": [
+    "MAPKAPK2",
+    "MIR4435-2HG",
+    "RPS14"
+   ]
+  },
+  "GACTGGTGGGATGAAGGTAA": {
+   "copies": 3,
+   "genes": [
+    "MIR4435-2HG",
+    "RPS14"
+   ]
+  },
+  "TGTTAAAGTTGTTAAGAATA": {
+   "copies": 10,
+   "genes": [
+    "ACOXL",
+    "DIPK1A",
+    "POLB",
+    "RPL5",
+    "SNHG14",
+    "SNRPN",
+    "STPG2",
+    "SWT1",
+    "ZMYM4"
+   ]
+  },
+  "GATTGCTTATGCCCGTATAG": {
+   "copies": 6,
+   "genes": [
+    "ACOXL",
+    "DIPK1A",
+    "POLB",
+    "RPL5"
+   ]
+  },
+  "CTGGCCTGCTGCTGGCCCGC": {
+   "copies": 2,
+   "genes": [
+    "ACOXL",
+    "IFT46",
+    "ZMYM4"
+   ]
+  },
+  "GAACAGCGTAACTCCAGACA": {
+   "copies": 2,
+   "genes": [
+    "ACOXL",
+    "DIPK1A",
+    "RPL5",
+    "ZMYM4"
+   ]
+  },
+  "CATTGAAGGATGCAAAGATA": {
+   "copies": 5,
+   "genes": [
+    "MAPKAPK2",
+    "MICOS10",
+    "MICOS10-NBL1",
+    "MIR4435-2HG",
+    "RPS14",
+    "RPS14P3"
+   ]
+  },
+  "TTGTTAGGGTGATTCGAATT": {
+   "copies": 3,
+   "genes": [
+    "RPS20"
+   ]
+  },
+  "AAGGGCAGGCACATGGGCAT": {
+   "copies": 3,
+   "genes": [
+    "CFAP52",
+    "IL17RD",
+    "ROR1"
+   ]
+  },
+  "AATTGCCACCTCCGGCTCCA": {
+   "copies": 4,
+   "genes": [
+    "DAB1",
+    "RPS20"
+   ]
+  },
+  "CATGGGCGGCGCCTCCTTCT": {
+   "copies": 3,
+   "genes": [
+    "RPS15"
+   ]
+  },
+  "GCGGTAGGTGAACTTGCGGA": {
+   "copies": 3,
+   "genes": [
+    "RPS15"
+   ]
+  },
+  "AGGCTCCAAACAGGCATGCG": {
+   "copies": 5,
+   "genes": [
+    "ASTN2",
+    "RPL10",
+    "SNHG31"
+   ]
+  },
+  "ATGTGATTGAGGCCCTGCGC": {
+   "copies": 5,
+   "genes": [
+    "RAP1B",
+    "RPL10",
+    "SNHG31"
+   ]
+  },
+  "GGTAAATACGGGACCCGCTA": {
+   "copies": 2,
+   "genes": [
+    "RPL37A"
+   ]
+  },
+  "CACTTTGCCTGCTGTATTCA": {
+   "copies": 2,
+   "genes": [
+    "RPL4"
+   ]
+  },
+  "CGGACCTCAAGGCTCAGCTC": {
+   "copies": 2,
+   "genes": [
+    "ATP8A1",
+    "NSF",
+    "STX18"
+   ]
+  },
+  "ATTCAAATGTGCCTTAATAT": {
+   "copies": 5,
+   "genes": [
+    "BST1",
+    "PTPRG",
+    "RPL10A"
+   ]
+  },
+  "CTGCTTGATCAGAGACTCTG": {
+   "copies": 7,
+   "genes": [
+    "BST1",
+    "PLD5",
+    "PTPRG",
+    "RPL10A"
+   ]
+  },
+  "CGAGAAGCGCTTGTCCTTCT": {
+   "copies": 5,
+   "genes": [
+    "BST1",
+    "MARK3",
+    "RPL10A"
+   ]
+  },
+  "GTTTCTGGCAGCCAGTGGCT": {
+   "copies": 4,
+   "genes": [
+    "GCDH",
+    "RIMS2"
+   ]
+  },
+  "GAAGAAACCCGAAGCCAAGA": {
+   "copies": 2,
+   "genes": [
+    "EPHA5",
+    "PHF21B"
+   ]
+  },
+  "AGTGGCTTATTACTTGTGAC": {
+   "copies": 4,
+   "genes": [
+    "EPHA5",
+    "RPL6"
+   ]
+  },
+  "AGGGCTTTCTTACAACATAC": {
+   "copies": 4,
+   "genes": [
+    "RPS6",
+    "TMEM150C"
+   ]
+  },
+  "AAACAAAGAAACATGTCAGC": {
+   "copies": 3,
+   "genes": [
+    "RPL34"
+   ]
+  },
+  "GACACAGTACAAGAAGGGCA": {
+   "copies": 7,
+   "genes": [
+    "CCDC18",
+    "FAM241A",
+    "HTR2C",
+    "PLEKHA7"
+   ]
+  },
+  "CTGGCGCTTTAGTTGAACCC": {
+   "copies": 14,
+   "genes": [
+    "DTL",
+    "HSPA4L",
+    "HSPG2",
+    "LOC101927668",
+    "RPL21",
+    "RPL21P28"
+   ]
+  },
+  "CACGTTTCAGGAAGCTATCT": {
+   "copies": 10,
+   "genes": [
+    "ALKBH1",
+    "DTL",
+    "HSPA4L",
+    "LOC101927668",
+    "PLEKHA6",
+    "RPL21",
+    "RPL21P28"
+   ]
+  },
+  "TTCTCTGGCTTCAATCTTCT": {
+   "copies": 2,
+   "genes": [
+    "CADPS",
+    "SCOC",
+    "SCOC-AS1"
+   ]
+  },
+  "GTGAGCTGCATGCACTTGAA": {
+   "copies": 3,
+   "genes": [
+    "RPL14",
+    "SCOC",
+    "SCOC-AS1"
+   ]
+  },
+  "AATGGCATCAAAGGTGGCCT": {
+   "copies": 3,
+   "genes": [
+    "GAB1",
+    "TAOK3"
+   ]
+  },
+  "CTGACCAGCACCATGGCGGT": {
+   "copies": 4,
+   "genes": [
+    "BAIAP2L1",
+    "JMY",
+    "RPS3A"
+   ]
+  },
+  "GATGGAAATCATGACCCGAG": {
+   "copies": 5,
+   "genes": [
+    "JMY",
+    "RPS3A",
+    "TET1"
+   ]
+  },
+  "GAAGCAGGAGGCTAAGAAAG": {
+   "copies": 8,
+   "genes": [
+    "ANK2",
+    "GNB1L",
+    "MIR924HG",
+    "POLQ",
+    "RPL7A",
+    "SEMA6D",
+    "SMOC1",
+    "XCL1",
+    "XCL2"
+   ]
+  },
+  "AGAGAGCCATCCTCTATAAG": {
+   "copies": 9,
+   "genes": [
+    "ANK2",
+    "GNB1L",
+    "HECTD4",
+    "LOC107984035",
+    "MIR924HG",
+    "POLQ",
+    "RPL7A",
+    "SMOC1"
+   ]
+  },
+  "GGAGAACAAGAAAGCTCAGC": {
+   "copies": 14,
+   "genes": [
+    "ANK2",
+    "GNB1L",
+    "HECTD4",
+    "MIR924HG",
+    "POLQ",
+    "RAD51B",
+    "RPL7A",
+    "SMOC1",
+    "WNK3"
+   ]
+  },
+  "CACGCATCTCCCTGTGCTTG": {
+   "copies": 5,
+   "genes": [
+    "CORIN",
+    "NKIRAS1",
+    "RPL15"
+   ]
+  },
+  "GTCCGCCAGAAGATGCGGCT": {
+   "copies": 4,
+   "genes": [
+    "DUSP18",
+    "RPL13A",
+    "RPL13AP5",
+    "SLC35E4"
+   ]
+  },
+  "TATCTCCATCAAGCTGCAGG": {
+   "copies": 6,
+   "genes": [
+    "GOLGA6L10",
+    "GOLGA6L17P",
+    "GOLGA6L9",
+    "RPS17"
+   ]
+  },
+  "GAGAGACAATTATGTTCCTG": {
+   "copies": 3,
+   "genes": [
+    "GOLGA6L10",
+    "GOLGA6L17P",
+    "GOLGA6L9",
+    "RPS17"
+   ]
+  },
+  "GAAGCGGCCATGGCCAAACT": {
+   "copies": 3,
+   "genes": [
+    "RPL3"
+   ]
+  },
+  "AGGTGGTGTCAATGAACTTA": {
+   "copies": 2,
+   "genes": [
+    "RPL3"
+   ]
+  },
+  "GTCAGATAGGTCATAGTCAG": {
+   "copies": 2,
+   "genes": [
+    "RPL3"
+   ]
+  },
+  "GCGGGCCCAGTCCAGCTTCT": {
+   "copies": 2,
+   "genes": [
+    "RPL3"
+   ]
+  },
+  "TGCCTGCTGCTGCGCTTCCG": {
+   "copies": 2,
+   "genes": [
+    "RPL3"
+   ]
+  },
+  "GAGCCAACATGCCAGTGGCC": {
+   "copies": 2,
+   "genes": []
+  },
+  "GCATGTAATCTGCAACATTC": {
+   "copies": 7,
+   "genes": [
+    "DIPK1A",
+    "IFT46",
+    "PDZD2",
+    "POLB",
+    "RPL5",
+    "ZNF730"
+   ]
+  },
+  "GTGGTCAGTGAACTCCTGAT": {
+   "copies": 2,
+   "genes": [
+    "EPS15L1",
+    "RPS2"
+   ]
+  },
+  "ATCCGGAAGATGAAGCTTCC": {
+   "copies": 3,
+   "genes": [
+    "C16orf90",
+    "RPL18"
+   ]
+  },
+  "GGTGTACCGGCATTTCGGCA": {
+   "copies": 3,
+   "genes": [
+    "C16orf90",
+    "RPL18"
+   ]
+  },
+  "CTTTATGGAATGGATCAATG": {
+   "copies": 7,
+   "genes": [
+    "CORIN",
+    "FCHSD2",
+    "NKIRAS1",
+    "RPL15"
+   ]
+  },
+  "TCATCATCACAGTGAGAAAC": {
+   "copies": 3,
+   "genes": [
+    "HK1",
+    "LEPROTL1",
+    "MDGA2",
+    "RPS15A"
+   ]
+  },
+  "TCATACAGTTACTTGTCTTC": {
+   "copies": 3,
+   "genes": [
+    "RPS27A"
+   ]
+  },
+  "CAGCACCACATTCATCAGAA": {
+   "copies": 4,
+   "genes": [
+    "BFSP1"
+   ]
+  },
+  "GTGCTTATTCTTCTTGGGAG": {
+   "copies": 6,
+   "genes": [
+    "BFSP1",
+    "FBXO11",
+    "RPS27A"
+   ]
+  },
+  "CTGGAACTGCTTCTTGGTGC": {
+   "copies": 2,
+   "genes": [
+    "GOLGA3",
+    "NUTF2"
+   ]
+  },
+  "AACCTGGTTGAATGTGGAGT": {
+   "copies": 3,
+   "genes": [
+    "C16orf90",
+    "LOC349160"
+   ]
+  },
+  "AGGTCTGTGTGCCATTGCCC": {
+   "copies": 3,
+   "genes": [
+    "RPS3",
+    "WWOX"
+   ]
+  },
+  "GCATTTCTGTGGATCCGAGG": {
+   "copies": 2,
+   "genes": [
+    "RPL13"
+   ]
+  },
+  "GGCCACCCAGCTGACCGGAC": {
+   "copies": 2,
+   "genes": [
+    "RPL13"
+   ]
+  },
+  "AGCCTTCGCTAGTCTCCGTA": {
+   "copies": 2,
+   "genes": [
+    "RPL13"
+   ]
+  },
+  "AGCCAAGGAAGCCGCAGAAC": {
+   "copies": 2,
+   "genes": [
+    "RPL13"
+   ]
+  },
+  "CTTCATTTGGAACTTGATTG": {
+   "copies": 3,
+   "genes": [
+    "PTPRG",
+    "RPL10A"
+   ]
+  },
+  "GTGACTTCCACCTCAACTCC": {
+   "copies": 8,
+   "genes": [
+    "LMAN2",
+    "RPS20",
+    "USP8"
+   ]
+  },
+  "ACTCTGAAGATGATCAGACA": {
+   "copies": 4,
+   "genes": [
+    "CDH20",
+    "CSMD3",
+    "EGFL6"
+   ]
+  },
+  "AAGACAATTTGAAGGGCCAC": {
+   "copies": 6,
+   "genes": [
+    "CSF1R",
+    "PNPLA8",
+    "RPL7"
+   ]
+  },
+  "TTCCATTGAAGATTTGACGA": {
+   "copies": 7,
+   "genes": [
+    "CSF1R",
+    "KALRN",
+    "RPL7"
+   ]
+  },
+  "TCTGATGACAAACGCCAATT": {
+   "copies": 4,
+   "genes": [
+    "CSF1R",
+    "RPL7"
+   ]
+  },
+  "AGCACACATGGAACCACCAT": {
+   "copies": 4,
+   "genes": [
+    "RPL34"
+   ]
+  },
+  "TATTGTAGGAAAGCCTACGT": {
+   "copies": 2,
+   "genes": [
+    "NUP210L",
+    "RPL34"
+   ]
+  },
+  "GTCATCAGCATTGACAAGAC": {
+   "copies": 7,
+   "genes": [
+    "ADIPOR2",
+    "RPS4X",
+    "VPS53"
+   ]
+  },
+  "AGAGCGCCTCCAGGCCAAGA": {
+   "copies": 4,
+   "genes": [
+    "FAM153CP",
+    "STK3"
+   ]
+  },
+  "GAGATACTGGATACCCTCAT": {
+   "copies": 3,
+   "genes": [
+    "C12orf54",
+    "GAPVD1",
+    "MACROD2",
+    "MED30"
+   ]
+  },
+  "CCCGGAGACGTCCAGTCCGG": {
+   "copies": 2,
+   "genes": [
+    "RPL8"
+   ]
+  },
+  "AGACCCACTTTGCGGCCAGC": {
+   "copies": 2,
+   "genes": [
+    "RPL8"
+   ]
+  },
+  "GGCATCTCTGCGGATGGTGG": {
+   "copies": 2,
+   "genes": [
+    "RPL8"
+   ]
+  },
+  "CTCAGGGTTGTGGGAGATAA": {
+   "copies": 2,
+   "genes": [
+    "RPL8"
+   ]
+  },
+  "ATGCCCGGGCCAGCTTGCCA": {
+   "copies": 2,
+   "genes": [
+    "RPL8"
+   ]
+  },
+  "CTGGCCCGTGTGAATGCCCT": {
+   "copies": 2,
+   "genes": [
+    "PCOLCE2",
+    "RPL8"
+   ]
+  },
+  "TTCACTGCGCAGCCTGGCAT": {
+   "copies": 3,
+   "genes": [
+    "PTPRS",
+    "RFX2",
+    "RPL32"
+   ]
+  },
+  "AACCCTGTTGTCAATGCCTC": {
+   "copies": 3,
+   "genes": [
+    "MTHFD1L",
+    "RPL32",
+    "RPL32P3"
+   ]
+  },
+  "CATATCGGTCTGACTGGTGC": {
+   "copies": 2,
+   "genes": [
+    "RPL32",
+    "RPL32P3"
+   ]
+  },
+  "AGAAATGACCGAGAGCTTCG": {
+   "copies": 2,
+   "genes": [
+    "LSM3"
+   ]
+  },
+  "AGAAGTATGTCCGACAAGCC": {
+   "copies": 2,
+   "genes": [
+    "RPL14"
+   ]
+  },
+  "GCTGTGGCAAGAAGAAGGTC": {
+   "copies": 3,
+   "genes": [
+    "IL17RD",
+    "TFDP2"
+   ]
+  },
+  "TCTGCAACTCCACCGTCTCC": {
+   "copies": 2,
+   "genes": [
+    "PTPRG",
+    "RPL10A"
+   ]
+  },
+  "TGTGCTAGAGGGCAAAGAGT": {
+   "copies": 2,
+   "genes": [
+    "GBE1",
+    "RPS8"
+   ]
+  },
+  "GGTGCGGCCACGGCGGCCAG": {
+   "copies": 2,
+   "genes": [
+    "PCNP",
+    "RPS18"
+   ]
+  },
+  "GAGCTTGTTGTCCAGACCAT": {
+   "copies": 5,
+   "genes": [
+    "PCNP",
+    "RPS18",
+    "RPS18P9",
+    "TTC7B"
+   ]
+  },
+  "GCCGAAAGGAAAGAAGGCCA": {
+   "copies": 8,
+   "genes": [
+    "MIR924HG",
+    "POLQ",
+    "PTP4A1",
+    "SMOC1"
+   ]
+  },
+  "TCTTCACAGCCTGTTTAATC": {
+   "copies": 2,
+   "genes": [
+    "LINC02067",
+    "PPP2R5A"
+   ]
+  },
+  "GCAAGCTGGCCCGGGCATCA": {
+   "copies": 2,
+   "genes": [
+    "RPL8"
+   ]
+  },
+  "ATAAGGCAAAGAGGAACTGC": {
+   "copies": 2,
+   "genes": []
+  },
+  "TCTCTGCGTTACAAACTCCT": {
+   "copies": 2,
+   "genes": [
+    "RPS3"
+   ]
+  },
+  "GGGCCTGCTATGGTGTGCTG": {
+   "copies": 2,
+   "genes": [
+    "RPS3"
+   ]
+  },
+  "AGGTGAAGATCATGCTGCCC": {
+   "copies": 2,
+   "genes": [
+    "RPS3"
+   ]
+  },
+  "ATTCCTGGCCTGGCGAAGAA": {
+   "copies": 3,
+   "genes": [
+    "MAP3K13"
+   ]
+  },
+  "TGGTGAAGGTTCTAAGACGT": {
+   "copies": 3,
+   "genes": [
+    "RPS20",
+    "RSF1"
+   ]
+  },
+  "GTGTTTCCGTCAGTACGCGA": {
+   "copies": 4,
+   "genes": [
+    "AK4",
+    "DAPK1",
+    "RAP1A",
+    "TMIGD3"
+   ]
+  },
+  "CCACACAGCCATCCAGACTG": {
+   "copies": 2,
+   "genes": [
+    "RPL27A"
+   ]
+  },
+  "CTGGTGGTCTGCATCACCAC": {
+   "copies": 2,
+   "genes": [
+    "RPL27A"
+   ]
+  },
+  "TGAAGCATTACCACTTAAAG": {
+   "copies": 2,
+   "genes": [
+    "RPL27A"
+   ]
+  },
+  "CTGTCAACCTTGACAAATTG": {
+   "copies": 3,
+   "genes": [
+    "RPL27A"
+   ]
+  },
+  "ACAGACAAATTTATGCGACC": {
+   "copies": 2,
+   "genes": [
+    "RPS13",
+    "ZYG11B"
+   ]
+  },
+  "CACCGATCTGTGAAGGAGTA": {
+   "copies": 2,
+   "genes": [
+    "RPS13",
+    "ZYG11B"
+   ]
+  },
+  "GTGAGAAGGGCCGGCGGATT": {
+   "copies": 2,
+   "genes": [
+    "CAGE1",
+    "RPS3"
+   ]
+  },
+  "GATGGCCTGATGATCCACAG": {
+   "copies": 2,
+   "genes": [
+    "RPS3",
+    "TAFA2"
+   ]
+  },
+  "GCCAGCCACTGTCTTCATGC": {
+   "copies": 2,
+   "genes": [
+    "RPL37A"
+   ]
+  },
+  "TGAAGGCTACAAGAAGACCA": {
+   "copies": 3,
+   "genes": [
+    "MAP3K13",
+    "RPL4"
+   ]
+  },
+  "AAAGATGAATTAATCCTTGA": {
+   "copies": 10,
+   "genes": [
+    "APOO",
+    "GOLGA6L10",
+    "GOLGA6L17P",
+    "GOLGA6L9",
+    "PDZD2",
+    "PRORP",
+    "RPL9",
+    "UBE2Q2P2",
+    "URI1"
+   ]
+  },
+  "GGTACAGAGGGCACGCTATG": {
+   "copies": 3,
+   "genes": [
+    "PSMA6",
+    "UTY"
+   ]
+  },
+  "CGTACTGACGGAAACACTGG": {
+   "copies": 5,
+   "genes": [
+    "AK4",
+    "DAPK1",
+    "RAP1A",
+    "RPS29",
+    "TMIGD3"
+   ]
+  },
+  "ACATATTGAGGCCATATTTC": {
+   "copies": 5,
+   "genes": [
+    "BTNL8",
+    "DAPK1",
+    "PSMC2",
+    "RPS29"
+   ]
+  },
+  "CAGGGCTACCTTATCAAGGA": {
+   "copies": 3,
+   "genes": [
+    "IQCA1",
+    "RPL3"
+   ]
+  },
+  "TGACAAGAGCATCAACCCTC": {
+   "copies": 4,
+   "genes": [
+    "ADAM32",
+    "RPL3"
+   ]
+  },
+  "CATGATCAAGGGTGTTACAC": {
+   "copies": 8,
+   "genes": [
+    "APOO",
+    "GOLGA6L10",
+    "GOLGA6L17P",
+    "GOLGA6L9",
+    "RPL9",
+    "UBE2Q2P2",
+    "URI1"
+   ]
+  },
+  "AGTTCTCCGCTCCCAGACAT": {
+   "copies": 2,
+   "genes": [
+    "RPL3"
+   ]
+  },
+  "CACTATAAAGGTCAGCAAAT": {
+   "copies": 8,
+   "genes": [
+    "LOC100506023",
+    "RPL26",
+    "SLC25A16"
+   ]
+  },
+  "TCTGCTCGGCCACACTGTCC": {
+   "copies": 3,
+   "genes": [
+    "RPS8"
+   ]
+  },
+  "GAAAGGAACTGGCTACCGTT": {
+   "copies": 5,
+   "genes": [
+    "APOO",
+    "GOLGA6L10",
+    "GOLGA6L17P",
+    "GOLGA6L9",
+    "RPL9",
+    "SLC25A33",
+    "UBE2Q2P2",
+    "URI1"
+   ]
+  },
+  "GCTGTGGCGCACTGCAAACG": {
+   "copies": 2,
+   "genes": [
+    "RPS16"
+   ]
+  },
+  "GTCTCATCAAGGTGAACGGG": {
+   "copies": 3,
+   "genes": [
+    "ABCA3",
+    "RPS16"
+   ]
+  },
+  "CCATCTGCCGTGTGACTGGT": {
+   "copies": 2,
+   "genes": [
+    "MICOS10",
+    "MICOS10-NBL1",
+    "RASAL2",
+    "RPS14P3"
+   ]
+  },
+  "ACAAGAAATACCGTGCCCTG": {
+   "copies": 2,
+   "genes": [
+    "RPS8"
+   ]
+  },
+  "GCTGGTTCGTACCAAGACCC": {
+   "copies": 2,
+   "genes": [
+    "RPS8"
+   ]
+  },
+  "CCTGGAGGAGCAGTTCCAGC": {
+   "copies": 2,
+   "genes": [
+    "RPS8",
+    "UBAP1"
+   ]
+  },
+  "GCTTCAAGGCCGGGACAGTG": {
+   "copies": 3,
+   "genes": [
+    "RPS8"
+   ]
+  },
+  "CAATCTTCGTGTTCACTTTA": {
+   "copies": 2,
+   "genes": [
+    "LRCH3",
+    "PIGK",
+    "RPL17",
+    "RPL17-C18orf32",
+    "THSD4",
+    "WDR47"
+   ]
+  },
+  "GAACACTCGTGAAACTGCTC": {
+   "copies": 2,
+   "genes": [
+    "PIGK",
+    "WDR47"
+   ]
+  },
+  "TGGAGTTGGCAGGTGTGCGC": {
+   "copies": 7,
+   "genes": [
+    "LRCH3",
+    "PIGK",
+    "RPL17",
+    "RPL17-C18orf32",
+    "THSD4",
+    "WDR47"
+   ]
+  },
+  "GGTTCGCTATTCACTTGACC": {
+   "copies": 8,
+   "genes": [
+    "DSTYK",
+    "LRCH3",
+    "RPL17",
+    "RPL17-C18orf32",
+    "THSD4",
+    "WDR47"
+   ]
+  },
+  "GAAACTGCTCAGGCCATCAA": {
+   "copies": 7,
+   "genes": [
+    "DEPDC5",
+    "RPL17",
+    "RPL17-C18orf32",
+    "THSD4"
+   ]
+  },
+  "AATGGCACAACTGTCCACGT": {
+   "copies": 5,
+   "genes": [
+    "RPL26",
+    "TRIM33"
+   ]
+  },
+  "TTAAGAATTCTTAAGTCTAA": {
+   "copies": 3,
+   "genes": [
+    "ALDH9A1",
+    "RPS13",
+    "ZYG11B"
+   ]
+  },
+  "ATCATCTATAATGAGGATAA": {
+   "copies": 5,
+   "genes": [
+    "MAP3K13",
+    "RPL4"
+   ]
+  },
+  "GGTAGGTAAGAAAGGAAAGA": {
+   "copies": 4,
+   "genes": [
+    "MAP3K13",
+    "RPL4"
+   ]
+  },
+  "TGCCAGAAAGATCAGTGACA": {
+   "copies": 6,
+   "genes": [
+    "MAPKAPK2",
+    "RASAL2",
+    "RPS14",
+    "SEMA6A"
+   ]
+  },
+  "CGCGTCGCCAAAGTGACAGG": {
+   "copies": 3,
+   "genes": [
+    "RPL35"
+   ]
+  },
+  "CGGAAGCAGAGTGGCTATGG": {
+   "copies": 3,
+   "genes": [
+    "BCAS3",
+    "RPL36AL"
+   ]
+  },
+  "TGACAGTTGGGCAGAAGCTC": {
+   "copies": 2,
+   "genes": [
+    "RPL27A"
+   ]
+  },
+  "CATGGTGCTCTTGATATATA": {
+   "copies": 5,
+   "genes": [
+    "RPL10A"
+   ]
+  },
+  "AACACCCGTGGAGCCGGAGG": {
+   "copies": 4,
+   "genes": [
+    "RPS20"
+   ]
+  },
+  "TGCTGCTATGTTGGCTGCCC": {
+   "copies": 3,
+   "genes": [
+    "MAPKAPK2",
+    "RPS14",
+    "SEMA6A"
+   ]
+  },
+  "AGTGAGCCCAAAGGTTCGAA": {
+   "copies": 3,
+   "genes": [
+    "CSF1R",
+    "RPL7"
+   ]
+  },
+  "TACCCAGCTCCTTGCACCTC": {
+   "copies": 2,
+   "genes": [
+    "MICOS10",
+    "MICOS10-NBL1",
+    "RPS14",
+    "RPS14P3"
+   ]
+  },
+  "GCAGCCAACATAGCAGCATA": {
+   "copies": 2,
+   "genes": [
+    "RPS14",
+    "SEMA6A"
+   ]
+  },
+  "ATGGCTTCCATATCCGGGTG": {
+   "copies": 4,
+   "genes": [
+    "RPL10"
+   ]
+  },
+  "GAGCAGGTGTATGATCTCGA": {
+   "copies": 2,
+   "genes": [
+    "RPS5"
+   ]
+  },
+  "ACTGGTGTCCATCACTACAG": {
+   "copies": 4,
+   "genes": [
+    "CDH20",
+    "EGFL6",
+    "RPL30"
+   ]
+  },
+  "GAATAGGCTGCACGTGGCCG": {
+   "copies": 5,
+   "genes": [
+    "NHSL2",
+    "PTPRD",
+    "RPS26",
+    "RPS26P11"
+   ]
+  },
+  "TTTGTCTCTCTCTTCAGCAA": {
+   "copies": 2,
+   "genes": [
+    "RPS4X"
+   ]
+  },
+  "GCAGAACAATGTGGAACACA": {
+   "copies": 5,
+   "genes": [
+    "NSF",
+    "PCNX2"
+   ]
+  },
+  "GGAGGAGATAAGAAGAGAAA": {
+   "copies": 9,
+   "genes": [
+    "ARMC4",
+    "BCAS3",
+    "GLDN",
+    "PEX11A",
+    "PLEKHA7",
+    "RPL36AL",
+    "TEK"
+   ]
+  },
+  "TGTCTCTTGGTGGTTCCTTG": {
+   "copies": 3,
+   "genes": [
+    "NBEAL1"
+   ]
+  },
+  "TGTCGTTCCCACCACTGATT": {
+   "copies": 2,
+   "genes": [
+    "RPS6"
+   ]
+  },
+  "GTCTCTTCGCAATTTGTTCC": {
+   "copies": 2,
+   "genes": [
+    "RPS6"
+   ]
+  },
+  "GTAGCAGGCGGACACGGCCA": {
+   "copies": 2,
+   "genes": [
+    "RPS6"
+   ]
+  },
+  "TACTTCCGCTTCTTGTGGTA": {
+   "copies": 3,
+   "genes": [
+    "RPS8",
+    "UBAP1"
+   ]
+  },
+  "CGATGATGTCATGAGGATGG": {
+   "copies": 2,
+   "genes": [
+    "NBEAL1",
+    "RPL12"
+   ]
+  },
+  "GGTGGTGATTGCACACGACG": {
+   "copies": 3,
+   "genes": [
+    "PTP4A1",
+    "RPL7A"
+   ]
+  },
+  "TGGCATTCTTCCTCTTCACG": {
+   "copies": 3,
+   "genes": [
+    "CBR3-AS1",
+    "RPS9"
+   ]
+  },
+  "TGACGTGCAACTCAAAGACC": {
+   "copies": 2,
+   "genes": [
+    "KIZ",
+    "RPS15A"
+   ]
+  },
+  "TCATTGATGACCACAGAGCT": {
+   "copies": 2,
+   "genes": [
+    "KIZ",
+    "RPS15A"
+   ]
+  },
+  "CGTGCTCCAAAGTCATCGTC": {
+   "copies": 3,
+   "genes": [
+    "KIZ",
+    "LEPROTL1",
+    "RPS15A"
+   ]
+  },
+  "GCAAACGCCAGGTGCTTATT": {
+   "copies": 3,
+   "genes": [
+    "KIZ",
+    "RPS15A"
+   ]
+  },
+  "AATGGTGCGCATGAATGTCC": {
+   "copies": 4,
+   "genes": [
+    "IARS2",
+    "KIZ",
+    "LEPROTL1",
+    "RPS15A"
+   ]
+  },
+  "CAGAAGGGCACTCTCGACGA": {
+   "copies": 2,
+   "genes": [
+    "RBL1",
+    "RPS27A",
+    "UBE3C"
+   ]
+  },
+  "CAAGTTGGGCCGCTTGGTCA": {
+   "copies": 5,
+   "genes": [
+    "GAB1",
+    "RPS2"
+   ]
+  },
+  "TCCTAGGAGGGCTTGCTGTG": {
+   "copies": 2,
+   "genes": [
+    "CAGE1",
+    "TAFA2"
+   ]
+  },
+  "GCTGTAGTTCAGAAGAGGTT": {
+   "copies": 2,
+   "genes": [
+    "CAGE1"
+   ]
+  },
+  "GAGAGCCACCAATAGTGTGG": {
+   "copies": 2,
+   "genes": [
+    "NKIRAS1",
+    "RPL15"
+   ]
+  },
+  "CTGCCAGTCCTTGTGGAAGT": {
+   "copies": 4,
+   "genes": [
+    "CDC42BPB",
+    "LINC01623",
+    "LOC105369632",
+    "RPL13",
+    "RPL13P5"
+   ]
+  },
+  "GTTCTCCCGCCCTCTTGGTG": {
+   "copies": 2,
+   "genes": [
+    "RPS18",
+    "RPS18P9",
+    "TTC7B"
+   ]
+  },
+  "TGTGCTGGCCTCGGACACGA": {
+   "copies": 3,
+   "genes": [
+    "RPS18",
+    "RPS18P9",
+    "SFI1"
+   ]
+  },
+  "AGAAGCAGCAGCGGAAGGAG": {
+   "copies": 3,
+   "genes": [
+    "RPL35"
+   ]
+  },
+  "ACAGCTGGACGACCTGAAGG": {
+   "copies": 4,
+   "genes": [
+    "PREP",
+    "RPL35"
+   ]
+  },
+  "TCAAGGCTCGAGATCTTCGC": {
+   "copies": 2,
+   "genes": [
+    "RPL35"
+   ]
+  },
+  "GACCTGCGAGACTCACAAGA": {
+   "copies": 3,
+   "genes": [
+    "AMBRA1",
+    "GAPVD1",
+    "RPS10",
+    "RPS10-NUDT3"
+   ]
+  },
+  "ACTGGATACCCTCATTGGTA": {
+   "copies": 4,
+   "genes": [
+    "ELMO1",
+    "LOC107985246",
+    "RPS10P7"
+   ]
+  },
+  "ACATCCATGAAGTAGGAATT": {
+   "copies": 6,
+   "genes": [
+    "KLHL20",
+    "RPS27",
+    "SLC17A5"
+   ]
+  },
+  "ATGGAGATCCAGGTGAACGG": {
+   "copies": 2,
+   "genes": [
+    "RPL3"
+   ]
+  },
+  "GCCATCTGGCTGCTGTGCAC": {
+   "copies": 2,
+   "genes": [
+    "DSE"
+   ]
+  },
+  "GACTGTGAGACGACAGGCTG": {
+   "copies": 2,
+   "genes": [
+    "DSE"
+   ]
+  },
+  "CTGGTGCCGGATGAACTTCT": {
+   "copies": 4,
+   "genes": [
+    "ANK2",
+    "MTHFD1L",
+    "NGLY1"
+   ]
+  },
+  "GCTCCTTGACGTTGTGGACC": {
+   "copies": 3,
+   "genes": [
+    "MTHFD1L",
+    "NGLY1"
+   ]
+  },
+  "TGGAGAACTCGCCCAGGTAG": {
+   "copies": 3,
+   "genes": [
+    "CACNA2D3",
+    "LOC643441",
+    "RPS15"
+   ]
+  },
+  "GTCTTCGGCCGCCGGAAGGT": {
+   "copies": 2,
+   "genes": [
+    "RPL23A"
+   ]
+  },
+  "GAGGATATTTGGGCTGTCTC": {
+   "copies": 4,
+   "genes": [
+    "BCAS3",
+    "GLDC",
+    "RPL23A"
+   ]
+  },
+  "AAAGATTCGCATGCGGTAGA": {
+   "copies": 5,
+   "genes": [
+    "PTPRD",
+    "RPL18A",
+    "TXNRD1"
+   ]
+  },
+  "GTGGGCTCGGGCGCGGTGCC": {
+   "copies": 2,
+   "genes": [
+    "RPL18A",
+    "TXNRD1"
+   ]
+  },
+  "CTGACGGCGCAGGACCCGGT": {
+   "copies": 2,
+   "genes": [
+    "RPL18A",
+    "TXNRD1"
+   ]
+  },
+  "GCTCCGGGTTGACAAATGGT": {
+   "copies": 5,
+   "genes": [
+    "APOO",
+    "GOLGA6L10",
+    "GOLGA6L17P",
+    "GOLGA6L9",
+    "RPL9",
+    "UBE2Q2P2",
+    "URI1"
+   ]
+  },
+  "CCAGGAGTCCGTGGGTCTTG": {
+   "copies": 4,
+   "genes": [
+    "RPL13A",
+    "RPL13AP20",
+    "RPL13AP3",
+    "RPL13AP5"
+   ]
+  },
+  "CTGTGACGATGTCACCGATC": {
+   "copies": 2,
+   "genes": [
+    "GOLGA3",
+    "RPS11"
+   ]
+  },
+  "GCACTGTCTTGCTCAGAGGC": {
+   "copies": 2,
+   "genes": [
+    "GOLGA3",
+    "RPS11"
+   ]
+  },
+  "GCAGTTCCCGGGCGGCCTTG": {
+   "copies": 2,
+   "genes": [
+    "RPS9"
+   ]
+  },
+  "CAGCACGCGAGCGTGGTGGA": {
+   "copies": 2,
+   "genes": [
+    "RPS9"
+   ]
+  },
+  "CCAGGCGGACAATGAAGGAC": {
+   "copies": 2,
+   "genes": [
+    "RPS9"
+   ]
+  },
+  "CTCAGAAACCCGTCGTCCAT": {
+   "copies": 2,
+   "genes": [
+    "MICU2"
+   ]
+  },
+  "GTTCGAGTCCGGCATCTCCC": {
+   "copies": 2,
+   "genes": []
+  },
+  "GTGGCTAAACAGGTACTGCT": {
+   "copies": 4,
+   "genes": [
+    "MDGA2",
+    "RPL13AP6",
+    "SHOC2"
+   ]
+  },
+  "CAAGAACGGCGGTACCCGGG": {
+   "copies": 2,
+   "genes": [
+    "RPL6"
+   ]
+  },
+  "GAAGGTTGATGCTGGTGGCA": {
+   "copies": 2,
+   "genes": [
+    "RPL6"
+   ]
+  },
+  "CGAGGTTGGCTGGAAGTACC": {
+   "copies": 2,
+   "genes": [
+    "RPL13AP6",
+    "SHOC2"
+   ]
+  },
+  "CAACGGCAAGACCTTCAACC": {
+   "copies": 4,
+   "genes": [
+    "TIGAR"
+   ]
+  },
+  "AATCTTCTTGGCCCATCGTG": {
+   "copies": 2,
+   "genes": [
+    "RPL14"
+   ]
+  },
+  "TGGGCAGGAACCTTCTGGGC": {
+   "copies": 2,
+   "genes": [
+    "FGD6",
+    "RPL14"
+   ]
+  },
+  "GCTTTCTTGCCAGATGCCTT": {
+   "copies": 3,
+   "genes": [
+    "FGD6",
+    "RPL14"
+   ]
+  },
+  "GACACAGTATAAGAAGGGCA": {
+   "copies": 2,
+   "genes": [
+    "RPL36AL",
+    "SRGAP1"
+   ]
+  },
+  "TGGCGGGCCCTGCACTCATG": {
+   "copies": 2,
+   "genes": [
+    "ASTN2",
+    "RAP1B"
+   ]
+  },
+  "CAAATCTCGCCAAGTAGGAA": {
+   "copies": 3,
+   "genes": [
+    "OTOGL",
+    "RPL26"
+   ]
+  },
+  "GCGATCCATGCCCATCCGAA": {
+   "copies": 2,
+   "genes": [
+    "OTOGL",
+    "RPL26"
+   ]
+  },
+  "AGTCTCCGTGCAGCGGACTC": {
+   "copies": 4,
+   "genes": [
+    "INVS",
+    "RPS2"
+   ]
+  },
+  "ACGCCTCATCCCTGCACCCA": {
+   "copies": 2,
+   "genes": [
+    "RPS2"
+   ]
+  },
+  "ATTCGCGTACTAGCCGGACT": {
+   "copies": 2,
+   "genes": [
+    "RPS7"
+   ]
+  },
+  "CTGTTTAATCTGGTGCTTGT": {
+   "copies": 4,
+   "genes": [
+    "BCAS3",
+    "GLDC",
+    "RPL23A"
+   ]
+  },
+  "CCTGCCCTTCCGGCGGGCCA": {
+   "copies": 3,
+   "genes": [
+    "FAM153CP",
+    "RPL19"
+   ]
+  },
+  "TGTGACCTTCTCTGGCATTC": {
+   "copies": 2,
+   "genes": [
+    "FAM153CP",
+    "RPL19"
+   ]
+  },
+  "TCTCCTCCTTCTTGGCCTGG": {
+   "copies": 3,
+   "genes": [
+    "RPL19"
+   ]
+  },
+  "AAATAGCAGGTGAAGGCACC": {
+   "copies": 4,
+   "genes": [
+    "DIPK1A",
+    "HSPA12A",
+    "RAB3C",
+    "RPL5"
+   ]
+  },
+  "CGTGGAAAGAGCTGCCCAAC": {
+   "copies": 2,
+   "genes": [
+    "RNFT1-DT",
+    "RPL32",
+    "TBC1D3P1-DHX40P1"
+   ]
+  },
+  "CAGTGATGACCAGGGTGTAA": {
+   "copies": 2,
+   "genes": [
+    "LOC101927967",
+    "RPL38"
+   ]
+  },
+  "AATGTAGAACTCAGCCTTCT": {
+   "copies": 4,
+   "genes": [
+    "APOO",
+    "GOLGA6L10",
+    "GOLGA6L17P",
+    "GOLGA6L9",
+    "RPL9",
+    "UBE2Q2P2"
+   ]
+  },
+  "GCTGGTGCAGACGAAGCGGC": {
+   "copies": 2,
+   "genes": [
+    "RPL3"
+   ]
+  },
+  "GTGGCACGCGCTGGGCAGAA": {
+   "copies": 2,
+   "genes": [
+    "RPL3"
+   ]
+  },
+  "TTTGGACTGAAAGTGCTTTC": {
+   "copies": 2,
+   "genes": [
+    "MAP3K13",
+    "MRTFA",
+    "RPL4"
+   ]
+  },
+  "AAGAGTTGGAGTTCTATCTT": {
+   "copies": 3,
+   "genes": [
+    "NRXN3"
+   ]
+  },
+  "GGTGGTGGGACTCACCGCTC": {
+   "copies": 3,
+   "genes": [
+    "MAP3K13",
+    "RPL4"
+   ]
+  },
+  "TATGCTGTCAGTGAATTAGC": {
+   "copies": 2,
+   "genes": [
+    "RPL4"
+   ]
+  },
+  "CGCAGGGTTCGGATGAGACC": {
+   "copies": 4,
+   "genes": [
+    "APOO",
+    "GOLGA6L10",
+    "GOLGA6L17P",
+    "GOLGA6L9",
+    "RPL9",
+    "UBE2Q2P2"
+   ]
+  },
+  "CGGCAGTCTGTCCAACCTTC": {
+   "copies": 2,
+   "genes": [
+    "GOLGA6L10",
+    "GOLGA6L17P",
+    "GOLGA6L9",
+    "RPS17"
+   ]
+  },
+  "GTAGGTCTCAGCCTTGGATC": {
+   "copies": 2,
+   "genes": [
+    "GOLGA6L10",
+    "GOLGA6L17P",
+    "GOLGA6L9",
+    "RPS17"
+   ]
+  },
+  "CTGATGAAGCGAATTCAGAG": {
+   "copies": 2,
+   "genes": [
+    "GOLGA6L10",
+    "GOLGA6L17P",
+    "GOLGA6L9",
+    "RPS17"
+   ]
+  },
+  "ATACTACAGAGTGTGCACAC": {
+   "copies": 2,
+   "genes": [
+    "RPL30"
+   ]
+  },
+  "ATTTACAAACTGGCCAAGAA": {
+   "copies": 3,
+   "genes": [
+    "RPS13",
+    "SPATA5",
+    "ZYG11B"
+   ]
+  },
+  "GCGGACTCAGGCTCCAGCTG": {
+   "copies": 2,
+   "genes": [
+    "GAB1"
+   ]
+  },
+  "CATCAGCCTCGGACCTCAGG": {
+   "copies": 2,
+   "genes": [
+    "RPS14"
+   ]
+  },
+  "GTTGACATCTGACGACGTGA": {
+   "copies": 2,
+   "genes": [
+    "RPS13",
+    "ZYG11B"
+   ]
+  },
+  "AATGGCACACAGACCTCTAG": {
+   "copies": 2,
+   "genes": [
+    "RPS3"
+   ]
+  },
+  "CAGGCCATCCACAAACTTCA": {
+   "copies": 2,
+   "genes": [
+    "RPS3"
+   ]
+  },
+  "ATTTCCTTCAGCGTAACTGG": {
+   "copies": 2,
+   "genes": [
+    "RPL32",
+    "RPL32P3"
+   ]
+  },
+  "TGTTACAGACCAAGGAGAAC": {
+   "copies": 2,
+   "genes": [
+    "RPS6"
+   ]
+  }
+ },
+ "summary": {
+  "n_multi": 712,
+  "n_ribosomal_protein_gene": 606,
+  "frac_rp": 0.851,
+  "n_intergenic": 18
+ }
+}
