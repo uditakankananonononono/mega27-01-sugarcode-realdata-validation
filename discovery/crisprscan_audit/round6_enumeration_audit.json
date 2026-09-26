@@ -1,0 +1,30 @@
+{
+ "locus": "NG_017013.2 TP53",
+ "length": 32772,
+ "crispor_guides": 4825,
+ "indep_guides": 4825,
+ "agree_keys": 4825,
+ "only_crispor": [],
+ "only_indep": [],
+ "seq_mismatch_same_key": 0,
+ "edge_guides": [
+  {
+   "pos": 2,
+   "strand": "-",
+   "in_crispor": true,
+   "in_indep": true
+  },
+  {
+   "pos": 21,
+   "strand": "-",
+   "in_crispor": true,
+   "in_indep": true
+  },
+  {
+   "pos": 32728,
+   "strand": "-",
+   "in_crispor": true,
+   "in_indep": true
+  }
+ ]
+}

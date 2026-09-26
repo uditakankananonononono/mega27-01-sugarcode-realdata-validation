@@ -1,0 +1,89 @@
+{
+ "locus": "NG_017013.2 TP53",
+ "n_guides_scored": 4824,
+ "crispor_impl": "crisporWebsite crisporEffScores.calcCrisprScanScores (AA19 defect, issue #76)",
+ "reference_impl": "sugarcode crisprscan_score (verified vs Moreno-Mateos 2015 supplement)",
+ "n_different_gt_0.005": 2629,
+ "frac_different": 0.5449834162520729,
+ "n_skipped_ref": 0,
+ "n_defect_only_apples_to_apples": 411,
+ "frac_defect_only": 0.08519900497512438,
+ "max_abs_diff": 0.107357560584244,
+ "mean_abs_diff": 0.012808878769322074,
+ "contexts_with_AA_at_pos18": 338,
+ "contexts_with_AA_at_pos19": 413,
+ "top100_overlap": 92,
+ "spearman": 0.9869824099006098,
+ "largest_delta_examples": [
+  {
+   "pos": 24531,
+   "strand": "+",
+   "context": "AGGATACCTGGGTTCCCAAGGGGAACAGGGGTGGG",
+   "crispor": 0.27,
+   "reference": 0.377357560584244
+  },
+  {
+   "pos": 29150,
+   "strand": "-",
+   "context": "CTACTAAAAATACAAAAAATTAGCCGGGGGTGGTG",
+   "crispor": 0.2,
+   "reference": 0.30728843546740003
+  },
+  {
+   "pos": 9631,
+   "strand": "-",
+   "context": "GCTACAATCATGAGATAAACATTATTTGGTTAGAA",
+   "crispor": 0.16,
+   "reference": 0.267249077815145
+  },
+  {
+   "pos": 22948,
+   "strand": "-",
+   "context": "GGAGGCTGTCAGTGGGGAACAAGAAGTGGAGAATG",
+   "crispor": 0.28,
+   "reference": 0.38721836252283504
+  },
+  {
+   "pos": 7943,
+   "strand": "-",
+   "context": "AATTTTAAGAATTAATTAATGGCTCAAGGACCTTA",
+   "crispor": 0.19,
+   "reference": 0.29716431488390005
+  },
+  {
+   "pos": 211,
+   "strand": "-",
+   "context": "CTCTACTCAAATACAAAAATTAGTTGGGGCTGGGT",
+   "crispor": 0.23,
+   "reference": 0.3370948840699
+  },
+  {
+   "pos": 15685,
+   "strand": "-",
+   "context": "TTCTTTGAGGAAAAGACAATCAGAGAGGGACTTCC",
+   "crispor": 0.41,
+   "reference": 0.51700904291762
+  },
+  {
+   "pos": 28489,
+   "strand": "+",
+   "context": "ATAAATAAATAATCAAGAACAGTATAAGGGGCTGT",
+   "crispor": 0.13,
+   "reference": 0.23699199644694002
+  },
+  {
+   "pos": 3936,
+   "strand": "-",
+   "context": "GATCCCTGAGAACTTCGAAGCCATCCTGGCTGAGG",
+   "crispor": 0.24,
+   "reference": 0.34698790336498303
+  },
+  {
+   "pos": 16612,
+   "strand": "-",
+   "context": "CCCAAAGTTCCAAACAAAAGAAATGCAGGGGGATA",
+   "crispor": 0.02,
+   "reference": 0.126959614442084
+  }
+ ]
+}

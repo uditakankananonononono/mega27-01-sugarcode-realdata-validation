@@ -1,0 +1,34 @@
+{
+ "dataset": "Moreno-Mateos 2015 MOESM633-d1 in-vitro library activity (activity_raw_prank), contexts recovered from danRer7",
+ "n_guides_d1": 492,
+ "n_uniquely_mapped": 474,
+ "n_multi_mapped_excluded": 17,
+ "n_unmapped": 1,
+ "n_affected_by_defect_gt0.005": 243,
+ "frac_affected": 0.5127,
+ "spearman_correct_vs_activity": 0.6157,
+ "spearman_buggy_vs_activity": 0.612,
+ "pearson_correct": 0.6114,
+ "pearson_buggy": 0.6046,
+ "delta_correct_minus_buggy": 0.0036,
+ "bootstrap_delta_ci95": [
+  -0.0064,
+  0.0035,
+  0.0141
+ ],
+ "negcontrol_fake_bug_delta_mean": 0.0018,
+ "negcontrol_fake_bug_delta_p95": 0.0082,
+ "real_delta_exceeds_fake_frac": 0.808,
+ "defect_only_no_truncation": {
+  "n_defect_affected": 30,
+  "frac": 0.0633,
+  "spearman_correct": 0.6157,
+  "spearman_buggy_float": 0.6127,
+  "delta": 0.003,
+  "bootstrap_ci95": [
+   -0.007,
+   0.003,
+   0.0134
+  ]
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "dataset": "Labuhn 2017 external screen (essentiality log2fc, HL60 + KBM7), hg19-mapped unique-locus guides",
+ "n": 1088,
+ "n_defect_affected": 85,
+ "frac": 0.0781,
+ "hl60": {
+  "spearman_correct": 0.2005,
+  "spearman_buggy_production": 0.1947,
+  "spearman_buggy_defect_only": 0.1938,
+  "delta_production": 0.0058,
+  "delta_production_ci95": [
+   -0.0048,
+   0.0058,
+   0.0165
+  ],
+  "delta_defect_only": 0.0066,
+  "delta_defect_only_ci95": [
+   -0.004,
+   0.0066,
+   0.0173
+  ]
+ },
+ "kbm7": {
+  "spearman_correct": 0.194,
+  "spearman_buggy_production": 0.1936,
+  "spearman_buggy_defect_only": 0.1927,
+  "delta_production": 0.0004,
+  "delta_production_ci95": [
+   -0.0103,
+   0.0004,
+   0.0114
+  ],
+  "delta_defect_only": 0.0014,
+  "delta_defect_only_ci95": [
+   -0.0091,
+   0.0014,
+   0.0121
+  ]
+ }
+}

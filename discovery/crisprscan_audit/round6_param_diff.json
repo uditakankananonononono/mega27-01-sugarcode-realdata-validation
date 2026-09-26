@@ -1,0 +1,25 @@
+{
+ "crispor_n": 91,
+ "sugarcode_n": 91,
+ "only_crispor": [
+  [
+   "AA",
+   18
+  ]
+ ],
+ "only_sugarcode": [
+  [
+   "AA",
+   19
+  ]
+ ],
+ "weight_mismatches": [],
+ "positional_shifts": [
+  [
+   "AA",
+   18,
+   19,
+   -0.097377097
+  ]
+ ]
+}

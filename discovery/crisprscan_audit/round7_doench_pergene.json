@@ -1,0 +1,135 @@
+{
+ "analysis": "within-gene Spearman, guide-size-weighted mean delta; bootstrap resamples guides within genes",
+ "per_gene": {
+  "CCDC101": {
+   "n": 149,
+   "n_affected": 6,
+   "rho_correct": 0.1091,
+   "rho_buggy": 0.0997,
+   "delta": 0.0094
+  },
+  "CD13": {
+   "n": 455,
+   "n_affected": 28,
+   "rho_correct": -0.1221,
+   "rho_buggy": -0.1244,
+   "delta": 0.0023
+  },
+  "CD15": {
+   "n": 273,
+   "n_affected": 6,
+   "rho_correct": -0.2212,
+   "rho_buggy": -0.2263,
+   "delta": 0.0051
+  },
+  "CD28": {
+   "n": 74,
+   "n_affected": 9,
+   "rho_correct": 0.1868,
+   "rho_buggy": 0.1971,
+   "delta": -0.0103
+  },
+  "CD33": {
+   "n": 154,
+   "n_affected": 8,
+   "rho_correct": 0.1544,
+   "rho_buggy": 0.1477,
+   "delta": 0.0067
+  },
+  "CD43": {
+   "n": 145,
+   "n_affected": 7,
+   "rho_correct": -0.0012,
+   "rho_buggy": -0.009,
+   "delta": 0.0078
+  },
+  "CD45": {
+   "n": 266,
+   "n_affected": 22,
+   "rho_correct": 0.1508,
+   "rho_buggy": 0.1286,
+   "delta": 0.0222
+  },
+  "CD5": {
+   "n": 239,
+   "n_affected": 19,
+   "rho_correct": 0.0872,
+   "rho_buggy": 0.079,
+   "delta": 0.0082
+  },
+  "CUL3": {
+   "n": 154,
+   "n_affected": 19,
+   "rho_correct": 0.0424,
+   "rho_buggy": 0.0358,
+   "delta": 0.0066
+  },
+  "H2-K": {
+   "n": 169,
+   "n_affected": 4,
+   "rho_correct": -0.1196,
+   "rho_buggy": -0.1198,
+   "delta": 0.0002
+  },
+  "HPRT1": {
+   "n": 64,
+   "n_affected": 10,
+   "rho_correct": -0.3114,
+   "rho_buggy": -0.3144,
+   "delta": 0.0031
+  },
+  "MED12": {
+   "n": 1848,
+   "n_affected": 136,
+   "rho_correct": 0.1168,
+   "rho_buggy": 0.1117,
+   "delta": 0.0051
+  },
+  "NF1": {
+   "n": 736,
+   "n_affected": 85,
+   "rho_correct": 0.0314,
+   "rho_buggy": 0.0308,
+   "delta": 0.0006
+  },
+  "NF2": {
+   "n": 223,
+   "n_affected": 25,
+   "rho_correct": 0.1085,
+   "rho_buggy": 0.103,
+   "delta": 0.0055
+  },
+  "TADA1": {
+   "n": 109,
+   "n_affected": 5,
+   "rho_correct": 0.1615,
+   "rho_buggy": 0.1546,
+   "delta": 0.0068
+  },
+  "TADA2B": {
+   "n": 190,
+   "n_affected": 11,
+   "rho_correct": -0.3039,
+   "rho_buggy": -0.2994,
+   "delta": -0.0045
+  },
+  "THY1": {
+   "n": 62,
+   "n_affected": 5,
+   "rho_correct": -0.0154,
+   "rho_buggy": 0.012,
+   "delta": -0.0275
+  }
+ },
+ "weighted_mean_delta": 0.0044,
+ "bootstrap_ci95": [
+  -0.0001,
+  0.0044,
+  0.0092
+ ],
+ "sign_test": {
+  "n_positive": 14,
+  "n_genes": 17,
+  "two_sided_p": 0.0127
+ }
+}

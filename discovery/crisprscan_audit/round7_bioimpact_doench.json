@@ -1,0 +1,42 @@
+{
+ "dataset": "Doench 2016 FC_plus_RES (5,310 guides, human, Percent Peptide FACS activity) - independent lab/assay/species",
+ "n": 5310,
+ "pad_sensitivity": [
+  {
+   "pad": "AA...AAA",
+   "spearman_correct": 0.0316,
+   "spearman_buggy": 0.027,
+   "delta": 0.0046,
+   "bootstrap_ci95": [
+    0.0002,
+    0.0045,
+    0.0089
+   ],
+   "n_differ_gt0.005": 2890
+  },
+  {
+   "pad": "CC...CCC",
+   "spearman_correct": 0.0316,
+   "spearman_buggy": 0.0272,
+   "delta": 0.0044,
+   "bootstrap_ci95": [
+    0.0001,
+    0.0044,
+    0.0088
+   ],
+   "n_differ_gt0.005": 2904
+  }
+ ],
+ "defect_only": {
+  "n_defect_affected": 405,
+  "frac": 0.0763,
+  "spearman_correct": 0.0316,
+  "spearman_buggy_float": 0.0271,
+  "delta": 0.0045,
+  "bootstrap_ci95": [
+   0.0001,
+   0.0045,
+   0.0087
+  ]
+ }
+}

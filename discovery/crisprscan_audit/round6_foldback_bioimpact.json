@@ -1,0 +1,53 @@
+{
+ "round": 6,
+ "identity_check": {
+  "n": 4824,
+  "within_1_int": 4824,
+  "beyond": 0,
+  "examples_bad": []
+ },
+ "expA_rank_perturbation": {
+  "n_guides": 4824,
+  "spearman_buggy_vs_correct": 0.987087,
+  "kendall_tau": 0.952285,
+  "topk_overlap": {
+   "10": 9,
+   "25": 24,
+   "50": 48,
+   "100": 92,
+   "500": 477
+  },
+  "n_scores_changed": 411,
+  "frac_changed": 0.0852
+ },
+ "expB_biological_consequence": {
+  "dataset": "Moreno-Mateos 2015 MOESM634-de in-vivo zebrafish validation (35 guides)",
+  "n": 35,
+  "n_affected_by_defect": 1,
+  "spearman_published_correct_vs_activity": 0.6772,
+  "spearman_buggy_vs_activity": 0.6882,
+  "delta_correct_minus_buggy": -0.0109,
+  "bootstrap_delta_ci95": [
+   -0.0489,
+   -0.0075,
+   0.0
+  ],
+  "affected_guides": [
+   [
+    "ntla",
+    "e",
+    "GGAAATACGTGAACGGTGAA",
+    0.3748,
+    0.2774,
+    0.285714285714286
+   ]
+  ]
+ },
+ "expC_negative_control": {
+  "real_bug_delta": -0.0109,
+  "fake_bug_delta_mean": 0.0002,
+  "fake_bug_delta_sd": 0.0132,
+  "fake_bug_delta_p95": 0.0178,
+  "real_delta_exceeds_fake_frac": 0.156
+ }
+}

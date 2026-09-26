@@ -1,0 +1,13 @@
+{
+ "fixture": "Azimuth/azimuth/tests/1000guides.csv (948 guides, official)",
+ "full_model": {
+  "n": 947,
+  "max_abs_err": 5.004358594185021e-10,
+  "mean_abs_err": 2.566707499406459e-10
+ },
+ "nopos_model": {
+  "n": 947,
+  "max_abs_err": 5.000649894171261e-10,
+  "mean_abs_err": 2.482240806629244e-10
+ }
+}
