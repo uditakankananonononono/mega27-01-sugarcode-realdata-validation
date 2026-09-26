@@ -14,3 +14,5 @@ Every dataset used by this project is listed here with source URL, accession, re
 Pfam PF00042.29 (Globin) HMMER3 model, fetched 2026-09-24 from
 https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00042?annotation=hmm . Real-world reference
 for profile_hmm validation (scored with pyhmmer 0.12.3). Replaces the queued EBI Clustal route.
+- crispr_tp53_pairs.tsv / tp53_NG_017013.2.fa: 350 NGG guides mined from TP53 RefSeqGene NG_017013.2 (NCBI efetch, 2026-09-26; disjoint from the BRCA1 fixtures and deepsplice training accessions), 1,400 guide/off-target pairs (2x1mm, 1x2mm, 1x4mm per guide, seed 20260926) with oracle CFD (CRISPOR CFD_Scoring, 6/6 doctests exact) and MIT Hsu scores. Generator: scripts/gen_f1_tp53_cfd_fixtures.py.
+- clinvar_extension_4998.tsv: 4,998-variant extension sample (2,498 pathogenic-class + 2,500 benign-class after removing 2 overlapping the frozen 500), GRCh38 SNVs, criteria-provided review status, reservoir seed 20260926, from variant_summary.txt.gz retrieved 2026-09-26 (188,675 path / 1,328,876 ben eligible). Generator: scripts/gen_f3_clinvar_extension.py.
