@@ -1,0 +1,48 @@
+{
+ "dataset": "Labuhn 2017 external screen library mapped to hg19 (canonical contigs, valid NGG loci)",
+ "n_mapped": 1800,
+ "copy_number_distribution": {
+  "single": 1088,
+  "2-5": 462,
+  "6-20": 234,
+  "gt20": 16,
+  "max": 43
+ },
+ "hl60": {
+  "unique": {
+   "n": 1088,
+   "mean_depletion": 1.249,
+   "median": 1.38
+  },
+  "multi": {
+   "n": 712,
+   "mean_depletion": 1.331,
+   "median": 1.534
+  },
+  "mwu_p": 0.15664147900669909,
+  "gt20_copies": {
+   "n": 16,
+   "mean_depletion": 1.842,
+   "median": 1.826
+  }
+ },
+ "kbm7": {
+  "unique": {
+   "n": 1088,
+   "mean_depletion": 1.763,
+   "median": 1.997
+  },
+  "multi": {
+   "n": 712,
+   "mean_depletion": 1.958,
+   "median": 2.285
+  },
+  "mwu_p": 0.02266092428611256,
+  "gt20_copies": {
+   "n": 16,
+   "mean_depletion": 2.668,
+   "median": 2.851
+  }
+ },
+ "interpretation": "Multi-copy guides deplete more than unique-locus guides in both lines (KBM7 MWU p=0.023; HL60 n.s. but extreme-copy subset clearly elevated: 1.84 vs 1.25 mean). Consistent with multi-locus cutting toxicity/confounding in essentiality screens; modest effect sizes; two lines tested without multiplicity correction."
+}
