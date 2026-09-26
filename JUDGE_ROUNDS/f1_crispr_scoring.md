@@ -550,3 +550,21 @@ CFD/MIT disagreement contains biological information that improves off-target pr
 
 Right now, the biggest danger is not bad methodology. It is that the project could be judged as a carefully tested software package rather than a new scientific finding. The next experiments should be designed specifically to cross that boundary.
 
+
+### Round 1 NOVELTY FOLD-BACK (required per 2026-09-26 17:00:38 rule)
+The critique's central charge - "the project could be judged as a carefully tested software
+package rather than a new scientific finding" - produced these concrete changes to the work:
+1. Discovery-study redesign: the CFD-vs-MIT discordance study now validates against
+   EXPERIMENTAL cleavage data (GUIDE-seq/CIRCLE-seq public datasets) as its primary arm,
+   with the in-silico oracle map demoted to supporting analysis. New claim target:
+   "CFD/MIT disagreement carries biological information that improves off-target
+   classification against measured cleavage" - a scientific claim, not a software claim.
+2. The CRISPRscan AA18/AA19 resolution (completed 2026-09-26, upstream issue
+   maximilianh/crisporWebsite#76) is promoted from a validation footnote to a
+   first-class finding: a reproducibility defect in a widely used reference tool with
+   measured score consequences - exactly the "fix a real reproducibility failure"
+   grand-award path the judge named.
+3. Held-out on-target benchmark redesigned: optimizer must beat RS1 and sequence-only
+   RS2 on genes disjoint from all training genes of both rule sets, with guide-level
+   bootstrap CIs; optimizer circularity (design pipeline ranking with RS1) must be
+   removed BEFORE the benchmark runs so the compared ranker is the shipped one.
