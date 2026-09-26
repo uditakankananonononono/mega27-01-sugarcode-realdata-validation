@@ -2084,3 +2084,383 @@ Concrete changes this round produced:
    PAM / off-target ranking / score agreement across tools on a gold-standard panel,
    starting from the AA19 case with a 1000-guide no-discrepancy negative control.
    Output: a reproducibility map, not a "tool X is wrong" claim.
+
+## ROUND 6 of 10 - 2026-09-26 ~21:12 IST (ChatGPT, her account, cloud browser config-c read lease L-2ekk52tkwiyrdieb6s5evvmszu; slot token rotation #12; lease released immediately after capture; verbatim page capture wave1/f1_round6_page.txt)
+
+### PROMPT (verbatim)
+
+```
+You are an ISEF grand-prize judge reviewing a computational CRISPR validation study. This is judge round 6 of 10. Rounds 1-5 closed a statistical-discordance thread (mixed-effects discordance effect was real within-study but died on every transfer test; terminal-negative, honestly recorded) and opened a new arm: a reference-tool reproducibility audit of the CRISPR scoring stack. Results so far: (1) Enumeration audit on TP53: our re-implementation of CRISPOR-style off-target enumeration reproduces 4,825/4,825 sites exactly. (2) CRISPRscan defect: the reference implementation mis-scores 411/4,824 guides (8.5%) due to an AA19 sequence-context handling defect; 8 of the top 100 ranked guides are displaced under correct scoring; a widely-cited 54.5% figure traces to integer truncation in the reference code. An upstream issue was filed with a minimal reproducer. (3) RS2/Azimuth port: our Python port matches the official Microsoft test fixture to within 5.0e-10 (947/948 guides; 1 rejected on input validation). Doench2014 RS1 re-implementation agrees on 70/70 model parameters, with a shared-lineage caveat (same code ancestry, so not an independent replication). Critique as a skeptical judge: (a) What is the single weakest claim above, and exactly how would you attack it in judging? (b) What one additional experiment converts this audit from confirmatory engineering into a genuine scientific discovery? (c) Is the shared-lineage caveat on RS1 fatal to the novelty claim? (d) What separates this from a bug report and makes it publishable science? Be harsh and specific: name concrete analyses, datasets, and controls.
+```
+
+### RESPONSE (verbatim)
+
+```
+ISEF Grand-Prize Judge Review — Round 6/10
+
+Overall judgment: This has moved from a “model benchmark” project into a potentially strong computational reproducibility + scientific reliability project. The statistical-discordance thread being terminal-negative actually helps credibility: you are no longer trying to force a biological story. However, the current evidence still has one major vulnerability: you have demonstrated implementation divergence, not yet demonstrated biological consequence.
+
+(a) Single weakest claim and how I would attack it
+Weakest claim:
+
+“CRISPRscan defect causes meaningful ranking displacement and the published figure is wrong.”
+
+You have strong evidence for a software discrepancy. The weak link is the leap from:
+
+code-level defect → ranking change → scientific conclusion changes
+
+The first two are supported. The third is not yet.
+
+How I would attack this as a judge:
+
+I would ask:
+
+“You found that 8/100 guides changed rank. So what? Does this change experimental outcomes, validation success, or biological conclusions?”
+
+A skeptical judge will argue:
+
+Top-100 displacement is not automatically meaningful.
+
+Ranking instability near the cutoff is expected.
+
+CRISPRscan is often combined with other filters (PAM availability, efficiency, specificity).
+
+The displaced guides may have identical practical utility.
+
+I would demand:
+
+Analysis 1: Rank perturbation impact
+
+Take the original CRISPRscan ranking and corrected ranking.
+
+Compute:
+
+Spearman rank correlation
+
+Kendall τ
+
+top-k overlap:
+
+top 10
+
+top 25
+
+top 50
+
+top 100
+
+top 500
+
+Then answer:
+
+“How often does the defect change the actual guides a researcher would synthesize?”
+
+A stronger result is not “8 guides moved.”
+
+A stronger result is:
+
+“The bug causes X% of recommended experimental candidates to change.”
+
+Analysis 2: External validation consequence
+
+Use independent published CRISPRscan validation datasets.
+
+For example:
+
+zebrafish CRISPRscan datasets
+
+Moreno-Mateos et al. guide activity datasets
+
+Doench CRISPR activity benchmarks
+
+Compare:
+
+Corrected score vs reference score.
+
+Questions:
+
+Which correlates better with measured editing?
+
+Does fixing the bug improve AUROC/AUPRC?
+
+Does it improve calibration?
+
+If corrected scoring predicts biology better, the story changes from:
+
+“We found a bug”
+
+to:
+
+“A hidden implementation error has distorted biological prediction.”
+
+That is the paper.
+
+(b) One additional experiment that converts this into scientific discovery
+
+The highest-value experiment:
+
+A “counterfactual reproducibility benchmark”
+
+Build a dataset where the same biological question is answered using:
+
+Original published CRISPRscan implementation
+
+Corrected implementation
+
+Independent modern baseline
+
+Then measure whether conclusions change.
+
+Suggested experiment
+
+Dataset:
+
+CRISPResso / published guide activity datasets
+
+or:
+
+Moreno-Mateos 2015 zebrafish
+
+Doench 2016 genome-wide knockout screens
+
+Wang et al. 2014 essentiality screens
+
+Pipeline:
+
+For every guide:
+
+Input:
+
+sequence
+
+Generate:
+
+CRISPRscan original score
+
+CRISPRscan corrected score
+
+RS2 score
+
+Doench2016 score
+
+CFD specificity
+
+Predict:
+
+measured indel efficiency
+
+Metrics:
+
+Pearson/Spearman correlation
+
+AUROC for active vs inactive guides
+
+calibration curve
+
+bootstrap confidence intervals
+
+Critical control:
+
+Do not just compare corrected vs buggy.
+
+Include:
+
+Negative control:
+
+A deliberately introduced fake bug.
+
+Example:
+
+randomize AA19 context
+
+shuffle context windows
+
+introduce unrelated sequence perturbation
+
+If your correction performs like random perturbation, the discovery disappears.
+
+The strongest possible result:
+
+“Correcting a hidden reference implementation defect improves prediction of experimentally measured CRISPR activity across independent datasets.”
+
+That is publishable.
+
+(c) Is shared-lineage caveat on RS1 fatal?
+
+No.
+
+But it weakens the claim.
+
+Your current statement should not be:
+
+“We independently validated RS1.”
+
+That is false.
+
+The correct framing:
+
+“We reproduced RS1 parameters and outputs, while acknowledging shared ancestry with the original implementation.”
+
+A judge will accept this because:
+
+reproduction is not the same as replication.
+
+software lineage matters.
+
+However, RS1 is not the scientific centerpiece anymore.
+
+The stronger story is:
+
+CRISPRscan: independent audit + discovered defect
+
+RS2: independent implementation validation
+
+RS1: lineage-controlled reproduction
+
+What would make RS1 stronger?
+
+A true independent implementation.
+
+Requirements:
+
+derive equations from the paper only
+
+no source-code inspection
+
+no copied constants unless independently extracted
+
+compare predictions afterward
+
+Then you can claim:
+
+“Independent mathematical reimplementation.”
+
+(d) What separates this from a bug report and makes it publishable science?
+
+Right now:
+
+Bug report:
+
+“Reference code contains AA19 indexing error.”
+
+Publishable science:
+
+“Reference implementation defects systematically alter biological predictions and compromise reproducibility of CRISPR guide selection.”
+
+The difference is the impact pathway.
+
+A publishable paper needs four layers
+Layer 1 — Discovery
+
+You have this.
+
+Example:
+
+AA19 handling defect.
+
+Layer 2 — Prevalence
+
+Question:
+
+Is this isolated or common?
+
+Audit:
+
+Other CRISPR tools:
+
+CRISPOR
+
+CHOPCHOP
+
+CRISPick
+
+Cas-OFFinder
+
+DeepHF
+
+DeepCRISPR
+
+CRISTA
+
+Measure:
+
+sequence enumeration discrepancies
+
+scoring discrepancies
+
+ranking instability
+
+Layer 3 — Biological consequence
+
+Missing currently.
+
+Show:
+
+Bug changes:
+
+selected guides
+
+predicted activity
+
+experimental success probability
+
+Layer 4 — General principle
+
+The strongest contribution:
+
+Not:
+
+“CRISPRscan had a bug.”
+
+But:
+
+“Reference computational biology tools can silently accumulate implementation drift that alters biological inference.”
+
+Then your TP53 audit becomes a case study.
+
+My judge scorecard at this stage
+Category	Status
+Technical rigor	Very strong
+Reproducibility	Excellent
+Honesty about negative result	Excellent
+Novel biological insight	Not yet
+Discovery potential	High
+Main weakness	No demonstrated biological consequence
+The one experiment I would prioritize before anything else
+
+If you only have time for one:
+
+Run corrected vs original CRISPRscan on an independent experimentally validated guide-efficiency dataset and show whether the correction changes predictive performance.
+
+That single experiment determines whether this is:
+
+a careful engineering audit, or
+
+a genuine computational biology discovery.
+
+Right now it is close, but the missing bridge is “the bug changes biology.”
+```
+
+### CRITIQUE (judge redirection, summarized)
+
+Weakest claim: the leap from code-level defect to ranking change to scientific conclusion. First two supported, third not. Demanded: (Analysis 1) full rank-perturbation stats (Spearman, Kendall, top-k overlap at k=10/25/50/100/500); (Analysis 2) corrected-vs-buggy scoring on an independent experimentally validated guide-activity dataset - does the fix improve prediction of measured activity - with a negative control (fake bug at randomized positions). Also: RS1 framing must be "reproduced, not independently validated" (shared lineage); the publishable story requires four layers (discovery, prevalence, biological consequence, general principle) of which biological consequence was missing.
+
+### FOLD-BACK (concrete novelty change, novelty rule)
+
+New experiment implemented in wave1/scripts/round6_foldback_bioimpact.py (this commit), results wave1/logs/round6_foldback_bioimpact.json:
+
+1. METHODOLOGY IDENTITY (precondition): the AA19 defect is a single-feature misplacement, so buggy = correct + c_AA19*(I_bug - I_correct). Verified this identity against BOTH real implementations on all 4,824 TP53 guides: 4,824/4,824 within +-1 integer point. The analytic delta is exact, so it can be applied to any 20nt guide without flanks.
+2. Exp A (rank perturbation, TP53, n=4,824): Spearman 0.9871, Kendall tau 0.9523; top-k overlap 9/10, 24/25, 48/50, 92/100, 477/500. 411/4,824 (8.52%) scores changed. At the shortlist sizes researchers actually synthesize (top 10-25), 1 in 10-25 candidates changes.
+3. Exp B (biological consequence): Moreno-Mateos 2015 in-vivo zebrafish validation set (MOESM634-de, 35 guides, measured phenotype rank + published CRISPRscan scores). Only 1/35 guides (ntla_e) is affected by the defect. Spearman(correct, activity) = 0.6772 vs Spearman(buggy, activity) = 0.6882; delta -0.0109, bootstrap 95% CI [-0.049, 0.000].
+4. Exp C (negative control): real-bug delta (-0.0109) sits inside the fake-bug distribution (mean +0.0002, sd 0.0132, p95 0.0178; real delta exceeds only 15.6% of fakes).
+
+### VERDICT
+
+HONEST NEGATIVE at current power: on the paper's own 35-guide in-vivo validation set the defect does NOT demonstrably degrade biological prediction - but the test is structurally underpowered (1/35 guides affected). The judge's "bug changes biology" bridge is NOT yet crossed in either direction. Rank-layer consequence is real and quantified (1 in 10 top-10 candidates displaced); biology-layer consequence is unresolved, not refuted. Escalation: map the 493-guide MOESM633-d1 activity library to the zebrafish genome to recover 35nt contexts and rerun Exp B at n~493 (next bench item). Paper treatment per failure-framing rule: lead with the verified positives (exact reproductions, defect + prevalence + rank impact, upstream issue), consequence question reported as open with the underpowered test in limitations. RS1 claim reframed to "reproduced with shared lineage", never "independently validated".
+
+### PROOF
+
+- script: wave1/scripts/round6_foldback_bioimpact.py
+- results: wave1/logs/round6_foldback_bioimpact.json
+- verbatim capture: wave1/f1_round6_page.txt (9,405 chars, stable-verified, "ChatGPT can make mistakes" marker present)
+- identity check: 4,824/4,824 within +-1 int (examples_bad empty after clamp fix)
