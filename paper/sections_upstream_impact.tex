@@ -1,0 +1,44 @@
+\section{Real-world impact: an upstream defect found, reported, and fixed}
+\label{sec:upstream}
+
+The CRISPRscan comparison in the F1 audit (Section above) ended in a result
+larger than this paper's own modules. While validating sugarcode's CRISPRscan
+on-target scorer against 300 held-out 35-nt guide contexts mined from the
+BRCA1 RefSeqGene (NG\_005905.2, disjoint from any training data), we found
+275/300 integer-equal scores against CRISPOR's reference implementation. The
+25 divergent scores traced to a single model coefficient: the largest
+negative logistic-regression weight of the CRISPRscan model
+($-0.0973770966031$) sits on dinucleotide AA at position 19 in the
+Bioconductor crisprScore table that sugarcode follows, but at position 18 in
+CRISPOR's \texttt{paramsCRISPRscan}.
+
+We settled which position is correct against the primary source. Parsing all
+91 features from the original Moreno-Mateos et al.\ 2015 supplementary model
+(Nature Methods, nmeth.3543, supplementary Excel table of regression weights),
+90 of 91 features match CRISPOR exactly at identical 1-based positions and
+identical weights (agreement better than $10^{-6}$), which rules out a
+position-numbering-convention difference. The single deviation: the supplement
+carries AA19 $= -0.0973770966031$; CRISPOR has no AA19 entry and instead
+carries the same weight on AA18. The discrepancy is therefore a one-position
+transcription slip in CRISPOR's Excel-to-code conversion. Both the published
+model and the crisprScore implementation - and hence sugarcode - place the
+weight correctly. The measured consequence on the 300 held-out contexts is 25
+changed scores (8.3\%), shifting by up to 10 points on the integer score
+scale; the existing CRISPORscan doctest (score 77) does not exercise a
+dinucleotide AA at either position, so the upstream test suite passed with
+either placement.
+
+We reported the defect upstream on 2026-09-26 as crisporWebsite issue \#76
+(\texttt{github.com/maximilianh/crisporWebsite/issues/76}), with the
+parsed tables, the 90/91 alignment analysis, and a reproduction script. The
+CRISPOR maintainer responded within the day - ``An awesome bug report! We'll
+fix this right away.'' - and closed the issue approximately five minutes later
+as completed, fixed in the public website via commit
+\texttt{3aa198f1371bb15733acd98aaa097aad052cdbe3}.
+
+We read the arc as direct evidence for this paper's premise: a validation
+suite that re-checks widely used computational-biology tools against primary
+sources catches real defects that those tools' own test suites miss - here, a
+coefficient misplacement in a reference CRISPR scorer used by the field for a
+decade, confirmed against the original supplement, acknowledged, and fixed
+upstream.
