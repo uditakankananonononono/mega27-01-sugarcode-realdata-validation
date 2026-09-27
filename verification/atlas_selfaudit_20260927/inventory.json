@@ -1,0 +1,107 @@
+{
+  "module_dirs": [
+    "m00_approval_center",
+    "m01_opportunity_discovery",
+    "m02_competition_manager",
+    "m03_grant_writer",
+    "m04_research_scientist",
+    "m05_outreach_manager",
+    "m06_social_media_manager",
+    "m07_brand_collaboration",
+    "m08_startup_growth",
+    "m09_knowledge_workspace",
+    "m10_email_assistant",
+    "m11_calendar_intelligence",
+    "m12_ai_research_lab",
+    "m13_browser_agent",
+    "m14_project_builder",
+    "m15_document_generator",
+    "m16_executive_dashboard",
+    "m17_advice_essay",
+    "m17_narrative_architect",
+    "m18_side_hustle_scraper",
+    "m19_idea_incubator",
+    "m20_general_cognitive_worker",
+    "m21_claire",
+    "m22_tools_hub",
+    "m23_study_abroad",
+    "m24_billing",
+    "m25_knowledge_copilot",
+    "m25_knowledge_copilot_training"
+  ],
+  "registry_specs": [
+    "m00_approval_center",
+    "m01_opportunity_discovery",
+    "m02_competition_manager",
+    "m03_grant_writer",
+    "m04_research_scientist",
+    "m05_outreach_manager",
+    "m06_social_media_manager",
+    "m07_brand_collaboration",
+    "m08_startup_growth",
+    "m09_knowledge_workspace",
+    "m10_email_assistant",
+    "m11_calendar_intelligence",
+    "m12_ai_research_lab",
+    "m13_browser_agent",
+    "m14_project_builder",
+    "m15_document_generator",
+    "m16_executive_dashboard",
+    "m17_narrative_architect",
+    "m18_side_hustle_scraper",
+    "m19_idea_incubator",
+    "m20_general_cognitive_worker",
+    "m21_claire",
+    "m22_tools_hub",
+    "m23_study_abroad",
+    "m24_billing",
+    "m25_knowledge_copilot_training"
+  ],
+  "dirs_not_in_registry": [
+    "m17_advice_essay",
+    "m25_knowledge_copilot"
+  ],
+  "test_file_counts": {
+    "tests/modules": 366,
+    "total_test_files": 448
+  },
+  "ledger": {
+    "rows": 140,
+    "audited_head": "1a3b800",
+    "statuses": {
+      "verified-pushed": 140
+    },
+    "missing_impl_paths": 0,
+    "missing_test_files": 0
+  },
+  "audit_doc": {
+    "rows": 2010,
+    "statuses": {
+      "verified-practitioner-depth": 1719,
+      "upgraded-practitioner-depth": 291
+    },
+    "missing_impl_paths": [
+      "backend/app/modules/m12_ai_research_lab/humanities_support_1860_1909.py",
+      "backend/app/modules/m18_project_builder/engineering_design_510_574.py"
+    ],
+    "missing_test_paths": [
+      "tests/modules/test_m12_environment_1610_1659.py",
+      "tests/modules/test_m12_humanities_1860_1909.py",
+      "tests/modules/test_m18_engineering_design_510_574.py"
+    ],
+    "renamed_equivalents_present": {
+      "backend/app/modules/m14_project_builder/engineering_methods_510_574.py": true,
+      "backend/app/modules/m09_knowledge_workspace/humanities_support_1860_1909.py": true,
+      "tests/modules/test_m14_engineering_methods_510_574.py": true,
+      "tests/modules/test_m09_humanities_1860_1909.py": true,
+      "tests/modules/test_m16_climate_environment_1610_1659.py": true
+    }
+  },
+  "suite": {
+    "failed": 1,
+    "passed": 9071,
+    "skipped": 12,
+    "seconds": 373.66,
+    "failed_test": "tests/modules/test_thin_module_wiring_wave.py::test_m22_ships_free_official_discovery_sources (stale: asserts 3 collectors, code ships 11 free collectors)"
+  }
+}

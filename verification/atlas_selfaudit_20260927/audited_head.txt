@@ -1,0 +1,2 @@
+ea2755cdaf1263384e8f303aa594a1f94a9e540d
+ea2755c Wire free local Hermes and explicit owner OpenClaw bridge
