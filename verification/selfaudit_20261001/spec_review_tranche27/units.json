@@ -1,0 +1,502 @@
+[
+  {
+    "id": "protein_painter:1",
+    "module": "protein_painter",
+    "source_path": "spec/protein_painter.md",
+    "spec_sha256": "487e95474923dc22832b87f99355daa788520a6448652082308f92c4a1309bd1",
+    "text": "# Protein Painter\n\nProtein Painter: A de novo protein design tool that generates amino acid sequences from functional descriptions.",
+    "review_status": "SCOPED_CURATED_DESIGN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Keyword-to-four-template seeded amino-acid propensity sampler, not learned arbitrary functional design."
+  },
+  {
+    "id": "protein_painter:2",
+    "module": "protein_painter",
+    "source_path": "spec/protein_painter.md",
+    "spec_sha256": "487e95474923dc22832b87f99355daa788520a6448652082308f92c4a1309bd1",
+    "text": "It uses integrated structure prediction to verify folding and identifies active-site residues.",
+    "review_status": "PARTIAL_SEQUENCE_HEURISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Chou-Fasman secondary-pattern agreement/placed residues, no integrated3D folding verification."
+  },
+  {
+    "id": "protein_painter:3",
+    "module": "protein_painter",
+    "source_path": "spec/protein_painter.md",
+    "spec_sha256": "487e95474923dc22832b87f99355daa788520a6448652082308f92c4a1309bd1",
+    "text": "Protein Painter predicts the stability of designed enzymes, allowing for the creation of custom biocatalysts for industrial applications and therapeutic interventions.",
+    "review_status": "NOT_THERAPEUTIC_VALIDITY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Composition stability proxy, no actual custom enzyme/industrial or therapeutic efficacy."
+  },
+  {
+    "id": "protein_painter:4",
+    "module": "protein_painter",
+    "source_path": "spec/protein_painter.md",
+    "spec_sha256": "487e95474923dc22832b87f99355daa788520a6448652082308f92c4a1309bd1",
+    "text": "Protein Painter evolves from a sequence generator into a full-spectrum protein engineering environment that bridges molecular biology, structural biophysics, enzymology, and synthetic chemistry.",
+    "review_status": "PARTIAL_HYPOTHESIS_PLATFORM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Separate design/chemistry/construct utilities, not validated end-to-end protein engineering."
+  },
+  {
+    "id": "protein_painter:5",
+    "module": "protein_painter",
+    "source_path": "spec/protein_painter.md",
+    "spec_sha256": "487e95474923dc22832b87f99355daa788520a6448652082308f92c4a1309bd1",
+    "text": "At its core, it translates functional intent\u2014such as \u201cbind a tumor antigen,\u201d \u201ccatalyze a redox reaction,\u201d or \u201cstabilize under acidic gut conditions\u201d\u2014into sequence designs by integrating protein language models with structural predictors like AlphaFold.",
+    "review_status": "NOT_DEEP_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No PLM/AlphaFold model; keyword templates and Chou-Fasman."
+  },
+  {
+    "id": "protein_painter:6",
+    "module": "protein_painter",
+    "source_path": "spec/protein_painter.md",
+    "spec_sha256": "487e95474923dc22832b87f99355daa788520a6448652082308f92c4a1309bd1",
+    "text": "But beyond sequence-to-structure mapping, it operates across the full central dogma: it evaluates transcriptional compatibility, codon usage, translation kinetics, and post-translational folding constraints to ensure that designed proteins are not just theoretically valid but biologically expressible in real host systems.",
+    "review_status": "PARTIAL_SEQUENCE_HEURISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Fixed host codon table/burden proxy, no transcription/translation kinetics/expressibility assurance."
+  },
+  {
+    "id": "protein_painter:7",
+    "module": "protein_painter",
+    "source_path": "spec/protein_painter.md",
+    "spec_sha256": "487e95474923dc22832b87f99355daa788520a6448652082308f92c4a1309bd1",
+    "text": "At the biochemical level, Protein Painter explicitly models enzyme active sites and binding interfaces using principles from physical chemistry and catalysis.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Residue charge/hydrophobic/aromatic counts, no spatial active-site/interface model."
+  },
+  {
+    "id": "protein_painter:8",
+    "module": "protein_painter",
+    "source_path": "spec/protein_painter.md",
+    "spec_sha256": "487e95474923dc22832b87f99355daa788520a6448652082308f92c4a1309bd1",
+    "text": "It incorporates quantum chemistry-informed approximations (e.g., partial charge distributions, orbital overlap heuristics) to design catalytic residues capable of stabilizing transition states.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Charge complementarity proxy, no quantum orbital/transition-state optimization."
+  },
+  {
+    "id": "protein_painter:9",
+    "module": "protein_painter",
+    "source_path": "spec/protein_painter.md",
+    "spec_sha256": "487e95474923dc22832b87f99355daa788520a6448652082308f92c4a1309bd1",
+    "text": "The system predicts how amino acid substitutions influence reaction kinetics (kcat, Km) by simulating substrate positioning, hydrogen bonding networks, and electrostatic preorganization within the active site.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "kcat/Km equations from count complementarity/temperature, no substrate pose/Hbond-network kinetics."
+  },
+  {
+    "id": "protein_painter:10",
+    "module": "protein_painter",
+    "source_path": "spec/protein_painter.md",
+    "spec_sha256": "487e95474923dc22832b87f99355daa788520a6448652082308f92c4a1309bd1",
+    "text": "For binding proteins, it evaluates ligand complementarity using docking-informed scoring\u2014hydrophobic packing, \u03c0\u2013\u03c0 interactions, salt bridges\u2014ensuring that the designed protein achieves both specificity and high affinity.",
+    "review_status": "NOT_STRUCTURAL_DOCKING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Residue-count packing/salt score, no docking poses or affinity/specificity assurance."
+  },
+  {
+    "id": "protein_painter:11",
+    "module": "protein_painter",
+    "source_path": "spec/protein_painter.md",
+    "spec_sha256": "487e95474923dc22832b87f99355daa788520a6448652082308f92c4a1309bd1",
+    "text": "From a cellular biology perspective, Protein Painter accounts for the intracellular environment in which the protein will function.",
+    "review_status": "PARTIAL_INPUT_DEPENDENT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Compartment input selects disulfide capacity/folding-risk rule, not intracellular environment model."
+  },
+  {
+    "id": "protein_painter:12",
+    "module": "protein_painter",
+    "source_path": "spec/protein_painter.md",
+    "spec_sha256": "487e95474923dc22832b87f99355daa788520a6448652082308f92c4a1309bd1",
+    "text": "It predicts protein trafficking signals, secretion pathways, and compartment-specific folding constraints (e.g., disulfide bond formation in the ER vs. cytosol).",
+    "review_status": "SCOPED_SEQUENCE_ANALYTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Nterminal/hydrophobic and cysteine rules, no measured trafficking/pathway folding."
+  },
+  {
+    "id": "protein_painter:13",
+    "module": "protein_painter",
+    "source_path": "spec/protein_painter.md",
+    "spec_sha256": "487e95474923dc22832b87f99355daa788520a6448652082308f92c4a1309bd1",
+    "text": "It also models degradation pathways by identifying motifs that trigger proteasomal targeting or autophagy.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "PEST/KEN/DGN substring count, no proteasome/autophagy dynamics."
+  },
+  {
+    "id": "protein_painter:14",
+    "module": "protein_painter",
+    "source_path": "spec/protein_painter.md",
+    "spec_sha256": "487e95474923dc22832b87f99355daa788520a6448652082308f92c4a1309bd1",
+    "text": "For therapeutic proteins, it integrates immunogenicity prediction, scanning for epitopes that may trigger immune responses, and suggests sequence modifications to reduce antigenicity while preserving function.",
+    "review_status": "PARTIAL_SEQUENCE_HEURISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Aromatic/basic9mer score, no HLA epitope prediction or preserving-function deimmunization sequence."
+  },
+  {
+    "id": "protein_painter:15",
+    "module": "protein_painter",
+    "source_path": "spec/protein_painter.md",
+    "spec_sha256": "487e95474923dc22832b87f99355daa788520a6448652082308f92c4a1309bd1",
+    "text": "This ensures that designs are not only functional but also viable within living systems.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No living-system functional viability validated."
+  },
+  {
+    "id": "protein_painter:16",
+    "module": "protein_painter",
+    "source_path": "spec/protein_painter.md",
+    "spec_sha256": "487e95474923dc22832b87f99355daa788520a6448652082308f92c4a1309bd1",
+    "text": "On the synthetic biology side, Protein Painter interfaces directly with genetic construct design.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Coding DNA and construct dictionary, no checked genetic construct integration."
+  },
+  {
+    "id": "protein_painter:17",
+    "module": "protein_painter",
+    "source_path": "spec/protein_painter.md",
+    "spec_sha256": "487e95474923dc22832b87f99355daa788520a6448652082308f92c4a1309bd1",
+    "text": "It generates DNA sequences optimized for specific hosts (E. coli, yeast, mammalian cells), balancing GC content, codon adaptation index (CAI), and mRNA secondary structure to maximize translation efficiency.",
+    "review_status": "PARTIAL_SEQUENCE_HEURISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Fixed ecoli/yeast one-codon-per-AA; translation roundtrip matches, no mammalian/CAI/structure optimization."
+  },
+  {
+    "id": "protein_painter:18",
+    "module": "protein_painter",
+    "source_path": "spec/protein_painter.md",
+    "spec_sha256": "487e95474923dc22832b87f99355daa788520a6448652082308f92c4a1309bd1",
+    "text": "It can design fusion proteins, add purification tags, or integrate regulatory elements such as inducible promoters and ribosome binding sites.",
+    "review_status": "PARTIAL_CONCEPTS_NO_SEQUENCE_DESIGN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Tag label only, no actual tag/fusion/regulatory sequence insertion."
+  },
+  {
+    "id": "protein_painter:19",
+    "module": "protein_painter",
+    "source_path": "spec/protein_painter.md",
+    "spec_sha256": "487e95474923dc22832b87f99355daa788520a6448652082308f92c4a1309bd1",
+    "text": "Additionally, it simulates expression burden on the host cell, predicting metabolic costs and suggesting design modifications to avoid toxicity or growth inhibition\u2014bridging protein engineering with systems biology constraints.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Length/GC/cysteine burden proxy, no metabolic cost/toxicity or growth prediction validation."
+  },
+  {
+    "id": "protein_painter:20",
+    "module": "protein_painter",
+    "source_path": "spec/protein_painter.md",
+    "spec_sha256": "487e95474923dc22832b87f99355daa788520a6448652082308f92c4a1309bd1",
+    "text": "Finally, Protein Painter closes the loop with experimental and evolutionary feedback.",
+    "review_status": "NOT_CONTINUOUS_TRAINING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No experimental/evolutionary feedback trained model loop."
+  },
+  {
+    "id": "protein_painter:21",
+    "module": "protein_painter",
+    "source_path": "spec/protein_painter.md",
+    "spec_sha256": "487e95474923dc22832b87f99355daa788520a6448652082308f92c4a1309bd1",
+    "text": "It can simulate mutational scanning experiments, predicting how single or combinatorial mutations affect stability and function, and guiding directed evolution strategies.",
+    "review_status": "PARTIAL_SEQUENCE_HEURISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Per-position composition/active-site sensitivity, no single/combinatorial mutant stability/function experiments."
+  },
+  {
+    "id": "protein_painter:22",
+    "module": "protein_painter",
+    "source_path": "spec/protein_painter.md",
+    "spec_sha256": "487e95474923dc22832b87f99355daa788520a6448652082308f92c4a1309bd1",
+    "text": "Integration with molecular dynamics and docking modules allows it to refine designs iteratively based on conformational flexibility and ligand interactions.",
+    "review_status": "UNVERIFIED_INTEGRATION_CLAIM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No checked MD/docking iterative design link in module."
+  },
+  {
+    "id": "protein_painter:23",
+    "module": "protein_painter",
+    "source_path": "spec/protein_painter.md",
+    "spec_sha256": "487e95474923dc22832b87f99355daa788520a6448652082308f92c4a1309bd1",
+    "text": "The output is not just a sequence, but a complete experimental blueprint: annotated protein structures, predicted biochemical properties, expression constructs, and validation strategies.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Sequence/property/construct/checklist dictionaries, no annotated3D structure or executed experiment."
+  },
+  {
+    "id": "protein_painter:24",
+    "module": "protein_painter",
+    "source_path": "spec/protein_painter.md",
+    "spec_sha256": "487e95474923dc22832b87f99355daa788520a6448652082308f92c4a1309bd1",
+    "text": "In this way, Protein Painter becomes a true end-to-end protein engineering platform\u2014merging AI, chemistry, and biology into a unified system capable of designing functional biomolecules from first principles.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No first-principles functional biomolecule engineering assurance."
+  },
+  {
+    "id": "synthetic_life:1",
+    "module": "synthetic_life",
+    "source_path": "spec/synthetic_life.md",
+    "spec_sha256": "1478e8330de95292165b852f5330dcf41087093da6b578c26aa84331262a2751",
+    "text": "# Synthetic Life\n\nSynthetic Life: A design tool for minimal genomes that identifies the essential gene set required for organismal survival.",
+    "review_status": "SCOPED_CURATED_DESIGN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Category essentiality priors/catalog thresholds, no actual organism survival essential set identification."
+  },
+  {
+    "id": "synthetic_life:2",
+    "module": "synthetic_life",
+    "source_path": "spec/synthetic_life.md",
+    "spec_sha256": "1478e8330de95292165b852f5330dcf41087093da6b578c26aa84331262a2751",
+    "text": "It simulates knockout lethality and models metabolic requirements of minimal life.",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Supplied/demo metabolic reaction knockout FBA, not whole organism lethality."
+  },
+  {
+    "id": "synthetic_life:3",
+    "module": "synthetic_life",
+    "source_path": "spec/synthetic_life.md",
+    "spec_sha256": "1478e8330de95292165b852f5330dcf41087093da6b578c26aa84331262a2751",
+    "text": "Synthetic Life enables the creation of efficient \"chassis\" organisms, providing a platform for building systems without non-essential biological processes.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No viable engineered chassis organism created."
+  },
+  {
+    "id": "synthetic_life:4",
+    "module": "synthetic_life",
+    "source_path": "spec/synthetic_life.md",
+    "spec_sha256": "1478e8330de95292165b852f5330dcf41087093da6b578c26aa84331262a2751",
+    "text": "Synthetic Life (Advanced Industrial-Grade Platform for Programmable Biology and Scaled Biomanufacturing)\nSynthetic Life can be redefined as an industrial-grade genome compiler and cellular operating system for building minimal, programmable, and production-optimized organisms at scale.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Genome/process/control architecture dictionaries, not industrial cellular OS/genome compiler."
+  },
+  {
+    "id": "synthetic_life:5",
+    "module": "synthetic_life",
+    "source_path": "spec/synthetic_life.md",
+    "spec_sha256": "1478e8330de95292165b852f5330dcf41087093da6b578c26aa84331262a2751",
+    "text": "Rather than merely identifying essential genes, the platform constructs functionally minimal yet industrially maximal\u00a0genomes by solving a constrained optimization problem across viability, metabolic throughput, genetic stability, and environmental robustness.",
+    "review_status": "SCOPED_HEURISTIC_NOT_MAXIMUM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Evidence threshold/category ranking, not joint viability/throughput/stability/environment genome optimum. Smaller feasible size can be ignored."
+  },
+  {
+    "id": "synthetic_life:6",
+    "module": "synthetic_life",
+    "source_path": "spec/synthetic_life.md",
+    "spec_sha256": "1478e8330de95292165b852f5330dcf41087093da6b578c26aa84331262a2751",
+    "text": "It integrates large-scale essentiality datasets (CRISPR screens, transposon mutagenesis) with whole-cell models to define a reduced genome ( G_{min} ) that preserves replication and core metabolism while embedding modular \u201cplug-in\u201d biosynthetic pathways.",
+    "review_status": "PARTIAL_INPUT_DEPENDENT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "User CRISPR/transposon/conservation scalar evidence/default priors, no large dataset/whole-cell ingestion."
+  },
+  {
+    "id": "synthetic_life:7",
+    "module": "synthetic_life",
+    "source_path": "spec/synthetic_life.md",
+    "spec_sha256": "1478e8330de95292165b852f5330dcf41087093da6b578c26aa84331262a2751",
+    "text": "This transforms the minimal cell into a standardized chassis\u2014analogous to a cloud computing container\u2014capable of hosting interchangeable production modules for pharmaceuticals, enzymes, biomaterials, or specialty chemicals.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Gene-count module interface contract, actual portable production chassis unvalidated."
+  },
+  {
+    "id": "synthetic_life:8",
+    "module": "synthetic_life",
+    "source_path": "spec/synthetic_life.md",
+    "spec_sha256": "1478e8330de95292165b852f5330dcf41087093da6b578c26aa84331262a2751",
+    "text": "At the systems biology level, Synthetic Life tightly couples genome minimization with flux optimization for industrial fermentation platforms, especially yeast and bacterial systems used in biofoundries like Ginkgo Bioworks.",
+    "review_status": "PARTIAL_EXPLICIT_PHYSICS_NOT_LEARNED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Local metabolic model LP/dFBA and genome selector separate, not coupled industrial yeast/bacterial chassis optimization."
+  },
+  {
+    "id": "synthetic_life:9",
+    "module": "synthetic_life",
+    "source_path": "spec/synthetic_life.md",
+    "spec_sha256": "1478e8330de95292165b852f5330dcf41087093da6b578c26aa84331262a2751",
+    "text": "It integrates genome-scale metabolic models (GEMs) with dynamic flux balance analysis (dFBA) to simulate carbon flux partitioning under industrial conditions\u2014high glucose, oxygen limitation, stress accumulation\u2014and rewires pathways to maximize product yield (e.g., ethanol, terpenoids, proteins).",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Supplied/demo stoichiometry/bounds repeated LP + approximate biomass/glucose update, no industrial GEM fidelity."
+  },
+  {
+    "id": "synthetic_life:10",
+    "module": "synthetic_life",
+    "source_path": "spec/synthetic_life.md",
+    "spec_sha256": "1478e8330de95292165b852f5330dcf41087093da6b578c26aa84331262a2751",
+    "text": "The system predicts and eliminates metabolic bottlenecks, redistributes cofactor usage (NADH/NADPH balancing), and engineers overflow metabolism to prevent byproduct formation such as acetate accumulation.",
+    "review_status": "PARTIAL_RECOMMENDATIONS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Cofactor arithmetic/overflow counts, no automated bottleneck elimination/genome rewiring."
+  },
+  {
+    "id": "synthetic_life:11",
+    "module": "synthetic_life",
+    "source_path": "spec/synthetic_life.md",
+    "spec_sha256": "1478e8330de95292165b852f5330dcf41087093da6b578c26aa84331262a2751",
+    "text": "It also optimizes promoter strength, gene copy number, and chromosomal integration sites to ensure stable, high-expression production strains across large-scale bioreactors.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Finite promoter/copy grid and site scalar score, no sequence/sites or strain-scale stability assurance."
+  },
+  {
+    "id": "synthetic_life:12",
+    "module": "synthetic_life",
+    "source_path": "spec/synthetic_life.md",
+    "spec_sha256": "1478e8330de95292165b852f5330dcf41087093da6b578c26aa84331262a2751",
+    "text": "From a biochemical and process engineering perspective, Synthetic Life explicitly models fermentation kinetics and bioprocess constraints.",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Explicit fermentation/stress/oxygen equations, not measured bioprocess parameter validity."
+  },
+  {
+    "id": "synthetic_life:13",
+    "module": "synthetic_life",
+    "source_path": "spec/synthetic_life.md",
+    "spec_sha256": "1478e8330de95292165b852f5330dcf41087093da6b578c26aa84331262a2751",
+    "text": "It integrates Monod kinetics, mass transfer coefficients (kLa), and reactor-scale parameters to predict growth rates, substrate consumption, and product accumulation over time.",
+    "review_status": "SCOPED_ODE_NOT_ACCURACY_ASSURANCE",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Monod/kLa coupled ODE trace, no calibrated reactor-scale prediction."
+  },
+  {
+    "id": "synthetic_life:14",
+    "module": "synthetic_life",
+    "source_path": "spec/synthetic_life.md",
+    "spec_sha256": "1478e8330de95292165b852f5330dcf41087093da6b578c26aa84331262a2751",
+    "text": "The system simulates stress responses\u2014pH shifts, temperature gradients, osmotic pressure\u2014and engineers resilience pathways (heat-shock proteins, membrane modifications) to maintain productivity under industrial conditions.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Tolerance proxy and resilience module suggestions, not engineered stress pathways."
+  },
+  {
+    "id": "synthetic_life:15",
+    "module": "synthetic_life",
+    "source_path": "spec/synthetic_life.md",
+    "spec_sha256": "1478e8330de95292165b852f5330dcf41087093da6b578c26aa84331262a2751",
+    "text": "It also supports adaptive laboratory evolution (ALE) strategies, predicting beneficial mutations that improve yield or tolerance and incorporating them into iterative design cycles.",
+    "review_status": "PARTIAL_SEQUENCE_HEURISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Seeded scalar fitness evolution and generic target/mechanism suggestions, no actual beneficial mutation sequence inference."
+  },
+  {
+    "id": "synthetic_life:16",
+    "module": "synthetic_life",
+    "source_path": "spec/synthetic_life.md",
+    "spec_sha256": "1478e8330de95292165b852f5330dcf41087093da6b578c26aa84331262a2751",
+    "text": "On the programmable biology front, Synthetic Life acts as a genome-level compiler for dynamic control systems.",
+    "review_status": "PARTIAL_CONCEPTS_NO_SEQUENCE_DESIGN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Control dictionaries/scalars, no genome-level sequence compiler."
+  },
+  {
+    "id": "synthetic_life:17",
+    "module": "synthetic_life",
+    "source_path": "spec/synthetic_life.md",
+    "spec_sha256": "1478e8330de95292165b852f5330dcf41087093da6b578c26aa84331262a2751",
+    "text": "It embeds synthetic gene circuits\u2014feedback loops, logic gates, quorum sensing modules\u2014directly into the chassis genome, enabling cells to autonomously regulate production based on internal or environmental signals.",
+    "review_status": "NOT_GENOME_MODIFICATION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No actual embedded gene circuits/genome edits."
+  },
+  {
+    "id": "synthetic_life:18",
+    "module": "synthetic_life",
+    "source_path": "spec/synthetic_life.md",
+    "spec_sha256": "1478e8330de95292165b852f5330dcf41087093da6b578c26aa84331262a2751",
+    "text": "For example, it can design strains that switch from growth phase to production phase upon reaching a threshold density, optimizing resource allocation.",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Density Hill phase/output utility, not physically designed switching strain."
+  },
+  {
+    "id": "synthetic_life:19",
+    "module": "synthetic_life",
+    "source_path": "spec/synthetic_life.md",
+    "spec_sha256": "1478e8330de95292165b852f5330dcf41087093da6b578c26aa84331262a2751",
+    "text": "These circuits are modeled using stochastic gene expression frameworks and integrated with host metabolism, ensuring that control logic remains stable and does not impose excessive burden on the cell.",
+    "review_status": "PARTIAL_SIMULATION_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Seeded scalar protein SDE and independent burden count, not coupled host metabolism/stability guarantee."
+  },
+  {
+    "id": "synthetic_life:20",
+    "module": "synthetic_life",
+    "source_path": "spec/synthetic_life.md",
+    "spec_sha256": "1478e8330de95292165b852f5330dcf41087093da6b578c26aa84331262a2751",
+    "text": "Extending into frontier applications, Synthetic Life supports large-scale genome reconstruction and de-extinction workflows inspired by efforts like Colossal Biosciences.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Catalog comparison utility, no de-extinction/genome reconstruction."
+  },
+  {
+    "id": "synthetic_life:21",
+    "module": "synthetic_life",
+    "source_path": "spec/synthetic_life.md",
+    "spec_sha256": "1478e8330de95292165b852f5330dcf41087093da6b578c26aa84331262a2751",
+    "text": "It can compare ancient and modern genomes, identify functional gaps, and design synthetic constructs that reintroduce lost traits while ensuring compatibility with modern host organisms.",
+    "review_status": "PARTIAL_DATA_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Name/category sets compare supplied catalogs, no ancient-DNA functional constructs/host compatibility validated."
+  },
+  {
+    "id": "synthetic_life:22",
+    "module": "synthetic_life",
+    "source_path": "spec/synthetic_life.md",
+    "spec_sha256": "1478e8330de95292165b852f5330dcf41087093da6b578c26aa84331262a2751",
+    "text": "The platform models epigenetic states, developmental gene networks, and cross-species regulatory compatibility, enabling reconstruction of extinct phenotypes or engineering of novel hybrid organisms.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "GC/motif/epigenetic_match scalar compatibility, no developmental networks/extinct phenotype reconstruction."
+  },
+  {
+    "id": "synthetic_life:23",
+    "module": "synthetic_life",
+    "source_path": "spec/synthetic_life.md",
+    "spec_sha256": "1478e8330de95292165b852f5330dcf41087093da6b578c26aa84331262a2751",
+    "text": "This capability also feeds back into industrial applications, where traits such as cold tolerance or unique metabolic capabilities from extinct or rare organisms can be reintroduced into production strains.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No actual rare/extinct trait reintroduction to viable production strain."
+  },
+  {
+    "id": "synthetic_life:24",
+    "module": "synthetic_life",
+    "source_path": "spec/synthetic_life.md",
+    "spec_sha256": "1478e8330de95292165b852f5330dcf41087093da6b578c26aa84331262a2751",
+    "text": "Finally, Synthetic Life delivers a full-stack output pipeline tailored for biofoundries and industrial labs: minimized and optimized genome sequences, annotated genetic circuits, strain engineering strategies, and fermentation protocols.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Selected gene catalog/circuit labels/strain concepts/time arrays, no minimized complete genome sequence or executable fermentation protocol."
+  },
+  {
+    "id": "synthetic_life:25",
+    "module": "synthetic_life",
+    "source_path": "spec/synthetic_life.md",
+    "spec_sha256": "1478e8330de95292165b852f5330dcf41087093da6b578c26aa84331262a2751",
+    "text": "It integrates directly with automated platforms for DNA synthesis, assembly (e.g., Gibson, Golden Gate), and high-throughput screening, enabling rapid design\u2013build\u2013test\u2013learn cycles.",
+    "review_status": "UNVERIFIED_INTEGRATION_CLAIM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No checked synthesis/assembly/HTS platform connection."
+  },
+  {
+    "id": "synthetic_life:26",
+    "module": "synthetic_life",
+    "source_path": "spec/synthetic_life.md",
+    "spec_sha256": "1478e8330de95292165b852f5330dcf41087093da6b578c26aa84331262a2751",
+    "text": "By unifying genome engineering, metabolic optimization, bioprocess modeling, and programmable control, Synthetic Life becomes a foundational platform for next-generation synthetic biology\u2014powering scalable, reliable, and adaptive biological manufacturing systems.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No scaled reliable adaptive biomanufacturing assurance."
+  }
+]
