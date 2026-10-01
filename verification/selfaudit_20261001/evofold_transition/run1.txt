@@ -1,0 +1,29 @@
+.FF                                                                      [100%]
+=================================== FAILURES ===================================
+_______________ test_transition_nonrigid_mode_preserves_centroid _______________
+
+    def test_transition_nonrigid_mode_preserves_centroid():
+     r=transition_trace(C,steps=3,amplitude=3);d=np.array(r['frames'][1])-C
+>    assert np.linalg.norm(d.mean(0))<.002
+E    AssertionError: assert np.float64(0.6159011690198355) < 0.002
+E     +  where np.float64(0.6159011690198355) = <function norm at 0x7fe412d6a7f0>(array([-0.56816667,  0.22933333, -0.06266667]))
+E     +    where <function norm at 0x7fe412d6a7f0> = <module 'numpy.linalg' from '/usr/local/lib/python3.10/dist-packages/numpy/linalg/__init__.py'>.norm
+E     +      where <module 'numpy.linalg' from '/usr/local/lib/python3.10/dist-packages/numpy/linalg/__init__.py'> = np.linalg
+E     +    and   array([-0.56816667,  0.22933333, -0.06266667]) = <built-in method mean of numpy.ndarray object at 0x7fe415b44f90>(0)
+E     +      where <built-in method mean of numpy.ndarray object at 0x7fe415b44f90> = array([[-0.009,  0.048, -0.132],\n       [-0.024, -0.161,  0.434],\n       [ 0.299,  0.059, -0.442],\n       [-2.321,  0.957, -0.269],\n       [-0.006, -0.042,  0.108],\n       [-1.348,  0.515, -0.075]]).mean
+
+../sugarcode-evofold-reg-work/verification/selfaudit_20261001/evofold_transition/test_evofold_transition_regression.py:18: AssertionError
+___________ test_transition_uses_first_nonrigid_anm_mode_up_to_sign ____________
+
+    def test_transition_uses_first_nonrigid_anm_mode_up_to_sign():
+     H,w,v=reference();r=transition_trace(C,steps=3,amplitude=3)
+     d=(np.array(r['frames'][1])-C).ravel();d/=np.linalg.norm(d)
+>    assert abs(d@v)>.999
+E    assert np.float64(0.16564344544175055) > 0.999
+E     +  where np.float64(0.16564344544175055) = abs((array([-0.00300007,  0.01600038, -0.04400103, -0.00800019, -0.05366793,\n        0.14467007,  0.09966901,  0.01966713, ...\n        0.3190075 , -0.08966877, -0.00200005, -0.01400033,  0.03600085,\n       -0.44934389,  0.1716707 , -0.02500059]) @ array([-0.18244889,  0.09492786,  0.01477488, -0.13736026, -0.05739921,\n       -0.04360629,  0.17941135,  0.06968203, ...\n       -0.25266156,  0.05665974,  0.2005537 , -0.12755631,  0.04222695,\n       -0.61839949,  0.27300719, -0.03731121])))
+
+../sugarcode-evofold-reg-work/verification/selfaudit_20261001/evofold_transition/test_evofold_transition_regression.py:23: AssertionError
+=========================== short test summary info ============================
+FAILED ../sugarcode-evofold-reg-work/verification/selfaudit_20261001/evofold_transition/test_evofold_transition_regression.py::test_transition_nonrigid_mode_preserves_centroid
+FAILED ../sugarcode-evofold-reg-work/verification/selfaudit_20261001/evofold_transition/test_evofold_transition_regression.py::test_transition_uses_first_nonrigid_anm_mode_up_to_sign
+2 failed, 1 passed in 0.11s
