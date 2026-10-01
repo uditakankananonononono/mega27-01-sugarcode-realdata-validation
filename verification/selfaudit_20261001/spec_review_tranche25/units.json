@@ -1,0 +1,492 @@
+[
+  {
+    "id": "gene_analysis:1",
+    "module": "gene_analysis",
+    "source_path": "spec/gene_analysis.md",
+    "spec_sha256": "62867f2079108738619eaec9145b5a3e2db5f3df2c97258c657ddaa281534edf",
+    "text": "# Gene Analysis\n\nGene Analysis: A multi-omic deep-dive tool integrating data from NCBI, UniProt, and ClinVar.",
+    "review_status": "PARTIAL_NOT_EXTERNAL_CONNECTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "NCBI/UniProt/ClinVar/Reactome connector code exists; current provider responses untested in this tranche. Default supplied-sequence local profile."
+  },
+  {
+    "id": "gene_analysis:2",
+    "module": "gene_analysis",
+    "source_path": "spec/gene_analysis.md",
+    "spec_sha256": "62867f2079108738619eaec9145b5a3e2db5f3df2c97258c657ddaa281534edf",
+    "text": "It provides comprehensive visualizations of gene summaries, publication trends, and metabolic pathways.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Profile/publication bins/pathway labels and optional live PubMed counts, visualization pixels uninspected."
+  },
+  {
+    "id": "gene_analysis:3",
+    "module": "gene_analysis",
+    "source_path": "spec/gene_analysis.md",
+    "spec_sha256": "62867f2079108738619eaec9145b5a3e2db5f3df2c97258c657ddaa281534edf",
+    "text": "The module predicts the impact of clinical variants and designs CRISPR targets, offering a high-fidelity biological profile of any gene symbol within the human genome.",
+    "review_status": "PARTIAL_DISEASE_INTERPRETATION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Rules/proxy variant cascade and guides, no any-human-gene clinical high-fidelity assurance."
+  },
+  {
+    "id": "gene_analysis:4",
+    "module": "gene_analysis",
+    "source_path": "spec/gene_analysis.md",
+    "spec_sha256": "62867f2079108738619eaec9145b5a3e2db5f3df2c97258c657ddaa281534edf",
+    "text": "Gene Analysis\u00a0can be advanced into a mechanistic, multi-omic inference system that constructs a causally consistent \u201cdigital twin\u201d of a gene by explicitly modeling interactions across DNA, RNA, protein structure, and pathway dynamics.",
+    "review_status": "SCOPED_OMIC_STATE_NOT_PATIENT_CLONE",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Connected scalar DNA/RNA/structure/pathway proxy, not causally identified multi-omic gene twin."
+  },
+  {
+    "id": "gene_analysis:5",
+    "module": "gene_analysis",
+    "source_path": "spec/gene_analysis.md",
+    "spec_sha256": "62867f2079108738619eaec9145b5a3e2db5f3df2c97258c657ddaa281534edf",
+    "text": "The core is a hierarchical probabilistic graph where nodes represent molecular states (alleles, transcripts, isoforms, conformers, complexes) and edges encode biochemical transformations and regulatory interactions with directionality and kinetics.",
+    "review_status": "PARTIAL_CLASSICAL_GRAPH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Gene/allele/isoform/protein nodes and labeled edges, no hierarchical posterior/conformer/complex kinetics graph."
+  },
+  {
+    "id": "gene_analysis:6",
+    "module": "gene_analysis",
+    "source_path": "spec/gene_analysis.md",
+    "spec_sha256": "62867f2079108738619eaec9145b5a3e2db5f3df2c97258c657ddaa281534edf",
+    "text": "Data from genomic repositories (variants and frequencies), proteomic databases (isoforms, PTMs), structural predictors (folds, interfaces), and pathway resources are fused via variational inference, yielding a posterior over gene behavior under different conditions.",
+    "review_status": "NOT_DEEP_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No variational data-fusion inference or structural predictors trained."
+  },
+  {
+    "id": "gene_analysis:7",
+    "module": "gene_analysis",
+    "source_path": "spec/gene_analysis.md",
+    "spec_sha256": "62867f2079108738619eaec9145b5a3e2db5f3df2c97258c657ddaa281534edf",
+    "text": "This allows the system to answer counterfactuals\u2014e.g., \u201cwhat is the effect of a missense mutation under hypoxic conditions in epithelial cells?\u201d\u2014with quantified uncertainty.",
+    "review_status": "PARTIAL_INPUT_DEPENDENT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Supplied condition scalars and local consequence/context proxies, hypoxia/epithelial causal counterfactual accuracy unverified."
+  },
+  {
+    "id": "gene_analysis:8",
+    "module": "gene_analysis",
+    "source_path": "spec/gene_analysis.md",
+    "spec_sha256": "62867f2079108738619eaec9145b5a3e2db5f3df2c97258c657ddaa281534edf",
+    "text": "At the protein level, Gene Analysis integrates structure-aware models (equivariant GNNs) to evaluate mutation-induced \u0394\u0394G of folding, interface disruption probabilities, and allosteric communication pathways.",
+    "review_status": "NOT_TRAINED_GNN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Linear feature ddG/interface/allostery scores, no structural equivariant GNN."
+  },
+  {
+    "id": "gene_analysis:9",
+    "module": "gene_analysis",
+    "source_path": "spec/gene_analysis.md",
+    "spec_sha256": "62867f2079108738619eaec9145b5a3e2db5f3df2c97258c657ddaa281534edf",
+    "text": "Instead of treating structure statically, it models conformational ensembles, estimating how mutations shift population distributions between functional states.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Three predefined state energies/Boltzmann populations, no measured mutation-dependent conformer ensemble."
+  },
+  {
+    "id": "gene_analysis:10",
+    "module": "gene_analysis",
+    "source_path": "spec/gene_analysis.md",
+    "spec_sha256": "62867f2079108738619eaec9145b5a3e2db5f3df2c97258c657ddaa281534edf",
+    "text": "These structural perturbations are mapped onto interaction networks to predict loss/gain of protein\u2013protein interactions, changes in complex stoichiometry, and downstream signaling flux.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Interface score and generic pathway cascade, no propagated PPI/complex stoichiometry."
+  },
+  {
+    "id": "gene_analysis:11",
+    "module": "gene_analysis",
+    "source_path": "spec/gene_analysis.md",
+    "spec_sha256": "62867f2079108738619eaec9145b5a3e2db5f3df2c97258c657ddaa281534edf",
+    "text": "Coupling this with transcript-level modeling (splicing, nonsense-mediated decay, isoform switching) provides a full-stack view of how a variant propagates from sequence to cellular phenotype.",
+    "review_status": "PARTIAL_SEQUENCE_HEURISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Consequence/position splice/NMD rules, not learned full variant-to-phenotype cascade."
+  },
+  {
+    "id": "gene_analysis:12",
+    "module": "gene_analysis",
+    "source_path": "spec/gene_analysis.md",
+    "spec_sha256": "62867f2079108738619eaec9145b5a3e2db5f3df2c97258c657ddaa281534edf",
+    "text": "The variant interpretation engine is explicitly decompositional and causal.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Decomposed proxy scores not identified causal interpretation."
+  },
+  {
+    "id": "gene_analysis:13",
+    "module": "gene_analysis",
+    "source_path": "spec/gene_analysis.md",
+    "spec_sha256": "62867f2079108738619eaec9145b5a3e2db5f3df2c97258c657ddaa281534edf",
+    "text": "It aggregates signals from evolutionary conservation (phylogenetic likelihoods), structural perturbation scores, regulatory impact (from GenomeGPT-like embeddings), and functional assay priors into a unified probabilistic model.",
+    "review_status": "SCOPED_UNCALIBRATED_SCORE",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Position/local GC/codon/domain heuristics and weighted logistic, no phylogenetic likelihood or GenomeGPT embedding."
+  },
+  {
+    "id": "gene_analysis:14",
+    "module": "gene_analysis",
+    "source_path": "spec/gene_analysis.md",
+    "spec_sha256": "62867f2079108738619eaec9145b5a3e2db5f3df2c97258c657ddaa281534edf",
+    "text": "Outputs include posterior probabilities of pathogenicity alongside attribution vectors that quantify contributions from structural destabilization, binding interface loss, regulatory misexpression, and splicing defects.",
+    "review_status": "PARTIAL_UNCERTAINTY_NOT_CALIBRATION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Weighted attribution fractions and logistic pathogenic score, not calibrated clinical posterior."
+  },
+  {
+    "id": "gene_analysis:15",
+    "module": "gene_analysis",
+    "source_path": "spec/gene_analysis.md",
+    "spec_sha256": "62867f2079108738619eaec9145b5a3e2db5f3df2c97258c657ddaa281534edf",
+    "text": "Calibration is enforced via conformal prediction, ensuring that reported confidence intervals are statistically meaningful for clinical decision support.",
+    "review_status": "NOT_DIAGNOSTIC_VALIDATION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "conformal_interval is1.96sqrt(p(1-p)/n), no held-out nonconformity calibration or conformal coverage proof."
+  },
+  {
+    "id": "gene_analysis:16",
+    "module": "gene_analysis",
+    "source_path": "spec/gene_analysis.md",
+    "spec_sha256": "62867f2079108738619eaec9145b5a3e2db5f3df2c97258c657ddaa281534edf",
+    "text": "The CRISPR design module operates as an outcome-aware optimizer.",
+    "review_status": "PARTIAL_INPUT_EFFECT_GAP",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Desired outcome is label only; guide score/order same for knockout/activate."
+  },
+  {
+    "id": "gene_analysis:17",
+    "module": "gene_analysis",
+    "source_path": "spec/gene_analysis.md",
+    "spec_sha256": "62867f2079108738619eaec9145b5a3e2db5f3df2c97258c657ddaa281534edf",
+    "text": "Rather than maximizing generic on-target scores, it optimizes for desired phenotypic outcomes under constraints.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No demonstrated phenotype-constrained outcome optimization."
+  },
+  {
+    "id": "gene_analysis:18",
+    "module": "gene_analysis",
+    "source_path": "spec/gene_analysis.md",
+    "spec_sha256": "62867f2079108738619eaec9145b5a3e2db5f3df2c97258c657ddaa281534edf",
+    "text": "Guide selection incorporates sequence features (PAM compatibility, GC content, secondary structure), chromatin context (accessibility, nucleosome occupancy), and allele specificity (discriminating mutant vs. wild-type haplotypes).",
+    "review_status": "PARTIAL_INPUT_EFFECT_GAP",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Chromatin/nucleosome scalar affects score, allele_specificity output not used in rank score."
+  },
+  {
+    "id": "gene_analysis:19",
+    "module": "gene_analysis",
+    "source_path": "spec/gene_analysis.md",
+    "spec_sha256": "62867f2079108738619eaec9145b5a3e2db5f3df2c97258c657ddaa281534edf",
+    "text": "For base and prime editing, it designs edit windows, pegRNA spacer/PBS/RT templates with thermodynamic and positional constraints, and introduces silent PAM-disrupting edits to prevent re-cutting.",
+    "review_status": "PARTIAL_CONCEPTS_NO_SEQUENCE_DESIGN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Base-window counts; prime PBS/RTT are guide substrings; silent PAM disruption is recommendation, not concrete synonym design."
+  },
+  {
+    "id": "gene_analysis:20",
+    "module": "gene_analysis",
+    "source_path": "spec/gene_analysis.md",
+    "spec_sha256": "62867f2079108738619eaec9145b5a3e2db5f3df2c97258c657ddaa281534edf",
+    "text": "Off-target prediction leverages genome-wide alignment augmented with learned mismatch tolerance profiles and chromatin-aware accessibility filters, outputting ranked sites with risk scores and recommended validation assays.",
+    "review_status": "PARTIAL_SEQUENCE_HEURISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Local same-sequence CFD scan/annotation scalars, no whole-genome/chromatin learned alignment guarantee."
+  },
+  {
+    "id": "gene_analysis:21",
+    "module": "gene_analysis",
+    "source_path": "spec/gene_analysis.md",
+    "spec_sha256": "62867f2079108738619eaec9145b5a3e2db5f3df2c97258c657ddaa281534edf",
+    "text": "Finally, Gene Analysis integrates dynamic pathway simulation through hybrid models that combine SBML-defined kinetics with neural ODE surrogates for components lacking explicit parameters.",
+    "review_status": "NOT_DEEP_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Fixed three-variable ODE, no SBML/neural ODE hybrid."
+  },
+  {
+    "id": "gene_analysis:22",
+    "module": "gene_analysis",
+    "source_path": "spec/gene_analysis.md",
+    "spec_sha256": "62867f2079108738619eaec9145b5a3e2db5f3df2c97258c657ddaa281534edf",
+    "text": "This enables time-resolved simulation of perturbations (edits, drugs, expression changes), producing trajectories for key biomarkers (e.g., p-ERK, p53 targets) and phenotypic endpoints (apoptosis, proliferation).",
+    "review_status": "SCOPED_ODE_NOT_ACCURACY_ASSURANCE",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Gene biomarker labels over same generic cascade, not measured pERK/p53/apoptosis fidelity."
+  },
+  {
+    "id": "gene_analysis:23",
+    "module": "gene_analysis",
+    "source_path": "spec/gene_analysis.md",
+    "spec_sha256": "62867f2079108738619eaec9145b5a3e2db5f3df2c97258c657ddaa281534edf",
+    "text": "The system can generate executable experimental plans\u2014editing strategies, controls, readouts (qPCR, Western blot, single-cell RNA-seq), and statistical power estimates\u2014closing the loop from in silico inference to wet-lab validation.",
+    "review_status": "NONPROCEDURAL_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Controls/readouts and normal approximation sample-size plan, explicitly not executable wet-lab protocol."
+  },
+  {
+    "id": "gene_analysis:24",
+    "module": "gene_analysis",
+    "source_path": "spec/gene_analysis.md",
+    "spec_sha256": "62867f2079108738619eaec9145b5a3e2db5f3df2c97258c657ddaa281534edf",
+    "text": "With continuous ingestion of new data and experimental feedback, the digital twin is iteratively refined, increasing fidelity and making the platform a rigorous, predictive engine for gene-level biology and therapeutic design.\n\n## Diagnostic contract\n`gene_diagnostics` returns exactly 15 finite, evidence-bearing fields: ten locus/protein/regulatory/design measures and five variant-cascade measures (`variant_splice_disruption`, `variant_nmd_probability`, `variant_ddg`, `variant_pathogenic_probability`, and `variant_phenotype_delta`).",
+    "review_status": "PARTIAL_HYPOTHESIS_PLATFORM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Beta feedback utility, no continuous provider/model refinement;15 finite diagnostic contract reproduced only."
+  },
+  {
+    "id": "gene_analysis:25",
+    "module": "gene_analysis",
+    "source_path": "spec/gene_analysis.md",
+    "spec_sha256": "62867f2079108738619eaec9145b5a3e2db5f3df2c97258c657ddaa281534edf",
+    "text": "Labels, statuses, raw sequence context, and fixed scaffolding are excluded from this count.",
+    "review_status": "SCOPED_BEHAVIOR_REPRODUCED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "15 numeric finite fields include evidence-bearing proxies, labels/raw sequence excluded; not validation of biological precision."
+  },
+  {
+    "id": "gene_analysis:26",
+    "module": "gene_analysis",
+    "source_path": "spec/gene_analysis.md",
+    "spec_sha256": "62867f2079108738619eaec9145b5a3e2db5f3df2c97258c657ddaa281534edf",
+    "text": "Variant features and downstream structural/attribution outputs depend on consequence plus locus position, local sequence/codon context, and domain-overlap proxy unless callers provide stronger annotations.",
+    "review_status": "SCOPED_CONTEXT_PROXY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Consequence/local sequence/position/domain proxy affects cascade; stronger user annotations override."
+  },
+  {
+    "id": "gene_explorer:1",
+    "module": "gene_explorer",
+    "source_path": "spec/gene_explorer.md",
+    "spec_sha256": "768c9aa23415dc2915110199db529f3cb861007b169148a34793357d25720d8a",
+    "text": "# Gene Explorer\n\nGene Explorer: An interactive visualization tool mapping the central dogma from DNA to protein for any gene. it provides sequence segments, mRNA transcripts, and translated amino acid sequences alongside summaries for 3D molecular animations.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Supplied DNA transcription/ORF translation, segments and textual animation keyframes; actual interactive/3D animation pixels unverified."
+  },
+  {
+    "id": "gene_explorer:2",
+    "module": "gene_explorer",
+    "source_path": "spec/gene_explorer.md",
+    "spec_sha256": "768c9aa23415dc2915110199db529f3cb861007b169148a34793357d25720d8a",
+    "text": "Gene Explorer aids in tracing biological information flow, providing a foundational view for research and education.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Supplied DNA transcription/ORF translation, segments and textual animation keyframes; actual interactive/3D animation pixels unverified."
+  },
+  {
+    "id": "gene_explorer:3",
+    "module": "gene_explorer",
+    "source_path": "spec/gene_explorer.md",
+    "spec_sha256": "768c9aa23415dc2915110199db529f3cb861007b169148a34793357d25720d8a",
+    "text": "Gene Analysis\u00a0can be advanced into a mechanistic, multi-omic inference system that constructs a causally consistent \u201cdigital twin\u201d of a gene by explicitly modeling interactions across DNA, RNA, protein structure, and pathway dynamics.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign Gene Analysis naming and repeated digital-twin/clinical variant/CRISPR text in Gene Explorer spec; canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "gene_explorer:4",
+    "module": "gene_explorer",
+    "source_path": "spec/gene_explorer.md",
+    "spec_sha256": "768c9aa23415dc2915110199db529f3cb861007b169148a34793357d25720d8a",
+    "text": "The core is a hierarchical probabilistic graph where nodes represent molecular states (alleles, transcripts, isoforms, conformers, complexes) and edges encode biochemical transformations and regulatory interactions with directionality and kinetics.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign Gene Analysis naming and repeated digital-twin/clinical variant/CRISPR text in Gene Explorer spec; canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "gene_explorer:5",
+    "module": "gene_explorer",
+    "source_path": "spec/gene_explorer.md",
+    "spec_sha256": "768c9aa23415dc2915110199db529f3cb861007b169148a34793357d25720d8a",
+    "text": "Data from genomic repositories (variants and frequencies), proteomic databases (isoforms, PTMs), structural predictors (folds, interfaces), and pathway resources are fused via variational inference, yielding a posterior over gene behavior under different conditions.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign Gene Analysis naming and repeated digital-twin/clinical variant/CRISPR text in Gene Explorer spec; canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "gene_explorer:6",
+    "module": "gene_explorer",
+    "source_path": "spec/gene_explorer.md",
+    "spec_sha256": "768c9aa23415dc2915110199db529f3cb861007b169148a34793357d25720d8a",
+    "text": "This allows the system to answer counterfactuals\u2014e.g., \u201cwhat is the effect of a missense mutation under hypoxic conditions in epithelial cells?\u201d\u2014with quantified uncertainty.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign Gene Analysis naming and repeated digital-twin/clinical variant/CRISPR text in Gene Explorer spec; canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "gene_explorer:7",
+    "module": "gene_explorer",
+    "source_path": "spec/gene_explorer.md",
+    "spec_sha256": "768c9aa23415dc2915110199db529f3cb861007b169148a34793357d25720d8a",
+    "text": "At the protein level, Gene Analysis integrates structure-aware models (equivariant GNNs) to evaluate mutation-induced \u0394\u0394G of folding, interface disruption probabilities, and allosteric communication pathways.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign Gene Analysis naming and repeated digital-twin/clinical variant/CRISPR text in Gene Explorer spec; canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "gene_explorer:8",
+    "module": "gene_explorer",
+    "source_path": "spec/gene_explorer.md",
+    "spec_sha256": "768c9aa23415dc2915110199db529f3cb861007b169148a34793357d25720d8a",
+    "text": "Instead of treating structure statically, it models conformational ensembles, estimating how mutations shift population distributions between functional states.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign Gene Analysis naming and repeated digital-twin/clinical variant/CRISPR text in Gene Explorer spec; canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "gene_explorer:9",
+    "module": "gene_explorer",
+    "source_path": "spec/gene_explorer.md",
+    "spec_sha256": "768c9aa23415dc2915110199db529f3cb861007b169148a34793357d25720d8a",
+    "text": "These structural perturbations are mapped onto interaction networks to predict loss/gain of protein\u2013protein interactions, changes in complex stoichiometry, and downstream signaling flux.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign Gene Analysis naming and repeated digital-twin/clinical variant/CRISPR text in Gene Explorer spec; canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "gene_explorer:10",
+    "module": "gene_explorer",
+    "source_path": "spec/gene_explorer.md",
+    "spec_sha256": "768c9aa23415dc2915110199db529f3cb861007b169148a34793357d25720d8a",
+    "text": "Coupling this with transcript-level modeling (splicing, nonsense-mediated decay, isoform switching) provides a full-stack view of how a variant propagates from sequence to cellular phenotype.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign Gene Analysis naming and repeated digital-twin/clinical variant/CRISPR text in Gene Explorer spec; canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "gene_explorer:11",
+    "module": "gene_explorer",
+    "source_path": "spec/gene_explorer.md",
+    "spec_sha256": "768c9aa23415dc2915110199db529f3cb861007b169148a34793357d25720d8a",
+    "text": "The variant interpretation engine is explicitly decompositional and causal.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign Gene Analysis naming and repeated digital-twin/clinical variant/CRISPR text in Gene Explorer spec; canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "gene_explorer:12",
+    "module": "gene_explorer",
+    "source_path": "spec/gene_explorer.md",
+    "spec_sha256": "768c9aa23415dc2915110199db529f3cb861007b169148a34793357d25720d8a",
+    "text": "It aggregates signals from evolutionary conservation (phylogenetic likelihoods), structural perturbation scores, regulatory impact (from GenomeGPT-like embeddings), and functional assay priors into a unified probabilistic model.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign Gene Analysis naming and repeated digital-twin/clinical variant/CRISPR text in Gene Explorer spec; canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "gene_explorer:13",
+    "module": "gene_explorer",
+    "source_path": "spec/gene_explorer.md",
+    "spec_sha256": "768c9aa23415dc2915110199db529f3cb861007b169148a34793357d25720d8a",
+    "text": "Outputs include posterior probabilities of pathogenicity alongside attribution vectors that quantify contributions from structural destabilization, binding interface loss, regulatory misexpression, and splicing defects.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign Gene Analysis naming and repeated digital-twin/clinical variant/CRISPR text in Gene Explorer spec; canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "gene_explorer:14",
+    "module": "gene_explorer",
+    "source_path": "spec/gene_explorer.md",
+    "spec_sha256": "768c9aa23415dc2915110199db529f3cb861007b169148a34793357d25720d8a",
+    "text": "Calibration is enforced via conformal prediction, ensuring that reported confidence intervals are statistically meaningful for clinical decision support.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign Gene Analysis naming and repeated digital-twin/clinical variant/CRISPR text in Gene Explorer spec; canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "gene_explorer:15",
+    "module": "gene_explorer",
+    "source_path": "spec/gene_explorer.md",
+    "spec_sha256": "768c9aa23415dc2915110199db529f3cb861007b169148a34793357d25720d8a",
+    "text": "The CRISPR design module operates as an outcome-aware optimizer.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign Gene Analysis naming and repeated digital-twin/clinical variant/CRISPR text in Gene Explorer spec; canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "gene_explorer:16",
+    "module": "gene_explorer",
+    "source_path": "spec/gene_explorer.md",
+    "spec_sha256": "768c9aa23415dc2915110199db529f3cb861007b169148a34793357d25720d8a",
+    "text": "Rather than maximizing generic on-target scores, it optimizes for desired phenotypic outcomes under constraints.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign Gene Analysis naming and repeated digital-twin/clinical variant/CRISPR text in Gene Explorer spec; canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "gene_explorer:17",
+    "module": "gene_explorer",
+    "source_path": "spec/gene_explorer.md",
+    "spec_sha256": "768c9aa23415dc2915110199db529f3cb861007b169148a34793357d25720d8a",
+    "text": "Guide selection incorporates sequence features (PAM compatibility, GC content, secondary structure), chromatin context (accessibility, nucleosome occupancy), and allele specificity (discriminating mutant vs. wild-type haplotypes).",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign Gene Analysis naming and repeated digital-twin/clinical variant/CRISPR text in Gene Explorer spec; canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "gene_explorer:18",
+    "module": "gene_explorer",
+    "source_path": "spec/gene_explorer.md",
+    "spec_sha256": "768c9aa23415dc2915110199db529f3cb861007b169148a34793357d25720d8a",
+    "text": "For base and prime editing, it designs edit windows, pegRNA spacer/PBS/RT templates with thermodynamic and positional constraints, and introduces silent PAM-disrupting edits to prevent re-cutting.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign Gene Analysis naming and repeated digital-twin/clinical variant/CRISPR text in Gene Explorer spec; canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "gene_explorer:19",
+    "module": "gene_explorer",
+    "source_path": "spec/gene_explorer.md",
+    "spec_sha256": "768c9aa23415dc2915110199db529f3cb861007b169148a34793357d25720d8a",
+    "text": "Off-target prediction leverages genome-wide alignment augmented with learned mismatch tolerance profiles and chromatin-aware accessibility filters, outputting ranked sites with risk scores and recommended validation assays.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign Gene Analysis naming and repeated digital-twin/clinical variant/CRISPR text in Gene Explorer spec; canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "gene_explorer:20",
+    "module": "gene_explorer",
+    "source_path": "spec/gene_explorer.md",
+    "spec_sha256": "768c9aa23415dc2915110199db529f3cb861007b169148a34793357d25720d8a",
+    "text": "Finally, Gene Analysis integrates dynamic pathway simulation through hybrid models that combine SBML-defined kinetics with neural ODE surrogates for components lacking explicit parameters.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign Gene Analysis naming and repeated digital-twin/clinical variant/CRISPR text in Gene Explorer spec; canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "gene_explorer:21",
+    "module": "gene_explorer",
+    "source_path": "spec/gene_explorer.md",
+    "spec_sha256": "768c9aa23415dc2915110199db529f3cb861007b169148a34793357d25720d8a",
+    "text": "This enables time-resolved simulation of perturbations (edits, drugs, expression changes), producing trajectories for key biomarkers (e.g., p-ERK, p53 targets) and phenotypic endpoints (apoptosis, proliferation).",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign Gene Analysis naming and repeated digital-twin/clinical variant/CRISPR text in Gene Explorer spec; canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "gene_explorer:22",
+    "module": "gene_explorer",
+    "source_path": "spec/gene_explorer.md",
+    "spec_sha256": "768c9aa23415dc2915110199db529f3cb861007b169148a34793357d25720d8a",
+    "text": "The system can generate executable experimental plans\u2014editing strategies, controls, readouts (qPCR, Western blot, single-cell RNA-seq), and statistical power estimates\u2014closing the loop from in silico inference to wet-lab validation.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign Gene Analysis naming and repeated digital-twin/clinical variant/CRISPR text in Gene Explorer spec; canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "gene_explorer:23",
+    "module": "gene_explorer",
+    "source_path": "spec/gene_explorer.md",
+    "spec_sha256": "768c9aa23415dc2915110199db529f3cb861007b169148a34793357d25720d8a",
+    "text": "With continuous ingestion of new data and experimental feedback, the digital twin is iteratively refined, increasing fidelity and making the platform a rigorous, predictive engine for gene-level biology and therapeutic design.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign Gene Analysis naming and repeated digital-twin/clinical variant/CRISPR text in Gene Explorer spec; canonical attribution unresolved, not implementation pass/fail."
+  }
+]

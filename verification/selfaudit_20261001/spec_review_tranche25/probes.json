@@ -1,0 +1,38 @@
+{
+  "runs": [
+    {
+      "wald_interval_matches": true,
+      "scope_warning": "conformal_interval is uncalibrated normal/Wald formula without held-out nonconformity scores; not conformal coverage proof.",
+      "power": {
+        "replicates_per_group": 16,
+        "effect_size": 0.5,
+        "target_power": 0.8,
+        "alpha": 0.05,
+        "method": "two-sample z (normal approximation)"
+      },
+      "diagnostic_count": 15,
+      "translation": "MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "translation_reference_matches": true,
+      "desired_does_not_change_scores_or_order": true,
+      "allele_does_not_change_scores_or_order": true
+    },
+    {
+      "wald_interval_matches": true,
+      "scope_warning": "conformal_interval is uncalibrated normal/Wald formula without held-out nonconformity scores; not conformal coverage proof.",
+      "power": {
+        "replicates_per_group": 16,
+        "effect_size": 0.5,
+        "target_power": 0.8,
+        "alpha": 0.05,
+        "method": "two-sample z (normal approximation)"
+      },
+      "diagnostic_count": 15,
+      "translation": "MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "translation_reference_matches": true,
+      "desired_does_not_change_scores_or_order": true,
+      "allele_does_not_change_scores_or_order": true
+    }
+  ],
+  "repeat_equal": true,
+  "live_connector_status": "not exercised in this tranche; connector code present, current provider success unverified."
+}
