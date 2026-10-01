@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "pooled": 0.30000000000000004,
+    "independent_equal_weight_mean": 0.3,
+    "match": true,
+    "repeat_equal": true
+  },
+  "bayes": {
+    "posterior": 0.6750902527075813,
+    "independent_odds": 0.6750902527075812,
+    "match": true,
+    "repeat_equal": true
+  },
+  "aggregate": {
+    "mean": 0.6470588235294118,
+    "independent": 0.6470588235294118,
+    "match": true
+  },
+  "scope": "Supplied synthetic statistical arithmetic only; no live literature/ClinVar retrieval, clinical calibration, federated learning or privacy guarantee."
+}

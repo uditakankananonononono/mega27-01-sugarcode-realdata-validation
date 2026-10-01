@@ -1,0 +1,402 @@
+[
+  {
+    "id": "biogpt_lit:1",
+    "module": "biogpt_lit",
+    "source_path": "spec/biogpt_lit.md",
+    "spec_sha256": "45c1a07a435b457b14dbc57156ad59981601abe9e717ae190fd2e81dd7153125",
+    "text": "# BioGPT Lit\n\nBioGPT Lit: \n\nBioGPT Lit\u00a0can be transformed into a continuously evolving, self-indexing scientific reasoning engine that goes far beyond retrieval and summarization to construct a living, multi-layered representation of biological knowledge.",
+    "review_status": "PARTIAL_NOT_EXTERNAL_CONNECTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Manual graph plus PubMed adapter, no continuous self-indexing service verified."
+  },
+  {
+    "id": "biogpt_lit:2",
+    "module": "biogpt_lit",
+    "source_path": "spec/biogpt_lit.md",
+    "spec_sha256": "45c1a07a435b457b14dbc57156ad59981601abe9e717ae190fd2e81dd7153125",
+    "text": "At the ingestion layer, the system parses full-text papers, supplementary datasets, figures, and experimental methods, extracting not only entities such as genes, proteins, pathways, and compounds, but also directionally encoded relationships\u2014activation, inhibition, binding affinity shifts, causal disease associations, and experimental conditions.",
+    "review_status": "PARTIAL_DATA_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Regex triples and method substring flags; figures/supplements counted not content parsed."
+  },
+  {
+    "id": "biogpt_lit:3",
+    "module": "biogpt_lit",
+    "source_path": "spec/biogpt_lit.md",
+    "spec_sha256": "45c1a07a435b457b14dbc57156ad59981601abe9e717ae190fd2e81dd7153125",
+    "text": "These relationships are embedded into a dynamic, temporally-aware knowledge graph where each edge is weighted by evidence strength, reproducibility signals, citation propagation, and methodological rigor.",
+    "review_status": "SCOPED_HEURISTIC_INDEX",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Edge weights from supplied citations/sample/replication, not independently audited evidence rigor."
+  },
+  {
+    "id": "biogpt_lit:4",
+    "module": "biogpt_lit",
+    "source_path": "spec/biogpt_lit.md",
+    "spec_sha256": "45c1a07a435b457b14dbc57156ad59981601abe9e717ae190fd2e81dd7153125",
+    "text": "This enables the system to distinguish between preliminary findings and well-established biological principles, allowing downstream reasoning to be grounded in the quality of evidence rather than mere frequency of mention.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Preliminary/consensus thresholds on supplied metadata, not established quality discrimination."
+  },
+  {
+    "id": "biogpt_lit:5",
+    "module": "biogpt_lit",
+    "source_path": "spec/biogpt_lit.md",
+    "spec_sha256": "45c1a07a435b457b14dbc57156ad59981601abe9e717ae190fd2e81dd7153125",
+    "text": "On top of this structured graph, BioGPT Lit deploys graph neural networks and long-context transformer architectures to perform multi-hop reasoning across domains that are traditionally siloed.",
+    "review_status": "NOT_TRAINED_GNN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "BFS paths not trained GNN/long-context transformer."
+  },
+  {
+    "id": "biogpt_lit:6",
+    "module": "biogpt_lit",
+    "source_path": "spec/biogpt_lit.md",
+    "spec_sha256": "45c1a07a435b457b14dbc57156ad59981601abe9e717ae190fd2e81dd7153125",
+    "text": "For instance, it can connect insights from immunology, metabolism, and cancer biology by tracing shared intermediates or regulatory motifs, identifying latent connections that are not explicitly stated in any single paper.",
+    "review_status": "SCOPED_CLASSICAL_GRAPH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Traverses supplied explicit edges, latent biological connection validity unverified."
+  },
+  {
+    "id": "biogpt_lit:7",
+    "module": "biogpt_lit",
+    "source_path": "spec/biogpt_lit.md",
+    "spec_sha256": "45c1a07a435b457b14dbc57156ad59981601abe9e717ae190fd2e81dd7153125",
+    "text": "Temporal modeling allows it to track how scientific consensus evolves, highlighting emerging paradigms, declining hypotheses, or unresolved contradictions.",
+    "review_status": "PARTIAL_TRAJECTORY_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Year-prefix relation votes, not full scientific consensus evolution tracking."
+  },
+  {
+    "id": "biogpt_lit:8",
+    "module": "biogpt_lit",
+    "source_path": "spec/biogpt_lit.md",
+    "spec_sha256": "45c1a07a435b457b14dbc57156ad59981601abe9e717ae190fd2e81dd7153125",
+    "text": "By clustering competing interpretations and quantifying agreement across studies, the system provides a meta-scientific layer of insight\u2014mapping not just what is known, but how confidently it is known and where uncertainty remains.",
+    "review_status": "SCOPED_HEURISTIC_INDEX",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Weighted opposing relation agreement, not semantic interpretation clustering."
+  },
+  {
+    "id": "biogpt_lit:9",
+    "module": "biogpt_lit",
+    "source_path": "spec/biogpt_lit.md",
+    "spec_sha256": "45c1a07a435b457b14dbc57156ad59981601abe9e717ae190fd2e81dd7153125",
+    "text": "A defining capability of BioGPT Lit is its ability to detect and formalize contradictions in the literature.",
+    "review_status": "SCOPED_CLASSICAL_GRAPH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Opposing relation dictionary detects supplied triple conflicts."
+  },
+  {
+    "id": "biogpt_lit:10",
+    "module": "biogpt_lit",
+    "source_path": "spec/biogpt_lit.md",
+    "spec_sha256": "45c1a07a435b457b14dbc57156ad59981601abe9e717ae190fd2e81dd7153125",
+    "text": "Using citation intent classification and semantic entailment models, it can identify when two studies make opposing claims about the same biological mechanism, trace the experimental contexts that led to these differences, and propose reconciliations or targeted experiments to resolve them.",
+    "review_status": "NOT_LEARNED_DISCRIMINATION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No citation-intent/semantic entailment models; supplied conditions and generic resolution text."
+  },
+  {
+    "id": "biogpt_lit:11",
+    "module": "biogpt_lit",
+    "source_path": "spec/biogpt_lit.md",
+    "spec_sha256": "45c1a07a435b457b14dbc57156ad59981601abe9e717ae190fd2e81dd7153125",
+    "text": "This transforms the system into an active participant in scientific discourse, capable of highlighting gaps in knowledge that are not immediately obvious from reading individual papers.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Gap/hypothesis templates, no demonstrated non-obvious scientific discovery."
+  },
+  {
+    "id": "biogpt_lit:12",
+    "module": "biogpt_lit",
+    "source_path": "spec/biogpt_lit.md",
+    "spec_sha256": "45c1a07a435b457b14dbc57156ad59981601abe9e717ae190fd2e81dd7153125",
+    "text": "It can also prioritize underexplored areas where small amounts of additional data could have outsized impact, effectively guiding researchers toward high-leverage questions.",
+    "review_status": "SCOPED_HEURISTIC_INDEX",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Weight/sparsity/conflict priority formula, impact unvalidated."
+  },
+  {
+    "id": "biogpt_lit:13",
+    "module": "biogpt_lit",
+    "source_path": "spec/biogpt_lit.md",
+    "spec_sha256": "45c1a07a435b457b14dbc57156ad59981601abe9e717ae190fd2e81dd7153125",
+    "text": "Beyond analysis, BioGPT Lit functions as a hypothesis-generation engine that produces structured, testable scientific propositions.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Structured graph-gap hypothesis templates exist."
+  },
+  {
+    "id": "biogpt_lit:14",
+    "module": "biogpt_lit",
+    "source_path": "spec/biogpt_lit.md",
+    "spec_sha256": "45c1a07a435b457b14dbc57156ad59981601abe9e717ae190fd2e81dd7153125",
+    "text": "These hypotheses are not vague suggestions but detailed constructs that include mechanistic rationales, supporting evidence chains, predicted outcomes, and suggested experimental designs.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Generic outcomes/controls/readouts, not detailed independently validated mechanisms."
+  },
+  {
+    "id": "biogpt_lit:15",
+    "module": "biogpt_lit",
+    "source_path": "spec/biogpt_lit.md",
+    "spec_sha256": "45c1a07a435b457b14dbc57156ad59981601abe9e717ae190fd2e81dd7153125",
+    "text": "For example, it might propose that a specific non-coding RNA modulates a signaling pathway based on indirect evidence from chromatin accessibility and transcriptional profiling studies, outlining exactly how this could be tested in vitro or in vivo.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No indirect RNA/chromatin-derived mechanistic experimental design proved."
+  },
+  {
+    "id": "biogpt_lit:16",
+    "module": "biogpt_lit",
+    "source_path": "spec/biogpt_lit.md",
+    "spec_sha256": "45c1a07a435b457b14dbc57156ad59981601abe9e717ae190fd2e81dd7153125",
+    "text": "Each hypothesis is accompanied by a transparent reasoning trace, allowing researchers to audit the logic and evidence behind the suggestion, thereby maintaining scientific rigor while accelerating discovery.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Edge IDs/weights and reason traces retained; science validity separate."
+  },
+  {
+    "id": "biogpt_lit:17",
+    "module": "biogpt_lit",
+    "source_path": "spec/biogpt_lit.md",
+    "spec_sha256": "45c1a07a435b457b14dbc57156ad59981601abe9e717ae190fd2e81dd7153125",
+    "text": "Over time, BioGPT Lit evolves into a self-improving system through feedback from experimental validation and new publications.",
+    "review_status": "NOT_CONTINUOUS_TRAINING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Manual feedback ingestion, no autonomous continuous model learning."
+  },
+  {
+    "id": "biogpt_lit:18",
+    "module": "biogpt_lit",
+    "source_path": "spec/biogpt_lit.md",
+    "spec_sha256": "45c1a07a435b457b14dbc57156ad59981601abe9e717ae190fd2e81dd7153125",
+    "text": "Confirmed hypotheses strengthen certain edges in the knowledge graph, while disproven ones lead to recalibration of confidence weights and reasoning pathways.",
+    "review_status": "PARTIAL_INPUT_DEPENDENT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Feedback adds supplied confirmation/opposition claims; not recalibration training."
+  },
+  {
+    "id": "biogpt_lit:19",
+    "module": "biogpt_lit",
+    "source_path": "spec/biogpt_lit.md",
+    "spec_sha256": "45c1a07a435b457b14dbc57156ad59981601abe9e717ae190fd2e81dd7153125",
+    "text": "This creates a closed-loop system where the engine not only consumes scientific knowledge but actively contributes to its refinement.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Local graph feedback not demonstrated scientific closed-loop refinement."
+  },
+  {
+    "id": "biogpt_lit:20",
+    "module": "biogpt_lit",
+    "source_path": "spec/biogpt_lit.md",
+    "spec_sha256": "45c1a07a435b457b14dbc57156ad59981601abe9e717ae190fd2e81dd7153125",
+    "text": "In its most advanced form, BioGPT Lit becomes a collaborative research partner\u2014one that continuously synthesizes global scientific output, identifies non-obvious connections, and guides researchers toward the most impactful and tractable directions for investigation.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Global continuous synthesis/discovery not established."
+  },
+  {
+    "id": "openclinvar:1",
+    "module": "openclinvar",
+    "source_path": "spec/openclinvar.md",
+    "spec_sha256": "cc19d892322af34c615a816bb743762aedf90209dcd65a67a559bc203902ea40",
+    "text": "# OpenClinVar\n\nOpenClinVar: An explainable AI engine that interprets ClinVar variants for researchers and healthcare professionals.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Local curated/heuristic classification plus live adapter, not validated clinical AI."
+  },
+  {
+    "id": "openclinvar:2",
+    "module": "openclinvar",
+    "source_path": "spec/openclinvar.md",
+    "spec_sha256": "cc19d892322af34c615a816bb743762aedf90209dcd65a67a559bc203902ea40",
+    "text": "It provides plain-language explanations of pathogenicity and generates clinical summaries for decision-making.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Plain-language summaries exist, not clinical decision recommendation validation."
+  },
+  {
+    "id": "openclinvar:3",
+    "module": "openclinvar",
+    "source_path": "spec/openclinvar.md",
+    "spec_sha256": "cc19d892322af34c615a816bb743762aedf90209dcd65a67a559bc203902ea40",
+    "text": "OpenClinVar bridges the gap between raw genetic data and clinical action, offering patient-friendly reports and comparative analysis to improve variant interpretation.",
+    "review_status": "NOT_THERAPEUTIC_VALIDITY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Patient report caveat support-only; improved clinical action accuracy unverified."
+  },
+  {
+    "id": "openclinvar:4",
+    "module": "openclinvar",
+    "source_path": "spec/openclinvar.md",
+    "spec_sha256": "cc19d892322af34c615a816bb743762aedf90209dcd65a67a559bc203902ea40",
+    "text": "OpenClinVar evolves into an explainable, clinically grounded variant intelligence engine that goes far beyond static database lookup, transforming variant interpretation into a dynamic, evidence-weighted reasoning process.",
+    "review_status": "SCOPED_HEURISTIC_INDEX",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Rule/likelihood evidence aggregation, no broad clinical validation."
+  },
+  {
+    "id": "openclinvar:5",
+    "module": "openclinvar",
+    "source_path": "spec/openclinvar.md",
+    "spec_sha256": "cc19d892322af34c615a816bb743762aedf90209dcd65a67a559bc203902ea40",
+    "text": "At its core, the system ingests raw variant data (VCF-level inputs) and maps them across multiple annotation layers\u2014genomic (ClinVar, Ensembl), population frequency (gnomAD), functional prediction (SIFT, PolyPhen, SpliceAI), and disease ontologies (HPO, OMIM).",
+    "review_status": "PARTIAL_DATA_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "VCF/HGVS parsers and ClinVar/gnomAD/splice adapters; listed SIFT/PolyPhen/SpliceAI/HPO/OMIM full integration not established."
+  },
+  {
+    "id": "openclinvar:6",
+    "module": "openclinvar",
+    "source_path": "spec/openclinvar.md",
+    "spec_sha256": "cc19d892322af34c615a816bb743762aedf90209dcd65a67a559bc203902ea40",
+    "text": "These heterogeneous data streams are embedded into a unified probabilistic framework that applies ACMG/AMP guidelines not as rigid rules, but as weighted Bayesian evidence components, allowing the system to compute posterior probabilities of pathogenicity with transparent reasoning traces.",
+    "review_status": "SCOPED_BEHAVIOR_REPRODUCED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Supplied strong likelihood odds posterior18.7/27.7 matches/repeats; evidence independence/calibration clinical validity unverified."
+  },
+  {
+    "id": "openclinvar:7",
+    "module": "openclinvar",
+    "source_path": "spec/openclinvar.md",
+    "spec_sha256": "cc19d892322af34c615a816bb743762aedf90209dcd65a67a559bc203902ea40",
+    "text": "The engine\u2019s distinguishing capability lies in its deep explainability layer, which uses structured reasoning graphs to decompose each classification into interpretable components.",
+    "review_status": "SCOPED_CLASSICAL_GRAPH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Supplied evidence graph labels not learned explanation model."
+  },
+  {
+    "id": "openclinvar:8",
+    "module": "openclinvar",
+    "source_path": "spec/openclinvar.md",
+    "spec_sha256": "cc19d892322af34c615a816bb743762aedf90209dcd65a67a559bc203902ea40",
+    "text": "Instead of returning a simple \u201cpathogenic\u201d or \u201cbenign\u201d label, OpenClinVar constructs a causal chain linking variant \u2192 molecular consequence \u2192 pathway disruption \u2192 clinical phenotype.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Causal edges emitted from supplied consequence/pathways/phenotypes, not causality inference proof."
+  },
+  {
+    "id": "openclinvar:9",
+    "module": "openclinvar",
+    "source_path": "spec/openclinvar.md",
+    "spec_sha256": "cc19d892322af34c615a816bb743762aedf90209dcd65a67a559bc203902ea40",
+    "text": "This is achieved through integration with transcript-level models, protein structural predictions (e.g., AlphaFold), and curated pathway databases, enabling mechanistic explanations such as \u201cmissense mutation disrupts zinc-binding domain stability, impairing transcriptional activation of downstream targets.\u201d These explanations are rendered in both clinician-facing summaries and machine-readable formats for downstream decision systems.",
+    "review_status": "UNVERIFIED_INTEGRATION_CLAIM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No AlphaFold/pathway database integration in reasoning_graph; structure_effect supplied label."
+  },
+  {
+    "id": "openclinvar:10",
+    "module": "openclinvar",
+    "source_path": "spec/openclinvar.md",
+    "spec_sha256": "cc19d892322af34c615a816bb743762aedf90209dcd65a67a559bc203902ea40",
+    "text": "OpenClinVar further incorporates large-scale literature reasoning through semantic parsing of biomedical publications indexed in PubMed.",
+    "review_status": "PARTIAL_DATA_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Literature consensus accepts supplied records, not semantic PubMed parsing in module."
+  },
+  {
+    "id": "openclinvar:11",
+    "module": "openclinvar",
+    "source_path": "spec/openclinvar.md",
+    "spec_sha256": "cc19d892322af34c615a816bb743762aedf90209dcd65a67a559bc203902ea40",
+    "text": "Using transformer-based retrieval-augmented generation (RAG) pipelines, it extracts evidence linking variants to phenotypes, functional assays, and clinical outcomes.",
+    "review_status": "NOT_TRAINED_TRANSFORMER",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No transformer RAG trained extraction."
+  },
+  {
+    "id": "openclinvar:12",
+    "module": "openclinvar",
+    "source_path": "spec/openclinvar.md",
+    "spec_sha256": "cc19d892322af34c615a816bb743762aedf90209dcd65a67a559bc203902ea40",
+    "text": "Crucially, it performs contradiction analysis\u2014identifying conflicting reports across studies and weighting them based on sample size, experimental rigor, and recency.",
+    "review_status": "SCOPED_HEURISTIC_INDEX",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Supplied quality/year/sample weighted classification votes and conflicts."
+  },
+  {
+    "id": "openclinvar:13",
+    "module": "openclinvar",
+    "source_path": "spec/openclinvar.md",
+    "spec_sha256": "cc19d892322af34c615a816bb743762aedf90209dcd65a67a559bc203902ea40",
+    "text": "This allows the system to surface uncertainty explicitly, rather than masking it behind overconfident predictions, which is critical for clinical decision-making in cases involving variants of uncertain significance.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Conflict/unknown statuses exist, no clinical uncertainty calibration."
+  },
+  {
+    "id": "openclinvar:14",
+    "module": "openclinvar",
+    "source_path": "spec/openclinvar.md",
+    "spec_sha256": "cc19d892322af34c615a816bb743762aedf90209dcd65a67a559bc203902ea40",
+    "text": "At the systems level, OpenClinVar models genotype\u2013phenotype relationships using graph neural networks that connect genes, variants, diseases, and patient features into a multiplex biomedical graph.",
+    "review_status": "NOT_TRAINED_GNN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Static graph not trained multiplex patient GNN."
+  },
+  {
+    "id": "openclinvar:15",
+    "module": "openclinvar",
+    "source_path": "spec/openclinvar.md",
+    "spec_sha256": "cc19d892322af34c615a816bb743762aedf90209dcd65a67a559bc203902ea40",
+    "text": "Patient-specific inputs (symptoms, lab values, family history) are embedded into this graph, enabling personalized variant interpretation.",
+    "review_status": "PARTIAL_INPUT_DEPENDENT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Patient HPO set overlaps/optional ancestor map; lab/family-history embeddings not established."
+  },
+  {
+    "id": "openclinvar:16",
+    "module": "openclinvar",
+    "source_path": "spec/openclinvar.md",
+    "spec_sha256": "cc19d892322af34c615a816bb743762aedf90209dcd65a67a559bc203902ea40",
+    "text": "The system can perform reverse inference\u2014ranking candidate variants most likely to explain a patient\u2019s phenotype\u2014or forward simulation\u2014predicting clinical trajectories given a specific variant.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Reverse score=.65 match+.35 prior; forward trajectory explicit illustrative not prognosis."
+  },
+  {
+    "id": "openclinvar:17",
+    "module": "openclinvar",
+    "source_path": "spec/openclinvar.md",
+    "spec_sha256": "cc19d892322af34c615a816bb743762aedf90209dcd65a67a559bc203902ea40",
+    "text": "This transforms it from a static annotation tool into an active diagnostic reasoning engine capable of supporting differential diagnosis in rare and complex diseases.",
+    "review_status": "NOT_DIAGNOSTIC_VALIDATION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Differential/clinical diagnosis support validity not independently established."
+  },
+  {
+    "id": "openclinvar:18",
+    "module": "openclinvar",
+    "source_path": "spec/openclinvar.md",
+    "spec_sha256": "cc19d892322af34c615a816bb743762aedf90209dcd65a67a559bc203902ea40",
+    "text": "Finally, OpenClinVar is designed as a continuously updating clinical AI system, integrating new submissions to ClinVar, real-world clinical outcomes, and functional assay data into its learning loop.",
+    "review_status": "NOT_CONTINUOUS_TRAINING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Lookup adapters/manual evidence, no submission/outcome/assay continuous learning service."
+  },
+  {
+    "id": "openclinvar:19",
+    "module": "openclinvar",
+    "source_path": "spec/openclinvar.md",
+    "spec_sha256": "cc19d892322af34c615a816bb743762aedf90209dcd65a67a559bc203902ea40",
+    "text": "Through federated learning frameworks, it can incorporate data from hospitals and research institutions without compromising patient privacy, ensuring that its models evolve with emerging evidence.",
+    "review_status": "PARTIAL_CLASSICAL_STATISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Aggregate beta counts mean11/17 reproduces, not federated model training or verified privacy architecture."
+  },
+  {
+    "id": "openclinvar:20",
+    "module": "openclinvar",
+    "source_path": "spec/openclinvar.md",
+    "spec_sha256": "cc19d892322af34c615a816bb743762aedf90209dcd65a67a559bc203902ea40",
+    "text": "In its most advanced form, OpenClinVar becomes a translational bridge between genomics and medicine\u2014providing not just variant classifications, but deeply reasoned, evidence-backed insights that guide diagnosis, prognosis, and therapeutic strategy selection in precision healthcare.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Precision diagnosis/prognosis/therapy validity unestablished."
+  }
+]
