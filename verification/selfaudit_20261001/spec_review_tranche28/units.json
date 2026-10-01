@@ -1,0 +1,282 @@
+[
+  {
+    "id": "synbio_wizard:1",
+    "module": "synbio_wizard",
+    "source_path": "spec/synbio_wizard.md",
+    "spec_sha256": "86a1af6b593cb3447d204fab407b0d34b3f2794cbead71e99a3e4e5433f4bda6",
+    "text": "# SynBio Wizard\n\nSynBio Wizard: A guided, multi-step pipeline for synthetic biology projects, taking users from goal definition to pathway design and chassis selection.",
+    "review_status": "SCOPED_CURATED_DESIGN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Five-product goal keyword catalog/pathway/chassis ranking, no arbitrary intent compiler."
+  },
+  {
+    "id": "synbio_wizard:2",
+    "module": "synbio_wizard",
+    "source_path": "spec/synbio_wizard.md",
+    "spec_sha256": "86a1af6b593cb3447d204fab407b0d34b3f2794cbead71e99a3e4e5433f4bda6",
+    "text": "It automates technical decision-making, providing feasibility assessments and assembly recommendations.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Fixed chassis scores/feasibility Gaussian proxy and part-count assembly suggestion."
+  },
+  {
+    "id": "synbio_wizard:3",
+    "module": "synbio_wizard",
+    "source_path": "spec/synbio_wizard.md",
+    "spec_sha256": "86a1af6b593cb3447d204fab407b0d34b3f2794cbead71e99a3e4e5433f4bda6",
+    "text": "This wizard ensures that genetic designs are built on solid foundations and are ready for standardized laboratory execution and synthesis.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Architecture-only output not ready for lab execution/synthesis validity."
+  },
+  {
+    "id": "synbio_wizard:4",
+    "module": "synbio_wizard",
+    "source_path": "spec/synbio_wizard.md",
+    "spec_sha256": "86a1af6b593cb3447d204fab407b0d34b3f2794cbead71e99a3e4e5433f4bda6",
+    "text": "SynBio Wizard: A self-evolving, full-stack biological intelligence system that transforms synthetic biology into a programmable, simulation-driven, and continuously learning engineering discipline.",
+    "review_status": "NOT_CONTINUOUS_TRAINING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No self-evolving biological learning engine."
+  },
+  {
+    "id": "synbio_wizard:5",
+    "module": "synbio_wizard",
+    "source_path": "spec/synbio_wizard.md",
+    "spec_sha256": "86a1af6b593cb3447d204fab407b0d34b3f2794cbead71e99a3e4e5433f4bda6",
+    "text": "Rather than operating as a linear design pipeline, it functions as a constraint-aware biological compiler that decomposes high-level user intent into multi-dimensional optimization problems across genomic, transcriptomic, proteomic, and metabolic layers.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Catalog product matching and separate analytic utilities, not cross-omic intent optimization compiler."
+  },
+  {
+    "id": "synbio_wizard:6",
+    "module": "synbio_wizard",
+    "source_path": "spec/synbio_wizard.md",
+    "spec_sha256": "86a1af6b593cb3447d204fab407b0d34b3f2794cbead71e99a3e4e5433f4bda6",
+    "text": "Given a natural language objective, the system constructs a design manifold constrained by codon adaptation index (CAI), GC content windows, ribosome binding site (RBS) strength (\u0394G folding), promoter kinetics, transcription factor binding affinities, and host-specific metabolic burden.",
+    "review_status": "PARTIAL_SEQUENCE_HEURISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Codon diversity/GC CAI proxy, dinucleotide RBS energy and Hill promoter/burden, no joint design manifold."
+  },
+  {
+    "id": "synbio_wizard:7",
+    "module": "synbio_wizard",
+    "source_path": "spec/synbio_wizard.md",
+    "spec_sha256": "86a1af6b593cb3447d204fab407b0d34b3f2794cbead71e99a3e4e5433f4bda6",
+    "text": "It integrates thermodynamic models (e.g., nearest-neighbor RNA folding), enzyme kinetics (Michaelis\u2013Menten, kcat/Km optimization), and flux balance analysis (FBA) to generate pathway architectures that are not only theoretically valid but metabolically feasible under chassis-specific constraints such as ATP cost, redox balance, and precursor availability.",
+    "review_status": "PARTIAL_EXPLICIT_PHYSICS_NOT_LEARNED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Michaelis-Menten/serial LP and proxy RNA energy, not nearest-neighbor folding or chassis-specific stoichiometric network."
+  },
+  {
+    "id": "synbio_wizard:8",
+    "module": "synbio_wizard",
+    "source_path": "spec/synbio_wizard.md",
+    "spec_sha256": "86a1af6b593cb3447d204fab407b0d34b3f2794cbead71e99a3e4e5433f4bda6",
+    "text": "At its core, the platform operates as a \u201cbiology-as-code\u201d engine, compiling user-defined goals into executable genetic constructs.",
+    "review_status": "PARTIAL_CONCEPTS_NO_SEQUENCE_DESIGN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Gene/module name dictionaries, no executable genetic constructs."
+  },
+  {
+    "id": "synbio_wizard:9",
+    "module": "synbio_wizard",
+    "source_path": "spec/synbio_wizard.md",
+    "spec_sha256": "86a1af6b593cb3447d204fab407b0d34b3f2794cbead71e99a3e4e5433f4bda6",
+    "text": "It programmatically generates gene circuits using logic-gate abstractions (AND/OR/NOT via repressors and activators), designs plasmid architectures with modular assembly standards (Golden Gate, Gibson), and simulates transcriptional\u2013translational coupling using stochastic and deterministic models (e.g., Gillespie simulations for noise, ODE-based systems for steady-state dynamics).",
+    "review_status": "PARTIAL_SIMULATION_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Boolean circuits/architecture plus actual standalone SSA/ODE, no plasmid nucleotide/assembly-compatible sequence."
+  },
+  {
+    "id": "synbio_wizard:10",
+    "module": "synbio_wizard",
+    "source_path": "spec/synbio_wizard.md",
+    "spec_sha256": "86a1af6b593cb3447d204fab407b0d34b3f2794cbead71e99a3e4e5433f4bda6",
+    "text": "CRISPR modules are integrated at the design layer, enabling automated guide RNA selection using sliding-window + PAM (NGG/NAG) scanning, GC optimization (40\u201360%), and off-target prediction via mismatch tolerance scoring and seed-region specificity.",
+    "review_status": "PARTIAL_SEQUENCE_HEURISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Forward-only NGG/NAG enumeration/GC/seed diversity, no genome background off-target mismatch scan in wizard."
+  },
+  {
+    "id": "synbio_wizard:11",
+    "module": "synbio_wizard",
+    "source_path": "spec/synbio_wizard.md",
+    "spec_sha256": "86a1af6b593cb3447d204fab407b0d34b3f2794cbead71e99a3e4e5433f4bda6",
+    "text": "Variant effect prediction pipelines (VEP-like) annotate mutations with predicted deleteriousness (SIFT, PolyPhen proxies), while structural modules leverage predicted protein conformations to assess folding stability (\u0394\u0394G) and active-site perturbations.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Partial codon table SIFT/PolyPhen proxy and scalar ddG, no predicted conformations/actual active-site structures."
+  },
+  {
+    "id": "synbio_wizard:12",
+    "module": "synbio_wizard",
+    "source_path": "spec/synbio_wizard.md",
+    "spec_sha256": "86a1af6b593cb3447d204fab407b0d34b3f2794cbead71e99a3e4e5433f4bda6",
+    "text": "The system extends beyond static design by embedding multi-scale simulation pipelines that propagate perturbations from DNA edits to phenotypic outcomes.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Single-codon mutation-to-ddG/flux/phenotype algebra, not coupled multi-scale biological pipeline."
+  },
+  {
+    "id": "synbio_wizard:13",
+    "module": "synbio_wizard",
+    "source_path": "spec/synbio_wizard.md",
+    "spec_sha256": "86a1af6b593cb3447d204fab407b0d34b3f2794cbead71e99a3e4e5433f4bda6",
+    "text": "A single nucleotide change is mapped to amino acid substitution, structural perturbation (e.g., disruption of hydrogen bonding networks or metal ion coordination), pathway flux redistribution (via constraint-based modeling such as COBRA/FBA), and ultimately cellular phenotypes such as growth rate, metabolite yield, or stress response.",
+    "review_status": "PARTIAL_SCALAR_REGULATORY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Fixed ddG exponential retention/scalar flux, no hydrogen/metal coordination or COBRA redistributed flux network."
+  },
+  {
+    "id": "synbio_wizard:14",
+    "module": "synbio_wizard",
+    "source_path": "spec/synbio_wizard.md",
+    "spec_sha256": "86a1af6b593cb3447d204fab407b0d34b3f2794cbead71e99a3e4e5433f4bda6",
+    "text": "SBML-compatible engines simulate gene regulatory networks and metabolic pathways, allowing time-resolved analysis of system dynamics under varying environmental conditions (temperature, pH, nutrient availability).",
+    "review_status": "UNVERIFIED_INTEGRATION_CLAIM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "SBML-like XML lacks inspected namespace/compartments/stoichiometry/kinetic law; real SBML interpreter compatibility untested."
+  },
+  {
+    "id": "synbio_wizard:15",
+    "module": "synbio_wizard",
+    "source_path": "spec/synbio_wizard.md",
+    "spec_sha256": "86a1af6b593cb3447d204fab407b0d34b3f2794cbead71e99a3e4e5433f4bda6",
+    "text": "Evolutionary modeling is incorporated through mutation rate simulations, fitness landscapes, and selection pressure modeling, enabling prediction of construct stability, emergence of resistance, and long-term functional decay\u2014one of the most critical unsolved problems in synthetic biology.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Mutation/burden exponential survival, no resistance/emergent construct stability fidelity."
+  },
+  {
+    "id": "synbio_wizard:16",
+    "module": "synbio_wizard",
+    "source_path": "spec/synbio_wizard.md",
+    "spec_sha256": "86a1af6b593cb3447d204fab407b0d34b3f2794cbead71e99a3e4e5433f4bda6",
+    "text": "SynBio Wizard also acts as a unified biological data infrastructure, integrating heterogeneous datasets from genomic (Ensembl), proteomic (UniProt), and structural (AlphaFold-like) sources into a continuously updating knowledge graph.",
+    "review_status": "NOT_CONTINUOUS_TRAINING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Embedded five-product graph live_sourcesFalse, no Ensembl/UniProt/structure continuously updating ingestion."
+  },
+  {
+    "id": "synbio_wizard:17",
+    "module": "synbio_wizard",
+    "source_path": "spec/synbio_wizard.md",
+    "spec_sha256": "86a1af6b593cb3447d204fab407b0d34b3f2794cbead71e99a3e4e5433f4bda6",
+    "text": "Each node\u2014gene, protein, pathway, or phenotype\u2014is linked through experimentally validated and inferred relationships, enabling cross-layer reasoning from genotype to phenotype.",
+    "review_status": "PARTIAL_CLASSICAL_GRAPH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Catalog design-model relationships, not experimentally validated cross-layer reasoning."
+  },
+  {
+    "id": "synbio_wizard:18",
+    "module": "synbio_wizard",
+    "source_path": "spec/synbio_wizard.md",
+    "spec_sha256": "86a1af6b593cb3447d204fab407b0d34b3f2794cbead71e99a3e4e5433f4bda6",
+    "text": "Experimental outputs (NGS reads, RNA-seq expression profiles, proteomics data) are automatically parsed, normalized, and reintegrated into the system, enabling reinforcement learning from experimental feedback.",
+    "review_status": "PARTIAL_CLASSICAL_STATISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Count-level Beta updates from supplied records, no NGS/RNA-seq/proteomics parsing/normalization or RL training."
+  },
+  {
+    "id": "synbio_wizard:19",
+    "module": "synbio_wizard",
+    "source_path": "spec/synbio_wizard.md",
+    "spec_sha256": "86a1af6b593cb3447d204fab407b0d34b3f2794cbead71e99a3e4e5433f4bda6",
+    "text": "Protocol generation is automated at a granular level, including reagent concentrations, thermocycler conditions, cloning strategies, and validation workflows (e.g., Sanger vs.",
+    "review_status": "NONPROCEDURAL_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Assembly architecture and assay suggestions, no granular executable reagent/thermocycler protocol."
+  },
+  {
+    "id": "synbio_wizard:20",
+    "module": "synbio_wizard",
+    "source_path": "spec/synbio_wizard.md",
+    "spec_sha256": "86a1af6b593cb3447d204fab407b0d34b3f2794cbead71e99a3e4e5433f4bda6",
+    "text": "NGS), ensuring reproducibility and eliminating ambiguity that currently plagues biological research.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No experimental reproducibility/ambiguity elimination assurance; split continuation unit."
+  },
+  {
+    "id": "synbio_wizard:21",
+    "module": "synbio_wizard",
+    "source_path": "spec/synbio_wizard.md",
+    "spec_sha256": "86a1af6b593cb3447d204fab407b0d34b3f2794cbead71e99a3e4e5433f4bda6",
+    "text": "Critically, the system is uncertainty-aware and probabilistic by design.",
+    "review_status": "PARTIAL_UNCERTAINTY_NOT_CALIBRATION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Seeded clipped-normal outcome utility, not calibrated probabilistic model."
+  },
+  {
+    "id": "synbio_wizard:22",
+    "module": "synbio_wizard",
+    "source_path": "spec/synbio_wizard.md",
+    "spec_sha256": "86a1af6b593cb3447d204fab407b0d34b3f2794cbead71e99a3e4e5433f4bda6",
+    "text": "Instead of deterministic outputs, it generates distributions over possible outcomes, incorporating confidence intervals derived from data sparsity, model variance, and experimental noise.",
+    "review_status": "SCOPED_UNCALIBRATED_SCORE",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "User mean/CV/data_n determine Gaussian interval, not learned model variance/noise calibration."
+  },
+  {
+    "id": "synbio_wizard:23",
+    "module": "synbio_wizard",
+    "source_path": "spec/synbio_wizard.md",
+    "spec_sha256": "86a1af6b593cb3447d204fab407b0d34b3f2794cbead71e99a3e4e5433f4bda6",
+    "text": "Competing design strategies are presented with quantified trade-offs in efficiency, robustness, and risk.",
+    "review_status": "SCOPED_CURATED_RANKING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Supplied efficiency/robustness/risk weighted strategy scores."
+  },
+  {
+    "id": "synbio_wizard:24",
+    "module": "synbio_wizard",
+    "source_path": "spec/synbio_wizard.md",
+    "spec_sha256": "86a1af6b593cb3447d204fab407b0d34b3f2794cbead71e99a3e4e5433f4bda6",
+    "text": "The platform can identify regions of high epistemic uncertainty and propose targeted experiments\u2014such as mutational scans, promoter strength libraries, or pathway knockouts\u2014to reduce uncertainty and refine predictions.",
+    "review_status": "PARTIAL_RECOMMENDATIONS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Ranks supplied uncertainties and maps experiment labels, no identified epistemic model or measured information gain."
+  },
+  {
+    "id": "synbio_wizard:25",
+    "module": "synbio_wizard",
+    "source_path": "spec/synbio_wizard.md",
+    "spec_sha256": "86a1af6b593cb3447d204fab407b0d34b3f2794cbead71e99a3e4e5433f4bda6",
+    "text": "Molecular docking modules simulate protein\u2013ligand interactions using scoring functions approximating binding affinity (\u0394G), while highlighting limitations due to conformational flexibility or solvent effects, preventing overconfidence in purely computational predictions.",
+    "review_status": "NOT_STRUCTURAL_DOCKING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Contact-count/Hbond scalar \u0394G and limitation label, no protein-ligand poses."
+  },
+  {
+    "id": "synbio_wizard:26",
+    "module": "synbio_wizard",
+    "source_path": "spec/synbio_wizard.md",
+    "spec_sha256": "86a1af6b593cb3447d204fab407b0d34b3f2794cbead71e99a3e4e5433f4bda6",
+    "text": "Ultimately, SynBio Wizard becomes an active discovery engine that closes the loop between design, simulation, and experimentation.",
+    "review_status": "NOT_CONTINUOUS_TRAINING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No experiment-executing/refining active discovery loop."
+  },
+  {
+    "id": "synbio_wizard:27",
+    "module": "synbio_wizard",
+    "source_path": "spec/synbio_wizard.md",
+    "spec_sha256": "86a1af6b593cb3447d204fab407b0d34b3f2794cbead71e99a3e4e5433f4bda6",
+    "text": "It does not merely assist researchers but augments scientific reasoning\u2014generating hypotheses, stress-testing them against multi-scale models, and iteratively refining them through real-world data.",
+    "review_status": "PARTIAL_HYPOTHESIS_PLATFORM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Catalog architectures/score stress tests and count feedback, not real-world learned hypothesis validation."
+  },
+  {
+    "id": "synbio_wizard:28",
+    "module": "synbio_wizard",
+    "source_path": "spec/synbio_wizard.md",
+    "spec_sha256": "86a1af6b593cb3447d204fab407b0d34b3f2794cbead71e99a3e4e5433f4bda6",
+    "text": "By integrating compiler-like abstraction, systems biology modeling, machine learning, and experimental feedback, it transforms synthetic biology into a discipline that is not just descriptive but truly predictive and programmable\u2014capable of engineering biological systems with the same rigor and reproducibility expected in mature engineering fields.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No biological engineering rigor/reproducibility or predictive programmed systems assurance."
+  }
+]

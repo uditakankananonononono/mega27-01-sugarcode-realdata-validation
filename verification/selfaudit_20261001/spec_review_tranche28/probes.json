@@ -1,0 +1,46 @@
+{
+  "runs": [
+    {
+      "lp_product": 4.0,
+      "lp_independent_max": 4.0,
+      "lp_reference_matches": false,
+      "binding_reference_matches": true,
+      "mm_reference_matches": true,
+      "expression_steady": 40.0,
+      "steady_reference": 40,
+      "steady_matches": true,
+      "beta_posterior": {
+        "alpha": 9,
+        "beta": 3,
+        "mean": 0.75,
+        "std": 0.12009611535381536
+      },
+      "beta_mean_reference_matches": true,
+      "parts_max_ignored": true,
+      "sbml_text": "<sbml level=\"3\" version=\"2\"><model id=\"synbio_wizard_model\"><listOfSpecies><species id=\"S0\" name=\"precursor\" compartment=\"cell\" /><species id=\"S1\" name=\"a\" compartment=\"cell\" /><species id=\"S2\" name=\"b\" compartment=\"cell\" /></listOfSpecies><listOfReactions><reaction id=\"R1\" name=\"a\" reversible=\"false\" estimatedFlux=\"0\" /><reaction id=\"R2\" name=\"b\" reversible=\"false\" estimatedFlux=\"0\" /></listOfReactions></model></sbml>",
+      "sbml_validation": "Not validated by an SBML interpreter; XML has no namespace/listOfCompartments/reactant/product stoichiometry or kineticLaw in inspected source, so SBML engine compatibility not established."
+    },
+    {
+      "lp_product": 4.0,
+      "lp_independent_max": 4.0,
+      "lp_reference_matches": false,
+      "binding_reference_matches": true,
+      "mm_reference_matches": true,
+      "expression_steady": 40.0,
+      "steady_reference": 40,
+      "steady_matches": true,
+      "beta_posterior": {
+        "alpha": 9,
+        "beta": 3,
+        "mean": 0.75,
+        "std": 0.12009611535381536
+      },
+      "beta_mean_reference_matches": true,
+      "parts_max_ignored": true,
+      "sbml_text": "<sbml level=\"3\" version=\"2\"><model id=\"synbio_wizard_model\"><listOfSpecies><species id=\"S0\" name=\"precursor\" compartment=\"cell\" /><species id=\"S1\" name=\"a\" compartment=\"cell\" /><species id=\"S2\" name=\"b\" compartment=\"cell\" /></listOfSpecies><listOfReactions><reaction id=\"R1\" name=\"a\" reversible=\"false\" estimatedFlux=\"0\" /><reaction id=\"R2\" name=\"b\" reversible=\"false\" estimatedFlux=\"0\" /></listOfReactions></model></sbml>",
+      "sbml_validation": "Not validated by an SBML interpreter; XML has no namespace/listOfCompartments/reactant/product stoichiometry or kineticLaw in inspected source, so SBML engine compatibility not established."
+    }
+  ],
+  "repeat_equal": true,
+  "scope": "Toy LP/ODE/occupancy/Beta arithmetic, not biological feasibility/yield confidence or automated lab compatibility."
+}
