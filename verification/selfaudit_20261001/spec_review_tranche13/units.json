@@ -1,0 +1,122 @@
+[
+  {
+    "id": "bioimage_ai:1",
+    "module": "bioimage_ai",
+    "source_path": "spec/bioimage_ai.md",
+    "spec_sha256": "488c1133be02efb43807b8687830d87322d2b5e124fc630f074cd62e2e8cc54a",
+    "text": "# BioImage AI\n\nBioImage AI: A computer vision module for automated analysis of microscopy images, performing tasks like cell counting and morphology assessment.",
+    "review_status": "SCOPED_IMAGE_PROCESSING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Classical threshold/distance/shape processing exists; synthetic supplied-label area=24 and integrated intensity=42 reproduce. This tranche did not inspect actual pixels or establish segmentation-quality pass."
+  },
+  {
+    "id": "bioimage_ai:2",
+    "module": "bioimage_ai",
+    "source_path": "spec/bioimage_ai.md",
+    "spec_sha256": "488c1133be02efb43807b8687830d87322d2b5e124fc630f074cd62e2e8cc54a",
+    "text": "It uses deep learning to correct segmentation errors and provides quantitative data on culture health.",
+    "review_status": "NOT_DEEP_CORRECTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Gaussian background, Otsu/adaptive thresholds, regional maxima and Voronoi split, not trained deep learning. Culture-health score is heuristic."
+  },
+  {
+    "id": "bioimage_ai:3",
+    "module": "bioimage_ai",
+    "source_path": "spec/bioimage_ai.md",
+    "spec_sha256": "488c1133be02efb43807b8687830d87322d2b5e124fc630f074cd62e2e8cc54a",
+    "text": "BioImage AI accelerates the analysis of phenotypic screens, turning visual data into actionable scientific insights.",
+    "review_status": "PARTIAL_QUANTITATIVE_SCREENING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Image/cell diagnostics exist; prior separate BBBC001 count benchmark was 8.1824% mean deviation, not published 6.2% or whole phenotype-screen validity."
+  },
+  {
+    "id": "enterprise_bio:1",
+    "module": "enterprise_bio",
+    "source_path": "spec/enterprise_bio.md",
+    "spec_sha256": "2d3a0e5fedba0da1948c70f22a9cd9aad678d8bb83cd3bc5ef3a274b6d2d6ebd",
+    "text": "# Enterprise Bio\n\nEnterprise Bio: A comprehensive computational tier breakdown for SugarCode AI, outlining access levels from academic research to industrial integration.",
+    "review_status": "SCOPED_LOCAL_ENTITLEMENTS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Tier/quota table and local entitlement classes exist. Quota 99 accepted then 2 denied with 1 remaining, chain verifies. Caller-index module-gate trust gap recorded separately."
+  },
+  {
+    "id": "enterprise_bio:2",
+    "module": "enterprise_bio",
+    "source_path": "spec/enterprise_bio.md",
+    "spec_sha256": "2d3a0e5fedba0da1948c70f22a9cd9aad678d8bb83cd3bc5ef3a274b6d2d6ebd",
+    "text": "It details features like robotic lab automation and private data vaults.",
+    "review_status": "PARTIAL_LOCAL_VAULT_QUEUE",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Fernet file-backed per-tenant vault and in-memory job lifecycle/export implemented; not connected physical robotic lab execution. Private-vault/security efficacy not broadly audited here."
+  },
+  {
+    "id": "enterprise_bio:3",
+    "module": "enterprise_bio",
+    "source_path": "spec/enterprise_bio.md",
+    "spec_sha256": "2d3a0e5fedba0da1948c70f22a9cd9aad678d8bb83cd3bc5ef3a274b6d2d6ebd",
+    "text": "Enterprise Bio offers scalable solutions for biotechnology companies, providing the computational power needed for large-scale discovery and high-throughput engineering.",
+    "review_status": "SCALE_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Local classes and static tier claims, no deployed scale/load/SLA evidence or real compute availability verified. Prices are source constants, not verified commercial offerings."
+  },
+  {
+    "id": "microbiome_exp:1",
+    "module": "microbiome_exp",
+    "source_path": "spec/microbiome_exp.md",
+    "spec_sha256": "1738ac6601ec318496327774dec5fb45e274fabdf2adb8ccd2d26d13b581d65c",
+    "text": "# Microbiome Exp\n\nMicrobiome Exp: A taxonomic analysis engine for 16S rRNA data, providing diversity indices, taxonomic distributions, and functional potential summaries.",
+    "review_status": "SCOPED_SUPPLIED_COUNT_STATS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Genus counts/cohort statistics exist; not raw 16S sequencing taxonomic inference. Independent balanced Shannon=ln(2), Bray=.5, repeated."
+  },
+  {
+    "id": "microbiome_exp:2",
+    "module": "microbiome_exp",
+    "source_path": "spec/microbiome_exp.md",
+    "spec_sha256": "1738ac6601ec318496327774dec5fb45e274fabdf2adb8ccd2d26d13b581d65c",
+    "text": "It correlates microbial profiles with publication trends and disease states, offering a comprehensive view of interactions.",
+    "review_status": "PARTIAL_ASSOCIATION_NOT_PUBLICATION_TREND",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Static disease genus flags and placeholder publication_trend_link, no publication-trend retrieval/correlation in core source."
+  },
+  {
+    "id": "microbiome_exp:3",
+    "module": "microbiome_exp",
+    "source_path": "spec/microbiome_exp.md",
+    "spec_sha256": "1738ac6601ec318496327774dec5fb45e274fabdf2adb8ccd2d26d13b581d65c",
+    "text": "Microbiome Exp provides the data necessary for understanding the microbiome's role in human health.",
+    "review_status": "SCOPED_DESCRIPTIVE_NOT_HEALTH_PROOF",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Descriptive counts and functional annotation lookups, disease associations not diagnosis; microbial health mechanism accuracy not established."
+  },
+  {
+    "id": "microbiome_rx:1",
+    "module": "microbiome_rx",
+    "source_path": "spec/microbiome_rx.md",
+    "spec_sha256": "da09dd2cfcbadb21bc167e8d7c6238fc8e77fa17a159ec5ee3095bad6b5876a7",
+    "text": "# Microbiome Rx\n\nMicrobiome Rx: A simulation engine for metabolic interactions within microbial communities, predicting how diet or antibiotics alter the flux of key metabolites.",
+    "review_status": "SCOPED_COMMUNITY_ODE",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Species/metabolite ODE uses curated growth/interactions and supplied diet/antibiotic effects; no calibrated measured human metabolite flux."
+  },
+  {
+    "id": "microbiome_rx:2",
+    "module": "microbiome_rx",
+    "source_path": "spec/microbiome_rx.md",
+    "spec_sha256": "da09dd2cfcbadb21bc167e8d7c6238fc8e77fa17a159ec5ee3095bad6b5876a7",
+    "text": "It enables the design of interventions that restore healthy metabolic function to dysbiotic microbiomes.",
+    "review_status": "NOT_RESTORATION_VALIDATION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Differential-evolution diet optimizer compares model targets/achieved and convergence. Does not establish restoration of real healthy metabolic function."
+  },
+  {
+    "id": "microbiome_rx:3",
+    "module": "microbiome_rx",
+    "source_path": "spec/microbiome_rx.md",
+    "spec_sha256": "da09dd2cfcbadb21bc167e8d7c6238fc8e77fa17a159ec5ee3095bad6b5876a7",
+    "text": "Microbiome Rx provides insights into the functional state, helping researchers develop targeted strategies.",
+    "review_status": "SCOPED_MODEL_INSIGHTS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Trajectory/diagnostics and intervention ranking exist, source disclaims clinical response; no actual targeted clinical strategy validity."
+  }
+]

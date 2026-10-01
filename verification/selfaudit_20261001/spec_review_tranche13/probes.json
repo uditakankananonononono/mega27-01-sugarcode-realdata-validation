@@ -1,0 +1,24 @@
+{
+  "microbiome": {
+    "shannon_a": 0.6931471805599453,
+    "independent_log2": 0.6931471805599453,
+    "shannon_match": true,
+    "bray_curtis": 0.5,
+    "independent_bray": 0.5,
+    "repeat_equal": true
+  },
+  "enterprise": {
+    "99_allowed": true,
+    "next_2_denied": true,
+    "remaining": 1.0,
+    "chain_verified": true
+  },
+  "bioimage": {
+    "area": 24,
+    "independent_area": 24,
+    "area_match": true,
+    "integrated_intensity": 42.0,
+    "independent_intensity": 42,
+    "scope": "Synthetic supplied segmentation label geometry only; no pixel/segmentation-quality pass."
+  }
+}
