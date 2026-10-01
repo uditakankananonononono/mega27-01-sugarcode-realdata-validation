@@ -1,0 +1,23 @@
+.FF                                                                      [100%]
+=================================== FAILURES ===================================
+____________________ test_exact_copy_penalizes_specificity _____________________
+
+    def test_exact_copy_penalizes_specificity():
+     none=reward_decomposition(G);copy=reward_decomposition(G,background=G+'AGG')
+>    assert copy['components']['specificity']<none['components']['specificity']
+E    assert 1 < 1
+
+../sugarcode-muse-reg-work/verification/selfaudit_20261001/muse_specificity/test_muse_specificity_regression.py:10: AssertionError
+____________ test_chromatin_condition_changes_repair_probabilities _____________
+
+    def test_chromatin_condition_changes_repair_probabilities():
+     low=repair_outcomes(G*2,chromatin=.1);high=repair_outcomes(G*2,chromatin=.9)
+>    assert any(not math.isclose(low[k],high[k]) for k in ('NHEJ','MMEJ','HDR'))
+E    assert False
+E     +  where False = any(<generator object test_chromatin_condition_changes_repair_probabilities.<locals>.<genexpr> at 0x7f70c15fc890>)
+
+../sugarcode-muse-reg-work/verification/selfaudit_20261001/muse_specificity/test_muse_specificity_regression.py:14: AssertionError
+=========================== short test summary info ============================
+FAILED ../sugarcode-muse-reg-work/verification/selfaudit_20261001/muse_specificity/test_muse_specificity_regression.py::test_exact_copy_penalizes_specificity
+FAILED ../sugarcode-muse-reg-work/verification/selfaudit_20261001/muse_specificity/test_muse_specificity_regression.py::test_chromatin_condition_changes_repair_probabilities
+2 failed, 1 passed in 0.11s
