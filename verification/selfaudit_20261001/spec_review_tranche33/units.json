@@ -1,0 +1,2062 @@
+[
+  {
+    "id": "bioprint_pro:1",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "# BioPrint Pro\n\nBioPrint Pro: A calibration hub for high-fidelity 3D bioprinting that optimizes ink rheology, pressure, and crosslinking kinetics for biological scaffolds.",
+    "review_status": "PARTIAL_EXPLICIT_PHYSICS_NOT_LEARNED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "3inkCross/Poiseuillecalibration/boundedDE, not actualprintfidelity."
+  },
+  {
+    "id": "bioprint_pro:2",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "It provides 3D molecular visualizations of bio-ink components and predicts structural integrity.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Rheologyarray not3Dmolecularrender; no visual-readinessclaim."
+  },
+  {
+    "id": "bioprint_pro:3",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "BioPrint Pro enables the creation of high-resolution tissues for regenerative medicine, drug testing, and tissue modeling.",
+    "review_status": "NOT_FIDELITY_VIABILITY_ASSURANCE",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No highresolutiontissue/regenerative performance."
+  },
+  {
+    "id": "bioprint_pro:4",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Microbiome Rx\nMicrobiome Rx is formulated as a multi-scale dynamical systems simulator for gut microbial ecosystems, where each microbial species is represented as a genome-scale metabolic network embedded within a coupled ecological field.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:5",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "The system integrates Flux Balance Analysis (FBA), dynamic FBA (dFBA), and enzyme-constrained metabolic models (ecFBA) into a unified community constraint optimization problem.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:6",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Each species iii is defined by a stoichiometric matrix SiS_iSi\u200b, flux vector viv_ivi\u200b, and uptake constraints Ui(t)U_i(t)Ui\u200b(t), while community metabolism is solved under the global constraint \u2211iSivi=0\\sum_i S_i v_i = 0\u2211i\u200bSi\u200bvi\u200b=0 with time-dependent nutrient boundary conditions derived from dietary intake functions.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:7",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "At the ecosystem level, Microbiome Rx couples metabolic fluxes with population dynamics through a hybrid ODE\u2013constraint system.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:8",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Species abundance xi(t)x_i(t)xi\u200b(t) evolves according to generalized Lotka\u2013Volterra equations extended with metabolite-dependent growth rates: dxidt=xi(\u03bci(M,t)\u2212\u2211j\u03b1ijxj)\\frac{dx_i}{dt} = x_i(\\mu_i(M,t) - \\sum_j \\alpha_{ij} x_j)dtdxi\u200b\u200b=xi\u200b(\u03bci\u200b(M,t)\u2212\u2211j\u200b\u03b1ij\u200bxj\u200b), where \u03bci(M,t)\\mu_i(M,t)\u03bci\u200b(M,t) is a metabolite-dependent growth functional derived from intracellular flux solutions.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:9",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Metabolite concentrations Mk(t)M_k(t)Mk\u200b(t) evolve via diffusion\u2013reaction equations incorporating microbial secretion, uptake, and host absorption kinetics.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:10",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Dietary perturbations are encoded as time-varying input tensors that map macronutrients into metabolically accessible substrates via enzymatic decomposition functions.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:11",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "These inputs modify transport flux constraints and reshape feasible flux polytope geometry for each organism.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:12",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Antibiotics are modeled as stochastic killing operators with species-specific susceptibility kernels Ai(t)A_i(t)Ai\u200b(t), introducing discontinuities in abundance trajectories and inducing regime shifts in metabolic network topology.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:13",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Microbial interaction structure is represented as a weighted bipartite metabolic exchange graph, where edges encode metabolite flux coupling coefficients derived from shadow price analysis in dual optimization space.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:14",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "This allows identification of keystone species via sensitivity gradients \u2202Mk/\u2202xi\\partial M_k / \\partial x_i\u2202Mk\u200b/\u2202xi\u200b, revealing control points in ecosystem metabolic stability.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:15",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "The system identifies emergent cross-feeding cycles, syntrophic loops, and metabolic bottlenecks using eigen decomposition of the interaction Laplacian matrix.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:16",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Finally, Microbiome Rx performs control-theoretic optimization using reinforcement learning over intervention spaces defined by diet composition vectors, probiotic injections, and antibiotic schedules.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:17",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "The objective function minimizes divergence from a healthy metabolic attractor state defined in flux space using Wasserstein distance metrics.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:18",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Outputs include optimal intervention trajectories, predicted metabolite restoration curves, and stability basin mappings of healthy vs dysbiotic microbiome regimes.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:19",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Riboswitch\nRiboswitch is a thermodynamically grounded RNA design engine that models RNA molecules as stochastic ensembles governed by partition functions over secondary structure space.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:20",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "The system computes folding probability distributions P(Si)P(S_i)P(Si\u200b) over all admissible base-pairing configurations using McCaskill-style dynamic programming extended with ligand-dependent energy perturbations.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:21",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Each RNA sequence is evaluated under a free energy landscape G(S)=\u0394Gbase(S)+\u0394Gligand(S,L)G(S) = \\Delta G_{base}(S) + \\Delta G_{ligand}(S,L)G(S)=\u0394Gbase\u200b(S)+\u0394Gligand\u200b(S,L), where ligand binding modifies structural stability.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:22",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Ligand\u2013RNA interactions are modeled using hybrid quantum-informed docking potentials combined with coarse-grained molecular mechanics.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:23",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Binding affinity is computed as \u0394Gbind=\u0394H\u2212T\u0394S\\Delta G_{bind} = \\Delta H - T\\Delta S\u0394Gbind\u200b=\u0394H\u2212T\u0394S, with entropic penalties estimated from conformational restriction of RNA loops upon ligand association.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:24",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "The system identifies aptamer domains through graph-based motif extraction and optimizes binding pockets using differentiable sequence design algorithms operating in nucleotide latent space.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:25",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Co-transcriptional folding kinetics are modeled using kinetic partitioning theory, where RNA folding pathways are governed by rate equations dPidt=\u2211jkjiPj\u2212kijPi\\frac{dP_i}{dt} = \\sum_j k_{ji}P_j - k_{ij}P_idtdPi\u200b\u200b=\u2211j\u200bkji\u200bPj\u200b\u2212kij\u200bPi\u200b.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:26",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "This captures folding traps, metastable intermediates, and transcription speed\u2013dependent structural bifurcations.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:27",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "RNA polymerase elongation rate acts as a coupling parameter between sequence synthesis and folding trajectory evolution.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:28",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "The switching mechanism is modeled as a bistable thermodynamic system with ligand-dependent energy minima transitions.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:29",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Riboswitch behavior is characterized by a double-well free energy potential where ligand binding reshapes basin depths, triggering structural state transitions between ON and OFF conformations.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:30",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Signal sensitivity is quantified via derivative response functions dEexpressiond[L]\\frac{dE_{expression}}{d[L]}d[L]dEexpression\u200b\u200b, enabling tuning of detection thresholds.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:31",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Finally, Riboswitch outputs are optimized RNA sequences with predicted folding ensembles, ligand response curves, and stochastic gene expression distributions.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:32",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "The system evaluates performance under intracellular noise using Gillespie simulations of transcription\u2013translation coupling, ensuring robustness of biosensor function under physiological variability.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:33",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Phage-Tx\nPhage-Tx is a co-evolutionary stochastic population dynamics simulator that models bacteriophage therapy as an adaptive control system operating over evolving microbial host landscapes.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:34",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "The system extends classical predator\u2013prey models into evolutionary game-theoretic frameworks where both bacterial and phage populations possess mutable trait vectors \u03b8b,\u03b8p\\theta_b, \\theta_p\u03b8b\u200b,\u03b8p\u200b governing receptor structure, infectivity, and resistance mechanisms.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:35",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "The ecological backbone is represented by a coupled nonlinear system of integro-differential equations: bacterial growth is modeled as dBdt=rB(1\u2212BK)\u2212\u03d5(P,B,\u03b8p,\u03b8b)\\frac{dB}{dt} = rB(1 - \\frac{B}{K}) - \\phi(P,B,\\theta_p,\\theta_b)dtdB\u200b=rB(1\u2212KB\u200b)\u2212\u03d5(P,B,\u03b8p\u200b,\u03b8b\u200b), while phage dynamics follow dPdt=\u03b2\u03d5(P,B)\u2212\u03b4P\\frac{dP}{dt} = \\beta \\phi(P,B) - \\delta PdtdP\u200b=\u03b2\u03d5(P,B)\u2212\u03b4P, where infection kernel \u03d5\\phi\u03d5 is a function of receptor-binding affinity distributions.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:36",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "This kernel evolves dynamically under mutation-selection pressure.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:37",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Evolutionary adaptation is modeled using Wright\u2013Fisher diffusion processes applied to trait distributions, where mutation operators perturb receptor-binding proteins, capsid structure, and anti-CRISPR evasion strategies.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:38",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Fitness landscapes are computed in high-dimensional phenotype space, where adaptive peaks correspond to successful infection or resistance phenotypes.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:39",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Spatial structure is incorporated using reaction\u2013diffusion PDEs to simulate biofilm environments, where diffusion coefficients vary spatially due to extracellular polymeric substance density.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:40",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "This creates heterogeneous infection zones, leading to spatial refuges that enable bacterial persistence and phage-resistant micro-niches.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:41",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "The model captures traveling wave dynamics of infection fronts.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:42",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Finally, Phage-Tx performs optimal control over phage cocktail design using evolutionary reinforcement learning.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:43",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "The objective function maximizes bacterial eradication probability while minimizing resistance emergence entropy H(R)H(R)H(R).",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:44",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Outputs include time-dependent phage dosing strategies, optimal strain combinations, and predicted evolutionary escape trajectories.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:45",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Phage Designer\nPhage Designer is a synthetic virology platform that formulates bacteriophage genomes as modular programmable genetic systems constrained by structural assembly physics and host interaction biochemistry.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:46",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Each genome is decomposed into functional modules: capsid assembly units, tail fiber specificity domains, lysis cassettes, and optional payload modules, each governed by sequence\u2013structure\u2013function mappings.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:47",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Host range engineering is formulated as a protein\u2013receptor binding optimization problem over bacterial surface proteomes.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:48",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Binding affinity is computed using energy-based docking functions Ebind=EvdW+Eelectrostatic+EdesolvationE_{bind} = E_{vdW} + E_{electrostatic} + E_{desolvation}Ebind\u200b=EvdW\u200b+Eelectrostatic\u200b+Edesolvation\u200b, evaluated across receptor ensembles derived from bacterial outer membrane protein variability distributions.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:49",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "This produces probabilistic host infectivity landscapes across bacterial strain populations.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:50",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Genome design constraints include capsid packaging limits governed by viral headful packaging models, transcriptional timing constraints governed by promoter\u2013terminator interaction networks, and structural protein folding constraints modeled via AlphaFold-like energy minimization approximations.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:51",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "These constraints define a feasible genomic design manifold within which viable phage genomes must lie.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:52",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Therapeutic payload engineering introduces heterologous gene insertion modules, allowing phages to deliver CRISPR-Cas systems, toxin\u2013antitoxin modules, or quorum sensing disruptors.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:53",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Expression dynamics are simulated using bacterial transcriptional kinetics models incorporating sigma factor competition, ribosomal allocation limits, and metabolic burden penalties that influence bacterial survival probability.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:54",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Finally, Phage Designer performs multi-objective optimization across infectivity, specificity, evolutionary stability, and payload efficacy.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:55",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Outputs include genome-validated phage constructs, predicted host range matrices, infection kinetics curves, and evolutionary robustness scores under bacterial adaptive pressure.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:56",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "BioPrint Pro\nBioPrint Pro is a multiphysics simulation platform for biofabrication systems that integrates non-Newtonian fluid mechanics, cellular biomechanics, and hydrogel crosslinking chemistry into a unified predictive bioprinting framework.",
+    "review_status": "PARTIAL_EXPLICIT_PHYSICS_NOT_LEARNED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Scalarflow/1Dgel/closedformmechanics/ODEmaturation, not verifiedcoupled multiphysics."
+  },
+  {
+    "id": "bioprint_pro:57",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Bio-inks are modeled as viscoelastic multiphase continua governed by constitutive equations such as the Oldroyd-B and Carreau\u2013Yasuda models, capturing shear-thinning and stress relaxation behavior during extrusion.",
+    "review_status": "PARTIAL_EXPLICIT_PHYSICS_NOT_LEARNED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "ActualCrossviscosity notCarreau; scalarGiesekus-style elasticstress, notOldroydBPDE."
+  },
+  {
+    "id": "bioprint_pro:58",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Extrusion dynamics are simulated using Navier\u2013Stokes equations coupled with particle-based cell tracking algorithms that resolve cell distribution under shear stress gradients.",
+    "review_status": "PARTIAL_EXPLICIT_PHYSICS_NOT_LEARNED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "SteadyPoiseuille/root and radialcellsamples, noNavierStokes/particletrajectories."
+  },
+  {
+    "id": "bioprint_pro:59",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Cell viability is modeled as a function of mechanical stress exposure V=e\u2212\u03bb\u03c3V = e^{-\\lambda \\sigma}V=e\u2212\u03bb\u03c3, where \u03c3\\sigma\u03c3 represents shear stress magnitude during nozzle passage, allowing prediction of stress-induced apoptosis.",
+    "review_status": "PARTIAL_EXPLICIT_PHYSICS_NOT_LEARNED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Viabilityshear-rate times passage cancelsvelocity;20vs200kPasameviability within1.12e-16 despite stress51.6vs401.4Pa, no apoptosiscalibration."
+  },
+  {
+    "id": "bioprint_pro:60",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Crosslinking kinetics are modeled using reaction\u2013diffusion equations where gelation is driven by ionic diffusion, photoinitiated radical polymerization, or enzymatic crosslinking reactions.",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "1Dconcentration/gelreactiondiffusion3chemistryconstant fixtures, not radicalpolymerizationmechanism."
+  },
+  {
+    "id": "bioprint_pro:61",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "The system solves coupled PDEs describing polymer network formation and spatial stiffness evolution over time, enabling prediction of scaffold heterogeneity and structural anisotropy.",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "1Dgel/stiffness arrays not3Dpolymernetwork."
+  },
+  {
+    "id": "bioprint_pro:62",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Mechanical stability is evaluated using finite element analysis on evolving tissue geometries, incorporating nonlinear elasticity, poroelastic fluid flow, and time-dependent viscoelastic relaxation.",
+    "review_status": "PARTIAL_EXPLICIT_PHYSICS_NOT_LEARNED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Independentstrain/closedformrelaxation imposedpressuredecay, noFEmatrix/geometrysolve."
+  },
+  {
+    "id": "bioprint_pro:63",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Boundary conditions simulate physiological loading such as vascular pressure, compressive musculoskeletal forces, and shear flow in perfused bioreactors.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Singleload/prescribedgradient no specificphysiologicalboundarysolve."
+  },
+  {
+    "id": "bioprint_pro:64",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Finally, BioPrint Pro performs global optimization over printing parameters using gradient-based and evolutionary algorithms.",
+    "review_status": "SCOPED_FINITE_HEURISTIC_OPTIMUM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "ActualseededDE5iterations/popsize5, nogradientoptimizer/globaloptimalityproof."
+  },
+  {
+    "id": "bioprint_pro:65",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "The objective function maximizes structural fidelity, cell viability, and long-term tissue maturation stability.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Scoreviability/fidelity/oxygen, no explicitlongtermmaturationstabilityobjective."
+  },
+  {
+    "id": "bioprint_pro:66",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "Outputs include optimized print trajectories, material compositions, mechanical resilience maps, and predicted maturation pathways for engineered tissues.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "5parameter/array/ODEoutputs no printtrajectory/compositionoptimization/verifiedmap."
+  },
+  {
+    "id": "bioprint_pro:67",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "BioCanvas 7.0: A genetic architecture sandbox for building complex biological systems from modular components, integrating data from over 20 platforms.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:68",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "It visualizes logic interconnects and simulates functional outcomes in a high-fidelity environment.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "bioprint_pro:69",
+    "module": "bioprint_pro",
+    "source_path": "spec/bioprint_pro.md",
+    "spec_sha256": "cc31a990e6ec57e6751f694741b1b5da33d3d8de75750eebe351fe6f3f977b07",
+    "text": "BioCanvas 7.0 offers a freestyle design space for bio-engineering, enabling researchers to explore new genetic architectures.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:1",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "# SynDroid\n\nSynDroid: A simulator for minimal synthetic cells containing only essential gene sets, predicting emergent behaviors and functional outcomes.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "6category legacyODE/16gene fixture not realminimalorganism calibration."
+  },
+  {
+    "id": "syndroid:2",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "It provides simulation logs and summaries of how simple genetic programs give rise to complex cellular actions.",
+    "review_status": "SCOPED_SIMULATION_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Computed logs/summaries, no livingaction validity."
+  },
+  {
+    "id": "syndroid:3",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "SynDroid helps researchers explore the fundamental principles of life and design biological machines.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Research exploration only."
+  },
+  {
+    "id": "syndroid:4",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "Here are the next modules\u2014expanded into deeply technical, multi-layered systems integrating mathematics, computation, and advanced biology:\n\nOrganoid AI\nOrganoid AI evolves into a fully mechanistic, multi-scale simulation environment that reconstructs three-dimensional tissue architecture from patient-derived multi-omic data, treating organoids not as static cultures but as dynamic, spatially resolved biological systems governed by coupled biochemical and biomechanical processes.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:5",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "At its core, it integrates single-cell RNA-seq, spatial transcriptomics, and proteomic gradients into a unified tensor representation, where each voxel encodes gene expression vectors, signaling intensities, and local microenvironmental variables.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:6",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "These tensors evolve according to partial differential equations (PDEs) modeling diffusion of morphogens, nutrient gradients, and paracrine signaling, allowing Organoid AI to simulate emergent tissue patterning, polarity formation, and niche specialization.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:7",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "The platform constructs digital twins of organoids by solving hybrid agent-based and continuum models, where individual cells are treated as agents with internal regulatory networks, while extracellular fields (oxygen, growth factors, ECM stiffness) are modeled continuously.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:8",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "Cellular behaviors such as proliferation, apoptosis, and differentiation are governed by probabilistic rules derived from gene regulatory network dynamics, often implemented via stochastic differential equations.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:9",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "This enables the simulation of clonal evolution, spatial heterogeneity, and tumor-like microenvironments, capturing phenomena such as hypoxia-induced resistance or niche-driven stem cell maintenance.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:10",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "From a biochemical engineering perspective, Organoid AI optimizes media composition using inverse problem-solving techniques, where desired phenotypic outcomes (e.g., differentiation into a specific lineage) are treated as target states, and the system computes optimal concentrations of cytokines, growth factors, and metabolites.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:11",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "This involves solving constrained optimization problems over high-dimensional parameter spaces, often using Bayesian optimization or reinforcement learning to iteratively refine media recipes based on simulated outcomes.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:12",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "Drug response modeling is achieved through integration of pharmacokinetic/pharmacodynamic (PK/PD) models with intracellular signaling simulations.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:13",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "Organoid AI predicts how drug molecules diffuse through 3D tissue, bind to targets, and propagate downstream effects across signaling networks like MAPK or PI3K.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:14",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "These interactions are quantified using reaction-diffusion equations and network perturbation analysis, allowing the system to simulate dose-response curves, resistance emergence, and synergistic effects of drug combinations in a spatially realistic context.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:15",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "Ultimately, Organoid AI becomes a predictive platform for translational research, bridging in vitro and in vivo biology by providing experimentally grounded, mathematically rigorous simulations of human tissue systems.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:16",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "Its ability to integrate spatial biology, systems dynamics, and machine learning enables researchers to design experiments, optimize culture conditions, and predict therapeutic responses with unprecedented precision.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:17",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "Virtual Cell\nVirtual Cell expands into a comprehensive multi-scale computational framework that unifies metabolic networks, gene regulatory circuits, and signaling pathways into a single dynamical system, enabling full-stack simulation of cellular behavior under arbitrary perturbations.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:18",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "At its foundation, it employs flux balance analysis (FBA) and its dynamic variants (dFBA) to model metabolic fluxes, solving linear optimization problems of the form maximize ( c^T v ) subject to stoichiometric constraints ( Sv = 0 ), where ( S ) represents the stoichiometric matrix and ( v ) the flux vector.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:19",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "This metabolic backbone is tightly coupled with transcriptional and translational dynamics modeled via nonlinear ODE systems.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:20",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "The integration of gene regulatory networks introduces a layer of Boolean and continuous models, where transcription factor interactions are encoded as logical rules or Hill functions, enabling the simulation of gene expression dynamics in response to environmental signals.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:21",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "These networks are further embedded within signaling cascades modeled through mass-action kinetics, capturing phosphorylation events, feedback loops, and signal amplification across pathways such as MAPK/ERK and PI3K/AKT.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:22",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "Virtual Cell incorporates stochasticity at multiple levels, using algorithms like Gillespie\u2019s stochastic simulation algorithm to model gene expression noise and molecular fluctuations, which are critical for understanding phenotypic heterogeneity.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:23",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "This stochastic layer is particularly important when simulating rare events such as cell fate transitions or drug resistance emergence, where deterministic models fail to capture variability.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:24",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "From a computational standpoint, Virtual Cell leverages high-performance computing and graph-based representations of biological networks, enabling efficient traversal and simulation of complex interaction maps.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:25",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "Machine learning models, including graph neural networks and recurrent architectures, are used to approximate system dynamics and accelerate simulations, effectively learning surrogate models that reduce computational cost while preserving accuracy.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:26",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "In essence, Virtual Cell acts as a universal computational sandbox for biology, where hypotheses can be tested by perturbing any component\u2014genes, proteins, metabolites\u2014and observing system-wide consequences.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:27",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "Its integration of optimization, dynamical systems theory, and machine learning provides a powerful framework for understanding and engineering cellular systems with predictive accuracy.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:28",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "BioImage AI\nBioImage AI transforms microscopy analysis into a mathematically rigorous computer vision and representation learning problem, leveraging state-of-the-art deep learning architectures to extract high-dimensional biological information from imaging data.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:29",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "At its core, it utilizes convolutional neural networks (CNNs), vision transformers (ViTs), and hybrid architectures to perform segmentation, classification, and feature extraction, treating images as structured data where spatial correlations encode biological meaning.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:30",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "These models are trained on large-scale annotated datasets and refined using self-supervised learning techniques to capture subtle morphological variations.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:31",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "The segmentation pipeline employs advanced architectures such as U-Net variants and diffusion-based models to achieve pixel-level accuracy, correcting for common issues like overlapping cells, uneven illumination, and imaging noise.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:32",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "Loss functions are carefully designed to balance boundary accuracy and region consistency, often combining cross-entropy with Dice or IoU metrics.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:33",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "Post-processing steps incorporate graph-based algorithms to refine segmentation masks, ensuring biologically meaningful object delineation.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:34",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "BioImage AI extends beyond static analysis by embedding images into latent feature spaces using representation learning, enabling clustering, anomaly detection, and trajectory inference.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:35",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "These latent embeddings capture complex phenotypic signatures, allowing the system to identify subtle changes in cell morphology associated with drug treatments, genetic perturbations, or disease states.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:36",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "Dimensionality reduction techniques such as t-SNE or UMAP are used to visualize these high-dimensional features, revealing hidden structure in imaging datasets.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:37",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "Mathematically, the system models image formation and noise using probabilistic frameworks, enabling denoising and super-resolution through techniques like Bayesian inference and generative adversarial networks (GANs).",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:38",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "It also incorporates temporal models for live-cell imaging, using recurrent neural networks or neural ODEs to track dynamic changes in cell behavior over time.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:39",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "Ultimately, BioImage AI converts raw visual data into quantitative, interpretable biological insights, bridging the gap between microscopy and systems biology.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:40",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "Its integration of deep learning, statistical modeling, and image processing enables high-throughput, automated analysis of complex biological systems, accelerating discovery in areas ranging from drug screening to developmental biology.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:41",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "CellPainter\nCellPainter evolves into a high-dimensional phenotypic profiling engine that treats multiplex fluorescent imaging as a data-rich representation of cellular state, integrating chemical biology, imaging, and machine learning into a unified analytical framework.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:42",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "Each cell is represented as a vector in a high-dimensional feature space, where dimensions correspond to morphological, textural, and intensity-based features extracted from multiple staining channels, capturing organelle structure, cytoskeletal organization, and nuclear architecture.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:43",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "The system applies advanced feature extraction techniques, combining handcrafted descriptors (e.g., Haralick textures, shape moments) with deep learning-based embeddings derived from CNNs trained on large-scale imaging datasets.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:44",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "These features are normalized and integrated into a unified representation, enabling comparison across experiments and conditions.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:45",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "Statistical methods such as principal component analysis (PCA) and manifold learning are used to reduce dimensionality and identify dominant phenotypic axes.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:46",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "CellPainter leverages clustering algorithms and metric learning to identify phenotypic signatures associated with specific perturbations, effectively mapping drugs or mutations to distinct regions in feature space.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:47",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "It uses supervised and semi-supervised learning to classify phenotypes and predict mechanisms of action, often correlating imaging features with underlying molecular pathways through integrative analysis with transcriptomic or proteomic data.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:48",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "From a systems biology perspective, CellPainter models phenotypic changes as trajectories in feature space, enabling the study of dynamic processes such as differentiation or drug response.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:49",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "These trajectories are analyzed using dynamical systems tools, identifying attractors, bifurcations, and transition states that correspond to biological events.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:50",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "Ultimately, CellPainter transforms imaging into a quantitative, systems-level readout of cellular function, enabling the discovery of novel drug mechanisms, identification of subtle phenotypic effects, and integration of imaging data with other omics layers for a holistic understanding of cellular biology.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:51",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "CellPainter 4D\nCellPainter 4D extends phenotypic profiling into the temporal domain, modeling cellular morphology as a time-evolving dynamical system embedded in high-dimensional feature space.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:52",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "It constructs trajectories of cellular states by linking sequential imaging data, using algorithms such as optimal transport and trajectory inference to map how cells transition over time under different conditions.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:53",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "The system employs neural ordinary differential equations (neural ODEs) and recurrent architectures to model temporal dynamics, learning continuous-time representations of morphological changes.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:54",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "These models capture both deterministic trends and stochastic fluctuations, enabling accurate prediction of future states and identification of critical transition points in processes such as differentiation or apoptosis.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:55",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "Mathematically, CellPainter 4D analyzes trajectories using tools from dynamical systems theory, identifying stable and unstable manifolds, attractors, and phase transitions.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:56",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "It quantifies rates of change, curvature, and divergence in feature space, providing insights into the speed and directionality of biological processes.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:57",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "These metrics are critical for understanding how quickly cells respond to perturbations and whether responses are reversible or irreversible.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:58",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "The platform integrates temporal imaging data with molecular measurements, aligning morphological trajectories with gene expression or signaling dynamics.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:59",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "This multi-modal integration enables causal inference, linking changes in morphology to underlying molecular events and identifying key regulators of dynamic processes.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:60",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "Ultimately, CellPainter 4D provides a four-dimensional view of cellular behavior, combining space, time, and molecular context into a unified framework.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:61",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "Its ability to model dynamic phenotypes enables deeper understanding of biological processes and more precise characterization of responses to interventions.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "syndroid:62",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "SynDroid\nSynDroid advances minimal cell simulation into a rigorous computational framework for designing and analyzing synthetic life systems, treating minimal genomes as programmable instruction sets that give rise to emergent cellular behavior.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "16gene programmableprocess fixture, no rigorouslife validity."
+  },
+  {
+    "id": "syndroid:63",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "It models gene expression, metabolic activity, and regulatory interactions within a reduced genome, using systems of coupled differential equations and stochastic simulations to capture the interplay between genetic programs and cellular function.",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "8stateODE plus exactGillespieSSA; SSA outputs not drivingODE."
+  },
+  {
+    "id": "syndroid:64",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "The platform constructs minimal genomes by solving combinatorial optimization problems over gene sets, identifying the smallest set of genes required to sustain life under specific conditions.",
+    "review_status": "SCOPED_FINITE_HEURISTIC_OPTIMUM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Cost-weightedMIP16genes; independentexhaustivefixturecost32, not smallest viable biologicalgenome."
+  },
+  {
+    "id": "syndroid:65",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "This involves integrating essentiality data, metabolic network models, and gene interaction maps, often using integer linear programming (ILP) to identify optimal gene subsets.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Fixedessentialflags/processcoverage/ATPpair, no empiricalgeneinteraction/metabolic network integration."
+  },
+  {
+    "id": "syndroid:66",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "SynDroid simulates cellular processes such as replication, transcription, translation, and metabolism using mechanistic models, capturing how simple genetic programs produce complex behaviors.",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Replication/tx/tl/ATP/glucose/damage/outputODE uncalibrated."
+  },
+  {
+    "id": "syndroid:67",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "It incorporates feedback loops, resource allocation constraints, and noise, enabling realistic simulation of minimal cell dynamics.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Feedback/energy/burdenODE plus separateSSA noise not propagated."
+  },
+  {
+    "id": "syndroid:68",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "From an engineering perspective, SynDroid integrates design and validation workflows, allowing users to test synthetic circuits within minimal cells and evaluate performance under \u0645\u062e\u062a\u0644\u0641 conditions.",
+    "review_status": "SCOPED_SIMULATION_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Circuitparameters and stress/glucoseODE, no validatedsyntheticcircuit."
+  },
+  {
+    "id": "syndroid:69",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "It predicts stability, robustness, and evolutionary dynamics, helping researchers design minimal organisms that maintain function over time.",
+    "review_status": "SCOPED_STOCHASTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Seeded3lineageburdenWright-Fisher, no actual lifetime validity."
+  },
+  {
+    "id": "syndroid:70",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "Ultimately, SynDroid provides a platform for exploring the fundamental principles of life and engineering synthetic organisms, bridging theoretical biology and practical synthetic biology.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No practical engineeredorganism validation."
+  },
+  {
+    "id": "syndroid:71",
+    "module": "syndroid",
+    "source_path": "spec/syndroid.md",
+    "spec_sha256": "db5127cde19b339ed24ff14dad00fbcf2e0c5f7be8f32178af887fda566068a3",
+    "text": "Its integration of mathematics, computation, and biological insight enables the design of programmable living systems with applications in biotechnology, medicine, and beyond.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No biotechnology/medical living-system performance proof."
+  },
+  {
+    "id": "synlife_evo:1",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "# SynLife Evo\n\nSynLife Evo: A long-term evolutionary simulator for synthetic organisms, predicting how engineered pathways adapt over thousands of generations in competitive environments.",
+    "review_status": "SCOPED_STOCHASTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Actual3^npergeneWright-Fisher competingstrain;2k endpointno-mutation control repeated, no biologycalibration."
+  },
+  {
+    "id": "synlife_evo:2",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "It identifies dominant genotypes and predicted adaptations.",
+    "review_status": "SCOPED_SIMULATION_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Explicitdominantcompetitorgenotype/adaptations;legacyevolve dominantlabel is populationmean."
+  },
+  {
+    "id": "synlife_evo:3",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "SynLife Evo helps researchers design stable and resilient synthetic biological systems, ensuring that engineered functions are maintained during industrial processes.",
+    "review_status": "NOT_INDUSTRIAL_ENSURE",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No industrialmaintenanceassurance."
+  },
+  {
+    "id": "synlife_evo:4",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Microbiome Rx\nMicrobiome Rx is formulated as a multi-scale dynamical systems simulator for gut microbial ecosystems, where each microbial species is represented as a genome-scale metabolic network embedded within a coupled ecological field.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:5",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "The system integrates Flux Balance Analysis (FBA), dynamic FBA (dFBA), and enzyme-constrained metabolic models (ecFBA) into a unified community constraint optimization problem.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:6",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Each species iii is defined by a stoichiometric matrix SiS_iSi\u200b, flux vector viv_ivi\u200b, and uptake constraints Ui(t)U_i(t)Ui\u200b(t), while community metabolism is solved under the global constraint \u2211iSivi=0\\sum_i S_i v_i = 0\u2211i\u200bSi\u200bvi\u200b=0 with time-dependent nutrient boundary conditions derived from dietary intake functions.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:7",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "At the ecosystem level, Microbiome Rx couples metabolic fluxes with population dynamics through a hybrid ODE\u2013constraint system.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:8",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Species abundance xi(t)x_i(t)xi\u200b(t) evolves according to generalized Lotka\u2013Volterra equations extended with metabolite-dependent growth rates: dxidt=xi(\u03bci(M,t)\u2212\u2211j\u03b1ijxj)\\frac{dx_i}{dt} = x_i(\\mu_i(M,t) - \\sum_j \\alpha_{ij} x_j)dtdxi\u200b\u200b=xi\u200b(\u03bci\u200b(M,t)\u2212\u2211j\u200b\u03b1ij\u200bxj\u200b), where \u03bci(M,t)\\mu_i(M,t)\u03bci\u200b(M,t) is a metabolite-dependent growth functional derived from intracellular flux solutions.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:9",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Metabolite concentrations Mk(t)M_k(t)Mk\u200b(t) evolve via diffusion\u2013reaction equations incorporating microbial secretion, uptake, and host absorption kinetics.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:10",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Dietary perturbations are encoded as time-varying input tensors that map macronutrients into metabolically accessible substrates via enzymatic decomposition functions.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:11",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "These inputs modify transport flux constraints and reshape feasible flux polytope geometry for each organism.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:12",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Antibiotics are modeled as stochastic killing operators with species-specific susceptibility kernels Ai(t)A_i(t)Ai\u200b(t), introducing discontinuities in abundance trajectories and inducing regime shifts in metabolic network topology.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:13",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Microbial interaction structure is represented as a weighted bipartite metabolic exchange graph, where edges encode metabolite flux coupling coefficients derived from shadow price analysis in dual optimization space.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:14",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "This allows identification of keystone species via sensitivity gradients \u2202Mk/\u2202xi\\partial M_k / \\partial x_i\u2202Mk\u200b/\u2202xi\u200b, revealing control points in ecosystem metabolic stability.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:15",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "The system identifies emergent cross-feeding cycles, syntrophic loops, and metabolic bottlenecks using eigen decomposition of the interaction Laplacian matrix.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:16",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Finally, Microbiome Rx performs control-theoretic optimization using reinforcement learning over intervention spaces defined by diet composition vectors, probiotic injections, and antibiotic schedules.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:17",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "The objective function minimizes divergence from a healthy metabolic attractor state defined in flux space using Wasserstein distance metrics.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:18",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Outputs include optimal intervention trajectories, predicted metabolite restoration curves, and stability basin mappings of healthy vs dysbiotic microbiome regimes.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:19",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Riboswitch\nRiboswitch is a thermodynamically grounded RNA design engine that models RNA molecules as stochastic ensembles governed by partition functions over secondary structure space.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:20",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "The system computes folding probability distributions P(Si)P(S_i)P(Si\u200b) over all admissible base-pairing configurations using McCaskill-style dynamic programming extended with ligand-dependent energy perturbations.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:21",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Each RNA sequence is evaluated under a free energy landscape G(S)=\u0394Gbase(S)+\u0394Gligand(S,L)G(S) = \\Delta G_{base}(S) + \\Delta G_{ligand}(S,L)G(S)=\u0394Gbase\u200b(S)+\u0394Gligand\u200b(S,L), where ligand binding modifies structural stability.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:22",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Ligand\u2013RNA interactions are modeled using hybrid quantum-informed docking potentials combined with coarse-grained molecular mechanics.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:23",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Binding affinity is computed as \u0394Gbind=\u0394H\u2212T\u0394S\\Delta G_{bind} = \\Delta H - T\\Delta S\u0394Gbind\u200b=\u0394H\u2212T\u0394S, with entropic penalties estimated from conformational restriction of RNA loops upon ligand association.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:24",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "The system identifies aptamer domains through graph-based motif extraction and optimizes binding pockets using differentiable sequence design algorithms operating in nucleotide latent space.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:25",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Co-transcriptional folding kinetics are modeled using kinetic partitioning theory, where RNA folding pathways are governed by rate equations dPidt=\u2211jkjiPj\u2212kijPi\\frac{dP_i}{dt} = \\sum_j k_{ji}P_j - k_{ij}P_idtdPi\u200b\u200b=\u2211j\u200bkji\u200bPj\u200b\u2212kij\u200bPi\u200b.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:26",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "This captures folding traps, metastable intermediates, and transcription speed\u2013dependent structural bifurcations.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:27",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "RNA polymerase elongation rate acts as a coupling parameter between sequence synthesis and folding trajectory evolution.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:28",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "The switching mechanism is modeled as a bistable thermodynamic system with ligand-dependent energy minima transitions.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:29",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Riboswitch behavior is characterized by a double-well free energy potential where ligand binding reshapes basin depths, triggering structural state transitions between ON and OFF conformations.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:30",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Signal sensitivity is quantified via derivative response functions dEexpressiond[L]\\frac{dE_{expression}}{d[L]}d[L]dEexpression\u200b\u200b, enabling tuning of detection thresholds.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:31",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Finally, Riboswitch outputs are optimized RNA sequences with predicted folding ensembles, ligand response curves, and stochastic gene expression distributions.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:32",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "The system evaluates performance under intracellular noise using Gillespie simulations of transcription\u2013translation coupling, ensuring robustness of biosensor function under physiological variability.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:33",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Phage-Tx\nPhage-Tx is a co-evolutionary stochastic population dynamics simulator that models bacteriophage therapy as an adaptive control system operating over evolving microbial host landscapes.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:34",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "The system extends classical predator\u2013prey models into evolutionary game-theoretic frameworks where both bacterial and phage populations possess mutable trait vectors \u03b8b,\u03b8p\\theta_b, \\theta_p\u03b8b\u200b,\u03b8p\u200b governing receptor structure, infectivity, and resistance mechanisms.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:35",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "The ecological backbone is represented by a coupled nonlinear system of integro-differential equations: bacterial growth is modeled as dBdt=rB(1\u2212BK)\u2212\u03d5(P,B,\u03b8p,\u03b8b)\\frac{dB}{dt} = rB(1 - \\frac{B}{K}) - \\phi(P,B,\\theta_p,\\theta_b)dtdB\u200b=rB(1\u2212KB\u200b)\u2212\u03d5(P,B,\u03b8p\u200b,\u03b8b\u200b), while phage dynamics follow dPdt=\u03b2\u03d5(P,B)\u2212\u03b4P\\frac{dP}{dt} = \\beta \\phi(P,B) - \\delta PdtdP\u200b=\u03b2\u03d5(P,B)\u2212\u03b4P, where infection kernel \u03d5\\phi\u03d5 is a function of receptor-binding affinity distributions.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:36",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "This kernel evolves dynamically under mutation-selection pressure.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:37",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Evolutionary adaptation is modeled using Wright\u2013Fisher diffusion processes applied to trait distributions, where mutation operators perturb receptor-binding proteins, capsid structure, and anti-CRISPR evasion strategies.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:38",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Fitness landscapes are computed in high-dimensional phenotype space, where adaptive peaks correspond to successful infection or resistance phenotypes.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:39",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Spatial structure is incorporated using reaction\u2013diffusion PDEs to simulate biofilm environments, where diffusion coefficients vary spatially due to extracellular polymeric substance density.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:40",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "This creates heterogeneous infection zones, leading to spatial refuges that enable bacterial persistence and phage-resistant micro-niches.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:41",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "The model captures traveling wave dynamics of infection fronts.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:42",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Finally, Phage-Tx performs optimal control over phage cocktail design using evolutionary reinforcement learning.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:43",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "The objective function maximizes bacterial eradication probability while minimizing resistance emergence entropy H(R)H(R)H(R).",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:44",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Outputs include time-dependent phage dosing strategies, optimal strain combinations, and predicted evolutionary escape trajectories.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:45",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Phage Designer\nPhage Designer is a synthetic virology platform that formulates bacteriophage genomes as modular programmable genetic systems constrained by structural assembly physics and host interaction biochemistry.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:46",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Each genome is decomposed into functional modules: capsid assembly units, tail fiber specificity domains, lysis cassettes, and optional payload modules, each governed by sequence\u2013structure\u2013function mappings.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:47",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Host range engineering is formulated as a protein\u2013receptor binding optimization problem over bacterial surface proteomes.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:48",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Binding affinity is computed using energy-based docking functions Ebind=EvdW+Eelectrostatic+EdesolvationE_{bind} = E_{vdW} + E_{electrostatic} + E_{desolvation}Ebind\u200b=EvdW\u200b+Eelectrostatic\u200b+Edesolvation\u200b, evaluated across receptor ensembles derived from bacterial outer membrane protein variability distributions.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:49",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "This produces probabilistic host infectivity landscapes across bacterial strain populations.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:50",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Genome design constraints include capsid packaging limits governed by viral headful packaging models, transcriptional timing constraints governed by promoter\u2013terminator interaction networks, and structural protein folding constraints modeled via AlphaFold-like energy minimization approximations.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:51",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "These constraints define a feasible genomic design manifold within which viable phage genomes must lie.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:52",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Therapeutic payload engineering introduces heterologous gene insertion modules, allowing phages to deliver CRISPR-Cas systems, toxin\u2013antitoxin modules, or quorum sensing disruptors.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:53",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Expression dynamics are simulated using bacterial transcriptional kinetics models incorporating sigma factor competition, ribosomal allocation limits, and metabolic burden penalties that influence bacterial survival probability.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:54",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Finally, Phage Designer performs multi-objective optimization across infectivity, specificity, evolutionary stability, and payload efficacy.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:55",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Outputs include genome-validated phage constructs, predicted host range matrices, infection kinetics curves, and evolutionary robustness scores under bacterial adaptive pressure.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:56",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "BioPrint Pro\nBioPrint Pro is a multiphysics simulation platform for biofabrication systems that integrates non-Newtonian fluid mechanics, cellular biomechanics, and hydrogel crosslinking chemistry into a unified predictive bioprinting framework.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:57",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Bio-inks are modeled as viscoelastic multiphase continua governed by constitutive equations such as the Oldroyd-B and Carreau\u2013Yasuda models, capturing shear-thinning and stress relaxation behavior during extrusion.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:58",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Extrusion dynamics are simulated using Navier\u2013Stokes equations coupled with particle-based cell tracking algorithms that resolve cell distribution under shear stress gradients.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:59",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Cell viability is modeled as a function of mechanical stress exposure V=e\u2212\u03bb\u03c3V = e^{-\\lambda \\sigma}V=e\u2212\u03bb\u03c3, where \u03c3\\sigma\u03c3 represents shear stress magnitude during nozzle passage, allowing prediction of stress-induced apoptosis.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:60",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Crosslinking kinetics are modeled using reaction\u2013diffusion equations where gelation is driven by ionic diffusion, photoinitiated radical polymerization, or enzymatic crosslinking reactions.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:61",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "The system solves coupled PDEs describing polymer network formation and spatial stiffness evolution over time, enabling prediction of scaffold heterogeneity and structural anisotropy.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:62",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Mechanical stability is evaluated using finite element analysis on evolving tissue geometries, incorporating nonlinear elasticity, poroelastic fluid flow, and time-dependent viscoelastic relaxation.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:63",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Boundary conditions simulate physiological loading such as vascular pressure, compressive musculoskeletal forces, and shear flow in perfused bioreactors.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:64",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Finally, BioPrint Pro performs global optimization over printing parameters using gradient-based and evolutionary algorithms.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:65",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "The objective function maximizes structural fidelity, cell viability, and long-term tissue maturation stability.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "synlife_evo:66",
+    "module": "synlife_evo",
+    "source_path": "spec/synlife_evo.md",
+    "spec_sha256": "7e721ed9f8eba5e893d846186c4b674c9450bb399d08512adfef4be1ce2d1759",
+    "text": "Outputs include optimized print trajectories, material compositions, mechanical resilience maps, and predicted maturation pathways for engineered tissues.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic blocks SynDroid4-61/BioPrint4-55and67-69/SynLife4-66. Canonical attribution unresolved, no implementation verdict."
+  }
+]

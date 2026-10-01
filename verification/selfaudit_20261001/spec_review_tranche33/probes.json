@@ -1,0 +1,36 @@
+{
+  "runs": [
+    {
+      "syndroid_cost": 32.0,
+      "exhaustive_fixture_cost": 32,
+      "genome_cost_matches": true,
+      "different_SSA_seed_ODE_states_equal": true,
+      "different_SSA_seed_expression_equal": false,
+      "bioprint_flow": 0.9280045146117256,
+      "independent_cross_bisection_reference": 0.9280045146113118,
+      "flow_matches": true,
+      "twenty_vs_twohundred_kpa_viability_equal": false,
+      "twenty_vs_twohundred_kpa_wall_stress_equal": false,
+      "mechanics_closed_form_matches": true,
+      "synlife_2000_generation_endpoint": 2000,
+      "synlife_competition_reference_all_intact": true
+    },
+    {
+      "syndroid_cost": 32.0,
+      "exhaustive_fixture_cost": 32,
+      "genome_cost_matches": true,
+      "different_SSA_seed_ODE_states_equal": true,
+      "different_SSA_seed_expression_equal": false,
+      "bioprint_flow": 0.9280045146117256,
+      "independent_cross_bisection_reference": 0.9280045146113118,
+      "flow_matches": true,
+      "twenty_vs_twohundred_kpa_viability_equal": false,
+      "twenty_vs_twohundred_kpa_wall_stress_equal": false,
+      "mechanics_closed_form_matches": true,
+      "synlife_2000_generation_endpoint": 2000,
+      "synlife_competition_reference_all_intact": true
+    }
+  ],
+  "repeat_equal": true,
+  "limitations": "Fixture math/source checks, not biological accuracy. SSA returned alongsideODE but not drivingODE. BioPrint viscosity usesCross though status saysCarreau; scalar mechanics formula not nonlinearFE. Viability shear*exposure cancelspressure. Pressure viability equality in raw floating arrays differs only1.11e-16; means exactlyequal. Exact equality booleans not interpreted as biological pressure response."
+}
