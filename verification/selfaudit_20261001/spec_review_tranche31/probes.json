@@ -1,0 +1,139 @@
+{
+  "runs": [
+    {
+      "kinetic_truth_rows": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "independent_or_rows": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "truth_matches": true,
+      "independent_input_probability": 0.55,
+      "reference_probability": 0.55,
+      "probability_matches": true,
+      "ligand_occupancy": 0.5,
+      "occupancy_matches": true,
+      "diagnostic_count": 77,
+      "diagnostics_finite": true,
+      "stochastic": {
+        "time": [
+          0.0,
+          0.1,
+          0.2,
+          0.30000000000000004,
+          0.4,
+          0.5,
+          0.6000000000000001,
+          0.7000000000000001,
+          0.8,
+          0.9,
+          1.0
+        ],
+        "series": {
+          "~g1": [
+            0.0,
+            0.0074539529437668405,
+            0.009722148226187544,
+            0.008963316980893608,
+            0.0028473278643532845,
+            0.0009775117766399732,
+            0.0026789071548461,
+            0.0027123018806226766,
+            0.00023207114527299712,
+            0.0027550076323346632,
+            0.006810928531708978
+          ],
+          "GFP": [
+            0.0,
+            0.0,
+            0.0,
+            0.00031822190756757485,
+            0.0005760926452219204,
+            0.012133181789544126,
+            0.011647444018069879,
+            0.010068759163514912,
+            0.009512834202682566,
+            0.00949956526507708,
+            0.009620331528351421
+          ]
+        },
+        "seed": 3
+      },
+      "scope": "Idealized part physics/independent Bernoulli inputs, not physical cellular logic fidelity or molecular diffusion model."
+    },
+    {
+      "kinetic_truth_rows": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "independent_or_rows": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "truth_matches": true,
+      "independent_input_probability": 0.55,
+      "reference_probability": 0.55,
+      "probability_matches": true,
+      "ligand_occupancy": 0.5,
+      "occupancy_matches": true,
+      "diagnostic_count": 77,
+      "diagnostics_finite": true,
+      "stochastic": {
+        "time": [
+          0.0,
+          0.1,
+          0.2,
+          0.30000000000000004,
+          0.4,
+          0.5,
+          0.6000000000000001,
+          0.7000000000000001,
+          0.8,
+          0.9,
+          1.0
+        ],
+        "series": {
+          "~g1": [
+            0.0,
+            0.0074539529437668405,
+            0.009722148226187544,
+            0.008963316980893608,
+            0.0028473278643532845,
+            0.0009775117766399732,
+            0.0026789071548461,
+            0.0027123018806226766,
+            0.00023207114527299712,
+            0.0027550076323346632,
+            0.006810928531708978
+          ],
+          "GFP": [
+            0.0,
+            0.0,
+            0.0,
+            0.00031822190756757485,
+            0.0005760926452219204,
+            0.012133181789544126,
+            0.011647444018069879,
+            0.010068759163514912,
+            0.009512834202682566,
+            0.00949956526507708,
+            0.009620331528351421
+          ]
+        },
+        "seed": 3
+      },
+      "scope": "Idealized part physics/independent Bernoulli inputs, not physical cellular logic fidelity or molecular diffusion model."
+    }
+  ],
+  "repeat_equal": true
+}

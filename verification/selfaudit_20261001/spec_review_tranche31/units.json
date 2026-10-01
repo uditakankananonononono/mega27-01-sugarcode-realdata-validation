@@ -1,0 +1,402 @@
+[
+  {
+    "id": "living_computer:1",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "# Living Computer\n\nLiving Computer: A compiler for cellular logic that designs gene circuits capable of processing biological information. it maps logical operations to genetic parts and simulates signal propagation.",
+    "review_status": "SCOPED_BEHAVIOR_REPRODUCED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Boolean AST desugaring/abstract Hill circuit compiler and parts labels; synthetic OR kinetic rows independently match."
+  },
+  {
+    "id": "living_computer:2",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "Living Computer analyzes stochastic noise, enabling the creation of biological machines that can sense environmental inputs and execute programmed responses with high fidelity.",
+    "review_status": "PARTIAL_SIMULATION_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Parameter noise/Langevin/robustness models exist, no physical environmental response fidelity."
+  },
+  {
+    "id": "living_computer:3",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "Cell-Free Opt (Cell-Free Systems Optimization Engine)\nCell-Free Opt operates as a predictive and optimization framework for cell-free protein synthesis (CFPS) systems, treating biochemical reactions as tunable, open-system kinetics rather than constrained intracellular processes.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign named topic:Cell-Free Opt units3-15 or Stability AI16-26. Canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "living_computer:4",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "It models transcription\u2013translation dynamics using coupled differential equations that capture ribosome loading, mRNA stability, enzyme turnover, and energy regeneration pathways (e.g., phosphoenolpyruvate, creatine phosphate systems).",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign named topic:Cell-Free Opt units3-15 or Stability AI16-26. Canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "living_computer:5",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "By parameterizing reaction components\u2014Mg\u00b2\u207a concentration, NTP levels, ribosome density, tRNA availability\u2014the system identifies optimal regimes that maximize protein yield while minimizing resource depletion and inhibitory byproducts.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign named topic:Cell-Free Opt units3-15 or Stability AI16-26. Canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "living_computer:6",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "At the biochemical level, Cell-Free Opt explicitly simulates enzyme kinetics and cofactor cycling, incorporating Michaelis\u2013Menten parameters and competitive inhibition effects.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign named topic:Cell-Free Opt units3-15 or Stability AI16-26. Canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "living_computer:7",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "It predicts how accumulation of inorganic phosphate, misfolded proteins, or truncated transcripts affects reaction efficiency, and suggests interventions such as chaperone supplementation or energy system redesign.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign named topic:Cell-Free Opt units3-15 or Stability AI16-26. Canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "living_computer:8",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "For complex proteins, it models folding pathways and disulfide bond formation, integrating redox control systems to ensure proper tertiary structure formation outside the cellular environment.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign named topic:Cell-Free Opt units3-15 or Stability AI16-26. Canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "living_computer:9",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "From a chemical engineering perspective, the platform optimizes reaction conditions for scalability and cost efficiency.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign named topic:Cell-Free Opt units3-15 or Stability AI16-26. Canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "living_computer:10",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "It evaluates reagent consumption rates, energy utilization, and system longevity, enabling design of continuous or semi-continuous CFPS systems.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign named topic:Cell-Free Opt units3-15 or Stability AI16-26. Canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "living_computer:11",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "It also integrates lyophilization and storage stability modeling, allowing researchers to design portable, shelf-stable reaction systems for field or diagnostic applications.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign named topic:Cell-Free Opt units3-15 or Stability AI16-26. Canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "living_computer:12",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "At the synthetic biology interface, Cell-Free Opt enables rapid prototyping of genetic constructs without cellular constraints.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign named topic:Cell-Free Opt units3-15 or Stability AI16-26. Canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "living_computer:13",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "It simulates expression of synthetic circuits, metabolic enzymes, or therapeutic proteins directly in vitro, providing immediate feedback on performance before transitioning to living systems.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign named topic:Cell-Free Opt units3-15 or Stability AI16-26. Canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "living_computer:14",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "This dramatically accelerates the design\u2013build\u2013test cycle by decoupling genetic design from cellular viability constraints.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign named topic:Cell-Free Opt units3-15 or Stability AI16-26. Canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "living_computer:15",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "The output includes optimized reaction recipes, predicted protein yields, kinetic profiles, and cost estimates, making Cell-Free Opt a critical tool for rapid prototyping, diagnostics, and decentralized biomanufacturing.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign named topic:Cell-Free Opt units3-15 or Stability AI16-26. Canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "living_computer:16",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "Stability AI (Multi-Scale Genetic and Phenotypic Stability Predictor)\nStability AI extends beyond sequence-level analysis to model stability across genetic, molecular, and population scales, providing a unified framework for predicting how engineered systems persist over time.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign named topic:Cell-Free Opt units3-15 or Stability AI16-26. Canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "living_computer:17",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "It treats stability as a multi-dimensional function of mutation rate, structural robustness, metabolic burden, and environmental stress, integrating these factors into probabilistic models that forecast system behavior across generations.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign named topic:Cell-Free Opt units3-15 or Stability AI16-26. Canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "living_computer:18",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "At the genomic level, Stability AI analyzes sequence features that influence mutation susceptibility, including repeat regions, GC skew, and DNA secondary structures that promote replication errors.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign named topic:Cell-Free Opt units3-15 or Stability AI16-26. Canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "living_computer:19",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "It predicts rates of point mutations, insertions, and deletions, identifying regions of constructs that are likely to degrade over time.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign named topic:Cell-Free Opt units3-15 or Stability AI16-26. Canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "living_computer:20",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "It also evaluates plasmid stability versus chromosomal integration, modeling segregation loss and copy number variation.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign named topic:Cell-Free Opt units3-15 or Stability AI16-26. Canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "living_computer:21",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "From a protein and biochemical perspective, the system predicts stability of expressed proteins under varying conditions, including temperature, pH, and oxidative stress.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign named topic:Cell-Free Opt units3-15 or Stability AI16-26. Canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "living_computer:22",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "It models folding energy landscapes, aggregation propensity, and degradation pathways, ensuring that engineered proteins maintain functionality in real-world environments.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign named topic:Cell-Free Opt units3-15 or Stability AI16-26. Canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "living_computer:23",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "Chemical degradation of metabolites and cofactors is also incorporated, linking molecular stability to overall system performance.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign named topic:Cell-Free Opt units3-15 or Stability AI16-26. Canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "living_computer:24",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "At the systems and population level, Stability AI simulates evolutionary dynamics using stochastic models, predicting how selective pressures\u2014such as metabolic burden or environmental stress\u2014drive loss of engineered traits.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign named topic:Cell-Free Opt units3-15 or Stability AI16-26. Canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "living_computer:25",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "It identifies conditions under which engineered systems are likely to be outcompeted by mutants and suggests design strategies such as redundancy, kill switches, or selection pressures to maintain functionality.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign named topic:Cell-Free Opt units3-15 or Stability AI16-26. Canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "living_computer:26",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "The platform outputs stability metrics, risk maps, and design recommendations, enabling researchers to build systems that are robust not just initially but over extended operational lifetimes in industrial or clinical settings.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign named topic:Cell-Free Opt units3-15 or Stability AI16-26. Canonical attribution unresolved, not implementation pass/fail."
+  },
+  {
+    "id": "living_computer:27",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "Living Computer (Cellular Logic and Biological Computation Engine)\nLiving Computer functions as a compiler and execution engine for biological computation, translating logical operations into biochemical processes implemented within living cells.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Abstract gate reactions/part names, no actual living-cell implementation."
+  },
+  {
+    "id": "living_computer:28",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "It maps Boolean logic, analog signal processing, and even probabilistic computation onto genetic circuits composed of promoters, transcription factors, CRISPR-based regulators, and signaling pathways.",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Boolean circuit and independent-input probability, no full analog/probabilistic cellular sequence compiler."
+  },
+  {
+    "id": "living_computer:29",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "Each logical operation is encoded as a set of biochemical reactions, with system behavior modeled using stochastic kinetics to account for noise and variability in gene expression.",
+    "review_status": "SCOPED_SIMULATION_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Hill ODE/two-stage and chemical Langevin, no reaction-count SSA in this module."
+  },
+  {
+    "id": "living_computer:30",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "At the molecular level, Living Computer designs regulatory elements that implement logic gates\u2014AND, OR, NOT, NAND\u2014using mechanisms such as cooperative binding, repression, and CRISPR interference.",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "AST AND/OR/NOT/NAND plus repression/activation part labels, no designed nucleotide elements/actual CRISPRi regulator."
+  },
+  {
+    "id": "living_computer:31",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "It models binding affinities, transcriptional delays, and degradation rates to ensure that signals propagate reliably through the circuit.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Hill K/n, decay and first-order settling estimates, no assured biological signal reliability/delay."
+  },
+  {
+    "id": "living_computer:32",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "The system also incorporates RNA-based regulation (riboswitches, toehold switches) for faster and more tunable responses.",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Riboswitch/toehold monotone scalar transfer functions, no RNA switch sequences/folding design."
+  },
+  {
+    "id": "living_computer:33",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "From a systems biology perspective, the platform embeds computational circuits within host cells, modeling resource allocation and interaction with endogenous pathways.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Resource demand summed gatevmax and capacity ratio, no actual host insertion/endogenous pathways."
+  },
+  {
+    "id": "living_computer:34",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "It predicts how competition for ribosomes, ATP, and transcriptional machinery affects circuit performance, and optimizes designs to minimize interference.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Transcription-capacity scalar and rule flags, no coupled ATP/ribosome/host competition optimization."
+  },
+  {
+    "id": "living_computer:35",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "Noise analysis is a key component, with the system quantifying stochastic fluctuations and designing circuits that are robust to variability.",
+    "review_status": "PARTIAL_SIMULATION_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Seeded parameter ensembles/noise summaries/mutation screen, not noise-robust physical designs validated."
+  },
+  {
+    "id": "living_computer:36",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "Chemically, Living Computer integrates sensing modules that convert molecular inputs\u2014metabolites, ions, signaling molecules\u2014into genetic signals.",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "User ligand equilibrium Hill sensor inputs, no actual metabolite/ion molecular sensors designed."
+  },
+  {
+    "id": "living_computer:37",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "It models ligand binding kinetics, diffusion, and degradation, enabling precise control over input sensitivity and dynamic range.",
+    "review_status": "PARTIAL_EXPLICIT_PHYSICS_NOT_LEARNED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Equilibrium occupancy after exponential loss, no association/dissociation/diffusion PDE or validated sensitivity."
+  },
+  {
+    "id": "living_computer:38",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "This allows cells to function as biosensors or decision-making units that respond to complex environmental cues.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No physical biosensor/decision cell complex environmental response demonstrated."
+  },
+  {
+    "id": "living_computer:39",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "The output includes fully specified genetic circuits, predicted dynamic behaviors, and implementation strategies, enabling the creation of programmable living systems capable of computation, sensing, and actuation.",
+    "review_status": "PARTIAL_CONCEPTS_NO_SEQUENCE_DESIGN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Abstract gate/transfer unit plan/parts labels, not full nucleotide construct/sensing-actuator living system."
+  },
+  {
+    "id": "living_computer:40",
+    "module": "living_computer",
+    "source_path": "spec/living_computer.md",
+    "spec_sha256": "c96a170d04396015ffb50b1cc2bca4d36c1a15e9a5776bfa5b0b01c891c9a5b7",
+    "text": "By merging computer science, molecular biology, and chemical signaling, Living Computer represents a new paradigm where cells act as information-processing machines.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No actual programmable cell computation assurance."
+  }
+]
