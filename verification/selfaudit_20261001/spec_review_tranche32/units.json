@@ -1,0 +1,1782 @@
+[
+  {
+    "id": "micro_tx:1",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "# Micro-Tx\n\nMicro-Tx: A design platform for microbiome-based therapeutics that pairs beneficial microbes with specific prebiotic fibers to support their growth.",
+    "review_status": "SCOPED_CURATED_MATCH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Fixed indication/strain/prebiotic pairing plus compact enzyme-accessLP."
+  },
+  {
+    "id": "micro_tx:2",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "It suggests interventions for metabolic disorders and simulates their impact on the gut community.",
+    "review_status": "PARTIAL_INPUT_EFFECT_GAP",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Legacy community simulation ignores pairs; newer fiberGLV input-sensitive, therapeutic effects unvalidated."
+  },
+  {
+    "id": "micro_tx:3",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Micro-Tx provides rationales for prebiotic pairings, ensuring microbial treatments can thrive within the ecosystem.",
+    "review_status": "NOT_THERAPEUTIC_VALIDITY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Template rationales/fixed dosing not treatment assurance."
+  },
+  {
+    "id": "micro_tx:4",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "RareNet AI\nRareNet AI is a multimodal diagnostic reasoning system designed to resolve rare disease identification by integrating clinical phenotypes, genomic variation data, transcriptomic signatures, and broader multi-omic patient profiles into a unified probabilistic inference framework.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:5",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "The system encodes patient data as a structured clinical\u2013biological feature graph, where symptoms, laboratory findings, imaging results, and genetic variants are mapped into a shared latent representation space.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:6",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Each node in this graph is connected through learned associations derived from curated rare disease databases, biomedical literature, and population-scale genomic repositories.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:7",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "This enables RareNet AI to treat diagnosis not as classification, but as a probabilistic alignment problem between patient-specific biological signatures and disease manifold embeddings.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:8",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "At the core of RareNet AI is a hierarchical graph neural network architecture that propagates information across multiple biological scales.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:9",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Gene-level mutations are linked to pathway disruptions, which are further mapped to organ-level dysfunction and systemic phenotypic manifestations.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:10",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "The model captures nonlinear relationships between genotype and phenotype using attention-based message passing, allowing it to identify distant causal relationships that traditional rule-based diagnostic systems fail to capture.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:11",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Rare diseases, which often exhibit sparse or incomplete data signatures, are handled through Bayesian uncertainty propagation, ensuring robust inference even under missing or noisy clinical information.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:12",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "The system incorporates a causal inference engine that distinguishes between correlation and mechanistic causation.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:13",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Structural causal models simulate how genetic mutations propagate through regulatory networks to produce observable phenotypes.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:14",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "This enables RareNet AI to not only match symptoms to diseases but also explain why a given disease hypothesis is biologically consistent with observed patient data.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:15",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Counterfactual reasoning is used to simulate how symptom profiles would change under hypothetical genetic or pharmacological perturbations, providing deeper diagnostic validation.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:16",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Explainability is a core architectural feature of RareNet AI.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:17",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Each diagnostic prediction is accompanied by a traceable reasoning pathway that maps symptoms to candidate genes, affected pathways, and known disease mechanisms.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:18",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "This is achieved using attention attribution mechanisms and graph path decomposition algorithms, which extract interpretable subgraphs responsible for each prediction.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:19",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Clinicians are presented with ranked disease hypotheses alongside transparent evidence chains, improving trust and usability in real clinical environments.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:20",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Finally, RareNet AI integrates a therapeutic suggestion module that maps identified disease mechanisms to potential interventions.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:21",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "This includes FDA-approved drug repurposing candidates, gene therapy targets, and pathway-level intervention strategies.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:22",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Drug\u2013gene\u2013disease interaction networks are used to identify actionable targets, while reinforcement learning prioritizes interventions based on predicted efficacy and safety profiles.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:23",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "The system ultimately serves as a closed-loop diagnostic\u2013therapeutic reasoning engine for rare disease management.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:24",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "OncoCircuit\nOncoCircuit is a synthetic biology design platform for constructing programmable genetic circuits that selectively detect and eliminate cancer cells based on tumor-specific molecular signatures.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:25",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "The system models cancer cells as unique regulatory environments characterized by aberrant promoter activity, transcription factor dysregulation, metabolic rewiring, and epigenetic instability.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:26",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "These signatures are used to computationally identify promoters and regulatory elements that are uniquely active in malignant tissue, enabling cell-type-specific targeting with high precision.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:27",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "At the genetic circuit level, OncoCircuit designs logic-based regulatory architectures using synthetic biology principles.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:28",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "These circuits are constructed using modular components such as inducible promoters, CRISPR-based transcriptional regulators, recombinase systems, and RNA-based switches.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:29",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Logical operations such as AND, OR, and NOT gates are implemented at the molecular level to ensure therapeutic activation only occurs under strict combinatorial conditions present exclusively in cancer cells.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:30",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "This reduces off-target toxicity by enforcing multi-signal verification before activation.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:31",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "The system simulates intracellular gene circuit dynamics using stochastic differential equations and gene expression noise models.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:32",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Transcriptional bursting, promoter leakage, ribosome competition, and RNA degradation are explicitly modeled to predict real-world variability in circuit behavior.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:33",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "This allows OncoCircuit to evaluate robustness under heterogeneous tumor conditions, where gene expression profiles vary significantly across subclonal populations and microenvironmental gradients.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:34",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "A tumor microenvironment modeling layer integrates signaling heterogeneity, including hypoxia, acidic pH, immune suppression, and cytokine signaling variability.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:35",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "These environmental factors influence circuit activation thresholds and are incorporated into simulation frameworks that predict whether engineered circuits will successfully discriminate between tumor and healthy tissue.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:36",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Spatial modeling ensures that diffusion constraints and cell\u2013cell interactions are accounted for in therapeutic activation probability estimates.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:37",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Finally, OncoCircuit outputs fully specified genetic constructs with predicted safety and efficacy profiles.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:38",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "These include circuit diagrams, expected activation thresholds, off-target risk assessments, and evolutionary stability predictions under tumor mutation pressure.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:39",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "The system also simulates escape mutations where cancer cells evolve to bypass circuit detection, enabling preemptive circuit redesign for long-term therapeutic robustness.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:40",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "PDX Insight\nPDX Insight is a computational monitoring and validation platform for Patient-Derived Xenograft (PDX) models used in preclinical cancer research.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:41",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "It evaluates how faithfully xenograft models preserve the molecular and phenotypic characteristics of the original patient tumor over time.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:42",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "The system integrates multi-omic datasets, including genomic sequencing, transcriptomics, epigenomics, and histopathological imaging, to construct comparative representations of patient tumors and their corresponding xenografts.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:43",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "At its core, PDX Insight computes a \u201cModel Fidelity Index\u201d (MFI), a composite metric that quantifies similarity across multiple biological dimensions.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:44",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "This includes genetic concordance (mutation retention), transcriptomic similarity (gene expression correlation), epigenetic stability (methylation pattern preservation), and histological architecture alignment.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:45",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "The system uses weighted similarity scoring and manifold alignment techniques to project patient and xenograft samples into a shared latent space where divergence can be quantitatively measured.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:46",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Translational drift detection is a key component of the platform.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:47",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Over successive passages, xenograft models may accumulate mutations, undergo selection pressures, or diverge from original tumor heterogeneity.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:48",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "PDX Insight models this process as a stochastic evolutionary system, tracking clonal dynamics using phylogenetic reconstruction algorithms.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:49",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Drift is detected when divergence thresholds in genomic or transcriptomic space exceed biologically defined limits, signaling loss of model validity.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:50",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "A corrective intervention engine proposes CRISPR-based or selective breeding strategies to restore model fidelity.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:51",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "This includes identifying and reverting deleterious mutations, reintroducing lost subclonal populations, or adjusting growth conditions to preserve tumor heterogeneity.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:52",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "The system models intervention outcomes using simulation-based counterfactual analysis to ensure proposed corrections restore biological relevance without introducing additional artifacts.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:53",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Finally, PDX Insight provides longitudinal monitoring dashboards that visualize fidelity trajectories over time.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:54",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "These include drift curves, clonal composition evolution maps, and multi-omic divergence heatmaps.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:55",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "The system ensures that preclinical models remain reliable proxies for human disease, improving translational accuracy in drug development pipelines.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:56",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "MicroAiverse\nMicroAiverse is a computational microbiology discovery engine designed to solve the long-standing \u201cplate count anomaly,\u201d where the vast majority of microbial species remain unculturable under standard laboratory conditions.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:57",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "The system models microbial growth environments as high-dimensional biochemical ecosystems defined by nutrient availability, metabolic cross-feeding interactions, pH gradients, oxygen levels, and interspecies signaling networks.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:58",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "It treats microbial cultivation not as a single-species problem but as a community engineering challenge.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:59",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "At its core, MicroAiverse uses metabolic flux balance analysis combined with constraint-based ecological modeling to predict minimal nutrient requirements for previously unculturable organisms.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:60",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Genome-scale metabolic reconstructions are used to infer missing biosynthetic pathways, enabling prediction of essential growth factors that must be externally supplied.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:61",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "This allows the system to design custom media formulations optimized for specific microbial metabolic dependencies.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:62",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "The system also models microbial co-culture dynamics using generalized Lotka\u2013Volterra equations and agent-based simulations.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:63",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "It identifies symbiotic partners that can supply missing metabolites, detoxify inhibitory compounds, or stabilize environmental conditions.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:64",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "These interactions are simulated dynamically to predict stable microbial communities that support growth of previously inaccessible species.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:65",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "A reinforcement learning module explores experimental design space, iterating over media composition, environmental parameters, and microbial combinations.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:66",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "The system optimizes for growth probability, colony stability, and metabolic diversity yield.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:67",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "This allows autonomous discovery of cultivation strategies that would be impractical to identify through traditional trial-and-error laboratory methods.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:68",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Finally, MicroAiverse enables exploration of microbial dark matter by unlocking previously uncultured species.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:69",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Outputs include predicted media recipes, co-culture consortia, metabolic interaction maps, and candidate organisms for natural product discovery.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:70",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "This dramatically expands the accessible microbial biosphere for biotechnology and drug discovery applications.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:71",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Microbiome Exp\nMicrobiome Exp is a computational metagenomics analysis platform designed to characterize microbial communities from 16S rRNA sequencing and shotgun metagenomic data.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:72",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "It processes raw sequencing reads through taxonomic classification pipelines, assigning operational taxonomic units (OTUs) or amplicon sequence variants (ASVs) to known microbial taxa using reference genome databases.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:73",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "The system constructs hierarchical taxonomic trees that represent microbial community structure across multiple phylogenetic levels.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:74",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Diversity analysis is performed using ecological metrics including alpha diversity (species richness, Shannon index, Simpson index) and beta diversity (Bray-Curtis dissimilarity, UniFrac distances).",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:75",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "These metrics are computed across samples to quantify within-sample diversity and between-sample community variation.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:76",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Ordination techniques such as principal coordinate analysis (PCoA) and t-SNE embeddings are used to visualize microbial clustering patterns across populations or disease states.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:77",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Functional potential inference is performed by mapping taxonomic profiles to known metabolic pathways using genome annotation databases such as KEGG and MetaCyc.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:78",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "This enables prediction of community-level metabolic capabilities, including short-chain fatty acid production, bile acid metabolism, and immune-modulating compound synthesis.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:79",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "The system reconstructs functional networks that describe how microbial communities influence host physiology.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:80",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "A biomedical correlation engine links microbiome compositions to disease states and clinical outcomes using large-scale epidemiological datasets and machine learning models.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:81",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "It identifies microbial signatures associated with conditions such as inflammatory bowel disease, obesity, cancer, and neurological disorders.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:82",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Literature mining components further correlate microbial taxa with publication trends and experimental validation frequency.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:83",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Finally, Microbiome Exp generates comprehensive analytical reports including taxonomic distributions, diversity indices, functional pathway summaries, and disease association maps.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:84",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "These outputs enable researchers to interpret microbiome data in both ecological and clinical contexts, bridging the gap between microbial composition and human health outcomes.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "micro_tx:85",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Micro-Tx\nMicro-Tx is a synthetic ecology engineering platform for designing microbiome-based therapeutics through rational pairing of beneficial microbes with prebiotic compounds.",
+    "review_status": "SCOPED_CURATED_MATCH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Fixed indication-target strains and selective-fiberLP."
+  },
+  {
+    "id": "micro_tx:86",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "The system models the gut microbiome as a complex ecological network governed by competitive, cooperative, and metabolic cross-feeding interactions.",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Fixed5speciesGLV interaction matrix."
+  },
+  {
+    "id": "micro_tx:87",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Each microbial species is represented as an agent with metabolic capabilities defined by genome-scale metabolic models and ecological fitness parameters.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "5strain compact access/yield fixture, no genome-scale speciesGEM agents."
+  },
+  {
+    "id": "micro_tx:88",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Prebiotic design is formulated as a constraint-based optimization problem where carbohydrate structures, fiber compositions, and nutrient availability are tuned to selectively enhance the growth of target microbial strains.",
+    "review_status": "SCOPED_FINITE_HEURISTIC_OPTIMUM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Linear target-minus-nontarget enzyme-access fiberLP."
+  },
+  {
+    "id": "micro_tx:89",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "The system simulates enzymatic degradation pathways and fermentation dynamics to predict how specific fibers are metabolized by microbial enzymes.",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Michaelis-Menten fiberSCFA fixed-fractionODE, no calibrated enzyme chemistry."
+  },
+  {
+    "id": "micro_tx:90",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "This allows precise tuning of substrate availability to favor beneficial microbial populations.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No precise biological substrate/population control validity."
+  },
+  {
+    "id": "micro_tx:91",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Microbial interaction dynamics are modeled using ecological differential equations that capture competition, mutualism, and commensalism between species.",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "GLV competition/crossfeeding3compartment chain."
+  },
+  {
+    "id": "micro_tx:92",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "These models incorporate environmental factors such as pH, bile acid concentration, host immune activity, and spatial compartmentalization along the gastrointestinal tract.",
+    "review_status": "PARTIAL_INPUT_EFFECT_GAP",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "pH/bile/immune scalars and3compartments, no host measurements calibration."
+  },
+  {
+    "id": "micro_tx:93",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "This enables prediction of how introduced probiotics and prebiotics reshape community structure over time.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Time-resolved relative-abundance proxy, no validated engraftment prediction."
+  },
+  {
+    "id": "micro_tx:94",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Therapeutic effect modeling links microbiome composition changes to host physiological outcomes through systems biology frameworks.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "SCFA scalar barrier/insulin/inflammation/neurotransmitter transform, not validated host physiology."
+  },
+  {
+    "id": "micro_tx:95",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Metabolite production profiles, such as short-chain fatty acids and neurotransmitter precursors, are simulated to estimate downstream effects on metabolic disorders, immune regulation, and neurological function.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Fixed speciesSCFA yields/scalar precursor proxy, no measured immune/neural outcomes."
+  },
+  {
+    "id": "micro_tx:96",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "This enables prediction of host-level therapeutic outcomes from microbiome modulation strategies.",
+    "review_status": "NOT_THERAPEUTIC_VALIDITY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No patient therapeutic outcome proof."
+  },
+  {
+    "id": "micro_tx:97",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "Finally, Micro-Tx outputs optimized synbiotic therapies consisting of microbial strains and matched prebiotic compounds with predicted stability, colonization efficiency, and therapeutic efficacy.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Strain/fiber/50diagnostic outputs, no clinically optimized actual therapy."
+  },
+  {
+    "id": "micro_tx:98",
+    "module": "micro_tx",
+    "source_path": "spec/micro_tx.md",
+    "spec_sha256": "5e03ec4b3682ec527291f40d066f350edd0b502be4455508f89b6d21a2767883",
+    "text": "It also provides mechanistic explanations of microbial selection, metabolic pathways activated, and expected long-term ecosystem shifts, enabling rational microbiome engineering for disease treatment.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Enzyme advantage explanations, no long-term disease-treatment validity."
+  },
+  {
+    "id": "neohunter:1",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "# NeoHunter\n\nNeoHunter: An identification engine for personalized neoantigens derived from tumor mutational data.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Supplied tumor/normal protein windows, not raw tumor variant caller."
+  },
+  {
+    "id": "neohunter:2",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "It ranks peptide candidates by immunogenicity and predicts binding to specific patient HLA alleles.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Anchor default; separate fittedIEDB9merPSSM via core, not public export; clinical validity absent."
+  },
+  {
+    "id": "neohunter:3",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "NeoHunter enables the design of personalized cancer vaccines that target the unique mutations of an individual's tumor, providing a high-precision approach.",
+    "review_status": "NOT_THERAPEUTIC_VALIDITY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No high-precision patient vaccine outcome validation."
+  },
+  {
+    "id": "neohunter:4",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Tissue Eng\nTissue Eng is a full-stack computational biofabrication system designed to simulate, optimize, and generate 3D bioprinted tissues as multi-scale physical\u2013biological systems.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:5",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "At its foundation, it models bio-ink behavior using continuum fluid mechanics, treating each formulation as a complex non-Newtonian multiphase fluid.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:6",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Constitutive models such as Herschel\u2013Bulkley and Carreau\u2013Yasuda equations are used to capture shear-thinning behavior, yield stress thresholds, and viscoelastic relaxation under dynamic extrusion conditions.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:7",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "The system simulates nozzle-level physics using discretized Navier\u2013Stokes equations with free-surface tracking to predict filament formation, breakage, and layer stacking stability under variable pressure, temperature, and deposition velocity.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:8",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "At the materials chemistry layer, Tissue Eng models scaffold formation as a coupled reaction\u2013diffusion system where polymerization, crosslinking, and degradation kinetics interact spatially and temporally.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:9",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Photopolymerization reactions are modeled using radical chain kinetics, while ionic hydrogels are governed by diffusion-limited binding of multivalent ions.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:10",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "These processes are solved as partial differential equations to predict spatial heterogeneity in stiffness, porosity, and degradation rates.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:11",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "The platform also incorporates time-dependent viscoelasticity models (Kelvin\u2013Voigt and Maxwell frameworks) to simulate long-term mechanical relaxation of engineered tissues under physiological environments.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:12",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "On the cellular systems level, embedded cells are treated as adaptive agents whose behavior emerges from gene regulatory networks, metabolic constraints, and mechanotransduction signaling.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:13",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Cellular state transitions such as proliferation, differentiation, apoptosis, and senescence are modeled using hybrid stochastic\u2013deterministic frameworks combining ODE systems with probabilistic switching processes.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:14",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Environmental coupling is achieved through diffusion-reaction PDEs modeling oxygen, glucose, lactate, cytokines, and morphogen gradients.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:15",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "This enables prediction of emergent biological structures such as vascular niches, necrotic cores, and spatially patterned differentiation zones within engineered tissues.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:16",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Tissue Eng also includes a vascular network synthesis engine that formulates perfusion as a constrained graph optimization problem.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:17",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "The system generates vascular architectures by minimizing a cost function combining hydraulic resistance, construction complexity, and nutrient delivery inefficiency.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:18",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "This optimization is solved using graph-theoretic methods such as minimum spanning tree variants, Steiner tree approximations, and flow conservation constraints.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:19",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "The resulting vascular structures are validated through computational fluid dynamics simulations that compute shear stress distributions, pressure gradients, and endothelial mechanobiological response thresholds.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:20",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Finally, a reinforcement learning layer integrates across all simulation components, optimizing fabrication parameters such as extrusion pressure, nozzle trajectory, scaffold geometry, and material composition.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:21",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Physics-informed surrogate models, including Gaussian processes and neural operators, are used to approximate expensive multiphysics simulations, enabling efficient exploration of high-dimensional design spaces.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:22",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "The system ultimately functions as a generative design engine that translates biological specifications into physically manufacturable, structurally stable, and functionally viable tissue constructs.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:23",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Infinite Diagnosis\nInfinite Diagnosis is a large-scale biomedical intelligence system that transforms fragmented global biomedical knowledge into a unified probabilistic reasoning framework for disease discovery and clinical inference.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:24",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "The system constructs a continuously evolving heterogeneous knowledge graph where nodes represent genes, proteins, metabolites, diseases, phenotypes, drugs, and environmental exposures.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:25",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Edges are extracted from scientific literature, clinical records, and omics databases using transformer-based biomedical language models trained on full-text corpora, enabling high-resolution semantic relation extraction beyond keyword-level associations.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:26",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Graph embeddings are learned using hierarchical graph neural networks that encode both local molecular interactions and global disease\u2013pathway relationships.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:27",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "These embeddings capture latent biological structure by optimizing link prediction, node classification, and graph reconstruction objectives simultaneously.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:28",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Temporal graph updates allow the system to incorporate newly published findings, ensuring that biomedical reasoning remains dynamic and self-correcting.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:29",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "This continuously evolving representation transforms static literature into an active inference substrate for hypothesis generation.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:30",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Diagnostic reasoning is formulated as Bayesian inference over latent disease states conditioned on multimodal patient data, including clinical symptoms, genomic variants, transcriptomic profiles, proteomic markers, imaging data, and environmental exposures.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:31",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Variational inference methods approximate intractable posterior distributions, enabling the system to compute probabilistic differential diagnoses with calibrated uncertainty bounds.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:32",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "This allows Infinite Diagnosis to move beyond deterministic classification toward probabilistic clinical reasoning under uncertainty and missing data conditions.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:33",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "A causal inference layer is integrated using structural causal models, enabling the system to distinguish correlation from mechanistic causation.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:34",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Through do-calculus-based interventions, the system simulates hypothetical perturbations such as gene knockouts, pharmacological inhibition, or pathway activation, and estimates downstream causal effects on disease phenotypes.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:35",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "This allows not only diagnosis but also prediction of therapeutic interventions and disease progression trajectories under controlled hypothetical scenarios.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:36",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Additionally, Infinite Diagnosis incorporates retrieval-augmented reasoning, dynamically querying external databases such as clinical trials, omics repositories, and literature archives during inference.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:37",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "This enables real-time grounding of hypotheses in the latest available evidence.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:38",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Anomaly detection modules further identify rare disease clusters, emergent syndromes, and previously uncharacterized phenotypic associations by detecting statistical deviations across large-scale patient populations, enabling discovery of novel disease subtypes and mechanistic biomarkers.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:39",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "CAR-T Designer\nCAR-T Designer is a computational immunoengineering platform for the rational design, simulation, and optimization of chimeric antigen receptor T-cell therapies across molecular, cellular, and tissue scales.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:40",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "At the molecular interaction level, antigen-binding domains such as scFvs or nanobodies are modeled using structural bioinformatics and protein\u2013protein docking simulations.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:41",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Binding affinity landscapes are computed using thermodynamic free energy models, while molecular dynamics simulations refine conformational stability under physiological conditions.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:42",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Association and dissociation kinetics are used to estimate binding specificity and predict off-target interactions across homologous antigen families.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:43",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "The intracellular signaling architecture of CAR constructs is represented as a nonlinear dynamical system composed of coupled phosphorylation cascades and feedback loops.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:44",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Key immune signaling pathways such as NF-\u03baB, MAPK/ERK, PI3K/AKT, and calcium-dependent signaling are modeled using stiff systems of ordinary differential equations.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:45",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "These models capture activation thresholds, signal amplification dynamics, temporal delays, and exhaustion behavior under repeated antigen exposure.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:46",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "This allows prediction of T-cell functional states including activation, anergy, exhaustion, and memory formation.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:47",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "A multi-objective optimization framework explores the combinatorial design space of CAR architectures, including extracellular domain selection, hinge flexibility, transmembrane region composition, and intracellular costimulatory signaling motifs.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:48",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Evolutionary algorithms and reinforcement learning agents optimize competing objectives such as tumor cytotoxicity, persistence, metabolic fitness, and minimization of cytokine release syndrome.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:49",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "This enables systematic exploration of design trade-offs that are not easily accessible through empirical trial-and-error methods.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:50",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "At the tissue scale, agent-based modeling simulates interactions between CAR-T cells, tumor cells, and stromal components within heterogeneous tumor microenvironments.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:51",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "These simulations incorporate spatial diffusion of cytokines, oxygen gradients, immunosuppressive signaling pathways such as PD-1/PD-L1 and TGF-\u03b2, and physical barriers posed by extracellular matrix density.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:52",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Partial differential equations govern nutrient diffusion and immune cell migration fields, enabling prediction of tumor infiltration efficiency and spatial killing dynamics.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:53",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Finally, a translational prediction module maps in silico design performance metrics to expected clinical outcomes using calibrated statistical learning models trained on immunotherapy trial datasets.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:54",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "This allows estimation of response rates, survival curves, and toxicity probabilities prior to experimental validation, enabling rational preclinical design of next-generation personalized CAR-T therapies with improved safety and efficacy profiles.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:55",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Living Tx\nLiving Tx is a synthetic biology platform for engineering programmable microbial therapeutics that function as autonomous living drug delivery systems within host biological environments.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:56",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "At the genetic circuit level, the system designs modular regulatory networks composed of promoters, repressors, riboswitches, CRISPR-based regulators, and synthetic transcription factors.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:57",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "These circuits are modeled using stochastic chemical kinetics governed by the chemical master equation, capturing intrinsic gene expression noise, transcriptional bursting, and resource competition effects such as ribosome allocation and metabolic burden.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:58",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Metabolic modeling is performed using genome-scale metabolic reconstructions and flux balance analysis, enabling simulation of cellular growth, energy utilization, and metabolite production under host-specific environmental conditions.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:59",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "These models ensure engineered strains remain metabolically viable while performing therapeutic functions.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:60",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Constraint-based optimization is used to balance growth rate with therapeutic payload production, ensuring long-term stability within competitive microbiome ecosystems.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:61",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Host\u2013microbiome interactions are modeled as multi-species ecological networks governed by generalized Lotka\u2013Volterra dynamics combined with metabolite exchange coupling.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:62",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "This enables simulation of microbial competition, colonization resistance, and ecosystem-level stability under perturbations introduced by engineered strains.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:63",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "The system also models immune system interactions with engineered microbes, including pattern recognition receptor activation and inflammatory response thresholds.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:64",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Therapeutic delivery is simulated using diffusion\u2013reaction equations that capture secretion, degradation, absorption, and spatial transport of biologically produced molecules.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:65",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "These models enable prediction of pharmacokinetic-like behavior of microbial therapeutics, including concentration gradients across intestinal or tissue compartments, time-dependent exposure levels, and local efficacy zones.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:66",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Safety engineering is implemented through synthetic containment systems including auxotrophy dependencies, kill switches activated by environmental triggers, quorum sensing-based population control, and genetic firewalls preventing horizontal gene transfer.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:67",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Evolutionary stability analysis uses probabilistic mutation and selection models to estimate long-term genetic drift and escape risk, ensuring containment integrity over extended therapeutic timescales.",
+    "review_status": "BLOCKED_SPEC_ATTRIBUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Foreign-topic named blocks MicroTx4-84/NeoHunter4-67. Canonical attribution unresolved, no implementation verdict."
+  },
+  {
+    "id": "neohunter:68",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "NeoHunter\nNeoHunter is a computational immunogenomics platform for the identification, ranking, and optimization of tumor-specific neoantigens for personalized cancer immunotherapy.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Supplied peptide score/panel/escape pipeline, not validated immunotherapy."
+  },
+  {
+    "id": "neohunter:69",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "The system begins with tumor sequencing data processing, identifying somatic mutations including single nucleotide variants, insertions, deletions, and gene fusion events.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Protein letter edits, not sequencing somatic/transcript processing."
+  },
+  {
+    "id": "neohunter:70",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "These mutations are translated into candidate peptide sequences using transcript reconstruction algorithms and proteasomal cleavage prediction models that simulate antigen processing pathways.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Protein windows and residue cleavage/TAP rules, no transcript reconstruction."
+  },
+  {
+    "id": "neohunter:71",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Peptide\u2013MHC binding prediction is performed using a hybrid approach combining structural docking simulations and deep learning models trained on immunopeptidomics datasets.",
+    "review_status": "NOT_STRUCTURAL_DOCKING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Pocket score heuristic; separate fittedPSSM not deep/docking immunopeptidomics ensemble."
+  },
+  {
+    "id": "neohunter:72",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Binding affinities are computed across patient-specific HLA alleles, enabling personalized antigen presentation mapping.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Fixed5HLA heuristics and separatePSSM, patient affinity calibration unverified."
+  },
+  {
+    "id": "neohunter:73",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "This generates a high-dimensional binding affinity matrix representing potential immune visibility of each mutated peptide.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "PeptideHLA rows, no measured patient visibility matrix."
+  },
+  {
+    "id": "neohunter:74",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Immunogenicity scoring integrates multiple biological determinants including proteasomal processing probability, TAP transport efficiency, MHC stability, peptide surface accessibility, and predicted T-cell receptor recognition likelihood.",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Residue-derived cleavage/TAP/trimming/stability/aromatic foreignnessTCR proxy."
+  },
+  {
+    "id": "neohunter:75",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "These features are combined into a probabilistic scoring framework that ranks neoantigens based on their likelihood of eliciting strong immune responses.",
+    "review_status": "NOT_CLINICAL_PROBABILITY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Product heuristic score not calibrated immune response probability."
+  },
+  {
+    "id": "neohunter:76",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Tumor evolution under immune pressure is modeled using stochastic branching processes and clonal selection dynamics.",
+    "review_status": "SCOPED_STOCHASTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Seeded3lineageWright-Fisher selection/mutation, no actual patient rates."
+  },
+  {
+    "id": "neohunter:77",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "This allows simulation of antigen loss variants, immune escape mutations, and heterogeneous tumor subclonal architecture over time.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Presenting/antigenloss/HLAescape fractions, no inferred patient subclone architecture."
+  },
+  {
+    "id": "neohunter:78",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "The system predicts how tumors evolve in response to immune targeting, enabling proactive vaccine design that anticipates escape pathways.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No clinically predictive tumor evolution/escape vaccine proof."
+  },
+  {
+    "id": "neohunter:79",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "Finally, a multi-objective optimization engine selects neoantigen panels that maximize tumor coverage, minimize immune evasion probability, and maximize breadth of T-cell activation.",
+    "review_status": "SCOPED_FINITE_HEURISTIC_OPTIMUM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "MILP score/clonality/escapeHLA constraints, no explicit clone diversity constraint."
+  },
+  {
+    "id": "neohunter:80",
+    "module": "neohunter",
+    "source_path": "spec/neohunter.md",
+    "spec_sha256": "feac5de3fc5e03f9ad93f74da715b5cf1d0c5f1454a2cc4c2a5e91d6a464f0fa",
+    "text": "The output is a ranked vaccine design optimized for durability, specificity, and population of reactive T-cell clones, enabling fully personalized cancer vaccine generation from raw tumor genomic data.",
+    "review_status": "NOT_THERAPEUTIC_VALIDITY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Protein-context panel not fully personalized raw-genomic durableTcell vaccine."
+  }
+]

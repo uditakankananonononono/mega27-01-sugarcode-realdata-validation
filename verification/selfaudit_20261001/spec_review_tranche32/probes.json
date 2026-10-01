@@ -1,0 +1,54 @@
+{
+  "runs": [
+    {
+      "micro_lp_biomass": 2.9,
+      "biomass_reference_matches": true,
+      "micro_butyrate_zero": true,
+      "legacy_pair_community_equal_for_different_indications": true,
+      "iedb_pssm_output": {
+        "peptide": "YLQLRLFGK",
+        "hla": "A*02:01",
+        "p_binder_ic50_500nM": 0.1979,
+        "class": "non-binder",
+        "model": "IEDB 2013 logistic PSSM",
+        "n_train": 9051
+      },
+      "iedb_logistic_reference": 0.1979,
+      "iedb_reference_matches": true,
+      "milp_single_candidate_selected": true,
+      "milp_objective_reference_matches": true,
+      "escape_final": {
+        "presenting": 0.7208,
+        "antigen_loss": 0.1319,
+        "HLA_escape": 0.1473
+      },
+      "escape_probability_sum_matches": true
+    },
+    {
+      "micro_lp_biomass": 2.9,
+      "biomass_reference_matches": true,
+      "micro_butyrate_zero": true,
+      "legacy_pair_community_equal_for_different_indications": true,
+      "iedb_pssm_output": {
+        "peptide": "YLQLRLFGK",
+        "hla": "A*02:01",
+        "p_binder_ic50_500nM": 0.1979,
+        "class": "non-binder",
+        "model": "IEDB 2013 logistic PSSM",
+        "n_train": 9051
+      },
+      "iedb_logistic_reference": 0.1979,
+      "iedb_reference_matches": true,
+      "milp_single_candidate_selected": true,
+      "milp_objective_reference_matches": true,
+      "escape_final": {
+        "presenting": 0.7208,
+        "antigen_loss": 0.1319,
+        "HLA_escape": 0.1473
+      },
+      "escape_probability_sum_matches": true
+    }
+  ],
+  "repeat_equal": true,
+  "scope": "Actual stored fitted weights reference, no fresh IEDB/CV/clinical validation. Core import needed; not exported in public neohunter __init__."
+}
