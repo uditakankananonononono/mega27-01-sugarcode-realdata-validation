@@ -1,0 +1,372 @@
+[
+  {
+    "id": "bio_material:1",
+    "module": "bio_material",
+    "source_path": "spec/bio_material.md",
+    "spec_sha256": "42447a82096ae65eee83c5a064214362e0f225765329be19442cf13521a41379",
+    "text": "# Bio-Material\n\nBio-Material: An AI design engine for synthetic biomaterials that suggests genetic pathways for polymer production.",
+    "review_status": "SCOPED_CURATED_DESIGN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Four-material lookup with optional curated pathway, no generative AI."
+  },
+  {
+    "id": "bio_material:2",
+    "module": "bio_material",
+    "source_path": "spec/bio_material.md",
+    "spec_sha256": "42447a82096ae65eee83c5a064214362e0f225765329be19442cf13521a41379",
+    "text": "It models material degradation under physiological conditions and predicts structure-function relationships.",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Explicit decay/mechanics and structure-function notes, no material performance validation."
+  },
+  {
+    "id": "bio_material:3",
+    "module": "bio_material",
+    "source_path": "spec/bio_material.md",
+    "spec_sha256": "42447a82096ae65eee83c5a064214362e0f225765329be19442cf13521a41379",
+    "text": "Bio-Material helps engineers create biocompatible scaffolds for regenerative medicine, ensuring that synthetic materials have the mechanical and chemical properties required for integration.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Static biocompatible flags, no integration/safety assurance."
+  },
+  {
+    "id": "bio_material:4",
+    "module": "bio_material",
+    "source_path": "spec/bio_material.md",
+    "spec_sha256": "42447a82096ae65eee83c5a064214362e0f225765329be19442cf13521a41379",
+    "text": "Bio-Material transforms into a generative design engine for living and semi-synthetic materials by integrating polymer chemistry, metabolic engineering, and systems biology into a unified framework.",
+    "review_status": "NOT_DEEP_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Source explicitly no generative AI/MD/FBA model."
+  },
+  {
+    "id": "bio_material:5",
+    "module": "bio_material",
+    "source_path": "spec/bio_material.md",
+    "spec_sha256": "42447a82096ae65eee83c5a064214362e0f225765329be19442cf13521a41379",
+    "text": "At its core, it treats biomaterial synthesis as a pathway optimization problem, mapping desired macroscopic properties\u2014elastic modulus, degradation kinetics, biocompatibility\u2014onto underlying molecular architectures and biosynthetic routes.",
+    "review_status": "PARTIAL_INPUT_DEPENDENT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Application porosity/modulus lookup, not inverse molecular-architecture/pathway optimization."
+  },
+  {
+    "id": "bio_material:6",
+    "module": "bio_material",
+    "source_path": "spec/bio_material.md",
+    "spec_sha256": "42447a82096ae65eee83c5a064214362e0f225765329be19442cf13521a41379",
+    "text": "The system reconstructs and designs metabolic pathways that produce target polymers (e.g., polyhydroxyalkanoates, collagen analogs, silk-like proteins) by querying enzyme databases, predicting catalytic feasibility, and performing flux balance analysis (FBA) to ensure precursor availability and energetic viability within a host organism.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Calls curated design_pathway where available; no enzyme query/catalytic feasibility/host FBA."
+  },
+  {
+    "id": "bio_material:7",
+    "module": "bio_material",
+    "source_path": "spec/bio_material.md",
+    "spec_sha256": "42447a82096ae65eee83c5a064214362e0f225765329be19442cf13521a41379",
+    "text": "From a chemistry standpoint, Bio-Material explicitly models polymerization mechanisms, including step-growth and chain-growth kinetics, crosslinking density, and monomer reactivity ratios.",
+    "review_status": "PARTIAL_EXPLICIT_PHYSICS_NOT_LEARNED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Monomer/radical/polymer ODE and network modulus; no distinct step-growth/monomer reactivity-ratio model."
+  },
+  {
+    "id": "bio_material:8",
+    "module": "bio_material",
+    "source_path": "spec/bio_material.md",
+    "spec_sha256": "42447a82096ae65eee83c5a064214362e0f225765329be19442cf13521a41379",
+    "text": "It predicts how variations in monomer composition or stereochemistry influence mechanical properties such as tensile strength, viscoelasticity, and thermal stability.",
+    "review_status": "PARTIAL_DATA_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Static modulus/tensile lookup; no stereochemistry or viscoelastic/thermal response model."
+  },
+  {
+    "id": "bio_material:9",
+    "module": "bio_material",
+    "source_path": "spec/bio_material.md",
+    "spec_sha256": "42447a82096ae65eee83c5a064214362e0f225765329be19442cf13521a41379",
+    "text": "The platform incorporates coarse-grained molecular dynamics and statistical thermodynamics to simulate polymer chain behavior under physiological conditions, enabling prediction of swelling, degradation rates, and interaction with solvents or ions.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No coarse-grained MD, swelling explicit scalar heuristic."
+  },
+  {
+    "id": "bio_material:10",
+    "module": "bio_material",
+    "source_path": "spec/bio_material.md",
+    "spec_sha256": "42447a82096ae65eee83c5a064214362e0f225765329be19442cf13521a41379",
+    "text": "For biomedical applications, it models hydrolysis, enzymatic degradation, and oxidation pathways, ensuring that materials degrade predictably and safely in vivo.",
+    "review_status": "SCOPED_BEHAVIOR_REPRODUCED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Multimode additive-rate decay endpoint at day1=98.314368 matches exp(-.017), repeats; no safe in-vivo degradation validity."
+  },
+  {
+    "id": "bio_material:11",
+    "module": "bio_material",
+    "source_path": "spec/bio_material.md",
+    "spec_sha256": "42447a82096ae65eee83c5a064214362e0f225765329be19442cf13521a41379",
+    "text": "At the biological interface, Bio-Material designs genetic circuits that control polymer production dynamically within cells, enabling programmable material synthesis.",
+    "review_status": "NOT_GENOME_MODIFICATION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No dynamically controlling production circuit construct output."
+  },
+  {
+    "id": "bio_material:12",
+    "module": "bio_material",
+    "source_path": "spec/bio_material.md",
+    "spec_sha256": "42447a82096ae65eee83c5a064214362e0f225765329be19442cf13521a41379",
+    "text": "It can implement inducible systems that trigger polymer formation in response to environmental signals, or engineer secretion pathways for extracellular matrix assembly.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Fabrication/production instructions text, no inducible circuit/secretion engineering."
+  },
+  {
+    "id": "bio_material:13",
+    "module": "bio_material",
+    "source_path": "spec/bio_material.md",
+    "spec_sha256": "42447a82096ae65eee83c5a064214362e0f225765329be19442cf13521a41379",
+    "text": "The system also accounts for host\u2013material interactions, predicting immune responses, cell adhesion properties, and integration with tissue.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Adhesion/stiffness/immune scalar equations, not measured tissue integration."
+  },
+  {
+    "id": "bio_material:14",
+    "module": "bio_material",
+    "source_path": "spec/bio_material.md",
+    "spec_sha256": "42447a82096ae65eee83c5a064214362e0f225765329be19442cf13521a41379",
+    "text": "For regenerative medicine, it simulates how scaffolds influence cell differentiation, incorporating signaling gradients, stiffness-dependent mechanotransduction, and growth factor diffusion.",
+    "review_status": "PARTIAL_PHYSICS_WITHOUT_NEURAL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Diffusion-gradient utility and stiffness proxy, not coupled cell differentiation/growth-factor model."
+  },
+  {
+    "id": "bio_material:15",
+    "module": "bio_material",
+    "source_path": "spec/bio_material.md",
+    "spec_sha256": "42447a82096ae65eee83c5a064214362e0f225765329be19442cf13521a41379",
+    "text": "On the engineering side, Bio-Material connects directly to fabrication workflows such as 3D bioprinting and microfluidic synthesis.",
+    "review_status": "NOT_ROBOT_PLATFORM_INTEGRATION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No actual fabrication interface/device connection."
+  },
+  {
+    "id": "bio_material:16",
+    "module": "bio_material",
+    "source_path": "spec/bio_material.md",
+    "spec_sha256": "42447a82096ae65eee83c5a064214362e0f225765329be19442cf13521a41379",
+    "text": "It optimizes bio-ink rheology, crosslinking kinetics, and print resolution, ensuring that designed materials can be physically realized with high fidelity.",
+    "review_status": "PARTIAL_INPUT_DEPENDENT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Rheology/resolution formulas, no bioink parameter optimization or physical fidelity proof."
+  },
+  {
+    "id": "bio_material:17",
+    "module": "bio_material",
+    "source_path": "spec/bio_material.md",
+    "spec_sha256": "42447a82096ae65eee83c5a064214362e0f225765329be19442cf13521a41379",
+    "text": "It also integrates with CAD-like interfaces to design spatial architectures\u2014porosity, vascular channels, gradient stiffness\u2014allowing precise control over structure\u2013function relationships.",
+    "review_status": "UNVERIFIED_VISUAL_CLAIM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No CAD/spatial architecture UI inspected or established in module."
+  },
+  {
+    "id": "bio_material:18",
+    "module": "bio_material",
+    "source_path": "spec/bio_material.md",
+    "spec_sha256": "42447a82096ae65eee83c5a064214362e0f225765329be19442cf13521a41379",
+    "text": "These designs are validated through multi-scale simulations, bridging molecular properties with macroscopic performance.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Mechanics self-consistency not multiscale validation; supplied density model matches independent algebra."
+  },
+  {
+    "id": "bio_material:19",
+    "module": "bio_material",
+    "source_path": "spec/bio_material.md",
+    "spec_sha256": "42447a82096ae65eee83c5a064214362e0f225765329be19442cf13521a41379",
+    "text": "Ultimately, Bio-Material outputs a complete design stack: engineered metabolic pathways, DNA constructs for production, predicted polymer structures, and fabrication protocols.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Pathway/properties/text fabrication, no DNA constructs/polymer coordinates or synthesis-ready protocols."
+  },
+  {
+    "id": "bio_material:20",
+    "module": "bio_material",
+    "source_path": "spec/bio_material.md",
+    "spec_sha256": "42447a82096ae65eee83c5a064214362e0f225765329be19442cf13521a41379",
+    "text": "By merging synthetic biology, polymer chemistry, and materials science, it enables the creation of programmable, living materials that can sense, respond, and adapt\u2014extending synthetic biology beyond cells into engineered matter itself.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No actual programmable adaptive living material demonstrated."
+  },
+  {
+    "id": "metabodesigner:1",
+    "module": "metabodesigner",
+    "source_path": "spec/metabodesigner.md",
+    "spec_sha256": "d4951e4b30a9ff53aac43c29f367b5a3a79f5b8c8dbf535d46d334b2abc91092",
+    "text": "# MetaboDesigner\n\nMetaboDesigner: An expert system for designing novel metabolic pathways using data from global reaction databases.",
+    "review_status": "PARTIAL_DATA_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "17 built-in reactions, not live global databases; source explicitly not KEGG/MetaCyc."
+  },
+  {
+    "id": "metabodesigner:2",
+    "module": "metabodesigner",
+    "source_path": "spec/metabodesigner.md",
+    "spec_sha256": "d4951e4b30a9ff53aac43c29f367b5a3a79f5b8c8dbf535d46d334b2abc91092",
+    "text": "It identifies required enzymes and reaction steps to produce target compounds in host organisms.",
+    "review_status": "SCOPED_CURATED_DESIGN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Reachability/back-walk returns enzyme and reaction list; max_steps inert gap previously recorded."
+  },
+  {
+    "id": "metabodesigner:3",
+    "module": "metabodesigner",
+    "source_path": "spec/metabodesigner.md",
+    "spec_sha256": "d4951e4b30a9ff53aac43c29f367b5a3a79f5b8c8dbf535d46d334b2abc91092",
+    "text": "MetaboDesigner performs flux balance analysis to visualize metabolic bottlenecks and optimizes precursor costs, ensuring that synthetic pathways are biologically viable\n\nMetaboDesigner functions as a pathway synthesis and optimization engine that reconstructs and designs metabolic networks as constrained optimization problems over biochemical reaction space.",
+    "review_status": "PARTIAL_WITH_PROVENANCE_GAP",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "LP utility exists but target objective is last reaction, independent order defect; no whole-host viability or cost optimization, visual pixels uninspected."
+  },
+  {
+    "id": "metabodesigner:4",
+    "module": "metabodesigner",
+    "source_path": "spec/metabodesigner.md",
+    "spec_sha256": "d4951e4b30a9ff53aac43c29f367b5a3a79f5b8c8dbf535d46d334b2abc91092",
+    "text": "Given a target molecule, the system performs retrosynthetic pathway discovery by traversing reaction graphs derived from databases such as KEGG and MetaCyc, identifying feasible enzymatic transformations that convert host metabolites into the desired product.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Curated graph not KEGG/MetaCyc retrosynthesis integration."
+  },
+  {
+    "id": "metabodesigner:5",
+    "module": "metabodesigner",
+    "source_path": "spec/metabodesigner.md",
+    "spec_sha256": "d4951e4b30a9ff53aac43c29f367b5a3a79f5b8c8dbf535d46d334b2abc91092",
+    "text": "Each candidate pathway is evaluated using flux balance analysis (FBA), where the steady-state constraint S\u22c5v=0S \\cdot v = 0S\u22c5v=0 is solved under cellular resource limitations to determine whether sufficient flux can be directed toward the product without compromising host viability.",
+    "review_status": "PARTIAL_INPUT_EFFECT_GAP",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Internal metabolite balances only; last reaction objective, no host viability/biomass constraint. Synthetic target flux=0 despite objective7."
+  },
+  {
+    "id": "metabodesigner:6",
+    "module": "metabodesigner",
+    "source_path": "spec/metabodesigner.md",
+    "spec_sha256": "d4951e4b30a9ff53aac43c29f367b5a3a79f5b8c8dbf535d46d334b2abc91092",
+    "text": "At the enzymatic level, MetaboDesigner evaluates catalytic feasibility by predicting enzyme\u2013substrate compatibility, turnover rates (kcat), and cofactor dependencies (NADH, ATP, FAD).",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Class kcat defaults and cofactor counts, no enzyme-substrate compatibility model."
+  },
+  {
+    "id": "metabodesigner:7",
+    "module": "metabodesigner",
+    "source_path": "spec/metabodesigner.md",
+    "spec_sha256": "d4951e4b30a9ff53aac43c29f367b5a3a79f5b8c8dbf535d46d334b2abc91092",
+    "text": "It incorporates protein engineering modules to suggest mutations that improve enzyme kinetics or substrate specificity, effectively bridging metabolic engineering with protein design.",
+    "review_status": "NOT_INTERVENTION_SEQUENCE_DESIGN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No protein mutation design or protein-engineering integration in module."
+  },
+  {
+    "id": "metabodesigner:8",
+    "module": "metabodesigner",
+    "source_path": "spec/metabodesigner.md",
+    "spec_sha256": "d4951e4b30a9ff53aac43c29f367b5a3a79f5b8c8dbf535d46d334b2abc91092",
+    "text": "The system also models thermodynamic feasibility using Gibbs free energy estimates, ensuring that proposed pathways are energetically favorable under physiological conditions and do not rely on infeasible reaction steps.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Default step deltaG=-5+cofactor count or supplied values, total<0 flag; not measured physiological thermodynamics."
+  },
+  {
+    "id": "metabodesigner:9",
+    "module": "metabodesigner",
+    "source_path": "spec/metabodesigner.md",
+    "spec_sha256": "d4951e4b30a9ff53aac43c29f367b5a3a79f5b8c8dbf535d46d334b2abc91092",
+    "text": "From a chemical perspective, MetaboDesigner simulates intermediate stability, side-reaction risks, and metabolite toxicity.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Concentration default1 and aldehyde-name reactivity proxy, not intermediate stability/toxicity chemistry."
+  },
+  {
+    "id": "metabodesigner:10",
+    "module": "metabodesigner",
+    "source_path": "spec/metabodesigner.md",
+    "spec_sha256": "d4951e4b30a9ff53aac43c29f367b5a3a79f5b8c8dbf535d46d334b2abc91092",
+    "text": "It predicts accumulation of reactive intermediates and suggests pathway balancing strategies, such as enzyme overexpression or compartmentalization, to prevent bottlenecks or harmful byproducts.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Bottleneck ranking and text suggestions, no mechanistic reactive-intermediate prevention."
+  },
+  {
+    "id": "metabodesigner:11",
+    "module": "metabodesigner",
+    "source_path": "spec/metabodesigner.md",
+    "spec_sha256": "d4951e4b30a9ff53aac43c29f367b5a3a79f5b8c8dbf535d46d334b2abc91092",
+    "text": "It also integrates redox balancing and carbon efficiency metrics, optimizing pathways for maximum yield while minimizing waste and energy loss\u2014critical for industrial bioproduction.",
+    "review_status": "SCOPED_HEURISTIC_INDEX",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Cofactor counts and 1/(1+.1*steps) carbon proxy, no actual redox/carbon maximization."
+  },
+  {
+    "id": "metabodesigner:12",
+    "module": "metabodesigner",
+    "source_path": "spec/metabodesigner.md",
+    "spec_sha256": "d4951e4b30a9ff53aac43c29f367b5a3a79f5b8c8dbf535d46d334b2abc91092",
+    "text": "At the cellular systems level, the platform models how engineered pathways interact with host metabolism.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Route-only calculation, no host metabolic network coupling."
+  },
+  {
+    "id": "metabodesigner:13",
+    "module": "metabodesigner",
+    "source_path": "spec/metabodesigner.md",
+    "spec_sha256": "d4951e4b30a9ff53aac43c29f367b5a3a79f5b8c8dbf535d46d334b2abc91092",
+    "text": "It predicts metabolic burden, competition for precursors, and regulatory feedback loops that may suppress pathway activity.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No host precursor competition or feedback model; feasibility step-count proxy."
+  },
+  {
+    "id": "metabodesigner:14",
+    "module": "metabodesigner",
+    "source_path": "spec/metabodesigner.md",
+    "spec_sha256": "d4951e4b30a9ff53aac43c29f367b5a3a79f5b8c8dbf535d46d334b2abc91092",
+    "text": "Using dynamic FBA and kinetic modeling, it simulates time-dependent production curves and identifies optimal expression strategies (e.g., inducible vs constitutive systems).",
+    "review_status": "PARTIAL_TRAJECTORY_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Serial saturating kinetic ODE, not dynamic FBA/expression-strategy optimizer."
+  },
+  {
+    "id": "metabodesigner:15",
+    "module": "metabodesigner",
+    "source_path": "spec/metabodesigner.md",
+    "spec_sha256": "d4951e4b30a9ff53aac43c29f367b5a3a79f5b8c8dbf535d46d334b2abc91092",
+    "text": "It also suggests chassis organisms (E. coli, yeast, mammalian cells) based on compatibility with pathway requirements and scalability.",
+    "review_status": "SCOPED_CURATED_RANKING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Three static chassis trait profiles ranked against supplied requirements; not scaling validity."
+  },
+  {
+    "id": "metabodesigner:16",
+    "module": "metabodesigner",
+    "source_path": "spec/metabodesigner.md",
+    "spec_sha256": "d4951e4b30a9ff53aac43c29f367b5a3a79f5b8c8dbf535d46d334b2abc91092",
+    "text": "Ultimately, MetaboDesigner outputs a complete engineering blueprint: enzyme lists, gene sequences, regulatory strategies, and predicted production yields.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Enzymes/route/cofactors exist, no gene sequences or complete regulatory blueprint."
+  },
+  {
+    "id": "metabodesigner:17",
+    "module": "metabodesigner",
+    "source_path": "spec/metabodesigner.md",
+    "spec_sha256": "d4951e4b30a9ff53aac43c29f367b5a3a79f5b8c8dbf535d46d334b2abc91092",
+    "text": "It bridges computational biology, enzymology, and chemical engineering, enabling the rational design of metabolic systems for pharmaceuticals, biofuels, and novel biomolecules.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No measured bioproduction outcome."
+  }
+]

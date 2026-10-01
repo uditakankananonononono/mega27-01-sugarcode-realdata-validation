@@ -1,0 +1,89 @@
+{
+  "flux_order": {
+    "a": {
+      "success": true,
+      "fluxes": [
+        0.0,
+        7.0
+      ],
+      "objective_flux": 7.0,
+      "stoichiometry": {
+        "metabolites": [
+          "A",
+          "B",
+          "C"
+        ],
+        "reactions": [
+          "target",
+          "side"
+        ],
+        "matrix": [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "b": {
+      "success": true,
+      "fluxes": [
+        0.0,
+        7.0
+      ],
+      "objective_flux": 7.0,
+      "stoichiometry": {
+        "metabolites": [
+          "A",
+          "B",
+          "C"
+        ],
+        "reactions": [
+          "side",
+          "target"
+        ],
+        "matrix": [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    },
+    "a_target_flux": 0.0,
+    "b_target_flux": 7.0,
+    "repeat_equal": true
+  },
+  "mechanics": {
+    "result": {
+      "shear_modulus_mpa": 0.257734,
+      "youngs_modulus_mpa": 0.19330050000000001,
+      "mesh_size_relative": 0.1,
+      "porosity": 0.5
+    },
+    "independent_young": 0.1933005,
+    "match": true
+  },
+  "decay": {
+    "endpoint": 98.31436846349096,
+    "independent": 98.31436846349096,
+    "repeat_equal": true
+  },
+  "scope": "Synthetic equations only, no material or metabolic performance validity."
+}
