@@ -1,0 +1,402 @@
+[
+  {
+    "id": "docking_studio:1",
+    "module": "docking_studio",
+    "source_path": "spec/docking_studio.md",
+    "spec_sha256": "69070521155d8caef0e8f0a85fbf4e27a34a04d3042b71064e342f06303015ba",
+    "text": "# Docking Studio\n\nDocking Studio: A molecular simulation module that predicts the binding affinity between proteins and small molecules.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Composition complementarity produces affinity proxy, not experimental binding free energy."
+  },
+  {
+    "id": "docking_studio:2",
+    "module": "docking_studio",
+    "source_path": "spec/docking_studio.md",
+    "spec_sha256": "69070521155d8caef0e8f0a85fbf4e27a34a04d3042b71064e342f06303015ba",
+    "text": "It identifies key residues in the binding pocket and suggests mutations to enhance interaction strength.",
+    "review_status": "SCOPED_CURATED_CONCEPT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Polar residue labels/mutation suggestions, not measured pocket contacts or improved binding."
+  },
+  {
+    "id": "docking_studio:3",
+    "module": "docking_studio",
+    "source_path": "spec/docking_studio.md",
+    "spec_sha256": "69070521155d8caef0e8f0a85fbf4e27a34a04d3042b71064e342f06303015ba",
+    "text": "Docking Studio provides 3D visualizations, allowing researchers to perform virtual screenings of chemical libraries and optimize lead compounds for discovery.",
+    "review_status": "UNVERIFIED_VISUAL_CLAIM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "3d_pose_payload contains terms/length not actual pose coordinates or verified visual pixels."
+  },
+  {
+    "id": "docking_studio:4",
+    "module": "docking_studio",
+    "source_path": "spec/docking_studio.md",
+    "spec_sha256": "69070521155d8caef0e8f0a85fbf4e27a34a04d3042b71064e342f06303015ba",
+    "text": "Docking Studio can be reframed as a high-dimensional molecular interaction optimization engine that models protein\u2013ligand binding as a constrained energy minimization problem over configurational space.",
+    "review_status": "PARTIAL_EXPLICIT_PHYSICS_NOT_LEARNED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Separate pose-energy/MC utilities exist, base dock composition-only."
+  },
+  {
+    "id": "docking_studio:5",
+    "module": "docking_studio",
+    "source_path": "spec/docking_studio.md",
+    "spec_sha256": "69070521155d8caef0e8f0a85fbf4e27a34a04d3042b71064e342f06303015ba",
+    "text": "Formally, the docking objective is to minimize a scoring function E(x,\u03b8)E(\\mathbf{x}, \\theta)E(x,\u03b8), where x\\mathbf{x}x represents ligand pose (translation + rotation + torsional angles) and \u03b8\\theta\u03b8 encodes chemical parameters (partial charges, atom types).",
+    "review_status": "PARTIAL_SIMULATION_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Rigid translation/rotation sampling, no torsional chemistry parameter search."
+  },
+  {
+    "id": "docking_studio:6",
+    "module": "docking_studio",
+    "source_path": "spec/docking_studio.md",
+    "spec_sha256": "69070521155d8caef0e8f0a85fbf4e27a34a04d3042b71064e342f06303015ba",
+    "text": "This energy function integrates van der Waals interactions (Lennard\u2013Jones potential), electrostatics (Coulombic terms), hydrogen bonding, and solvation effects (implicit solvent models like Generalized Born or Poisson\u2013Boltzmann approximations).",
+    "review_status": "PARTIAL_EXPLICIT_PHYSICS_NOT_LEARNED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "LJ-like/Coulomb/Hbond and supplied solvation scalar, no GB/PB solvent solver."
+  },
+  {
+    "id": "docking_studio:7",
+    "module": "docking_studio",
+    "source_path": "spec/docking_studio.md",
+    "spec_sha256": "69070521155d8caef0e8f0a85fbf4e27a34a04d3042b71064e342f06303015ba",
+    "text": "Docking Studio exposes this composite energy landscape, allowing users to visualize how different poses correspond to local minima and how optimization algorithms traverse this rugged surface.",
+    "review_status": "UNVERIFIED_VISUAL_CLAIM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Energy traces/data only, visual energy landscape uninspected."
+  },
+  {
+    "id": "docking_studio:8",
+    "module": "docking_studio",
+    "source_path": "spec/docking_studio.md",
+    "spec_sha256": "69070521155d8caef0e8f0a85fbf4e27a34a04d3042b71064e342f06303015ba",
+    "text": "At the algorithmic level, the system combines classical search techniques (genetic algorithms, simulated annealing, Monte Carlo sampling) with modern AI-based pose prediction models.",
+    "review_status": "NOT_TRAINED_GNN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Monte Carlo available, no trained AI pose model or combined GA/annealing pipeline."
+  },
+  {
+    "id": "docking_studio:9",
+    "module": "docking_studio",
+    "source_path": "spec/docking_studio.md",
+    "spec_sha256": "69070521155d8caef0e8f0a85fbf4e27a34a04d3042b71064e342f06303015ba",
+    "text": "Ligand conformational space is explored through stochastic sampling of rotatable bonds, while rigid-body transformations are optimized using gradient-based or heuristic methods.",
+    "review_status": "PARTIAL_INPUT_DEPENDENT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Rigid-body MC, no rotatable bond conformer sampling."
+  },
+  {
+    "id": "docking_studio:10",
+    "module": "docking_studio",
+    "source_path": "spec/docking_studio.md",
+    "spec_sha256": "69070521155d8caef0e8f0a85fbf4e27a34a04d3042b71064e342f06303015ba",
+    "text": "Docking Studio enhances this by incorporating learned scoring functions\u2014graph neural networks trained on protein\u2013ligand complexes\u2014that approximate binding affinity \u0394Gbind\\Delta G_{\\text{bind}}\u0394Gbind\u200b with higher accuracy than traditional empirical scoring.",
+    "review_status": "NOT_TRAINED_GNN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No learned protein-ligand scoring weights."
+  },
+  {
+    "id": "docking_studio:11",
+    "module": "docking_studio",
+    "source_path": "spec/docking_studio.md",
+    "spec_sha256": "69070521155d8caef0e8f0a85fbf4e27a34a04d3042b71064e342f06303015ba",
+    "text": "These models encode both local chemical environments and long-range interactions, effectively learning non-linear interaction potentials from structural data.",
+    "review_status": "NOT_LEARNED_DISCRIMINATION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No structural learned nonlinear potentials."
+  },
+  {
+    "id": "docking_studio:12",
+    "module": "docking_studio",
+    "source_path": "spec/docking_studio.md",
+    "spec_sha256": "69070521155d8caef0e8f0a85fbf4e27a34a04d3042b71064e342f06303015ba",
+    "text": "The platform further integrates structural biology inputs from tools like AlphaFold, enabling docking against predicted protein conformations when experimental structures are unavailable.",
+    "review_status": "PARTIAL_NOT_EXTERNAL_CONNECTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "PDB/AlphaFold fetch adapter present, live fetch not exercised in tranche."
+  },
+  {
+    "id": "docking_studio:13",
+    "module": "docking_studio",
+    "source_path": "spec/docking_studio.md",
+    "spec_sha256": "69070521155d8caef0e8f0a85fbf4e27a34a04d3042b71064e342f06303015ba",
+    "text": "It accounts for receptor flexibility through ensemble docking, where multiple protein conformations (obtained via molecular dynamics or normal mode analysis) are sampled.",
+    "review_status": "PARTIAL_DATA_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Ensemble supplied pocket strings, no MD/normal-mode conformations generated."
+  },
+  {
+    "id": "docking_studio:14",
+    "module": "docking_studio",
+    "source_path": "spec/docking_studio.md",
+    "spec_sha256": "69070521155d8caef0e8f0a85fbf4e27a34a04d3042b71064e342f06303015ba",
+    "text": "This addresses the limitation of rigid docking by approximating induced fit effects, allowing Docking Studio to capture conformational selection and allosteric binding phenomena.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Pocket composition ensemble not validated induced fit/allostery."
+  },
+  {
+    "id": "docking_studio:15",
+    "module": "docking_studio",
+    "source_path": "spec/docking_studio.md",
+    "spec_sha256": "69070521155d8caef0e8f0a85fbf4e27a34a04d3042b71064e342f06303015ba",
+    "text": "From a thermodynamic perspective, Docking Studio models binding as a free energy change:\n\u0394Gbind=\u0394H\u2212T\u0394S\\Delta G_{\\text{bind}} = \\Delta H - T\\Delta S\u0394Gbind\u200b=\u0394H\u2212T\u0394S\nwhere enthalpic contributions arise from intermolecular interactions and entropic terms account for ligand flexibility and solvent displacement.",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Thermodynamic identity algebra and empirical entropy/water terms, no measured decomposition."
+  },
+  {
+    "id": "docking_studio:16",
+    "module": "docking_studio",
+    "source_path": "spec/docking_studio.md",
+    "spec_sha256": "69070521155d8caef0e8f0a85fbf4e27a34a04d3042b71064e342f06303015ba",
+    "text": "The system approximates these components using hybrid methods\u2014physics-based calculations for enthalpy and machine learning estimators for entropy\u2014providing more realistic affinity predictions.",
+    "review_status": "NOT_DEEP_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Entropy heuristic, not ML estimator."
+  },
+  {
+    "id": "docking_studio:17",
+    "module": "docking_studio",
+    "source_path": "spec/docking_studio.md",
+    "spec_sha256": "69070521155d8caef0e8f0a85fbf4e27a34a04d3042b71064e342f06303015ba",
+    "text": "It can also simulate competitive binding scenarios and calculate relative binding free energies across ligand libraries, enabling virtual screening workflows at scale.",
+    "review_status": "SCOPED_BEHAVIOR_REPRODUCED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Two Kd1/concentration1 occupancies and unbound=1/3 each match; relative composition energies not real free-energy screening validity."
+  },
+  {
+    "id": "docking_studio:18",
+    "module": "docking_studio",
+    "source_path": "spec/docking_studio.md",
+    "spec_sha256": "69070521155d8caef0e8f0a85fbf4e27a34a04d3042b71064e342f06303015ba",
+    "text": "On the computational pipeline side, Docking Studio generates reproducible outputs including ranked ligand poses, binding affinity distributions, interaction fingerprints (hydrogen bonds, hydrophobic contacts), and annotated PDB complexes.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Rank/terms/fingerprint output, no annotated PDB complex in module."
+  },
+  {
+    "id": "docking_studio:19",
+    "module": "docking_studio",
+    "source_path": "spec/docking_studio.md",
+    "spec_sha256": "69070521155d8caef0e8f0a85fbf4e27a34a04d3042b71064e342f06303015ba",
+    "text": "It integrates seamlessly with cheminformatics tools for library generation and retrosynthetic analysis, allowing users to move from in silico screening to experimentally synthesizable candidates.",
+    "review_status": "UNVERIFIED_INTEGRATION_CLAIM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "SMILES parser interface, no retrosynthesis/library synthesis integration."
+  },
+  {
+    "id": "docking_studio:20",
+    "module": "docking_studio",
+    "source_path": "spec/docking_studio.md",
+    "spec_sha256": "69070521155d8caef0e8f0a85fbf4e27a34a04d3042b71064e342f06303015ba",
+    "text": "By unifying statistical mechanics, optimization theory, and deep learning, Docking Studio becomes a comprehensive platform for molecular interaction modeling\u2014capable of exploring chemical space, predicting binding mechanisms, and accelerating rational drug design with quantitative rigor.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No drug discovery/binding-mechanism performance assurance."
+  },
+  {
+    "id": "mutdock:1",
+    "module": "mutdock",
+    "source_path": "spec/mutdock.md",
+    "spec_sha256": "986fe3f7cf0659157e9fbdd029c819bf23838f9f31d1f788a782faa5aaf55396",
+    "text": "# MutDock\n\nMutDock: A predictive module that models how point mutations in a protein alter its affinity for existing drugs.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Class penalty/composition score change, not measured mutation-induced affinity."
+  },
+  {
+    "id": "mutdock:2",
+    "module": "mutdock",
+    "source_path": "spec/mutdock.md",
+    "spec_sha256": "986fe3f7cf0659157e9fbdd029c819bf23838f9f31d1f788a782faa5aaf55396",
+    "text": "It identifies resistance hotspots and forecasts cross-drug resistance across therapeutic alternatives.",
+    "review_status": "SCOPED_HEURISTIC_INDEX",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Exhaustive residue substitutions rank proxy hotspots, not clinical resistance."
+  },
+  {
+    "id": "mutdock:3",
+    "module": "mutdock",
+    "source_path": "spec/mutdock.md",
+    "spec_sha256": "986fe3f7cf0659157e9fbdd029c819bf23838f9f31d1f788a782faa5aaf55396",
+    "text": "MutDock helps researchers and clinicians understand the molecular basis of drug resistance, enabling the development of personalized and effective treatment plans.",
+    "review_status": "NOT_THERAPEUTIC_VALIDITY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Report explicitly not treatment guidance/personalized efficacy."
+  },
+  {
+    "id": "mutdock:4",
+    "module": "mutdock",
+    "source_path": "spec/mutdock.md",
+    "spec_sha256": "986fe3f7cf0659157e9fbdd029c819bf23838f9f31d1f788a782faa5aaf55396",
+    "text": "MutDock can be rigorously framed as a mutation-aware perturbation model over protein\u2013ligand interaction landscapes, where the central objective is to quantify how a sequence perturbation \u0394S\\Delta S\u0394S induces a shift in binding free energy \u0394\u0394Gbind\\Delta \\Delta G_{\\text{bind}}\u0394\u0394Gbind\u200b.",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Proxy ddG feature perturbation exists, actual protein-ligand energy landscape unvalidated."
+  },
+  {
+    "id": "mutdock:5",
+    "module": "mutdock",
+    "source_path": "spec/mutdock.md",
+    "spec_sha256": "986fe3f7cf0659157e9fbdd029c819bf23838f9f31d1f788a782faa5aaf55396",
+    "text": "Formally, for a wild-type structure xWT\\mathbf{x}_{WT}xWT\u200b and mutant xmut\\mathbf{x}_{mut}xmut\u200b, the system estimates:\n\u0394\u0394G=\u0394Gbindmut\u2212\u0394GbindWT\\Delta \\Delta G = \\Delta G_{\\text{bind}}^{mut} - \\Delta G_{\\text{bind}}^{WT}\u0394\u0394G=\u0394Gbindmut\u200b\u2212\u0394GbindWT\u200b\nThis is computed using a hybrid scoring function that combines physics-based energy terms (van der Waals, electrostatics, solvation) with learned potentials derived from graph neural networks trained on large-scale mutagenesis and binding datasets.",
+    "review_status": "NOT_TRAINED_GNN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Composition/class weighted proxy, not learned hybrid potentials."
+  },
+  {
+    "id": "mutdock:6",
+    "module": "mutdock",
+    "source_path": "spec/mutdock.md",
+    "spec_sha256": "986fe3f7cf0659157e9fbdd029c819bf23838f9f31d1f788a782faa5aaf55396",
+    "text": "MutDock treats mutations as localized perturbations in a high-dimensional energy landscape, propagating their effects through structural rearrangements and interaction networks.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Changes residue strings/contact labels, no full structural propagation."
+  },
+  {
+    "id": "mutdock:7",
+    "module": "mutdock",
+    "source_path": "spec/mutdock.md",
+    "spec_sha256": "986fe3f7cf0659157e9fbdd029c819bf23838f9f31d1f788a782faa5aaf55396",
+    "text": "At the structural level, MutDock integrates models from tools like AlphaFold to generate mutant conformations, followed by local refinement using energy minimization and side-chain repacking algorithms.",
+    "review_status": "PARTIAL_EXPLICIT_PHYSICS_NOT_LEARNED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Separate coordinate distance relaxation; live structure adapter present, no AlphaFold mutant-conformation generator."
+  },
+  {
+    "id": "mutdock:8",
+    "module": "mutdock",
+    "source_path": "spec/mutdock.md",
+    "spec_sha256": "986fe3f7cf0659157e9fbdd029c819bf23838f9f31d1f788a782faa5aaf55396",
+    "text": "The protein\u2013ligand complex is represented as a heterogeneous graph G=(V,E)G = (V, E)G=(V,E), where nodes correspond to atoms/residues and edges encode spatial proximity, chemical bonds, and interaction potentials.",
+    "review_status": "SCOPED_CLASSICAL_GRAPH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Residue/ligand label graph based on class flags, not full atom/bond spatial graph."
+  },
+  {
+    "id": "mutdock:9",
+    "module": "mutdock",
+    "source_path": "spec/mutdock.md",
+    "spec_sha256": "986fe3f7cf0659157e9fbdd029c819bf23838f9f31d1f788a782faa5aaf55396",
+    "text": "Graph neural networks operate over this structure to learn how mutations alter interaction fingerprints\u2014such as hydrogen bonding networks, hydrophobic packing, and \u03c0\u2013\u03c0 stacking\u2014providing a fine-grained map of disrupted or newly formed contacts.",
+    "review_status": "NOT_TRAINED_GNN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No trained graph contact-change prediction."
+  },
+  {
+    "id": "mutdock:10",
+    "module": "mutdock",
+    "source_path": "spec/mutdock.md",
+    "spec_sha256": "986fe3f7cf0659157e9fbdd029c819bf23838f9f31d1f788a782faa5aaf55396",
+    "text": "MutDock further incorporates molecular docking and conformational sampling to account for induced fit effects.",
+    "review_status": "PARTIAL_SIMULATION_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Supplied string ensembles, not induced-fit conformational docking."
+  },
+  {
+    "id": "mutdock:11",
+    "module": "mutdock",
+    "source_path": "spec/mutdock.md",
+    "spec_sha256": "986fe3f7cf0659157e9fbdd029c819bf23838f9f31d1f788a782faa5aaf55396",
+    "text": "Instead of assuming a static binding pose, the system performs ensemble docking across multiple mutant conformations, approximating the distribution P(xligand\u2223xprotein)P(\\mathbf{x}_{ligand} | \\mathbf{x}_{protein})P(xligand\u200b\u2223xprotein\u200b).",
+    "review_status": "PARTIAL_DATA_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Weighted supplied pocket sequences, no mutant coordinate sampling."
+  },
+  {
+    "id": "mutdock:12",
+    "module": "mutdock",
+    "source_path": "spec/mutdock.md",
+    "spec_sha256": "986fe3f7cf0659157e9fbdd029c819bf23838f9f31d1f788a782faa5aaf55396",
+    "text": "This allows it to capture cases where mutations reshape the binding pocket geometry, altering ligand orientation or accessibility.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No ligand orientation/accessibility recalculation."
+  },
+  {
+    "id": "mutdock:13",
+    "module": "mutdock",
+    "source_path": "spec/mutdock.md",
+    "spec_sha256": "986fe3f7cf0659157e9fbdd029c819bf23838f9f31d1f788a782faa5aaf55396",
+    "text": "Advanced sampling techniques such as Monte Carlo and normal mode perturbations are used to explore conformational flexibility, while learned scoring functions rank poses based on predicted affinity.",
+    "review_status": "NOT_TRAINED_GNN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No learned pose ranks/normal-mode sampling in module."
+  },
+  {
+    "id": "mutdock:14",
+    "module": "mutdock",
+    "source_path": "spec/mutdock.md",
+    "spec_sha256": "986fe3f7cf0659157e9fbdd029c819bf23838f9f31d1f788a782faa5aaf55396",
+    "text": "From a systems perspective, MutDock extends beyond single mutation analysis to model combinatorial mutational landscapes.",
+    "review_status": "PARTIAL_INPUT_DEPENDENT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Multiple supplied substitutions accepted, combined composition scorer."
+  },
+  {
+    "id": "mutdock:15",
+    "module": "mutdock",
+    "source_path": "spec/mutdock.md",
+    "spec_sha256": "986fe3f7cf0659157e9fbdd029c819bf23838f9f31d1f788a782faa5aaf55396",
+    "text": "Using techniques from statistical learning and epistasis modeling, it predicts non-linear interactions between multiple mutations, identifying synergistic or compensatory effects that influence drug resistance.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Epistasis arithmetic compares combined base-dock delta vs weighted single ddG, no learned non-linear biological interactions."
+  },
+  {
+    "id": "mutdock:16",
+    "module": "mutdock",
+    "source_path": "spec/mutdock.md",
+    "spec_sha256": "986fe3f7cf0659157e9fbdd029c819bf23838f9f31d1f788a782faa5aaf55396",
+    "text": "This is particularly relevant in oncology and infectious disease, where resistance often arises from multi-site mutations.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Real multi-site clinical resistance relevance not validated."
+  },
+  {
+    "id": "mutdock:17",
+    "module": "mutdock",
+    "source_path": "spec/mutdock.md",
+    "spec_sha256": "986fe3f7cf0659157e9fbdd029c819bf23838f9f31d1f788a782faa5aaf55396",
+    "text": "The system can construct mutational fitness landscapes, mapping regions of high resistance potential and suggesting alternative therapeutic targets or drug modifications.",
+    "review_status": "SCOPED_HEURISTIC_INDEX",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Fitness exp(-positive ddG), heuristic resistance landscape; no alternative therapeutic target design."
+  },
+  {
+    "id": "mutdock:18",
+    "module": "mutdock",
+    "source_path": "spec/mutdock.md",
+    "spec_sha256": "986fe3f7cf0659157e9fbdd029c819bf23838f9f31d1f788a782faa5aaf55396",
+    "text": "Finally, MutDock integrates into a broader computational pipeline, generating outputs such as \u0394\u0394G distributions, structural annotations of mutation-induced changes, and ranked ligand sensitivity profiles.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Proxy ddG/ensemble stats and drug matrix; coordinate annotations not validated."
+  },
+  {
+    "id": "mutdock:19",
+    "module": "mutdock",
+    "source_path": "spec/mutdock.md",
+    "spec_sha256": "986fe3f7cf0659157e9fbdd029c819bf23838f9f31d1f788a782faa5aaf55396",
+    "text": "It supports downstream applications including personalized medicine (predicting patient-specific drug response), drug design (identifying mutation-resilient compounds), and evolutionary forecasting (anticipating resistance pathways).",
+    "review_status": "NOT_THERAPEUTIC_VALIDITY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Forecast explicitly not prognosis; no patient drug response assurance."
+  },
+  {
+    "id": "mutdock:20",
+    "module": "mutdock",
+    "source_path": "spec/mutdock.md",
+    "spec_sha256": "986fe3f7cf0659157e9fbdd029c819bf23838f9f31d1f788a782faa5aaf55396",
+    "text": "By combining thermodynamics, structural biology, graph-based AI, and statistical modeling, MutDock becomes a powerful engine for understanding and counteracting mutation-driven changes in molecular interactions.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No actual counteraction/drug-resistance efficacy demonstrated."
+  }
+]

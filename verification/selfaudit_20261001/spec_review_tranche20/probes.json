@@ -1,0 +1,34 @@
+{
+  "single_pair_energy": {
+    "result": {
+      "vdw": -0.08,
+      "electrostatic": 0.0,
+      "hbond": 0,
+      "solvation": 0.0,
+      "total": -0.08
+    },
+    "independent": -0.08,
+    "match": true
+  },
+  "competition": {
+    "result": {
+      "unbound_fraction": 0.3333333333333333,
+      "occupancies": [
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    "independent": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "match": true
+  },
+  "identity_mutation": {
+    "ddg": 0.0,
+    "match": true,
+    "repeat_equal": true
+  },
+  "scope": "Synthetic mathematical consistency only; no live structure, experimental affinity, clinical prediction or visual pose validation."
+}
