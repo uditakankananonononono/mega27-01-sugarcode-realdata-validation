@@ -1,0 +1,49 @@
+{
+  "runs": [
+    {
+      "fasta_wrap_matches": true,
+      "pdb_residue_names_match": true,
+      "ca_neighbor_distances": [
+        3.830058485193144,
+        3.8294576639519073,
+        3.829548798487884
+      ],
+      "geometry_scope": "ideal helix CA exchange coordinates, not predicted protein fold/perturbation annotation.",
+      "feedback_reference_matches": true,
+      "constant_product_reference_matches": true,
+      "unknown_query": {
+        "route": "literature_synthesis",
+        "answer": "no grounded local hit; in deployment this route queries PubMed E-utilities and synthesizes with citations - local graph has genes: BRCA1, KRAS, TP53",
+        "followups": [
+          "narrow the question to a gene or variant"
+        ]
+      },
+      "tp53_stop_rule": "likely pathogenic",
+      "kras_stop_rule": "uncertain significance",
+      "scope": "Rule labels not independently verified current ClinVar truth; live PubMed/UniProt retrieval not exercised."
+    },
+    {
+      "fasta_wrap_matches": true,
+      "pdb_residue_names_match": true,
+      "ca_neighbor_distances": [
+        3.830058485193144,
+        3.8294576639519073,
+        3.829548798487884
+      ],
+      "geometry_scope": "ideal helix CA exchange coordinates, not predicted protein fold/perturbation annotation.",
+      "feedback_reference_matches": true,
+      "constant_product_reference_matches": true,
+      "unknown_query": {
+        "route": "literature_synthesis",
+        "answer": "no grounded local hit; in deployment this route queries PubMed E-utilities and synthesizes with citations - local graph has genes: BRCA1, KRAS, TP53",
+        "followups": [
+          "narrow the question to a gene or variant"
+        ]
+      },
+      "tp53_stop_rule": "likely pathogenic",
+      "kras_stop_rule": "uncertain significance",
+      "scope": "Rule labels not independently verified current ClinVar truth; live PubMed/UniProt retrieval not exercised."
+    }
+  ],
+  "repeat_equal": true
+}

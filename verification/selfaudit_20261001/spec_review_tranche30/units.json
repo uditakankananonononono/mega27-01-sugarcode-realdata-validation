@@ -1,0 +1,392 @@
+[
+  {
+    "id": "bio_copilot:1",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "# Bio-Copilot\n\nBio-Copilot: An AI-native research assistant grounded in real-time PubMed data.",
+    "review_status": "PARTIAL_CATALOG_AND_PUBMED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Three-gene local slice/UniProt connector; unknown answer says deployment PubMed route, no actual real-time PubMed synthesis here."
+  },
+  {
+    "id": "bio_copilot:2",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "It answers complex biological questions, simulates mutation-to-phenotype pathways, and generates structured scientific outputs like FASTA or PDB files.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Four-node mutation proxy, valid FASTA/idealCA PDB, no arbitrary complex biological answer/predicted structure."
+  },
+  {
+    "id": "bio_copilot:3",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "The Copilot facilitates high-level experimental planning through an intuitive natural language interface, providing researchers with instant access to synthesized biological knowledge.",
+    "review_status": "SCOPED_CURATED_CONCEPT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Keyword routes/templates and assay suggestions, no general natural-language experimental reasoning validated."
+  },
+  {
+    "id": "bio_copilot:4",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "Bio-Copilot\u00a0can be expanded into a full-stack AI research environment by integrating multi-modal biological data and advanced simulation pipelines.",
+    "review_status": "PARTIAL_HYPOTHESIS_PLATFORM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Local knowledge/proxy tools, no integrated multimodal research environment."
+  },
+  {
+    "id": "bio_copilot:5",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "Beyond real-time PubMed synthesis, it should incorporate genomic, proteomic, and structural databases (e.g., Ensembl, UniProt, AlphaFold) to enable cross-layer reasoning from DNA to phenotype.",
+    "review_status": "PARTIAL_NOT_EXTERNAL_CONNECTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "UniProt connector exists, Ensembl/AlphaFold cross-layer ingestion absent; live provider success untested this tranche."
+  },
+  {
+    "id": "bio_copilot:6",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "The platform can include automated CRISPR guide RNA design, off-target prediction, and mutation impact analysis using tools like VEP.",
+    "review_status": "PARTIAL_SEQUENCE_HEURISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "NGG both-strand guide enumeration/sequence risk and3gene mutation rules, no VEP/full genome off-target."
+  },
+  {
+    "id": "bio_copilot:7",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "To enhance experimental planning, Bio-Copilot could simulate gene regulatory networks and cellular pathways using SBML-based engines, allowing users to test hypotheses in silico before lab work.",
+    "review_status": "UNVERIFIED_INTEGRATION_CLAIM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No SBML engine executed by inspected Bio-Copilot."
+  },
+  {
+    "id": "bio_copilot:8",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "Molecular docking and protein\u2013ligand interaction modules (e.g., AutoDock integration) would enable drug discovery workflows.",
+    "review_status": "UNVERIFIED_INTEGRATION_CLAIM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No AutoDock/protein-ligand pose workflow in module."
+  },
+  {
+    "id": "bio_copilot:9",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "A built-in gene circuit designer and plasmid constructor can support synthetic biology applications.",
+    "review_status": "NOT_INTERVENTION_SEQUENCE_DESIGN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No genetic circuit/plasmid sequence constructor."
+  },
+  {
+    "id": "bio_copilot:10",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "On the interface side, it should generate reproducible research outputs: Jupyter notebooks, protocols, and visualizations (pathway maps, 3D protein structures).",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "JSON/FASTA/idealPDB and generic replay list, no notebook/protocol/visual verified output."
+  },
+  {
+    "id": "bio_copilot:11",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "Collaboration features like version control, shared workspaces, and citation tracking would make it team-ready.",
+    "review_status": "UNVERIFIED_INTEGRATION_CLAIM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No checked version/shared workspace/citation collaboration."
+  },
+  {
+    "id": "bio_copilot:12",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "Finally, integrating fine-tuned domain-specific LLMs and reinforcement learning from experimental feedback could allow the system to improve its predictions over time, evolving into a self-optimizing biological discovery engine.",
+    "review_status": "NOT_CONTINUOUS_TRAINING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No fine-tuned LLM or experimental RL learning engine."
+  },
+  {
+    "id": "bio_copilot:13",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "Bio-Copilot evolves into a causal, multi-omic biological reasoning engine that operates as an execution layer over heterogeneous biomedical data and mechanistic models, rather than a retrieval-based assistant.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Rule graph/provenance output, no identified causal multi-omic execution engine."
+  },
+  {
+    "id": "bio_copilot:14",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "At query time, it constructs a directed acyclic computation graph that links genomic loci to phenotypic endpoints via intermediate representations\u2014variant annotation \u2192 transcript isoform selection \u2192 codon-level mutation mapping \u2192 protein structural perturbation \u2192 pathway flux redistribution \u2192 cellular state transitions.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "4rule nodes annotation/structure/pathway/phenotype, no transcript isoform/codon mutation kinetic cascade."
+  },
+  {
+    "id": "bio_copilot:15",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "Each node in this graph is parameterized by domain-specific models: variant impact is computed using ensemble predictors (VEP-like consequence classification, SIFT/PolyPhen-style deleteriousness priors), structural perturbation is approximated via \u0394\u0394G estimation and local residue environment disruption (e.g., hydrogen bond network loss, electrostatic repulsion, metal coordination breakage), and pathway effects are propagated using constraint-based modeling (FBA) or ODE-based regulatory systems.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Hydrophobic/hotspot/domain ddG and scaled disruption, not structural Hbond/metal model or FBA/ODE model."
+  },
+  {
+    "id": "bio_copilot:16",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "The system does not treat these as isolated modules; it performs cross-layer inference, ensuring that inconsistencies (e.g., structurally tolerated mutations with high pathway disruption) are explicitly flagged and reconciled.",
+    "review_status": "PARTIAL_RECOMMENDATIONS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Heuristic inconsistency flags, no actual cross-layer inference/reconciliation."
+  },
+  {
+    "id": "bio_copilot:17",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "The platform\u2019s core architecture integrates multi-modal biological embeddings with symbolic reasoning, enabling both statistical generalization and mechanistic interpretability.",
+    "review_status": "NOT_DEEP_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No learned multimodal embeddings or symbolic ontology inference."
+  },
+  {
+    "id": "bio_copilot:18",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "Genomic sequences are encoded using transformer-based representations trained on large-scale DNA corpora, while protein structures are embedded via geometric deep learning models operating on residue graphs (capturing spatial adjacency, torsion angles, and interaction energies).",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Local domains/pathway strings, no GO learned alignment."
+  },
+  {
+    "id": "bio_copilot:19",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "These embeddings are aligned with curated biological ontologies (GO terms, pathway hierarchies) to enable semantic reasoning.",
+    "review_status": "PARTIAL_CURATED_GRAPH_AND_UNVERIFIED_DOCKING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Local domains/pathway strings, no GO learned alignment; no docking asserted."
+  },
+  {
+    "id": "bio_copilot:20",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "When answering a query, the system performs retrieval-augmented generation over a continuously updated literature index while simultaneously running programmatic reasoning pipelines\u2014for example, mapping a mutation to its UniProt domain, identifying active-site residues, and simulating downstream signaling perturbations.",
+    "review_status": "PARTIAL_CATALOG_AND_PUBMED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Known gene UniProt lookup code, no continuously updated literature index/RAG at query time."
+  },
+  {
+    "id": "bio_copilot:21",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "This hybrid architecture overcomes a key limitation in current systems: purely neural models lack mechanistic grounding, while purely rule-based systems cannot generalize across incomplete data.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No incomplete-data generalization superiority measured."
+  },
+  {
+    "id": "bio_copilot:22",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "CRISPR design is implemented as a genome-scale optimization problem, where candidate guide RNAs are generated via exhaustive sliding-window enumeration over the target locus with PAM filtering (SpCas9 NGG/NAG, extended to Cas variants with alternative PAMs).",
+    "review_status": "SCOPED_SEQUENCE_ANALYTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Both-strandNGG local enumeration only, no NAG/other nuclease genome-scale optimization."
+  },
+  {
+    "id": "bio_copilot:23",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "Each candidate is scored using a composite objective function incorporating GC content (optimal 40\u201360%), predicted on-target efficiency (sequence-dependent models), secondary structure folding energy (to avoid sgRNA hairpins), and off-target risk computed via genome-wide alignment with mismatch tolerance weighting in the seed region (positions 1\u201312 proximal to PAM).",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "GC/polyT/simple seed composition risk, no hairpin thermodynamics/whole-genome weighted alignment."
+  },
+  {
+    "id": "bio_copilot:24",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "Chromatin accessibility priors (e.g., ATAC-seq derived openness) and epigenetic marks can be incorporated to refine cutting efficiency predictions.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Guide function has no chromatin/epigenetic input refinement."
+  },
+  {
+    "id": "bio_copilot:25",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "For precise edits, the system dynamically selects between HDR, base editing, or prime editing by evaluating edit type constraints (transition vs. transversion), PAM proximity, and bystander edit risk, and then generates pegRNA designs with optimized primer binding site (PBS) lengths (typically 10\u201317 nt) and reverse transcriptase templates (10\u201320 nt) based on local sequence thermodynamics.",
+    "review_status": "PARTIAL_CONCEPTS_NO_SEQUENCE_DESIGN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Transition/distance/bystander method rule and fixedPBS13/RTT16 labels, no actual pegRNA optimized sequences."
+  },
+  {
+    "id": "bio_copilot:26",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "Bio-Copilot\u2019s simulation layer executes multi-scale, time-resolved biological models.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No integrated multiscale time-resolved simulations in module."
+  },
+  {
+    "id": "bio_copilot:27",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "Gene regulatory networks are represented in SBML and solved using stiff ODE solvers for deterministic dynamics, while stochastic simulations (Gillespie SSA) capture transcriptional noise and low-copy-number effects.",
+    "review_status": "UNVERIFIED_INTEGRATION_CLAIM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No SBML/stiffODE/Gillespie engine in module."
+  },
+  {
+    "id": "bio_copilot:28",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "Metabolic networks are modeled using COBRA-based FBA, allowing prediction of flux distributions under gene knockouts or overexpression scenarios, constrained by mass balance and thermodynamic feasibility.",
+    "review_status": "UNVERIFIED_INTEGRATION_CLAIM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No COBRA/FBA network solver in module."
+  },
+  {
+    "id": "bio_copilot:29",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "Protein\u2013ligand interactions are approximated through docking pipelines that evaluate binding poses and estimate free energy changes (\u0394G) using scoring functions that account for van der Waals interactions, electrostatics, and desolvation penalties.",
+    "review_status": "NOT_STRUCTURAL_DOCKING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No binding pose/VdW/desolvation energy pipeline."
+  },
+  {
+    "id": "bio_copilot:30",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "Importantly, the system propagates uncertainty through these models\u2014sampling parameter distributions to generate confidence intervals over predicted outcomes rather than single-point estimates.",
+    "review_status": "SCOPED_BEHAVIOR_REPRODUCED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Independent product-Gaussian samples repeat; zero-noise.8*.7=.56, not experimental interval."
+  },
+  {
+    "id": "bio_copilot:31",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "On the output side, Bio-Copilot generates fully executable, reproducible computational artifacts.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Structured values/file text and named-function generic replay, not fully executable query artifacts."
+  },
+  {
+    "id": "bio_copilot:32",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "Each query can be compiled into a Jupyter notebook containing data retrieval steps (API calls to genomic/proteomic databases), preprocessing pipelines, model execution code (e.g., FBA solvers, CRISPR scoring functions), and visualization routines (network graphs, 3D structural renderings).",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No generated executable Jupyter data/model/visualization notebook."
+  },
+  {
+    "id": "bio_copilot:33",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "Sequence outputs are provided in FASTA format with precise coordinate mapping, while structural summaries are generated in PDB-like schemas annotating residue-level perturbations and functional domains.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "FASTA wraps correctly, ideal helix correct residue fields and neighbor distances; no locus coordinates/domain perturbation PDB mapping."
+  },
+  {
+    "id": "bio_copilot:34",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "Additionally, all results are serialized into strict JSON schemas capturing inputs, intermediate computations, model parameters, and outputs, enabling downstream integration with other tools or pipelines.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "JSON payload schema_version label, no actual strict schema validator/intermediate parameter completeness."
+  },
+  {
+    "id": "bio_copilot:35",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "Critically, Bio-Copilot operates as a closed-loop, reinforcement-driven discovery system.",
+    "review_status": "NOT_CONTINUOUS_TRAINING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No closed experiment/reinforcement discovery engine."
+  },
+  {
+    "id": "bio_copilot:36",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "Experimental results\u2014such as NGS-derived edit efficiencies, RNA-seq expression changes, or proteomics data\u2014are ingested and used to update model parameters via Bayesian or reinforcement learning frameworks.",
+    "review_status": "PARTIAL_CLASSICAL_STATISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Supplied success/trial Beta arithmetic, no NGS/RNA/proteomics data/model ingestion."
+  },
+  {
+    "id": "bio_copilot:37",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "The system maintains posterior distributions over key biological parameters (e.g., editing efficiency, pathway flux coefficients), refining predictions as more data becomes available.",
+    "review_status": "PARTIAL_CLASSICAL_STATISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Beta scalar feedback, no persisted pathway/model posterior refinement."
+  },
+  {
+    "id": "bio_copilot:38",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "It actively identifies regions of high epistemic uncertainty and proposes targeted experiments\u2014such as saturation mutagenesis, CRISPR tiling screens, or pathway perturbations\u2014to maximally reduce uncertainty.",
+    "review_status": "PARTIAL_RECOMMENDATIONS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Fixed mutagenesis/thermal/pathway experiment list, no epistemic optimal experiment design."
+  },
+  {
+    "id": "bio_copilot:39",
+    "module": "bio_copilot",
+    "source_path": "spec/bio_copilot.md",
+    "spec_sha256": "ca66f53e1534f7c463de0144cff42e7e21e6e7be3533cfc480740e9020403242",
+    "text": "Over time, this creates a continuously improving system that not only answers biological questions but optimizes the process of discovering answers, effectively functioning as an autonomous layer for hypothesis generation, validation, and refinement in modern biological research.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No autonomous improving hypothesis validation/refinement assurance."
+  }
+]
