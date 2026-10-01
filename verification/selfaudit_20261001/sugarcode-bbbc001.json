@@ -1,0 +1,53 @@
+{
+  "source": "https://data.broadinstitute.org/bbbc/BBBC001",
+  "images_url": "https://data.broadinstitute.org/bbbc/BBBC001/BBBC001_v1_images_tif.zip",
+  "counts_url": "https://data.broadinstitute.org/bbbc/BBBC001/BBBC001_v1_counts.txt",
+  "license": "CC BY-NC-SA 3.0",
+  "rows": [
+    {
+      "image": "AS_09125_050118150001_A03f00d0.tif",
+      "human1": 350,
+      "human2": 362,
+      "algorithm": 391,
+      "relative_absolute_deviation": 0.09831460674157304
+    },
+    {
+      "image": "AS_09125_050118150001_A03f01d0.tif",
+      "human1": 336,
+      "human2": 342,
+      "algorithm": 375,
+      "relative_absolute_deviation": 0.10619469026548672
+    },
+    {
+      "image": "AS_09125_050118150001_A03f02d0.tif",
+      "human1": 396,
+      "human2": 447,
+      "algorithm": 450,
+      "relative_absolute_deviation": 0.06761565836298933
+    },
+    {
+      "image": "AS_09125_050118150001_A03f03d0.tif",
+      "human1": 320,
+      "human2": 341,
+      "algorithm": 349,
+      "relative_absolute_deviation": 0.05597579425113464
+    },
+    {
+      "image": "AS_09125_050118150001_A03f04d0.tif",
+      "human1": 398,
+      "human2": 533,
+      "algorithm": 517,
+      "relative_absolute_deviation": 0.11063372717508056
+    },
+    {
+      "image": "AS_09125_050118150001_A03f05d0.tif",
+      "human1": 241,
+      "human2": 257,
+      "algorithm": 262,
+      "relative_absolute_deviation": 0.05220883534136546
+    }
+  ],
+  "mean_relative_absolute_deviation": 0.08182388535627162,
+  "human_variation_reference": 0.11,
+  "published_method_reference": 0.062
+}

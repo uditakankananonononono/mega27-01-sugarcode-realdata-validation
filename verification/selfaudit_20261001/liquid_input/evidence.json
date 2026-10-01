@@ -1,0 +1,57 @@
+{
+  "positive": {
+    "status": "accepted",
+    "ctdna_detected": true,
+    "estimated_sensitivity": 0.451,
+    "error_rate_floor": 0.001,
+    "candidate_confidences": [
+      1.0
+    ]
+  },
+  "negative_af": {
+    "status": "accepted",
+    "ctdna_detected": false,
+    "estimated_sensitivity": 0.0,
+    "error_rate_floor": 0.001,
+    "candidate_confidences": []
+  },
+  "over_one": {
+    "status": "accepted",
+    "ctdna_detected": true,
+    "estimated_sensitivity": 0.992,
+    "error_rate_floor": 0.001,
+    "candidate_confidences": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "nan": {
+    "status": "accepted",
+    "ctdna_detected": false,
+    "estimated_sensitivity": 0.0,
+    "error_rate_floor": 0.001,
+    "candidate_confidences": []
+  },
+  "negative_depth": {
+    "status": "accepted",
+    "ctdna_detected": true,
+    "estimated_sensitivity": -0.016,
+    "error_rate_floor": -0.3,
+    "candidate_confidences": [
+      -0.105,
+      -0.105,
+      -0.105,
+      -0.105,
+      -0.105,
+      -0.105,
+      -0.105,
+      -0.105
+    ]
+  }
+}

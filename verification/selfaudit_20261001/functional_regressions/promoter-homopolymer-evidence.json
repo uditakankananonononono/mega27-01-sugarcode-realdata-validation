@@ -1,0 +1,37 @@
+[
+  {
+    "sequence": "ACGTACGT",
+    "independent_max_contiguous_run": 1,
+    "module_homopolymer_max": 3,
+    "repeat_equal": true,
+    "matches": false
+  },
+  {
+    "sequence": "AAAAAAAA",
+    "independent_max_contiguous_run": 8,
+    "module_homopolymer_max": 8,
+    "repeat_equal": true,
+    "matches": true
+  },
+  {
+    "sequence": "AAAACCCC",
+    "independent_max_contiguous_run": 4,
+    "module_homopolymer_max": 8,
+    "repeat_equal": true,
+    "matches": false
+  },
+  {
+    "sequence": "ATATATAT",
+    "independent_max_contiguous_run": 1,
+    "module_homopolymer_max": 8,
+    "repeat_equal": true,
+    "matches": false
+  },
+  {
+    "sequence": "AAAAACGT",
+    "independent_max_contiguous_run": 5,
+    "module_homopolymer_max": 7,
+    "repeat_equal": true,
+    "matches": false
+  }
+]

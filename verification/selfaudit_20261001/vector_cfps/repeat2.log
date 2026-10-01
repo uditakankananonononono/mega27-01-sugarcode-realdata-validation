@@ -1,0 +1,23 @@
+FF.                                                                      [100%]
+=================================== FAILURES ===================================
+_____________________ test_receptor_identity_affects_model _____________________
+
+    def test_receptor_identity_affects_model():
+        a=engineer_capsid(target_receptor='AAVR',seed=1)
+        b=engineer_capsid(target_receptor='heparan_sulfate',seed=1)
+>       assert a['variants']!=b['variants']
+E       AssertionError: assert [{'variant_id': 'AAV9-V3', 'region': 'VR-IV', 'n_mutations': 4, 'receptor_affinity_gain': 0.43, ...}, {'variant_id': '...': 0.131, ...}, {'variant_id': 'AAV9-V4', 'region': 'HI_loop', 'n_mutations': 1, 'receptor_affinity_gain': 0.034, ...}] != [{'variant_id': 'AAV9-V3', 'region': 'VR-IV', 'n_mutations': 4, 'receptor_affinity_gain': 0.43, ...}, {'variant_id': '...': 0.131, ...}, {'variant_id': 'AAV9-V4', 'region': 'HI_loop', 'n_mutations': 1, 'receptor_affinity_gain': 0.034, ...}]
+
+../sugarcode-vector-cfps-work/verification/selfaudit_20261001/vector_cfps/test_regression.py:6: AssertionError
+______________________ test_initial_produced_mass_is_zero ______________________
+
+    def test_initial_produced_mass_is_zero():
+        r=kinetics({'yield_g_l':2},hours=0)
+>       assert r['trajectory'][0]['cumulative_g_l']==0 and r['final_g_l']==0
+E       assert (0.25 == 0)
+
+../sugarcode-vector-cfps-work/verification/selfaudit_20261001/vector_cfps/test_regression.py:9: AssertionError
+=========================== short test summary info ============================
+FAILED ../sugarcode-vector-cfps-work/verification/selfaudit_20261001/vector_cfps/test_regression.py::test_receptor_identity_affects_model
+FAILED ../sugarcode-vector-cfps-work/verification/selfaudit_20261001/vector_cfps/test_regression.py::test_initial_produced_mass_is_zero
+2 failed, 1 passed in 0.03s

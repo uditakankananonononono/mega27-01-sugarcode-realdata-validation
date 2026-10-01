@@ -1,0 +1,16 @@
+{
+  "0": {
+    "status": "error",
+    "type": "ZeroDivisionError",
+    "message": "division by zero"
+  },
+  "0.05": {
+    "status": "ok",
+    "dynamic_range": 20.0,
+    "half_signal": 0.525
+  },
+  "mode_design": {
+    "same_selected_sequence": true,
+    "same_rankings": true
+  }
+}

@@ -1,0 +1,312 @@
+[
+  {
+    "id": "str_scope:4",
+    "module": "str_scope",
+    "source_path": "spec/str_scope.md",
+    "spec_sha256": "d4807de6c6aeb4177f90b2162613d242ae1c9137379b42ac35804aee50bbb9fd",
+    "text": "STR-Scope can be elevated into a high-resolution repeat-structure intelligence engine that treats Short Tandem Repeats (STRs) not as simple length polymorphisms, but as dynamic genomic instability modules with system-wide regulatory consequences.",
+    "review_status": "ASPIRATIONAL_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "System-wide disease implications are not validated by repeat parsing/model outputs."
+  },
+  {
+    "id": "str_scope:5",
+    "module": "str_scope",
+    "source_path": "spec/str_scope.md",
+    "spec_sha256": "d4807de6c6aeb4177f90b2162613d242ae1c9137379b42ac35804aee50bbb9fd",
+    "text": "At its core, the platform integrates long-read sequencing data (PacBio HiFi, Oxford Nanopore) with graph-based genome representations to accurately resolve repeat expansions, interruptions, and somatic mosaicism at single-molecule resolution.",
+    "review_status": "PARTIAL_READ_PARSER_NOT_LONG_READ_GRAPH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Supplied nucleotide strings parsed by frames; no PacBio/ONT file integration or graph-genome alignment established."
+  },
+  {
+    "id": "str_scope:6",
+    "module": "str_scope",
+    "source_path": "spec/str_scope.md",
+    "spec_sha256": "d4807de6c6aeb4177f90b2162613d242ae1c9137379b42ac35804aee50bbb9fd",
+    "text": "By moving beyond linear reference alignment, STR-Scope reconstructs locus-specific repeat architectures\u2014including repeat purity, motif interruptions, and flanking sequence context\u2014which are critical determinants of pathogenicity in repeat expansion disorders.",
+    "review_status": "SCOPED_TRACT_ARCHITECTURE",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Purity, mismatch interruption and flanks computed with longest exact seed extension; pathogenicity validity unverified."
+  },
+  {
+    "id": "str_scope:7",
+    "module": "str_scope",
+    "source_path": "spec/str_scope.md",
+    "spec_sha256": "d4807de6c6aeb4177f90b2162613d242ae1c9137379b42ac35804aee50bbb9fd",
+    "text": "The system leverages deep sequence-to-phenotype models to predict how repeat length and structure influence molecular function.",
+    "review_status": "NOT_DEEP_SEQUENCE_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "molecular_consequence uses explicit formulas, not trained sequence-to-phenotype model."
+  },
+  {
+    "id": "str_scope:8",
+    "module": "str_scope",
+    "source_path": "spec/str_scope.md",
+    "spec_sha256": "d4807de6c6aeb4177f90b2162613d242ae1c9137379b42ac35804aee50bbb9fd",
+    "text": "For coding-region STRs, it models effects on protein aggregation, phase separation, and structural disorder.",
+    "review_status": "SCOPED_CODING_PROXIES",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Aggregation/phase-separation/disorder proxies exist, not structural/biophysical validation."
+  },
+  {
+    "id": "str_scope:9",
+    "module": "str_scope",
+    "source_path": "spec/str_scope.md",
+    "spec_sha256": "d4807de6c6aeb4177f90b2162613d242ae1c9137379b42ac35804aee50bbb9fd",
+    "text": "For non-coding STRs, it integrates chromatin accessibility, transcription factor binding, and RNA polymerase dynamics to predict how repeat expansions alter transcriptional regulation, splicing, or RNA stability.",
+    "review_status": "PARTIAL_NONCODING_PROXIES",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "GC/repeat/accessibility scalar formulas produce stall/splice/toxicity scores; no TF-binding or RNA-polymerase dynamics integration established."
+  },
+  {
+    "id": "str_scope:10",
+    "module": "str_scope",
+    "source_path": "spec/str_scope.md",
+    "spec_sha256": "d4807de6c6aeb4177f90b2162613d242ae1c9137379b42ac35804aee50bbb9fd",
+    "text": "These predictions are powered by hybrid transformer\u2013graph neural network architectures that capture both local repeat patterns and long-range genomic interactions, enabling STR-Scope to infer how expansions propagate effects across regulatory networks.",
+    "review_status": "NOT_TRANSFORMER_GNN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No trained hybrid transformer/GNN; source explicitly says so."
+  },
+  {
+    "id": "str_scope:11",
+    "module": "str_scope",
+    "source_path": "spec/str_scope.md",
+    "spec_sha256": "d4807de6c6aeb4177f90b2162613d242ae1c9137379b42ac35804aee50bbb9fd",
+    "text": "A defining feature of STR-Scope is its ability to simulate DNA repair and instability dynamics over time.",
+    "review_status": "SCOPED_STOCHASTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Seeded slippage/repair stochastic sequence-length model exists."
+  },
+  {
+    "id": "str_scope:12",
+    "module": "str_scope",
+    "source_path": "spec/str_scope.md",
+    "spec_sha256": "d4807de6c6aeb4177f90b2162613d242ae1c9137379b42ac35804aee50bbb9fd",
+    "text": "Using stochastic models of mismatch repair (MMR), base excision repair (BER), and replication slippage, the system predicts the probability of repeat expansion or contraction across cell divisions.",
+    "review_status": "SCOPED_REPAIR_SCALARS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "MMR/BER capacities and Bernoulli slippage events used, not mechanistic repair kinetics calibration."
+  },
+  {
+    "id": "str_scope:13",
+    "module": "str_scope",
+    "source_path": "spec/str_scope.md",
+    "spec_sha256": "d4807de6c6aeb4177f90b2162613d242ae1c9137379b42ac35804aee50bbb9fd",
+    "text": "This allows it to estimate a \u201crepeat instability trajectory,\u201d quantifying how a given STR locus is likely to evolve in somatic tissues or across generations.",
+    "review_status": "SCOPED_MODEL_TRAJECTORY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Mean/variance trajectories computed; somatic/generational prediction not validated."
+  },
+  {
+    "id": "str_scope:14",
+    "module": "str_scope",
+    "source_path": "spec/str_scope.md",
+    "spec_sha256": "d4807de6c6aeb4177f90b2162613d242ae1c9137379b42ac35804aee50bbb9fd",
+    "text": "Such modeling is particularly relevant for diseases where anticipation and tissue-specific mosaicism play a role, providing insights into disease onset, severity, and progression.",
+    "review_status": "CLINICAL_INSIGHTS_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No disease onset/severity/progression accuracy evidence established."
+  },
+  {
+    "id": "str_scope:15",
+    "module": "str_scope",
+    "source_path": "spec/str_scope.md",
+    "spec_sha256": "d4807de6c6aeb4177f90b2162613d242ae1c9137379b42ac35804aee50bbb9fd",
+    "text": "STR-Scope also incorporates systems-level modeling of how STR variation disrupts cellular pathways.",
+    "review_status": "SCOPED_PATHWAY_PROXY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Small network and scalar instability stress terms exist."
+  },
+  {
+    "id": "str_scope:16",
+    "module": "str_scope",
+    "source_path": "spec/str_scope.md",
+    "spec_sha256": "d4807de6c6aeb4177f90b2162613d242ae1c9137379b42ac35804aee50bbb9fd",
+    "text": "By embedding STR loci into DNA repair and genome maintenance networks, it uses graph neural networks to simulate how repeat-induced instability affects pathways such as homologous recombination, checkpoint signaling, and chromatin remodeling.",
+    "review_status": "NOT_GNN_NETWORK_SIMULATION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Static edge list/scalar capacities, not trained GNN or homologous-recombination/chromatin dynamics."
+  },
+  {
+    "id": "str_scope:17",
+    "module": "str_scope",
+    "source_path": "spec/str_scope.md",
+    "spec_sha256": "d4807de6c6aeb4177f90b2162613d242ae1c9137379b42ac35804aee50bbb9fd",
+    "text": "This enables the calculation of a \u201cgenomic instability index,\u201d linking repeat expansions to broader phenotypes such as cancer susceptibility or neurodegeneration, and identifying potential intervention points within these pathways.",
+    "review_status": "PARTIAL_INDEX_NOT_PHENOTYPE_LINK",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Instability index/intervention-point ranks exist, no clinical cancer/neurodegeneration link proof."
+  },
+  {
+    "id": "str_scope:18",
+    "module": "str_scope",
+    "source_path": "spec/str_scope.md",
+    "spec_sha256": "d4807de6c6aeb4177f90b2162613d242ae1c9137379b42ac35804aee50bbb9fd",
+    "text": "Finally, STR-Scope extends into translational and therapeutic design.",
+    "review_status": "NONPROCEDURAL_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Comparative intervention concepts, no therapeutic validity."
+  },
+  {
+    "id": "str_scope:19",
+    "module": "str_scope",
+    "source_path": "spec/str_scope.md",
+    "spec_sha256": "d4807de6c6aeb4177f90b2162613d242ae1c9137379b42ac35804aee50bbb9fd",
+    "text": "It can propose CRISPR-based contraction strategies (e.g., dual-guide excision, base editing to destabilize repeat motifs), antisense oligonucleotides targeting toxic RNA repeats, or small molecules that modulate DNA repair pathways to stabilize repeat length.",
+    "review_status": "PARTIAL_CONCEPTS_NO_SEQUENCE_DESIGN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Strategy names and constant efficacy proxies, not dual-guide/base-edit/ASO/small-molecule design."
+  },
+  {
+    "id": "str_scope:20",
+    "module": "str_scope",
+    "source_path": "spec/str_scope.md",
+    "spec_sha256": "d4807de6c6aeb4177f90b2162613d242ae1c9137379b42ac35804aee50bbb9fd",
+    "text": "These interventions are evaluated in silico using integrated genomic and pathway simulations to predict efficacy and off-target risks.",
+    "review_status": "NOT_INTEGRATED_EFFICACY_OFFTARGET_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Fixed efficacy lookup and supplied off-target risk subtraction, no sequence-specific risk prediction."
+  },
+  {
+    "id": "str_scope:21",
+    "module": "str_scope",
+    "source_path": "spec/str_scope.md",
+    "spec_sha256": "d4807de6c6aeb4177f90b2162613d242ae1c9137379b42ac35804aee50bbb9fd",
+    "text": "In its most advanced form, STR-Scope becomes a comprehensive platform for decoding, predicting, and therapeutically targeting repeat-driven genomic instability\u2014bridging sequencing, systems biology, and precision medicine.",
+    "review_status": "ASPIRATIONAL_PRECISION_MEDICINE",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Full decoding/prediction/therapeutic platform outcome not established."
+  },
+  {
+    "id": "syn_stab_ai:4",
+    "module": "syn_stab_ai",
+    "source_path": "spec/syn_stab_ai.md",
+    "spec_sha256": "8456e553e14414984987963655db07ad3e725db3f81cbc5a93e3d61e5effb986",
+    "text": "Syn-Stab AI is a predictive platform for evaluating and optimizing the long-term stability of engineered biological systems, focusing on how synthetic constructs behave under evolutionary pressures and metabolic constraints.",
+    "review_status": "SCOPED_EXPLICIT_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Loss/burden/seeded population models, no long-term biological performance calibration."
+  },
+  {
+    "id": "syn_stab_ai:5",
+    "module": "syn_stab_ai",
+    "source_path": "spec/syn_stab_ai.md",
+    "spec_sha256": "8456e553e14414984987963655db07ad3e725db3f81cbc5a93e3d61e5effb986",
+    "text": "It models genetic circuits and pathways as dynamic systems subject to mutation, selection, and drift, predicting how their functionality degrades or adapts over successive generations.",
+    "review_status": "SCOPED_SIMULATION_NO_ADAPTATION_PROOF",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Mutation/selection/drift fraction simulation; not measured degradation or adaptive circuit evolution."
+  },
+  {
+    "id": "syn_stab_ai:6",
+    "module": "syn_stab_ai",
+    "source_path": "spec/syn_stab_ai.md",
+    "spec_sha256": "8456e553e14414984987963655db07ad3e725db3f81cbc5a93e3d61e5effb986",
+    "text": "The system uses probabilistic models and evolutionary simulations to estimate failure rates and identify weak points in design.",
+    "review_status": "SCOPED_FORECAST",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Failure forecast and risk proxies exist, not probabilistic calibration against real circuit data."
+  },
+  {
+    "id": "syn_stab_ai:7",
+    "module": "syn_stab_ai",
+    "source_path": "spec/syn_stab_ai.md",
+    "spec_sha256": "8456e553e14414984987963655db07ad3e725db3f81cbc5a93e3d61e5effb986",
+    "text": "At the molecular level, Syn-Stab AI analyzes sequence features that influence mutation rates and structural stability, such as repetitive elements, GC content, and secondary structures.",
+    "review_status": "PARTIAL_SEQUENCE_HEURISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "GC/repeat substring counts and reverse-complement 6-mer count exist; no secondary-structure folding model."
+  },
+  {
+    "id": "syn_stab_ai:8",
+    "module": "syn_stab_ai",
+    "source_path": "spec/syn_stab_ai.md",
+    "spec_sha256": "8456e553e14414984987963655db07ad3e725db3f81cbc5a93e3d61e5effb986",
+    "text": "It predicts hotspots for recombination, insertion, or deletion events that could disrupt synthetic constructs.",
+    "review_status": "NOT_POSITION_SPECIFIC_HOTSPOTS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Aggregate sequence risk, no mapped recombination/insertion/deletion hotspots."
+  },
+  {
+    "id": "syn_stab_ai:9",
+    "module": "syn_stab_ai",
+    "source_path": "spec/syn_stab_ai.md",
+    "spec_sha256": "8456e553e14414984987963655db07ad3e725db3f81cbc5a93e3d61e5effb986",
+    "text": "It also evaluates protein stability and folding robustness, identifying mutations that may compromise function or lead to aggregation.",
+    "review_status": "NOT_PROTEIN_FOLDING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No protein stability/folding/aggregation method in this module source."
+  },
+  {
+    "id": "syn_stab_ai:10",
+    "module": "syn_stab_ai",
+    "source_path": "spec/syn_stab_ai.md",
+    "spec_sha256": "8456e553e14414984987963655db07ad3e725db3f81cbc5a93e3d61e5effb986",
+    "text": "From a systems biology perspective, the platform models the interaction between synthetic constructs and host cellular networks.",
+    "review_status": "PARTIAL_RESOURCE_SCALARS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No actual host cellular-network coupling; scalar resource burden."
+  },
+  {
+    "id": "syn_stab_ai:11",
+    "module": "syn_stab_ai",
+    "source_path": "spec/syn_stab_ai.md",
+    "spec_sha256": "8456e553e14414984987963655db07ad3e725db3f81cbc5a93e3d61e5effb986",
+    "text": "It quantifies metabolic burden, resource competition (ribosomes, ATP, cofactors), and regulatory interference, all of which can drive selective pressure against engineered systems.",
+    "review_status": "PARTIAL_RESOURCE_SCORE",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Ribosome/ATP/cofactor weighted inputs; no regulatory-interference network or resource competition dynamics."
+  },
+  {
+    "id": "syn_stab_ai:12",
+    "module": "syn_stab_ai",
+    "source_path": "spec/syn_stab_ai.md",
+    "spec_sha256": "8456e553e14414984987963655db07ad3e725db3f81cbc5a93e3d61e5effb986",
+    "text": "Using fitness landscape modeling, it predicts which mutations are likely to be favored under given environmental conditions, enabling proactive design modifications to mitigate evolutionary loss of function.",
+    "review_status": "SCOPED_FITNESS_ARITHMETIC",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Supplied burden relief minus supplied functional loss ranking; not environmental mutational fitness prediction."
+  },
+  {
+    "id": "syn_stab_ai:13",
+    "module": "syn_stab_ai",
+    "source_path": "spec/syn_stab_ai.md",
+    "spec_sha256": "8456e553e14414984987963655db07ad3e725db3f81cbc5a93e3d61e5effb986",
+    "text": "Chemically, Syn-Stab AI considers the stability of expressed molecules and intermediates, including degradation pathways and reactive byproducts that may influence cellular fitness.",
+    "review_status": "PARTIAL_STRESS_PROXY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Oxidative/pH/reactive stress weighted damage scalar, no molecule-specific chemical degradation."
+  },
+  {
+    "id": "syn_stab_ai:14",
+    "module": "syn_stab_ai",
+    "source_path": "spec/syn_stab_ai.md",
+    "spec_sha256": "8456e553e14414984987963655db07ad3e725db3f81cbc5a93e3d61e5effb986",
+    "text": "It models how chemical stress\u2014oxidative damage, pH fluctuations\u2014affects both the host and the synthetic system, integrating these factors into its stability predictions.",
+    "review_status": "PARTIAL_STRESS_NOT_POPULATION_COUPLING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Report returns default chemical stress separately; not fed into population_simulation."
+  },
+  {
+    "id": "syn_stab_ai:15",
+    "module": "syn_stab_ai",
+    "source_path": "spec/syn_stab_ai.md",
+    "spec_sha256": "8456e553e14414984987963655db07ad3e725db3f81cbc5a93e3d61e5effb986",
+    "text": "The output includes stability scores, predicted failure modes, and recommended design modifications, such as codon optimization, circuit redundancy, or genomic integration strategies.",
+    "review_status": "PARTIAL_RECOMMENDATIONS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Scores/failure modes and suggestions exist; no codon redesign or circuit redundancy optimization in module."
+  },
+  {
+    "id": "syn_stab_ai:16",
+    "module": "syn_stab_ai",
+    "source_path": "spec/syn_stab_ai.md",
+    "spec_sha256": "8456e553e14414984987963655db07ad3e725db3f81cbc5a93e3d61e5effb986",
+    "text": "By combining evolutionary biology, molecular genetics, and systems modeling, Syn-Stab AI ensures that engineered biological systems remain functional over time, making it a critical component for industrial-scale synthetic biology and long-term deployments.",
+    "review_status": "NOT_INDUSTRIAL_ENSURE",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No assurance real biological systems retain function during deployment."
+  }
+]

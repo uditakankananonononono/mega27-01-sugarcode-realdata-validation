@@ -1,0 +1,182 @@
+[
+  {
+    "id": "cellfatenet:1",
+    "module": "cellfatenet",
+    "source_path": "spec/cellfatenet.md",
+    "spec_sha256": "b5cbd34d7648f14c1a6645ad06c034511972a3a6e9b6994bc0d6a44e8b5cc453",
+    "text": "# CellFateNet\n\nCellFateNet: A visualization engine for the causal regulatory networks and lineage transitions that drive cellular differentiation and reprogramming.",
+    "review_status": "PARTIAL_NETWORK_NOT_VISUAL_PASS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Small curated signed network and mechanistic ODE exist; actual visualization pixels not inspected; causal validity not externally established."
+  },
+  {
+    "id": "cellfatenet:2",
+    "module": "cellfatenet",
+    "source_path": "spec/cellfatenet.md",
+    "spec_sha256": "b5cbd34d7648f14c1a6645ad06c034511972a3a6e9b6994bc0d6a44e8b5cc453",
+    "text": "It identifies key regulatory nodes and provides a step-by-step genetic \"recipe\" for transformation.",
+    "review_status": "SCOPED_GRAPH_RECIPE",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Key nodes and graph-derived stepwise recipe exist, not measured transformation efficacy."
+  },
+  {
+    "id": "cellfatenet:3",
+    "module": "cellfatenet",
+    "source_path": "spec/cellfatenet.md",
+    "spec_sha256": "b5cbd34d7648f14c1a6645ad06c034511972a3a6e9b6994bc0d6a44e8b5cc453",
+    "text": "CellFateNet offers deep insights into molecular mechanisms governing identity, helping researchers manipulate cell states for therapeutic purposes.",
+    "review_status": "NOT_THERAPEUTIC_VALIDITY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Mechanistic/untrained graph model explicitly disclaims clinical validation."
+  },
+  {
+    "id": "fate_predictor:1",
+    "module": "fate_predictor",
+    "source_path": "spec/fate_predictor.md",
+    "spec_sha256": "0bbaa7aa1a1e19dcd7fe47b1a16969f74d178fdaf07046dcbdbec95cd17a7819",
+    "text": "# Fate Predictor\n\nFate Predictor: A tool that predicts the transcription factors and protocols required for direct cellular reprogramming.",
+    "review_status": "SCOPED_CURATED_AND_EXACT_SEARCH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Curated legacy maps and exact subset enumeration exist. Selected score independently reproduced, no experimentally proven required factors."
+  },
+  {
+    "id": "fate_predictor:2",
+    "module": "fate_predictor",
+    "source_path": "spec/fate_predictor.md",
+    "spec_sha256": "0bbaa7aa1a1e19dcd7fe47b1a16969f74d178fdaf07046dcbdbec95cd17a7819",
+    "text": "It maps the trajectory between cell types, such as turning skin cells into functional neurons.",
+    "review_status": "SCOPED_ODE_NOT_CONVERSION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "State-transition ODE exists; no measured functional neuronal conversion."
+  },
+  {
+    "id": "fate_predictor:3",
+    "module": "fate_predictor",
+    "source_path": "spec/fate_predictor.md",
+    "spec_sha256": "0bbaa7aa1a1e19dcd7fe47b1a16969f74d178fdaf07046dcbdbec95cd17a7819",
+    "text": "Fate Predictor provides success rate estimates and protocol summaries, enabling researchers to design strategies for regenerative medicine and disease.",
+    "review_status": "SCOPED_HEURISTIC_ESTIMATES",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Legacy success rates and protocols supplied, not verified regenerative success. No experimental protocol execution performed."
+  },
+  {
+    "id": "liquid_biopsy:1",
+    "module": "liquid_biopsy",
+    "source_path": "spec/liquid_biopsy.md",
+    "spec_sha256": "2617b736b97f1b7a8ea964f92bcbf98062a82c8f9041e2bae27b2f4554a95f60",
+    "text": "# Liquid Biopsy\n\nLiquid Biopsy: An AI-enhanced detection system for circulating tumor DNA, improving the sensitivity of early-stage cancer diagnosis through deep learning noise filters.",
+    "review_status": "SCOPED_STATISTICAL_NOT_DIAGNOSTIC",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Statistical and untrained attention filters, not trained deep-learning clinical early-cancer sensitivity. Invalid-input gaps independently reproduced in liquid_input."
+  },
+  {
+    "id": "liquid_biopsy:2",
+    "module": "liquid_biopsy",
+    "source_path": "spec/liquid_biopsy.md",
+    "spec_sha256": "2617b736b97f1b7a8ea964f92bcbf98062a82c8f9041e2bae27b2f4554a95f60",
+    "text": "It suggests optimal biomarkers and provides simulated raw vs. filtered signal visualizations.",
+    "review_status": "PARTIAL_CURATED_MARKERS_AND_SIGNAL_ARRAYS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Curated tumor marker lookup and signal arrays exist; optimal biomarkers and visual pixels not independently passed."
+  },
+  {
+    "id": "liquid_biopsy:3",
+    "module": "liquid_biopsy",
+    "source_path": "spec/liquid_biopsy.md",
+    "spec_sha256": "2617b736b97f1b7a8ea964f92bcbf98062a82c8f9041e2bae27b2f4554a95f60",
+    "text": "Liquid Biopsy offers a non-invasive method for monitoring disease progression and treatment response from blood.",
+    "review_status": "NOT_ESTABLISHED_FROM_BLOOD",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Longitudinal burden trend utility exists; no real blood-draw diagnosis or treatment-response accuracy established."
+  },
+  {
+    "id": "stability_ai:1",
+    "module": "stability_ai",
+    "source_path": "spec/stability_ai.md",
+    "spec_sha256": "d5844efbf823d91f654c29c6c1bdf28b43f5b48d45779b7c9dc12809c4447283",
+    "text": "# Stability AI\n\nStability AI: A module that forecasts the genetic and phenotypic stability of engineered systems, identifying failure modes like plasmid loss.",
+    "review_status": "SCOPED_LOSS_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Plasmid/mutation model exists; terminal 100-generation fraction independently reproduces 0.4859. No measured phenotype forecast assurance."
+  },
+  {
+    "id": "stability_ai:2",
+    "module": "stability_ai",
+    "source_path": "spec/stability_ai.md",
+    "spec_sha256": "d5844efbf823d91f654c29c6c1bdf28b43f5b48d45779b7c9dc12809c4447283",
+    "text": "It provides stability scores and simulates mutational drift over multiple cell generations.",
+    "review_status": "SCOPED_SIMULATED_DRIFT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Scores and seeded population simulations exist; repeats/arithmetic consistency not production calibration."
+  },
+  {
+    "id": "stability_ai:3",
+    "module": "stability_ai",
+    "source_path": "spec/stability_ai.md",
+    "spec_sha256": "d5844efbf823d91f654c29c6c1bdf28b43f5b48d45779b7c9dc12809c4447283",
+    "text": "Stability AI helps researchers design robust systems that maintain intended functions during long-term storage or large-scale fermentation.",
+    "review_status": "NOT_PRODUCTION_ASSURANCE",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No long-storage or fermentation measurements established by synthetic model outputs."
+  },
+  {
+    "id": "str_scope:1",
+    "module": "str_scope",
+    "source_path": "spec/str_scope.md",
+    "spec_sha256": "d4807de6c6aeb4177f90b2162613d242ae1c9137379b42ac35804aee50bbb9fd",
+    "text": "# STR-Scope\n\nSTR-Scope: A specialized analytics tool for Short Tandem Repeats (STRs) in cancer and rare disease datasets.",
+    "review_status": "SCOPED_SEQUENCE_ANALYTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Repeat parsing, read architecture and expansion scores exist; no clinical analytics validity established."
+  },
+  {
+    "id": "str_scope:2",
+    "module": "str_scope",
+    "source_path": "spec/str_scope.md",
+    "spec_sha256": "d4807de6c6aeb4177f90b2162613d242ae1c9137379b42ac35804aee50bbb9fd",
+    "text": "It identifies repeat expansions as critical biomarkers and calculates a diagnostic potential index.",
+    "review_status": "SCOPED_REFERENCE_HEURISTIC_INDEX",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Expansion delta and heuristic diagnostic index computed; not validated clinical biomarkers."
+  },
+  {
+    "id": "str_scope:3",
+    "module": "str_scope",
+    "source_path": "spec/str_scope.md",
+    "spec_sha256": "d4807de6c6aeb4177f90b2162613d242ae1c9137379b42ac35804aee50bbb9fd",
+    "text": "STR-Scope uses graph neural networks to simulate how STR variations disrupt DNA repair pathways, offering a novel perspective on instability.",
+    "review_status": "NOT_TRAINED_GNN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Repair-network output is explicit stress/capacity equations, not trained graph neural network."
+  },
+  {
+    "id": "syn_stab_ai:1",
+    "module": "syn_stab_ai",
+    "source_path": "spec/syn_stab_ai.md",
+    "spec_sha256": "8456e553e14414984987963655db07ad3e725db3f81cbc5a93e3d61e5effb986",
+    "text": "# Syn-Stab AI\n\nSyn-Stab AI: A predictive tool that evaluates the evolutionary stability of synthetic gene circuits and host organisms.",
+    "review_status": "SCOPED_EVOLUTION_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Explicit loss/burden/drift simulation, not trained predictor or deployment validation."
+  },
+  {
+    "id": "syn_stab_ai:2",
+    "module": "syn_stab_ai",
+    "source_path": "spec/syn_stab_ai.md",
+    "spec_sha256": "8456e553e14414984987963655db07ad3e725db3f81cbc5a93e3d61e5effb986",
+    "text": "It forecasts circuit failure risk due to metabolic burden or mutational drift over generations.",
+    "review_status": "SCOPED_RISK_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Burden/loss/mutation terms affect forecast; actual circuit failure risk not externally calibrated."
+  },
+  {
+    "id": "syn_stab_ai:3",
+    "module": "syn_stab_ai",
+    "source_path": "spec/syn_stab_ai.md",
+    "spec_sha256": "8456e553e14414984987963655db07ad3e725db3f81cbc5a93e3d61e5effb986",
+    "text": "Syn-Stab AI suggests genetic modifications to increase functional half-life, preventing the loss of synthetic functions during industrial processes.",
+    "review_status": "NOT_PREVENTION_ASSURANCE",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Modification suggestions and proxy comparison exist; stated half-life gains are not measured here and prevention of industrial function loss not established."
+  }
+]

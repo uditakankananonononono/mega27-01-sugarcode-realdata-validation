@@ -1,0 +1,37 @@
+{
+  "dna_to_code": {
+    "repeat_equal": true,
+    "executable_example_result": "AUGU",
+    "expected_coding_strand_example": "AUGU",
+    "explanation": "The template strand is read 3'->5'; the product is a disposable copy (mRNA) that leaves the nucleus while the master copy (DNA) stays protected.",
+    "limits": {
+      "concept": "transcription",
+      "limits": [
+        "RNA processing and chromatin are omitted"
+      ],
+      "status": "educational analogy"
+    },
+    "model_status": "Deterministic educational utilities; no biological prediction model.",
+    "template_snippet_uses_reverse_complement": true,
+    "six_concepts_have_code_and_explanation": true
+  },
+  "omega_stats": {
+    "repeat_equal": true,
+    "mean_match": true,
+    "slope_match": true,
+    "pass_rate_match": true,
+    "input_observations": 3,
+    "scope": "deterministic hermetic performance analytics",
+    "transparency": {
+      "aggregation": "raw observations -> deterministic grouped metrics",
+      "uncertainty": "500-sample seeded bootstrap CI",
+      "drift": "least-squares slope per hour",
+      "targets": {
+        "latency_ms": 1000,
+        "throughput": 1,
+        "accuracy": 0.9,
+        "efficiency": 0.9
+      }
+    }
+  }
+}

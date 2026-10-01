@@ -1,0 +1,202 @@
+{
+  "omitted": {
+    "multiomic": {
+      "passage": 0,
+      "model_fidelity_index": 1.0,
+      "raw_multiomic_similarity": 1.0,
+      "passage_penalty": 1.0,
+      "components": {
+        "mutation_retention": 1.0,
+        "expression": {
+          "similarity": 0.0,
+          "shared_features": 0,
+          "rmse": null,
+          "correlation": null,
+          "measured": false
+        },
+        "copy_number": {
+          "similarity": 0.0,
+          "shared_features": 0,
+          "rmse": null,
+          "correlation": null,
+          "measured": false
+        },
+        "methylation": {
+          "similarity": 0.0,
+          "shared_features": 0,
+          "rmse": null,
+          "correlation": null,
+          "measured": false
+        }
+      },
+      "retained_mutations": [],
+      "lost_mutations": [],
+      "gained_mutations": [],
+      "translational_drift": [],
+      "crispr_restoration": null,
+      "layers_measured": [
+        "mutations"
+      ],
+      "layers_not_measured": [
+        "copy_number",
+        "expression",
+        "methylation"
+      ],
+      "model_status": "mechanistic hermetic multi-omic comparison; no translational or clinical claim"
+    },
+    "legacy": {
+      "passage": 0,
+      "model_fidelity_index": 1.0,
+      "components": {
+        "mutation_retention": 1.0,
+        "expression_correlation": null,
+        "stroma_human_fraction": 1.0,
+        "subclone_drift": 0.0
+      },
+      "translational_drift": [],
+      "verdict": "high fidelity - results translate",
+      "crispr_restoration": null,
+      "component_basis": {
+        "mutation_retention": "measured",
+        "expression_correlation": "not measurable (<2 shared genes or zero variance)",
+        "stroma_human_fraction": "passage prior",
+        "subclone_drift": "passage prior"
+      }
+    },
+    "repeat_equal": true
+  },
+  "explicit_empty": {
+    "multiomic": {
+      "passage": 0,
+      "model_fidelity_index": 1.0,
+      "raw_multiomic_similarity": 1.0,
+      "passage_penalty": 1.0,
+      "components": {
+        "mutation_retention": 1.0,
+        "expression": {
+          "similarity": 0.0,
+          "shared_features": 0,
+          "rmse": null,
+          "correlation": null,
+          "measured": false
+        },
+        "copy_number": {
+          "similarity": 0.0,
+          "shared_features": 0,
+          "rmse": null,
+          "correlation": null,
+          "measured": false
+        },
+        "methylation": {
+          "similarity": 0.0,
+          "shared_features": 0,
+          "rmse": null,
+          "correlation": null,
+          "measured": false
+        }
+      },
+      "retained_mutations": [],
+      "lost_mutations": [],
+      "gained_mutations": [],
+      "translational_drift": [],
+      "crispr_restoration": null,
+      "layers_measured": [
+        "mutations"
+      ],
+      "layers_not_measured": [
+        "copy_number",
+        "expression",
+        "methylation"
+      ],
+      "model_status": "mechanistic hermetic multi-omic comparison; no translational or clinical claim"
+    },
+    "legacy": {
+      "passage": 0,
+      "model_fidelity_index": 1.0,
+      "components": {
+        "mutation_retention": 1.0,
+        "expression_correlation": null,
+        "stroma_human_fraction": 1.0,
+        "subclone_drift": 0.0
+      },
+      "translational_drift": [],
+      "verdict": "high fidelity - results translate",
+      "crispr_restoration": null,
+      "component_basis": {
+        "mutation_retention": "measured",
+        "expression_correlation": "not measurable (<2 shared genes or zero variance)",
+        "stroma_human_fraction": "passage prior",
+        "subclone_drift": "passage prior"
+      }
+    },
+    "repeat_equal": true
+  },
+  "nonempty_identical": {
+    "multiomic": {
+      "passage": 0,
+      "model_fidelity_index": 1.0,
+      "raw_multiomic_similarity": 1.0,
+      "passage_penalty": 1.0,
+      "components": {
+        "mutation_retention": 1.0,
+        "expression": {
+          "similarity": 1.0,
+          "shared_features": 2,
+          "rmse": 0.0,
+          "correlation": 0.9999999999999999,
+          "measured": true
+        },
+        "copy_number": {
+          "similarity": 0.0,
+          "shared_features": 0,
+          "rmse": null,
+          "correlation": null,
+          "measured": false
+        },
+        "methylation": {
+          "similarity": 0.0,
+          "shared_features": 0,
+          "rmse": null,
+          "correlation": null,
+          "measured": false
+        }
+      },
+      "retained_mutations": [
+        "TP53"
+      ],
+      "lost_mutations": [],
+      "gained_mutations": [],
+      "translational_drift": [],
+      "crispr_restoration": null,
+      "layers_measured": [
+        "mutations",
+        "expression"
+      ],
+      "layers_not_measured": [
+        "copy_number",
+        "methylation"
+      ],
+      "model_status": "mechanistic hermetic multi-omic comparison; no translational or clinical claim"
+    },
+    "legacy": {
+      "passage": 0,
+      "model_fidelity_index": 1.0,
+      "components": {
+        "mutation_retention": 1.0,
+        "expression_correlation": 1.0,
+        "stroma_human_fraction": 1.0,
+        "subclone_drift": 0.0
+      },
+      "translational_drift": [],
+      "verdict": "high fidelity - results translate",
+      "crispr_restoration": null,
+      "component_basis": {
+        "mutation_retention": "measured",
+        "expression_correlation": "measured",
+        "stroma_human_fraction": "passage prior",
+        "subclone_drift": "passage prior"
+      }
+    },
+    "repeat_equal": true
+  }
+}

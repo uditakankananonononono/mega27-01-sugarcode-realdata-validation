@@ -1,0 +1,172 @@
+[
+  {
+    "id": "bioplayground:1",
+    "module": "bioplayground",
+    "source_path": "spec/bioplayground.md",
+    "spec_sha256": "f3bed7ea5872bb94bcdeb4304e4cd82aecc5cff114da8c49c096b499ede584df",
+    "text": "# BioPlayground\n\nBioPlayground: An evolutionary sandbox for introducing selective pressures and monitoring population drift in engineered systems. it allows researchers to test the robustness of synthetic organisms under diverse environmental conditions.",
+    "review_status": "SCOPED_MODEL_NOT_ROBUSTNESS_VALIDATION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Seeded Wright-Fisher selection/mutation/drift implemented; repeat plus independent entropy/heterozygosity check pass. Biological robustness not established; preliminary unit contains a second sentence because lowercase it was not split."
+  },
+  {
+    "id": "bioplayground:2",
+    "module": "bioplayground",
+    "source_path": "spec/bioplayground.md",
+    "spec_sha256": "f3bed7ea5872bb94bcdeb4304e4cd82aecc5cff114da8c49c096b499ede584df",
+    "text": "BioPlayground provides a powerful platform for directed evolution and ecological modeling, helping researchers understand how functions are maintained.",
+    "review_status": "SCOPED_SIMULATION_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Directed-evolution score resampling and explicit Lotka-Volterra utilities exist; no real engineered-organism forecast or measured learning benefit."
+  },
+  {
+    "id": "biosimvr:1",
+    "module": "biosimvr",
+    "source_path": "spec/biosimvr.md",
+    "spec_sha256": "9378fec44078e859439d4e9e039f400f53c64da67b2ed5e27c2ce9f32d2a5d85",
+    "text": "# BioSimVR\n\nBioSimVR: A conceptual virtual reality interface for running experiments in a simulated 3D laboratory environment.",
+    "review_status": "PARTIAL_SCENE_DATA_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Five-object 3D scene model and scripted experiment logs exist; motion distance independently reproduced. No actual VR rendering or hardware/immersive interface inspected."
+  },
+  {
+    "id": "biosimvr:2",
+    "module": "biosimvr",
+    "source_path": "spec/biosimvr.md",
+    "spec_sha256": "9378fec44078e859439d4e9e039f400f53c64da67b2ed5e27c2ce9f32d2a5d85",
+    "text": "It describes key observations and conclusions for complex tasks like molecular docking or CRISPR design.",
+    "review_status": "SCOPED_SIMULATION_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Local docking/guide scoring/protocol simulations return observations and conclusions; source labels mechanics/no efficacy claims. Scripted legacy reporter value is assigned, not observed from real experiment."
+  },
+  {
+    "id": "biosimvr:3",
+    "module": "biosimvr",
+    "source_path": "spec/biosimvr.md",
+    "spec_sha256": "9378fec44078e859439d4e9e039f400f53c64da67b2ed5e27c2ce9f32d2a5d85",
+    "text": "BioSimVR provides an immersive way to visualize biological data and test hypotheses, offering a cost-effective platform for exploration.",
+    "review_status": "UNVERIFIED_VISUAL_AND_BENEFIT_CLAIM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No actual pixels/VR visualization inspected; low-cost virtual execution does not prove hypothesis-testing utility or biological accuracy."
+  },
+  {
+    "id": "oncocircuit:1",
+    "module": "oncocircuit",
+    "source_path": "spec/oncocircuit.md",
+    "spec_sha256": "55e43c7725c66bcd0ba6ca7bc297f30acae5fe6d51ac238af022c9314c88c4e5",
+    "text": "# OncoCircuit\n\nOncoCircuit: A design platform for synthetic gene circuits that specifically target and eliminate cancer cells.",
+    "review_status": "SCOPED_ODE_NOT_CANCER_ELIMINATION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "ODE circuit simulation exists; no cancer-cell elimination demonstrated. Explicit model status requires efficacy/safety validation."
+  },
+  {
+    "id": "oncocircuit:2",
+    "module": "oncocircuit",
+    "source_path": "spec/oncocircuit.md",
+    "spec_sha256": "55e43c7725c66bcd0ba6ca7bc297f30acae5fe6d51ac238af022c9314c88c4e5",
+    "text": "It identifies tumor-specific promoters and designs logic gates that trigger therapeutic responses only in malignant tissue.",
+    "review_status": "SCOPED_ASSUMED_ENVIRONMENTS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Promoter lookup and logical gate use assigned tumor/normal input activities, not experimentally proven malignant-only triggering. No exclusivity/clinical specificity established."
+  },
+  {
+    "id": "oncocircuit:3",
+    "module": "oncocircuit",
+    "source_path": "spec/oncocircuit.md",
+    "spec_sha256": "55e43c7725c66bcd0ba6ca7bc297f30acae5fe6d51ac238af022c9314c88c4e5",
+    "text": "OncoCircuit provides detailed molecular mechanisms for targeted interventions, offering a new frontier in highly selective oncology treatments.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Concept/modeled mechanism text exists; real highly selective oncology intervention not established."
+  },
+  {
+    "id": "pdx_insight:1",
+    "module": "pdx_insight",
+    "source_path": "spec/pdx_insight.md",
+    "spec_sha256": "d9a8ba90586ba94125d4bd4a772f62a99515339428aff05189ed07a0d461447f",
+    "text": "# PDX Insight\n\nPDX Insight: A monitoring tool for Patient-Derived Xenografts that ensures they accurately represent patient biology over time.",
+    "review_status": "NOT_ESTABLISHED_WITH_MISSING_DATA_DEFECT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Cannot ensure patient biology fidelity. Omitted profiles produce perfect MFI and label mutations measured; independent regression fails on omitted-data provenance."
+  },
+  {
+    "id": "pdx_insight:2",
+    "module": "pdx_insight",
+    "source_path": "spec/pdx_insight.md",
+    "spec_sha256": "d9a8ba90586ba94125d4bd4a772f62a99515339428aff05189ed07a0d461447f",
+    "text": "It calculates a \"Model Fidelity Index\" and identifies translational drift using multi-omic data.",
+    "review_status": "PARTIAL_SCORE_WITH_PROVENANCE_FAILURE",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Multiomic score/drift arithmetic exists; measured-layer classification is wrong for omitted mutation evidence. No validated translational accuracy."
+  },
+  {
+    "id": "pdx_insight:3",
+    "module": "pdx_insight",
+    "source_path": "spec/pdx_insight.md",
+    "spec_sha256": "d9a8ba90586ba94125d4bd4a772f62a99515339428aff05189ed07a0d461447f",
+    "text": "PDX Insight suggests CRISPR-based restoration strategies to maintain model accuracy, improving the reliability of preclinical drug testing.",
+    "review_status": "SCOPED_UNVALIDATED_SUGGESTIONS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Restoration target suggestions from lost mutation labels exist, not actual restoration or improved preclinical reliability. No biological action executed."
+  },
+  {
+    "id": "phage_designer:1",
+    "module": "phage_designer",
+    "source_path": "spec/phage_designer.md",
+    "spec_sha256": "9ce5fbad5a9f0a25ce584ccda9f7adc189b0c96d7fc68a9ac19a18d0896549a7",
+    "text": "# Phage Designer\n\nPhage Designer: A specialized toolkit for modifying the host range and therapeutic payload of bacteriophages, enabling precise engineering of phage genomes.",
+    "review_status": "SCOPED_CURATED_CONCEPT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Curated receptor/scaffold/domain lookup and kinetics utilities exist; no actual genome engineering, sequence-level validated host-range change or therapy payload execution."
+  },
+  {
+    "id": "phage_designer:2",
+    "module": "phage_designer",
+    "source_path": "spec/phage_designer.md",
+    "spec_sha256": "9ce5fbad5a9f0a25ce584ccda9f7adc189b0c96d7fc68a9ac19a18d0896549a7",
+    "text": "It provides cloning strategies and sequence analysis for developing customized treatments.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Engineering concept text and domain output exist; real sequence analysis/cloning success/custom treatment not verified. No operational biology instructions executed or expanded in audit."
+  },
+  {
+    "id": "phage_designer:3",
+    "module": "phage_designer",
+    "source_path": "spec/phage_designer.md",
+    "spec_sha256": "9ce5fbad5a9f0a25ce584ccda9f7adc189b0c96d7fc68a9ac19a18d0896549a7",
+    "text": "Phage Designer facilitates rapid prototyping, offering a high-precision approach to targeting specific bacterial pathogens safely.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Safe high-precision pathogen targeting/rapid real prototyping not established by curated heuristics; report explicitly disclaims efficacy."
+  },
+  {
+    "id": "phage_tx:1",
+    "module": "phage_tx",
+    "source_path": "spec/phage_tx.md",
+    "spec_sha256": "32c73f69b1fa2fbd161bf3e66e17698a1be784f2c93d3a7e9c16a46753f6d114",
+    "text": "# Phage-Tx\n\nPhage-Tx: A predictive model for phage therapy efficacy that simulates the coevolutionary arms race between bacteriophages and their bacterial hosts.",
+    "review_status": "SCOPED_ODE_NOT_THERAPEUTIC_PREDICTOR",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Stiff coevolution ODE exists and suite passes; source explicitly says no therapeutic efficacy claim. No external efficacy benchmark reproduced."
+  },
+  {
+    "id": "phage_tx:2",
+    "module": "phage_tx",
+    "source_path": "spec/phage_tx.md",
+    "spec_sha256": "32c73f69b1fa2fbd161bf3e66e17698a1be784f2c93d3a7e9c16a46753f6d114",
+    "text": "It suggests optimal phage cocktails for targeting resistant strains and identifies modifications.",
+    "review_status": "SCOPED_FINITE_HEURISTIC_OPTIMUM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Exact subset enumeration maximizes explicit heuristic score over curated phage library and supplied susceptibility. Not global clinical optimality; modifications are unvalidated suggestions."
+  },
+  {
+    "id": "phage_tx:3",
+    "module": "phage_tx",
+    "source_path": "spec/phage_tx.md",
+    "spec_sha256": "32c73f69b1fa2fbd161bf3e66e17698a1be784f2c93d3a7e9c16a46753f6d114",
+    "text": "Phage-Tx provides a dynamic view of outcomes, helping researchers design effective and resilient phage-based treatments.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Dynamic output exists, but effective/resilient phage treatment validity not independently established."
+  }
+]

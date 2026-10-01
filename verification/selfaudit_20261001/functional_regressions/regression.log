@@ -1,0 +1,52 @@
+F.FFF                                                                    [100%]
+=================================== FAILURES ===================================
+_______ test_homopolymer_max_equals_independent_contiguous_run[ACGTACGT] _______
+
+sequence = 'ACGTACGT'
+
+    @pytest.mark.parametrize("sequence", ["ACGTACGT", "AAAAAAAA", "AAAACCCC", "ATATATAT", "AAAAACGT"])
+    def test_homopolymer_max_equals_independent_contiguous_run(sequence):
+        expected = max(len(list(group)) for _, group in itertools.groupby(sequence))
+>       assert sequence_features(sequence)["homopolymer_max"] == expected
+E       assert 3 == 1
+
+/tmp/sugarcode-functional-work/verification/selfaudit_20261001/functional_regressions/test_promoter_homopolymer.py:13: AssertionError
+_______ test_homopolymer_max_equals_independent_contiguous_run[AAAACCCC] _______
+
+sequence = 'AAAACCCC'
+
+    @pytest.mark.parametrize("sequence", ["ACGTACGT", "AAAAAAAA", "AAAACCCC", "ATATATAT", "AAAAACGT"])
+    def test_homopolymer_max_equals_independent_contiguous_run(sequence):
+        expected = max(len(list(group)) for _, group in itertools.groupby(sequence))
+>       assert sequence_features(sequence)["homopolymer_max"] == expected
+E       assert 8 == 4
+
+/tmp/sugarcode-functional-work/verification/selfaudit_20261001/functional_regressions/test_promoter_homopolymer.py:13: AssertionError
+_______ test_homopolymer_max_equals_independent_contiguous_run[ATATATAT] _______
+
+sequence = 'ATATATAT'
+
+    @pytest.mark.parametrize("sequence", ["ACGTACGT", "AAAAAAAA", "AAAACCCC", "ATATATAT", "AAAAACGT"])
+    def test_homopolymer_max_equals_independent_contiguous_run(sequence):
+        expected = max(len(list(group)) for _, group in itertools.groupby(sequence))
+>       assert sequence_features(sequence)["homopolymer_max"] == expected
+E       assert 8 == 1
+
+/tmp/sugarcode-functional-work/verification/selfaudit_20261001/functional_regressions/test_promoter_homopolymer.py:13: AssertionError
+_______ test_homopolymer_max_equals_independent_contiguous_run[AAAAACGT] _______
+
+sequence = 'AAAAACGT'
+
+    @pytest.mark.parametrize("sequence", ["ACGTACGT", "AAAAAAAA", "AAAACCCC", "ATATATAT", "AAAAACGT"])
+    def test_homopolymer_max_equals_independent_contiguous_run(sequence):
+        expected = max(len(list(group)) for _, group in itertools.groupby(sequence))
+>       assert sequence_features(sequence)["homopolymer_max"] == expected
+E       assert 7 == 5
+
+/tmp/sugarcode-functional-work/verification/selfaudit_20261001/functional_regressions/test_promoter_homopolymer.py:13: AssertionError
+=========================== short test summary info ============================
+FAILED ../../tmp/sugarcode-functional-work/verification/selfaudit_20261001/functional_regressions/test_promoter_homopolymer.py::test_homopolymer_max_equals_independent_contiguous_run[ACGTACGT]
+FAILED ../../tmp/sugarcode-functional-work/verification/selfaudit_20261001/functional_regressions/test_promoter_homopolymer.py::test_homopolymer_max_equals_independent_contiguous_run[AAAACCCC]
+FAILED ../../tmp/sugarcode-functional-work/verification/selfaudit_20261001/functional_regressions/test_promoter_homopolymer.py::test_homopolymer_max_equals_independent_contiguous_run[ATATATAT]
+FAILED ../../tmp/sugarcode-functional-work/verification/selfaudit_20261001/functional_regressions/test_promoter_homopolymer.py::test_homopolymer_max_equals_independent_contiguous_run[AAAAACGT]
+4 failed, 1 passed in 0.09s

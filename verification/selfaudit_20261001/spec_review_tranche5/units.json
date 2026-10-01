@@ -1,0 +1,62 @@
+[
+  {
+    "id": "cellpainter:1",
+    "module": "cellpainter",
+    "source_path": "spec/cellpainter.md",
+    "spec_sha256": "252c2caff58667df8c23efa5a9c5cc5db3c2cf685abceaefe58da889a5983229",
+    "text": "# CellPainter\n\nCellPainter: A visualization tool for multiplex fluorescent imaging signatures, mapping cellular morphological changes in response to drugs or mutations.",
+    "review_status": "PARTIAL_CLASSICAL_IMAGE_PATH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "profile_wells processes supplied five-channel images into classical morphology/texture features; legacy signatures are hand-specified. Visualization renderer exists but actual pixels not inspected in this tranche."
+  },
+  {
+    "id": "cellpainter:2",
+    "module": "cellpainter",
+    "source_path": "spec/cellpainter.md",
+    "spec_sha256": "252c2caff58667df8c23efa5a9c5cc5db3c2cf685abceaefe58da889a5983229",
+    "text": "It identifies unique staining patterns associated with specific biological perturbations.",
+    "review_status": "SCOPED_PATTERN_OUTPUT_WITH_NUMERIC_DEFECT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Image-feature and reference-pattern paths exist, not universal perturbation specificity. nearest_mechanism has insertion-order defect reproduced separately."
+  },
+  {
+    "id": "cellpainter:3",
+    "module": "cellpainter",
+    "source_path": "spec/cellpainter.md",
+    "spec_sha256": "252c2caff58667df8c23efa5a9c5cc5db3c2cf685abceaefe58da889a5983229",
+    "text": "CellPainter enables the discovery of novel drug mechanisms and the characterization of phenotypes by comparing image data across experimental conditions.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Comparison/novel_mechanism_hint output does not validate a novel mechanism or phenotype cause. No held-out novel-drug validation established; feature order can change similarity."
+  },
+  {
+    "id": "cellpainter_4d:1",
+    "module": "cellpainter_4d",
+    "source_path": "spec/cellpainter_4d.md",
+    "spec_sha256": "47ae65985f3c2144e97e970d0470c28b0d8eea1a943cee6e1442204139f619c3",
+    "text": "# CellPainter 4D\n\nCellPainter 4D: A temporal simulation engine for cell morphology that models how cell shapes and features change over time.",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Fixed-clock ODE plus seeded population simulation exists; no learned/validated biological prediction claimed."
+  },
+  {
+    "id": "cellpainter_4d:2",
+    "module": "cellpainter_4d",
+    "source_path": "spec/cellpainter_4d.md",
+    "spec_sha256": "47ae65985f3c2144e97e970d0470c28b0d8eea1a943cee6e1442204139f619c3",
+    "text": "It provides event timelines and numerical traces of morphological drift during differentiation.",
+    "review_status": "SCOPED_BEHAVIOR_REPRODUCED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Event timelines/frames/drift output; suite tests closed-form relaxation, fixed-hour observation-window invariance and unobserved events. Independent six-image BBBC001 count check 8.1824% deviation, not temporal dynamics validation."
+  },
+  {
+    "id": "cellpainter_4d:3",
+    "module": "cellpainter_4d",
+    "source_path": "spec/cellpainter_4d.md",
+    "spec_sha256": "47ae65985f3c2144e97e970d0470c28b0d8eea1a943cee6e1442204139f619c3",
+    "text": "CellPainter 4D offers a dynamic view of responses, helping researchers understand the temporal sequence of cellular morphological changes.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Simulation outputs may help exploration, but understanding benefit or true biological temporal response not measured."
+  }
+]

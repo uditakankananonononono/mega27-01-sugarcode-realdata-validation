@@ -1,0 +1,37 @@
+[
+  {
+    "sequence": "GGGAAACCC",
+    "module_pairs": 3,
+    "independent_pairs": 3,
+    "match": true,
+    "repeat_equal": true
+  },
+  {
+    "sequence": "GCAAAAGC",
+    "module_pairs": 2,
+    "independent_pairs": 2,
+    "match": true,
+    "repeat_equal": true
+  },
+  {
+    "sequence": "AUGCAUGC",
+    "module_pairs": 1,
+    "independent_pairs": 1,
+    "match": true,
+    "repeat_equal": true
+  },
+  {
+    "sequence": "UUUAAAGGG",
+    "module_pairs": 3,
+    "independent_pairs": 3,
+    "match": true,
+    "repeat_equal": true
+  },
+  {
+    "sequence": "AAAAAA",
+    "module_pairs": 0,
+    "independent_pairs": 0,
+    "match": true,
+    "repeat_equal": true
+  }
+]

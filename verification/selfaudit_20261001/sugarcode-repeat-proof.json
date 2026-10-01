@@ -1,0 +1,8 @@
+{
+  "identical_test_ids_and_outcomes": true,
+  "run1_cases": 2319,
+  "run2_cases": 2319,
+  "run1_passed": 2319,
+  "run2_passed": 2319,
+  "comparison_excludes_runtime_and_warnings": true
+}

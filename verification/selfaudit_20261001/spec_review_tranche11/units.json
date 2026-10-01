@@ -1,0 +1,122 @@
+[
+  {
+    "id": "cell_free_opt:1",
+    "module": "cell_free_opt",
+    "source_path": "spec/cell_free_opt.md",
+    "spec_sha256": "c0197bb287b05747c3dabf4177293b0275e0fcb4783fe1a9d4f8de72a7611a7c",
+    "text": "# Cell-Free Opt\n\nCell-Free Opt: An AI optimizer for cell-free protein synthesis (CFPS) systems, suggesting ideal reagent concentrations to maximize protein yield.",
+    "review_status": "SCOPED_RESPONSE_SURFACE_OPTIMUM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Gaussian heuristic grid maximum 2.0 at documented reagent optima matches analytic bound and repeats. Not trained AI or actual yield optimization."
+  },
+  {
+    "id": "cell_free_opt:2",
+    "module": "cell_free_opt",
+    "source_path": "spec/cell_free_opt.md",
+    "spec_sha256": "c0197bb287b05747c3dabf4177293b0275e0fcb4783fe1a9d4f8de72a7611a7c",
+    "text": "It simulates reaction kinetics and calculates costs for specific experimental setups.",
+    "review_status": "PARTIAL_KINETICS_COST",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Numeric kinetics and cost arithmetic exist; zero-hour 0.25 g/L defect recorded separately. Current vendor price truth not checked; no purchase recommendation."
+  },
+  {
+    "id": "cell_free_opt:3",
+    "module": "cell_free_opt",
+    "source_path": "spec/cell_free_opt.md",
+    "spec_sha256": "c0197bb287b05747c3dabf4177293b0275e0fcb4783fe1a9d4f8de72a7611a7c",
+    "text": "Cell-Free Opt enables rapid prototyping of genetic designs without the limitations of living cells, providing a fast evaluation platform.",
+    "review_status": "NOT_WETLAB_PROTOTYPING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Simulation platform, no actual prototyping or validated genetic design performance."
+  },
+  {
+    "id": "organoid_screen:1",
+    "module": "organoid_screen",
+    "source_path": "spec/organoid_screen.md",
+    "spec_sha256": "eca04f83ec03be3f7f14c3ffd71cb70b6dc564318a2c7f6f0f1a7195d5a20d99",
+    "text": "# Organoid Screen\n\nOrganoid Screen: A virtual drug screening platform that tests compounds on patient-derived organoid models.",
+    "review_status": "SCOPED_HEURISTIC_SCREEN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Curated tissue/drug response screening and separate structure-grounded interface; no validated patient-derived clinical model."
+  },
+  {
+    "id": "organoid_screen:2",
+    "module": "organoid_screen",
+    "source_path": "spec/organoid_screen.md",
+    "spec_sha256": "eca04f83ec03be3f7f14c3ffd71cb70b6dc564318a2c7f6f0f1a7195d5a20d99",
+    "text": "It predicts clinical efficacy and identifies biomarkers associated with drug response.",
+    "review_status": "NOT_CLINICAL_EFFICACY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Legacy clinical_efficacy_prediction fixed IC50 function and marker lookup, not clinical efficacy/biomarker validation."
+  },
+  {
+    "id": "organoid_screen:3",
+    "module": "organoid_screen",
+    "source_path": "spec/organoid_screen.md",
+    "spec_sha256": "eca04f83ec03be3f7f14c3ffd71cb70b6dc564318a2c7f6f0f1a7195d5a20d99",
+    "text": "Organoid Screen visualizes interaction networks and calculates synergy scores, helping researchers identify the most effective and personalized treatment strategies using 3D biological models.",
+    "review_status": "PARTIAL_NETWORK_AND_BLISS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Network edges/Bliss expectation exist; actual visualization uninspected. Supplied measured combo utility reproduces .25 expectation/.15 excess; not personalized 3D efficacy."
+  },
+  {
+    "id": "vector_opt:1",
+    "module": "vector_opt",
+    "source_path": "spec/vector_opt.md",
+    "spec_sha256": "90eb0a2978049429f30d4e621d20b144259e2621da8d5c80a300fa9ca67dfa5f",
+    "text": "# Vector Opt\n\nVector Opt: A structural modeling tool for fine-tuning viral vector capsids, simulating capsid-receptor docking to improve transduction efficiency.",
+    "review_status": "NOT_STRUCTURAL_DOCKING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Random region/mutation-count variant scoring, no coordinate or sequence docking. target_receptor inert and AAV2/AAV9 numeric output identical at same seed."
+  },
+  {
+    "id": "vector_opt:2",
+    "module": "vector_opt",
+    "source_path": "spec/vector_opt.md",
+    "spec_sha256": "90eb0a2978049429f30d4e621d20b144259e2621da8d5c80a300fa9ca67dfa5f",
+    "text": "It predicts the impact of neutralizing antibodies and suggests modifications to enhance vector safety.",
+    "review_status": "SCOPED_EPITOPE_PROXY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Region flags and fixed/random loss proxy produce NAb/safety suggestions; actual neutralization and safety not measured."
+  },
+  {
+    "id": "vector_opt:3",
+    "module": "vector_opt",
+    "source_path": "spec/vector_opt.md",
+    "spec_sha256": "90eb0a2978049429f30d4e621d20b144259e2621da8d5c80a300fa9ca67dfa5f",
+    "text": "Vector Opt enables the engineering of novel viral variants tailored for specific applications, overcoming common delivery barriers.",
+    "review_status": "NOT_NOVEL_VECTOR_VALIDATION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "IDs and region counts not engineered full capsid sequences; real delivery barriers not overcome in evidence."
+  },
+  {
+    "id": "virtual_cell:1",
+    "module": "virtual_cell",
+    "source_path": "spec/virtual_cell.md",
+    "spec_sha256": "419430882ea0e1fee2479bac8713256872e4fa8817b7099705d9cee97cdf0b9c",
+    "text": "# Virtual Cell\n\nVirtual Cell: A multi-scale simulator that integrates metabolic flux models with gene regulatory networks.",
+    "review_status": "SCOPED_GRN_FLUX_COUPLING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "ODE/Gillespie expression to enzyme flux caps and pFBA implemented; limited models, not whole-cell biological validation."
+  },
+  {
+    "id": "virtual_cell:2",
+    "module": "virtual_cell",
+    "source_path": "spec/virtual_cell.md",
+    "spec_sha256": "419430882ea0e1fee2479bac8713256872e4fa8817b7099705d9cee97cdf0b9c",
+    "text": "It predicts cell growth, protein expression, and phenotypic responses to environmental changes or genetic perturbations.",
+    "review_status": "SCOPED_MODEL_PREDICTIONS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Expression/flux/growth/perturbation output exists. Independent two-reaction FBA objective=7, repeats; no real measured phenotypic accuracy proof."
+  },
+  {
+    "id": "virtual_cell:3",
+    "module": "virtual_cell",
+    "source_path": "spec/virtual_cell.md",
+    "spec_sha256": "419430882ea0e1fee2479bac8713256872e4fa8817b7099705d9cee97cdf0b9c",
+    "text": "Virtual Cell provides a comprehensive digital environment for testing hypotheses, enabling researchers to explore system-wide behaviors and optimize cellular performance.",
+    "review_status": "PARTIAL_HYPOTHESIS_PLATFORM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Simulation/report utilities exist; system-wide real cell optimization not established."
+  }
+]

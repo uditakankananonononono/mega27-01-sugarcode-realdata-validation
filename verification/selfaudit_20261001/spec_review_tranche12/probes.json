@@ -1,0 +1,46 @@
+{
+  "oxygen": {
+    "values": [
+      100.0,
+      75.0,
+      100.0
+    ],
+    "independent_values": [
+      100,
+      75,
+      100
+    ],
+    "match": true,
+    "repeat_equal": true
+  },
+  "health": {
+    "result": {
+      "modules_total": 2,
+      "modules_online": 1,
+      "global_flux": 0.5,
+      "latency_mean_ms": 20.0,
+      "latency_max_ms": 30.0,
+      "degraded": [
+        "b"
+      ]
+    },
+    "ratio_match": true,
+    "mean_match": true
+  },
+  "infinite": {
+    "catalog_status": "1 module hits",
+    "curated_matches": [
+      {
+        "disease": "cystic_fibrosis",
+        "genes": [
+          "CFTR"
+        ],
+        "matched_via": [
+          "disease:cystic_fibrosis"
+        ]
+      }
+    ],
+    "novelty_note": "angles come from a keyword match against Sugarcode's own module catalog; biomarker candidates are PubMed records (live NCBI E-utilities) for the case terms - literature lookup failed: EntrezError: offline mode: no cache for esearch.fcgi?db=pubmed&retmax=8&retmode=json&term=cystic+fibrosis+AND+%28biomarker%5Btiab%5D+OR+diagnosis%5Btiab%5D%29",
+    "scope": "Offline deterministic catalog and curated disease bridge only. Literature lookup failed because no cache was available; no literature record retrieved."
+  }
+}

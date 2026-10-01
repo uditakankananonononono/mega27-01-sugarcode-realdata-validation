@@ -1,0 +1,60 @@
+{
+  "1": {
+    "status": "returned",
+    "d_model": 8
+  },
+  "2": {
+    "status": "returned",
+    "d_model": 8
+  },
+  "3": {
+    "status": "error",
+    "type": "ValueError",
+    "message": "matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 8 is different from 6)"
+  },
+  "4": {
+    "status": "returned",
+    "d_model": 8
+  },
+  "5": {
+    "status": "error",
+    "type": "ValueError",
+    "message": "matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 8 is different from 5)"
+  },
+  "8": {
+    "status": "returned",
+    "d_model": 8
+  },
+  "9": {
+    "status": "returned",
+    "d_model": 9
+  },
+  "all_missing_multiomics": {
+    "cancer_probability": 0.075858,
+    "tissue_of_origin": "lung",
+    "tissue_probabilities": {
+      "lung": 0.310026,
+      "colorectal": 0.28905,
+      "breast": 0.231475,
+      "pancreatic": 0.141851
+    },
+    "latent_signature": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "modality_reliability": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "modalities": [
+      "ctDNA",
+      "methylation",
+      "proteomics",
+      "metabolomics"
+    ]
+  }
+}

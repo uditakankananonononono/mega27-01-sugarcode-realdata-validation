@@ -1,0 +1,48 @@
+FFFF.                                                                    [100%]
+=================================== FAILURES ===================================
+______ test_invalid_allele_frequencies_and_depth_rejected[signal0-30000] _______
+
+signal = [-0.1, -0.1, -0.1, -0.1, -0.1, -0.1, ...], depth = 30000
+
+    @pytest.mark.parametrize('signal,depth', [([-.1]*8,30000),([2]*8,30000),([float('nan')]*8,30000),([.1]*8,-100)])
+    def test_invalid_allele_frequencies_and_depth_rejected(signal,depth):
+>       with pytest.raises(ValueError): detect_ctdna(signal,depth=depth)
+E       Failed: DID NOT RAISE ValueError
+
+../sugarcode-liquid-work/verification/selfaudit_20261001/liquid_input/test_regression.py:6: Failed
+______ test_invalid_allele_frequencies_and_depth_rejected[signal1-30000] _______
+
+signal = [2, 2, 2, 2, 2, 2, ...], depth = 30000
+
+    @pytest.mark.parametrize('signal,depth', [([-.1]*8,30000),([2]*8,30000),([float('nan')]*8,30000),([.1]*8,-100)])
+    def test_invalid_allele_frequencies_and_depth_rejected(signal,depth):
+>       with pytest.raises(ValueError): detect_ctdna(signal,depth=depth)
+E       Failed: DID NOT RAISE ValueError
+
+../sugarcode-liquid-work/verification/selfaudit_20261001/liquid_input/test_regression.py:6: Failed
+______ test_invalid_allele_frequencies_and_depth_rejected[signal2-30000] _______
+
+signal = [nan, nan, nan, nan, nan, nan, ...], depth = 30000
+
+    @pytest.mark.parametrize('signal,depth', [([-.1]*8,30000),([2]*8,30000),([float('nan')]*8,30000),([.1]*8,-100)])
+    def test_invalid_allele_frequencies_and_depth_rejected(signal,depth):
+>       with pytest.raises(ValueError): detect_ctdna(signal,depth=depth)
+E       Failed: DID NOT RAISE ValueError
+
+../sugarcode-liquid-work/verification/selfaudit_20261001/liquid_input/test_regression.py:6: Failed
+_______ test_invalid_allele_frequencies_and_depth_rejected[signal3--100] _______
+
+signal = [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, ...], depth = -100
+
+    @pytest.mark.parametrize('signal,depth', [([-.1]*8,30000),([2]*8,30000),([float('nan')]*8,30000),([.1]*8,-100)])
+    def test_invalid_allele_frequencies_and_depth_rejected(signal,depth):
+>       with pytest.raises(ValueError): detect_ctdna(signal,depth=depth)
+E       Failed: DID NOT RAISE ValueError
+
+../sugarcode-liquid-work/verification/selfaudit_20261001/liquid_input/test_regression.py:6: Failed
+=========================== short test summary info ============================
+FAILED ../sugarcode-liquid-work/verification/selfaudit_20261001/liquid_input/test_regression.py::test_invalid_allele_frequencies_and_depth_rejected[signal0-30000]
+FAILED ../sugarcode-liquid-work/verification/selfaudit_20261001/liquid_input/test_regression.py::test_invalid_allele_frequencies_and_depth_rejected[signal1-30000]
+FAILED ../sugarcode-liquid-work/verification/selfaudit_20261001/liquid_input/test_regression.py::test_invalid_allele_frequencies_and_depth_rejected[signal2-30000]
+FAILED ../sugarcode-liquid-work/verification/selfaudit_20261001/liquid_input/test_regression.py::test_invalid_allele_frequencies_and_depth_rejected[signal3--100]
+4 failed, 1 passed in 0.08s

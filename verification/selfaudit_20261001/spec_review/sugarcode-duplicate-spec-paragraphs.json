@@ -1,0 +1,247 @@
+[
+  {
+    "modules": [
+      "metabodesigner",
+      "promoter_lib"
+    ],
+    "paragraph": "MetaboDesigner functions as a pathway synthesis and optimization engine that reconstructs and designs metabolic networks as constrained optimization problems over biochemical reaction space. Given a target molecule, the system performs retrosynthetic pathway discovery by traversing reaction graphs derived from databases such as KEGG and MetaCyc, identifying feasible enzymatic transformations that convert host metabolites into the desired product. Each candidate pathway is evaluated using flux balance analysis (FBA), where the steady-state constraint S\u22c5v=0S \\cdot v = 0S\u22c5v=0 is solved under cellular resource limitations to determine whether sufficient flux can be directed toward the product without compromising host viability."
+  },
+  {
+    "modules": [
+      "metabodesigner",
+      "promoter_lib"
+    ],
+    "paragraph": "At the enzymatic level, MetaboDesigner evaluates catalytic feasibility by predicting enzyme\u2013substrate compatibility, turnover rates (kcat), and cofactor dependencies (NADH, ATP, FAD). It incorporates protein engineering modules to suggest mutations that improve enzyme kinetics or substrate specificity, effectively bridging metabolic engineering with protein design. The system also models thermodynamic feasibility using Gibbs free energy estimates, ensuring that proposed pathways are energetically favorable under physiological conditions and do not rely on infeasible reaction steps."
+  },
+  {
+    "modules": [
+      "metabodesigner",
+      "promoter_lib"
+    ],
+    "paragraph": "From a chemical perspective, MetaboDesigner simulates intermediate stability, side-reaction risks, and metabolite toxicity. It predicts accumulation of reactive intermediates and suggests pathway balancing strategies, such as enzyme overexpression or compartmentalization, to prevent bottlenecks or harmful byproducts. It also integrates redox balancing and carbon efficiency metrics, optimizing pathways for maximum yield while minimizing waste and energy loss\u2014critical for industrial bioproduction."
+  },
+  {
+    "modules": [
+      "metabodesigner",
+      "promoter_lib"
+    ],
+    "paragraph": "At the cellular systems level, the platform models how engineered pathways interact with host metabolism. It predicts metabolic burden, competition for precursors, and regulatory feedback loops that may suppress pathway activity. Using dynamic FBA and kinetic modeling, it simulates time-dependent production curves and identifies optimal expression strategies (e.g., inducible vs constitutive systems). It also suggests chassis organisms (E. coli, yeast, mammalian cells) based on compatibility with pathway requirements and scalability."
+  },
+  {
+    "modules": [
+      "metabodesigner",
+      "promoter_lib"
+    ],
+    "paragraph": "Ultimately, MetaboDesigner outputs a complete engineering blueprint: enzyme lists, gene sequences, regulatory strategies, and predicted production yields. It bridges computational biology, enzymology, and chemical engineering, enabling the rational design of metabolic systems for pharmaceuticals, biofuels, and novel biomolecules."
+  },
+  {
+    "modules": [
+      "gene_analysis",
+      "gene_explorer"
+    ],
+    "paragraph": "Gene Analysis\u00a0can be advanced into a mechanistic, multi-omic inference system that constructs a causally consistent \u201cdigital twin\u201d of a gene by explicitly modeling interactions across DNA, RNA, protein structure, and pathway dynamics. The core is a hierarchical probabilistic graph where nodes represent molecular states (alleles, transcripts, isoforms, conformers, complexes) and edges encode biochemical transformations and regulatory interactions with directionality and kinetics. Data from genomic repositories (variants and frequencies), proteomic databases (isoforms, PTMs), structural predictors (folds, interfaces), and pathway resources are fused via variational inference, yielding a posterior over gene behavior under different conditions. This allows the system to answer counterfactuals\u2014e.g., \u201cwhat is the effect of a missense mutation under hypoxic conditions in epithelial cells?\u201d\u2014with quantified uncertainty."
+  },
+  {
+    "modules": [
+      "gene_analysis",
+      "gene_explorer"
+    ],
+    "paragraph": "At the protein level, Gene Analysis integrates structure-aware models (equivariant GNNs) to evaluate mutation-induced \u0394\u0394G of folding, interface disruption probabilities, and allosteric communication pathways. Instead of treating structure statically, it models conformational ensembles, estimating how mutations shift population distributions between functional states. These structural perturbations are mapped onto interaction networks to predict loss/gain of protein\u2013protein interactions, changes in complex stoichiometry, and downstream signaling flux. Coupling this with transcript-level modeling (splicing, nonsense-mediated decay, isoform switching) provides a full-stack view of how a variant propagates from sequence to cellular phenotype."
+  },
+  {
+    "modules": [
+      "gene_analysis",
+      "gene_explorer"
+    ],
+    "paragraph": "The variant interpretation engine is explicitly decompositional and causal. It aggregates signals from evolutionary conservation (phylogenetic likelihoods), structural perturbation scores, regulatory impact (from GenomeGPT-like embeddings), and functional assay priors into a unified probabilistic model. Outputs include posterior probabilities of pathogenicity alongside attribution vectors that quantify contributions from structural destabilization, binding interface loss, regulatory misexpression, and splicing defects. Calibration is enforced via conformal prediction, ensuring that reported confidence intervals are statistically meaningful for clinical decision support."
+  },
+  {
+    "modules": [
+      "gene_analysis",
+      "gene_explorer"
+    ],
+    "paragraph": "The CRISPR design module operates as an outcome-aware optimizer. Rather than maximizing generic on-target scores, it optimizes for desired phenotypic outcomes under constraints. Guide selection incorporates sequence features (PAM compatibility, GC content, secondary structure), chromatin context (accessibility, nucleosome occupancy), and allele specificity (discriminating mutant vs. wild-type haplotypes). For base and prime editing, it designs edit windows, pegRNA spacer/PBS/RT templates with thermodynamic and positional constraints, and introduces silent PAM-disrupting edits to prevent re-cutting. Off-target prediction leverages genome-wide alignment augmented with learned mismatch tolerance profiles and chromatin-aware accessibility filters, outputting ranked sites with risk scores and recommended validation assays."
+  },
+  {
+    "modules": [
+      "gene_analysis",
+      "gene_explorer"
+    ],
+    "paragraph": "Finally, Gene Analysis integrates dynamic pathway simulation through hybrid models that combine SBML-defined kinetics with neural ODE surrogates for components lacking explicit parameters. This enables time-resolved simulation of perturbations (edits, drugs, expression changes), producing trajectories for key biomarkers (e.g., p-ERK, p53 targets) and phenotypic endpoints (apoptosis, proliferation). The system can generate executable experimental plans\u2014editing strategies, controls, readouts (qPCR, Western blot, single-cell RNA-seq), and statistical power estimates\u2014closing the loop from in silico inference to wet-lab validation. With continuous ingestion of new data and experimental feedback, the digital twin is iteratively refined, increasing fidelity and making the platform a rigorous, predictive engine for gene-level biology and therapeutic design."
+  },
+  {
+    "modules": [
+      "bioprint_pro",
+      "synlife_evo"
+    ],
+    "paragraph": "Microbiome Rx is formulated as a multi-scale dynamical systems simulator for gut microbial ecosystems, where each microbial species is represented as a genome-scale metabolic network embedded within a coupled ecological field. The system integrates Flux Balance Analysis (FBA), dynamic FBA (dFBA), and enzyme-constrained metabolic models (ecFBA) into a unified community constraint optimization problem. Each species iii is defined by a stoichiometric matrix SiS_iSi\u200b, flux vector viv_ivi\u200b, and uptake constraints Ui(t)U_i(t)Ui\u200b(t), while community metabolism is solved under the global constraint \u2211iSivi=0\\sum_i S_i v_i = 0\u2211i\u200bSi\u200bvi\u200b=0 with time-dependent nutrient boundary conditions derived from dietary intake functions."
+  },
+  {
+    "modules": [
+      "bioprint_pro",
+      "synlife_evo"
+    ],
+    "paragraph": "At the ecosystem level, Microbiome Rx couples metabolic fluxes with population dynamics through a hybrid ODE\u2013constraint system. Species abundance xi(t)x_i(t)xi\u200b(t) evolves according to generalized Lotka\u2013Volterra equations extended with metabolite-dependent growth rates: dxidt=xi(\u03bci(M,t)\u2212\u2211j\u03b1ijxj)\\frac{dx_i}{dt} = x_i(\\mu_i(M,t) - \\sum_j \\alpha_{ij} x_j)dtdxi\u200b\u200b=xi\u200b(\u03bci\u200b(M,t)\u2212\u2211j\u200b\u03b1ij\u200bxj\u200b), where \u03bci(M,t)\\mu_i(M,t)\u03bci\u200b(M,t) is a metabolite-dependent growth functional derived from intracellular flux solutions. Metabolite concentrations Mk(t)M_k(t)Mk\u200b(t) evolve via diffusion\u2013reaction equations incorporating microbial secretion, uptake, and host absorption kinetics."
+  },
+  {
+    "modules": [
+      "bioprint_pro",
+      "synlife_evo"
+    ],
+    "paragraph": "Dietary perturbations are encoded as time-varying input tensors that map macronutrients into metabolically accessible substrates via enzymatic decomposition functions. These inputs modify transport flux constraints and reshape feasible flux polytope geometry for each organism. Antibiotics are modeled as stochastic killing operators with species-specific susceptibility kernels Ai(t)A_i(t)Ai\u200b(t), introducing discontinuities in abundance trajectories and inducing regime shifts in metabolic network topology."
+  },
+  {
+    "modules": [
+      "bioprint_pro",
+      "synlife_evo"
+    ],
+    "paragraph": "Microbial interaction structure is represented as a weighted bipartite metabolic exchange graph, where edges encode metabolite flux coupling coefficients derived from shadow price analysis in dual optimization space. This allows identification of keystone species via sensitivity gradients \u2202Mk/\u2202xi\\partial M_k / \\partial x_i\u2202Mk\u200b/\u2202xi\u200b, revealing control points in ecosystem metabolic stability. The system identifies emergent cross-feeding cycles, syntrophic loops, and metabolic bottlenecks using eigen decomposition of the interaction Laplacian matrix."
+  },
+  {
+    "modules": [
+      "bioprint_pro",
+      "synlife_evo"
+    ],
+    "paragraph": "Finally, Microbiome Rx performs control-theoretic optimization using reinforcement learning over intervention spaces defined by diet composition vectors, probiotic injections, and antibiotic schedules. The objective function minimizes divergence from a healthy metabolic attractor state defined in flux space using Wasserstein distance metrics. Outputs include optimal intervention trajectories, predicted metabolite restoration curves, and stability basin mappings of healthy vs dysbiotic microbiome regimes."
+  },
+  {
+    "modules": [
+      "bioprint_pro",
+      "synlife_evo"
+    ],
+    "paragraph": "Riboswitch is a thermodynamically grounded RNA design engine that models RNA molecules as stochastic ensembles governed by partition functions over secondary structure space. The system computes folding probability distributions P(Si)P(S_i)P(Si\u200b) over all admissible base-pairing configurations using McCaskill-style dynamic programming extended with ligand-dependent energy perturbations. Each RNA sequence is evaluated under a free energy landscape G(S)=\u0394Gbase(S)+\u0394Gligand(S,L)G(S) = \\Delta G_{base}(S) + \\Delta G_{ligand}(S,L)G(S)=\u0394Gbase\u200b(S)+\u0394Gligand\u200b(S,L), where ligand binding modifies structural stability."
+  },
+  {
+    "modules": [
+      "bioprint_pro",
+      "synlife_evo"
+    ],
+    "paragraph": "Ligand\u2013RNA interactions are modeled using hybrid quantum-informed docking potentials combined with coarse-grained molecular mechanics. Binding affinity is computed as \u0394Gbind=\u0394H\u2212T\u0394S\\Delta G_{bind} = \\Delta H - T\\Delta S\u0394Gbind\u200b=\u0394H\u2212T\u0394S, with entropic penalties estimated from conformational restriction of RNA loops upon ligand association. The system identifies aptamer domains through graph-based motif extraction and optimizes binding pockets using differentiable sequence design algorithms operating in nucleotide latent space."
+  },
+  {
+    "modules": [
+      "bioprint_pro",
+      "synlife_evo"
+    ],
+    "paragraph": "Co-transcriptional folding kinetics are modeled using kinetic partitioning theory, where RNA folding pathways are governed by rate equations dPidt=\u2211jkjiPj\u2212kijPi\\frac{dP_i}{dt} = \\sum_j k_{ji}P_j - k_{ij}P_idtdPi\u200b\u200b=\u2211j\u200bkji\u200bPj\u200b\u2212kij\u200bPi\u200b. This captures folding traps, metastable intermediates, and transcription speed\u2013dependent structural bifurcations. RNA polymerase elongation rate acts as a coupling parameter between sequence synthesis and folding trajectory evolution."
+  },
+  {
+    "modules": [
+      "bioprint_pro",
+      "synlife_evo"
+    ],
+    "paragraph": "The switching mechanism is modeled as a bistable thermodynamic system with ligand-dependent energy minima transitions. Riboswitch behavior is characterized by a double-well free energy potential where ligand binding reshapes basin depths, triggering structural state transitions between ON and OFF conformations. Signal sensitivity is quantified via derivative response functions dEexpressiond[L]\\frac{dE_{expression}}{d[L]}d[L]dEexpression\u200b\u200b, enabling tuning of detection thresholds."
+  },
+  {
+    "modules": [
+      "bioprint_pro",
+      "synlife_evo"
+    ],
+    "paragraph": "Finally, Riboswitch outputs are optimized RNA sequences with predicted folding ensembles, ligand response curves, and stochastic gene expression distributions. The system evaluates performance under intracellular noise using Gillespie simulations of transcription\u2013translation coupling, ensuring robustness of biosensor function under physiological variability."
+  },
+  {
+    "modules": [
+      "bioprint_pro",
+      "synlife_evo"
+    ],
+    "paragraph": "Phage-Tx is a co-evolutionary stochastic population dynamics simulator that models bacteriophage therapy as an adaptive control system operating over evolving microbial host landscapes. The system extends classical predator\u2013prey models into evolutionary game-theoretic frameworks where both bacterial and phage populations possess mutable trait vectors \u03b8b,\u03b8p\\theta_b, \\theta_p\u03b8b\u200b,\u03b8p\u200b governing receptor structure, infectivity, and resistance mechanisms."
+  },
+  {
+    "modules": [
+      "bioprint_pro",
+      "synlife_evo"
+    ],
+    "paragraph": "The ecological backbone is represented by a coupled nonlinear system of integro-differential equations: bacterial growth is modeled as dBdt=rB(1\u2212BK)\u2212\u03d5(P,B,\u03b8p,\u03b8b)\\frac{dB}{dt} = rB(1 - \\frac{B}{K}) - \\phi(P,B,\\theta_p,\\theta_b)dtdB\u200b=rB(1\u2212KB\u200b)\u2212\u03d5(P,B,\u03b8p\u200b,\u03b8b\u200b), while phage dynamics follow dPdt=\u03b2\u03d5(P,B)\u2212\u03b4P\\frac{dP}{dt} = \\beta \\phi(P,B) - \\delta PdtdP\u200b=\u03b2\u03d5(P,B)\u2212\u03b4P, where infection kernel \u03d5\\phi\u03d5 is a function of receptor-binding affinity distributions. This kernel evolves dynamically under mutation-selection pressure."
+  },
+  {
+    "modules": [
+      "bioprint_pro",
+      "synlife_evo"
+    ],
+    "paragraph": "Evolutionary adaptation is modeled using Wright\u2013Fisher diffusion processes applied to trait distributions, where mutation operators perturb receptor-binding proteins, capsid structure, and anti-CRISPR evasion strategies. Fitness landscapes are computed in high-dimensional phenotype space, where adaptive peaks correspond to successful infection or resistance phenotypes."
+  },
+  {
+    "modules": [
+      "bioprint_pro",
+      "synlife_evo"
+    ],
+    "paragraph": "Spatial structure is incorporated using reaction\u2013diffusion PDEs to simulate biofilm environments, where diffusion coefficients vary spatially due to extracellular polymeric substance density. This creates heterogeneous infection zones, leading to spatial refuges that enable bacterial persistence and phage-resistant micro-niches. The model captures traveling wave dynamics of infection fronts."
+  },
+  {
+    "modules": [
+      "bioprint_pro",
+      "synlife_evo"
+    ],
+    "paragraph": "Finally, Phage-Tx performs optimal control over phage cocktail design using evolutionary reinforcement learning. The objective function maximizes bacterial eradication probability while minimizing resistance emergence entropy H(R)H(R)H(R). Outputs include time-dependent phage dosing strategies, optimal strain combinations, and predicted evolutionary escape trajectories."
+  },
+  {
+    "modules": [
+      "bioprint_pro",
+      "synlife_evo"
+    ],
+    "paragraph": "Phage Designer is a synthetic virology platform that formulates bacteriophage genomes as modular programmable genetic systems constrained by structural assembly physics and host interaction biochemistry. Each genome is decomposed into functional modules: capsid assembly units, tail fiber specificity domains, lysis cassettes, and optional payload modules, each governed by sequence\u2013structure\u2013function mappings."
+  },
+  {
+    "modules": [
+      "bioprint_pro",
+      "synlife_evo"
+    ],
+    "paragraph": "Host range engineering is formulated as a protein\u2013receptor binding optimization problem over bacterial surface proteomes. Binding affinity is computed using energy-based docking functions Ebind=EvdW+Eelectrostatic+EdesolvationE_{bind} = E_{vdW} + E_{electrostatic} + E_{desolvation}Ebind\u200b=EvdW\u200b+Eelectrostatic\u200b+Edesolvation\u200b, evaluated across receptor ensembles derived from bacterial outer membrane protein variability distributions. This produces probabilistic host infectivity landscapes across bacterial strain populations."
+  },
+  {
+    "modules": [
+      "bioprint_pro",
+      "synlife_evo"
+    ],
+    "paragraph": "Genome design constraints include capsid packaging limits governed by viral headful packaging models, transcriptional timing constraints governed by promoter\u2013terminator interaction networks, and structural protein folding constraints modeled via AlphaFold-like energy minimization approximations. These constraints define a feasible genomic design manifold within which viable phage genomes must lie."
+  },
+  {
+    "modules": [
+      "bioprint_pro",
+      "synlife_evo"
+    ],
+    "paragraph": "Therapeutic payload engineering introduces heterologous gene insertion modules, allowing phages to deliver CRISPR-Cas systems, toxin\u2013antitoxin modules, or quorum sensing disruptors. Expression dynamics are simulated using bacterial transcriptional kinetics models incorporating sigma factor competition, ribosomal allocation limits, and metabolic burden penalties that influence bacterial survival probability."
+  },
+  {
+    "modules": [
+      "bioprint_pro",
+      "synlife_evo"
+    ],
+    "paragraph": "Finally, Phage Designer performs multi-objective optimization across infectivity, specificity, evolutionary stability, and payload efficacy. Outputs include genome-validated phage constructs, predicted host range matrices, infection kinetics curves, and evolutionary robustness scores under bacterial adaptive pressure."
+  },
+  {
+    "modules": [
+      "bioprint_pro",
+      "synlife_evo"
+    ],
+    "paragraph": "BioPrint Pro is a multiphysics simulation platform for biofabrication systems that integrates non-Newtonian fluid mechanics, cellular biomechanics, and hydrogel crosslinking chemistry into a unified predictive bioprinting framework. Bio-inks are modeled as viscoelastic multiphase continua governed by constitutive equations such as the Oldroyd-B and Carreau\u2013Yasuda models, capturing shear-thinning and stress relaxation behavior during extrusion."
+  },
+  {
+    "modules": [
+      "bioprint_pro",
+      "synlife_evo"
+    ],
+    "paragraph": "Extrusion dynamics are simulated using Navier\u2013Stokes equations coupled with particle-based cell tracking algorithms that resolve cell distribution under shear stress gradients. Cell viability is modeled as a function of mechanical stress exposure V=e\u2212\u03bb\u03c3V = e^{-\\lambda \\sigma}V=e\u2212\u03bb\u03c3, where \u03c3\\sigma\u03c3 represents shear stress magnitude during nozzle passage, allowing prediction of stress-induced apoptosis."
+  },
+  {
+    "modules": [
+      "bioprint_pro",
+      "synlife_evo"
+    ],
+    "paragraph": "Crosslinking kinetics are modeled using reaction\u2013diffusion equations where gelation is driven by ionic diffusion, photoinitiated radical polymerization, or enzymatic crosslinking reactions. The system solves coupled PDEs describing polymer network formation and spatial stiffness evolution over time, enabling prediction of scaffold heterogeneity and structural anisotropy."
+  },
+  {
+    "modules": [
+      "bioprint_pro",
+      "synlife_evo"
+    ],
+    "paragraph": "Mechanical stability is evaluated using finite element analysis on evolving tissue geometries, incorporating nonlinear elasticity, poroelastic fluid flow, and time-dependent viscoelastic relaxation. Boundary conditions simulate physiological loading such as vascular pressure, compressive musculoskeletal forces, and shear flow in perfused bioreactors."
+  },
+  {
+    "modules": [
+      "bioprint_pro",
+      "synlife_evo"
+    ],
+    "paragraph": "Finally, BioPrint Pro performs global optimization over printing parameters using gradient-based and evolutionary algorithms. The objective function maximizes structural fidelity, cell viability, and long-term tissue maturation stability. Outputs include optimized print trajectories, material compositions, mechanical resilience maps, and predicted maturation pathways for engineered tissues."
+  }
+]

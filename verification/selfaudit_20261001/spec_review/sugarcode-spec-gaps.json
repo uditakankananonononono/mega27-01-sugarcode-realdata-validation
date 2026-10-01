@@ -1,0 +1,42 @@
+{
+  "promoter_length": {
+    "inputs": [
+      {
+        "length": 40
+      },
+      {
+        "length": 120
+      }
+    ],
+    "repeat_identical": true,
+    "different_inputs_identical_output": true,
+    "actual_length": 56,
+    "actual_steps": null
+  },
+  "pathway_max_steps": {
+    "inputs": [
+      {
+        "max_steps": 1
+      },
+      {
+        "max_steps": 20
+      }
+    ],
+    "repeat_identical": true,
+    "different_inputs_identical_output": true,
+    "actual_length": null,
+    "actual_steps": 10
+  },
+  "spec_contamination": {
+    "source": "spec/promoter_lib.md",
+    "matched_paragraph_count": 5,
+    "all_in_metabodesigner_spec": true,
+    "paragraphs": [
+      "MetaboDesigner functions as a pathway synthesis and optimization engine that reconstructs and designs metabolic networks as constrained optimization problems over biochemical reaction space. Given a target molecule, the system performs retrosynthetic pathway discovery by traversing reaction graphs derived from databases such as KEGG and MetaCyc, identifying feasible enzymatic transformations that convert host metabolites into the desired product. Each candidate pathway is evaluated using flux balance analysis (FBA), where the steady-state constraint S\u22c5v=0S \\cdot v = 0S\u22c5v=0 is solved under cellular resource limitations to determine whether sufficient flux can be directed toward the product without compromising host viability.",
+      "At the enzymatic level, MetaboDesigner evaluates catalytic feasibility by predicting enzyme\u2013substrate compatibility, turnover rates (kcat), and cofactor dependencies (NADH, ATP, FAD). It incorporates protein engineering modules to suggest mutations that improve enzyme kinetics or substrate specificity, effectively bridging metabolic engineering with protein design. The system also models thermodynamic feasibility using Gibbs free energy estimates, ensuring that proposed pathways are energetically favorable under physiological conditions and do not rely on infeasible reaction steps.",
+      "From a chemical perspective, MetaboDesigner simulates intermediate stability, side-reaction risks, and metabolite toxicity. It predicts accumulation of reactive intermediates and suggests pathway balancing strategies, such as enzyme overexpression or compartmentalization, to prevent bottlenecks or harmful byproducts. It also integrates redox balancing and carbon efficiency metrics, optimizing pathways for maximum yield while minimizing waste and energy loss\u2014critical for industrial bioproduction.",
+      "At the cellular systems level, the platform models how engineered pathways interact with host metabolism. It predicts metabolic burden, competition for precursors, and regulatory feedback loops that may suppress pathway activity. Using dynamic FBA and kinetic modeling, it simulates time-dependent production curves and identifies optimal expression strategies (e.g., inducible vs constitutive systems). It also suggests chassis organisms (E. coli, yeast, mammalian cells) based on compatibility with pathway requirements and scalability.",
+      "Ultimately, MetaboDesigner outputs a complete engineering blueprint: enzyme lists, gene sequences, regulatory strategies, and predicted production yields. It bridges computational biology, enzymology, and chemical engineering, enabling the rational design of metabolic systems for pharmaceuticals, biofuels, and novel biomolecules."
+    ]
+  }
+}

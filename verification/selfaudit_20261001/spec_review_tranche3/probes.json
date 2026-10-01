@@ -1,0 +1,40 @@
+{
+  "source_commit": "1ccbd0305cd9b639b06324fa136654d686483b7a",
+  "different_msa_pair_representation": true,
+  "same_coordinates": true,
+  "same_plddt": true,
+  "same_pae": true,
+  "repeat_equal": true,
+  "model_status": "Chou-Fasman, MSA mutual information and explicit geometry/energy; no AlphaFold neural weights and pLDDT/PAE are analogs, not calibrated predictions.",
+  "transform_check": {
+    "max_distance_error": 0.0,
+    "edges_preserved": true
+  },
+  "refinement": {
+    "coordinates": [
+      [
+        0.008119260209099362,
+        -1.0119264788957527e-07,
+        -1.0119264788957527e-07
+      ],
+      [
+        3.808119260201542,
+        5.257620650972257e-06,
+        5.257620650972257e-06
+      ],
+      [
+        7.608119260201508,
+        5.618782242796741e-06,
+        5.618782242796741e-06
+      ]
+    ],
+    "energy_trajectory": [
+      78.73777333355886,
+      -0.006152343750015706,
+      -0.006152343750015706
+    ],
+    "converged": true,
+    "bond_restraint": true,
+    "max_bond_deviation_A": 0.0
+  }
+}

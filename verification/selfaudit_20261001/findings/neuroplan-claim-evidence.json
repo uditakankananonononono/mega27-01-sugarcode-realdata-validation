@@ -1,0 +1,35 @@
+{
+  "product_commit": "1ccbd0305cd9b639b06324fa136654d686483b7a",
+  "input": {
+    "center": [
+      32,
+      32,
+      30
+    ],
+    "radius_mm": 6,
+    "type": "glioma"
+  },
+  "input_signature": "(tumor: 'dict', image_size: 'tuple[int, int, int]' = (128, 128, 128)) -> 'dict'",
+  "repeat_equal": true,
+  "segmentation": {
+    "tumor_volume_mm3": 904.8,
+    "labels": [
+      "enhancing core",
+      "necrotic center",
+      "edema rim",
+      "healthy brain"
+    ],
+    "voxel_size_mm": 1.0,
+    "confidence": 0.9
+  },
+  "tractography": {
+    "tracts_modeled": [
+      "corticospinal_tract",
+      "arcuate_fasciculus"
+    ],
+    "method": "deterministic streamline, FA threshold 0.2"
+  },
+  "legacy_output_has_model_status": false,
+  "current_wrapper_model_status": "mechanistic hermetic planning; not autonomous surgical guidance",
+  "finding": "Legacy exported geometry-only route emits constant segmentation confidence and named FA/streamline method without MRI/diffusion input; separate data-processing functions exist but are not called by this route."
+}

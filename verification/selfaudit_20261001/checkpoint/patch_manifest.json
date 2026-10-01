@@ -1,0 +1,106 @@
+[
+  {
+    "patch": "sugarcode-cellpainter-order-20261001.patch",
+    "sha256": "c89be15b57399140e50c0d6b7c150b38b0969a537641de0ec63f8e3bf7e98ace",
+    "paths": [
+      "verification/selfaudit_20261001/cellpainter_order/REPORT.md",
+      "verification/selfaudit_20261001/cellpainter_order/evidence.json",
+      "verification/selfaudit_20261001/cellpainter_order/regression.log",
+      "verification/selfaudit_20261001/cellpainter_order/test_feature_order.py"
+    ]
+  },
+  {
+    "patch": "sugarcode-functional-regression-20261001-clean.patch",
+    "sha256": "acdffae5bf5ead6b2bb1662da29cbe33e1471713b3afbf1c846b56903f0d93ff",
+    "paths": [
+      "verification/selfaudit_20261001/functional_regressions/REPORT.md",
+      "verification/selfaudit_20261001/functional_regressions/promoter-homopolymer-evidence.json",
+      "verification/selfaudit_20261001/functional_regressions/regression.log",
+      "verification/selfaudit_20261001/functional_regressions/test_promoter_homopolymer.py"
+    ]
+  },
+  {
+    "patch": "sugarcode-sdk-contract-20261001.patch",
+    "sha256": "37a752d6c05f64834e6ceda5cd667727d89277fc12e85818ff46cdbd37e8c0bd",
+    "paths": [
+      "verification/selfaudit_20261001/sdk_contract/REPORT.md",
+      "verification/selfaudit_20261001/sdk_contract/evidence.json",
+      "verification/selfaudit_20261001/sdk_contract/regression.log",
+      "verification/selfaudit_20261001/sdk_contract/test_sdk_contract.py"
+    ]
+  },
+  {
+    "patch": "sugarcode-selfaudit-20261001.patch",
+    "sha256": "61746b4cddaf55448232e5e3a47c45519d9d8341af6129e2d29d88879426b3a7",
+    "paths": [
+      "verification/selfaudit_20261001/REPORT.md",
+      "verification/selfaudit_20261001/independent_probes.py",
+      "verification/selfaudit_20261001/provenance.json",
+      "verification/selfaudit_20261001/sugarcode-all1.log",
+      "verification/selfaudit_20261001/sugarcode-all1.xml",
+      "verification/selfaudit_20261001/sugarcode-all2.log",
+      "verification/selfaudit_20261001/sugarcode-all2.xml",
+      "verification/selfaudit_20261001/sugarcode-bbbc001.json",
+      "verification/selfaudit_20261001/sugarcode-environment-final.txt",
+      "verification/selfaudit_20261001/sugarcode-inventory-current.json",
+      "verification/selfaudit_20261001/sugarcode-probes-repeat1.json",
+      "verification/selfaudit_20261001/sugarcode-probes1.json",
+      "verification/selfaudit_20261001/sugarcode-repeat-proof.json"
+    ]
+  },
+  {
+    "patch": "sugarcode-selfaudit-findings-20261001.patch",
+    "sha256": "e627c7e07c496026151ba17a95cfaa6286593d1beafe70d35dbe845f08344784",
+    "paths": [
+      "verification/selfaudit_20261001/findings/REPORT.md",
+      "verification/selfaudit_20261001/findings/neuroplan-claim-evidence.json",
+      "verification/selfaudit_20261001/findings/rarenet-inheritance-evidence.json"
+    ]
+  },
+  {
+    "patch": "sugarcode-spec-review-20261001.patch",
+    "sha256": "21714fcf65a1f5c4706814cb0853fc56538f1b137e62ec26dcb6a6bf0b17ae67",
+    "paths": [
+      "verification/selfaudit_20261001/spec_review/REPORT.md",
+      "verification/selfaudit_20261001/spec_review/sugarcode-duplicate-spec-paragraphs.json",
+      "verification/selfaudit_20261001/spec_review/sugarcode-spec-check-examples.json",
+      "verification/selfaudit_20261001/spec_review/sugarcode-spec-gaps.json",
+      "verification/selfaudit_20261001/spec_review/sugarcode-spec-units.json"
+    ]
+  },
+  {
+    "patch": "sugarcode-spec-review-tranche2-20261001.patch",
+    "sha256": "a791f69f992e982748bacf75e1ebd0d78eb936c87c7f49d271317d5e2f256a6f",
+    "paths": [
+      "verification/selfaudit_20261001/spec_review_tranche2/REPORT.md",
+      "verification/selfaudit_20261001/spec_review_tranche2/probes.json",
+      "verification/selfaudit_20261001/spec_review_tranche2/units.json"
+    ]
+  },
+  {
+    "patch": "sugarcode-spec-review-tranche3-20261001.patch",
+    "sha256": "a3c9ce829f0c83d1fe3cc4b2dd91d45ebf35ae5144df2bd2bd4640f02f82d361",
+    "paths": [
+      "verification/selfaudit_20261001/spec_review_tranche3/REPORT.md",
+      "verification/selfaudit_20261001/spec_review_tranche3/probes.json",
+      "verification/selfaudit_20261001/spec_review_tranche3/units.json"
+    ]
+  },
+  {
+    "patch": "sugarcode-spec-review-tranche4-20261001.patch",
+    "sha256": "9caf54c2f4d21421647bce1703de8089c9d28e03d57a1ab10d6602b4241c1503",
+    "paths": [
+      "verification/selfaudit_20261001/spec_review_tranche4/REPORT.md",
+      "verification/selfaudit_20261001/spec_review_tranche4/probes.json",
+      "verification/selfaudit_20261001/spec_review_tranche4/units.json"
+    ]
+  },
+  {
+    "patch": "sugarcode-spec-review-tranche5-20261001.patch",
+    "sha256": "cbc5b6da7031c38ca55b841d4e24b44a63162e62dd9a5e9ebd5b30c3636b2b8f",
+    "paths": [
+      "verification/selfaudit_20261001/spec_review_tranche5/REPORT.md",
+      "verification/selfaudit_20261001/spec_review_tranche5/units.json"
+    ]
+  }
+]

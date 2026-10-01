@@ -1,0 +1,182 @@
+[
+  {
+    "id": "cell_twin:1",
+    "module": "cell_twin",
+    "source_path": "spec/cell_twin.md",
+    "spec_sha256": "cbd5febc3e3cd0e629da92b9d93a26296730e95445120264b2bf5e1a6811905b",
+    "text": "# Cell-Twin\n\nCell-Twin: A digital twin engine that creates virtual clones of patient cells using multi-omic data.",
+    "review_status": "SCOPED_OMIC_STATE_NOT_PATIENT_CLONE",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Patient-omic inputs initialize mechanistic pathway state; no validated patient-cell clone. Source disclaims personalized efficacy."
+  },
+  {
+    "id": "cell_twin:2",
+    "module": "cell_twin",
+    "source_path": "spec/cell_twin.md",
+    "spec_sha256": "cbd5febc3e3cd0e629da92b9d93a26296730e95445120264b2bf5e1a6811905b",
+    "text": "It runs \"in silico\" drug trials to predict responses, including apoptosis and proliferation rates.",
+    "review_status": "SCOPED_ODE_NOT_PATIENT_PREDICTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Drug/combo ODE trajectories for viable/apoptotic/proliferating states exist; clinical response accuracy not independently established."
+  },
+  {
+    "id": "cell_twin:3",
+    "module": "cell_twin",
+    "source_path": "spec/cell_twin.md",
+    "spec_sha256": "cbd5febc3e3cd0e629da92b9d93a26296730e95445120264b2bf5e1a6811905b",
+    "text": "Cell-Twin enables personalized medicine by testing therapeutic combinations on digital surrogate cells, identifying the most effective treatments for individual patients.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Combination screen ranks model outputs, not most effective individual-patient treatment. No personalized therapeutic validity."
+  },
+  {
+    "id": "gene_tx_opt:1",
+    "module": "gene_tx_opt",
+    "source_path": "spec/gene_tx_opt.md",
+    "spec_sha256": "321182b21d1b413fa416069253d0e46dc120017a72fad96af54a1a589598a47a",
+    "text": "# Gene-Tx Opt\n\nGene-Tx Opt: An AI optimizer for gene therapy vectors that suggests tissue-specific promoters and capsids.",
+    "review_status": "SCOPED_CURATED_RANKING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Tissue/vector/promoter/cargo heuristic ranking exists, not trained AI or validated gene-therapy optimization."
+  },
+  {
+    "id": "gene_tx_opt:2",
+    "module": "gene_tx_opt",
+    "source_path": "spec/gene_tx_opt.md",
+    "spec_sha256": "321182b21d1b413fa416069253d0e46dc120017a72fad96af54a1a589598a47a",
+    "text": "It analyzes target tissue requirements to maximize delivery efficiency and minimize immune response.",
+    "review_status": "SCOPED_HEURISTIC_NOT_MAXIMUM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Route/tissue/immunity terms change modeled ranking; no measured global delivery optimum or immune minimization."
+  },
+  {
+    "id": "gene_tx_opt:3",
+    "module": "gene_tx_opt",
+    "source_path": "spec/gene_tx_opt.md",
+    "spec_sha256": "321182b21d1b413fa416069253d0e46dc120017a72fad96af54a1a589598a47a",
+    "text": "Gene-Tx Opt provides 3D visualizations and simulates delivery routes, ensuring that genetic payloads are delivered precisely to the correct cells.",
+    "review_status": "PARTIAL_SIMULATION_VISUAL_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Compartment ODE and coordinates output exist; actual 3D visualization not inspected. Does not ensure precise cellular delivery."
+  },
+  {
+    "id": "microaiverse:1",
+    "module": "microaiverse",
+    "source_path": "spec/microaiverse.md",
+    "spec_sha256": "08fef8bf752c541095b95ca1c30b8e93f4011922e65e54ceb02c40c3177e00a4",
+    "text": "# MicroAiverse\n\nMicroAiverse: An AI solver for the \"plate count anomaly,\" suggesting media recipes and co-culture partners to cultivate previously unculturable microbes.",
+    "review_status": "SCOPED_MODEL_NOT_PLATE_ANOMALY_SOLUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Nutrient/partner optimization exists; no previously unculturable microbe actually cultivated or anomaly solved."
+  },
+  {
+    "id": "microaiverse:2",
+    "module": "microaiverse",
+    "source_path": "spec/microaiverse.md",
+    "spec_sha256": "08fef8bf752c541095b95ca1c30b8e93f4011922e65e54ceb02c40c3177e00a4",
+    "text": "It uses metabolic flux data to identify required nutrients and symbiotic relationships.",
+    "review_status": "SCOPED_GIVEN_REQUIREMENT_LP",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "LP over supplied metabolic requirements and partner scores, not genome-scale flux discovery. Independent two-requirement minimum cost 0.7 reproduces."
+  },
+  {
+    "id": "microaiverse:3",
+    "module": "microaiverse",
+    "source_path": "spec/microaiverse.md",
+    "spec_sha256": "08fef8bf752c541095b95ca1c30b8e93f4011922e65e54ceb02c40c3177e00a4",
+    "text": "MicroAiverse enables the exploration of microbial diversity, unlocking new potential for the discovery of natural products.",
+    "review_status": "ASPIRATIONAL_DISCOVERY_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No natural product/microbial diversity discovery established by model suggestions."
+  },
+  {
+    "id": "neodti_engine:1",
+    "module": "neodti_engine",
+    "source_path": "spec/neodti_engine.md",
+    "spec_sha256": "49962234e09169c3a3bdca5f1d2c89aa86fbdf70acb06ae5163afb0552568932",
+    "text": "# NeoDti Engine\n\nNeoDti Engine: A drug-repurposing tool that uses graph neural networks to discover new interactions between existing drugs and disease targets.",
+    "review_status": "SCOPED_UNTRAINED_GRAPH_NOT_DISCOVERY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Random-seeded graph convolution over curated topology, not trained discovery model. Source explicitly disclaims trained/therapeutic claims."
+  },
+  {
+    "id": "neodti_engine:2",
+    "module": "neodti_engine",
+    "source_path": "spec/neodti_engine.md",
+    "spec_sha256": "49962234e09169c3a3bdca5f1d2c89aa86fbdf70acb06ae5163afb0552568932",
+    "text": "It builds multiplex graphs from global datasets and validates predictions with molecular docking.",
+    "review_status": "PARTIAL_CURATED_GRAPH_AND_UNVERIFIED_DOCKING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Typed multiplex graph exists; independent global-data coverage/docking validation of discovered interactions not established in this tranche."
+  },
+  {
+    "id": "neodti_engine:3",
+    "module": "neodti_engine",
+    "source_path": "spec/neodti_engine.md",
+    "spec_sha256": "49962234e09169c3a3bdca5f1d2c89aa86fbdf70acb06ae5163afb0552568932",
+    "text": "NeoDti calculates a \"Therapeutic Resilience Index\" to rank candidates, enabling the rapid identification of medications.",
+    "review_status": "SCOPED_HEURISTIC_INDEX",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Therapeutic Resilience Index is explicit weighted heuristic. T2D case honestly returns zero candidates after exclusion, reproduced; no rapid medication discovery assurance."
+  },
+  {
+    "id": "organoid_ai:1",
+    "module": "organoid_ai",
+    "source_path": "spec/organoid_ai.md",
+    "spec_sha256": "0dca3abdef06d47dfd2aba204f971ac17c87c30b487a7e9a6052b507c80e4a44",
+    "text": "# Organoid AI\n\nOrganoid AI: An AI-driven platform for designing and simulating patient-derived organoid models.",
+    "review_status": "SCOPED_MODELS_NOT_PATIENT_VALIDATION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Curated tissue design and mechanistic simulation exist, not trained or clinically validated organoid model."
+  },
+  {
+    "id": "organoid_ai:2",
+    "module": "organoid_ai",
+    "source_path": "spec/organoid_ai.md",
+    "spec_sha256": "0dca3abdef06d47dfd2aba204f971ac17c87c30b487a7e9a6052b507c80e4a44",
+    "text": "It predicts optimal growth conditions and suggests media recipes while mapping spatial gene expression.",
+    "review_status": "PARTIAL_FIT_RECIPE_GRID",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Growth fit, media lookup and reaction-diffusion grid exist; optimum culture conditions and biological spatial-expression accuracy not externally validated."
+  },
+  {
+    "id": "organoid_ai:3",
+    "module": "organoid_ai",
+    "source_path": "spec/organoid_ai.md",
+    "spec_sha256": "0dca3abdef06d47dfd2aba204f971ac17c87c30b487a7e9a6052b507c80e4a44",
+    "text": "Organoid AI creates digital twins of 3D tissues to simulate growth and drug response, providing an accurate model for studying disease biology.",
+    "review_status": "SCOPED_ODE_NOT_ACCURACY_ASSURANCE",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Digital twin ODE plus heuristic compound response exists; accurate disease model/real drug response not established."
+  },
+  {
+    "id": "riboswitch:1",
+    "module": "riboswitch",
+    "source_path": "spec/riboswitch.md",
+    "spec_sha256": "900c7c751c3c48475d86ca043df888a13a3b13e7649a886bff1662f677a41421",
+    "text": "# Riboswitch\n\nRiboswitch: A design tool for RNA-based biosensors that change conformation in response to target metabolites, providing high sensitivity for molecular detection.",
+    "review_status": "SCOPED_HEURISTIC_NOT_SENSOR_VALIDITY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Curated aptamer/design/folding/Hill utilities exist, no high-sensitivity sensor efficacy. Allowed zero basal crashes."
+  },
+  {
+    "id": "riboswitch:2",
+    "module": "riboswitch",
+    "source_path": "spec/riboswitch.md",
+    "spec_sha256": "900c7c751c3c48475d86ca043df888a13a3b13e7649a886bff1662f677a41421",
+    "text": "It generates sequences and visualizes 2D folded structures while simulating response curves.",
+    "review_status": "PARTIAL_SEQUENCE_STRUCTURE_DATA",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Sequence/dot-bracket/Hill curves exist. Five short folds match independent recursive pair-count oracle. Actual 2D pixels not inspected; design on/off mode does not alter search ranking."
+  },
+  {
+    "id": "riboswitch:3",
+    "module": "riboswitch",
+    "source_path": "spec/riboswitch.md",
+    "spec_sha256": "900c7c751c3c48475d86ca043df888a13a3b13e7649a886bff1662f677a41421",
+    "text": "Riboswitch enables the development of monitoring tools for diverse applications in synthetic biology and diagnostics.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Real biosensor/diagnostic monitoring efficacy not established by equilibrium model output."
+  }
+]

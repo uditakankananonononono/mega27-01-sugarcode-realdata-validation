@@ -1,0 +1,25 @@
+{
+  "promoter": {
+    "report_scope": "Sigma70 motif/thermodynamic heuristics; no trained sequence model and host predictions are not experimentally calibrated.",
+    "motif_counts": {
+      "tf0": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      }
+    },
+    "library_count": 4,
+    "heatmap_shape": [
+      4,
+      80
+    ]
+  },
+  "rarenet": {
+    "scope": "mechanistic hermetic decision support; clinician adjudication required",
+    "top": "cystic_fibrosis"
+  },
+  "alpha_fold_ui": {
+    "method": "chou-fasman-idealized-backbone (learned weights pending)"
+  }
+}

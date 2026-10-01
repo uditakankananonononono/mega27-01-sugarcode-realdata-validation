@@ -1,0 +1,13 @@
+F                                                                        [100%]
+=================================== FAILURES ===================================
+_______________ test_omitted_mutations_are_not_labelled_measured _______________
+
+    def test_omitted_mutations_are_not_labelled_measured():
+        result = multiomic_fidelity({}, {}, passage=0)
+>       assert 'mutations' not in result['layers_measured']
+E       AssertionError: assert 'mutations' not in ['mutations']
+
+/tmp/sugarcode-pdx-work/verification/selfaudit_20261001/pdx_missing_data/test_missing_data.py:10: AssertionError
+=========================== short test summary info ============================
+FAILED ../../tmp/sugarcode-pdx-work/verification/selfaudit_20261001/pdx_missing_data/test_missing_data.py::test_omitted_mutations_are_not_labelled_measured
+1 failed in 0.06s

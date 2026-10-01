@@ -1,0 +1,30 @@
+{
+  "microaiverse": {
+    "result": {
+      "supplements": {
+        "cobalamin": 0.2,
+        "heme": 0.1
+      },
+      "total_cost": 0.7000000000000001,
+      "within_budget": true,
+      "budget": 1,
+      "solver": "scipy HiGHS linear program",
+      "optimal": true,
+      "requirements_met": {
+        "cobalamin": true,
+        "heme": true
+      }
+    },
+    "independent_minimum_cost": 0.7000000000000001,
+    "cost_match": true,
+    "repeat_equal": true,
+    "scope": "Given independent lower bounds and nonnegative costs, minimum is exactly the required quantities; not a real cultivation test."
+  },
+  "neodti_engine": {
+    "repeat_equal": true,
+    "candidate_count": 0,
+    "status": "no drug in the graph has a target-pathway-disease path to T2D (approved indications excluded); extend the graph rather than rank noise",
+    "scope": "mechanistic hermetic graph convolution; no trained or therapeutic claim",
+    "excluded_zero_path_drugs": 8
+  }
+}

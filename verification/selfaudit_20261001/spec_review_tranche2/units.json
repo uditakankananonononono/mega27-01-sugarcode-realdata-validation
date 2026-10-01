@@ -1,0 +1,92 @@
+[
+  {
+    "id": "alpha_fold_ui:1",
+    "module": "alpha_fold_ui",
+    "source_path": "spec/alpha_fold_ui.md",
+    "spec_sha256": "9b8449ce3676deb04599370ae9f4723c974943bf835ac168a4eed592b0147234",
+    "text": "# Alpha-Fold UI\n\nAlpha-Fold UI: A high-precision interface for protein structure prediction, generating 3D molecular coordinates from amino acid sequences.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Sequence yields idealized CA geometry/Chou-Fasman, not validated high-precision 3D fold prediction. Separate real structure retrieval exists; no learned AlphaFold weights."
+  },
+  {
+    "id": "alpha_fold_ui:2",
+    "module": "alpha_fold_ui",
+    "source_path": "spec/alpha_fold_ui.md",
+    "spec_sha256": "9b8449ce3676deb04599370ae9f4723c974943bf835ac168a4eed592b0147234",
+    "text": "It provides pLDDT confidence scores and PAE data to evaluate reliability.",
+    "review_status": "SCOPED_ANALOG_NOT_REAL_METRIC",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "predict_structure labels pLDDT/PAE fields, but docstring and folding_workspace state they are heuristic analogs, not calibrated predictions. Real retrieval routes may return actual source metrics; not reverified in this tranche."
+  },
+  {
+    "id": "alpha_fold_ui:3",
+    "module": "alpha_fold_ui",
+    "source_path": "spec/alpha_fold_ui.md",
+    "spec_sha256": "9b8449ce3676deb04599370ae9f4723c974943bf835ac168a4eed592b0147234",
+    "text": "Users can visualize predicted structures and download PDB files, enabling functional analysis of novel proteins and the identification of potential binding sites.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "PDB text and candidate site heuristics exist; inspected code/tests, not an actual rendered visualization or verified functional binding site."
+  },
+  {
+    "id": "dna_to_code:1",
+    "module": "dna_to_code",
+    "source_path": "spec/dna_to_code.md",
+    "spec_sha256": "090282f33d5a2e46981e7b1302ddb72d1e4742c7b7537be9350163eff5d54269",
+    "text": "# DNA-to-Code\n\nDNA-to-Code: A translation layer that turns complex biological concepts into Python code analogies, helping engineers understand molecular mechanisms through software architecture.",
+    "review_status": "SCOPED_BEHAVIOR_REPRODUCED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Six curated concepts have Python analogies and explanations; fixed-template educational catalogue, not general conceptual translation."
+  },
+  {
+    "id": "dna_to_code:2",
+    "module": "dna_to_code",
+    "source_path": "spec/dna_to_code.md",
+    "spec_sha256": "090282f33d5a2e46981e7b1302ddb72d1e4742c7b7537be9350163eff5d54269",
+    "text": "It provides code snippets and explanations for fundamental processes like transcription.",
+    "review_status": "SCOPED_BEHAVIOR_REPRODUCED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Transcription concept returns a reverse-complement template snippet, explanation and coding-strand execution example ATGT -> AUGU. These conventions differ intentionally; no mechanistic simulator claimed."
+  },
+  {
+    "id": "dna_to_code:3",
+    "module": "dna_to_code",
+    "source_path": "spec/dna_to_code.md",
+    "spec_sha256": "090282f33d5a2e46981e7b1302ddb72d1e4742c7b7537be9350163eff5d54269",
+    "text": "DNA-to-Code bridges the gap between biological and software engineering, facilitating a deeper understanding of life systems.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Learning/understanding benefit is not measured by implementation or tests."
+  },
+  {
+    "id": "omega_stats:1",
+    "module": "omega_stats",
+    "source_path": "spec/omega_stats.md",
+    "spec_sha256": "1ead47434bd73a5b303b7878ed32363c4e66f53dac84a0325e762a830d1e7575",
+    "text": "# Omega Stats\n\nOmega Stats: A performance dashboard for the SugarCode AI platform, tracking prediction accuracy, efficiency rates, and throughput across sub-networks.",
+    "review_status": "SCOPED_BEHAVIOR_REPRODUCED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Tracks supplied accuracy/latency/throughput/efficiency observations, computes grouped dashboard. This does not auto-establish prediction accuracy of modules."
+  },
+  {
+    "id": "omega_stats:2",
+    "module": "omega_stats",
+    "source_path": "spec/omega_stats.md",
+    "spec_sha256": "1ead47434bd73a5b303b7878ed32363c4e66f53dac84a0325e762a830d1e7575",
+    "text": "It provides a global view of the system's precision, from chemical scores to clinical simulation times.",
+    "review_status": "PARTIAL_INPUT_DEPENDENT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Per-module and subnetwork analytics exist for supplied records. No global precision conclusion is justified absent representative observations across tasks/units."
+  },
+  {
+    "id": "omega_stats:3",
+    "module": "omega_stats",
+    "source_path": "spec/omega_stats.md",
+    "spec_sha256": "1ead47434bd73a5b303b7878ed32363c4e66f53dac84a0325e762a830d1e7575",
+    "text": "Omega Stats ensures transparency and reliability, allowing users to trust AI-guided biological engineering.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Transparent aggregation/uncertainty exists; platform reliability/trust is not guaranteed by a dashboard."
+  }
+]

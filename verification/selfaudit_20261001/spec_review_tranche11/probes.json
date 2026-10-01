@@ -1,0 +1,36 @@
+{
+  "fba": {
+    "result": {
+      "status": "optimal",
+      "objective": 7.0,
+      "objective_reaction": "BIOMASS",
+      "fluxes": {
+        "UP": 7.0,
+        "BIOMASS": 7.0
+      }
+    },
+    "independent_upper_bound": 7,
+    "match": true,
+    "repeat_equal": true
+  },
+  "cfps": {
+    "yield": 2.0,
+    "conditions": {
+      "mg_mm": 12,
+      "k_mm": 120,
+      "pep_mm": 20,
+      "template_ng_ul": 12,
+      "peg_pct": 2
+    },
+    "independent_model_upper_bound": 2,
+    "match": true,
+    "repeat_equal": true
+  },
+  "bliss": {
+    "expected_viability": 0.25,
+    "observed_viability": 0.1,
+    "bliss_excess": 0.15,
+    "synergistic": true
+  },
+  "scope": "Synthetic mathematical consistency, not wet-lab/clinical efficacy."
+}

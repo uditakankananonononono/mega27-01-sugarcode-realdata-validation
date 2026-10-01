@@ -1,0 +1,118 @@
+{
+  "ecosystem": {
+    "repeat_equal": true,
+    "dependency_order": {
+      "install_order": [
+        "lab_io",
+        "variant_report"
+      ],
+      "plugin_count": 2,
+      "dependency_edges": 1,
+      "parallel_roots": [
+        "lab_io"
+      ]
+    },
+    "standards_actions": {
+      "assets": [
+        {
+          "name": "variants",
+          "type": "variants",
+          "current_format": "TXT",
+          "accepted_formats": [
+            "VCF",
+            "HGVS"
+          ],
+          "target_format": "VCF",
+          "compliant": false,
+          "action": "convert TXT to VCF",
+          "provenance_required": true
+        }
+      ],
+      "asset_count": 1,
+      "compliant_count": 0,
+      "conversion_count": 1,
+      "workflow_actions": [
+        "convert TXT to VCF"
+      ],
+      "collaboration_package": [
+        "README",
+        "checksums.sha256",
+        "provenance.json",
+        "license.txt"
+      ]
+    },
+    "scope": "Plans only, no plugin installation or actual format conversion executed"
+  },
+  "nexus_support": {
+    "result_keys": [
+      "triage",
+      "diagnostics",
+      "diagnostic_count",
+      "model_status",
+      "custom_build"
+    ],
+    "triage": {
+      "ticket_id": "NXS-A752065333B2",
+      "classification": "custom_build",
+      "labels": [
+        "custom_build"
+      ],
+      "keyword_evidence": {
+        "custom_build": [
+          "custom",
+          "build"
+        ]
+      },
+      "priority": "medium",
+      "priority_score": 3,
+      "routed_to": {
+        "module": "virtual_cell",
+        "sub_network": "cellular-systems"
+      },
+      "candidate_modules": [
+        {
+          "module": "virtual_cell",
+          "sub_network": "cellular-systems"
+        }
+      ],
+      "expertise_matches": [
+        {
+          "expertise": "cellular-systems",
+          "score": 3,
+          "reasons": [
+            "owns:virtual_cell"
+          ]
+        }
+      ],
+      "sla_hours": 240.0,
+      "response_due_at": "2026-10-11T06:42:59.744990+00:00",
+      "tier_applied": "startup",
+      "kb_matches": [
+        {
+          "article_key": "virtual_cell",
+          "title": "Flux balance models",
+          "score": 2,
+          "matched_terms": []
+        }
+      ],
+      "kb_match": "Flux balance models",
+      "auto_resolvable": false,
+      "escalation": "domain specialist on first response",
+      "model_status": "mechanistic hermetic routing; no trained or clinical claims"
+    },
+    "custom_build_keys": [
+      "request_type",
+      "modules",
+      "input_formats",
+      "output_formats",
+      "compliance_mentions",
+      "constraints",
+      "work_packages",
+      "open_risks",
+      "acceptance_gates",
+      "model_status"
+    ],
+    "model_status": "mechanistic hermetic routing; no trained or clinical claims",
+    "scope": "Local deterministic case generation, no communication to human expert or real support ticket created"
+  }
+}

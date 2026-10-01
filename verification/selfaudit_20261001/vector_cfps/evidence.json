@@ -1,0 +1,39 @@
+{
+  "vector": {
+    "different_receptors_identical_variants": true,
+    "different_capsids_identical_numeric_variants": true,
+    "repeat_equal": true,
+    "aavr_lead": {
+      "variant_id": "AAV9-V3",
+      "region": "VR-IV",
+      "n_mutations": 4,
+      "receptor_affinity_gain": 0.43,
+      "nab_escape_score": 0.961,
+      "capsid_integrity": 0.776,
+      "predicted_transduction": 0.706
+    },
+    "heparan_lead": {
+      "variant_id": "AAV9-V3",
+      "region": "VR-IV",
+      "n_mutations": 4,
+      "receptor_affinity_gain": 0.43,
+      "nab_escape_score": 0.961,
+      "capsid_integrity": 0.776,
+      "predicted_transduction": 0.706
+    }
+  },
+  "kinetics": {
+    "zero_hour": {
+      "trajectory": [
+        {
+          "t_h": 0.0,
+          "rate_g_l_h": 1.0,
+          "cumulative_g_l": 0.25
+        }
+      ],
+      "final_g_l": 0.25,
+      "plateau_time_h": 6.0
+    },
+    "repeat_equal": true
+  }
+}

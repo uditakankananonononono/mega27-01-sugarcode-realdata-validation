@@ -1,0 +1,1759 @@
+[
+  {
+    "slug": "neuro_hub",
+    "family": "core-intelligence",
+    "spec_exists": false,
+    "importing_test_files": [
+      "tests/test_platform_modules.py",
+      "tests/test_neuro_hub_realdata.py",
+      "tests/test_neuro_hub_dashboard_spec.py",
+      "tests/test_neuro_hub_dashboard_realdata.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 22,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "bio_copilot",
+    "family": "core-intelligence",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_bio_copilot_lof.py",
+      "tests/test_final_batch.py",
+      "tests/test_bio_copilot_spec.py",
+      "tests/test_live_connectors.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 50,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "synbio_wizard",
+    "family": "core-intelligence",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_synbio_wizard_realdata.py",
+      "tests/test_final_batch.py",
+      "tests/test_synbio_wizard_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 63,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "neuro_pipeline",
+    "family": "core-intelligence",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_neuro_pipeline_sequences.py",
+      "tests/test_final_batch.py",
+      "tests/test_neuro_pipeline_spec.py",
+      "tests/test_neuro_pipeline_realdata.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 50,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "biogpt_lit",
+    "family": "core-intelligence",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_final_batch.py",
+      "tests/test_live_connectors.py",
+      "tests/test_biogpt_lit_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 52,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "chemgpt_engine",
+    "family": "fabrication-evolution",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_chemgpt_engine_spec.py",
+      "tests/test_final_batch.py",
+      "tests/test_live_deepening.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 47,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "genomegpt",
+    "family": "core-intelligence",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_genomegpt_spec.py",
+      "tests/test_genomegpt_realdata.py",
+      "tests/test_genomegpt_geneanalysis.py",
+      "tests/test_genomegpt_upgrade.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 41,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "gene_analysis",
+    "family": "genome-editing",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_gene_analysis_spec.py",
+      "tests/test_genomegpt_geneanalysis.py",
+      "tests/test_realdata_sweeps.py",
+      "tests/test_gene_analysis_upgrade.py",
+      "tests/test_gene_analysis_hgvs.py",
+      "tests/test_pubmed_trend.py",
+      "tests/test_live_connectors.py",
+      "tests/test_e2e_connectors.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 55,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "gene_explorer",
+    "family": "genome-editing",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_gene_explorer_spec.py",
+      "tests/test_gene_explorer.py",
+      "tests/test_gene_explorer_realdata.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 19,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "crispr_opt",
+    "family": "genome-editing",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_rule_set_2.py",
+      "tests/test_doench_ontarget.py",
+      "tests/test_phageforge_background.py",
+      "tests/test_crispr_opt_spec.py",
+      "tests/test_crispr_opt.py",
+      "tests/test_cfd_scoring.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 44,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "crispr_cargo",
+    "family": "genome-editing",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_cargo_muse.py",
+      "tests/test_crispr_cargo_spec.py",
+      "tests/test_crispr_cargo_realdata.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 24,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "crispr_muse",
+    "family": "genome-editing",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_crispr_muse_realdata.py",
+      "tests/test_cargo_muse.py",
+      "tests/test_crispr_muse_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 41,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "epi_edit",
+    "family": "genome-editing",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_epi_clinvar.py",
+      "tests/test_epi_edit_realdata.py",
+      "tests/test_epi_edit_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 28,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "prime_design",
+    "family": "genome-editing",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_prime_design.py",
+      "tests/test_prime_design_published.py",
+      "tests/test_prime_design_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 26,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "dark_genome",
+    "family": "genome-editing",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_promoter_dark.py",
+      "tests/test_dark_genome_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 24,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "rna_decoder",
+    "family": "genome-editing",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_rna_decoder_spec.py",
+      "tests/test_rna_decoder.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 12,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "deepsplice",
+    "family": "genome-editing",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_drop53.py",
+      "tests/test_multigene_splice.py",
+      "tests/test_deepsplice_str.py",
+      "tests/test_drop44.py",
+      "tests/test_deepsplice_spec.py",
+      "tests/test_drop28.py",
+      "tests/test_drop30.py",
+      "tests/test_drop29.py",
+      "tests/test_drop34.py",
+      "tests/test_drop36.py",
+      "tests/test_deepsplice_golden.py",
+      "tests/test_drop40.py",
+      "tests/test_drop56.py",
+      "tests/test_drop25.py",
+      "tests/test_drop38.py",
+      "tests/test_drop26.py",
+      "tests/test_drop33.py",
+      "tests/test_drop23.py",
+      "tests/test_drop27.py",
+      "tests/test_extended_splice.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 132,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "openclinvar",
+    "family": "genome-editing",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_drop18.py",
+      "tests/test_realdata_sweeps.py",
+      "tests/test_epi_clinvar.py",
+      "tests/test_drop36.py",
+      "tests/test_live_connectors.py",
+      "tests/test_drop22.py",
+      "tests/test_drop21.py",
+      "tests/test_drop33.py",
+      "tests/test_openclinvar_spec.py",
+      "tests/test_openclinvar_clinvar_names.py",
+      "tests/test_drop27.py",
+      "tests/test_live_deepening.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 82,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "str_scope",
+    "family": "genome-editing",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_realdata_sweeps.py",
+      "tests/test_deepsplice_str.py",
+      "tests/test_str_scope_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 32,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "codon_opt",
+    "family": "genome-editing",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_codon_opt_spec.py",
+      "tests/test_codon_published.py",
+      "tests/test_drop13.py",
+      "tests/test_drop54.py",
+      "tests/test_codon_opt.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 14,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "alpha_fold_ui",
+    "family": "protein-engineering",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_drop18.py",
+      "tests/test_drop20.py",
+      "tests/test_chou_fasman_cf1978.py",
+      "tests/test_structure_connector.py",
+      "tests/test_alpha_fold_ui_spec.py",
+      "tests/test_protein_eng.py",
+      "tests/test_e2e_connectors.py",
+      "tests/test_drop16.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 31,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "docking_studio",
+    "family": "protein-engineering",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_drop18.py",
+      "tests/test_docking_studio_upgrade.py",
+      "tests/test_dock_structure.py",
+      "tests/test_drop20.py",
+      "tests/test_drop14.py",
+      "tests/test_docking_studio_spec.py",
+      "tests/test_vina_real.py",
+      "tests/test_protein_eng.py",
+      "tests/test_e2e_connectors.py",
+      "tests/test_drop16.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 43,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "evofold_4d",
+    "family": "protein-engineering",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_realdata_sweeps.py",
+      "tests/test_evofold_4d_spec.py",
+      "tests/test_protein_eng.py",
+      "tests/test_live_deepening.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 26,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "mutdock",
+    "family": "protein-engineering",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_drop18.py",
+      "tests/test_mutdock_live.py",
+      "tests/test_dock_structure.py",
+      "tests/test_drop20.py",
+      "tests/test_protein_eng.py",
+      "tests/test_drop22.py",
+      "tests/test_mutdock_spec.py",
+      "tests/test_drop21.py",
+      "tests/test_drop16.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 39,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "protein_painter",
+    "family": "protein-engineering",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_protein_painter_realdata.py",
+      "tests/test_protein_eng.py",
+      "tests/test_protein_painter_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 21,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "bio_material",
+    "family": "synthetic-biology",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_synbio_batch3.py",
+      "tests/test_bio_material_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 25,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "synbio_studio",
+    "family": "synthetic-biology",
+    "spec_exists": false,
+    "importing_test_files": [
+      "tests/test_living_computer_realdata.py",
+      "tests/test_circuits.py",
+      "tests/test_living_computer_spec.py",
+      "tests/test_synbio_studio_realdata.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 69,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "metabodesigner",
+    "family": "synthetic-biology",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_synbio_batch3.py",
+      "tests/test_metabodesigner_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 24,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "promoter_lib",
+    "family": "synthetic-biology",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_promoter_dark.py",
+      "tests/test_promoter_lib_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 14,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "synthetic_life",
+    "family": "synthetic-biology",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_synbio_batch3.py",
+      "tests/test_synthetic_life_spec.py",
+      "tests/test_synthetic_life_realdata.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 48,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "biofactory_1_a",
+    "family": "synthetic-biology",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_synbio_batch3.py",
+      "tests/test_biofactory_1_a_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 25,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "robotic_flow",
+    "family": "synthetic-biology",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_synbio_batch3.py",
+      "tests/test_robotic_flow_realdata.py",
+      "tests/test_robotic_flow_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 27,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "syn_stab_ai",
+    "family": "synthetic-biology",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_syn_stab_palindrome.py",
+      "tests/test_synbio_batch3.py",
+      "tests/test_syn_stab_ai_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 25,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "cell_free_opt",
+    "family": "synthetic-biology",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_synbio_batch3.py",
+      "tests/test_cell_free_opt_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 19,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "stability_ai",
+    "family": "synthetic-biology",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_synbio_batch3.py",
+      "tests/test_stability_ai_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 24,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "living_computer",
+    "family": "synthetic-biology",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_living_computer_realdata.py",
+      "tests/test_circuits.py",
+      "tests/test_living_computer_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 64,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "bio_switch",
+    "family": "synthetic-biology",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_synbio_batch3.py",
+      "tests/test_bio_switch_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 21,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "phageforge",
+    "family": "cellular-systems",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_cellular_systems.py",
+      "tests/test_phageforge_background.py",
+      "tests/test_phageforge_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 22,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "cell_twin",
+    "family": "cellular-systems",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_organoid_screen_realdata.py",
+      "tests/test_cell_twin_combo.py",
+      "tests/test_cellular_systems.py",
+      "tests/test_organoid_ai_realdata.py",
+      "tests/test_cell_twin_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 29,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "fate_predictor",
+    "family": "cellular-systems",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_fate_predictor_realdata.py",
+      "tests/test_fate_predictor_spec.py",
+      "tests/test_cellular_systems.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 24,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "cellfatenet",
+    "family": "cellular-systems",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_cellfatenet_spec.py",
+      "tests/test_cellular_systems.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 17,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "organoid_ai",
+    "family": "cellular-systems",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_organoid_screen_realdata.py",
+      "tests/test_cellular_systems.py",
+      "tests/test_organoid_ai_spec.py",
+      "tests/test_organoid_ai_realdata.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 25,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "virtual_cell",
+    "family": "cellular-systems",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_virtual_cell_realdata.py",
+      "tests/test_virtual_cell.py",
+      "tests/test_virtual_cell_spec.py",
+      "tests/test_virtual_cell_expression.py",
+      "tests/test_synthetic_life_realdata.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 34,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "bioimage_ai",
+    "family": "cellular-systems",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_cellular_systems.py",
+      "tests/test_bioimage_ai_geometry.py",
+      "tests/test_bioimage_ai_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 22,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "cellpainter",
+    "family": "cellular-systems",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_cellpainter_4d_spec.py",
+      "tests/test_cellular_systems.py",
+      "tests/test_cellpainter_images.py",
+      "tests/test_cellpainter_spec.py",
+      "tests/test_cellpainter_4d_realdata.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 39,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "cellpainter_4d",
+    "family": "cellular-systems",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_cellpainter_4d_spec.py",
+      "tests/test_cellular_systems.py",
+      "tests/test_cellpainter_4d_realdata.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 24,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "syndroid",
+    "family": "cellular-systems",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_syndroid_realdata.py",
+      "tests/test_syndroid_spec.py",
+      "tests/test_cellular_systems.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 21,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "tissue_eng",
+    "family": "cellular-systems",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_cellular_systems.py",
+      "tests/test_tissue_eng_spec.py",
+      "tests/test_tissue_eng_realdata.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 23,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "infinite_diagnosis",
+    "family": "therapeutics",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_infinite_diagnosis_realdata.py",
+      "tests/test_therapeutics.py",
+      "tests/test_infinite_diagnosis_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 40,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "car_t_designer",
+    "family": "therapeutics",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_therapeutics.py",
+      "tests/test_car_t_designer_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 32,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "living_tx",
+    "family": "therapeutics",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_living_tx_spec.py",
+      "tests/test_therapeutics.py",
+      "tests/test_living_tx_realdata.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 40,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "neohunter",
+    "family": "therapeutics",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_drop18.py",
+      "tests/test_neohunter_iedb.py",
+      "tests/test_therapeutics.py",
+      "tests/test_neohunter_spec.py",
+      "tests/test_drop14.py",
+      "tests/test_drop16.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 32,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "gene_tx_opt",
+    "family": "therapeutics",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_gene_tx_opt_spec.py",
+      "tests/test_therapeutics.py",
+      "tests/test_gene_tx_opt_realdata.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 37,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "vector_opt",
+    "family": "therapeutics",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_therapeutics.py",
+      "tests/test_vector_opt_regions.py",
+      "tests/test_vector_opt_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 31,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "organoid_screen",
+    "family": "therapeutics",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_organoid_screen_spec.py",
+      "tests/test_organoid_screen_realdata.py",
+      "tests/test_therapeutics.py",
+      "tests/test_drop22.py",
+      "tests/test_drop26.py",
+      "tests/test_drop23.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 57,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "neuroplan_ai",
+    "family": "therapeutics",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_therapeutics.py",
+      "tests/test_neuroplan_ai_spec.py",
+      "tests/test_neuroplan_ai_segment_clearance.py",
+      "tests/test_drop13.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 32,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "neodti_engine",
+    "family": "therapeutics",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_neodti_engine_spec.py",
+      "tests/test_therapeutics.py",
+      "tests/test_neodti_engine_realdata.py",
+      "tests/test_chembl_live.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 38,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "liquid_biopsy",
+    "family": "therapeutics",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_therapeutics.py",
+      "tests/test_liquid_biopsy_spec.py",
+      "tests/test_liquid_biopsy_haplotype_candidates.py",
+      "tests/test_drop13.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 31,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "rarenet_ai",
+    "family": "therapeutics",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_drop19.py",
+      "tests/test_rarenet_live.py",
+      "tests/test_drop30.py",
+      "tests/test_therapeutics.py",
+      "tests/test_drop20.py",
+      "tests/test_drop36.py",
+      "tests/test_rarenet_ai_spec.py",
+      "tests/test_drop25.py",
+      "tests/test_infinite_diagnosis_spec.py",
+      "tests/test_drop33.py",
+      "tests/test_drop16.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 61,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "oncocircuit",
+    "family": "therapeutics",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_oncocircuit_spec.py",
+      "tests/test_therapeutics.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 27,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "pdx_insight",
+    "family": "therapeutics",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_pdx_insight_realdata.py",
+      "tests/test_therapeutics.py",
+      "tests/test_pdx_insight_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 34,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "microaiverse",
+    "family": "microbiome-phage",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_microaiverse_realdata.py",
+      "tests/test_microaiverse_spec.py",
+      "tests/test_microbiome_phage.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 32,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "microbiome_exp",
+    "family": "microbiome-phage",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_microbiome_pcoa.py",
+      "tests/test_microbiome_phage.py",
+      "tests/test_microbiome_exp_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 26,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "micro_tx",
+    "family": "microbiome-phage",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_microbiome_phage.py",
+      "tests/test_micro_tx_realdata.py",
+      "tests/test_micro_tx_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 33,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "microbiome_rx",
+    "family": "microbiome-phage",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_microbiome_phage.py",
+      "tests/test_microbiome_rx_spec.py",
+      "tests/test_microbiome_rx_realdata.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 31,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "riboswitch",
+    "family": "microbiome-phage",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_riboswitch_spec.py",
+      "tests/test_rna_nussinov.py",
+      "tests/test_microbiome_phage.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 47,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "phage_tx",
+    "family": "microbiome-phage",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_phage_tx_spec.py",
+      "tests/test_microbiome_phage.py",
+      "tests/test_phage_tx_realdata.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 30,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "phage_designer",
+    "family": "microbiome-phage",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_phage_adsorption_time.py",
+      "tests/test_microbiome_phage.py",
+      "tests/test_phage_designer_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 27,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "bioprint_pro",
+    "family": "fabrication-evolution",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_bioprint_pro_flow.py",
+      "tests/test_bioprint_pro_spec.py",
+      "tests/test_final_batch.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 38,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "bioplayground",
+    "family": "fabrication-evolution",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_bioplayground_wf.py",
+      "tests/test_bioplayground_spec.py",
+      "tests/test_final_batch.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 39,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "dna_to_code",
+    "family": "fabrication-evolution",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_platform_modules.py",
+      "tests/test_dna_to_code_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 13,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "biosimvr",
+    "family": "fabrication-evolution",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_biosimvr_sessions.py",
+      "tests/test_final_batch.py",
+      "tests/test_biosimvr_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 38,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "synlife_evo",
+    "family": "fabrication-evolution",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_synlife_evo_competition.py",
+      "tests/test_synlife_evo_spec.py",
+      "tests/test_final_batch.py",
+      "tests/test_synlife_evo_realdata.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 50,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "omega_stats",
+    "family": "platform",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_platform_modules.py",
+      "tests/test_omega_stats_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 13,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "enterprise_bio",
+    "family": "platform",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_enterprise_bio_governed_ops.py",
+      "tests/test_enterprise_bio_spec.py",
+      "tests/test_enterprise_bio_realdata.py",
+      "tests/test_final_batch.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 50,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "ecosystem",
+    "family": "platform",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_platform_modules.py",
+      "tests/test_ecosystem_spec.py",
+      "tests/test_ecosystem_realdata.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 20,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "nexus_support",
+    "family": "platform",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_nexus_support_realdata.py",
+      "tests/test_final_batch.py",
+      "tests/test_nexus_support_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 39,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "cfd_offtarget",
+    "family": "genome-editing",
+    "spec_exists": false,
+    "importing_test_files": [
+      "tests/test_cfd_offtarget_module.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 11,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "crisprater",
+    "family": "genome-editing",
+    "spec_exists": false,
+    "importing_test_files": [
+      "tests/test_crisprater.py",
+      "tests/test_crisprater_published.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 13,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "crisprscan_score",
+    "family": "genome-editing",
+    "spec_exists": false,
+    "importing_test_files": [
+      "tests/test_crisprscan_score.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 10,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "mit_offtarget",
+    "family": "genome-editing",
+    "spec_exists": false,
+    "importing_test_files": [
+      "tests/test_mit_offtarget.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 11,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "structural_biophysics",
+    "family": "protein-engineering",
+    "spec_exists": false,
+    "importing_test_files": [
+      "tests/test_realdata_sweeps.py",
+      "tests/test_structural_biophysics.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 23,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "syn_bio_studio",
+    "family": "synthetic-biology",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_syn_bio_studio_realdata.py",
+      "tests/test_syn_bio_studio_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 16,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "dti_bench",
+    "family": "therapeutics",
+    "spec_exists": false,
+    "importing_test_files": [
+      "tests/test_dti_bench.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 2,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "chem_similarity",
+    "family": "fabrication-evolution",
+    "spec_exists": false,
+    "importing_test_files": [
+      "tests/test_chem_similarity.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 8,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "chem_descriptors",
+    "family": "fabrication-evolution",
+    "spec_exists": false,
+    "importing_test_files": [
+      "tests/test_chem_descriptors.py",
+      "tests/test_chem_similarity.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 16,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "profile_hmm",
+    "family": "protein-engineering",
+    "spec_exists": false,
+    "importing_test_files": [
+      "tests/test_profile_hmm_local.py",
+      "tests/test_profile_hmm_training.py",
+      "tests/test_profile_hmm.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 26,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "rna_nussinov",
+    "family": "synthetic-biology",
+    "spec_exists": false,
+    "importing_test_files": [
+      "tests/test_rna_energy.py",
+      "tests/test_rna_nussinov.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 29,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "acmg_bayesian",
+    "family": "therapeutics",
+    "spec_exists": false,
+    "importing_test_files": [
+      "tests/test_realdata_sweeps.py",
+      "tests/test_acmg_bayesian.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 43,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "pgx_guidelines",
+    "family": "therapeutics",
+    "spec_exists": false,
+    "importing_test_files": [],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 6,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "evidence_mining",
+    "family": "core-intelligence",
+    "spec_exists": false,
+    "importing_test_files": [
+      "tests/evidence_mining/test_evidence_mining.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 6,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "neuro_hub_dashboard",
+    "family": "core-intelligence",
+    "spec_exists": true,
+    "importing_test_files": [
+      "tests/test_neuro_hub_dashboard_spec.py",
+      "tests/test_neuro_hub_dashboard_realdata.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 11,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "qsar_bench",
+    "family": "fabrication-evolution",
+    "spec_exists": false,
+    "importing_test_files": [
+      "tests/test_realdata_sweeps.py",
+      "tests/test_qsar_bench.py",
+      "tests/test_qsar_bench_directional.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 19,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "molecule_eval",
+    "family": "fabrication-evolution",
+    "spec_exists": false,
+    "importing_test_files": [
+      "tests/test_molecule_eval.py",
+      "tests/test_qsar_bench_directional.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 2,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  },
+  {
+    "slug": "report_studio",
+    "family": "platform",
+    "spec_exists": false,
+    "importing_test_files": [
+      "tests/test_report_studio_realdata.py",
+      "tests/test_report_studio_spec.py"
+    ],
+    "import_pass": true,
+    "suite_attribution": {
+      "passed": 13,
+      "skipped": 0,
+      "failed": 0
+    },
+    "coverage_caveat": "File-import attribution is non-exclusive. Tests in a file may exercise a different imported module. It is not individual spec-claim verification.",
+    "module_or_core_docstring": true
+  }
+]

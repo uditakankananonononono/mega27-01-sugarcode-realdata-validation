@@ -1,0 +1,33 @@
+F                                                                        [100%]
+=================================== FAILURES ===================================
+________ test_zero_basal_is_handled_without_unexpected_arithmetic_crash ________
+
+    def test_zero_basal_is_handled_without_unexpected_arithmetic_crash():
+        # The public validator explicitly allows zero. A documented ValueError
+        # would be acceptable if that contract changes; ZeroDivisionError is not.
+        try:
+>           result = response_curve(1, basal=0, concentrations=[0, 1, 10])
+
+/tmp/sugarcode-ribo-work/verification/selfaudit_20261001/riboswitch_boundary/test_boundary.py:8: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kd_uM = 1, mode = 'on', hill = 1.5, basal = 0, maximum = 1
+concentrations = [0, 1, 10]
+
+    def response_curve(kd_uM: float, *, mode: str="on", hill: float=1.5, basal: float=.05, maximum: float=1, concentrations=None) -> dict:
+        """Simulate equilibrium Hill response over supplied ligand concentrations."""
+        import numpy as np
+        _trapz = getattr(np, "trapezoid", None) or np.trapz  # numpy 1.x/2.x compat: trapz removed in numpy 2.0
+        if kd_uM<=0 or hill<=0 or not 0<=basal<maximum: raise ValueError("kd_uM and hill must be positive, with 0 <= basal < maximum")
+        if mode not in {"on","off"}: raise ValueError("mode must be on or off")
+        c=np.asarray(concentrations if concentrations is not None else np.logspace(-3,3,61)*kd_uM,float)
+        if c.ndim!=1 or len(c)<2 or np.any(c<0): raise ValueError("concentrations must be a non-negative 1-D sequence with at least 2 values")
+        occupancy=c**hill/(kd_uM**hill+c**hill); signal=basal+(maximum-basal)*(occupancy if mode=="on" else 1-occupancy)
+        rows=[{"concentration_uM":float(x),"occupancy":float(o),"signal":float(s)} for x,o,s in zip(c,occupancy,signal)]
+>       return {"mode":mode,"kd_uM":kd_uM,"hill_coefficient":hill,"basal":basal,"maximum":maximum,"curve":rows,"ec50_uM":kd_uM,"dynamic_range":maximum/basal,"model_status":"mechanistic hermetic equilibrium response; no sensor performance claim"}
+E       ZeroDivisionError: division by zero
+
+/tmp/sugarcode-audit/src/sugarcode/modules/riboswitch/core.py:111: ZeroDivisionError
+=========================== short test summary info ============================
+FAILED ../../tmp/sugarcode-ribo-work/verification/selfaudit_20261001/riboswitch_boundary/test_boundary.py::test_zero_basal_is_handled_without_unexpected_arithmetic_crash
+1 failed in 0.08s

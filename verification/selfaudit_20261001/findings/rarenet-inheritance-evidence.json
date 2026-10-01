@@ -1,0 +1,349 @@
+{
+  "product_commit": "1ccbd0305cd9b639b06324fa136654d686483b7a",
+  "input": {
+    "symptoms": [
+      "seizures",
+      "developmental_delay"
+    ]
+  },
+  "candidate_scores_identical_for_all_valid_inheritance_modes": true,
+  "rankings": {
+    "dominant": {
+      "candidates": [
+        {
+          "disease": "phenylketonuria",
+          "genes": [
+            "PAH"
+          ],
+          "posterior": 0.000639642,
+          "log_odds": -7.353962,
+          "evidence_ledger": [
+            {
+              "evidence": "phenotype_present",
+              "item": "seizures",
+              "log_likelihood": 2.0794415416798357
+            }
+          ],
+          "matched_phenotypes": [
+            "seizures"
+          ],
+          "contradicted_phenotypes": []
+        },
+        {
+          "disease": "cystic_fibrosis",
+          "genes": [
+            "CFTR"
+          ],
+          "posterior": 0.0001,
+          "log_odds": -9.21024,
+          "evidence_ledger": [],
+          "matched_phenotypes": [],
+          "contradicted_phenotypes": []
+        },
+        {
+          "disease": "duchenne_md",
+          "genes": [
+            "DMD"
+          ],
+          "posterior": 0.0001,
+          "log_odds": -9.21024,
+          "evidence_ledger": [],
+          "matched_phenotypes": [],
+          "contradicted_phenotypes": []
+        },
+        {
+          "disease": "marfan",
+          "genes": [
+            "FBN1"
+          ],
+          "posterior": 0.0001,
+          "log_odds": -9.21024,
+          "evidence_ledger": [],
+          "matched_phenotypes": [],
+          "contradicted_phenotypes": []
+        },
+        {
+          "disease": "gaucher",
+          "genes": [
+            "GBA1"
+          ],
+          "posterior": 6e-05,
+          "log_odds": -9.721106,
+          "evidence_ledger": [],
+          "matched_phenotypes": [],
+          "contradicted_phenotypes": []
+        },
+        {
+          "disease": "huntingtons",
+          "genes": [
+            "HTT"
+          ],
+          "posterior": 5e-05,
+          "log_odds": -9.903438,
+          "evidence_ledger": [],
+          "matched_phenotypes": [],
+          "contradicted_phenotypes": []
+        }
+      ],
+      "top": {
+        "disease": "phenylketonuria",
+        "genes": [
+          "PAH"
+        ],
+        "posterior": 0.000639642,
+        "log_odds": -7.353962,
+        "evidence_ledger": [
+          {
+            "evidence": "phenotype_present",
+            "item": "seizures",
+            "log_likelihood": 2.0794415416798357
+          }
+        ],
+        "matched_phenotypes": [
+          "seizures"
+        ],
+        "contradicted_phenotypes": []
+      },
+      "phenotype_normalization": {
+        "normalized": [
+          "developmental_delay",
+          "seizures"
+        ],
+        "recognized": [
+          "seizures"
+        ],
+        "unrecognized": [
+          "developmental_delay"
+        ],
+        "coverage": 0.5
+      },
+      "inheritance_assumption": "dominant",
+      "model_status": "mechanistic hermetic Bayesian evidence model; no trained or clinical claims"
+    },
+    "recessive": {
+      "candidates": [
+        {
+          "disease": "phenylketonuria",
+          "genes": [
+            "PAH"
+          ],
+          "posterior": 0.000639642,
+          "log_odds": -7.353962,
+          "evidence_ledger": [
+            {
+              "evidence": "phenotype_present",
+              "item": "seizures",
+              "log_likelihood": 2.0794415416798357
+            }
+          ],
+          "matched_phenotypes": [
+            "seizures"
+          ],
+          "contradicted_phenotypes": []
+        },
+        {
+          "disease": "cystic_fibrosis",
+          "genes": [
+            "CFTR"
+          ],
+          "posterior": 0.0001,
+          "log_odds": -9.21024,
+          "evidence_ledger": [],
+          "matched_phenotypes": [],
+          "contradicted_phenotypes": []
+        },
+        {
+          "disease": "duchenne_md",
+          "genes": [
+            "DMD"
+          ],
+          "posterior": 0.0001,
+          "log_odds": -9.21024,
+          "evidence_ledger": [],
+          "matched_phenotypes": [],
+          "contradicted_phenotypes": []
+        },
+        {
+          "disease": "marfan",
+          "genes": [
+            "FBN1"
+          ],
+          "posterior": 0.0001,
+          "log_odds": -9.21024,
+          "evidence_ledger": [],
+          "matched_phenotypes": [],
+          "contradicted_phenotypes": []
+        },
+        {
+          "disease": "gaucher",
+          "genes": [
+            "GBA1"
+          ],
+          "posterior": 6e-05,
+          "log_odds": -9.721106,
+          "evidence_ledger": [],
+          "matched_phenotypes": [],
+          "contradicted_phenotypes": []
+        },
+        {
+          "disease": "huntingtons",
+          "genes": [
+            "HTT"
+          ],
+          "posterior": 5e-05,
+          "log_odds": -9.903438,
+          "evidence_ledger": [],
+          "matched_phenotypes": [],
+          "contradicted_phenotypes": []
+        }
+      ],
+      "top": {
+        "disease": "phenylketonuria",
+        "genes": [
+          "PAH"
+        ],
+        "posterior": 0.000639642,
+        "log_odds": -7.353962,
+        "evidence_ledger": [
+          {
+            "evidence": "phenotype_present",
+            "item": "seizures",
+            "log_likelihood": 2.0794415416798357
+          }
+        ],
+        "matched_phenotypes": [
+          "seizures"
+        ],
+        "contradicted_phenotypes": []
+      },
+      "phenotype_normalization": {
+        "normalized": [
+          "developmental_delay",
+          "seizures"
+        ],
+        "recognized": [
+          "seizures"
+        ],
+        "unrecognized": [
+          "developmental_delay"
+        ],
+        "coverage": 0.5
+      },
+      "inheritance_assumption": "recessive",
+      "model_status": "mechanistic hermetic Bayesian evidence model; no trained or clinical claims"
+    },
+    "x_linked": {
+      "candidates": [
+        {
+          "disease": "phenylketonuria",
+          "genes": [
+            "PAH"
+          ],
+          "posterior": 0.000639642,
+          "log_odds": -7.353962,
+          "evidence_ledger": [
+            {
+              "evidence": "phenotype_present",
+              "item": "seizures",
+              "log_likelihood": 2.0794415416798357
+            }
+          ],
+          "matched_phenotypes": [
+            "seizures"
+          ],
+          "contradicted_phenotypes": []
+        },
+        {
+          "disease": "cystic_fibrosis",
+          "genes": [
+            "CFTR"
+          ],
+          "posterior": 0.0001,
+          "log_odds": -9.21024,
+          "evidence_ledger": [],
+          "matched_phenotypes": [],
+          "contradicted_phenotypes": []
+        },
+        {
+          "disease": "duchenne_md",
+          "genes": [
+            "DMD"
+          ],
+          "posterior": 0.0001,
+          "log_odds": -9.21024,
+          "evidence_ledger": [],
+          "matched_phenotypes": [],
+          "contradicted_phenotypes": []
+        },
+        {
+          "disease": "marfan",
+          "genes": [
+            "FBN1"
+          ],
+          "posterior": 0.0001,
+          "log_odds": -9.21024,
+          "evidence_ledger": [],
+          "matched_phenotypes": [],
+          "contradicted_phenotypes": []
+        },
+        {
+          "disease": "gaucher",
+          "genes": [
+            "GBA1"
+          ],
+          "posterior": 6e-05,
+          "log_odds": -9.721106,
+          "evidence_ledger": [],
+          "matched_phenotypes": [],
+          "contradicted_phenotypes": []
+        },
+        {
+          "disease": "huntingtons",
+          "genes": [
+            "HTT"
+          ],
+          "posterior": 5e-05,
+          "log_odds": -9.903438,
+          "evidence_ledger": [],
+          "matched_phenotypes": [],
+          "contradicted_phenotypes": []
+        }
+      ],
+      "top": {
+        "disease": "phenylketonuria",
+        "genes": [
+          "PAH"
+        ],
+        "posterior": 0.000639642,
+        "log_odds": -7.353962,
+        "evidence_ledger": [
+          {
+            "evidence": "phenotype_present",
+            "item": "seizures",
+            "log_likelihood": 2.0794415416798357
+          }
+        ],
+        "matched_phenotypes": [
+          "seizures"
+        ],
+        "contradicted_phenotypes": []
+      },
+      "phenotype_normalization": {
+        "normalized": [
+          "developmental_delay",
+          "seizures"
+        ],
+        "recognized": [
+          "seizures"
+        ],
+        "unrecognized": [
+          "developmental_delay"
+        ],
+        "coverage": 0.5
+      },
+      "inheritance_assumption": "x_linked",
+      "model_status": "mechanistic hermetic Bayesian evidence model; no trained or clinical claims"
+    }
+  },
+  "finding": "Valid inheritance parameter is validated and echoed as inheritance_assumption but does not affect scoring or ranking; implementation has no use of it in evidence contribution calculations."
+}

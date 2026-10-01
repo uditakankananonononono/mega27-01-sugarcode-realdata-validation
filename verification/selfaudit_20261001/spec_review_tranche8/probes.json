@@ -1,0 +1,29 @@
+{
+  "stability": {
+    "terminal": {
+      "generation": 100,
+      "functional_fraction": 0.4859
+    },
+    "independent_formula": 0.4859,
+    "match": true,
+    "repeat_equal": true
+  },
+  "fate": {
+    "selected": {
+      "factors": [
+        "ASCL1",
+        "BRN2",
+        "MYT1L"
+      ],
+      "score": 1.9143078061834695,
+      "target_activation": 1.83,
+      "source_silencing": 0.5,
+      "burden": 0.41569219381653055,
+      "factor_count": 3
+    },
+    "independent_best_score": 1.9143078061834695,
+    "score_match": true,
+    "repeat_equal": true
+  },
+  "scope": "Arithmetic and exhaustive-search consistency only, no measured biological outcomes."
+}

@@ -1,0 +1,192 @@
+[
+  {
+    "id": "alpha_fold_ui:4",
+    "module": "alpha_fold_ui",
+    "source_path": "spec/alpha_fold_ui.md",
+    "spec_sha256": "9b8449ce3676deb04599370ae9f4723c974943bf835ac168a4eed592b0147234",
+    "text": "AlphaFold UI can be reimagined as a high-dimensional structural inference and analysis environment that not only visualizes protein structures but exposes the full computational pipeline behind state-of-the-art folding models like AlphaFold.",
+    "review_status": "ASPIRATIONAL_NOT_SHIPPED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No full AlphaFold learned pipeline; folding_workspace explicitly disclaims neural weights."
+  },
+  {
+    "id": "alpha_fold_ui:5",
+    "module": "alpha_fold_ui",
+    "source_path": "spec/alpha_fold_ui.md",
+    "spec_sha256": "9b8449ce3676deb04599370ae9f4723c974943bf835ac168a4eed592b0147234",
+    "text": "At its core, the system represents protein folding as an optimization over 3D conformational space, where the objective is to minimize a learned energy functional E(x)E(\\mathbf{x})E(x) over atomic coordinates x\u2208R3N\\mathbf{x} \\in \\mathbb{R}^{3N}x\u2208R3N.",
+    "review_status": "PARTIAL_EXPLICIT_PHYSICS_NOT_LEARNED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "physical_energy/refine_coordinates minimize explicit LJ/electrostatic/bond terms, not learned energy."
+  },
+  {
+    "id": "alpha_fold_ui:6",
+    "module": "alpha_fold_ui",
+    "source_path": "spec/alpha_fold_ui.md",
+    "spec_sha256": "9b8449ce3676deb04599370ae9f4723c974943bf835ac168a4eed592b0147234",
+    "text": "This energy is implicitly modeled by deep neural networks trained on Protein Data Bank (PDB) structures, combining geometric constraints, residue-residue distances, and orientation distributions.",
+    "review_status": "NOT_IMPLEMENTED_BY_DESIGN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No deep neural folding weights or PDB-trained model in this shipped route; explicitly disclaimed."
+  },
+  {
+    "id": "alpha_fold_ui:7",
+    "module": "alpha_fold_ui",
+    "source_path": "spec/alpha_fold_ui.md",
+    "spec_sha256": "9b8449ce3676deb04599370ae9f4723c974943bf835ac168a4eed592b0147234",
+    "text": "The UI exposes these internal representations\u2014distance matrices, attention maps, and pairwise potentials\u2014allowing users to interrogate how sequence information is transformed into spatial structure.",
+    "review_status": "PARTIAL_DATA_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Graph distances/MI pair data exist, not neural attention/internal learned potentials; no visual UI inspected."
+  },
+  {
+    "id": "alpha_fold_ui:8",
+    "module": "alpha_fold_ui",
+    "source_path": "spec/alpha_fold_ui.md",
+    "spec_sha256": "9b8449ce3676deb04599370ae9f4723c974943bf835ac168a4eed592b0147234",
+    "text": "The platform integrates Multiple Sequence Alignment (MSA) processing as a probabilistic inference step, where evolutionary couplings are extracted using covariance matrices and attention-based transformers.",
+    "review_status": "PARTIAL_CLASSICAL_STATISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Weighted MSA mutual information exists; attention transformer inference does not."
+  },
+  {
+    "id": "alpha_fold_ui:9",
+    "module": "alpha_fold_ui",
+    "source_path": "spec/alpha_fold_ui.md",
+    "spec_sha256": "9b8449ce3676deb04599370ae9f4723c974943bf835ac168a4eed592b0147234",
+    "text": "Formally, given an MSA tensor M\u2208RL\u00d7DM \\in \\mathbb{R}^{L \\times D}M\u2208RL\u00d7D, the model computes co-evolutionary signals via self-attention mechanisms that approximate mutual information between residue positions.",
+    "review_status": "NOT_IMPLEMENTED_BY_DESIGN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "MI directly calculated from joint frequencies; no self-attention mechanism."
+  },
+  {
+    "id": "alpha_fold_ui:10",
+    "module": "alpha_fold_ui",
+    "source_path": "spec/alpha_fold_ui.md",
+    "spec_sha256": "9b8449ce3676deb04599370ae9f4723c974943bf835ac168a4eed592b0147234",
+    "text": "These signals are embedded into pair representations PijP_{ij}Pij\u200b, which guide the geometric constraints of folding.",
+    "review_status": "DISCONNECTED_FROM_COORDINATE_GENERATION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Pair MI matrix returned but not used to constrain fold generation. Changed covarying MSA changes matrix but not coordinates."
+  },
+  {
+    "id": "alpha_fold_ui:11",
+    "module": "alpha_fold_ui",
+    "source_path": "spec/alpha_fold_ui.md",
+    "spec_sha256": "9b8449ce3676deb04599370ae9f4723c974943bf835ac168a4eed592b0147234",
+    "text": "The UI allows users to manipulate MSA depth, weighting schemes, and sequence diversity, and observe how these parameters affect structural confidence metrics such as pLDDT (per-residue confidence) and PAE (Predicted Aligned Error).",
+    "review_status": "PARTIAL_INPUT_EFFECT_GAP",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "MSA depth/weights affect MI/effective depth; workspace MSA changes do not affect pLDDT/PAE analogs, reproduced."
+  },
+  {
+    "id": "alpha_fold_ui:12",
+    "module": "alpha_fold_ui",
+    "source_path": "spec/alpha_fold_ui.md",
+    "spec_sha256": "9b8449ce3676deb04599370ae9f4723c974943bf835ac168a4eed592b0147234",
+    "text": "AlphaFold UI further incorporates geometric deep learning principles by representing protein structures as graphs G=(V,E)G = (V, E)G=(V,E), where residues are nodes and edges encode spatial proximity or chemical bonds.",
+    "review_status": "SCOPED_CLASSICAL_GRAPH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "residue_graph represents coordinates/proximity; not geometric deep learning."
+  },
+  {
+    "id": "alpha_fold_ui:13",
+    "module": "alpha_fold_ui",
+    "source_path": "spec/alpha_fold_ui.md",
+    "spec_sha256": "9b8449ce3676deb04599370ae9f4723c974943bf835ac168a4eed592b0147234",
+    "text": "Using SE(3)-equivariant neural networks, the system ensures that predictions are invariant to rotation and translation in 3D space.",
+    "review_status": "SCOPED_GEOMETRY_NOT_NEURAL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Rigid-transform distance/edge invariance reproduced; no SE(3) neural network."
+  },
+  {
+    "id": "alpha_fold_ui:14",
+    "module": "alpha_fold_ui",
+    "source_path": "spec/alpha_fold_ui.md",
+    "spec_sha256": "9b8449ce3676deb04599370ae9f4723c974943bf835ac168a4eed592b0147234",
+    "text": "The UI visualizes these equivariant transformations, showing how local coordinate frames evolve during iterative refinement steps.",
+    "review_status": "UNVERIFIED_VISUAL_CLAIM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Transform helpers exist; no actual rendered UI inspected, so visualization not verified."
+  },
+  {
+    "id": "alpha_fold_ui:15",
+    "module": "alpha_fold_ui",
+    "source_path": "spec/alpha_fold_ui.md",
+    "spec_sha256": "9b8449ce3676deb04599370ae9f4723c974943bf835ac168a4eed592b0147234",
+    "text": "Users can inspect intermediate folding trajectories, effectively observing how the model converges from an initial random coil to a stable conformation through gradient-based updates in coordinate space.",
+    "review_status": "PARTIAL_TRAJECTORY_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Explicit refinement energy trajectory exists; no random-coil-to-correct-fold guarantee or UI verified."
+  },
+  {
+    "id": "alpha_fold_ui:16",
+    "module": "alpha_fold_ui",
+    "source_path": "spec/alpha_fold_ui.md",
+    "spec_sha256": "9b8449ce3676deb04599370ae9f4723c974943bf835ac168a4eed592b0147234",
+    "text": "Beyond static structure prediction, the platform extends into thermodynamic and kinetic modeling of protein stability.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Explicit energy and composition mutation heuristics exist, not thermodynamic/kinetic validation."
+  },
+  {
+    "id": "alpha_fold_ui:17",
+    "module": "alpha_fold_ui",
+    "source_path": "spec/alpha_fold_ui.md",
+    "spec_sha256": "9b8449ce3676deb04599370ae9f4723c974943bf835ac168a4eed592b0147234",
+    "text": "By integrating molecular mechanics force fields and approximations of free energy landscapes, AlphaFold UI can estimate folding stability \u0394G\\Delta G\u0394G, identify metastable states, and simulate the impact of point mutations on structural integrity.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Heuristic relative ddG and geometry energy do not establish free-energy landscapes/metastable states or measured folding stability."
+  },
+  {
+    "id": "alpha_fold_ui:18",
+    "module": "alpha_fold_ui",
+    "source_path": "spec/alpha_fold_ui.md",
+    "spec_sha256": "9b8449ce3676deb04599370ae9f4723c974943bf835ac168a4eed592b0147234",
+    "text": "This is achieved by coupling neural network outputs with physics-based energy minimization algorithms (e.g., gradient descent over Lennard-Jones and electrostatic potentials).",
+    "review_status": "PARTIAL_PHYSICS_WITHOUT_NEURAL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "LJ/electrostatic gradient refinement exists; neural output coupling does not."
+  },
+  {
+    "id": "alpha_fold_ui:19",
+    "module": "alpha_fold_ui",
+    "source_path": "spec/alpha_fold_ui.md",
+    "spec_sha256": "9b8449ce3676deb04599370ae9f4723c974943bf835ac168a4eed592b0147234",
+    "text": "The system can thus predict not only the most likely structure, but also alternative conformations and their relative probabilities.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No calibrated alternate-conformation probability output in inspected sequence/workspace routes."
+  },
+  {
+    "id": "alpha_fold_ui:20",
+    "module": "alpha_fold_ui",
+    "source_path": "spec/alpha_fold_ui.md",
+    "spec_sha256": "9b8449ce3676deb04599370ae9f4723c974943bf835ac168a4eed592b0147234",
+    "text": "On the computational side, AlphaFold UI functions as a full-stack environment, generating reproducible outputs including PDB files, attention heatmaps, and Jupyter-based analysis pipelines.",
+    "review_status": "PARTIAL_ARTIFACT_SCOPE",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "PDB text and matrices exist; attention heatmaps/Jupyter generation/rendered full-stack UI not verified here."
+  },
+  {
+    "id": "alpha_fold_ui:21",
+    "module": "alpha_fold_ui",
+    "source_path": "spec/alpha_fold_ui.md",
+    "spec_sha256": "9b8449ce3676deb04599370ae9f4723c974943bf835ac168a4eed592b0147234",
+    "text": "It supports integration with downstream modules such as docking engines and mutation impact predictors, enabling end-to-end workflows from sequence design to functional analysis.",
+    "review_status": "UNVERIFIED_INTEGRATION_CLAIM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Module outputs may be reusable downstream; no end-to-end sequence-design-to-function integration independently reproduced."
+  },
+  {
+    "id": "alpha_fold_ui:22",
+    "module": "alpha_fold_ui",
+    "source_path": "spec/alpha_fold_ui.md",
+    "spec_sha256": "9b8449ce3676deb04599370ae9f4723c974943bf835ac168a4eed592b0147234",
+    "text": "By combining deep learning, statistical inference, and physical modeling, AlphaFold UI becomes more than a visualization tool\u2014it becomes an interactive window into the mathematics and computation of protein folding, allowing researchers to explore, manipulate, and extend structural predictions with unprecedented depth.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No shipped learned folding model or demonstrated claim of unprecedented depth; cannot turn analogy helpers into this aspiration."
+  }
+]

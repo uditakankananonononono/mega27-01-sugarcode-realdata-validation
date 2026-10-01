@@ -1,0 +1,19 @@
+F                                                                        [100%]
+=================================== FAILURES ===================================
+_______ test_feature_mapping_insertion_order_does_not_change_similarity ________
+
+    def test_feature_mapping_insertion_order_does_not_change_similarity():
+        query = profile_perturbation('dna_damage')
+        reference = profile_perturbation('dna_damage')
+        reordered = {**reference, 'signature_vector': dict(reversed(list(reference['signature_vector'].items())))}
+        assert reference['signature_vector'] == reordered['signature_vector']
+        original = nearest_mechanism(query, [reference])[0]['similarity']
+        changed = nearest_mechanism(query, [reordered])[0]['similarity']
+>       assert abs(original - changed) < 1e-12
+E       assert 1.0 < 1e-12
+E        +  where 1.0 = abs((1.0 - 0.0))
+
+/tmp/sugarcode-cellorder-work/verification/selfaudit_20261001/cellpainter_order/test_feature_order.py:11: AssertionError
+=========================== short test summary info ============================
+FAILED ../../tmp/sugarcode-cellorder-work/verification/selfaudit_20261001/cellpainter_order/test_feature_order.py::test_feature_mapping_insertion_order_does_not_change_similarity
+1 failed in 0.21s

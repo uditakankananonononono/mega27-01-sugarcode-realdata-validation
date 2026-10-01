@@ -1,0 +1,18 @@
+{
+  "bioplayground": {
+    "repeat_equal": true,
+    "generation_count": 1,
+    "final_freq_sum": 1.0,
+    "heterozygosity": 0.5,
+    "expected_heterozygosity": 0.5,
+    "entropy": 0.6931471805599453,
+    "expected_entropy": 0.6931471805599453
+  },
+  "biosimvr": {
+    "distance": 0.5385164807134504,
+    "expected_distance": 0.5385164807134505,
+    "scene_object_count": 5,
+    "scripted_session_has_scene_and_log": true,
+    "no_rendered_visualization_verified": true
+  }
+}

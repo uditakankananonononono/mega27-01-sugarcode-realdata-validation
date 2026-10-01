@@ -1,0 +1,92 @@
+[
+  {
+    "id": "infinite_diagnosis:1",
+    "module": "infinite_diagnosis",
+    "source_path": "spec/infinite_diagnosis.md",
+    "spec_sha256": "26a5fa41a0985183824a09c22b938db5d504f15f4203fc31abc663676bf37abb",
+    "text": "# Infinite Diagnosis\n\nInfinite Diagnosis: A cross-domain reasoning engine that mines global scientific literature for non-standard breakthroughs across all biological domains.",
+    "review_status": "PARTIAL_CATALOG_AND_PUBMED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Keyword catalog clusters plus PubMed query adapter; not cross-domain breakthrough discovery. Offline fixture probe does not establish current global coverage."
+  },
+  {
+    "id": "infinite_diagnosis:2",
+    "module": "infinite_diagnosis",
+    "source_path": "spec/infinite_diagnosis.md",
+    "spec_sha256": "26a5fa41a0985183824a09c22b938db5d504f15f4203fc31abc663676bf37abb",
+    "text": "It provides novel perspectives on rare diseases and oncology by identifying hidden diagnostic clusters.",
+    "review_status": "SCOPED_CURATED_MATCH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Fixed subnetwork hooks and rare-disease phrase/gene bridge, no measured diagnostic novelty or hidden cluster accuracy."
+  },
+  {
+    "id": "infinite_diagnosis:3",
+    "module": "infinite_diagnosis",
+    "source_path": "spec/infinite_diagnosis.md",
+    "spec_sha256": "26a5fa41a0985183824a09c22b938db5d504f15f4203fc31abc663676bf37abb",
+    "text": "Infinite Diagnosis generates experimental roadmaps and biomarkers, enabling clinicians to find solutions for complex cases using AI.",
+    "review_status": "PARTIAL_ROADMAP_NOT_CLINICAL_SOLUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Roadmap suggestions and PubMed-record titles called biomarker candidates; joint evidence ranking explicit non-diagnosis, not newly validated biomarkers or clinical solutions."
+  },
+  {
+    "id": "neuro_hub_dashboard:1",
+    "module": "neuro_hub_dashboard",
+    "source_path": "spec/neuro_hub_dashboard.md",
+    "spec_sha256": "15bfc5884cb757764f070eb3089289969b6f886849b2d694a41c9a82c03f7e3c",
+    "text": "# Neuro-Hub (Dashboard)\n\nNeuro-Hub (Dashboard): The central command center for SugarCode AI.",
+    "review_status": "SCOPED_AGGREGATOR",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Aggregator consumes supplied module records, not a live global compute monitor."
+  },
+  {
+    "id": "neuro_hub_dashboard:2",
+    "module": "neuro_hub_dashboard",
+    "source_path": "spec/neuro_hub_dashboard.md",
+    "spec_sha256": "15bfc5884cb757764f070eb3089289969b6f886849b2d694a41c9a82c03f7e3c",
+    "text": "It monitors global compute flux and provides a unified search interface across the 84-node neural stack.",
+    "review_status": "PARTIAL_SEARCH_NOT_NEURAL_STACK",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Whole-token module-result search and imported platform search wrappers; inventory previously independently counted 95 registry packages, not 84 neural nodes."
+  },
+  {
+    "id": "neuro_hub_dashboard:3",
+    "module": "neuro_hub_dashboard",
+    "source_path": "spec/neuro_hub_dashboard.md",
+    "spec_sha256": "15bfc5884cb757764f070eb3089289969b6f886849b2d694a41c9a82c03f7e3c",
+    "text": "Users can visualize platform-wide health, access recent project states, and initiate high-fidelity biological searches, serving as the gateway to the entire digital-biological operating system.",
+    "review_status": "PARTIAL_REPORT_NOT_VISUAL_PASS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Snapshot/project-state outputs exist; actual health dashboard pixels not inspected, no high-fidelity biological outcome validation."
+  },
+  {
+    "id": "tissue_eng:1",
+    "module": "tissue_eng",
+    "source_path": "spec/tissue_eng.md",
+    "spec_sha256": "fed66f3cd005714335ce853f2d51ecc183c4e24140c501ac216b35625c2f8eff",
+    "text": "# Tissue Eng\n\nTissue Eng: A design tool for 3D bioprinting strategies, suggesting biomaterials and cell types for creating vascularized tissue models.",
+    "review_status": "SCOPED_CURATED_DESIGN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Curated tissue/cell/bioink selection and size/vascular heuristics exist; not manufactured 3D tissue validation."
+  },
+  {
+    "id": "tissue_eng:2",
+    "module": "tissue_eng",
+    "source_path": "spec/tissue_eng.md",
+    "spec_sha256": "fed66f3cd005714335ce853f2d51ecc183c4e24140c501ac216b35625c2f8eff",
+    "text": "It calibrates printing parameters for scaffolds and simulates mechanical responses under physiological stress.",
+    "review_status": "SCOPED_PARAMETRIC_MODELS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Printer starting parameters, stress/fatigue formulas exist; oxygen profile independently reproduces [100,75,100], repeats. Specific printer calibration and mechanical testing required."
+  },
+  {
+    "id": "tissue_eng:3",
+    "module": "tissue_eng",
+    "source_path": "spec/tissue_eng.md",
+    "spec_sha256": "fed66f3cd005714335ce853f2d51ecc183c4e24140c501ac216b35625c2f8eff",
+    "text": "Tissue Eng ensures structural fidelity and functional viability, providing a platform for developing advanced models for drug testing.",
+    "review_status": "NOT_FIDELITY_VIABILITY_ASSURANCE",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Explicit simplified viability/oxygen forecasts and drug-testing plan, no measured functional viability or structural fidelity assurance."
+  }
+]
