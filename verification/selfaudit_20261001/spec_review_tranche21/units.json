@@ -1,0 +1,402 @@
+[
+  {
+    "id": "evofold_4d:1",
+    "module": "evofold_4d",
+    "source_path": "spec/evofold_4d.md",
+    "spec_sha256": "9c0503e381612ff6e7c981db7de11b945556dac2e03e6cf67fe7b6284ad2c818",
+    "text": "# EvoFold 4D\n\nEvoFold 4D: A dynamics engine that predicts protein conformational transitions, such as moving between open and closed states.",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Elastic normal modes and sinusoidal morph, not validated functional open/closed transitions."
+  },
+  {
+    "id": "evofold_4d:2",
+    "module": "evofold_4d",
+    "source_path": "spec/evofold_4d.md",
+    "spec_sha256": "9c0503e381612ff6e7c981db7de11b945556dac2e03e6cf67fe7b6284ad2c818",
+    "text": "It models the impact of post-translational modifications and ligand binding on structural flexibility.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "PTM kind is label, fixed site stiffness2.5; no kind-specific ligand/PTM chemistry."
+  },
+  {
+    "id": "evofold_4d:3",
+    "module": "evofold_4d",
+    "source_path": "spec/evofold_4d.md",
+    "spec_sha256": "9c0503e381612ff6e7c981db7de11b945556dac2e03e6cf67fe7b6284ad2c818",
+    "text": "EvoFold 4D provides temporal traces of morphological changes, offering a four-dimensional view of how protein function is governed.",
+    "review_status": "PARTIAL_TRAJECTORY_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Coordinate frames/RMSD and opening/closing labels, not real protein function."
+  },
+  {
+    "id": "evofold_4d:4",
+    "module": "evofold_4d",
+    "source_path": "spec/evofold_4d.md",
+    "spec_sha256": "9c0503e381612ff6e7c981db7de11b945556dac2e03e6cf67fe7b6284ad2c818",
+    "text": "EvoFold 4D can be formalized as a spatiotemporal protein dynamics engine that models conformational landscapes as trajectories over a high-dimensional manifold M\u2282R3N\u00d7Rt\\mathcal{M} \\subset \\mathbb{R}^{3N} \\times \\mathbb{R}^tM\u2282R3N\u00d7Rt, where NNN is the number of atoms and ttt represents time.",
+    "review_status": "SCOPED_SIMULATION_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Supplied coarse coordinates and explicit time steps, not full atomic manifold inference."
+  },
+  {
+    "id": "evofold_4d:5",
+    "module": "evofold_4d",
+    "source_path": "spec/evofold_4d.md",
+    "spec_sha256": "9c0503e381612ff6e7c981db7de11b945556dac2e03e6cf67fe7b6284ad2c818",
+    "text": "Instead of predicting a single static structure, the system learns a probability distribution P(x,t)P(\\mathbf{x}, t)P(x,t) over conformations, effectively approximating the protein\u2019s free energy landscape.",
+    "review_status": "NOT_DEEP_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No learned probability distribution; histogram/explicit simulations."
+  },
+  {
+    "id": "evofold_4d:6",
+    "module": "evofold_4d",
+    "source_path": "spec/evofold_4d.md",
+    "spec_sha256": "9c0503e381612ff6e7c981db7de11b945556dac2e03e6cf67fe7b6284ad2c818",
+    "text": "Using neural stochastic differential equations (Neural SDEs) and diffusion-based generative models, EvoFold 4D simulates transitions between conformational states (e.g., open \u2194 closed), capturing both equilibrium fluctuations and rare but functionally critical transitions such as allosteric shifts.",
+    "review_status": "NOT_DEEP_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No neural SDE/diffusion generator bundled, source explicit."
+  },
+  {
+    "id": "evofold_4d:7",
+    "module": "evofold_4d",
+    "source_path": "spec/evofold_4d.md",
+    "spec_sha256": "9c0503e381612ff6e7c981db7de11b945556dac2e03e6cf67fe7b6284ad2c818",
+    "text": "At the core of the system lies a hybrid modeling framework that combines deep learning with molecular dynamics (MD).",
+    "review_status": "NOT_DEEP_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Elastic-network/Langevin approximations, no learned hybrid MD."
+  },
+  {
+    "id": "evofold_4d:8",
+    "module": "evofold_4d",
+    "source_path": "spec/evofold_4d.md",
+    "spec_sha256": "9c0503e381612ff6e7c981db7de11b945556dac2e03e6cf67fe7b6284ad2c818",
+    "text": "Neural networks\u2014trained on trajectory data and structural ensembles\u2014learn coarse-grained force fields F\u03b8(x)F_\\theta(\\mathbf{x})F\u03b8\u200b(x), which approximate the gradient of the potential energy surface \u2212\u2207E(x)-\\nabla E(\\mathbf{x})\u2212\u2207E(x).",
+    "review_status": "NOT_TRAINED_GNN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No trajectory-trained neural force field."
+  },
+  {
+    "id": "evofold_4d:9",
+    "module": "evofold_4d",
+    "source_path": "spec/evofold_4d.md",
+    "spec_sha256": "9c0503e381612ff6e7c981db7de11b945556dac2e03e6cf67fe7b6284ad2c818",
+    "text": "These learned forces are integrated over time using numerical solvers (e.g., Langevin dynamics), enabling efficient simulation of protein motion without the full computational cost of atomistic MD.",
+    "review_status": "SCOPED_SIMULATION_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Bond-spring noisy integrator uses explicit forces, not learned neural forces."
+  },
+  {
+    "id": "evofold_4d:10",
+    "module": "evofold_4d",
+    "source_path": "spec/evofold_4d.md",
+    "spec_sha256": "9c0503e381612ff6e7c981db7de11b945556dac2e03e6cf67fe7b6284ad2c818",
+    "text": "EvoFold 4D augments this with physics-based constraints (bond lengths, angles, dihedral potentials), ensuring that generated trajectories remain chemically realistic.",
+    "review_status": "PARTIAL_EXPLICIT_PHYSICS_NOT_LEARNED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Neighbor bond lengths only in Langevin; angles/dihedrals/chemical realism not ensured."
+  },
+  {
+    "id": "evofold_4d:11",
+    "module": "evofold_4d",
+    "source_path": "spec/evofold_4d.md",
+    "spec_sha256": "9c0503e381612ff6e7c981db7de11b945556dac2e03e6cf67fe7b6284ad2c818",
+    "text": "The platform incorporates concepts from statistical mechanics to quantify conformational stability and transition kinetics.",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Histogram energy and empirical state kinetics, biological stability unverified."
+  },
+  {
+    "id": "evofold_4d:12",
+    "module": "evofold_4d",
+    "source_path": "spec/evofold_4d.md",
+    "spec_sha256": "9c0503e381612ff6e7c981db7de11b945556dac2e03e6cf67fe7b6284ad2c818",
+    "text": "Free energy differences between states are estimated using Boltzmann-weighted distributions:\nP(x)\u221de\u2212E(x)/kTP(\\mathbf{x}) \\propto e^{-E(\\mathbf{x}) / kT}P(x)\u221de\u2212E(x)/kT\nallowing the system to compute transition probabilities, identify metastable basins, and estimate kinetic rates using methods such as Markov State Models (MSMs).",
+    "review_status": "SCOPED_BEHAVIOR_REPRODUCED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Alternating-state transition matrix [[0,1],[1,0]] matches counts; equilibrium/free energy adequacy not established."
+  },
+  {
+    "id": "evofold_4d:13",
+    "module": "evofold_4d",
+    "source_path": "spec/evofold_4d.md",
+    "spec_sha256": "9c0503e381612ff6e7c981db7de11b945556dac2e03e6cf67fe7b6284ad2c818",
+    "text": "By discretizing conformational space into states and learning transition matrices, EvoFold 4D provides a coarse-grained yet interpretable view of protein dynamics, highlighting dominant pathways and bottlenecks in conformational change.",
+    "review_status": "SCOPED_CLASSICAL_STATISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "RMSD quantile states/count-normalized transitions, not trained pathways."
+  },
+  {
+    "id": "evofold_4d:14",
+    "module": "evofold_4d",
+    "source_path": "spec/evofold_4d.md",
+    "spec_sha256": "9c0503e381612ff6e7c981db7de11b945556dac2e03e6cf67fe7b6284ad2c818",
+    "text": "A key innovation is the integration of evolutionary and sequence-based information into dynamic predictions.",
+    "review_status": "PARTIAL_INPUT_DEPENDENT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Optional MSA conservation affects relative barrier proxy only."
+  },
+  {
+    "id": "evofold_4d:15",
+    "module": "evofold_4d",
+    "source_path": "spec/evofold_4d.md",
+    "spec_sha256": "9c0503e381612ff6e7c981db7de11b945556dac2e03e6cf67fe7b6284ad2c818",
+    "text": "By embedding sequences using protein language models and co-evolutionary signals (from MSAs), EvoFold 4D conditions its dynamic simulations on evolutionary constraints.",
+    "review_status": "NOT_DEEP_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No protein language model; supplied MSA column counts."
+  },
+  {
+    "id": "evofold_4d:16",
+    "module": "evofold_4d",
+    "source_path": "spec/evofold_4d.md",
+    "spec_sha256": "9c0503e381612ff6e7c981db7de11b945556dac2e03e6cf67fe7b6284ad2c818",
+    "text": "This allows it to predict how mutations alter not just static structure but the entire conformational landscape\u2014shifting energy minima, altering transition barriers, and potentially inducing loss or gain of function.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "property_delta*(.5+conservation) barrier proxy, no measured mutated energy landscape."
+  },
+  {
+    "id": "evofold_4d:17",
+    "module": "evofold_4d",
+    "source_path": "spec/evofold_4d.md",
+    "spec_sha256": "9c0503e381612ff6e7c981db7de11b945556dac2e03e6cf67fe7b6284ad2c818",
+    "text": "The system can thus simulate mutation-driven dynamics, providing insights into mechanisms of drug resistance or altered enzymatic activity.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Drug resistance/enzymatic activity mechanism accuracy unvalidated."
+  },
+  {
+    "id": "evofold_4d:18",
+    "module": "evofold_4d",
+    "source_path": "spec/evofold_4d.md",
+    "spec_sha256": "9c0503e381612ff6e7c981db7de11b945556dac2e03e6cf67fe7b6284ad2c818",
+    "text": "Finally, EvoFold 4D functions as an end-to-end computational environment, generating temporal structural trajectories (multi-frame PDBs), energy landscape visualizations, and transition networks.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "C-alpha GLY multi-model PDB string/landscape arrays; actual visualization pixels uninspected."
+  },
+  {
+    "id": "evofold_4d:19",
+    "module": "evofold_4d",
+    "source_path": "spec/evofold_4d.md",
+    "spec_sha256": "9c0503e381612ff6e7c981db7de11b945556dac2e03e6cf67fe7b6284ad2c818",
+    "text": "It integrates with docking and mutation analysis modules, enabling downstream workflows such as ligand binding in different conformational states or screening mutations for stability and flexibility.",
+    "review_status": "UNVERIFIED_INTEGRATION_CLAIM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No downstream docking orchestration in inspected report, data could be reused but integration not verified."
+  },
+  {
+    "id": "evofold_4d:20",
+    "module": "evofold_4d",
+    "source_path": "spec/evofold_4d.md",
+    "spec_sha256": "9c0503e381612ff6e7c981db7de11b945556dac2e03e6cf67fe7b6284ad2c818",
+    "text": "By unifying deep generative modeling, molecular physics, and evolutionary biology, EvoFold 4D becomes a four-dimensional window into protein behavior\u2014capturing not just what a protein looks like, but how it moves, adapts, and functions over time.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No whole protein motion/function prediction assurance."
+  },
+  {
+    "id": "neuro_pipeline:1",
+    "module": "neuro_pipeline",
+    "source_path": "spec/neuro_pipeline.md",
+    "spec_sha256": "7436c4f8a272ed526874513bb6eabe1e54c315e08eb81cf06e621f89fd25fdda",
+    "text": "# Neuro-Pipeline\n\nNeuro-Pipeline: Neuro-Pipeline can be reimagined as a closed-loop, neuro-symbolic MLOps system that not only trains biological deep learning models but actively interrogates and augments them using principles from cutting-edge computational neuroscience.",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Actual small NumPy MLP trains on toy or supplied DNA; not foundation model MLOps."
+  },
+  {
+    "id": "neuro_pipeline:2",
+    "module": "neuro_pipeline",
+    "source_path": "spec/neuro_pipeline.md",
+    "spec_sha256": "7436c4f8a272ed526874513bb6eabe1e54c315e08eb81cf06e621f89fd25fdda",
+    "text": "At its core, the platform would orchestrate large-scale foundation models for biology\u2014such as protein language models and structure predictors\u2014while integrating brain-inspired architectures like spiking neural networks (SNNs), predictive coding frameworks, and hierarchical Bayesian models.",
+    "review_status": "NOT_DEEP_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No large biological foundation models; separate small spiking/predictive-coding utilities."
+  },
+  {
+    "id": "neuro_pipeline:3",
+    "module": "neuro_pipeline",
+    "source_path": "spec/neuro_pipeline.md",
+    "spec_sha256": "7436c4f8a272ed526874513bb6eabe1e54c315e08eb81cf06e621f89fd25fdda",
+    "text": "Training pipelines would move beyond static supervised learning to incorporate continual learning and synaptic plasticity rules (e.g., STDP-inspired updates), enabling models to adapt dynamically to new biological datasets without catastrophic forgetting.",
+    "review_status": "PARTIAL_INPUT_DEPENDENT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Coactivation gradient modulation and weight-anchor penalty, no continual no-forgetting guarantee."
+  },
+  {
+    "id": "neuro_pipeline:4",
+    "module": "neuro_pipeline",
+    "source_path": "spec/neuro_pipeline.md",
+    "spec_sha256": "7436c4f8a272ed526874513bb6eabe1e54c315e08eb81cf06e621f89fd25fdda",
+    "text": "The system could manage multi-modal inputs\u2014genomic sequences, cryo-EM densities, single-cell RNA-seq, and electrophysiological traces\u2014aligning them through shared latent representations learned via contrastive and self-supervised objectives.",
+    "review_status": "PARTIAL_CLASSICAL_STATISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Per-modality independent PCA SVD/cosine, not shared contrastive multimodal training or raw cryoEM/electrophysiology ingestion."
+  },
+  {
+    "id": "neuro_pipeline:5",
+    "module": "neuro_pipeline",
+    "source_path": "spec/neuro_pipeline.md",
+    "spec_sha256": "7436c4f8a272ed526874513bb6eabe1e54c315e08eb81cf06e621f89fd25fdda",
+    "text": "A defining feature would be its ability to map internal model representations to interpretable neurobiological analogues.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Weight/activation analogues, neurobiological interpretation validity unverified."
+  },
+  {
+    "id": "neuro_pipeline:6",
+    "module": "neuro_pipeline",
+    "source_path": "spec/neuro_pipeline.md",
+    "spec_sha256": "7436c4f8a272ed526874513bb6eabe1e54c315e08eb81cf06e621f89fd25fdda",
+    "text": "Instead of generic attention maps, Neuro-Pipeline would generate circuit-level explainability by reconstructing \u201cfunctional connectivity graphs\u201d within the model\u2014analogous to connectomics in the brain\u2014highlighting which subnetworks correspond to structural motifs, binding pockets, or regulatory elements.",
+    "review_status": "SCOPED_CLASSICAL_GRAPH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Products of MLP weights thresholded as connectivity, not biologically identified motifs/binding pockets."
+  },
+  {
+    "id": "neuro_pipeline:7",
+    "module": "neuro_pipeline",
+    "source_path": "spec/neuro_pipeline.md",
+    "spec_sha256": "7436c4f8a272ed526874513bb6eabe1e54c315e08eb81cf06e621f89fd25fdda",
+    "text": "Techniques like representational similarity analysis (RSA) and manifold alignment could be used to compare neural network embeddings with real neural data (e.g., fMRI or calcium imaging), enabling a bidirectional understanding: using neuroscience to interpret AI, and AI to hypothesize about brain function.",
+    "review_status": "PARTIAL_CLASSICAL_STATISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "RSA compares synthetic/supplied input and hidden distances, no actual fMRI/calcium alignment measured."
+  },
+  {
+    "id": "neuro_pipeline:8",
+    "module": "neuro_pipeline",
+    "source_path": "spec/neuro_pipeline.md",
+    "spec_sha256": "7436c4f8a272ed526874513bb6eabe1e54c315e08eb81cf06e621f89fd25fdda",
+    "text": "This would push explainability from visualization into mechanistic insight.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No mechanistic neuroscience insight validation."
+  },
+  {
+    "id": "neuro_pipeline:9",
+    "module": "neuro_pipeline",
+    "source_path": "spec/neuro_pipeline.md",
+    "spec_sha256": "7436c4f8a272ed526874513bb6eabe1e54c315e08eb81cf06e621f89fd25fdda",
+    "text": "On the training side, the platform would support hybrid simulation-learning loops where neural networks are co-trained with differentiable physics and biology engines.",
+    "review_status": "PARTIAL_INPUT_DEPENDENT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "physics_cotraining blends supplied labels and simulator targets, not differentiation through physics engine."
+  },
+  {
+    "id": "neuro_pipeline:10",
+    "module": "neuro_pipeline",
+    "source_path": "spec/neuro_pipeline.md",
+    "spec_sha256": "7436c4f8a272ed526874513bb6eabe1e54c315e08eb81cf06e621f89fd25fdda",
+    "text": "For example, a protein folding model could be jointly optimized with molecular dynamics simulations, using differentiable force fields to refine structural predictions in real time.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No protein-folding/MD differentiable-force-field cotraining."
+  },
+  {
+    "id": "neuro_pipeline:11",
+    "module": "neuro_pipeline",
+    "source_path": "spec/neuro_pipeline.md",
+    "spec_sha256": "7436c4f8a272ed526874513bb6eabe1e54c315e08eb81cf06e621f89fd25fdda",
+    "text": "Similarly, gene regulatory network models could be trained alongside SBML-based simulators, where discrepancies between predicted and simulated dynamics are backpropagated as learning signals.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No SBML simulator/backprop coupling."
+  },
+  {
+    "id": "neuro_pipeline:12",
+    "module": "neuro_pipeline",
+    "source_path": "spec/neuro_pipeline.md",
+    "spec_sha256": "7436c4f8a272ed526874513bb6eabe1e54c315e08eb81cf06e621f89fd25fdda",
+    "text": "This creates a system where models are not just fitting data but are constrained by first-principles biological laws\u2014bridging the gap between purely data-driven AI and mechanistic science.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Supplied target blending not guaranteed first-principles biological constraints."
+  },
+  {
+    "id": "neuro_pipeline:13",
+    "module": "neuro_pipeline",
+    "source_path": "spec/neuro_pipeline.md",
+    "spec_sha256": "7436c4f8a272ed526874513bb6eabe1e54c315e08eb81cf06e621f89fd25fdda",
+    "text": "Neuro-Pipeline would also introduce \u201ccognitive debugging\u201d interfaces inspired by systems neuroscience.",
+    "review_status": "UNVERIFIED_VISUAL_CLAIM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No cognitive-debugging UI pixels inspected; local methods only."
+  },
+  {
+    "id": "neuro_pipeline:14",
+    "module": "neuro_pipeline",
+    "source_path": "spec/neuro_pipeline.md",
+    "spec_sha256": "7436c4f8a272ed526874513bb6eabe1e54c315e08eb81cf06e621f89fd25fdda",
+    "text": "Researchers could perform virtual lesion studies on models\u2014ablating specific neurons, layers, or attention heads\u2014to observe downstream effects on predictions, mirroring experimental neuroscience techniques.",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Hidden-unit output-weight ablations and dataset accuracy changes exist, not every layer/head intervention."
+  },
+  {
+    "id": "neuro_pipeline:15",
+    "module": "neuro_pipeline",
+    "source_path": "spec/neuro_pipeline.md",
+    "spec_sha256": "7436c4f8a272ed526874513bb6eabe1e54c315e08eb81cf06e621f89fd25fdda",
+    "text": "Time-resolved activation tracing would allow users to follow how information propagates through the network during inference, akin to tracking neural firing sequences.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Per-layer activation summaries, no time-resolved firing/information trace."
+  },
+  {
+    "id": "neuro_pipeline:16",
+    "module": "neuro_pipeline",
+    "source_path": "spec/neuro_pipeline.md",
+    "spec_sha256": "7436c4f8a272ed526874513bb6eabe1e54c315e08eb81cf06e621f89fd25fdda",
+    "text": "Coupled with causal inference methods (e.g., do-calculus-inspired interventions), this would enable users to move from correlation-based insights to causal understanding of model behavior\u2014critical for high-stakes biological applications like drug discovery or gene editing.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Feature clamping and output difference, not causal identifiability/do-calculus proof."
+  },
+  {
+    "id": "neuro_pipeline:17",
+    "module": "neuro_pipeline",
+    "source_path": "spec/neuro_pipeline.md",
+    "spec_sha256": "7436c4f8a272ed526874513bb6eabe1e54c315e08eb81cf06e621f89fd25fdda",
+    "text": "Finally, the system could evolve into a self-optimizing research agent by integrating reinforcement learning loops grounded in experimental feedback.",
+    "review_status": "NOT_CONTINUOUS_TRAINING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No self-optimizing RL research agent."
+  },
+  {
+    "id": "neuro_pipeline:18",
+    "module": "neuro_pipeline",
+    "source_path": "spec/neuro_pipeline.md",
+    "spec_sha256": "7436c4f8a272ed526874513bb6eabe1e54c315e08eb81cf06e621f89fd25fdda",
+    "text": "Models deployed in silico (e.g., predicting CRISPR edits or ligand binding) would generate hypotheses that are tested either in simulation or real lab environments; the outcomes\u2014successful edits, failed bindings, unexpected phenotypes\u2014would be fed back into the training loop as reward signals.",
+    "review_status": "PARTIAL_CLASSICAL_STATISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Beta count feedback summary, not hypothesis/lab reward training loop."
+  },
+  {
+    "id": "neuro_pipeline:19",
+    "module": "neuro_pipeline",
+    "source_path": "spec/neuro_pipeline.md",
+    "spec_sha256": "7436c4f8a272ed526874513bb6eabe1e54c315e08eb81cf06e621f89fd25fdda",
+    "text": "Over time, this creates a biologically grounded \u201clearning system\u201d that mirrors adaptive intelligence in the brain: continuously refining its internal representations, updating its priors, and improving its predictive accuracy.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No continuous biologically validated adaptation system."
+  },
+  {
+    "id": "neuro_pipeline:20",
+    "module": "neuro_pipeline",
+    "source_path": "spec/neuro_pipeline.md",
+    "spec_sha256": "7436c4f8a272ed526874513bb6eabe1e54c315e08eb81cf06e621f89fd25fdda",
+    "text": "In this form, Neuro-Pipeline transcends traditional MLOps, becoming a computational neuroscience-driven engine for autonomous biological discovery.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No autonomous biological discovery platform demonstrated."
+  }
+]

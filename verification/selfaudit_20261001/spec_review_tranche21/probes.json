@@ -1,0 +1,39 @@
+{
+  "markov": {
+    "transition": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "independent": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "match": true
+  },
+  "coding": {
+    "state": [
+      1.5
+    ],
+    "independent": 1.5,
+    "match": true
+  },
+  "small_mlp": {
+    "train_accuracy": 0.83,
+    "final_loss": 0.1605,
+    "repeat_weights_equal": true,
+    "scope": "Actual toy-task weight training, not foundation model or measured biological accuracy."
+  },
+  "scope": "Synthetic mathematics/toy repeat check, no protein trajectory validity or real multimodal neuroscience comparison."
+}
