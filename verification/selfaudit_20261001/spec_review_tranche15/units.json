@@ -1,0 +1,362 @@
+[
+  {
+    "id": "deepsplice:1",
+    "module": "deepsplice",
+    "source_path": "spec/deepsplice.md",
+    "spec_sha256": "226717fef33b5c82d429e1af95d7d5e820b465d82149d6c0e69613b93263682c",
+    "text": "# DeepSplice\n\nDeepSplice: A deep learning model that predicts how genetic variants affect alternative splicing patterns and protein isoforms.",
+    "review_status": "NOT_DEEP_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "PWM/motif/context computation, source explicitly no transformer/GNN; no learned full isoform prediction."
+  },
+  {
+    "id": "deepsplice:2",
+    "module": "deepsplice",
+    "source_path": "spec/deepsplice.md",
+    "spec_sha256": "226717fef33b5c82d429e1af95d7d5e820b465d82149d6c0e69613b93263682c",
+    "text": "It identifies changes in splice site strength and describes the resulting biological consequences.",
+    "review_status": "SCOPED_SITE_CONSEQUENCE",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Reference/alternate site score delta and heuristic consequence labels, clinical calibration scope separate."
+  },
+  {
+    "id": "deepsplice:3",
+    "module": "deepsplice",
+    "source_path": "spec/deepsplice.md",
+    "spec_sha256": "226717fef33b5c82d429e1af95d7d5e820b465d82149d6c0e69613b93263682c",
+    "text": "DeepSplice helps researchers understand how mutations in both coding and non-coding regions can lead to disease by altering splicing.",
+    "review_status": "PARTIAL_DISEASE_INTERPRETATION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Site/cryptic/context utilities exist, no broad causal disease proof."
+  },
+  {
+    "id": "deepsplice:4",
+    "module": "deepsplice",
+    "source_path": "spec/deepsplice.md",
+    "spec_sha256": "226717fef33b5c82d429e1af95d7d5e820b465d82149d6c0e69613b93263682c",
+    "text": "DeepSplice can be extended into a high-resolution splicing intelligence engine that models RNA processing as a probabilistic, context-dependent regulatory system rather than a simple splice-site classification task.",
+    "review_status": "SCOPED_CONTEXT_PROXY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Probabilistic regulatory features and isoform partition exist, not full RNA-processing intelligence."
+  },
+  {
+    "id": "deepsplice:5",
+    "module": "deepsplice",
+    "source_path": "spec/deepsplice.md",
+    "spec_sha256": "226717fef33b5c82d429e1af95d7d5e820b465d82149d6c0e69613b93263682c",
+    "text": "At its core, the platform leverages transformer-based architectures trained on massive transcriptomic datasets (including long-read RNA-seq and nanopore sequencing) to capture both local sequence motifs (5\u2019/3\u2019 splice sites, branch points, polypyrimidine tracts) and long-range dependencies across entire genes.",
+    "review_status": "NOT_TRAINED_TRANSFORMER",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No massive transcriptomic/long-read/nanopore transformer training in shipped source."
+  },
+  {
+    "id": "deepsplice:6",
+    "module": "deepsplice",
+    "source_path": "spec/deepsplice.md",
+    "spec_sha256": "226717fef33b5c82d429e1af95d7d5e820b465d82149d6c0e69613b93263682c",
+    "text": "By embedding pre-mRNA sequences into high-dimensional representations, DeepSplice learns the latent \u201csplicing code,\u201d enabling it to predict exon inclusion levels (\u03a8 values), alternative isoform distributions, and cryptic splice site activation with nucleotide-level resolution.",
+    "review_status": "NOT_LEARNED_SPLICING_CODE",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "PSI from hand logit and score delta, not latent learned gene-wide embeddings."
+  },
+  {
+    "id": "deepsplice:7",
+    "module": "deepsplice",
+    "source_path": "spec/deepsplice.md",
+    "spec_sha256": "226717fef33b5c82d429e1af95d7d5e820b465d82149d6c0e69613b93263682c",
+    "text": "Beyond sequence-level prediction, DeepSplice integrates multi-layer regulatory inputs, including RNA-binding protein (RBP) interaction maps (eCLIP/iCLIP), chromatin marks (H3K36me3, H3K4me3), transcriptional elongation rates, and secondary RNA structure predictions.",
+    "review_status": "PARTIAL_SCALAR_REGULATORY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Supplied RBP counts/chromatin/elongation scalar and reverse-string pairing proxy, not eCLIP/iCLIP ingestion or RNA folding."
+  },
+  {
+    "id": "deepsplice:8",
+    "module": "deepsplice",
+    "source_path": "spec/deepsplice.md",
+    "spec_sha256": "226717fef33b5c82d429e1af95d7d5e820b465d82149d6c0e69613b93263682c",
+    "text": "Using graph neural networks layered on top of sequence embeddings, the system reconstructs splice regulatory networks where exons, introns, and RBPs form dynamic interaction graphs.",
+    "review_status": "NOT_GNN_DYNAMIC_GRAPH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Graph returns supplied exon/intron/RBP edge records and signed balance, not trained dynamic GNN."
+  },
+  {
+    "id": "deepsplice:9",
+    "module": "deepsplice",
+    "source_path": "spec/deepsplice.md",
+    "spec_sha256": "226717fef33b5c82d429e1af95d7d5e820b465d82149d6c0e69613b93263682c",
+    "text": "This allows DeepSplice to model how mutations in both coding and non-coding regions propagate through these networks, altering spliceosome recruitment, exon definition, and ultimately protein isoform composition.",
+    "review_status": "NOT_PROPAGATED_SPLICEOSOME_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No dynamic network spliceosome recruitment/exon definition model."
+  },
+  {
+    "id": "deepsplice:10",
+    "module": "deepsplice",
+    "source_path": "spec/deepsplice.md",
+    "spec_sha256": "226717fef33b5c82d429e1af95d7d5e820b465d82149d6c0e69613b93263682c",
+    "text": "A key advancement is DeepSplice\u2019s ability to simulate variant-induced splicing perturbations in silico.",
+    "review_status": "SCOPED_VARIANT_UTILITIES",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Variant site delta and cryptic scanning/annotation utilities exist, not universally calibrated perturbation."
+  },
+  {
+    "id": "deepsplice:11",
+    "module": "deepsplice",
+    "source_path": "spec/deepsplice.md",
+    "spec_sha256": "226717fef33b5c82d429e1af95d7d5e820b465d82149d6c0e69613b93263682c",
+    "text": "Given a genomic variant, the system predicts not only whether a splice site is weakened or strengthened, but also the downstream consequences: exon skipping, intron retention, alternative 5\u2019/3\u2019 site usage, and frameshifted or truncated protein products.",
+    "review_status": "PARTIAL_OUTCOMES",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Isoform probability partition/protein labels and bounded live-context maps; synthetic partition [.4,.38,.12,.1] independently matches/repeats, no observed full protein outcome validation."
+  },
+  {
+    "id": "deepsplice:12",
+    "module": "deepsplice",
+    "source_path": "spec/deepsplice.md",
+    "spec_sha256": "226717fef33b5c82d429e1af95d7d5e820b465d82149d6c0e69613b93263682c",
+    "text": "It further quantifies these effects using calibrated probability distributions and uncertainty estimates, allowing researchers to distinguish high-confidence pathogenic splice alterations from benign variation.",
+    "review_status": "PARTIAL_UNCERTAINTY_NOT_CALIBRATION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "PSI interval uses caller/default calibration_n and binomial radius; not experimentally calibrated probability. Variant delta bands have narrow source-stated BRCA1 limits, not global clinical validity."
+  },
+  {
+    "id": "deepsplice:13",
+    "module": "deepsplice",
+    "source_path": "spec/deepsplice.md",
+    "spec_sha256": "226717fef33b5c82d429e1af95d7d5e820b465d82149d6c0e69613b93263682c",
+    "text": "This makes it particularly powerful for interpreting variants of uncertain significance (VUS) in clinical genomics.",
+    "review_status": "CLINICAL_VUS_VALIDITY_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Clinical VUS performance not globally established."
+  },
+  {
+    "id": "deepsplice:14",
+    "module": "deepsplice",
+    "source_path": "spec/deepsplice.md",
+    "spec_sha256": "226717fef33b5c82d429e1af95d7d5e820b465d82149d6c0e69613b93263682c",
+    "text": "DeepSplice also extends into therapeutic design by coupling its predictive engine with intervention modules.",
+    "review_status": "NONPROCEDURAL_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Intervention comparison utilities not therapeutic validity."
+  },
+  {
+    "id": "deepsplice:15",
+    "module": "deepsplice",
+    "source_path": "spec/deepsplice.md",
+    "spec_sha256": "226717fef33b5c82d429e1af95d7d5e820b465d82149d6c0e69613b93263682c",
+    "text": "It can suggest antisense oligonucleotides (ASOs) to mask aberrant splice sites, CRISPR-based splice modulation strategies (e.g., targeting intronic enhancers/silencers), and small molecules that influence spliceosome dynamics.",
+    "review_status": "NOT_INTERVENTION_SEQUENCE_DESIGN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Supplied strategies/psi_shift and risk, no ASO/CRISPR/small molecule design produced."
+  },
+  {
+    "id": "deepsplice:16",
+    "module": "deepsplice",
+    "source_path": "spec/deepsplice.md",
+    "spec_sha256": "226717fef33b5c82d429e1af95d7d5e820b465d82149d6c0e69613b93263682c",
+    "text": "These recommendations are generated by simulating how each intervention reshapes the splicing landscape, optimizing for restoration of wild-type isoform ratios while minimizing off-target transcriptome-wide effects.",
+    "review_status": "SCOPED_SUPPLIED_SHIFT_RANK",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Restored PSI=clipped aberrant+supplied shift, risk penalty, not transcriptome-wide off-target prediction."
+  },
+  {
+    "id": "deepsplice:17",
+    "module": "deepsplice",
+    "source_path": "spec/deepsplice.md",
+    "spec_sha256": "226717fef33b5c82d429e1af95d7d5e820b465d82149d6c0e69613b93263682c",
+    "text": "Finally, DeepSplice operates within a continuous learning framework, integrating experimental validation data from RNA-seq, minigene assays, and perturbation screens to refine its models.",
+    "review_status": "NOT_CONTINUOUS_TRAINING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No experimental data ingestion or model retraining loop in core source."
+  },
+  {
+    "id": "deepsplice:18",
+    "module": "deepsplice",
+    "source_path": "spec/deepsplice.md",
+    "spec_sha256": "226717fef33b5c82d429e1af95d7d5e820b465d82149d6c0e69613b93263682c",
+    "text": "Through active learning, it prioritizes uncertain or high-impact variants for experimental follow-up, closing the loop between prediction and validation.",
+    "review_status": "PARTIAL_PRIORITY_HEURISTIC",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Priority=4p(1-p)*impact for supplied candidates, not active model updating."
+  },
+  {
+    "id": "deepsplice:19",
+    "module": "deepsplice",
+    "source_path": "spec/deepsplice.md",
+    "spec_sha256": "226717fef33b5c82d429e1af95d7d5e820b465d82149d6c0e69613b93263682c",
+    "text": "In its most advanced form, DeepSplice becomes a comprehensive splicing systems platform\u2014capable of decoding, predicting, and therapeutically modulating RNA splicing with a level of precision that bridges genomics, transcriptomics, and functional biology.",
+    "review_status": "ASPIRATIONAL_SYSTEM_VALIDITY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No full therapeutic splicing precision assurance."
+  },
+  {
+    "id": "robotic_flow:1",
+    "module": "robotic_flow",
+    "source_path": "spec/robotic_flow.md",
+    "spec_sha256": "cb8d15ad73ba8fce40f1b86a029612268c856af44b9c0497ca156908ec19d75e",
+    "text": "# Robotic Flow\n\nRobotic Flow: A control interface for lab automation hardware that coordinates high-throughput tasks like transformation and plating.",
+    "review_status": "PARTIAL_PLAN_NOT_HARDWARE",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Liquid-class plans and greedy schedules exist, no live hardware control bundled."
+  },
+  {
+    "id": "robotic_flow:2",
+    "module": "robotic_flow",
+    "source_path": "spec/robotic_flow.md",
+    "spec_sha256": "cb8d15ad73ba8fce40f1b86a029612268c856af44b9c0497ca156908ec19d75e",
+    "text": "It manages real-time monitoring and ensures that experimental protocols are executed with high precision.",
+    "review_status": "NOT_REALTIME_PRECISION_ASSURANCE",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Compares supplied expected/observed checkpoint times; no real sensor streaming or physical precision assurance."
+  },
+  {
+    "id": "robotic_flow:3",
+    "module": "robotic_flow",
+    "source_path": "spec/robotic_flow.md",
+    "spec_sha256": "cb8d15ad73ba8fce40f1b86a029612268c856af44b9c0497ca156908ec19d75e",
+    "text": "Robotic Flow integrates with robotic platforms, accelerating the transition from digital genetic designs to physical samples for manufacturing.",
+    "review_status": "NOT_ROBOT_PLATFORM_INTEGRATION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Source explicitly no live robot hardware connection; physical sample manufacture unverified."
+  },
+  {
+    "id": "robotic_flow:4",
+    "module": "robotic_flow",
+    "source_path": "spec/robotic_flow.md",
+    "spec_sha256": "cb8d15ad73ba8fce40f1b86a029612268c856af44b9c0497ca156908ec19d75e",
+    "text": "Robotic Flow operates as the real-time control and coordination layer for laboratory robotics, managing the execution of complex biological workflows with high temporal and spatial precision.",
+    "review_status": "SCOPED_LOCAL_COORDINATION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Task schedule computation, not real-time physical coordination."
+  },
+  {
+    "id": "robotic_flow:5",
+    "module": "robotic_flow",
+    "source_path": "spec/robotic_flow.md",
+    "spec_sha256": "cb8d15ad73ba8fce40f1b86a029612268c856af44b9c0497ca156908ec19d75e",
+    "text": "It treats the laboratory as a distributed cyber-physical system, where robotic arms, liquid handlers, incubators, and sensors function as interconnected nodes.",
+    "review_status": "NOT_DISTRIBUTED_LAB",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Instrument-name strings and task records, no distributed device network."
+  },
+  {
+    "id": "robotic_flow:6",
+    "module": "robotic_flow",
+    "source_path": "spec/robotic_flow.md",
+    "spec_sha256": "cb8d15ad73ba8fce40f1b86a029612268c856af44b9c0497ca156908ec19d75e",
+    "text": "The platform uses scheduling algorithms and constraint solvers to allocate tasks, optimize throughput, and minimize idle time, ensuring efficient utilization of lab resources.",
+    "review_status": "PARTIAL_GREEDY_SCHEDULER",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Dependency/instrument constrained greedy list schedule, not proved globally optimal. Independent critical path 15 reproduces, repeats; negative duration accepted defect separate."
+  },
+  {
+    "id": "robotic_flow:7",
+    "module": "robotic_flow",
+    "source_path": "spec/robotic_flow.md",
+    "spec_sha256": "cb8d15ad73ba8fce40f1b86a029612268c856af44b9c0497ca156908ec19d75e",
+    "text": "At the operational level, Robotic Flow implements fine-grained control over experimental steps such as pipetting, plating, transformation, and colony picking.",
+    "review_status": "PARTIAL_PIPETTE_PLAN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Pipette plan and contamination suggestions, no actual plating/transformation/colony-picker actuator controls."
+  },
+  {
+    "id": "robotic_flow:8",
+    "module": "robotic_flow",
+    "source_path": "spec/robotic_flow.md",
+    "spec_sha256": "cb8d15ad73ba8fce40f1b86a029612268c856af44b9c0497ca156908ec19d75e",
+    "text": "It models fluid dynamics at the microscale\u2014accounting for viscosity, surface tension, and evaporation\u2014to ensure accurate liquid handling, particularly in nanoliter-scale reactions.",
+    "review_status": "SCOPED_FLUID_PROXY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Viscosity liquid classes and bias/evaporation formulas, not microscale CFD or nanoliter validation."
+  },
+  {
+    "id": "robotic_flow:9",
+    "module": "robotic_flow",
+    "source_path": "spec/robotic_flow.md",
+    "spec_sha256": "cb8d15ad73ba8fce40f1b86a029612268c856af44b9c0497ca156908ec19d75e",
+    "text": "Error detection mechanisms, including computer vision and sensor feedback, identify anomalies such as pipetting errors, contamination, or equipment malfunctions, triggering corrective actions in real time.",
+    "review_status": "NOT_VISION_REALTIME_CORRECTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Supplied numerical anomalies/checkpoints yield recommended corrective actions, no computer vision or real-time device feedback."
+  },
+  {
+    "id": "robotic_flow:10",
+    "module": "robotic_flow",
+    "source_path": "spec/robotic_flow.md",
+    "spec_sha256": "cb8d15ad73ba8fce40f1b86a029612268c856af44b9c0497ca156908ec19d75e",
+    "text": "From a biological perspective, the system maintains strict control over environmental conditions critical for cell growth and experimental reproducibility.",
+    "review_status": "NOT_ENVIRONMENT_CONTROL_ASSURANCE",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "PI control arithmetic exists, no actual growth environment maintained."
+  },
+  {
+    "id": "robotic_flow:11",
+    "module": "robotic_flow",
+    "source_path": "spec/robotic_flow.md",
+    "spec_sha256": "cb8d15ad73ba8fce40f1b86a029612268c856af44b9c0497ca156908ec19d75e",
+    "text": "It dynamically regulates incubation temperatures, shaking speeds, and gas compositions (e.g., oxygen levels in fermentation) to match protocol requirements.",
+    "review_status": "PARTIAL_PI_NO_ACTUATORS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Control values for supplied observations, no dynamic temperature/shaker/gas device integration."
+  },
+  {
+    "id": "robotic_flow:12",
+    "module": "robotic_flow",
+    "source_path": "spec/robotic_flow.md",
+    "spec_sha256": "cb8d15ad73ba8fce40f1b86a029612268c856af44b9c0497ca156908ec19d75e",
+    "text": "It also tracks sample lineage and metadata, ensuring traceability across multi-step workflows and enabling precise correlation between experimental conditions and outcomes.",
+    "review_status": "PARTIAL_LINEAGE_RECORDS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Parent/operation mapping and unknown-parent check, not full sample traceability or outcome correlation system."
+  },
+  {
+    "id": "robotic_flow:13",
+    "module": "robotic_flow",
+    "source_path": "spec/robotic_flow.md",
+    "spec_sha256": "cb8d15ad73ba8fce40f1b86a029612268c856af44b9c0497ca156908ec19d75e",
+    "text": "Chemically, Robotic Flow manages reagent handling and storage, tracking stability, expiration, and compatibility.",
+    "review_status": "PARTIAL_REAGENT_HEURISTIC",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Age/half-life/temperature excursion/incompatible flag computes activity, not reagent storage inventory."
+  },
+  {
+    "id": "robotic_flow:14",
+    "module": "robotic_flow",
+    "source_path": "spec/robotic_flow.md",
+    "spec_sha256": "cb8d15ad73ba8fce40f1b86a029612268c856af44b9c0497ca156908ec19d75e",
+    "text": "It ensures that sensitive reagents\u2014enzymes, nucleotides, substrates\u2014are handled under optimal conditions, preventing degradation or cross-contamination.",
+    "review_status": "NOT_HANDLING_ASSURANCE",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Static tip-change recommendations/decay proxy, no verified degradation or cross-contamination prevention."
+  },
+  {
+    "id": "robotic_flow:15",
+    "module": "robotic_flow",
+    "source_path": "spec/robotic_flow.md",
+    "spec_sha256": "cb8d15ad73ba8fce40f1b86a029612268c856af44b9c0497ca156908ec19d75e",
+    "text": "For assays involving chemical reactions, it controls timing and mixing precision to maintain consistent reaction kinetics across large experimental batches.",
+    "review_status": "PARTIAL_TIMING_PLAN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Schedule/liquid-class time estimates, not physical mixing/kinetic consistency control."
+  },
+  {
+    "id": "robotic_flow:16",
+    "module": "robotic_flow",
+    "source_path": "spec/robotic_flow.md",
+    "spec_sha256": "cb8d15ad73ba8fce40f1b86a029612268c856af44b9c0497ca156908ec19d75e",
+    "text": "By integrating real-time control, automation hardware, and biological context, Robotic Flow enables seamless execution of high-throughput experiments.",
+    "review_status": "NOT_PHYSICAL_EXECUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Local deterministic report, no executed high-throughput hardware experiments."
+  },
+  {
+    "id": "robotic_flow:17",
+    "module": "robotic_flow",
+    "source_path": "spec/robotic_flow.md",
+    "spec_sha256": "cb8d15ad73ba8fce40f1b86a029612268c856af44b9c0497ca156908ec19d75e",
+    "text": "It acts as the physical execution backbone of automated labs, ensuring that complex synthetic biology workflows are carried out with precision, reproducibility, and scalability.",
+    "review_status": "NOT_REPRODUCIBILITY_SCALE_ASSURANCE",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No actual physical execution/scalability evidence; explicit hardware absence."
+  }
+]

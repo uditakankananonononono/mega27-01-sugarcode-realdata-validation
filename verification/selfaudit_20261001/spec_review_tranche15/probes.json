@@ -1,0 +1,67 @@
+{
+  "schedule": {
+    "result": {
+      "timeline": [
+        {
+          "id": "a",
+          "instrument": "pipette",
+          "start_min": 0.0,
+          "end_min": 5.0
+        },
+        {
+          "id": "b",
+          "instrument": "reader",
+          "start_min": 5.0,
+          "end_min": 15.0
+        }
+      ],
+      "makespan_min": 15.0,
+      "instrument_utilization": {
+        "pipette": 0.333,
+        "reader": 0.667
+      }
+    },
+    "independent_critical_path": 15,
+    "match": true,
+    "repeat_equal": true
+  },
+  "negative_duration": {
+    "timeline": [
+      {
+        "id": "negative",
+        "instrument": "reader",
+        "start_min": 0.0,
+        "end_min": -5.0
+      }
+    ],
+    "makespan_min": -5.0,
+    "instrument_utilization": {
+      "reader": 1.0
+    }
+  },
+  "isoforms": {
+    "result": {
+      "isoforms": {
+        "canonical": 0.4,
+        "exon_skipped": 0.38,
+        "cryptic_site": 0.12,
+        "intron_retained": 0.1
+      },
+      "protein_outcomes": {
+        "canonical": "full-length",
+        "exon_skipped": "frameshift/truncation",
+        "cryptic_site": "altered junction",
+        "intron_retained": "PTC/NMD risk"
+      }
+    },
+    "independent_expected": {
+      "canonical": 0.4,
+      "cryptic_site": 0.12,
+      "intron_retained": 0.1,
+      "exon_skipped": 0.38
+    },
+    "match": true,
+    "repeat_equal": true
+  },
+  "scope": "Synthetic mathematical consistency only, not hardware execution or clinical splice calibration."
+}
