@@ -41,5 +41,3 @@ Rule: a success needs a measured positive in a committed result file. Negatives,
 - mega27-22 sleep EEG, selective-transfer-certificate: no measured result by their own READMEs.
 - mega27-13b: simulations only, README says gates unmet.
 
-## Method note
-No tool here can push; this file is delivered to the parent for Key-ops to commit additively to mega27-01-sugarcode-realdata-validation (e.g. audits/verified_success_inventory_2026-10-01.md).
