@@ -1,0 +1,54 @@
+{
+  "bayes": {
+    "result": {
+      "posterior_mean": 0.8333333333333334,
+      "posterior_variance": 0.047619047619047616,
+      "n_observations": 2
+    },
+    "independent_mean": 0.8333333333333334,
+    "independent_variance": 0.047619047619047616,
+    "match": true,
+    "repeat_equal": true
+  },
+  "hill_half": 0.5,
+  "evolution_endpoint": 0.6703200460356393,
+  "independent_decay": 0.6703200460356393,
+  "reagent_initial_activity": {
+    "initial1": {
+      "activity_fraction": 0.25,
+      "compensation_factor": 4.0
+    },
+    "initial_0_1": {
+      "activity_fraction": 0.25,
+      "compensation_factor": 4.0
+    },
+    "equal": true
+  },
+  "capacity": {
+    "equal": true,
+    "result": {
+      "schedule": [
+        {
+          "step": 0,
+          "operation": "dispense",
+          "resource": "dispense",
+          "start_min": 0.0,
+          "end_min": 8.0
+        },
+        {
+          "step": 1,
+          "operation": "incubate",
+          "resource": "incubate",
+          "start_min": 8.0,
+          "end_min": 68.0
+        }
+      ],
+      "makespan_min": 68.0,
+      "utilization": {
+        "dispense": 0.11764705882352941,
+        "incubate": 1.0
+      }
+    }
+  },
+  "scope": "Synthetic model arithmetic; no actual protocol generated or hardware action."
+}

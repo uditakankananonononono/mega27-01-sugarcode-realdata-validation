@@ -1,0 +1,402 @@
+[
+  {
+    "id": "biofactory_1_a:1",
+    "module": "biofactory_1_a",
+    "source_path": "spec/biofactory_1_a.md",
+    "spec_sha256": "0f3b53cd1d8486303ab203613aea36c5d17898bee5c129a33bd54a9d27f90a30",
+    "text": "# BioFactory 1-A\n\nBioFactory 1-A: A workflow engine that generates automated robotic protocols for high-throughput biological experimentation.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Three fixed workflow templates, not hardware-executable protocols."
+  },
+  {
+    "id": "biofactory_1_a:2",
+    "module": "biofactory_1_a",
+    "source_path": "spec/biofactory_1_a.md",
+    "spec_sha256": "0f3b53cd1d8486303ab203613aea36c5d17898bee5c129a33bd54a9d27f90a30",
+    "text": "It suggests necessary equipment and provides AI-driven optimization tips for laboratory pipelines.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Equipment/tips static lookup, no trained optimizer."
+  },
+  {
+    "id": "biofactory_1_a:3",
+    "module": "biofactory_1_a",
+    "source_path": "spec/biofactory_1_a.md",
+    "spec_sha256": "0f3b53cd1d8486303ab203613aea36c5d17898bee5c129a33bd54a9d27f90a30",
+    "text": "BioFactory 1-A bridges the gap between digital design and physical execution, ensuring that complex workflows are ready for standardized biofoundry integration and screening.",
+    "review_status": "NOT_ROBOT_PLATFORM_INTEGRATION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No verified foundry interface or physical execution."
+  },
+  {
+    "id": "biofactory_1_a:4",
+    "module": "biofactory_1_a",
+    "source_path": "spec/biofactory_1_a.md",
+    "spec_sha256": "0f3b53cd1d8486303ab203613aea36c5d17898bee5c129a33bd54a9d27f90a30",
+    "text": "BioFactory 1-A can be reframed as a closed-loop, AI-driven orchestration layer that compiles high-level biological designs into executable, hardware-specific laboratory workflows across automated biofoundries.",
+    "review_status": "NOT_CONTINUOUS_TRAINING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No closed-loop trained hardware-specific orchestration."
+  },
+  {
+    "id": "biofactory_1_a:5",
+    "module": "biofactory_1_a",
+    "source_path": "spec/biofactory_1_a.md",
+    "spec_sha256": "0f3b53cd1d8486303ab203613aea36c5d17898bee5c129a33bd54a9d27f90a30",
+    "text": "It acts as a translation engine between digital biological intent (genetic constructs, strain designs, assay plans) and physical execution pipelines, encoding protocols into machine-readable instructions for liquid handlers, thermocyclers, incubators, and sequencing platforms.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Machine-readable plan/log records not device-specific commands."
+  },
+  {
+    "id": "biofactory_1_a:6",
+    "module": "biofactory_1_a",
+    "source_path": "spec/biofactory_1_a.md",
+    "spec_sha256": "0f3b53cd1d8486303ab203613aea36c5d17898bee5c129a33bd54a9d27f90a30",
+    "text": "The system formalizes experimental workflows as directed acyclic graphs (DAGs), where each node represents a biochemical operation (PCR, ligation, transformation), and edges encode dependencies, timing constraints, and material flows.",
+    "review_status": "SCOPED_CLASSICAL_GRAPH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Linear sequential DAG and greedy resource timeline."
+  },
+  {
+    "id": "biofactory_1_a:7",
+    "module": "biofactory_1_a",
+    "source_path": "spec/biofactory_1_a.md",
+    "spec_sha256": "0f3b53cd1d8486303ab203613aea36c5d17898bee5c129a33bd54a9d27f90a30",
+    "text": "At the molecular and biochemical level, BioFactory 1-A optimizes reaction conditions dynamically using predictive models trained on historical lab data.",
+    "review_status": "NOT_TRAINED_TRANSFORMER",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No historical-lab trained predictive model."
+  },
+  {
+    "id": "biofactory_1_a:8",
+    "module": "biofactory_1_a",
+    "source_path": "spec/biofactory_1_a.md",
+    "spec_sha256": "0f3b53cd1d8486303ab203613aea36c5d17898bee5c129a33bd54a9d27f90a30",
+    "text": "It adjusts enzyme concentrations, annealing temperatures, buffer compositions, and reaction times to maximize assembly efficiency and minimize failure rates.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Static steps/tips; no dynamic enzyme/buffer/temp optimizer."
+  },
+  {
+    "id": "biofactory_1_a:9",
+    "module": "biofactory_1_a",
+    "source_path": "spec/biofactory_1_a.md",
+    "spec_sha256": "0f3b53cd1d8486303ab203613aea36c5d17898bee5c129a33bd54a9d27f90a30",
+    "text": "For DNA assembly (e.g., Gibson, Golden Gate), it models fragment compatibility, secondary structure formation, and misligation probabilities, ensuring high-fidelity construct generation.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No fragment-sequence compatibility/secondary structure/misligation calculation."
+  },
+  {
+    "id": "biofactory_1_a:10",
+    "module": "biofactory_1_a",
+    "source_path": "spec/biofactory_1_a.md",
+    "spec_sha256": "0f3b53cd1d8486303ab203613aea36c5d17898bee5c129a33bd54a9d27f90a30",
+    "text": "These optimizations are continuously refined through Bayesian updating as new experimental results are fed back into the system.",
+    "review_status": "SCOPED_BEHAVIOR_REPRODUCED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Supplied Gaussian update mean17.5/21 variance1/21 matches/repeats, not learned condition optimization."
+  },
+  {
+    "id": "biofactory_1_a:11",
+    "module": "biofactory_1_a",
+    "source_path": "spec/biofactory_1_a.md",
+    "spec_sha256": "0f3b53cd1d8486303ab203613aea36c5d17898bee5c129a33bd54a9d27f90a30",
+    "text": "From a systems engineering perspective, the platform integrates real-time monitoring and control of laboratory processes.",
+    "review_status": "NOT_REALTIME_PRECISION_ASSURANCE",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Supplied measurements only, no streaming lab feedback."
+  },
+  {
+    "id": "biofactory_1_a:12",
+    "module": "biofactory_1_a",
+    "source_path": "spec/biofactory_1_a.md",
+    "spec_sha256": "0f3b53cd1d8486303ab203613aea36c5d17898bee5c129a33bd54a9d27f90a30",
+    "text": "It ingests sensor data\u2014optical density, fluorescence, temperature, pH\u2014and applies control theory (PID loops, model predictive control) to maintain optimal experimental conditions.",
+    "review_status": "PARTIAL_PI_NO_ACTUATORS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "PID arithmetic, no sensor ingestion/device actuator or MPC."
+  },
+  {
+    "id": "biofactory_1_a:13",
+    "module": "biofactory_1_a",
+    "source_path": "spec/biofactory_1_a.md",
+    "spec_sha256": "0f3b53cd1d8486303ab203613aea36c5d17898bee5c129a33bd54a9d27f90a30",
+    "text": "It can dynamically reroute workflows in response to failures or deviations, reallocating resources and scheduling alternative experimental paths.",
+    "review_status": "PARTIAL_CLASSICAL_GRAPH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Fallback node/edge rewrite, no live resource reallocation/recovery."
+  },
+  {
+    "id": "biofactory_1_a:14",
+    "module": "biofactory_1_a",
+    "source_path": "spec/biofactory_1_a.md",
+    "spec_sha256": "0f3b53cd1d8486303ab203613aea36c5d17898bee5c129a33bd54a9d27f90a30",
+    "text": "This transforms the lab into a resilient, self-correcting system rather than a static execution pipeline.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No self-correcting laboratory demonstrated."
+  },
+  {
+    "id": "biofactory_1_a:15",
+    "module": "biofactory_1_a",
+    "source_path": "spec/biofactory_1_a.md",
+    "spec_sha256": "0f3b53cd1d8486303ab203613aea36c5d17898bee5c129a33bd54a9d27f90a30",
+    "text": "Chemically, BioFactory 1-A accounts for reagent stability, degradation kinetics, and batch variability, ensuring reproducibility across large-scale experiments.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Exponential reagent-age/lot proxy not real batch reproducibility."
+  },
+  {
+    "id": "biofactory_1_a:16",
+    "module": "biofactory_1_a",
+    "source_path": "spec/biofactory_1_a.md",
+    "spec_sha256": "0f3b53cd1d8486303ab203613aea36c5d17898bee5c129a33bd54a9d27f90a30",
+    "text": "It tracks lot-to-lot variation in enzymes and reagents, adjusting protocols to compensate for activity differences.",
+    "review_status": "PARTIAL_INPUT_EFFECT_GAP",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "reagent_activity ignores initial_activity; no protocol compensation applied. schedule_resources ignores equipment_capacity."
+  },
+  {
+    "id": "biofactory_1_a:17",
+    "module": "biofactory_1_a",
+    "source_path": "spec/biofactory_1_a.md",
+    "spec_sha256": "0f3b53cd1d8486303ab203613aea36c5d17898bee5c129a33bd54a9d27f90a30",
+    "text": "For high-throughput screening, it optimizes assay conditions\u2014substrate concentrations, detection thresholds, signal-to-noise ratios\u2014enabling robust identification of successful variants in large combinatorial libraries.",
+    "review_status": "PARTIAL_CLASSICAL_STATISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Supplied Z-prime/signal-background statistic, no assay condition optimization."
+  },
+  {
+    "id": "biofactory_1_a:18",
+    "module": "biofactory_1_a",
+    "source_path": "spec/biofactory_1_a.md",
+    "spec_sha256": "0f3b53cd1d8486303ab203613aea36c5d17898bee5c129a33bd54a9d27f90a30",
+    "text": "Ultimately, BioFactory 1-A enables a fully automated design\u2013build\u2013test\u2013learn (DBTL) cycle, integrating seamlessly with platforms used by industrial labs such as Ginkgo Bioworks.",
+    "review_status": "NOT_ROBOT_PLATFORM_INTEGRATION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No industrial foundry/Ginkgo or automated DBTL integration."
+  },
+  {
+    "id": "biofactory_1_a:19",
+    "module": "biofactory_1_a",
+    "source_path": "spec/biofactory_1_a.md",
+    "spec_sha256": "0f3b53cd1d8486303ab203613aea36c5d17898bee5c129a33bd54a9d27f90a30",
+    "text": "It outputs executable protocols, robotic instructions, and experiment logs, creating a reproducible and scalable infrastructure for biological engineering.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Plan/log JSON exists, no proven executable/scalable robotic infrastructure."
+  },
+  {
+    "id": "biofactory_1_a:20",
+    "module": "biofactory_1_a",
+    "source_path": "spec/biofactory_1_a.md",
+    "spec_sha256": "0f3b53cd1d8486303ab203613aea36c5d17898bee5c129a33bd54a9d27f90a30",
+    "text": "By combining automation, control systems, and machine learning, it transforms biological research into a programmable, high-throughput manufacturing process.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No actual high-throughput manufacturing outcome."
+  },
+  {
+    "id": "syn_bio_studio:1",
+    "module": "syn_bio_studio",
+    "source_path": "spec/syn_bio_studio.md",
+    "spec_sha256": "885dede2cd97d1924c5258d07644f5611949b9fa7eb0efb419a0fd1fcc178158",
+    "text": "# Syn-Bio Studio\n\nSyn-Bio Studio: A visual design platform for building complex genetic logic circuits from modular biological parts.",
+    "review_status": "UNVERIFIED_VISUAL_CLAIM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Architecture records only, no visual design UI pixels inspected."
+  },
+  {
+    "id": "syn_bio_studio:2",
+    "module": "syn_bio_studio",
+    "source_path": "spec/syn_bio_studio.md",
+    "spec_sha256": "885dede2cd97d1924c5258d07644f5611949b9fa7eb0efb419a0fd1fcc178158",
+    "text": "It provides ODE-based simulations of circuit behavior, allowing researchers to verify logical function and dynamics.",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Toggle/repressilator ODE utilities exist; not full logic verification."
+  },
+  {
+    "id": "syn_bio_studio:3",
+    "module": "syn_bio_studio",
+    "source_path": "spec/syn_bio_studio.md",
+    "spec_sha256": "885dede2cd97d1924c5258d07644f5611949b9fa7eb0efb419a0fd1fcc178158",
+    "text": "Syn-Bio Studio enables the design of oscillators, switches, and sensors, ensuring that synthetic systems perform reliably before laboratory synthesis.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Simulations not real circuit reliability; default oscillator explicitly damped."
+  },
+  {
+    "id": "syn_bio_studio:4",
+    "module": "syn_bio_studio",
+    "source_path": "spec/syn_bio_studio.md",
+    "spec_sha256": "885dede2cd97d1924c5258d07644f5611949b9fa7eb0efb419a0fd1fcc178158",
+    "text": "Syn-Bio Studio evolves into a computational compiler for biological logic, where genetic circuits are treated analogously to electronic systems but governed by stochastic biochemical kinetics.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Architecture lookup not biochemical compiler emitting constructs."
+  },
+  {
+    "id": "syn_bio_studio:5",
+    "module": "syn_bio_studio",
+    "source_path": "spec/syn_bio_studio.md",
+    "spec_sha256": "885dede2cd97d1924c5258d07644f5611949b9fa7eb0efb419a0fd1fcc178158",
+    "text": "It allows users to define desired behaviors\u2014oscillation, bistability, logic gating, environmental sensing\u2014and compiles these into genetic architectures using standardized parts such as promoters, ribosome binding sites, transcription factors, and CRISPR-based regulators.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Behavior maps to node chain and supplied parts, no promoter/RBS/CRISPR sequence synthesis."
+  },
+  {
+    "id": "syn_bio_studio:6",
+    "module": "syn_bio_studio",
+    "source_path": "spec/syn_bio_studio.md",
+    "spec_sha256": "885dede2cd97d1924c5258d07644f5611949b9fa7eb0efb419a0fd1fcc178158",
+    "text": "Under the hood, circuits are modeled using systems of ordinary differential equations (ODEs) and stochastic simulations (e.g., Gillespie algorithms), capturing both deterministic dynamics and noise inherent in gene expression.",
+    "review_status": "SCOPED_SIMULATION_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "ODE/Gillespie utilities exist, noise model not real gene-expression validation."
+  },
+  {
+    "id": "syn_bio_studio:7",
+    "module": "syn_bio_studio",
+    "source_path": "spec/syn_bio_studio.md",
+    "spec_sha256": "885dede2cd97d1924c5258d07644f5611949b9fa7eb0efb419a0fd1fcc178158",
+    "text": "At the molecular level, Syn-Bio Studio integrates transcriptional and translational regulation models, accounting for promoter strength, transcription factor binding affinities, ribosome loading rates, and mRNA degradation.",
+    "review_status": "PARTIAL_PHYSICS_WITHOUT_NEURAL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Scalar alpha/beta/Hill and independent expression SSA; no full promoter-affinity/ribosome/mRNA coupled architecture model."
+  },
+  {
+    "id": "syn_bio_studio:8",
+    "module": "syn_bio_studio",
+    "source_path": "spec/syn_bio_studio.md",
+    "spec_sha256": "885dede2cd97d1924c5258d07644f5611949b9fa7eb0efb419a0fd1fcc178158",
+    "text": "It predicts how sequence-level features\u2014operator site spacing, GC content, secondary structure\u2014affect expression dynamics.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Supplied spacing/GC/pairing scores, not sequence-derived structure model."
+  },
+  {
+    "id": "syn_bio_studio:9",
+    "module": "syn_bio_studio",
+    "source_path": "spec/syn_bio_studio.md",
+    "spec_sha256": "885dede2cd97d1924c5258d07644f5611949b9fa7eb0efb419a0fd1fcc178158",
+    "text": "The system also models protein\u2013protein interactions, cooperative binding, and feedback loops, enabling the design of complex regulatory motifs such as repressilators, toggle switches, and feedforward networks with precise temporal behavior.",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Repression Hill feedback ODEs, precise biological timing unverified."
+  },
+  {
+    "id": "syn_bio_studio:10",
+    "module": "syn_bio_studio",
+    "source_path": "spec/syn_bio_studio.md",
+    "spec_sha256": "885dede2cd97d1924c5258d07644f5611949b9fa7eb0efb419a0fd1fcc178158",
+    "text": "From a systems biology perspective, the platform embeds circuits within host cellular networks, simulating resource competition, metabolic burden, and cross-talk with endogenous pathways.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Host load=(protein+transcription)/capacity scalar, no endogenous network cross-talk."
+  },
+  {
+    "id": "syn_bio_studio:11",
+    "module": "syn_bio_studio",
+    "source_path": "spec/syn_bio_studio.md",
+    "spec_sha256": "885dede2cd97d1924c5258d07644f5611949b9fa7eb0efb419a0fd1fcc178158",
+    "text": "It uses constraint-based modeling (FBA) and resource allocation frameworks to predict how synthetic circuits impact host growth and stability.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No FBA host coupling, growth proxy1/(1+load)."
+  },
+  {
+    "id": "syn_bio_studio:12",
+    "module": "syn_bio_studio",
+    "source_path": "spec/syn_bio_studio.md",
+    "spec_sha256": "885dede2cd97d1924c5258d07644f5611949b9fa7eb0efb419a0fd1fcc178158",
+    "text": "Evolutionary dynamics are also considered: the system estimates mutation rates, selection pressures, and circuit robustness over generations, identifying failure modes such as promoter silencing or metabolic toxicity.",
+    "review_status": "SCOPED_BEHAVIOR_REPRODUCED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Evolution exp(-(mutation+selection)*generation) endpoint matches independent exp(-.4); no promoter-silencing/toxicity validation."
+  },
+  {
+    "id": "syn_bio_studio:13",
+    "module": "syn_bio_studio",
+    "source_path": "spec/syn_bio_studio.md",
+    "spec_sha256": "885dede2cd97d1924c5258d07644f5611949b9fa7eb0efb419a0fd1fcc178158",
+    "text": "Chemically, Syn-Bio Studio models small-molecule interactions and signaling pathways that interface with genetic circuits.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No small-molecule pathway kinetics in module."
+  },
+  {
+    "id": "syn_bio_studio:14",
+    "module": "syn_bio_studio",
+    "source_path": "spec/syn_bio_studio.md",
+    "spec_sha256": "885dede2cd97d1924c5258d07644f5611949b9fa7eb0efb419a0fd1fcc178158",
+    "text": "It can design biosensors that respond to metabolites, toxins, or environmental cues by coupling ligand-binding domains to transcriptional outputs.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Sensor node architecture only, no engineered ligand-domain circuit."
+  },
+  {
+    "id": "syn_bio_studio:15",
+    "module": "syn_bio_studio",
+    "source_path": "spec/syn_bio_studio.md",
+    "spec_sha256": "885dede2cd97d1924c5258d07644f5611949b9fa7eb0efb419a0fd1fcc178158",
+    "text": "Reaction kinetics for ligand binding, diffusion, and degradation are incorporated, allowing accurate prediction of circuit responsiveness and sensitivity.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No ligand diffusion/degradation response model."
+  },
+  {
+    "id": "syn_bio_studio:16",
+    "module": "syn_bio_studio",
+    "source_path": "spec/syn_bio_studio.md",
+    "spec_sha256": "885dede2cd97d1924c5258d07644f5611949b9fa7eb0efb419a0fd1fcc178158",
+    "text": "This enables the construction of hybrid systems where chemical inputs are converted into genetic outputs with tunable thresholds and dynamic ranges.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Chemical-to-genetic programmable device not established."
+  },
+  {
+    "id": "syn_bio_studio:17",
+    "module": "syn_bio_studio",
+    "source_path": "spec/syn_bio_studio.md",
+    "spec_sha256": "885dede2cd97d1924c5258d07644f5611949b9fa7eb0efb419a0fd1fcc178158",
+    "text": "Finally, Syn-Bio Studio provides an end-to-end pipeline from design to deployment.",
+    "review_status": "NOT_PHYSICAL_EXECUTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No deployment pipeline/hardware connection."
+  },
+  {
+    "id": "syn_bio_studio:18",
+    "module": "syn_bio_studio",
+    "source_path": "spec/syn_bio_studio.md",
+    "spec_sha256": "885dede2cd97d1924c5258d07644f5611949b9fa7eb0efb419a0fd1fcc178158",
+    "text": "It generates DNA assembly plans (e.g., Golden Gate, Gibson), predicts construct stability, and outputs simulation reports detailing expected behavior under varying conditions.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Ordered parts/junction counts/checklist and simulation, no sequence-level assembly proof."
+  },
+  {
+    "id": "syn_bio_studio:19",
+    "module": "syn_bio_studio",
+    "source_path": "spec/syn_bio_studio.md",
+    "spec_sha256": "885dede2cd97d1924c5258d07644f5611949b9fa7eb0efb419a0fd1fcc178158",
+    "text": "Integration with automation platforms enables direct translation into high-throughput experiments.",
+    "review_status": "NOT_ROBOT_PLATFORM_INTEGRATION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No actual automation-platform adapter."
+  },
+  {
+    "id": "syn_bio_studio:20",
+    "module": "syn_bio_studio",
+    "source_path": "spec/syn_bio_studio.md",
+    "spec_sha256": "885dede2cd97d1924c5258d07644f5611949b9fa7eb0efb419a0fd1fcc178158",
+    "text": "By combining computational modeling, molecular biology, and chemical signaling, Syn-Bio Studio acts as a true \u201coperating system\u201d for programming living cells\u2014allowing researchers to design, simulate, and deploy complex biological circuits with engineering-level precision.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No living-cell deployment precision proof."
+  }
+]
