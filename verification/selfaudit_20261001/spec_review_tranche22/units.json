@@ -1,0 +1,432 @@
+[
+  {
+    "id": "dark_genome:1",
+    "module": "dark_genome",
+    "source_path": "spec/dark_genome.md",
+    "spec_sha256": "8e9d519957f47f9fa2a044d85e111e3bb8a56041c039766b06fa30107c69c748",
+    "text": "# Dark Genome\n\nDark Genome: A decoder for non-coding DNA, identifying hidden enhancers and functional RNA elements within the \"dark matter\" of the genome.",
+    "review_status": "PARTIAL_NONCODING_PROXIES",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "TF motif clusters, CpG windows and short ORF lncRNA candidates, not experimentally identified enhancer/RNA elements."
+  },
+  {
+    "id": "dark_genome:2",
+    "module": "dark_genome",
+    "source_path": "spec/dark_genome.md",
+    "spec_sha256": "8e9d519957f47f9fa2a044d85e111e3bb8a56041c039766b06fa30107c69c748",
+    "text": "It correlates variations in these regions with disease risk and generates novel hypotheses.",
+    "review_status": "PARTIAL_HYPOTHESIS_PLATFORM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Template assay suggestions and variant proxies; no disease-risk calibrated correlation."
+  },
+  {
+    "id": "dark_genome:3",
+    "module": "dark_genome",
+    "source_path": "spec/dark_genome.md",
+    "spec_sha256": "8e9d519957f47f9fa2a044d85e111e3bb8a56041c039766b06fa30107c69c748",
+    "text": "Dark Genome maps the regulatory landscape, helping researchers understand how non-protein-coding sequences influence biological phenotypes.",
+    "review_status": "PARTIAL_SCALAR_REGULATORY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Regulatory field/graph scalar proxies, phenotype mapping unvalidated."
+  },
+  {
+    "id": "dark_genome:4",
+    "module": "dark_genome",
+    "source_path": "spec/dark_genome.md",
+    "spec_sha256": "8e9d519957f47f9fa2a044d85e111e3bb8a56041c039766b06fa30107c69c748",
+    "text": "Dark Genome\u00a0can be pushed further into a truly frontier-grade regulatory inference system by explicitly modeling the genome as a probabilistic, multi-scale dynamical system, where sequence, chromatin state, and 3D topology are jointly embedded into a unified latent space.",
+    "review_status": "PARTIAL_EXPLICIT_PHYSICS_NOT_LEARNED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Hand-weighted GC/motif/chromatin values and supplied/distance contacts, no unified learned probabilistic latent manifold."
+  },
+  {
+    "id": "dark_genome:5",
+    "module": "dark_genome",
+    "source_path": "spec/dark_genome.md",
+    "spec_sha256": "8e9d519957f47f9fa2a044d85e111e3bb8a56041c039766b06fa30107c69c748",
+    "text": "Instead of treating transformer-derived sequence embeddings and epigenomic tracks as loosely coupled layers, the system can implement a multi-modal foundation model\u00a0trained on aligned sequence\u2013epigenome\u2013transcriptome datasets, where attention heads are conditioned not only on nucleotide context but also on cell-type\u2013specific chromatin states and temporal gene expression profiles.",
+    "review_status": "NOT_DEEP_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No trained sequence-epigenome-transcriptome multimodal foundation model."
+  },
+  {
+    "id": "dark_genome:6",
+    "module": "dark_genome",
+    "source_path": "spec/dark_genome.md",
+    "spec_sha256": "8e9d519957f47f9fa2a044d85e111e3bb8a56041c039766b06fa30107c69c748",
+    "text": "This allows Dark Genome to learn context-dependent regulatory grammars, where the same motif can have divergent effects depending on histone modifications, cofactor availability, or spatial chromatin configuration, effectively moving beyond static motif detection into conditional regulatory logic.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Input state affects additive potential and AND/OR/NOT arithmetic, not learned conditional motif grammar."
+  },
+  {
+    "id": "dark_genome:7",
+    "module": "dark_genome",
+    "source_path": "spec/dark_genome.md",
+    "spec_sha256": "8e9d519957f47f9fa2a044d85e111e3bb8a56041c039766b06fa30107c69c748",
+    "text": "At the architectural level, Dark Genome can incorporate neural fields over the genome, where every genomic coordinate is associated with a continuous embedding that encodes its regulatory potential across conditions.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Per-bin scalar field, no every-coordinate continuous neural field."
+  },
+  {
+    "id": "dark_genome:8",
+    "module": "dark_genome",
+    "source_path": "spec/dark_genome.md",
+    "spec_sha256": "8e9d519957f47f9fa2a044d85e111e3bb8a56041c039766b06fa30107c69c748",
+    "text": "These embeddings can be updated via graph neural operators\u00a0acting over 3D chromatin contact maps derived from Hi-C, Micro-C, and SPRITE data, enabling the system to simulate how perturbations propagate through topologically associating domains (TADs) and inter-TAD loops.",
+    "review_status": "PARTIAL_CLASSICAL_GRAPH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Supplied contact matrix/distance graph and normalized propagation, no trained neural operator or Hi-C/Micro-C/SPRITE ingestion."
+  },
+  {
+    "id": "dark_genome:9",
+    "module": "dark_genome",
+    "source_path": "spec/dark_genome.md",
+    "spec_sha256": "8e9d519957f47f9fa2a044d85e111e3bb8a56041c039766b06fa30107c69c748",
+    "text": "By integrating causal inference frameworks\u2014such as do-calculus approximations within learned structural causal models\u2014the platform can distinguish correlation from causation, predicting not just which enhancer is associated with a gene, but which perturbation will reliably alter its expression under specific cellular constraints.",
+    "review_status": "PARTIAL_CLASSICAL_STATISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Correlation/treated-minus-control effect conditional on user labels; no learned SCM/do-calculus identifiability."
+  },
+  {
+    "id": "dark_genome:10",
+    "module": "dark_genome",
+    "source_path": "spec/dark_genome.md",
+    "spec_sha256": "8e9d519957f47f9fa2a044d85e111e3bb8a56041c039766b06fa30107c69c748",
+    "text": "For variant interpretation, Dark Genome can implement a generative counterfactual engine\u00a0that simulates alternate genomic states at single-base resolution.",
+    "review_status": "SCOPED_VARIANT_UTILITIES",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "One-base mutation counterfactual with seeded Gaussian noise, no trained generative model."
+  },
+  {
+    "id": "dark_genome:11",
+    "module": "dark_genome",
+    "source_path": "spec/dark_genome.md",
+    "spec_sha256": "8e9d519957f47f9fa2a044d85e111e3bb8a56041c039766b06fa30107c69c748",
+    "text": "Given a non-coding variant, the system generates paired forward passes\u2014wild-type vs mutated\u2014through the full regulatory model, quantifying differential effects on transcription factor occupancy, nucleosome positioning, chromatin accessibility, and downstream transcriptional output.",
+    "review_status": "PARTIAL_SEQUENCE_HEURISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "WT/mut motif/potential/nucleosome proxies, not full chromatin/accessibility/transcription model."
+  },
+  {
+    "id": "dark_genome:12",
+    "module": "dark_genome",
+    "source_path": "spec/dark_genome.md",
+    "spec_sha256": "8e9d519957f47f9fa2a044d85e111e3bb8a56041c039766b06fa30107c69c748",
+    "text": "This is augmented by energy-based models of protein\u2013DNA interaction\u00a0that account for DNA shape features (minor groove width, helix twist) in addition to sequence, allowing the system to capture subtle biophysical effects missed by motif-based approaches.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Motif-match energy and AT minor-groove proxy, not calibrated shape/helix-twist biophysics."
+  },
+  {
+    "id": "dark_genome:13",
+    "module": "dark_genome",
+    "source_path": "spec/dark_genome.md",
+    "spec_sha256": "8e9d519957f47f9fa2a044d85e111e3bb8a56041c039766b06fa30107c69c748",
+    "text": "The output is not a single score but a distribution over regulatory outcomes, reflecting uncertainty and cell-state variability.",
+    "review_status": "PARTIAL_UNCERTAINTY_NOT_CALIBRATION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Uncertainty added Gaussian noise with fixed sequence-length scale, not calibrated outcome distribution."
+  },
+  {
+    "id": "dark_genome:14",
+    "module": "dark_genome",
+    "source_path": "spec/dark_genome.md",
+    "spec_sha256": "8e9d519957f47f9fa2a044d85e111e3bb8a56041c039766b06fa30107c69c748",
+    "text": "Dark Genome can further integrate temporal and developmental dimensions\u00a0by training on time-series single-cell multi-omics datasets (scRNA-seq + scATAC-seq + lineage tracing).",
+    "review_status": "NOT_CONTINUOUS_TRAINING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No single-cell time-series multi-omics model training."
+  },
+  {
+    "id": "dark_genome:15",
+    "module": "dark_genome",
+    "source_path": "spec/dark_genome.md",
+    "spec_sha256": "8e9d519957f47f9fa2a044d85e111e3bb8a56041c039766b06fa30107c69c748",
+    "text": "This enables the reconstruction of regulatory trajectories, where non-coding elements are assigned dynamic roles across differentiation or disease progression.",
+    "review_status": "PARTIAL_TRAJECTORY_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Supplied Markov matrix powers, not learned differentiation/disease regulatory trajectories."
+  },
+  {
+    "id": "dark_genome:16",
+    "module": "dark_genome",
+    "source_path": "spec/dark_genome.md",
+    "spec_sha256": "8e9d519957f47f9fa2a044d85e111e3bb8a56041c039766b06fa30107c69c748",
+    "text": "The system can then predict how perturbing a regulatory element at one time point alters future cell states, effectively enabling forward simulation of lineage outcomes.",
+    "review_status": "SCOPED_MODEL_TRAJECTORY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Two-step probability state [.66,.34] reproduces arithmetic, no future lineage biology assurance."
+  },
+  {
+    "id": "dark_genome:17",
+    "module": "dark_genome",
+    "source_path": "spec/dark_genome.md",
+    "spec_sha256": "8e9d519957f47f9fa2a044d85e111e3bb8a56041c039766b06fa30107c69c748",
+    "text": "Coupled with this, a reinforcement-learning layer can explore intervention strategies (e.g., enhancer activation, silencing, or sequence editing) to achieve desired transcriptional states, turning the platform into an active design engine for cell fate control.",
+    "review_status": "NOT_CONTINUOUS_TRAINING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Exhaustive base-edit search, not RL intervention policy."
+  },
+  {
+    "id": "dark_genome:18",
+    "module": "dark_genome",
+    "source_path": "spec/dark_genome.md",
+    "spec_sha256": "8e9d519957f47f9fa2a044d85e111e3bb8a56041c039766b06fa30107c69c748",
+    "text": "Finally, at the systems integration level, Dark Genome becomes a closed-loop experimental\u2013computational platform.",
+    "review_status": "NOT_DISTRIBUTED_LAB",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No actual closed-loop experimental platform."
+  },
+  {
+    "id": "dark_genome:19",
+    "module": "dark_genome",
+    "source_path": "spec/dark_genome.md",
+    "spec_sha256": "8e9d519957f47f9fa2a044d85e111e3bb8a56041c039766b06fa30107c69c748",
+    "text": "It can propose perturbations (CRISPRi/a, base edits, epigenetic rewiring), simulate their multi-scale effects, and iteratively update its models using experimental feedback such as Perturb-seq or CRISPR screens.",
+    "review_status": "PARTIAL_LOCAL_PLANNING_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Base-edit proxy ranking and Gaussian conjugate feedback; no Perturb-seq/CRISPR screen ingestion or hardware edits."
+  },
+  {
+    "id": "dark_genome:20",
+    "module": "dark_genome",
+    "source_path": "spec/dark_genome.md",
+    "spec_sha256": "8e9d519957f47f9fa2a044d85e111e3bb8a56041c039766b06fa30107c69c748",
+    "text": "Outputs are structured as fully reproducible regulatory blueprints, including enhancer maps, causal interaction graphs, variant effect distributions, and prioritized intervention strategies.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Element/graph/ranked edit dictionaries; no real causal blueprint reproducibility assurance."
+  },
+  {
+    "id": "dark_genome:21",
+    "module": "dark_genome",
+    "source_path": "spec/dark_genome.md",
+    "spec_sha256": "8e9d519957f47f9fa2a044d85e111e3bb8a56041c039766b06fa30107c69c748",
+    "text": "By unifying deep generative modeling, 3D genome physics, and causal reasoning, Dark Genome operates as a predictive engine for the non-coding genome, capable not only of interpreting regulatory DNA but of actively engineering it to control gene expression with high precision.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No precision engineering of noncoding genome validated."
+  },
+  {
+    "id": "rna_decoder:1",
+    "module": "rna_decoder",
+    "source_path": "spec/rna_decoder.md",
+    "spec_sha256": "043c43b43f5e920cb09ff36e2d041a24ae4a7d7395a9da4d63ed538f4b03ef7f",
+    "text": "# RNA Decoder\n\nRNA Decoder: A tool for predicting epitranscriptomic modifications like m6A from sequence data, using models trained on nanopore datasets.",
+    "review_status": "NOT_DEEP_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "m6A DRACH motifs, region priors and GC exposure, no trained nanopore model."
+  },
+  {
+    "id": "rna_decoder:2",
+    "module": "rna_decoder",
+    "source_path": "spec/rna_decoder.md",
+    "spec_sha256": "043c43b43f5e920cb09ff36e2d041a24ae4a7d7395a9da4d63ed538f4b03ef7f",
+    "text": "It visualizes modification maps and simulates the impact of synthetic RNA edits on translation efficiency.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Track arrays and motif-count functional proxy; visualization pixels uninspected."
+  },
+  {
+    "id": "rna_decoder:3",
+    "module": "rna_decoder",
+    "source_path": "spec/rna_decoder.md",
+    "spec_sha256": "043c43b43f5e920cb09ff36e2d041a24ae4a7d7395a9da4d63ed538f4b03ef7f",
+    "text": "RNA Decoder allows for the design of optimized mRNA sequences, enhancing stability and expression for therapeutics.",
+    "review_status": "NOT_THERAPEUTIC_VALIDITY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Action suggestions and fixed effect text, no optimized sequence/therapeutic stability validation."
+  },
+  {
+    "id": "rna_decoder:4",
+    "module": "rna_decoder",
+    "source_path": "spec/rna_decoder.md",
+    "spec_sha256": "043c43b43f5e920cb09ff36e2d041a24ae4a7d7395a9da4d63ed538f4b03ef7f",
+    "text": "RNA Decoder can be elevated into a fully integrated epitranscriptomic inference and design engine that models RNA not merely as a linear sequence, but as a dynamically modified, structurally adaptive, and translation-coupled information layer.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Sequence/structure/kinetics utilities, no integrated chemically validated RNA layer."
+  },
+  {
+    "id": "rna_decoder:5",
+    "module": "rna_decoder",
+    "source_path": "spec/rna_decoder.md",
+    "spec_sha256": "043c43b43f5e920cb09ff36e2d041a24ae4a7d7395a9da4d63ed538f4b03ef7f",
+    "text": "At its core, the system leverages multi-modal deep learning architectures trained on nanopore direct RNA sequencing, miCLIP, and MeRIP-seq datasets to detect and quantify RNA modifications such as m6A, m5C, \u03a8 (pseudouridine), and m1A at single-nucleotide resolution.",
+    "review_status": "NOT_DEEP_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Motif maps for four marks, no trained nanopore/miCLIP/MeRIP multimodal model or stoichiometry calibration."
+  },
+  {
+    "id": "rna_decoder:6",
+    "module": "rna_decoder",
+    "source_path": "spec/rna_decoder.md",
+    "spec_sha256": "043c43b43f5e920cb09ff36e2d041a24ae4a7d7395a9da4d63ed538f4b03ef7f",
+    "text": "These models go beyond signal classification by incorporating raw ionic current traces and basecalling uncertainty profiles, enabling de novo identification of modification signatures even in poorly annotated transcriptomes.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Signal minus expected z-score logistic, no basecalling uncertainty/de novo signatures learned."
+  },
+  {
+    "id": "rna_decoder:7",
+    "module": "rna_decoder",
+    "source_path": "spec/rna_decoder.md",
+    "spec_sha256": "043c43b43f5e920cb09ff36e2d041a24ae4a7d7395a9da4d63ed538f4b03ef7f",
+    "text": "The resulting outputs are probabilistic modification maps that capture both site occupancy and stoichiometry across different cellular conditions.",
+    "review_status": "PARTIAL_UNCERTAINTY_NOT_CALIBRATION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "m6A weighted heuristic and other motif presence, no calibrated occupancy/condition stoichiometry."
+  },
+  {
+    "id": "rna_decoder:8",
+    "module": "rna_decoder",
+    "source_path": "spec/rna_decoder.md",
+    "spec_sha256": "043c43b43f5e920cb09ff36e2d041a24ae4a7d7395a9da4d63ed538f4b03ef7f",
+    "text": "The platform integrates RNA secondary and tertiary structure prediction directly into its modification analysis pipeline, recognizing that many epitranscriptomic marks are structurally contextual.",
+    "review_status": "PARTIAL_SEQUENCE_HEURISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Sliding-window GC/palindrome proxies, no validated secondary/tertiary structure."
+  },
+  {
+    "id": "rna_decoder:9",
+    "module": "rna_decoder",
+    "source_path": "spec/rna_decoder.md",
+    "spec_sha256": "043c43b43f5e920cb09ff36e2d041a24ae4a7d7395a9da4d63ed538f4b03ef7f",
+    "text": "RNA Decoder uses thermodynamic folding algorithms augmented with graph neural networks to model base-pairing interactions and higher-order motifs, then overlays modification likelihoods to identify structurally constrained modification hotspots.",
+    "review_status": "NOT_TRAINED_GNN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No thermodynamic folding/GNN. Homopolymer AAAA gives pairing_probability1 by identity reversal, not complementary base pairing."
+  },
+  {
+    "id": "rna_decoder:10",
+    "module": "rna_decoder",
+    "source_path": "spec/rna_decoder.md",
+    "spec_sha256": "043c43b43f5e920cb09ff36e2d041a24ae4a7d7395a9da4d63ed538f4b03ef7f",
+    "text": "It simulates how modifications alter local folding energy landscapes, ribosome accessibility, and RNA\u2013protein interaction interfaces, enabling predictions of how specific edits influence transcript stability, splicing efficiency, and translation rates.",
+    "review_status": "PARTIAL_EXPLICIT_PHYSICS_NOT_LEARNED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Linear motif-count impact and GC energy proxy, no splicing/protein interface folding-energy simulation."
+  },
+  {
+    "id": "rna_decoder:11",
+    "module": "rna_decoder",
+    "source_path": "spec/rna_decoder.md",
+    "spec_sha256": "043c43b43f5e920cb09ff36e2d041a24ae4a7d7395a9da4d63ed538f4b03ef7f",
+    "text": "This creates a unified framework where sequence, structure, and chemical modification are jointly optimized.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Scores/suggestions, not joint sequence/structure/chemical optimization."
+  },
+  {
+    "id": "rna_decoder:12",
+    "module": "rna_decoder",
+    "source_path": "spec/rna_decoder.md",
+    "spec_sha256": "043c43b43f5e920cb09ff36e2d041a24ae4a7d7395a9da4d63ed538f4b03ef7f",
+    "text": "A key innovation is its ability to model co-transcriptional and post-transcriptional dynamics of RNA modifications.",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Closed-form first-order writer/eraser occupancy, no cotranscriptional dynamics."
+  },
+  {
+    "id": "rna_decoder:13",
+    "module": "rna_decoder",
+    "source_path": "spec/rna_decoder.md",
+    "spec_sha256": "043c43b43f5e920cb09ff36e2d041a24ae4a7d7395a9da4d63ed538f4b03ef7f",
+    "text": "By integrating time-series datasets and transcriptional kinetics, RNA Decoder reconstructs modification deposition and removal processes mediated by writer (e.g., METTL3/14), eraser (e.g., FTO, ALKBH5), and reader proteins.",
+    "review_status": "PARTIAL_INPUT_DEPENDENT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Supplied rates only, no time-series fitting, writer/eraser identity activity or reader processes."
+  },
+  {
+    "id": "rna_decoder:14",
+    "module": "rna_decoder",
+    "source_path": "spec/rna_decoder.md",
+    "spec_sha256": "043c43b43f5e920cb09ff36e2d041a24ae4a7d7395a9da4d63ed538f4b03ef7f",
+    "text": "It builds kinetic models that predict how environmental signals or cellular states shift modification landscapes over time, allowing users to simulate perturbations such as enzyme knockdowns or overexpression.",
+    "review_status": "SCOPED_SIMULATION_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Rate-dependent occupancy, no measured condition/knockdown validity."
+  },
+  {
+    "id": "rna_decoder:15",
+    "module": "rna_decoder",
+    "source_path": "spec/rna_decoder.md",
+    "spec_sha256": "043c43b43f5e920cb09ff36e2d041a24ae4a7d7395a9da4d63ed538f4b03ef7f",
+    "text": "This temporal dimension is critical for understanding transient regulatory events, such as stress responses or developmental transitions, where RNA modifications act as rapid control mechanisms.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No transient stress/developmental biological prediction validation."
+  },
+  {
+    "id": "rna_decoder:16",
+    "module": "rna_decoder",
+    "source_path": "spec/rna_decoder.md",
+    "spec_sha256": "043c43b43f5e920cb09ff36e2d041a24ae4a7d7395a9da4d63ed538f4b03ef7f",
+    "text": "RNA Decoder also functions as a design engine for synthetic RNA therapeutics, optimizing sequences for stability, translational efficiency, and immunogenicity.",
+    "review_status": "NOT_THERAPEUTIC_VALIDITY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Heuristic suggestions, not experimentally optimized therapeutics."
+  },
+  {
+    "id": "rna_decoder:17",
+    "module": "rna_decoder",
+    "source_path": "spec/rna_decoder.md",
+    "spec_sha256": "043c43b43f5e920cb09ff36e2d041a24ae4a7d7395a9da4d63ed538f4b03ef7f",
+    "text": "It can propose synonymous codon substitutions and UTR engineering strategies that modulate ribosome loading, RNA half-life, and interaction with innate immune sensors.",
+    "review_status": "PARTIAL_RECOMMENDATIONS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Labels recommend synonymous motif edits/GC lift, no proposed concrete codon substitutions or UTR engineered sequence."
+  },
+  {
+    "id": "rna_decoder:18",
+    "module": "rna_decoder",
+    "source_path": "spec/rna_decoder.md",
+    "spec_sha256": "043c43b43f5e920cb09ff36e2d041a24ae4a7d7395a9da4d63ed538f4b03ef7f",
+    "text": "The system simulates how specific modification patterns\u2014such as pseudouridine incorporation in mRNA vaccines\u2014affect translation kinetics and immune activation, enabling rational design of RNA constructs with desired expression profiles.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "TT motifs labeled psi and linear translation/immune effects, not actual pseudouridine incorporation or validated kinetics."
+  },
+  {
+    "id": "rna_decoder:19",
+    "module": "rna_decoder",
+    "source_path": "spec/rna_decoder.md",
+    "spec_sha256": "043c43b43f5e920cb09ff36e2d041a24ae4a7d7395a9da4d63ed538f4b03ef7f",
+    "text": "It further evaluates delivery compatibility by predicting how sequence features influence encapsulation efficiency and degradation in different delivery systems.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "LNP GC-derived encapsulation proxy or .5 other delivery, no measured encapsulation/degradation."
+  },
+  {
+    "id": "rna_decoder:20",
+    "module": "rna_decoder",
+    "source_path": "spec/rna_decoder.md",
+    "spec_sha256": "043c43b43f5e920cb09ff36e2d041a24ae4a7d7395a9da4d63ed538f4b03ef7f",
+    "text": "At the systems level, RNA Decoder outputs comprehensive epitranscriptomic profiles, including modification maps, structural annotations, and predicted functional impacts, alongside experimentally actionable designs.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Profile/annotation/impact dictionaries and validation checklist, actionable chemical accuracy not established."
+  },
+  {
+    "id": "rna_decoder:21",
+    "module": "rna_decoder",
+    "source_path": "spec/rna_decoder.md",
+    "spec_sha256": "043c43b43f5e920cb09ff36e2d041a24ae4a7d7395a9da4d63ed538f4b03ef7f",
+    "text": "These outputs can be exported into formats compatible with downstream validation methods such as nanopore sequencing pipelines, ribosome profiling, or CLIP-seq experiments.",
+    "review_status": "UNVERIFIED_INTEGRATION_CLAIM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No checked nanopore/ribosome/CLIP export adapter in inspected module."
+  },
+  {
+    "id": "rna_decoder:22",
+    "module": "rna_decoder",
+    "source_path": "spec/rna_decoder.md",
+    "spec_sha256": "043c43b43f5e920cb09ff36e2d041a24ae4a7d7395a9da4d63ed538f4b03ef7f",
+    "text": "By integrating signal-level data, structural modeling, and dynamic regulation, RNA Decoder operates as a full-stack interpreter and engineer of the RNA layer, enabling researchers to decode and manipulate the epitranscriptome with a level of precision that parallels advances in genome editing.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No precision full-stack interpreter or genome-editing-parallel assurance."
+  }
+]

@@ -1,0 +1,110 @@
+{
+  "runs": [
+    {
+      "temporal": [
+        0.6600000000000001,
+        0.34
+      ],
+      "reference": [
+        0.66,
+        0.34
+      ],
+      "temporal_match": true,
+      "posterior": {
+        "mean": 0.11,
+        "std": 0.09486832980505139,
+        "prior_mean": 0.2,
+        "observed": 0.1
+      },
+      "posterior_reference_mean": 0.11,
+      "posterior_matches": true,
+      "rna_initial_match": true,
+      "rna_equilibrium_match": true,
+      "counterfactual": {
+        "ref": "T",
+        "alt": "A",
+        "position": 5,
+        "cell_states": {
+          "generic": {
+            "delta_regulatory_potential": 0.0,
+            "delta_tf_energy": -0.473076923076923,
+            "delta_nucleosome": 0.0,
+            "expression_delta_mean": -0.008882517541023528,
+            "expression_delta_std": 0.14916142176986893,
+            "ci90": [
+              -0.27086048676660174,
+              0.17778943114494855
+            ]
+          }
+        },
+        "seed": 2,
+        "samples": 40
+      },
+      "structure_homopolymer": [
+        {
+          "start": 0,
+          "pairing_probability": 1.0,
+          "folding_dg_proxy": -2.0
+        }
+      ],
+      "rna_translation_output": {
+        "translation_efficiency": "+10-25% (CDS de-m6A, GC lift)",
+        "half_life": "extended via 3'UTR reader recruitment"
+      }
+    },
+    {
+      "temporal": [
+        0.6600000000000001,
+        0.34
+      ],
+      "reference": [
+        0.66,
+        0.34
+      ],
+      "temporal_match": true,
+      "posterior": {
+        "mean": 0.11,
+        "std": 0.09486832980505139,
+        "prior_mean": 0.2,
+        "observed": 0.1
+      },
+      "posterior_reference_mean": 0.11,
+      "posterior_matches": true,
+      "rna_initial_match": true,
+      "rna_equilibrium_match": true,
+      "counterfactual": {
+        "ref": "T",
+        "alt": "A",
+        "position": 5,
+        "cell_states": {
+          "generic": {
+            "delta_regulatory_potential": 0.0,
+            "delta_tf_energy": -0.473076923076923,
+            "delta_nucleosome": 0.0,
+            "expression_delta_mean": -0.008882517541023528,
+            "expression_delta_std": 0.14916142176986893,
+            "ci90": [
+              -0.27086048676660174,
+              0.17778943114494855
+            ]
+          }
+        },
+        "seed": 2,
+        "samples": 40
+      },
+      "structure_homopolymer": [
+        {
+          "start": 0,
+          "pairing_probability": 1.0,
+          "folding_dg_proxy": -2.0
+        }
+      ],
+      "rna_translation_output": {
+        "translation_efficiency": "+10-25% (CDS de-m6A, GC lift)",
+        "half_life": "extended via 3'UTR reader recruitment"
+      }
+    }
+  ],
+  "repeat_equal": true,
+  "scope": "Seeded proxy and supplied-value arithmetic only; no calibrated regulatory distribution, thermodynamic RNA fold, therapeutic/immune/delivery precision."
+}
