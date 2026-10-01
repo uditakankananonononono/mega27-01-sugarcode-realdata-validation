@@ -3,7 +3,7 @@
     {
       "lp_product": 4.0,
       "lp_independent_max": 4.0,
-      "lp_reference_matches": false,
+      "lp_reference_matches": true,
       "binding_reference_matches": true,
       "mm_reference_matches": true,
       "expression_steady": 40.0,
@@ -23,7 +23,7 @@
     {
       "lp_product": 4.0,
       "lp_independent_max": 4.0,
-      "lp_reference_matches": false,
+      "lp_reference_matches": true,
       "binding_reference_matches": true,
       "mm_reference_matches": true,
       "expression_steady": 40.0,
