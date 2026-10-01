@@ -1,0 +1,40 @@
+{
+  "runs": [
+    {
+      "occupancy": {
+        "dcas": 0.25,
+        "endogenous_tf": 0.5,
+        "unbound": 0.25
+      },
+      "reference": 16.666666666666668,
+      "match": true,
+      "feedback_fixed_point_residual": -8.326672684688674e-17,
+      "fixed_point_matches": true,
+      "lnp_12h_concentration": 16.66667,
+      "half_life_matches": true,
+      "mass_balance_error": 1.4210854715202004e-14,
+      "mass_balance_matches": true,
+      "vehicle_uptake_equal": true,
+      "vehicle_limitation": "vehicle parameter is output label only in receptor_uptake, not capsid/receptor-specific affinity."
+    },
+    {
+      "occupancy": {
+        "dcas": 0.25,
+        "endogenous_tf": 0.5,
+        "unbound": 0.25
+      },
+      "reference": 16.666666666666668,
+      "match": true,
+      "feedback_fixed_point_residual": -8.326672684688674e-17,
+      "fixed_point_matches": true,
+      "lnp_12h_concentration": 16.66667,
+      "half_life_matches": true,
+      "mass_balance_error": 1.4210854715202004e-14,
+      "mass_balance_matches": true,
+      "vehicle_uptake_equal": true,
+      "vehicle_limitation": "vehicle parameter is output label only in receptor_uptake, not capsid/receptor-specific affinity."
+    }
+  ],
+  "repeat_equal": true,
+  "scope": "Toy/supplied mathematical model identities, not precision gene regulation or clinical delivery validation."
+}

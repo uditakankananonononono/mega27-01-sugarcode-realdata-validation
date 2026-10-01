@@ -1,0 +1,442 @@
+[
+  {
+    "id": "crispr_cargo:1",
+    "module": "crispr_cargo",
+    "source_path": "spec/crispr_cargo.md",
+    "spec_sha256": "9767099a728791346757ec18f3f3473d0ea94bbc4f3871a54dea54787f57899d",
+    "text": "# CRISPR Cargo\n\nCRISPR Cargo: An optimization module for delivery systems, suggesting the best LNPs or AAV serotypes for specific CRISPR payloads and target tissues.",
+    "review_status": "SCOPED_CURATED_RANKING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Six fixed vehicle profiles weighted cargo/tropism/dose scores, not globally best vehicle validated."
+  },
+  {
+    "id": "crispr_cargo:2",
+    "module": "crispr_cargo",
+    "source_path": "spec/crispr_cargo.md",
+    "spec_sha256": "9767099a728791346757ec18f3f3473d0ea94bbc4f3871a54dea54787f57899d",
+    "text": "It generates pharmacokinetic models showing vehicle concentration over time.",
+    "review_status": "SCOPED_BEHAVIOR_REPRODUCED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "First-order concentration halves at12h for fixed LNP half-life12; supplied model only."
+  },
+  {
+    "id": "crispr_cargo:3",
+    "module": "crispr_cargo",
+    "source_path": "spec/crispr_cargo.md",
+    "spec_sha256": "9767099a728791346757ec18f3f3473d0ea94bbc4f3871a54dea54787f57899d",
+    "text": "CRISPR Cargo helps researchers overcome delivery hurdles by ensuring that genetic payloads reach their intended destinations safely and effectively.",
+    "review_status": "NOT_THERAPEUTIC_VALIDITY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No safe/effective destination delivery ensured."
+  },
+  {
+    "id": "crispr_cargo:4",
+    "module": "crispr_cargo",
+    "source_path": "spec/crispr_cargo.md",
+    "spec_sha256": "9767099a728791346757ec18f3f3473d0ea94bbc4f3871a54dea54787f57899d",
+    "text": "CRISPR Cargo\u00a0expands far beyond a simple delivery recommendation tool into a multi-scale delivery intelligence system that models the full lifecycle of CRISPR payload transport\u2014from systemic administration to intracellular release and nuclear localization.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "PK/uptake/architecture/activity proxies, not full intracellular/nuclear lifecycle."
+  },
+  {
+    "id": "crispr_cargo:5",
+    "module": "crispr_cargo",
+    "source_path": "spec/crispr_cargo.md",
+    "spec_sha256": "9767099a728791346757ec18f3f3473d0ea94bbc4f3871a54dea54787f57899d",
+    "text": "At its core, the platform integrates pharmacokinetic/pharmacodynamic (PK/PD) modeling with nanoparticle biophysics and viral vector tropism data to simulate how different delivery vehicles (lipid nanoparticles, engineered AAV capsids, polymeric carriers) behave across tissue compartments.",
+    "review_status": "PARTIAL_EXPLICIT_PHYSICS_NOT_LEARNED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Fixed tropism and two tissue/plasma plus cleared compartments, no coupled validated PK/PD."
+  },
+  {
+    "id": "crispr_cargo:6",
+    "module": "crispr_cargo",
+    "source_path": "spec/crispr_cargo.md",
+    "spec_sha256": "9767099a728791346757ec18f3f3473d0ea94bbc4f3871a54dea54787f57899d",
+    "text": "It incorporates organ-level biodistribution models, vascular permeability coefficients, and receptor-mediated uptake kinetics to predict concentration gradients over time, effectively allowing researchers to visualize how a CRISPR payload disperses, accumulates, and clears in specific tissues under different dosing regimens.",
+    "review_status": "PARTIAL_SIMULATION_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "One supplied target compartment/clearance, no organ-specific vascular permeability or multiple-dose regimens."
+  },
+  {
+    "id": "crispr_cargo:7",
+    "module": "crispr_cargo",
+    "source_path": "spec/crispr_cargo.md",
+    "spec_sha256": "9767099a728791346757ec18f3f3473d0ea94bbc4f3871a54dea54787f57899d",
+    "text": "At the molecular level, CRISPR Cargo models vector\u2013cell interactions with high specificity by integrating receptor expression atlases (e.g., single-cell RNA-seq\u2013derived surface protein profiles) to predict uptake efficiency in heterogeneous cell populations.",
+    "review_status": "PARTIAL_INPUT_DEPENDENT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "User subtype expression times maximum tissue atlas receptor value; no receptor-specific/scRNA atlas ingestion."
+  },
+  {
+    "id": "crispr_cargo:8",
+    "module": "crispr_cargo",
+    "source_path": "spec/crispr_cargo.md",
+    "spec_sha256": "9767099a728791346757ec18f3f3473d0ea94bbc4f3871a54dea54787f57899d",
+    "text": "For viral systems, it leverages capsid\u2013receptor binding datasets and structural docking simulations to estimate transduction efficiency and immune recognition risk.",
+    "review_status": "NOT_STRUCTURAL_DOCKING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No capsid receptor structural docking/binding dataset integration."
+  },
+  {
+    "id": "crispr_cargo:9",
+    "module": "crispr_cargo",
+    "source_path": "spec/crispr_cargo.md",
+    "spec_sha256": "9767099a728791346757ec18f3f3473d0ea94bbc4f3871a54dea54787f57899d",
+    "text": "For non-viral systems like lipid nanoparticles, it simulates membrane fusion dynamics, endosomal escape probability, and cargo release kinetics using physicochemical parameters such as particle size distribution, zeta potential, ionizable lipid pKa, and PEGylation density.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Size/pKa/PEG score equations and clearance heuristic, no physicochemical membrane/cargo-release kinetics."
+  },
+  {
+    "id": "crispr_cargo:10",
+    "module": "crispr_cargo",
+    "source_path": "spec/crispr_cargo.md",
+    "spec_sha256": "9767099a728791346757ec18f3f3473d0ea94bbc4f3871a54dea54787f57899d",
+    "text": "This enables rational selection or design of delivery vehicles tailored not just to a tissue, but to specific cell subtypes within that tissue.",
+    "review_status": "PARTIAL_INPUT_EFFECT_GAP",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Subtype expression affects scores, vehicle does not affect receptor uptake besides label; no specific ligand/capsid affinity."
+  },
+  {
+    "id": "crispr_cargo:11",
+    "module": "crispr_cargo",
+    "source_path": "spec/crispr_cargo.md",
+    "spec_sha256": "9767099a728791346757ec18f3f3473d0ea94bbc4f3871a54dea54787f57899d",
+    "text": "The platform also incorporates immunogenicity and toxicity modeling, which is critical for translational applications.",
+    "review_status": "SCOPED_SAFETY_PROXY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Relative linear immune-risk proxies, not trained systemic toxicity."
+  },
+  {
+    "id": "crispr_cargo:12",
+    "module": "crispr_cargo",
+    "source_path": "spec/crispr_cargo.md",
+    "spec_sha256": "9767099a728791346757ec18f3f3473d0ea94bbc4f3871a54dea54787f57899d",
+    "text": "CRISPR Cargo predicts innate immune activation by analyzing CpG content, RNA motifs, and vector-associated molecular patterns that trigger Toll-like receptors or interferon pathways.",
+    "review_status": "PARTIAL_SEQUENCE_HEURISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Supplied CpG/uridine fractions and fixed vehicle score, no molecular-pattern/TLR/interferon mechanism."
+  },
+  {
+    "id": "crispr_cargo:13",
+    "module": "crispr_cargo",
+    "source_path": "spec/crispr_cargo.md",
+    "spec_sha256": "9767099a728791346757ec18f3f3473d0ea94bbc4f3871a54dea54787f57899d",
+    "text": "For viral vectors, it models pre-existing neutralizing antibody prevalence across populations and simulates capsid engineering strategies to evade immune detection.",
+    "review_status": "PARTIAL_INPUT_DEPENDENT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Antibody fraction input affects AAV risk, no population data or capsid engineering simulation."
+  },
+  {
+    "id": "crispr_cargo:14",
+    "module": "crispr_cargo",
+    "source_path": "spec/crispr_cargo.md",
+    "spec_sha256": "9767099a728791346757ec18f3f3473d0ea94bbc4f3871a54dea54787f57899d",
+    "text": "Hepatotoxicity, complement activation, and cytokine release risks are quantified using trained models derived from clinical and preclinical datasets, allowing users to balance delivery efficiency with systemic safety in a quantitatively informed manner.",
+    "review_status": "NOT_DEEP_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No clinical/preclinical trained hepatotoxicity/complement/cytokine models."
+  },
+  {
+    "id": "crispr_cargo:15",
+    "module": "crispr_cargo",
+    "source_path": "spec/crispr_cargo.md",
+    "spec_sha256": "9767099a728791346757ec18f3f3473d0ea94bbc4f3871a54dea54787f57899d",
+    "text": "A key differentiator is its ability to co-optimize payload architecture alongside the delivery vehicle.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Catalog payload size and architecture labels, no jointly optimized payload design."
+  },
+  {
+    "id": "crispr_cargo:16",
+    "module": "crispr_cargo",
+    "source_path": "spec/crispr_cargo.md",
+    "spec_sha256": "9767099a728791346757ec18f3f3473d0ea94bbc4f3871a54dea54787f57899d",
+    "text": "CRISPR Cargo evaluates how different payload formats\u2014RNP complexes, mRNA, plasmid DNA, or viral genomes\u2014interact with delivery constraints such as packaging limits (e.g., AAV ~4.7 kb), stability, and expression kinetics.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Six fixed payload-kb entries and generic activity envelope, no RNP/mRNA/plasmid/genome-specific stability chemistry."
+  },
+  {
+    "id": "crispr_cargo:17",
+    "module": "crispr_cargo",
+    "source_path": "spec/crispr_cargo.md",
+    "spec_sha256": "9767099a728791346757ec18f3f3473d0ea94bbc4f3871a54dea54787f57899d",
+    "text": "It can recommend splitting strategies (dual-AAV systems), promoter selection for tissue specificity, and nuclear localization signal optimization to enhance editing efficiency post-delivery.",
+    "review_status": "PARTIAL_CONCEPTS_NO_SEQUENCE_DESIGN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Dual-vector concept/promoter label/NLS count, no actual split/promoter/NLS sequence design or optimized efficiency."
+  },
+  {
+    "id": "crispr_cargo:18",
+    "module": "crispr_cargo",
+    "source_path": "spec/crispr_cargo.md",
+    "spec_sha256": "9767099a728791346757ec18f3f3473d0ea94bbc4f3871a54dea54787f57899d",
+    "text": "Additionally, it simulates temporal expression profiles, predicting how long Cas9 or base editors remain active in the cell, which directly impacts both efficacy and off-target risk.",
+    "review_status": "SCOPED_MODEL_TRAJECTORY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Vehicle-class decay envelope and integrated exposure proxy, no payload-specific measured editor efficacy/off-target prediction."
+  },
+  {
+    "id": "crispr_cargo:19",
+    "module": "crispr_cargo",
+    "source_path": "spec/crispr_cargo.md",
+    "spec_sha256": "9767099a728791346757ec18f3f3473d0ea94bbc4f3871a54dea54787f57899d",
+    "text": "At the systems integration level, CRISPR Cargo outputs fully parameterized delivery blueprints that can plug into experimental workflows or automated biofoundry systems.",
+    "review_status": "UNVERIFIED_INTEGRATION_CLAIM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Dictionary blueprints only, no checked experimental/biofoundry integration."
+  },
+  {
+    "id": "crispr_cargo:20",
+    "module": "crispr_cargo",
+    "source_path": "spec/crispr_cargo.md",
+    "spec_sha256": "9767099a728791346757ec18f3f3473d0ea94bbc4f3871a54dea54787f57899d",
+    "text": "These include predicted dose\u2013response curves, time-resolved concentration plots, vector composition specifications, and recommended validation assays such as biodistribution qPCR, immunogenicity panels, and in vivo imaging strategies.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "PK arrays/fixed compositions/linear cmax dose response and assay checklist; no verified plots or in vivo assays."
+  },
+  {
+    "id": "crispr_cargo:21",
+    "module": "crispr_cargo",
+    "source_path": "spec/crispr_cargo.md",
+    "spec_sha256": "9767099a728791346757ec18f3f3473d0ea94bbc4f3871a54dea54787f57899d",
+    "text": "By unifying biophysical modeling, systems pharmacology, and multi-omic cellular targeting, CRISPR Cargo transforms delivery from a trial-and-error bottleneck into a predictive, designable layer of genome engineering, enabling precise alignment between genetic intervention strategies and their real-world biological deployment.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No precise real-world genome-engineering deployment validated."
+  },
+  {
+    "id": "epi_edit:1",
+    "module": "epi_edit",
+    "source_path": "spec/epi_edit.md",
+    "spec_sha256": "46831a684e6144cb04d469bdf77367eecf45d0bb7ee8a502d4302238c62a6d4e",
+    "text": "# Epi-Edit\n\nEpi-Edit: A design tool for epigenome engineering that uses CRISPRa and CRISPRi to modulate gene expression without changing DNA sequences.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "CRISPRa/i guide planning and non-permanent label, not actual gene modulation."
+  },
+  {
+    "id": "epi_edit:2",
+    "module": "epi_edit",
+    "source_path": "spec/epi_edit.md",
+    "spec_sha256": "46831a684e6144cb04d469bdf77367eecf45d0bb7ee8a502d4302238c62a6d4e",
+    "text": "It visualizes the local chromatin landscape, identifying histone marks and accessibility.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Sequence-derived accessibility/mark tracks, not measured chromatin or visually verified map."
+  },
+  {
+    "id": "epi_edit:3",
+    "module": "epi_edit",
+    "source_path": "spec/epi_edit.md",
+    "spec_sha256": "46831a684e6144cb04d469bdf77367eecf45d0bb7ee8a502d4302238c62a6d4e",
+    "text": "Epi-Edit enables researchers to control gene activity through precise epigenetic modifications, offering a non-permanent method of gene regulation.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No precise/reversible epigenetic modification validated biologically."
+  },
+  {
+    "id": "epi_edit:4",
+    "module": "epi_edit",
+    "source_path": "spec/epi_edit.md",
+    "spec_sha256": "46831a684e6144cb04d469bdf77367eecf45d0bb7ee8a502d4302238c62a6d4e",
+    "text": "Epi-Edit\u00a0extends far beyond a basic CRISPRa/CRISPRi design interface into a comprehensive epigenome engineering platform that models, perturbs, and rewires regulatory landscapes without altering the underlying DNA sequence.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Local sequence/effector/graph planner only, no genome manipulation."
+  },
+  {
+    "id": "epi_edit:5",
+    "module": "epi_edit",
+    "source_path": "spec/epi_edit.md",
+    "spec_sha256": "46831a684e6144cb04d469bdf77367eecf45d0bb7ee8a502d4302238c62a6d4e",
+    "text": "At its core, the system integrates chromatin state maps derived from ATAC-seq, ChIP-seq (histone marks such as H3K27ac, H3K4me1, H3K27me3), and DNA methylation datasets to construct high-resolution regulatory profiles around target loci.",
+    "review_status": "PARTIAL_NONCODING_PROXIES",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "GC/TF/CpG mark rules, no ATAC/ChIP/methylation dataset integration."
+  },
+  {
+    "id": "epi_edit:6",
+    "module": "epi_edit",
+    "source_path": "spec/epi_edit.md",
+    "spec_sha256": "46831a684e6144cb04d469bdf77367eecf45d0bb7ee8a502d4302238c62a6d4e",
+    "text": "These profiles are not treated as static annotations; instead, Epi-Edit encodes them into graph-based representations of enhancer\u2013promoter interactions, incorporating 3D chromatin architecture (Hi-C/ChIA-PET data) to identify distal regulatory elements that exert control over gene expression.",
+    "review_status": "PARTIAL_CLASSICAL_GRAPH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Supplied contacts or distance edges, no Hi-C/ChIA-PET ingestion/identified enhancer-promoter network."
+  },
+  {
+    "id": "epi_edit:7",
+    "module": "epi_edit",
+    "source_path": "spec/epi_edit.md",
+    "spec_sha256": "46831a684e6144cb04d469bdf77367eecf45d0bb7ee8a502d4302238c62a6d4e",
+    "text": "This allows the platform to design perturbations that operate at the level of regulatory networks rather than isolated promoters.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Scalar domain propagation, no network-level biological design validation."
+  },
+  {
+    "id": "epi_edit:8",
+    "module": "epi_edit",
+    "source_path": "spec/epi_edit.md",
+    "spec_sha256": "46831a684e6144cb04d469bdf77367eecf45d0bb7ee8a502d4302238c62a6d4e",
+    "text": "The system supports a full suite of programmable epigenetic editors by modeling the functional consequences of fusing catalytically dead CRISPR systems (dCas9/dCas12) with effector domains such as KRAB (repression), VP64/p300 (activation), TET1 (demethylation), and DNMT3A (methylation).",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "KRAB/VP64/p300/TET1/DNMT3A response constants and dCas9 architecture, not dCas12/fusion engineering."
+  },
+  {
+    "id": "epi_edit:9",
+    "module": "epi_edit",
+    "source_path": "spec/epi_edit.md",
+    "spec_sha256": "46831a684e6144cb04d469bdf77367eecf45d0bb7ee8a502d4302238c62a6d4e",
+    "text": "Epi-Edit simulates how recruitment of these effectors alters local chromatin accessibility, histone modification deposition, and transcription factor binding affinity over time.",
+    "review_status": "PARTIAL_EXPLICIT_PHYSICS_NOT_LEARNED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Static effector response and expression ODE, not time-resolved TF affinity/mark deposition dynamics."
+  },
+  {
+    "id": "epi_edit:10",
+    "module": "epi_edit",
+    "source_path": "spec/epi_edit.md",
+    "spec_sha256": "46831a684e6144cb04d469bdf77367eecf45d0bb7ee8a502d4302238c62a6d4e",
+    "text": "Rather than assuming binary activation or repression, it predicts graded transcriptional responses based on occupancy models and cooperative binding effects, enabling fine-tuned modulation of gene expression levels.",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Hill recruitment and supplied competitive binding, no dosage accuracy guarantee."
+  },
+  {
+    "id": "epi_edit:11",
+    "module": "epi_edit",
+    "source_path": "spec/epi_edit.md",
+    "spec_sha256": "46831a684e6144cb04d469bdf77367eecf45d0bb7ee8a502d4302238c62a6d4e",
+    "text": "This is particularly critical for genes with dosage-sensitive phenotypes, where overexpression or underexpression can both be deleterious.",
+    "review_status": "NOT_THERAPEUTIC_VALIDITY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No safe modulation for dosage-sensitive phenotypes established."
+  },
+  {
+    "id": "epi_edit:12",
+    "module": "epi_edit",
+    "source_path": "spec/epi_edit.md",
+    "spec_sha256": "46831a684e6144cb04d469bdf77367eecf45d0bb7ee8a502d4302238c62a6d4e",
+    "text": "A key technical layer involves predicting the propagation of epigenetic changes across regulatory domains.",
+    "review_status": "SCOPED_CLASSICAL_GRAPH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Normalized contact propagation of a seeded scalar mark."
+  },
+  {
+    "id": "epi_edit:13",
+    "module": "epi_edit",
+    "source_path": "spec/epi_edit.md",
+    "spec_sha256": "46831a684e6144cb04d469bdf77367eecf45d0bb7ee8a502d4302238c62a6d4e",
+    "text": "Epi-Edit models how local perturbations spread through chromatin via reader\u2013writer feedback loops (e.g., PRC2-mediated H3K27me3 spreading or acetylation cascades), allowing it to forecast both intended and unintended epigenomic ripple effects.",
+    "review_status": "SCOPED_SIMULATION_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Clipped reader-writer/decay recursion, not mechanism-specific validated PRC2/acetylation cascades."
+  },
+  {
+    "id": "epi_edit:14",
+    "module": "epi_edit",
+    "source_path": "spec/epi_edit.md",
+    "spec_sha256": "46831a684e6144cb04d469bdf77367eecf45d0bb7ee8a502d4302238c62a6d4e",
+    "text": "It also incorporates cell-type-specific transcription factor networks derived from single-cell RNA-seq and chromatin accessibility data, enabling context-aware predictions of how epigenetic edits will manifest differently across cellular states.",
+    "review_status": "PARTIAL_INPUT_DEPENDENT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "User state baselines, no single-cell-derived transcription factor network."
+  },
+  {
+    "id": "epi_edit:15",
+    "module": "epi_edit",
+    "source_path": "spec/epi_edit.md",
+    "spec_sha256": "46831a684e6144cb04d469bdf77367eecf45d0bb7ee8a502d4302238c62a6d4e",
+    "text": "This makes it possible to design interventions that are selectively active in diseased cell populations while minimizing effects in healthy cells.",
+    "review_status": "NOT_THERAPEUTIC_VALIDITY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Disease/healthy differences are supplied baselines, no selective disease intervention safety."
+  },
+  {
+    "id": "epi_edit:16",
+    "module": "epi_edit",
+    "source_path": "spec/epi_edit.md",
+    "spec_sha256": "46831a684e6144cb04d469bdf77367eecf45d0bb7ee8a502d4302238c62a6d4e",
+    "text": "To ensure precision, the platform includes an advanced off-target regulatory impact engine that goes beyond sequence similarity.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Sequence binding times supplied accessibility and essential/enhancer weights."
+  },
+  {
+    "id": "epi_edit:17",
+    "module": "epi_edit",
+    "source_path": "spec/epi_edit.md",
+    "spec_sha256": "46831a684e6144cb04d469bdf77367eecf45d0bb7ee8a502d4302238c62a6d4e",
+    "text": "It evaluates potential gRNA binding at non-target loci in the context of chromatin accessibility and regulatory importance, prioritizing off-target sites based on their likelihood to influence gene expression or disrupt essential pathways.",
+    "review_status": "PARTIAL_INPUT_DEPENDENT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "User annotation flags only, no essential pathway identification engine."
+  },
+  {
+    "id": "epi_edit:18",
+    "module": "epi_edit",
+    "source_path": "spec/epi_edit.md",
+    "spec_sha256": "46831a684e6144cb04d469bdf77367eecf45d0bb7ee8a502d4302238c62a6d4e",
+    "text": "It also simulates competitive binding between endogenous transcription factors and dCas9-effector complexes, providing a more realistic estimate of effective occupancy and functional impact.",
+    "review_status": "SCOPED_BEHAVIOR_REPRODUCED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Competitive1:2 concentrations produce .25/.5/.25 occupancy; supplied equilibrium not cellular validation."
+  },
+  {
+    "id": "epi_edit:19",
+    "module": "epi_edit",
+    "source_path": "spec/epi_edit.md",
+    "spec_sha256": "46831a684e6144cb04d469bdf77367eecf45d0bb7ee8a502d4302238c62a6d4e",
+    "text": "This allows users to design epigenetic interventions that are not only sequence-specific but also functionally constrained to minimize unintended transcriptional rewiring.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No functional off-target transcriptional rewiring prevention guarantee."
+  },
+  {
+    "id": "epi_edit:20",
+    "module": "epi_edit",
+    "source_path": "spec/epi_edit.md",
+    "spec_sha256": "46831a684e6144cb04d469bdf77367eecf45d0bb7ee8a502d4302238c62a6d4e",
+    "text": "At the systems level, Epi-Edit generates dynamic, time-resolved models of gene expression following intervention, integrating transcriptional kinetics, mRNA stability, and feedback regulation.",
+    "review_status": "SCOPED_ODE_NOT_ACCURACY_ASSURANCE",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Expression feedback ODE and half-life, steady-state algebra independently matches."
+  },
+  {
+    "id": "epi_edit:21",
+    "module": "epi_edit",
+    "source_path": "spec/epi_edit.md",
+    "spec_sha256": "46831a684e6144cb04d469bdf77367eecf45d0bb7ee8a502d4302238c62a6d4e",
+    "text": "Outputs include predicted expression trajectories, regulatory network perturbation maps, and experimentally actionable designs such as multiplexed gRNA sets targeting enhancer clusters or super-enhancers.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Trajectory/domain arrays and greedy spaced guide selection, not enhancer cluster/super-enhancer identified designs."
+  },
+  {
+    "id": "epi_edit:22",
+    "module": "epi_edit",
+    "source_path": "spec/epi_edit.md",
+    "spec_sha256": "46831a684e6144cb04d469bdf77367eecf45d0bb7ee8a502d4302238c62a6d4e",
+    "text": "These designs can be exported into vector architectures for simultaneous delivery and validated through suggested assays like CUT&RUN, ATAC-seq, and RNA-seq.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Vector architecture dictionary and suggested assay names, no delivery/export/experimental validation."
+  },
+  {
+    "id": "epi_edit:23",
+    "module": "epi_edit",
+    "source_path": "spec/epi_edit.md",
+    "spec_sha256": "46831a684e6144cb04d469bdf77367eecf45d0bb7ee8a502d4302238c62a6d4e",
+    "text": "By combining chromatin biology, network modeling, and programmable CRISPR effectors, Epi-Edit functions as a precision control system for gene regulation, enabling reversible, tunable, and context-aware manipulation of cellular identity and function.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Precision cellular identity/function control and biological reversibility not established."
+  }
+]
