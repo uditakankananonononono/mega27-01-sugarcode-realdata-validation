@@ -1,0 +1,67 @@
+{
+  "runs": [
+    {
+      "optimized_dna": "ATGAAAACCCTGCTGGTG",
+      "translation_matches": true,
+      "attention_row_sums_match": true,
+      "load_atp": 240.0,
+      "load_reference_matches": true,
+      "policy_summary": {
+        "round": 1,
+        "mean_reward": 0.7217,
+        "best_reward": 0.8066,
+        "baseline": 0.5222,
+        "policy_entropy": 1.3823602008999143,
+        "current_best_guide": "ATTCCGGTTACCTGTCAGGG",
+        "best_guide_on_target": 0.89,
+        "pam_compatibility": {
+          "SpCas9": "NGG",
+          "SaCas9": "NNGRRT",
+          "Cas12a": "TTTV",
+          "CasX": "TTCN",
+          "xCas9": "NG"
+        },
+        "reward_model": "explicit mechanistic/heuristic decomposition; no trained model"
+      },
+      "policy_logits_changed": true,
+      "posterior_reference_matches": true,
+      "repair_chromatin_effect_cancels": true,
+      "perfect_copy_specificity": 1,
+      "no_background_specificity": 1,
+      "perfect_copy_ignored_in_specificity": true,
+      "scope": "Actual categorical policy update not trained deep model/empirical repair policy or global optimum. Perfect match excluded by mismatches>0 specificity accumulator."
+    },
+    {
+      "optimized_dna": "ATGAAAACCCTGCTGGTG",
+      "translation_matches": true,
+      "attention_row_sums_match": true,
+      "load_atp": 240.0,
+      "load_reference_matches": true,
+      "policy_summary": {
+        "round": 1,
+        "mean_reward": 0.7217,
+        "best_reward": 0.8066,
+        "baseline": 0.5222,
+        "policy_entropy": 1.3823602008999143,
+        "current_best_guide": "ATTCCGGTTACCTGTCAGGG",
+        "best_guide_on_target": 0.89,
+        "pam_compatibility": {
+          "SpCas9": "NGG",
+          "SaCas9": "NNGRRT",
+          "Cas12a": "TTTV",
+          "CasX": "TTCN",
+          "xCas9": "NG"
+        },
+        "reward_model": "explicit mechanistic/heuristic decomposition; no trained model"
+      },
+      "policy_logits_changed": true,
+      "posterior_reference_matches": true,
+      "repair_chromatin_effect_cancels": true,
+      "perfect_copy_specificity": 1,
+      "no_background_specificity": 1,
+      "perfect_copy_ignored_in_specificity": true,
+      "scope": "Actual categorical policy update not trained deep model/empirical repair policy or global optimum. Perfect match excluded by mismatches>0 specificity accumulator."
+    }
+  ],
+  "repeat_equal": true
+}

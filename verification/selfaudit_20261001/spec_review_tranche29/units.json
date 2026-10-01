@@ -1,0 +1,752 @@
+[
+  {
+    "id": "codon_opt:1",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "# Codon Opt\n\nCodon Opt: A sequence optimizer that balances high gene expression with host metabolic load using tRNA pool strain simulation.",
+    "review_status": "SCOPED_SEQUENCE_ANALYTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Synonymous host-table sequence optimization plus strain/TASEP, not measured expression/load balancing."
+  },
+  {
+    "id": "codon_opt:2",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "It calculates CHI index scores and GC content, tailoring sequences for specific hosts.",
+    "review_status": "SCOPED_BEHAVIOR_REPRODUCED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "CAI/CHI/GC from supplied/vendored host tables; optimized MKTLLV translates back exactly."
+  },
+  {
+    "id": "codon_opt:3",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "Codon Opt ensures that synthetic genes are expressed efficiently without causing cellular stress or translational bottlenecks in host cells.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No efficient expression without stress/bottleneck assurance."
+  },
+  {
+    "id": "codon_opt:4",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "Codon Opt can be transformed into a high-fidelity translational systems optimizer that treats codon usage not as a static frequency problem, but as a dynamic interaction between mRNA sequence, ribosome kinetics, and host cellular resource allocation.",
+    "review_status": "PARTIAL_EXPLICIT_PHYSICS_NOT_LEARNED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Actual stochastic exclusion traffic and scalar resources, not high-fidelity cellular resource optimizer."
+  },
+  {
+    "id": "codon_opt:5",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "At its core, the platform integrates organism-specific tRNA abundance profiles, ribosome profiling (Ribo-seq) data, and transcriptome-wide expression distributions to construct a quantitative model of translation elongation rates.",
+    "review_status": "PARTIAL_DATA_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Codon-usage adaptiveness used as tRNA proxy; source explicitly empirical Ribo-seq calibrated rates missing."
+  },
+  {
+    "id": "codon_opt:6",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "Using transformer-based sequence models coupled with kinetic simulations, Codon Opt predicts ribosome dwell times at each codon, enabling fine-grained control over translation speed, co-translational folding, and protein yield.",
+    "review_status": "NOT_TRAINED_TRANSFORMER",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Deterministic untrained codon attention, not sequence-trained transformer; dwell=1/(10*w)."
+  },
+  {
+    "id": "codon_opt:7",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "The system extends beyond conventional metrics like Codon Adaptation Index (CAI) or GC content by incorporating higher-order constraints such as mRNA secondary structure (predicted via thermodynamic folding models), ribosome queue formation, and translation initiation efficiency (Shine-Dalgarno or Kozak context modeling).",
+    "review_status": "PARTIAL_SEQUENCE_HEURISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Local GC/pair folding screening and traffic, no full thermodynamic RNA/Shine-Dalgarno/Kozak context."
+  },
+  {
+    "id": "codon_opt:8",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "By simulating ribosome traffic along mRNA transcripts using stochastic models (e.g., totally asymmetric simple exclusion process, TASEP), Codon Opt identifies bottlenecks that lead to translational pausing, premature termination, or proteotoxic stress.",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Actual single-site exclusion Gillespie-style traffic/jam model, no premature-termination/proteotoxic calibrated outcomes."
+  },
+  {
+    "id": "codon_opt:9",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "It then redesigns coding sequences to smooth elongation profiles while preserving necessary pauses that facilitate correct protein folding.",
+    "review_status": "PARTIAL_SEQUENCE_HEURISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Host frequency/GC/motif optimization, no modeled necessary co-translational folding pause preservation."
+  },
+  {
+    "id": "codon_opt:10",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "A key innovation is the integration of host metabolic burden modeling.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Length/copies ATP scale and host flux fraction."
+  },
+  {
+    "id": "codon_opt:11",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "Codon Opt links translational demand to cellular resource allocation, including ATP consumption, amino acid availability, and competition for ribosomes.",
+    "review_status": "PARTIAL_INPUT_DEPENDENT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Copies/ATP/host-flux inputs, no actual amino-acid pool/ribosome competition dynamics."
+  },
+  {
+    "id": "codon_opt:12",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "Using flux balance analysis (FBA) frameworks, it predicts how overexpression of synthetic genes impacts global metabolism and growth rate.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "FBA-style row returned, no whole stoichiometric metabolism solve/growth accuracy."
+  },
+  {
+    "id": "codon_opt:13",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "This allows the system to optimize sequences not just for maximal expression, but for balanced expression that avoids overloading the host, maintaining cellular health in large-scale fermentation or industrial bioproduction settings.",
+    "review_status": "NOT_THERAPEUTIC_VALIDITY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No fermentation-scale health/viability balanced expression validated."
+  },
+  {
+    "id": "codon_opt:14",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "Codon Opt also incorporates evolutionary and robustness constraints by simulating mutational drift and selection pressures over time.",
+    "review_status": "SCOPED_STOCHASTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Single mutation sampled codon landscape/homopolymer counts, not long-term selected population evolution."
+  },
+  {
+    "id": "codon_opt:15",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "It evaluates how optimized sequences might evolve under different conditions, identifying regions prone to deleterious mutations or recombination events.",
+    "review_status": "PARTIAL_SEQUENCE_HEURISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Synonymous/stop mutation counts and homopolymer rule, no condition-specific recombination mapping."
+  },
+  {
+    "id": "codon_opt:16",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "By embedding sequences into evolutionary fitness landscapes, the system can design codon variants that are both highly expressive and genetically stable, reducing the risk of performance loss during long-term culture or scale-up.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No genetically stable long-culture expressive codon design assurance."
+  },
+  {
+    "id": "codon_opt:17",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "Finally, Codon Opt integrates seamlessly with upstream and downstream design modules, such as promoter engineering, ribosome binding site optimization, and protein structure prediction.",
+    "review_status": "UNVERIFIED_INTEGRATION_CLAIM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No checked promoter/RBS/protein3D upstream/downstream joint integration."
+  },
+  {
+    "id": "codon_opt:18",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "It can co-optimize entire expression constructs\u2014linking regulatory elements with coding sequences to achieve precise expression profiles.",
+    "review_status": "PARTIAL_CONCEPTS_NO_SEQUENCE_DESIGN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Coding DNA only, no promoter/UTR/RBS full construct cooptimization."
+  },
+  {
+    "id": "codon_opt:19",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "Outputs include fully annotated sequences, predicted translation efficiency curves, and system-level impact metrics.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Coding DNA/FASTA, time/dwell/traffic metrics and flags, not visual/empirical curves validated."
+  },
+  {
+    "id": "codon_opt:20",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "In its most advanced form, Codon Opt becomes a comprehensive translational engineering engine\u2014capable of designing synthetic genes that are not only highly expressed, but harmonized with the host\u2019s biology at molecular, cellular, and systems levels.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No host molecular/cellular/system expression harmony validation."
+  },
+  {
+    "id": "codon_opt:21",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "Codon Opt (Hyper-Technical, Cross-Disciplinary Refinement)\nCodon Opt can be formalized as a multi-objective optimization problem over sequence space, where a coding sequence ( S \\in {A,T,G,C}^n ) is optimized to maximize a composite objective function ( \\mathcal{L}(S) ).",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "CAI/GC/motif combinatorial heuristic optimizer, not global multi-objective optimum."
+  },
+  {
+    "id": "codon_opt:22",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "This loss function integrates translation efficiency, folding fidelity, metabolic cost, and evolutionary stability:\n[\n\\mathcal{L}(S) = \\lambda_1 \\cdot \\mathbb{E}[\\text{TE}(S)] - \\lambda_2 \\cdot \\text{Burden}(S) - \\lambda_3 \\cdot \\text{Misfold}(S) + \\lambda_4 \\cdot \\text{Stability}(S)\n]\nwhere translation efficiency TE is derived from ribosome flux models, Burden is computed via metabolic flux constraints, Misfold is predicted using co-translational folding energy landscapes, and Stability encodes mutational robustness.",
+    "review_status": "PARTIAL_INPUT_DEPENDENT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Diagnostic design_score combines CAI/accessibility/mutation fraction/load; no specified TE/folding/metabolic stability objective all optimized."
+  },
+  {
+    "id": "codon_opt:23",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "The optimization is performed using hybrid methods combining reinforcement learning (policy gradients over codon choices), differentiable sequence models, and combinatorial search (beam search / MCTS), effectively navigating an exponential design space of synonymous codon permutations.",
+    "review_status": "NOT_CONTINUOUS_TRAINING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No policy-gradient/RL/differentiable beam/MCTS sequence optimization."
+  },
+  {
+    "id": "codon_opt:24",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "At the translational level, Codon Opt models ribosome kinetics using stochastic processes grounded in statistical physics.",
+    "review_status": "SCOPED_STOCHASTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Explicit sampled traffic grounded in exclusion approximation, not measured rates."
+  },
+  {
+    "id": "codon_opt:25",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "Ribosome movement along mRNA is approximated using the Totally Asymmetric Simple Exclusion Process (TASEP), where each codon position ( i ) has a transition rate ( k_i ) proportional to tRNA abundance and codon\u2013anticodon pairing efficiency.",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Codon adaptiveness times10hop rates, single-site ribosome footprint approximation."
+  },
+  {
+    "id": "codon_opt:26",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "This yields a ribosome density profile ( \\rho(i) ) and elongation velocity ( v(i) ), enabling the detection of traffic jams, ribosomal collisions, and queue-induced translational slowdown.",
+    "review_status": "PARTIAL_SIMULATION_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Density/dwell/jam arrays, no multi-codon collision/premature termination biology."
+  },
+  {
+    "id": "codon_opt:27",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "These dynamics are coupled with Ribo-seq\u2013derived empirical priors, allowing Codon Opt to calibrate its kinetic parameters against real biological systems.",
+    "review_status": "PARTIAL_DATA_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Ribo-seq empirical calibration explicitly missing in source."
+  },
+  {
+    "id": "codon_opt:28",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "The system further integrates RNA thermodynamics by embedding mRNA folding constraints directly into the optimization loop.",
+    "review_status": "PARTIAL_SEQUENCE_HEURISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Folding screening after sequence optimization, not thermodynamic objective feedback."
+  },
+  {
+    "id": "codon_opt:29",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "Using nearest-neighbor free energy models (e.g., ViennaRNA), Codon Opt computes secondary structure energy ( \\Delta G ) across sliding windows, ensuring that critical regions such as the 5\u2019 UTR and ribosome binding site remain accessible.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Nearest-neighbor-inspired GC/pair score, no ViennaRNA energy/actual5UTR/RBS context."
+  },
+  {
+    "id": "codon_opt:30",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "This is combined with graph-based representations of RNA structure, where nucleotides form nodes and base-pair interactions form edges, enabling GNNs to predict how sequence changes alter structural ensembles and translation initiation rates.",
+    "review_status": "NOT_TRAINED_GNN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No graph neural RNA ensemble initiation model."
+  },
+  {
+    "id": "codon_opt:31",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "From a systems biology perspective, Codon Opt incorporates metabolic modeling through Flux Balance Analysis (FBA).",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "FBA constraint term dictionary, no FBA solve."
+  },
+  {
+    "id": "codon_opt:32",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "The expression of a synthetic gene introduces additional constraints into the stoichiometric matrix ( S \\cdot v = 0 ), where ( v ) represents reaction fluxes.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "ATP/AA stoichiometry row returned, no host S*v=0 perturbation solved."
+  },
+  {
+    "id": "codon_opt:33",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "By simulating how increased translation demand perturbs amino acid pools, ATP consumption, and ribosome allocation, the system computes a \u201cmetabolic load penalty.\u201d This ensures that optimized sequences do not maximize expression at the expense of host viability, instead identifying Pareto-optimal solutions that balance yield with cellular fitness.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No cellular pool/ribosome metabolic Pareto/host viability guarantee."
+  },
+  {
+    "id": "codon_opt:34",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "On the AI side, Codon Opt leverages large-scale sequence-to-function models trained using transformer architectures similar to protein language models.",
+    "review_status": "NOT_TRAINED_TRANSFORMER",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No large-scale trained coding sequence function model."
+  },
+  {
+    "id": "codon_opt:35",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "These models learn embeddings of coding sequences that capture latent biological features such as codon harmonization, translational pauses, and evolutionary conservation.",
+    "review_status": "NOT_DEEP_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Untrained attention diagnostic, no learned harmonization/folding/conservation embeddings."
+  },
+  {
+    "id": "codon_opt:36",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "Fine-tuning is performed using reinforcement learning with simulated reward signals derived from kinetic and metabolic models, enabling the system to iteratively improve sequence designs based on predicted performance.",
+    "review_status": "NOT_CONTINUOUS_TRAINING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No RL fine-tuning/sequence model weights improvement."
+  },
+  {
+    "id": "codon_opt:37",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "Additionally, uncertainty quantification (e.g., Monte Carlo dropout or Bayesian neural networks) is used to assess confidence in predictions, guiding experimental validation.",
+    "review_status": "PARTIAL_UNCERTAINTY_NOT_CALIBRATION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No dropout/Bayesian predictive intervals in inspected result."
+  },
+  {
+    "id": "codon_opt:38",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "Finally, Codon Opt operates as an integrated computational pipeline, generating not only optimized sequences but also executable artifacts: Python-based simulation scripts (e.g., for TASEP or FBA), SBML models for metabolic integration, and annotated sequence files compatible with synthesis platforms.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "FASTA and structured namespace/compartment/kinetic-law SBML present; interpreter validation/executable simulation script export untested."
+  },
+  {
+    "id": "codon_opt:39",
+    "module": "codon_opt",
+    "source_path": "spec/codon_opt.md",
+    "spec_sha256": "89f63e5d15d64140031c4861e1e7e5cb077a3423e807448168d0c8596f28547d",
+    "text": "By unifying concepts from statistical mechanics, thermodynamics, machine learning, and systems biology, Codon Opt becomes a mathematically rigorous and computationally grounded engine for translational design\u2014capable of engineering genetic sequences that are globally optimized across molecular, cellular, and evolutionary dimensions.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No globally optimized molecular/cellular/evolutionary gene sequence assurance."
+  },
+  {
+    "id": "crispr_muse:1",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "# CRISPR Muse\n\nCRISPR Muse: A reinforcement-learning-based gRNA generator that refines its designs through simulated lab feedback loops.",
+    "review_status": "SCOPED_BEHAVIOR_REPRODUCED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Actual categorical policy-gradient logits update repeats and changes weights, toy heuristic feedback not deep model."
+  },
+  {
+    "id": "crispr_muse:2",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "It predicts compatibility with various PAM sites and adjusts its models to improve accuracy.",
+    "review_status": "PARTIAL_SEQUENCE_HEURISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Fixed nuclease IUPAC PAM compatibility and policy/Beta utilities, no empirical accuracy adaptation proven."
+  },
+  {
+    "id": "crispr_muse:3",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "CRISPR Muse enables an iterative design process, ensuring that genetic interventions are continuously optimized for the specific requirements of the biosystem.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No continuous bio-system specific intervention optimum assurance."
+  },
+  {
+    "id": "crispr_muse:4",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "CRISPR Muse evolves beyond a conventional reinforcement-learning gRNA generator into a closed-loop, self-optimizing design system that integrates probabilistic genome editing models with experimentally grounded feedback signals.",
+    "review_status": "PARTIAL_HYPOTHESIS_PLATFORM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Policy updates and supplied count posteriors, no experiment-grounded closed pipeline."
+  },
+  {
+    "id": "crispr_muse:5",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "At its core, Muse operates on a policy-gradient RL framework where the action space consists of nucleotide-level edits to candidate gRNA sequences, and the reward function is dynamically shaped by multi-objective optimization across predicted on-target activity (via deep CNN/transformer hybrid scoring), off-target risk (modeled through whole-genome alignment embeddings), chromatin accessibility (ATAC-seq priors), and local DNA repair outcomes.",
+    "review_status": "PARTIAL_INPUT_EFFECT_GAP",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Position-base policy sampled20nt guides, no deep CNN/transformer/whole-genome embedding; perfect background matches omitted from specificity penalty."
+  },
+  {
+    "id": "crispr_muse:6",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "Unlike static scoring tools, Muse treats guide design as a sequential decision-making process, iteratively refining guides by simulating editing outcomes across heterogeneous genomic contexts and learning from both successful and failed edits encoded as state transitions.",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Categorical clipped-advantage update over sampled guides, not genomic edit state transition learned environment."
+  },
+  {
+    "id": "crispr_muse:7",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "The system integrates a differentiable surrogate of cellular DNA repair pathways, enabling it to anticipate not only cleavage efficiency but also downstream repair distributions (HDR vs NHEJ vs MMEJ) conditioned on sequence context, microhomology patterns, and epigenetic state.",
+    "review_status": "PARTIAL_INPUT_EFFECT_GAP",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Heuristic normalized repair weights; common chromatin multiplier cancels, not differentiable learned repair model."
+  },
+  {
+    "id": "crispr_muse:8",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "This is achieved through training on large-scale CRISPR screening datasets and high-resolution repair outcome maps, allowing Muse to generate guides that are not only efficient cutters but are biased toward desired editing outcomes (e.g., precise indels, template incorporation).",
+    "review_status": "NOT_CONTINUOUS_TRAINING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No large-scale empirical CRISPR repair-map model training."
+  },
+  {
+    "id": "crispr_muse:9",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "For prime editing and base editing, Muse extends its architecture to co-design pegRNAs and editing windows by modeling reverse transcriptase processivity, flap resolution kinetics, and local sequence thermodynamics.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Separate supplied extension/window utilities, not policy joint pegRNA/editor design."
+  },
+  {
+    "id": "crispr_muse:10",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "CRISPR Muse also incorporates a simulated experimental feedback loop through integration with in silico \u201cdigital lab\u201d environments, where predicted editing outcomes are iteratively validated against synthetic datasets generated from stochastic genome editing simulators.",
+    "review_status": "PARTIAL_SIMULATION_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Seeded binomial editing/count error simulator, train_round uses Gaussian on-target noise rather than invoking digital-lab repair loop."
+  },
+  {
+    "id": "crispr_muse:11",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "These simulators model cell-to-cell variability, delivery efficiency distributions, and clonal expansion dynamics, allowing Muse to refine its policies under realistic biological noise.",
+    "review_status": "PARTIAL_SIMULATION_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Separate delivery/clonal/error utilities; no empirically grounded policy biological noise calibration."
+  },
+  {
+    "id": "crispr_muse:12",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "Over time, the system builds a continuously updated posterior over guide performance, effectively functioning as a Bayesian optimizer that converges on globally optimal designs rather than local heuristics.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Beta guide posteriors not global Bayesian optimizer convergence."
+  },
+  {
+    "id": "crispr_muse:13",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "A key differentiator is Muse\u2019s ability to generalize across CRISPR systems and PAM compatibilities.",
+    "review_status": "PARTIAL_INPUT_DEPENDENT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Fixed5nuclease PAM/length configuration enumeration forward strand only."
+  },
+  {
+    "id": "crispr_muse:14",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "It embeds Cas variants (SpCas9, SaCas9, Cas12a, CasX, engineered PAM-flexible nucleases) into a shared latent space, enabling cross-nuclease transfer learning.",
+    "review_status": "NOT_DEEP_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No shared learned Cas latent transfer model."
+  },
+  {
+    "id": "crispr_muse:15",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "This allows the model to recommend not just a guide, but an entire editing configuration\u2014selecting the optimal nuclease, PAM context, spacer sequence, and delivery constraints for a given genomic locus.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Enumerated nuclease/PAM/spacer ranking, no optimized delivery constraints."
+  },
+  {
+    "id": "crispr_muse:16",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "It further predicts compatibility with multiplexed editing scenarios, minimizing guide\u2013guide interference and maximizing combinatorial editing efficiency in gene circuit engineering or large-scale perturbation screens.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Pairwise Hamming multiplex compatibility, no measured guide interference/combinatorial efficacy."
+  },
+  {
+    "id": "crispr_muse:17",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "Finally, CRISPR Muse is designed as a continuously learning system that ingests real-world experimental outputs through API integrations with sequencing pipelines (amplicon NGS, GUIDE-seq, CIRCLE-seq).",
+    "review_status": "PARTIAL_NOT_EXTERNAL_CONNECTION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Count records ingestion only, no NGS/GUIDE/CIRCLE API parsing integration."
+  },
+  {
+    "id": "crispr_muse:18",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "These empirical results are used to fine-tune its internal models via reinforcement learning with human-in-the-loop corrections, enabling adaptive improvement over time.",
+    "review_status": "NOT_CONTINUOUS_TRAINING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Ingest feedback updates Beta posterior, not categorical policy logits or pretrained model finetune."
+  },
+  {
+    "id": "crispr_muse:19",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "In its fully realized form, Muse becomes not just a design tool but an autonomous genome engineering strategist\u2014capable of proposing, testing, and refining CRISPR interventions with a level of precision and adaptability that approaches experimental intuition.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No autonomous test/refine genomic precision validated."
+  },
+  {
+    "id": "crispr_muse:20",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "CRISPR Muse\u00a0transforms from a static guide RNA generator into a reinforcement learning\u2013driven adaptive design system that continuously refines genome editing strategies through simulated experimental feedback and probabilistic modeling of cellular repair outcomes.",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Real toy categorical policy update, not continuous empirical outcome-driven integrated learning."
+  },
+  {
+    "id": "crispr_muse:21",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "At its core, the platform is built on a policy optimization framework (e.g., proximal policy optimization or deep Q-learning) where candidate gRNA sequences are treated as actions within an environment defined by genomic context, nuclease constraints, and cellular repair pathways.",
+    "review_status": "PARTIAL_SEQUENCE_HEURISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Categorical per-position gradient policy, not PPO/DQN environment with genome constraints."
+  },
+  {
+    "id": "crispr_muse:22",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "The reward function is multi-objective, incorporating predicted on-target cleavage efficiency, off-target penalty landscapes, editing precision (especially for base and prime editors), and downstream functional impact, enabling CRISPR Muse to learn optimal sequence design strategies that go beyond heuristic or supervised learning approaches.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Reward components explicit proxies, off-target exact-copy penalty missing."
+  },
+  {
+    "id": "crispr_muse:23",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "Unlike conventional tools that rely solely on pre-trained datasets, CRISPR Muse simulates iterative \u201cin silico experiments\u201d by integrating predictive models of DNA repair pathways such as non-homologous end joining (NHEJ), microhomology-mediated end joining (MMEJ), and homology-directed repair (HDR).",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Context/microhomology count NHEJ/MMEJ/HDR distribution, no biological calibrated repair dynamics."
+  },
+  {
+    "id": "crispr_muse:24",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "It generates probabilistic repair outcome distributions for each candidate edit, including indel spectra, frameshift likelihoods, and precise edit incorporation rates.",
+    "review_status": "PARTIAL_UNCERTAINTY_NOT_CALIBRATION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Normalized repair/frameshift proxies, no indel spectrum/allele validation."
+  },
+  {
+    "id": "crispr_muse:25",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "For prime editing, the system models flap equilibration dynamics, mismatch repair bias, and reverse transcriptase extension efficiency, feeding these outcomes back into the reinforcement loop.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "RT/flap/MMR supplied-extension heuristic not fed into train_round repair reward."
+  },
+  {
+    "id": "crispr_muse:26",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "This allows the model to optimize not just for cleavage, but for desired genomic outcomes, which is a fundamentally harder and more realistic objective.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No desired genomic outcome optimum validated."
+  },
+  {
+    "id": "crispr_muse:27",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "CRISPR Muse also incorporates PAM flexibility and nuclease engineering into its decision space, allowing it to dynamically select between Cas variants (e.g., SpCas9-NGG, xCas9-NG, Cas12a-TTTN) based on local sequence constraints.",
+    "review_status": "SCOPED_SEQUENCE_ANALYTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "PAM side/length-aware config enumerator, forward strand only, not nuclease engineering."
+  },
+  {
+    "id": "crispr_muse:28",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "It evaluates spacer\u2013PAM compatibility jointly with chromatin accessibility and sequence context, enabling it to discover non-obvious editing strategies in regions previously considered \u201cundruggable\u201d due to PAM limitations.",
+    "review_status": "PARTIAL_INPUT_DEPENDENT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Chromatin scalar adds reward, no learned hidden/PAM-limited locus strategies."
+  },
+  {
+    "id": "crispr_muse:29",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "Additionally, it integrates RNA secondary structure prediction and gRNA folding stability into its optimization loop, ensuring that designed guides maintain structural integrity and effective Cas binding in vivo.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Longest inverted-repeat/polyT score, no actual Cas/RNA in vivo fold validity."
+  },
+  {
+    "id": "crispr_muse:30",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "A critical innovation is the incorporation of simulated lab feedback loops grounded in real experimental noise models.",
+    "review_status": "PARTIAL_SIMULATION_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Heuristic stochastic noise utilities, not grounded empirical lab error model."
+  },
+  {
+    "id": "crispr_muse:31",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "CRISPR Muse injects stochastic variability into editing outcomes\u2014such as transfection efficiency, Cas9 expression variability, and sequencing error profiles\u2014to train models that are robust to real-world experimental conditions.",
+    "review_status": "PARTIAL_SIMULATION_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "train_round sampled on-target Gaussian perturbation; delivery/read noise separate, no biological robustness proof."
+  },
+  {
+    "id": "crispr_muse:32",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "Over time, the system can be fine-tuned with actual user-generated data, enabling a form of continual learning where the model adapts to specific lab conditions, cell types, or delivery methods.",
+    "review_status": "PARTIAL_CLASSICAL_STATISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "User counts update guide Beta posterior, no lab/cell/delivery model adaptation."
+  },
+  {
+    "id": "crispr_muse:33",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "This effectively turns CRISPR Muse into a lab-specific intelligence layer that improves with usage, rather than a static prediction tool.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No usage-driven validated lab intelligence improvement."
+  },
+  {
+    "id": "crispr_muse:34",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "At the interface and systems level, CRISPR Muse outputs ranked gRNA strategies with full causal traceability, including why certain sequences were favored based on reward decomposition (e.g., reduced off-target risk vs increased repair precision).",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Reward components trace score arithmetic, not identified causal genomic pathways."
+  },
+  {
+    "id": "crispr_muse:35",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "It can generate multi-step editing plans, such as sequential edits or combinatorial targeting strategies, and export them into executable experimental protocols or simulation-ready formats.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Deterministic JSON strategy export, no actual sequential/combinatorial experiment protocols."
+  },
+  {
+    "id": "crispr_muse:36",
+    "module": "crispr_muse",
+    "source_path": "spec/crispr_muse.md",
+    "spec_sha256": "e67e3f75daf8e182039dea732db75c21b6538ef40aafb601a7cbe9c729903b08",
+    "text": "By combining reinforcement learning, repair pathway modeling, and adaptive feedback integration, CRISPR Muse represents a shift toward self-optimizing genome engineering systems, where design is not just predicted, but continuously improved through interaction with biological complexity.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No continuously improved real biological genome engineering assurance."
+  }
+]
