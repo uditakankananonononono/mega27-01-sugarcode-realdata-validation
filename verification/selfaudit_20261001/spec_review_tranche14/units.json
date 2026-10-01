@@ -1,0 +1,92 @@
+[
+  {
+    "id": "car_t_designer:1",
+    "module": "car_t_designer",
+    "source_path": "spec/car_t_designer.md",
+    "spec_sha256": "3e15807451c1daafc4a6e2275224bb4143052411b6f0cb01099a1efa7bd8d69e",
+    "text": "# CAR-T Designer\n\nCAR-T Designer: An optimization platform for chimeric antigen receptor constructs, suggesting scFv domains and signaling elements for specific cancer antigens.",
+    "review_status": "SCOPED_CURATED_CONSTRUCT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Antigen/scFv/costim selection is curated rules; placeholder binder for unsupported scFv explicitly flagged; not trained optimized patient construct."
+  },
+  {
+    "id": "car_t_designer:2",
+    "module": "car_t_designer",
+    "source_path": "spec/car_t_designer.md",
+    "spec_sha256": "3e15807451c1daafc4a6e2275224bb4143052411b6f0cb01099a1efa7bd8d69e",
+    "text": "It predicts potential toxicities and simulates clinical trial outcomes.",
+    "review_status": "SCOPED_CLASS_HEURISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Toxicity and trial response class-level equations, not fitted per-antigen/patient clinical outcomes."
+  },
+  {
+    "id": "car_t_designer:3",
+    "module": "car_t_designer",
+    "source_path": "spec/car_t_designer.md",
+    "spec_sha256": "3e15807451c1daafc4a6e2275224bb4143052411b6f0cb01099a1efa7bd8d69e",
+    "text": "CAR-T Designer enables the engineering of safe and effective immune cell therapies, accelerating the development of personalized immunotherapies for cancer.",
+    "review_status": "NOT_THERAPY_SAFETY_EFFICACY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Report explicitly not clinically validated; no actual personalized immune therapy safety/effectiveness assurance."
+  },
+  {
+    "id": "living_tx:1",
+    "module": "living_tx",
+    "source_path": "spec/living_tx.md",
+    "spec_sha256": "2d26f78f6e245b2f264261fab7626e59cc300fc1b03de1b2bd1c1059b3096491",
+    "text": "# Living Tx\n\nLiving Tx: A design tool for engineered probiotics used as living therapeutics for disease treatment.",
+    "review_status": "SCOPED_CURATED_AND_ODE",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Curated payload/chassis ranking plus community ODE exists, not clinically validated living therapeutic design."
+  },
+  {
+    "id": "living_tx:2",
+    "module": "living_tx",
+    "source_path": "spec/living_tx.md",
+    "spec_sha256": "2d26f78f6e245b2f264261fab7626e59cc300fc1b03de1b2bd1c1059b3096491",
+    "text": "It suggests safe strains and genetic modifications while simulating their impact on the gut microbiome.",
+    "review_status": "SCOPED_SAFETY_PROXY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Static safety traits, containment concepts and population equations; safe strains/genetic intervention efficacy not established experimentally."
+  },
+  {
+    "id": "living_tx:3",
+    "module": "living_tx",
+    "source_path": "spec/living_tx.md",
+    "spec_sha256": "2d26f78f6e245b2f264261fab7626e59cc300fc1b03de1b2bd1c1059b3096491",
+    "text": "Living Tx predicts clinical success probabilities and models therapeutic compound delivery, providing a platform for developing next-generation biological medicines.",
+    "review_status": "NOT_CLINICAL_PROBABILITY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Legacy predicted_clinical_success is fixed weighted trait score; newer ODE explicitly no clinical-success prediction and single inoculum, not daily re-dosing. No validated medicine delivery."
+  },
+  {
+    "id": "phageforge:1",
+    "module": "phageforge",
+    "source_path": "spec/phageforge.md",
+    "spec_sha256": "de137c02a74f574fc93575856c40fe1d666431ffc05ce063653d486d5c76bc57",
+    "text": "# PhageForge\n\nPhageForge: A specialized toolkit for engineering bacteriophages equipped with CRISPR payloads to target multi-drug resistant pathogens.",
+    "review_status": "SCOPED_SEQUENCE_HEURISTIC",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Payload/backbone and guide selection computation exists; no experimentally engineered phage or clinical antimicrobial validity."
+  },
+  {
+    "id": "phageforge:2",
+    "module": "phageforge",
+    "source_path": "spec/phageforge.md",
+    "spec_sha256": "de137c02a74f574fc93575856c40fe1d666431ffc05ce063653d486d5c76bc57",
+    "text": "It modifies phage genomes to improve host targeting and delivery efficiency.",
+    "review_status": "NOT_GENOME_MODIFICATION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Returns capacity/guide/design summaries and tail-fiber suggestions, not modified phage genome or modeled receptor-targeting gain."
+  },
+  {
+    "id": "phageforge:3",
+    "module": "phageforge",
+    "source_path": "spec/phageforge.md",
+    "spec_sha256": "de137c02a74f574fc93575856c40fe1d666431ffc05ce063653d486d5c76bc57",
+    "text": "PhageForge enables the design of highly specific antimicrobial therapies that selectively eliminate harmful bacteria while preserving the beneficial microbes within biological communities.",
+    "review_status": "NOT_MICROBIOME_SPARING_ASSURANCE",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Sparing score is fixed marker-essentiality expression; optional background limited to supplied sequence. No verified community specificity or therapeutic elimination; source says not clinical."
+  }
+]
