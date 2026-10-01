@@ -185,7 +185,7 @@
     "source_path": "spec/dark_genome.md",
     "spec_sha256": "8e9d519957f47f9fa2a044d85e111e3bb8a56041c039766b06fa30107c69c748",
     "text": "It can propose perturbations (CRISPRi/a, base edits, epigenetic rewiring), simulate their multi-scale effects, and iteratively update its models using experimental feedback such as Perturb-seq or CRISPR screens.",
-    "review_status": "PARTIAL_LOCAL_PLANNING_ONLY",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
     "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
     "evidence_and_limit": "Base-edit proxy ranking and Gaussian conjugate feedback; no Perturb-seq/CRISPR screen ingestion or hardware edits."
   },
