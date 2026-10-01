@@ -1,0 +1,54 @@
+{
+  "runs": [
+    {
+      "embedding_AA_one_hot": true,
+      "contact_symmetric": true,
+      "contact_diag_one": true,
+      "benzene_nodes_edges": [
+        6,
+        6
+      ],
+      "benzene_reference_matches": true,
+      "methyl_benzoate_mass": 136.2,
+      "independent_mass": 136.15,
+      "mass_matches": true,
+      "pareto_reference_matches": true,
+      "gaussian_posterior": {
+        "mean": 0.1470588235294118,
+        "std": 0.0700140042014005,
+        "observations": 2
+      },
+      "posterior_reference_mean": 0.14705882352941177,
+      "posterior_reference_std": 0.07001400420140048,
+      "posterior_matches": true,
+      "conformer_weights_sum": 1.0,
+      "conformer_rings_not_explicitly_constrained": "random cumulative coordinate chain energy considers adjacent coordinates, not graph closure/all bonds."
+    },
+    {
+      "embedding_AA_one_hot": true,
+      "contact_symmetric": true,
+      "contact_diag_one": true,
+      "benzene_nodes_edges": [
+        6,
+        6
+      ],
+      "benzene_reference_matches": true,
+      "methyl_benzoate_mass": 136.2,
+      "independent_mass": 136.15,
+      "mass_matches": true,
+      "pareto_reference_matches": true,
+      "gaussian_posterior": {
+        "mean": 0.1470588235294118,
+        "std": 0.0700140042014005,
+        "observations": 2
+      },
+      "posterior_reference_mean": 0.14705882352941177,
+      "posterior_reference_std": 0.07001400420140048,
+      "posterior_matches": true,
+      "conformer_weights_sum": 1.0,
+      "conformer_rings_not_explicitly_constrained": "random cumulative coordinate chain energy considers adjacent coordinates, not graph closure/all bonds."
+    }
+  ],
+  "repeat_equal": true,
+  "scope": "Sequence histogram/contact and molecular graph/arithmetic controls only, no biological genomic or chemical property/pocket binding accuracy proof."
+}

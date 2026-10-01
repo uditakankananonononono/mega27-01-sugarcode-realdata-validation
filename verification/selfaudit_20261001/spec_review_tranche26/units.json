@@ -1,0 +1,462 @@
+[
+  {
+    "id": "chemgpt_engine:1",
+    "module": "chemgpt_engine",
+    "source_path": "spec/chemgpt_engine.md",
+    "spec_sha256": "5f466ea2d1b6df7664751071fe80906d4d27c37b29f9ec1a75b4e75ead1b60a2",
+    "text": "# ChemGPT Engine\n\nChemGPT Engine: A multi-parameter molecular optimization engine that generates novel chemical compounds with optimized ADMET profiles.",
+    "review_status": "SCOPED_CURATED_DESIGN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Fragment sampler/Pareto property proxies, chemical novelty/ADMET efficacy unproven."
+  },
+  {
+    "id": "chemgpt_engine:2",
+    "module": "chemgpt_engine",
+    "source_path": "spec/chemgpt_engine.md",
+    "spec_sha256": "5f466ea2d1b6df7664751071fe80906d4d27c37b29f9ec1a75b4e75ead1b60a2",
+    "text": "It predicts critical properties like LogP and solubility while providing retrosynthetic pathways.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Fragment-additive LogP/logS and removal reaction labels, no accurate retrosynthetic validation."
+  },
+  {
+    "id": "chemgpt_engine:3",
+    "module": "chemgpt_engine",
+    "source_path": "spec/chemgpt_engine.md",
+    "spec_sha256": "5f466ea2d1b6df7664751071fe80906d4d27c37b29f9ec1a75b4e75ead1b60a2",
+    "text": "ChemGPT balances therapeutic potential with synthetic feasibility, enabling the rapid discovery of small molecules tailored to specific biological targets and safety profiles.",
+    "review_status": "NOT_THERAPEUTIC_VALIDITY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No target-specific therapeutic/safety discovery validated."
+  },
+  {
+    "id": "chemgpt_engine:4",
+    "module": "chemgpt_engine",
+    "source_path": "spec/chemgpt_engine.md",
+    "spec_sha256": "5f466ea2d1b6df7664751071fe80906d4d27c37b29f9ec1a75b4e75ead1b60a2",
+    "text": "ChemGPT Engine can be elevated into a generative\u2013predictive molecular design system that operates across the full chemical\u2013biological stack, integrating transformer-based molecular language models with physics-informed scoring and synthesis-aware constraints.",
+    "review_status": "NOT_TRAINED_TRANSFORMER",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No trained molecular language model, explicit fragment/physics ranking."
+  },
+  {
+    "id": "chemgpt_engine:5",
+    "module": "chemgpt_engine",
+    "source_path": "spec/chemgpt_engine.md",
+    "spec_sha256": "5f466ea2d1b6df7664751071fe80906d4d27c37b29f9ec1a75b4e75ead1b60a2",
+    "text": "Instead of treating molecules as static SMILES strings, the engine would learn joint representations across graph structures, 3D conformers, and quantum-derived descriptors, enabling it to reason simultaneously about topology, stereochemistry, and electronic properties.",
+    "review_status": "PARTIAL_CLASSICAL_GRAPH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Atom/bond graphs and random conformer coordinates, no learned graph/3D/quantum joint representation."
+  },
+  {
+    "id": "chemgpt_engine:6",
+    "module": "chemgpt_engine",
+    "source_path": "spec/chemgpt_engine.md",
+    "spec_sha256": "5f466ea2d1b6df7664751071fe80906d4d27c37b29f9ec1a75b4e75ead1b60a2",
+    "text": "A diffusion-based generative backbone\u2014conditioned on target binding pockets, pharmacophore constraints, and ADMET priors\u2014could iteratively sample chemically valid structures while optimizing along multiple objectives such as lipophilicity (LogP), aqueous solubility, permeability, and metabolic stability.",
+    "review_status": "NOT_DEEP_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No conditioned diffusion structure generator; random fixed fragments, posthoc pocket scoring."
+  },
+  {
+    "id": "chemgpt_engine:7",
+    "module": "chemgpt_engine",
+    "source_path": "spec/chemgpt_engine.md",
+    "spec_sha256": "5f466ea2d1b6df7664751071fe80906d4d27c37b29f9ec1a75b4e75ead1b60a2",
+    "text": "These objectives would not be heuristically balanced but embedded into a Pareto optimization framework, allowing ChemGPT to explore trade-offs between potency, toxicity, and synthesizability in a controlled, interpretable manner.",
+    "review_status": "SCOPED_BEHAVIOR_REPRODUCED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Pareto dominance removes synthetic dominated vector; objective properties remain heuristics."
+  },
+  {
+    "id": "chemgpt_engine:8",
+    "module": "chemgpt_engine",
+    "source_path": "spec/chemgpt_engine.md",
+    "spec_sha256": "5f466ea2d1b6df7664751071fe80906d4d27c37b29f9ec1a75b4e75ead1b60a2",
+    "text": "At the property prediction layer, ChemGPT would integrate hybrid models combining graph neural networks (GNNs), equivariant neural networks (for 3D spatial reasoning), and quantum-informed surrogate models to approximate DFT-level calculations in milliseconds.",
+    "review_status": "NOT_TRAINED_GNN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No GNN/equivariant/DFT surrogate model trained."
+  },
+  {
+    "id": "chemgpt_engine:9",
+    "module": "chemgpt_engine",
+    "source_path": "spec/chemgpt_engine.md",
+    "spec_sha256": "5f466ea2d1b6df7664751071fe80906d4d27c37b29f9ec1a75b4e75ead1b60a2",
+    "text": "This allows real-time estimation of binding affinity, partial charges, HOMO\u2013LUMO gaps, and reactivity indices, which are critical for both drug efficacy and stability.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "HOMO/LUMO/charge and docking energy arithmetic not measured quantum/binding accuracy."
+  },
+  {
+    "id": "chemgpt_engine:10",
+    "module": "chemgpt_engine",
+    "source_path": "spec/chemgpt_engine.md",
+    "spec_sha256": "5f466ea2d1b6df7664751071fe80906d4d27c37b29f9ec1a75b4e75ead1b60a2",
+    "text": "ADMET prediction would be enhanced through multi-task learning on curated pharmacokinetic datasets, incorporating transporter interactions (e.g., P-gp), CYP450 metabolism predictions, and toxicity endpoints such as hERG inhibition or hepatotoxicity.",
+    "review_status": "NOT_DEEP_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Linear fragment CYP/hERG/PGP/hepatotoxicity proxies, no multitask trained pharmacokinetic model."
+  },
+  {
+    "id": "chemgpt_engine:11",
+    "module": "chemgpt_engine",
+    "source_path": "spec/chemgpt_engine.md",
+    "spec_sha256": "5f466ea2d1b6df7664751071fe80906d4d27c37b29f9ec1a75b4e75ead1b60a2",
+    "text": "Crucially, uncertainty quantification (via Bayesian neural networks or ensemble methods) would be built into every prediction, enabling researchers to distinguish between high-confidence candidates and speculative designs.",
+    "review_status": "PARTIAL_UNCERTAINTY_NOT_CALIBRATION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Applicability-derived std and Gaussian draws, not Bayesian/model-ensemble calibrated confidence."
+  },
+  {
+    "id": "chemgpt_engine:12",
+    "module": "chemgpt_engine",
+    "source_path": "spec/chemgpt_engine.md",
+    "spec_sha256": "5f466ea2d1b6df7664751071fe80906d4d27c37b29f9ec1a75b4e75ead1b60a2",
+    "text": "A key differentiator would be ChemGPT\u2019s tight coupling with structural biology and docking pipelines.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Pocket descriptor dictionary score, no integrated structural docking pipeline."
+  },
+  {
+    "id": "chemgpt_engine:13",
+    "module": "chemgpt_engine",
+    "source_path": "spec/chemgpt_engine.md",
+    "spec_sha256": "5f466ea2d1b6df7664751071fe80906d4d27c37b29f9ec1a75b4e75ead1b60a2",
+    "text": "Generated molecules would be automatically conformer-optimized and docked into target protein structures (experimentally resolved or predicted via systems like AlphaFold), using differentiable docking or learned scoring functions to refine binding poses.",
+    "review_status": "NOT_STRUCTURAL_DOCKING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Random cumulative-chain conformers omit graph ring closure constraints; no protein poses/AlphaFold docking or learned scoring."
+  },
+  {
+    "id": "chemgpt_engine:14",
+    "module": "chemgpt_engine",
+    "source_path": "spec/chemgpt_engine.md",
+    "spec_sha256": "5f466ea2d1b6df7664751071fe80906d4d27c37b29f9ec1a75b4e75ead1b60a2",
+    "text": "Feedback from docking\u2014binding energy landscapes, interaction fingerprints, hydrogen bonding networks\u2014would be looped back into the generative model as reinforcement signals, creating a closed optimization cycle.",
+    "review_status": "NOT_CONTINUOUS_TRAINING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "reinforcement_score ranks sampled compounds but no generative model update/closed RL loop."
+  },
+  {
+    "id": "chemgpt_engine:15",
+    "module": "chemgpt_engine",
+    "source_path": "spec/chemgpt_engine.md",
+    "spec_sha256": "5f466ea2d1b6df7664751071fe80906d4d27c37b29f9ec1a75b4e75ead1b60a2",
+    "text": "Beyond static docking, the engine could interface with accelerated molecular dynamics simulations to assess binding stability over time, capturing entropic effects and induced fit phenomena that are often missed in traditional pipelines.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "md_binding_stability explicitly not MD, no solvent/entropy/induced-fit trajectory."
+  },
+  {
+    "id": "chemgpt_engine:16",
+    "module": "chemgpt_engine",
+    "source_path": "spec/chemgpt_engine.md",
+    "spec_sha256": "5f466ea2d1b6df7664751071fe80906d4d27c37b29f9ec1a75b4e75ead1b60a2",
+    "text": "On the synthesis side, ChemGPT would move beyond simple retrosynthetic suggestions to full synthesis planning under real-world constraints.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Fragment-disconnection recipe classes with fixed yield/cost priors, no reaction-faithful synthesis plan."
+  },
+  {
+    "id": "chemgpt_engine:17",
+    "module": "chemgpt_engine",
+    "source_path": "spec/chemgpt_engine.md",
+    "spec_sha256": "5f466ea2d1b6df7664751071fe80906d4d27c37b29f9ec1a75b4e75ead1b60a2",
+    "text": "Leveraging transformer-based retrosynthesis models trained on reaction datasets (e.g., USPTO), the system could generate multi-step synthetic routes optimized for yield, cost, and reagent availability.",
+    "review_status": "NOT_TRAINED_TRANSFORMER",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No USPTO-trained retrosynthesis model or real multistep yield/cost route optimization."
+  },
+  {
+    "id": "chemgpt_engine:18",
+    "module": "chemgpt_engine",
+    "source_path": "spec/chemgpt_engine.md",
+    "spec_sha256": "5f466ea2d1b6df7664751071fe80906d4d27c37b29f9ec1a75b4e75ead1b60a2",
+    "text": "It would incorporate reaction condition prediction (solvents, catalysts, temperature) and evaluate route feasibility using cheminformatics rules and learned reaction success probabilities.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Broad class conditions/fixed yield probabilities, no learned reaction success or experimental feasibility."
+  },
+  {
+    "id": "chemgpt_engine:19",
+    "module": "chemgpt_engine",
+    "source_path": "spec/chemgpt_engine.md",
+    "spec_sha256": "5f466ea2d1b6df7664751071fe80906d4d27c37b29f9ec1a75b4e75ead1b60a2",
+    "text": "Integration with automated lab platforms or electronic lab notebooks would allow ChemGPT to output executable protocols, bridging the gap between in silico design and wet-lab realization.",
+    "review_status": "NONPROCEDURAL_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Planning-level route explicitly not executable protocol, no lab/ELN integration."
+  },
+  {
+    "id": "chemgpt_engine:20",
+    "module": "chemgpt_engine",
+    "source_path": "spec/chemgpt_engine.md",
+    "spec_sha256": "5f466ea2d1b6df7664751071fe80906d4d27c37b29f9ec1a75b4e75ead1b60a2",
+    "text": "Ultimately, ChemGPT Engine could evolve into a self-improving chemical discovery system by incorporating active learning loops from experimental feedback.",
+    "review_status": "PARTIAL_CLASSICAL_STATISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Gaussian conjugate feedback update, no active learned chemical discovery model."
+  },
+  {
+    "id": "chemgpt_engine:21",
+    "module": "chemgpt_engine",
+    "source_path": "spec/chemgpt_engine.md",
+    "spec_sha256": "5f466ea2d1b6df7664751071fe80906d4d27c37b29f9ec1a75b4e75ead1b60a2",
+    "text": "Data from high-throughput screening, failed syntheses, or unexpected toxicity results would be reintegrated into the training pipeline, refining both generative and predictive components.",
+    "review_status": "NOT_CONTINUOUS_TRAINING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No HTS/failure/toxicity training pipeline or weights update."
+  },
+  {
+    "id": "chemgpt_engine:22",
+    "module": "chemgpt_engine",
+    "source_path": "spec/chemgpt_engine.md",
+    "spec_sha256": "5f466ea2d1b6df7664751071fe80906d4d27c37b29f9ec1a75b4e75ead1b60a2",
+    "text": "Over time, this creates a system that not only designs molecules but learns the underlying principles of medicinal chemistry in a dynamic, data-driven way\u2014adapting to new targets, chemical spaces, and therapeutic challenges while continuously improving its ability to generate viable, synthesizable, and clinically relevant compounds.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No learned medicinal-chemistry/clinical compound discovery assurance."
+  },
+  {
+    "id": "genomegpt:1",
+    "module": "genomegpt",
+    "source_path": "spec/genomegpt.md",
+    "spec_sha256": "1866aed49fe436922a34aaa2106e0f0ca9cc0cbae8d17647518f4a5a607fb4f5",
+    "text": "# GenomeGPT\n\nGenomeGPT: A specialized genomic transformer model designed to analyze raw sequence data at scale.",
+    "review_status": "NOT_TRAINED_TRANSFORMER",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "k-mer histogram/motif statistics, no specialized trained genomic transformer."
+  },
+  {
+    "id": "genomegpt:2",
+    "module": "genomegpt",
+    "source_path": "spec/genomegpt.md",
+    "spec_sha256": "1866aed49fe436922a34aaa2106e0f0ca9cc0cbae8d17647518f4a5a607fb4f5",
+    "text": "It identifies regulatory motifs, predicts 3D chromatin loop interactions, and provides clinical interpretations of sequence variants.",
+    "review_status": "PARTIAL_SEQUENCE_HEURISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Motif scans/convergent-CTCF loops/rule clinical labels, no measured 3D/clinical validity."
+  },
+  {
+    "id": "genomegpt:3",
+    "module": "genomegpt",
+    "source_path": "spec/genomegpt.md",
+    "spec_sha256": "1866aed49fe436922a34aaa2106e0f0ca9cc0cbae8d17647518f4a5a607fb4f5",
+    "text": "By modeling long-range dependencies in DNA, GenomeGPT offers functional insights into how non-coding regions influence gene regulation and disease phenotypes.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Motif distance/orientation rules and scalar expression, not learned long-range disease regulation."
+  },
+  {
+    "id": "genomegpt:4",
+    "module": "genomegpt",
+    "source_path": "spec/genomegpt.md",
+    "spec_sha256": "1866aed49fe436922a34aaa2106e0f0ca9cc0cbae8d17647518f4a5a607fb4f5",
+    "text": "GenomeGPT\u00a0can be pushed into a truly foundation-scale genomic reasoning system by combining ultra-long-context sequence modeling with explicit 3D genome priors and cell-state conditioning.",
+    "review_status": "NOT_DEEP_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No foundation-scale ultra-long sequence/3D model."
+  },
+  {
+    "id": "genomegpt:5",
+    "module": "genomegpt",
+    "source_path": "spec/genomegpt.md",
+    "spec_sha256": "1866aed49fe436922a34aaa2106e0f0ca9cc0cbae8d17647518f4a5a607fb4f5",
+    "text": "Architecturally, this would move beyond vanilla transformers into hybrid state-space models (e.g., S4/Mamba-like kernels) that scale to million\u2013basepair contexts while preserving long-range signal fidelity.",
+    "review_status": "NOT_DEEP_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No S4/Mamba kernels or million-base signal-fidelity benchmark."
+  },
+  {
+    "id": "genomegpt:6",
+    "module": "genomegpt",
+    "source_path": "spec/genomegpt.md",
+    "spec_sha256": "1866aed49fe436922a34aaa2106e0f0ca9cc0cbae8d17647518f4a5a607fb4f5",
+    "text": "The model would jointly encode raw DNA sequence, positional encodings tied to chromosomal coordinates, and learned embeddings from epigenomic tracks (ATAC-seq, ChIP-seq for histone marks and TF occupancy, DNA methylation), fused via cross-attention layers that align sequence features with biochemical state.",
+    "review_status": "PARTIAL_SCALAR_REGULATORY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "k-mer vector and per-bin supplied state/GC weights, no cross attention/learned epigenomic coordinate embeddings."
+  },
+  {
+    "id": "genomegpt:7",
+    "module": "genomegpt",
+    "source_path": "spec/genomegpt.md",
+    "spec_sha256": "1866aed49fe436922a34aaa2106e0f0ca9cc0cbae8d17647518f4a5a607fb4f5",
+    "text": "A parallel geometric branch would ingest Hi-C/ Micro-C contact maps and learn equivariant representations of chromatin topology, enabling the model to internalize loop extrusion dynamics, CTCF motif orientation constraints, and TAD boundary formation as differentiable priors rather than post hoc annotations.",
+    "review_status": "PARTIAL_CLASSICAL_GRAPH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Distance/convergent motif contacts and insulation heuristic, no HiC/MicroC ingestion/equivariant training."
+  },
+  {
+    "id": "genomegpt:8",
+    "module": "genomegpt",
+    "source_path": "spec/genomegpt.md",
+    "spec_sha256": "1866aed49fe436922a34aaa2106e0f0ca9cc0cbae8d17647518f4a5a607fb4f5",
+    "text": "Training would be multi-objective and self-supervised at scale, combining masked sequence modeling with contrastive alignment across modalities (e.g., predicting ATAC-seq peaks from sequence, reconstructing Hi-C maps from latent embeddings, or inferring cell-type-specific expression profiles from regulatory context).",
+    "review_status": "NOT_CONTINUOUS_TRAINING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Masked-base composition loss/alignment statistics are utilities, no multi-objective model training."
+  },
+  {
+    "id": "genomegpt:9",
+    "module": "genomegpt",
+    "source_path": "spec/genomegpt.md",
+    "spec_sha256": "1866aed49fe436922a34aaa2106e0f0ca9cc0cbae8d17647518f4a5a607fb4f5",
+    "text": "Critically, GenomeGPT would implement conditional generation: given a target cell type or epigenetic state vector, it can predict how the same genomic locus behaves across contexts.",
+    "review_status": "SCOPED_CONTEXT_PROXY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Fixed cell-type baseline profiles change scalar expression, not trained conditional generation."
+  },
+  {
+    "id": "genomegpt:10",
+    "module": "genomegpt",
+    "source_path": "spec/genomegpt.md",
+    "spec_sha256": "1866aed49fe436922a34aaa2106e0f0ca9cc0cbae8d17647518f4a5a607fb4f5",
+    "text": "This allows it to learn regulatory grammars that are not static but dynamically modulated by cellular environment.",
+    "review_status": "NOT_DEEP_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No learned cellular regulatory grammar."
+  },
+  {
+    "id": "genomegpt:11",
+    "module": "genomegpt",
+    "source_path": "spec/genomegpt.md",
+    "spec_sha256": "1866aed49fe436922a34aaa2106e0f0ca9cc0cbae8d17647518f4a5a607fb4f5",
+    "text": "Incorporating perturbational datasets (CRISPRi/a screens, MPRA assays) into training enables the model to anchor its predictions in causal signals rather than purely correlative patterns.",
+    "review_status": "PARTIAL_CLASSICAL_STATISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Prediction/observation RMSE/slope utility, no perturbational dataset causal model training."
+  },
+  {
+    "id": "genomegpt:12",
+    "module": "genomegpt",
+    "source_path": "spec/genomegpt.md",
+    "spec_sha256": "1866aed49fe436922a34aaa2106e0f0ca9cc0cbae8d17647518f4a5a607fb4f5",
+    "text": "A central capability is variant-to-function propagation.",
+    "review_status": "PARTIAL_SEQUENCE_HEURISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Local one-base motif/nucleosome/expression proxy deltas."
+  },
+  {
+    "id": "genomegpt:13",
+    "module": "genomegpt",
+    "source_path": "spec/genomegpt.md",
+    "spec_sha256": "1866aed49fe436922a34aaa2106e0f0ca9cc0cbae8d17647518f4a5a607fb4f5",
+    "text": "For any SNV/indel/structural variant, the model computes \u0394-embeddings that quantify changes in transcription factor binding affinity (via learned motif energy landscapes), nucleosome occupancy, and local chromatin accessibility.",
+    "review_status": "PARTIAL_SEQUENCE_HEURISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "One-base mutation kmer difference, not all structural variant/indel learned energy embedding."
+  },
+  {
+    "id": "genomegpt:14",
+    "module": "genomegpt",
+    "source_path": "spec/genomegpt.md",
+    "spec_sha256": "1866aed49fe436922a34aaa2106e0f0ca9cc0cbae8d17647518f4a5a607fb4f5",
+    "text": "These local changes are then propagated through the learned 3D genome representation to predict alterations in enhancer\u2013promoter contact probabilities and, ultimately, gene expression shifts.",
+    "review_status": "PARTIAL_CLASSICAL_GRAPH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "CTCF best-match contact delta, no learned graph-propagated enhancer-promoter regulation."
+  },
+  {
+    "id": "genomegpt:15",
+    "module": "genomegpt",
+    "source_path": "spec/genomegpt.md",
+    "spec_sha256": "1866aed49fe436922a34aaa2106e0f0ca9cc0cbae8d17647518f4a5a607fb4f5",
+    "text": "The output is not a single pathogenicity score but a vector of mechanistic deltas: \u0394TF binding, \u0394ATAC signal, \u0394Hi-C contact frequency, and \u0394RNA expression, each with uncertainty estimates derived from ensemble or Bayesian layers.",
+    "review_status": "PARTIAL_UNCERTAINTY_NOT_CALIBRATION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Named delta vector with fixed length-dependent uncertainty, not ensemble/Bayesian calibration."
+  },
+  {
+    "id": "genomegpt:16",
+    "module": "genomegpt",
+    "source_path": "spec/genomegpt.md",
+    "spec_sha256": "1866aed49fe436922a34aaa2106e0f0ca9cc0cbae8d17647518f4a5a607fb4f5",
+    "text": "This effectively operationalizes the sequence \u2192 structure \u2192 regulation \u2192 phenotype cascade in a single forward pass.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No validated unified cascade phenotype forward pass."
+  },
+  {
+    "id": "genomegpt:17",
+    "module": "genomegpt",
+    "source_path": "spec/genomegpt.md",
+    "spec_sha256": "1866aed49fe436922a34aaa2106e0f0ca9cc0cbae8d17647518f4a5a607fb4f5",
+    "text": "GenomeGPT would also support in silico genome editing simulation\u00a0with edit-aware attention masking.",
+    "review_status": "NOT_DEEP_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "String edit and rescoring, no edit-aware attention masking."
+  },
+  {
+    "id": "genomegpt:18",
+    "module": "genomegpt",
+    "source_path": "spec/genomegpt.md",
+    "spec_sha256": "1866aed49fe436922a34aaa2106e0f0ca9cc0cbae8d17647518f4a5a607fb4f5",
+    "text": "Given a proposed CRISPR edit (base edit, prime edit, or indel), the model re-embeds the modified sequence and recomputes downstream regulatory effects, including potential creation/destruction of motifs, shifts in CTCF boundary strength, and reorganization of local chromatin loops.",
+    "review_status": "SCOPED_SEQUENCE_ANALYTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Substitution/insertion/deletion strings rescore motifs/CTCF proxies, not actual loop rearrangement dynamics."
+  },
+  {
+    "id": "genomegpt:19",
+    "module": "genomegpt",
+    "source_path": "spec/genomegpt.md",
+    "spec_sha256": "1866aed49fe436922a34aaa2106e0f0ca9cc0cbae8d17647518f4a5a607fb4f5",
+    "text": "By integrating a differentiable proxy for loop extrusion (parameterized by cohesin residence time and CTCF orientation), it can predict whether an edit will induce ectopic enhancer hijacking or insulation loss\u2014key drivers of disease in non-coding regions.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Scalar contact extrusion/CTCF rule and expression-based hijack risk, no differentiable disease prediction validated."
+  },
+  {
+    "id": "genomegpt:20",
+    "module": "genomegpt",
+    "source_path": "spec/genomegpt.md",
+    "spec_sha256": "1866aed49fe436922a34aaa2106e0f0ca9cc0cbae8d17647518f4a5a607fb4f5",
+    "text": "This enables pre-lab screening of edits for both efficacy and unintended regulatory consequences.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No efficacy/unintended consequence safe screening assurance."
+  },
+  {
+    "id": "genomegpt:21",
+    "module": "genomegpt",
+    "source_path": "spec/genomegpt.md",
+    "spec_sha256": "1866aed49fe436922a34aaa2106e0f0ca9cc0cbae8d17647518f4a5a607fb4f5",
+    "text": "Finally, GenomeGPT becomes a design engine through reinforcement learning over regulatory objectives.",
+    "review_status": "NOT_CONTINUOUS_TRAINING",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Exhaustive single-base search, no reinforcement learning policy."
+  },
+  {
+    "id": "genomegpt:22",
+    "module": "genomegpt",
+    "source_path": "spec/genomegpt.md",
+    "spec_sha256": "1866aed49fe436922a34aaa2106e0f0ca9cc0cbae8d17647518f4a5a607fb4f5",
+    "text": "Users can specify target expression profiles (e.g., \u201cincrease gene X expression in hepatocytes without affecting neurons\u201d), and the model proposes minimal sequence edits or synthetic regulatory elements that achieve the objective while respecting constraints on off-target regulatory perturbation.",
+    "review_status": "PARTIAL_INPUT_DEPENDENT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "One target delta/cell-type search, no cross-cell constraints or verified synthetic element engineering."
+  },
+  {
+    "id": "genomegpt:23",
+    "module": "genomegpt",
+    "source_path": "spec/genomegpt.md",
+    "spec_sha256": "1866aed49fe436922a34aaa2106e0f0ca9cc0cbae8d17647518f4a5a607fb4f5",
+    "text": "Reward signals are derived from predicted expression changes, chromatin stability, and safety metrics (e.g., avoiding creation of cryptic splice sites or oncogenic enhancer activation).",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Expression error and cryptic splice PWM score reward, no actual oncogenic enhancer/safety stability metrics."
+  },
+  {
+    "id": "genomegpt:24",
+    "module": "genomegpt",
+    "source_path": "spec/genomegpt.md",
+    "spec_sha256": "1866aed49fe436922a34aaa2106e0f0ca9cc0cbae8d17647518f4a5a607fb4f5",
+    "text": "With continual learning from new functional genomics datasets, GenomeGPT converges toward a high-fidelity \u201cgenome simulator\u201d that unifies sequence, epigenetics, and 3D architecture into a single, actionable intelligence layer.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No continually trained high-fidelity genome simulator."
+  }
+]
