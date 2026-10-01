@@ -1,0 +1,422 @@
+[
+  {
+    "id": "crispr_opt:1",
+    "module": "crispr_opt",
+    "source_path": "spec/crispr_opt.md",
+    "spec_sha256": "fbb800524b68cf1c2a228f9689eedb57e32c3d9f675e55f154df05f13ef9071c",
+    "text": "# CRISPR Opt\n\nCRISPR Opt: A deep-learning-based design tool for CRISPR guide RNAs, optimizing sequences for high on-target efficiency and minimal off-target risks. it includes a simulated genome browser that visualizes PAM sites and regulatory tracks.",
+    "review_status": "PARTIAL_SEQUENCE_HEURISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "RS1/CFD published weights plus optional actual trained RS2 boosted trees; not deep-learning design. Browser track arrays, pixels unverified."
+  },
+  {
+    "id": "crispr_opt:2",
+    "module": "crispr_opt",
+    "source_path": "spec/crispr_opt.md",
+    "spec_sha256": "fbb800524b68cf1c2a228f9689eedb57e32c3d9f675e55f154df05f13ef9071c",
+    "text": "CRISPR Opt ensures that genomic editing experiments are precisely designed, helping researchers select the most effective sequences.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No most-effective/precision experimental selection assurance."
+  },
+  {
+    "id": "crispr_opt:3",
+    "module": "crispr_opt",
+    "source_path": "spec/crispr_opt.md",
+    "spec_sha256": "fbb800524b68cf1c2a228f9689eedb57e32c3d9f675e55f154df05f13ef9071c",
+    "text": "CRISPR Opt\u00a0evolves from a simple guide RNA design tool into a fully integrated, deep-learning-driven genome editing intelligence system that operates across sequence, chromatin, and cellular-context layers.",
+    "review_status": "NOT_DEEP_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No trained transformer/context deep integration, although separate actual trained RS2 model exists."
+  },
+  {
+    "id": "crispr_opt:4",
+    "module": "crispr_opt",
+    "source_path": "spec/crispr_opt.md",
+    "spec_sha256": "fbb800524b68cf1c2a228f9689eedb57e32c3d9f675e55f154df05f13ef9071c",
+    "text": "At its core, the platform leverages transformer-based architectures trained on large-scale CRISPR screening datasets (e.g., GUIDE-seq, CIRCLE-seq, CHANGE-seq) to model sequence-dependent cleavage efficiency and mismatch tolerance at single-nucleotide resolution.",
+    "review_status": "NOT_TRAINED_TRANSFORMER",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No GUIDE/CIRCLE/CHANGE-seq transformer training or model bundled."
+  },
+  {
+    "id": "crispr_opt:5",
+    "module": "crispr_opt",
+    "source_path": "spec/crispr_opt.md",
+    "spec_sha256": "fbb800524b68cf1c2a228f9689eedb57e32c3d9f675e55f154df05f13ef9071c",
+    "text": "Rather than relying on static scoring heuristics, CRISPR Opt encodes spacer\u2013target interactions using attention mechanisms that capture position-specific penalties, bulge formation, and PAM-proximal sensitivity gradients, enabling highly accurate prediction of on-target activity across diverse genomic contexts and nuclease variants (SpCas9, SaCas9, Cas12a, engineered PAM-flexible variants).",
+    "review_status": "PARTIAL_SEQUENCE_HEURISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Position mismatch weights, simple end-shift bulge score, no attention or nuclease-general accurate predictor. Main extraction assumes20nt3prime PAM."
+  },
+  {
+    "id": "crispr_opt:6",
+    "module": "crispr_opt",
+    "source_path": "spec/crispr_opt.md",
+    "spec_sha256": "fbb800524b68cf1c2a228f9689eedb57e32c3d9f675e55f154df05f13ef9071c",
+    "text": "Beyond primary sequence optimization, CRISPR Opt integrates epigenomic and chromatin accessibility layers to model editing efficiency in vivo.",
+    "review_status": "PARTIAL_INPUT_DEPENDENT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "User chromatin scalars change report efficiency, no validated in vivo editing model."
+  },
+  {
+    "id": "crispr_opt:7",
+    "module": "crispr_opt",
+    "source_path": "spec/crispr_opt.md",
+    "spec_sha256": "fbb800524b68cf1c2a228f9689eedb57e32c3d9f675e55f154df05f13ef9071c",
+    "text": "By incorporating datasets such as ATAC-seq, DNase-seq, histone modification tracks (H3K27ac, H3K4me3), and DNA methylation profiles, the system dynamically adjusts guide selection based on local chromatin state, nucleosome occupancy, and transcriptional activity.",
+    "review_status": "PARTIAL_DATA_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "User-supplied tracks/values, not ATAC/DNase/histone/methylation ingestion."
+  },
+  {
+    "id": "crispr_opt:8",
+    "module": "crispr_opt",
+    "source_path": "spec/crispr_opt.md",
+    "spec_sha256": "fbb800524b68cf1c2a228f9689eedb57e32c3d9f675e55f154df05f13ef9071c",
+    "text": "This allows it to predict not just theoretical cleavage efficiency, but context-aware editing probability within specific cell types or tissues.",
+    "review_status": "SCOPED_CONTEXT_PROXY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Weighted accessibility score, not calibrated cell/tissue editing probability."
+  },
+  {
+    "id": "crispr_opt:9",
+    "module": "crispr_opt",
+    "source_path": "spec/crispr_opt.md",
+    "spec_sha256": "fbb800524b68cf1c2a228f9689eedb57e32c3d9f675e55f154df05f13ef9071c",
+    "text": "A simulated genome browser overlays candidate gRNAs onto regulatory annotations, splice junctions, enhancer regions, and 3D chromatin interaction maps (Hi-C), enabling researchers to avoid functionally sensitive loci and minimize unintended regulatory perturbations.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Generic annotation tracks, no identified splice/enhancer/Hi-C avoidance logic or verified browser pixels."
+  },
+  {
+    "id": "crispr_opt:10",
+    "module": "crispr_opt",
+    "source_path": "spec/crispr_opt.md",
+    "spec_sha256": "fbb800524b68cf1c2a228f9689eedb57e32c3d9f675e55f154df05f13ef9071c",
+    "text": "The off-target prediction engine extends beyond simple mismatch counting by implementing deep metric learning over genome-wide sequence embeddings.",
+    "review_status": "NOT_DEEP_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "CFD linear scan/scores, not deep metric genome embeddings."
+  },
+  {
+    "id": "crispr_opt:11",
+    "module": "crispr_opt",
+    "source_path": "spec/crispr_opt.md",
+    "spec_sha256": "fbb800524b68cf1c2a228f9689eedb57e32c3d9f675e55f154df05f13ef9071c",
+    "text": "CRISPR Opt constructs a high-dimensional similarity landscape of potential off-target sites, incorporating mismatch position weighting, PAM compatibility, DNA shape features, and thermodynamic stability of RNA-DNA hybrids.",
+    "review_status": "PARTIAL_SEQUENCE_HEURISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "CFD mismatches/NGG PAM and simple hybrid energy; no high-dimensional DNA-shape similarity landscape."
+  },
+  {
+    "id": "crispr_opt:12",
+    "module": "crispr_opt",
+    "source_path": "spec/crispr_opt.md",
+    "spec_sha256": "fbb800524b68cf1c2a228f9689eedb57e32c3d9f675e55f154df05f13ef9071c",
+    "text": "It further simulates Cas9 binding kinetics and cleavage probability using biophysical models trained on empirical cleavage datasets, producing probabilistic off-target maps ranked by functional risk (coding vs non-coding, enhancer overlap, essential gene proximity).",
+    "review_status": "PARTIAL_EXPLICIT_PHYSICS_NOT_LEARNED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Explicit rate/energy proxy and optional annotation weighting, no empirical-trained kinetic model."
+  },
+  {
+    "id": "crispr_opt:13",
+    "module": "crispr_opt",
+    "source_path": "spec/crispr_opt.md",
+    "spec_sha256": "fbb800524b68cf1c2a228f9689eedb57e32c3d9f675e55f154df05f13ef9071c",
+    "text": "This enables prioritization not just of \u201cfewest off-targets,\u201d but of lowest biological consequence, which is a much more meaningful optimization objective in therapeutic settings.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Annotation coding/enhancer/essential weights exist separately, not therapeutic biological-consequence optimization assurance."
+  },
+  {
+    "id": "crispr_opt:14",
+    "module": "crispr_opt",
+    "source_path": "spec/crispr_opt.md",
+    "spec_sha256": "fbb800524b68cf1c2a228f9689eedb57e32c3d9f675e55f154df05f13ef9071c",
+    "text": "To support advanced editing modalities, CRISPR Opt includes specialized design pipelines for base editing and prime editing systems.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Base-window and supplied prime architecture utilities, not fully integrated specialized design search."
+  },
+  {
+    "id": "crispr_opt:15",
+    "module": "crispr_opt",
+    "source_path": "spec/crispr_opt.md",
+    "spec_sha256": "fbb800524b68cf1c2a228f9689eedb57e32c3d9f675e55f154df05f13ef9071c",
+    "text": "For base editors, it models editing windows, deaminase activity profiles, and bystander mutation risks, selecting guides that maximize target nucleotide conversion while minimizing collateral edits.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Window-target counts/default Gaussian profile and bystander count, no validated deaminase activity optimization."
+  },
+  {
+    "id": "crispr_opt:16",
+    "module": "crispr_opt",
+    "source_path": "spec/crispr_opt.md",
+    "spec_sha256": "fbb800524b68cf1c2a228f9689eedb57e32c3d9f675e55f154df05f13ef9071c",
+    "text": "For prime editing, it performs joint optimization of pegRNA spacer, primer binding site (PBS), and reverse transcriptase (RT) template using sequence stability models, secondary structure prediction, and repair pathway bias simulations.",
+    "review_status": "PARTIAL_EXPLICIT_PHYSICS_NOT_LEARNED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Supplied spacer/PBS/RTT score, no joint search in this module; Prime Design separate grid."
+  },
+  {
+    "id": "crispr_opt:17",
+    "module": "crispr_opt",
+    "source_path": "spec/crispr_opt.md",
+    "spec_sha256": "fbb800524b68cf1c2a228f9689eedb57e32c3d9f675e55f154df05f13ef9071c",
+    "text": "It evaluates flap equilibration dynamics and mismatch repair probabilities to predict editing efficiency, effectively turning pegRNA design into a constrained optimization problem rather than a heuristic process.",
+    "review_status": "PARTIAL_INPUT_EFFECT_GAP",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "mmr_activity changes retention output but not efficiency in prime_editor_architecture; surrogate flap/processivity only."
+  },
+  {
+    "id": "crispr_opt:18",
+    "module": "crispr_opt",
+    "source_path": "spec/crispr_opt.md",
+    "spec_sha256": "fbb800524b68cf1c2a228f9689eedb57e32c3d9f675e55f154df05f13ef9071c",
+    "text": "At the systems level, CRISPR Opt integrates simulation outputs into reproducible experimental design pipelines.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Reproducible dictionary/JSON/BED reports, no executed experiment pipeline."
+  },
+  {
+    "id": "crispr_opt:19",
+    "module": "crispr_opt",
+    "source_path": "spec/crispr_opt.md",
+    "spec_sha256": "fbb800524b68cf1c2a228f9689eedb57e32c3d9f675e55f154df05f13ef9071c",
+    "text": "It can generate fully annotated design reports including gRNA sequences, predicted efficiencies, off-target landscapes, and recommended validation assays.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Sequences/efficiency/off-target hits and assay labels, no experimentally measured accuracy."
+  },
+  {
+    "id": "crispr_opt:20",
+    "module": "crispr_opt",
+    "source_path": "spec/crispr_opt.md",
+    "spec_sha256": "fbb800524b68cf1c2a228f9689eedb57e32c3d9f675e55f154df05f13ef9071c",
+    "text": "These outputs are exportable as structured files (e.g., JSON, GenBank, BED tracks) and can be directly fed into downstream automation systems or synthesis platforms.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "JSON/BED text exists; no GenBank or checked automation/synthesis adapter."
+  },
+  {
+    "id": "crispr_opt:21",
+    "module": "crispr_opt",
+    "source_path": "spec/crispr_opt.md",
+    "spec_sha256": "fbb800524b68cf1c2a228f9689eedb57e32c3d9f675e55f154df05f13ef9071c",
+    "text": "By coupling deep learning, biophysical modeling, and multi-omic integration, CRISPR Opt functions not just as a design tool, but as a predictive decision engine for genome editing, enabling researchers to move from raw genomic targets to experimentally validated editing strategies with significantly reduced uncertainty.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No multi-omic/deep pipeline or experimentally validated editing-strategy assurance."
+  },
+  {
+    "id": "prime_design:1",
+    "module": "prime_design",
+    "source_path": "spec/prime_design.md",
+    "spec_sha256": "0e700e0b47c2d5147fdd1dc7bffe91a66411bc321a46d70e1441042acbb3fd65",
+    "text": "# Prime Design\n\nPrime Design: A specialized tool for designing pegRNAs used in Prime Editing, enabling precise insertions, deletions, and point mutations.",
+    "review_status": "SCOPED_SEQUENCE_ANALYTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "pegRNA construction and edit-region substitution/insertion/deletion planning, not actual precise editing."
+  },
+  {
+    "id": "prime_design:2",
+    "module": "prime_design",
+    "source_path": "spec/prime_design.md",
+    "spec_sha256": "0e700e0b47c2d5147fdd1dc7bffe91a66411bc321a46d70e1441042acbb3fd65",
+    "text": "It identifies optimal reverse transcriptase templates and nicking sites to maximize efficiency.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "PBS/RTT range search and nicking distance/orientation scores, maximum efficiency unvalidated."
+  },
+  {
+    "id": "prime_design:3",
+    "module": "prime_design",
+    "source_path": "spec/prime_design.md",
+    "spec_sha256": "0e700e0b47c2d5147fdd1dc7bffe91a66411bc321a46d70e1441042acbb3fd65",
+    "text": "Prime Design performs off-target scans and stability analysis, ensuring that complex genomic changes are achieved with high fidelity.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Background scans/stability proxies, no achieved high-fidelity genomic changes."
+  },
+  {
+    "id": "prime_design:4",
+    "module": "prime_design",
+    "source_path": "spec/prime_design.md",
+    "spec_sha256": "0e700e0b47c2d5147fdd1dc7bffe91a66411bc321a46d70e1441042acbb3fd65",
+    "text": "Prime Design\u00a0evolves into a highly specialized, sequence-aware optimization engine for prime editing that treats pegRNA construction as a constrained, multi-parameter design problem grounded in DNA repair physics and reverse transcription dynamics.",
+    "review_status": "PARTIAL_EXPLICIT_PHYSICS_NOT_LEARNED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Constrained explicit length/thermodynamic/repair score grid, not validated repair physics."
+  },
+  {
+    "id": "prime_design:5",
+    "module": "prime_design",
+    "source_path": "spec/prime_design.md",
+    "spec_sha256": "0e700e0b47c2d5147fdd1dc7bffe91a66411bc321a46d70e1441042acbb3fd65",
+    "text": "At its core, the system integrates transformer-based sequence models with mechanistic simulations of the prime editing process, including Cas9 nickase binding, reverse transcriptase extension, and 3\u2032 flap resolution.",
+    "review_status": "NOT_TRAINED_TRANSFORMER",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No transformer sequence model, separate processivity/flap/repair formulas."
+  },
+  {
+    "id": "prime_design:6",
+    "module": "prime_design",
+    "source_path": "spec/prime_design.md",
+    "spec_sha256": "0e700e0b47c2d5147fdd1dc7bffe91a66411bc321a46d70e1441042acbb3fd65",
+    "text": "Rather than selecting pegRNAs based on simple proximity to the edit site, Prime Design evaluates spacer positioning, nicking orientation, and edit placement within the reverse transcription window to ensure that the desired nucleotide change falls within an optimal editing zone while minimizing undesired byproducts such as indels or partial edits.",
+    "review_status": "PARTIAL_SEQUENCE_HEURISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "PAM proximity/templates encoding edit and edit_window_score utility; no byproduct minimization validated."
+  },
+  {
+    "id": "prime_design:7",
+    "module": "prime_design",
+    "source_path": "spec/prime_design.md",
+    "spec_sha256": "0e700e0b47c2d5147fdd1dc7bffe91a66411bc321a46d70e1441042acbb3fd65",
+    "text": "A central component of the platform is its joint optimization of the pegRNA architecture, specifically the spacer, primer binding site (PBS), and reverse transcriptase (RT) template.",
+    "review_status": "SCOPED_FINITE_HEURISTIC_OPTIMUM",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "PBS/RTT grid for supplied spacer/edit_seq, not joint spacer optimization."
+  },
+  {
+    "id": "prime_design:8",
+    "module": "prime_design",
+    "source_path": "spec/prime_design.md",
+    "spec_sha256": "0e700e0b47c2d5147fdd1dc7bffe91a66411bc321a46d70e1441042acbb3fd65",
+    "text": "Prime Design models PBS annealing efficiency using thermodynamic parameters such as melting temperature, GC content, and local secondary structure of the target DNA strand.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Wallace Tm plus simple salt correction/GC/stem proxy, not full annealing thermodynamic state."
+  },
+  {
+    "id": "prime_design:9",
+    "module": "prime_design",
+    "source_path": "spec/prime_design.md",
+    "spec_sha256": "0e700e0b47c2d5147fdd1dc7bffe91a66411bc321a46d70e1441042acbb3fd65",
+    "text": "Simultaneously, it evaluates RT template length and sequence composition to balance extension efficiency with fidelity, accounting for factors like mismatch tolerance, sequence context\u2013dependent polymerase pausing, and the stability of the resulting 3\u2032 flap intermediate.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Length/GC/homopolymer processivity and stem-based flap score, no measured polymerase/3prime flap kinetics."
+  },
+  {
+    "id": "prime_design:10",
+    "module": "prime_design",
+    "source_path": "spec/prime_design.md",
+    "spec_sha256": "0e700e0b47c2d5147fdd1dc7bffe91a66411bc321a46d70e1441042acbb3fd65",
+    "text": "This allows the system to predict not just whether an edit can occur, but the distribution of editing outcomes across alleles.",
+    "review_status": "PARTIAL_UNCERTAINTY_NOT_CALIBRATION",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Normalized outcome heuristic fractions, no allele distribution calibration."
+  },
+  {
+    "id": "prime_design:11",
+    "module": "prime_design",
+    "source_path": "spec/prime_design.md",
+    "spec_sha256": "0e700e0b47c2d5147fdd1dc7bffe91a66411bc321a46d70e1441042acbb3fd65",
+    "text": "The platform also incorporates detailed modeling of DNA repair pathway biases that influence prime editing efficiency.",
+    "review_status": "SCOPED_MECHANISTIC_MODEL",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Supplied MMR/BER/FEN1/nick-bias surrogate weights, not identified repair pathway biology."
+  },
+  {
+    "id": "prime_design:12",
+    "module": "prime_design",
+    "source_path": "spec/prime_design.md",
+    "spec_sha256": "0e700e0b47c2d5147fdd1dc7bffe91a66411bc321a46d70e1441042acbb3fd65",
+    "text": "It simulates the competition between flap endonuclease processing, mismatch repair (MMR), and base excision pathways to estimate the probability that the edited strand is retained versus reverted.",
+    "review_status": "PARTIAL_EXPLICIT_PHYSICS_NOT_LEARNED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Weighted repair-normalization model, no dynamical competition validated."
+  },
+  {
+    "id": "prime_design:13",
+    "module": "prime_design",
+    "source_path": "spec/prime_design.md",
+    "spec_sha256": "0e700e0b47c2d5147fdd1dc7bffe91a66411bc321a46d70e1441042acbb3fd65",
+    "text": "For PE3 and PE3b strategies, Prime Design optimizes the placement of the secondary nicking sgRNA to bias strand replacement in favor of the edited sequence, while minimizing the risk of double-strand break\u2013like outcomes.",
+    "review_status": "PARTIAL_CONCEPT_OUTPUT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Opposite strand/distance and requires_edit_match label, no PE3b edited-sequence matching demonstrated."
+  },
+  {
+    "id": "prime_design:14",
+    "module": "prime_design",
+    "source_path": "spec/prime_design.md",
+    "spec_sha256": "0e700e0b47c2d5147fdd1dc7bffe91a66411bc321a46d70e1441042acbb3fd65",
+    "text": "It evaluates nick distance, strand orientation, and timing effects, effectively turning nicking strategy into a tunable parameter within the editing design space.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Distance/orientation/timing-score proxies, not actual timing process."
+  },
+  {
+    "id": "prime_design:15",
+    "module": "prime_design",
+    "source_path": "spec/prime_design.md",
+    "spec_sha256": "0e700e0b47c2d5147fdd1dc7bffe91a66411bc321a46d70e1441042acbb3fd65",
+    "text": "To ensure specificity, Prime Design includes a genome-wide off-target analysis pipeline that accounts for both spacer-dependent binding and pegRNA-specific risks such as unintended reverse transcription at partially homologous loci.",
+    "review_status": "PARTIAL_INPUT_DEPENDENT",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Provided background linear scans and RT homology, not guaranteed whole-genome specificity."
+  },
+  {
+    "id": "prime_design:16",
+    "module": "prime_design",
+    "source_path": "spec/prime_design.md",
+    "spec_sha256": "0e700e0b47c2d5147fdd1dc7bffe91a66411bc321a46d70e1441042acbb3fd65",
+    "text": "It uses sequence alignment combined with learned mismatch penalty models to identify potential off-target binding sites, and then simulates whether the RT template could feasibly anneal and introduce edits at those sites.",
+    "review_status": "PARTIAL_SEQUENCE_HEURISTICS",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Fixed mismatch penalties/sequence identity and PBS heuristic, not learned rewrite feasibility."
+  },
+  {
+    "id": "prime_design:17",
+    "module": "prime_design",
+    "source_path": "spec/prime_design.md",
+    "spec_sha256": "0e700e0b47c2d5147fdd1dc7bffe91a66411bc321a46d70e1441042acbb3fd65",
+    "text": "This dual-layer filtering is particularly important for prime editing, where off-target edits are less about cleavage and more about unintended sequence rewriting, a fundamentally different risk profile compared to standard CRISPR-Cas9 systems.",
+    "review_status": "NOT_ESTABLISHED_AT_SPEC_STRENGTH",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Dual proxies not unintended-rewriting risk validity."
+  },
+  {
+    "id": "prime_design:18",
+    "module": "prime_design",
+    "source_path": "spec/prime_design.md",
+    "spec_sha256": "0e700e0b47c2d5147fdd1dc7bffe91a66411bc321a46d70e1441042acbb3fd65",
+    "text": "At the systems level, Prime Design outputs fully parameterized editing constructs ready for experimental deployment, including pegRNA sequences, nicking sgRNAs, predicted editing efficiencies, and outcome distributions.",
+    "review_status": "PARTIAL_CONCEPTS_NO_SEQUENCE_DESIGN",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "pegRNA sequences produced, nicking candidates positions/labels not full constructs validated for deployment."
+  },
+  {
+    "id": "prime_design:19",
+    "module": "prime_design",
+    "source_path": "spec/prime_design.md",
+    "spec_sha256": "0e700e0b47c2d5147fdd1dc7bffe91a66411bc321a46d70e1441042acbb3fd65",
+    "text": "It can generate design variants ranked by trade-offs between efficiency and precision, and export these as structured files compatible with cloning workflows or automated synthesis platforms.",
+    "review_status": "PARTIAL_OUTPUT_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Ranked grid and deterministic JSON, no checked cloning/automated synthesis compatibility."
+  },
+  {
+    "id": "prime_design:20",
+    "module": "prime_design",
+    "source_path": "spec/prime_design.md",
+    "spec_sha256": "0e700e0b47c2d5147fdd1dc7bffe91a66411bc321a46d70e1441042acbb3fd65",
+    "text": "Additionally, it recommends validation strategies such as amplicon sequencing configurations tailored to detect low-frequency edits and byproducts.",
+    "review_status": "SCOPED_HEURISTIC_ONLY",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "Read-depth reciprocal intended-fraction and amplicon span checklist, no assay sensitivity calibration."
+  },
+  {
+    "id": "prime_design:21",
+    "module": "prime_design",
+    "source_path": "spec/prime_design.md",
+    "spec_sha256": "0e700e0b47c2d5147fdd1dc7bffe91a66411bc321a46d70e1441042acbb3fd65",
+    "text": "By integrating sequence modeling, repair pathway simulation, and thermodynamic optimization, Prime Design functions as a high-fidelity compiler for precise genome rewriting, enabling complex edits to be engineered with a level of predictability that approaches rational design rather than empirical trial-and-error.",
+    "review_status": "ASPIRATIONAL_BENEFIT_UNVERIFIED",
+    "split_caveat": "Automatic punctuation-based unit; abbreviations, formulas and compound sentences may require manual split/merge. No semantic pass implied.",
+    "evidence_and_limit": "No high-fidelity rational genome rewriting achieved/validated."
+  }
+]
