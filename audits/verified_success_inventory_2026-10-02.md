@@ -18,7 +18,7 @@ Coverage: 56 repos. Deep file-level: 01 (README only, private), 02, 03, 04, 05, 
 ## PROVISIONAL (finding leg only or internal baseline)
 - 04 keystone: sulfate-reducer enrichment q=0.019, GTDB replicate q=0.020, rests on 3 genera; anaerobe share rho 0.30 q=2.8e-5, perm p=2e-4. results/finding_keystone.md. No named baseline. Exploratory.
 - 03 organoid: size-dependent attenuation replicates within cohort, later portion 12/12 donors positive, median 0.199, sign p=2.4e-4 (earliest 6/8, p=0.14); H1 PASS. results/withincohort_replication.json. README: stricter donor x plate x dose test FAILED (p=0.073) and specificity check failed. Exploratory assay analysis, no baseline.
-- 18 miRNA: DuplexCNN held-out-gene Pearson 0.814 vs internal ridge+context 0.779. results/context_pp_benchmark.json. miRDB beats it on miRTarBase per README. LOEUF finding file not located.
+- 18 miRNA: DuplexCNN held-out-gene Pearson 0.814 vs internal ridge+context 0.779. results/context_pp_benchmark.json. miRDB beats it on miRTarBase per README. LOEUF finding file not located.; random-weight falsifier 2026-10-02: untrained CNN reproduces ~80% of the trained LOEUF effect in 1 of 5 seeds, nothing in 2, opposite significant sign in 1; direction seed-dependent; trained weights not in repo - stays post-hoc exploratory, not counted
 
 ## NOT COUNTED (verdict - gap)
 - 12 GNN rescoring LOO AUROC 0.833 vs Vina 0.534 - n=59 in-house set, no published comparator.
