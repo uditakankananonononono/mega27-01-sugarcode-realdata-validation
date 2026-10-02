@@ -12,7 +12,7 @@ Coverage: 56 repos. Deep file-level: 01 (README only, private), 02, 03, 04, 05, 
 5. 09c - 32/32 designed peptides novel (blastp nr + mmseqs2). results/c6_blast_novelty.json @ffbf74e. Novelty leg, no baseline leg.
 6. 14 embryo - CNN CF decoder RMSE 2.38% EL (R2 0.854) vs Liu 4.94% (R2 0.374), disjoint-line 5-fold CV. results/cf_decoder.json
 7. 07 pancreatic - TP53 external CPTAC-PDAC n=140 AUC 0.741, AP 0.896 vs prevalence 0.75. results/cptac_external_validation.json. TP53 only; KRAS 0.384, CDKN2A 0.497, SMAD4 0.347 do not count.
-8. 09a AMP [FLAG: marginal] - beats published Feb2020 CV on 4/5 metrics: AUC 0.9636 vs 0.962, MCC 0.8076 vs 0.799, acc 0.903 vs 0.899, spec 0.907 vs 0.891; sens 0.899 vs 0.906 (below). Within 1 SD. results/study14_feb2020_full.json. Cluster-held-out MCC 0.816 (study23).
+8. 09a AMP [FLAG: marginal] - beats published Feb2020 CV on 4/5 metrics: AUC 0.9636 vs 0.962, MCC 0.8076 vs 0.799, acc 0.903 vs 0.899, spec 0.907 vs 0.891; sens 0.899 vs 0.906 (below). Within 1 SD. results/study14_feb2020_full.json. Cluster-held-out MCC 0.816 (study23).; replicated 2026-10-02 on a second fold seed (fold 101, CNN seeds 101/102), margins within 1 SD of published (mega27-09a results/study14_repeat_foldseed101.json, commit ec1b2c2c)
 9. 11b protein [FLAG: baseline-only] - Ssym inverse r 0.592 [0.508,0.674] vs PoPMuSiCsym 0.48; sigma 1.43 vs 1.62. results/ssym_benchmark_v2_e300.json. One seed; does not generalize to SOD1.
 
 ## PROVISIONAL (finding leg only or internal baseline)
